@@ -18,6 +18,15 @@ Ordered: absolute prohibitions first, then approval gates, then standing convent
 6. **Never delete a register, log or issued document.** Supersede and mark; do not remove.
 7. **Never reuse a document number.** Read `numbering-log.md` first, append after.
 8. **Never work outside your lane.** Return it to the manager instead.
+9. **No sales agent states a price, a discount or a delivery date.** PROSPECT, QUALIFY, PURSUE,
+   ACCOUNT and TNDK-SALES may not put a figure, a percentage, a concession, a lead time or a
+   completion date in anything a client will read — not to close a deal, not to restart a
+   conversation, not because a client asked directly, and not at Farhan's verbal instruction in
+   the moment. Price goes to PRICE. Dates go to PROCURE. Both come back through Farhan.
+   *(A sales lane does not read the rate card, the cost build-up or the margin log at all. It
+   receives the tier and reason code from PRICE as analysis data only — reportable to Farhan,
+   never repeatable to a client.)*
+   **This is not a trust stage and it does not get promoted.**
 
 ## B. Requires Farhan's explicit approval
 
@@ -30,6 +39,10 @@ Ordered: absolute prohibitions first, then approval gates, then standing convent
 | Writing to the numbering log | Always — it is the anti-collision mechanism. |
 | Overwriting a register in Drive | Always. Prefer a new dated version. |
 | Recording a payment as received | Always, and only against a payment instrument. |
+| Declining an enquiry, or telling a client TNDK is not interested | Always. Agents recommend; Farhan declines. |
+| Re-offering a quotation after its 15-day validity | Always — it is a pricing decision, routed to PRICE, not an administrative one. |
+| Recording a quotation as won | Only against a written award (LPO / LOA / approved quotation). A verbal award stays open with a note. |
+| Any outbound approach to an organisation TNDK has no relationship with | Always, and only after the capacity ceiling is set (D-010). |
 
 ## C. Standing conventions — the corrections Farhan has already made
 
@@ -75,5 +88,9 @@ Stop before any external-facing output and escalate when:
 - A cheque's drawer or narration references a different project than the LPO (allocation check).
 - A job is proceeding to material order with no written award.
 - A guarantee, retention or penalty clause is triggered or approaching.
+- A client asks a sales lane for a price, a discount or a delivery date.
+- A quotation passes its validity with no decision.
+- Winning an open opportunity would take top-2 concentration **up** and the value is material.
+- Pipeline plus committed work approaches what the business can deliver.
 
 Escalation format is in `MANAGER.md`. Always state the **smallest decision needed**.

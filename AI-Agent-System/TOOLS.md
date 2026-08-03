@@ -22,7 +22,7 @@ Current authorised toolset, as decided by Farhan on **3 August 2026**:
 | WhatsApp | **Not connected** | Enquiries arrive by paste-in only. |
 | Bank / accounting system | **Not connected** | Payments are recorded only from what Farhan reports or a slip he provides. |
 | Calendar | **Not connected** | Milestone dates tracked in the register, not a calendar. |
-| CRM | **Not connected** | The registers *are* the CRM. |
+| CRM | **Not connected** | The registers *are* the CRM — `pipeline_register.xlsx` is the whole of it. PROSPECT produces a list and a draft; Farhan makes every approach personally. |
 
 > An agent that needs a capability it does not have must **say so and stop**, not approximate it.
 > "I have drafted the follow-up for you to send" is correct.
@@ -37,7 +37,8 @@ TNDK Documents/                          [1LE14moXA1X6paSMc5dLrOCFz2tlBbLkZ]
 ├── 02 - Registers/                      [1vJaTmO-LjkwDlmGz09kO96tzQc1H6TVu]
 │   ├── approved_register.xlsx           every award to date
 │   ├── amounts_to_receive.xlsx          outstanding, split maintenance / project
-│   └── margin_log.xlsx                  NEW — quoted vs cost vs realised margin
+│   ├── margin_log.xlsx                  NEW — quoted vs cost vs realised margin
+│   └── pipeline_register.xlsx           NEW — every quotation, issue → decision, with reason
 └── 03 - Under process/                  [1wKVUqP5iZdUCsBKR-HdLkRTiAC-K-8Xj]
     └── live jobs not yet awarded
 ```
@@ -57,6 +58,29 @@ it will drift, which is the exact failure this system exists to fix.
 | LEDGER | ✅ | ✅ | ✅ | **approval** | ❌ |
 | COLLECT | ✅ | ✅ | ✅ | ❌ | ❌ |
 | ANNUITY | ✅ | ✅ | ✅ | ❌ | ❌ |
+| TNDK-SALES (manager) | ✅ | ✅ | ❌ | ❌ | ❌ |
+| PROSPECT | ✅ | ✅ | ✅ | ❌ | ❌ |
+| QUALIFY | ✅ | ✅ | ✅ | ❌ | ❌ |
+| **PURSUE** | ✅ | ✅ | ✅ | ❌ | ❌ |
+| ACCOUNT | ✅ | ✅ | ✅ | ❌ | ❌ |
 
 **No agent has external action at any trust stage.** That column stays ❌ until Farhan
 separately decides to connect a sending capability — a decision, not a drift.
+
+## Pricing data — read access by lane
+
+A permission the table above cannot express, and the one that matters most for the sales lanes.
+
+| File | May be read by | Never read by |
+|---|---|---|
+| Pricing guide / rate card | PRICE, PROCURE | **Every sales lane** |
+| Cost build-ups, `margin.py` output | PRICE | **Every sales lane** |
+| `margin_log.xlsx` | PRICE, TNDK-OPS | **Every sales lane** |
+| `pipeline_register.xlsx` | PURSUE, TNDK-SALES, PRICE *(for win/loss by tier)* | — |
+
+PRICE passes the **tier and reason code** to PURSUE for win/loss analysis. That is the only
+pricing data that crosses into the sales division, it arrives as analysis data, and it may be
+reported to Farhan but never repeated to a client. `RULES.md` A9.
+
+The restriction is deliberate rather than bureaucratic: a lane that cannot see a cost cannot
+be argued into quoting one.

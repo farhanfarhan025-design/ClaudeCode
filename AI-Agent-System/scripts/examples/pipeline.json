@@ -1,0 +1,79 @@
+{
+  "as_of": "2026-08-03",
+
+  "_note": "MIXED SOURCING — read before quoting any figure from this file. WON rows use real clients and real contract values from approved_register.xlsx (Drive, modified 31 July 2026); their quotation references are recorded as UNRECORDED-NN because the register does not link an award back to the quotation that produced it — establishing those links is PURSUE's week-1 task. Rows marked ILLUSTRATIVE in the project field are NOT real enquiries and NOT real losses: they exist to exercise the calculator's flags, tiers and concentration check. No number from an ILLUSTRATIVE row may enter a report, a register or a conversation with Farhan.",
+
+  "quotes": [
+    { "ref": "UNRECORDED-01", "client": "Lean N Fit",
+      "project": "Freezer unit replacement", "value": 17000,
+      "date_sent": "2026-06-10", "status": "won", "decided_date": "2026-06-23",
+      "tier": "unrecorded", "source": "inbound" },
+
+    { "ref": "UNRECORDED-02", "client": "Sunrise Trading & Food Stuff Co.",
+      "project": "Jollibee Rasaboud cold room", "value": 46000,
+      "date_sent": "2026-06-18", "status": "won", "decided_date": "2026-07-06",
+      "tier": "unrecorded", "source": "unrecorded" },
+
+    { "ref": "UNRECORDED-03", "client": "Consolidated Contractors (CCC)",
+      "project": "HIA Airport cold rooms (5)", "value": 253500,
+      "date_sent": "2026-05-28", "status": "won", "decided_date": "2026-06-18",
+      "tier": "unrecorded", "source": "tender" },
+
+    { "ref": "UNRECORDED-04", "client": "HBK-BWTC-BEIL JV",
+      "project": "Mesaieed animal waste cold room", "value": 400000,
+      "date_sent": "2026-04-30", "status": "won", "decided_date": "2026-05-21",
+      "tier": "unrecorded", "source": "tender" },
+
+    { "ref": "QUT/DCTS/066/2026", "client": "Samoosa Shop",
+      "project": "Samoosa cold room (freezer)", "value": 38500,
+      "date_sent": "2026-07-01", "status": "won", "decided_date": "2026-07-13",
+      "tier": "unrecorded", "source": "inbound",
+      "_flag": "contract value unresolved — DECISIONS.md D-006" },
+
+    { "ref": "ILLUSTRATIVE-L1", "client": "Doha Central Bakery",
+      "project": "ILLUSTRATIVE — not a real enquiry", "value": 62000,
+      "date_sent": "2026-05-05", "status": "lost", "decided_date": "2026-05-26",
+      "tier": "30%", "loss_reason": "Price — competitor lower", "source": "inbound" },
+
+    { "ref": "ILLUSTRATIVE-L2", "client": "Al Wakra Seafood Co.",
+      "project": "ILLUSTRATIVE — not a real enquiry", "value": 28500,
+      "date_sent": "2026-05-18", "status": "lost", "decided_date": "2026-06-30",
+      "tier": "25%", "loss_reason": "No decision — project shelved", "source": "referral" },
+
+    { "ref": "ILLUSTRATIVE-L3", "client": "Gulf Catering Services",
+      "project": "ILLUSTRATIVE — not a real enquiry", "value": 91000,
+      "date_sent": "2026-04-12", "status": "lost", "decided_date": "2026-05-20",
+      "tier": "20%", "loss_reason": "Price — competitor lower", "source": "tender" },
+
+    { "ref": "ILLUSTRATIVE-O1", "client": "Consolidated Contractors (CCC)",
+      "project": "ILLUSTRATIVE — not a real enquiry", "value": 120000,
+      "date_sent": "2026-07-28", "status": "open", "last_contact": "2026-07-30",
+      "tier": "25%", "source": "repeat",
+      "next_action": "Confirm consultant approval received",
+      "next_action_date": "2026-08-06" },
+
+    { "ref": "ILLUSTRATIVE-O2", "client": "Msheireb Hospitality",
+      "project": "ILLUSTRATIVE — not a real enquiry", "value": 34000,
+      "date_sent": "2026-07-20", "status": "open", "last_contact": "2026-07-30",
+      "tier": "30%", "source": "referral",
+      "next_action": "Client confirming room location",
+      "next_action_date": "2026-08-05" },
+
+    { "ref": "ILLUSTRATIVE-O3", "client": "Umm Salal Farms",
+      "project": "ILLUSTRATIVE — not a real enquiry", "value": 47500,
+      "date_sent": "2026-07-10", "status": "open", "last_contact": "2026-07-12",
+      "tier": "30%", "source": "inbound",
+      "next_action": null, "next_action_date": null },
+
+    { "ref": "ILLUSTRATIVE-O4", "client": "Barwa Food Services",
+      "project": "ILLUSTRATIVE — not a real enquiry", "value": 18200,
+      "date_sent": "2026-05-20", "status": "open", "last_contact": "2026-05-24",
+      "tier": "30%", "source": "inbound",
+      "next_action": null, "next_action_date": null },
+
+    { "ref": "ILLUSTRATIVE-X1", "client": "Ras Laffan Camp Services",
+      "project": "ILLUSTRATIVE — not a real enquiry", "value": 55000,
+      "date_sent": "2026-03-02", "status": "expired",
+      "tier": "30%", "source": "inbound" }
+  ]
+}

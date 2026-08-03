@@ -91,6 +91,51 @@ No completed project has a warranty start or end date. Blocks the entire AMC pip
 The book shows revenue and cash but never profit. Realised margin per project is unknown.
 
 ### OL-012 — No quote-to-award conversion data
-**Owner:** PRICE
+**Owner:** ~~PRICE~~ → **PURSUE** *(reassigned 2026-08-03)*
 Quotations issued up to QUT/DCTS/066/2026, but only won jobs are recorded. Win rate unknown,
 so the effect of low pricing on win rate cannot be assessed.
+
+Moved out of PRICE because PRICE sees a quotation once, at the moment it is priced, and never
+learns what happened to it. PURSUE now owns the pipeline register and the win/loss record; PRICE
+consumes the resulting win-rate-by-tier table. See `GOALS.md` G7.
+
+---
+
+## 🟢 Sales — opened 2026-08-03
+
+### OL-013 — No pipeline register exists
+**Owner:** PURSUE · **Blocks:** G7, and any conversion figure
+
+Nothing records a quotation that did not become an award. Week-1 task is reconstruction from
+`01 - Projects/` and `03 - Under process/`, flagged `reconstructed` and excluded from every rate —
+the source recorded only wins.
+
+**Needed:** the register built, then every new quotation entered on the day it is sent.
+
+### OL-014 — Quotation denominator unverified
+**Owner:** Farhan · **Blocks:** publishing any conversion percentage
+
+Does `QUT/DCTS/066/2026` count quotations, revisions, or both? Over what period? Shared with
+DCTS-branded documents? See `DECISIONS.md` D-011. One line settles it.
+
+### OL-015 — Delivery capacity ceiling undefined
+**Owner:** Farhan · **Blocks:** PROSPECT leaving Stage 1
+
+No ops staff, one person on the critical path. Generating demand into that produces delay
+penalties, not growth. See `DECISIONS.md` D-010. A rough number is enough.
+
+### OL-016 — Client acquisition source unrecorded, on all 8 awards
+**Owner:** ACCOUNT
+
+Referral, tender, consultant specification, prior relationship or inbound — unknown for every
+client in the book. The cheapest channel TNDK has cannot be worked because it cannot be seen.
+No client has a named contact recorded either.
+
+**Needed:** one conversation with Farhan covering all eight, then recorded permanently.
+
+### OL-017 — Prequalification status unknown
+**Owner:** PROSPECT
+
+No record of where TNDK stands with main contractors and MEP consultants — who has it on a bid
+list and who does not. Being on the list is upstream of every tender enquiry, and the lead time
+to get on one is long.

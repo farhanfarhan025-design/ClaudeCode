@@ -17,7 +17,9 @@ Inputs:               [figures, files, sources]
 Allowed tools:        [from TOOLS.md — Drive read/create only unless stated]
 Permissions:          [read / draft / create]
 Forbidden actions:    [explicit boundaries — always includes: no sending, no
-                       register overwrite, no numbering-log write]
+                       register overwrite, no numbering-log write, and — for
+                       anything client-facing — no price, discount or delivery
+                       date (RULES.md A9)]
 Definition of Done:   [measurable finish]
 Output format:        [structure]
 Deadline or trigger:  [timing]

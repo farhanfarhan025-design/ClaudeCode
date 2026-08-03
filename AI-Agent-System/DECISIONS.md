@@ -73,3 +73,82 @@ These contradict each other and a client can see both. Options:
 The 875 difference is the chequered-sheet variation; the 11,500 difference in receipts has
 no receipt number behind it. **LEDGER must not issue a Samoosa document until Farhan confirms
 which is correct.**
+
+---
+
+### D-007 — A sales division is added, as a peer of TNDK-OPS
+**Date:** 2026-08-03 · **By:** proposed by system · **Status:** current
+
+The original six lanes start at an enquiry and stop at collected cash. Nothing owned the part
+before the enquiry or the part after a quotation was sent. TNDK-SALES is added as a **peer**
+manager, not a subordinate one, with four lanes: PROSPECT, QUALIFY, PURSUE, ACCOUNT.
+
+Two managers rather than ten lanes under one, because the cadences differ (a pipeline moves
+weekly on client decisions; delivery moves on milestones) and because the review gates differ —
+every sales output needs an A9 sweep that no delivery output needs.
+
+Evidence: `analysis/SALES_FINDINGS.md`. Structure: `agents/sales/README.md`.
+
+---
+
+### D-008 — No sales agent states a price, a discount or a delivery date
+**Date:** 2026-08-03 · **By:** proposed by system · **Status:** current · **Structural**
+
+Written as `RULES.md` A9. Sales lanes do not read the rate card, cost build-ups or the margin
+log at all. They receive tier and reason code from PRICE as analysis data, reportable to Farhan
+and never repeatable to a client.
+
+This is the SCOPE/PRICE separation applied to the lane with the strongest incentive to break it.
+`README.md` states the principle: the person who wants the job does not set the number alone. A
+sales function is by definition the part of the business that wants the job.
+
+**It is not a trust stage and it does not get promoted.** Farhan may of course give any discount
+he likes — the rule is that the concession is priced by PRICE and approved by him, not typed into
+a follow-up by the agent trying to move the deal.
+
+---
+
+### D-009 — PURSUE is the first sales agent built to completion
+**Date:** 2026-08-03 · **By:** proposed by system · **Status:** current
+
+Chosen over QUALIFY, ACCOUNT and PROSPECT for three reasons:
+
+1. It produces a number the business does not have — win rate, decision time, and win rate **by
+   margin tier**.
+2. That last figure is what makes G1 testable. PRICE is currently holding a floor with no
+   evidence about what the floor costs, and the defence of a low price ("we needed it to win")
+   cannot be checked.
+3. It generates no new demand and needs no capacity ruling — it works quotations already issued.
+
+---
+
+### D-010 — Delivery capacity ceiling
+**Date:** 2026-08-03 · **Status:** ⚠️ AWAITING FARHAN — blocking PROSPECT
+
+**How many concurrent cold-room projects, and roughly what value per month, can TNDK deliver
+without slipping a programme?**
+
+`USER.md` records no ops staff, no one to delegate to, and Farhan on the critical path for
+everything. A demand-generation agent can produce more work than the business can deliver, and
+the downside is not a missed opportunity — it is a delay penalty (Mesaieed's LOA carries them),
+a damaged main-contractor relationship, and a reputation in a small market.
+
+**Until this is answered, PROSPECT stays at Stage 1** — market map, target list and
+prequalification status only. It contacts no one and drafts no approach.
+
+A rough number is enough. "Two mid-size rooms a month alongside the current book" is a usable
+answer; no answer is not.
+
+---
+
+### D-011 — What the quotation series counts
+**Date:** 2026-08-03 · **Status:** ⚠️ AWAITING FARHAN — blocking any conversion figure
+
+`QUT/DCTS/066/2026` is the highest quotation reference on record. It is **not** established
+whether the series counts quotations only or also revisions, whether it runs continuously or
+resets annually, or whether it is shared with DCTS-branded documents.
+
+Every conversion percentage depends on this denominator. **PURSUE publishes no win rate until it
+is settled** — a rate quoted on a wrong denominator does not get un-quoted.
+
+One line from Farhan will almost certainly resolve it.

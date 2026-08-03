@@ -2,6 +2,10 @@
 
 What this system exists to move. Every agent's Definition of Done ties back to one of these.
 
+G1–G6 were set on 3 August 2026 with the delivery system. **G7 and G8 were added the same day**
+with the sales division (`agents/sales/README.md`), and G4's ownership was corrected at the same
+time.
+
 Baseline figures are as at the **13 July 2026** register snapshot, verified against the live
 `approved_register.xlsx` in Drive on **3 August 2026**.
 
@@ -56,7 +60,7 @@ skill's own data on Samoosa.
 
 **Metric.** Reconciliation variance in QAR. **Target: 0, or explained.**
 
-## G4 — Concentration risk  *(owner: TNDK-OPS manager)*
+## G4 — Concentration risk  *(measured by: TNDK-OPS · moved by: PROSPECT, ACCOUNT)*
 
 **Problem.** Mesaieed (52.8%) + CCC/HIA (33.4%) = **86.2%** of the order book in two clients.
 One is uncollected.
@@ -64,9 +68,16 @@ One is uncollected.
 **Outcome.** The risk is visible and quantified every week rather than discovered late.
 
 **Definition of Done.** Weekly brief states top-2 concentration %, cash-at-risk, and whether
-committed vendor spend is exposed to an uncollected contract.
+committed vendor spend is exposed to an uncollected contract. Every open opportunity states what
+winning it would do to the percentage, **before** it is won.
 
 **Metric.** Top-2 concentration %. **Direction: down, via more mid-size work — not by losing the big ones.**
+
+> **Ownership correction, 3 Aug 2026.** This was the only goal owned by a manager rather than a
+> specialist, because no lane produced work. Reporting a number weekly does not move it. G8 gives
+> the fix a specialist owner; TNDK-OPS keeps the measurement. Excluding the top two contracts, six
+> awards total 104,600 — average 17,433. On the 758,100 book, +100,000 of mid-size work takes
+> concentration from 86.2% to 76.2%. See `analysis/SALES_FINDINGS.md` F-S2.
 
 ## G5 — Recurring revenue  *(owner: ANNUITY)*
 
@@ -94,3 +105,52 @@ negotiation. Document production and tracking do not need him.
 Farhan makes **decisions** (scope, price, approve-to-send) and touches **no document production**.
 
 **Metric.** Owner-touches per completed job. **Direction: down.**
+
+## G7 — Quote conversion is measurable  *(owner: PURSUE)*
+
+**Problem.** Quotation numbering has reached `QUT/DCTS/066/2026`. Eight awards are recorded.
+**Nothing records a quotation that lost** — not the client, not the value, not the reason. So the
+win rate is unknown, and the standing defence of a low price ("we needed it to win") cannot be
+tested. G1 is currently an argument, not a measurement.
+
+**Outcome.** Every quotation ends in a recorded win or a recorded loss with a reason, and the
+relationship between margin tier and win rate becomes visible.
+
+**Definition of Done.**
+- Every issued quotation is in the pipeline register on the day it is sent.
+- Zero open quotations with no next action dated within 7 days.
+- Every decided quotation has an outcome; every loss has a reason code.
+- Every quotation past its 15-day validity is flagged, and re-offers route to PRICE.
+- The quotation-series denominator is verified, not assumed.
+
+**Metric.** Win rate by count and by value, and **win rate by margin tier**.
+**Baseline: unknown — that is the finding.** No percentage is published until 20 quotations have
+been tracked from issue to decision. Reconstructed history is excluded: the old register recorded
+only wins, so any rate drawn from it reads near 100% by construction.
+
+**This is the goal that closes G1.** Twenty tracked quotations carrying both a tier and an outcome
+answer whether discounting buys work.
+
+## G8 — Demand that reduces concentration  *(owner: PROSPECT, with ACCOUNT)*
+
+**Problem.** G4 wants concentration down via more mid-size work. Nothing produces mid-size work.
+How every existing client was won is unrecorded, so the cheapest channel TNDK has — referral and
+repeat from delivered clients — is invisible and unworked. No client has a named contact recorded.
+
+**Outcome.** A standing supply of qualified mid-size opportunities, sourced first from clients
+TNDK already has, at a volume the business can actually deliver.
+
+**Definition of Done.**
+- Source and named contact recorded for all 8 existing clients.
+- Every delivered client has a live repeat opportunity or a recorded reason there is none.
+- A target list and a current prequalification status for main contractors and consultants.
+- Every opportunity states its concentration effect before it is pursued.
+
+**Metric.** Number and value of mid-size opportunities (≈15,000–60,000) in the pipeline, and the
+share of new enquiries arriving by referral or repeat.
+**Baseline: QAR 0 tracked, source unrecorded on 8 of 8 clients.**
+
+> **Gated.** PROSPECT stays at Stage 1 until Farhan states a delivery capacity ceiling
+> (`DECISIONS.md` D-010). There are no ops staff. Generating more work than TNDK can deliver
+> produces delay penalties and a damaged reputation in a small market — a worse outcome than a
+> thin pipeline. See `analysis/SALES_FINDINGS.md` F-S6.

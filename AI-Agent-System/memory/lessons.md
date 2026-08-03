@@ -76,3 +76,46 @@ job rather than time per document.
 
 **Generalisation:** before automating a task, ask whether the task or the *decision to do the
 task* is the bottleneck.
+
+---
+
+### L-005 — A register of successes cannot measure success
+**Observed:** 2026-08-03 · **Source:** the Approved Works Register, reviewed for conversion data
+
+The Approved Works Register records every award. It has never had a place to record a quotation
+that lost — not the client, not the value, not the reason. Reconstructing history from it produces
+a win rate of 100%, and every figure derived from it flatters the business by construction.
+
+**Cause:** the register was designed to answer "what work do we have?", and was then used to
+answer "how are we doing?" Those are different questions and the second one needs the failures.
+
+**Rule change:** `agents/sales/pursue/` owns a pipeline register that holds losses as first-class
+rows with reason codes. `scripts/pipeline.py` marks reconstructed rows and **excludes them from
+every rate it computes**, printing why. `GOALS.md` G7 makes the win rate a tracked metric with
+"unknown" as its honest baseline.
+
+**Generalisation:** before computing a rate from a record, ask what the record was built to
+capture. If it only ever captured one outcome, it cannot produce a rate — and the rate it appears
+to produce will be the most confident wrong number in the file. Compare L-002: a number that
+displays is not a number that is correct.
+
+---
+
+### L-006 — A goal owned by a manager is a dashboard
+**Observed:** 2026-08-03 · **Source:** `GOALS.md` G4, reviewed when the sales division was added
+
+G4 targets client concentration downward *"via more mid-size work."* Its owner was TNDK-OPS — the
+manager. Every other goal had a specialist owner. The manager reported 86.2% every Monday, which
+is the number moving nowhere, reported reliably.
+
+**Cause:** the goal was written before any lane existed whose job is to produce work, so it was
+assigned to the only agent that could at least *observe* it. Observation then looked like
+ownership.
+
+**Rule change:** G4 now separates *measured by* (TNDK-OPS) from *moved by* (PROSPECT, ACCOUNT),
+and G8 gives the fix a specialist owner with its own Definition of Done. `MANAGER.md` states the
+split explicitly.
+
+**Generalisation:** when assigning a goal, check that its owner can take an action that changes
+the metric. If the owner can only report it, the goal has no owner yet — say so rather than
+letting a reporting line stand in for one.

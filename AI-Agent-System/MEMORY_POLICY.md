@@ -42,6 +42,10 @@ A fact without a source is not a fact. Write it as an assumption or ask.
 - Speculation about a client's finances or intentions.
 - Superseded decisions without marking them superseded.
 - Anything copied "just in case" — that is how context rot starts.
+- **A reading of a client's intent recorded as a fact.** "They sounded keen" is not a pipeline
+  entry. Store the words the client used, in quotation marks, and the date they used them. This
+  binds every sales lane: a pipeline built on impressions forecasts revenue that never arrives.
+- **A loss reason nobody gave.** `UNKNOWN` is a valid entry; a plausible reconstruction is not.
 
 ## Retrieval discipline
 

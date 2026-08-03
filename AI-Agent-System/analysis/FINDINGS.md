@@ -170,6 +170,11 @@ a business line.
 **Fix:** ANNUITY owns warranty tracking and AMC conversion. PRICE begins logging outcomes so
 win rate becomes knowable.
 
+> **Superseded in part, 3 August 2026.** The upstream half of this finding was worked in detail
+> in `analysis/SALES_FINDINGS.md` and given its own division (`agents/sales/`). Outcome logging
+> moved from PRICE to **PURSUE**: PRICE sees a quotation once, at the moment it is priced, and
+> never learns what happened to it. The downstream half stays with ANNUITY as written.
+
 ---
 
 ## F-09 — Automation made the bottleneck faster, not smaller

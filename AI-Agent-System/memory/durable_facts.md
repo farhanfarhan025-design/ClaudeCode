@@ -78,6 +78,28 @@ The larger of the two has collected nothing.
 Recorded in `tndk-coldroom-quotation/references/pricing-guide.md` and mirrored in
 `scripts/margin.py`. **Last verification date unknown** — flag before pricing large contracts.
 
+## Sales position — as at 3 August 2026
+
+| Fact | Value | Source | Confidence |
+|---|---|---|---|
+| Highest quotation reference on record | QUT/DCTS/066/2026 | Samoosa quotation ref | high |
+| What that series counts | **UNKNOWN** — quotations, revisions, or both | — | — |
+| Awards recorded, all sources | 8 | approved_register.xlsx | high |
+| Quotations recorded that did **not** win | **0** | — | high — nothing records them |
+| Win rate | **UNKNOWN** | — | — |
+| Average decision time | **UNKNOWN** | — | — |
+| Acquisition source, per client | **UNRECORDED on 8 of 8** | — | — |
+| Named client contact, per client | **UNRECORDED on 8 of 8** | — | — |
+| Standard quotation validity | 15 days | preferences.md | high |
+| Book excluding top 2 clients | 104,600 across 6 awards — average **17,433** | computed from the table above | high |
+
+> "Win rate unknown" is a finding, not a gap in this file. The Approved Works Register is a
+> register of *approvals*; there has never been a place to record a loss. See
+> `analysis/SALES_FINDINGS.md` F-S1.
+
+**Concentration arithmetic** (on the 758,100 book, top-2 = 653,500 = 86.2%): adding mid-size work
+outside the top two takes it to 80.9% at +50,000, 76.2% at +100,000, 68.2% at +200,000.
+
 ## Known warranty / AMC position
 
 No warranty expiry dates recorded for any completed project. AMC contracted value: **QAR 0**.
