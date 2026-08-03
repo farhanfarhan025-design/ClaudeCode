@@ -1,0 +1,10 @@
+{
+  "job": "Vegetable chiller + freezer room",
+  "client": "Mr. Suresh",
+  "note": "The April 2026 worked example from the pricing guide. Used as the regression case for margin.py.",
+  "rooms": [
+    { "name": "Chiller", "type": "chiller", "length": 4.5, "width": 3.5, "height": 3.5, "floor": false, "doors": 1 },
+    { "name": "Freezer", "type": "freezer", "length": 2.35, "width": 2.0, "height": 2.40, "floor": true, "doors": 1 }
+  ],
+  "transport": 1500
+}

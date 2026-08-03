@@ -1,0 +1,10 @@
+# Live business data belongs in Google Drive, never in this repo.
+# Duplication is what produced three different answers for one client
+# (see AI-Agent-System/memory/lessons.md L-003).
+out/
+*.xlsx
+!AI-Agent-System/scripts/examples/*.json
+
+__pycache__/
+*.pyc
+.DS_Store
