@@ -1,0 +1,169 @@
+{
+  "_note": "Worked example — every page archetype used once. Run it to see the system, then replace the copy. The specification figures here are industry-standard placeholders; check them against the actual product before anything reaches a client.",
+
+  "title": "TNDK Cold Storage Solutions",
+  "folio": "TNDK · Cold Storage Solutions",
+
+  "brand": {
+    "ink": "#1F3864",
+    "accent": "#C9A24E",
+    "wash": "#F2F2F2",
+    "tint": "#D6E4F0"
+  },
+
+  "pages": [
+    {
+      "type": "cover",
+      "mark": "TNDK|.",
+      "image": "sample-images/coldroom.svg",
+      "title": "Cold Storage\nSolutions",
+      "subtitle": "Design, supply, installation and maintenance of cold rooms, chillers and freezers across the State of Qatar.",
+      "footer": "The New Doha Kitchen Equipment Services W.L.L. · Doha, Qatar"
+    },
+
+    {
+      "type": "contents",
+      "eyebrow": "Contents",
+      "title": "What's inside"
+    },
+
+    {
+      "type": "text",
+      "eyebrow": "About us",
+      "title": "Built for Qatar's heat",
+      "image": "sample-images/site.svg",
+      "panel": "Every room we build is sized for a 50°C ambient design condition, because a system specified for a European summer will not hold temperature in July here.",
+      "columns": 2,
+      "body": [
+        "The New Doha Kitchen Equipment Services designs, supplies, installs and maintains commercial refrigeration across Qatar — from single chiller rooms for restaurants and bakeries to multi-chamber cold storage for main contractors and industrial sites.",
+        "We work from the load upward. Room dimensions, product type, throughput and door traffic determine the heat load; the heat load determines the plant. Nothing is sized from a catalogue page alone.",
+        "Panels, doors, refrigeration equipment and controls are sourced from established manufacturers and assembled by our own installation teams. One company carries the job from drawing to commissioning, which means one number to call when something needs attention.",
+        "Every installation is handed over with a commissioning record and a warranty period, and can be carried forward into an annual maintenance contract."
+      ]
+    },
+
+    {
+      "type": "section",
+      "number": "01",
+      "title": "Cold Rooms",
+      "subtitle": "Modular panel construction, built on site, sized to the space you have.",
+      "image": "sample-images/panels.svg"
+    },
+
+    {
+      "type": "feature",
+      "toc": true,
+      "eyebrow": "Modular cold room",
+      "title": "Walk-in chiller and freezer rooms",
+      "image": "sample-images/coldroom.svg",
+      "lead": "Prefabricated PUF sandwich panels with cam-lock joints, assembled on site in any plan dimension. Chiller and freezer chambers can share a wall to save floor area and plant cost.",
+      "bullets_title": "Why this construction",
+      "bullets": [
+        "Cam-lock joints seal without on-site foaming, so a room can be dismantled and relocated",
+        "Panels arrive finished — no painting, no site fabrication, faster handover",
+        "Floor, wall and ceiling insulation matched to the design temperature",
+        "Chambers can be extended later without replacing the existing structure"
+      ],
+      "specs_title": "Specification",
+      "specs": [
+        { "label": "Panel core", "value": "PUF, 40 kg/m³ density" },
+        { "label": "Panel thickness", "value": "50 / 75 / 100 mm" },
+        { "label": "Skin", "value": "0.5 mm pre-coated steel, both faces" },
+        { "label": "Joint", "value": "Cam-lock, gasket sealed" },
+        { "label": "Chiller range", "value": "+2 °C to +8 °C" },
+        { "label": "Freezer range", "value": "−18 °C to −25 °C" },
+        { "label": "Ambient design", "value": "50 °C" }
+      ],
+      "footnote": "Panel thickness is selected from the computed heat load, not from room size alone."
+    },
+
+    {
+      "type": "grid",
+      "toc": true,
+      "eyebrow": "The range",
+      "title": "Room types",
+      "intro": "Four standard configurations. Anything outside these is built to the same construction, sized to your drawing.",
+      "columns": 2,
+      "items": [
+        {
+          "name": "Chiller room",
+          "image": "sample-images/chiller.svg",
+          "line": "Fresh produce, dairy, prepared food. Holding temperature +2 °C to +8 °C.",
+          "tags": ["+2 to +8 °C", "75 mm panel"]
+        },
+        {
+          "name": "Freezer room",
+          "image": "sample-images/freezer.svg",
+          "line": "Frozen storage with heated door frame and insulated floor build-up.",
+          "tags": ["−18 to −25 °C", "100 mm panel"]
+        },
+        {
+          "name": "Combination chamber",
+          "image": "sample-images/coldroom.svg",
+          "line": "Chiller and freezer sharing a partition wall — less floor area, one plant location.",
+          "tags": ["Dual temperature", "Shared wall"]
+        },
+        {
+          "name": "Blast freezer",
+          "image": "sample-images/door.svg",
+          "line": "Rapid pull-down for freshly cooked or freshly caught product before transfer to storage.",
+          "tags": ["Rapid pull-down", "High airflow"]
+        }
+      ]
+    },
+
+    {
+      "type": "section",
+      "number": "02",
+      "title": "Refrigeration",
+      "subtitle": "Condensing units, evaporators and controls, selected against the computed load.",
+      "image": "sample-images/chiller.svg"
+    },
+
+    {
+      "type": "spec",
+      "toc": true,
+      "eyebrow": "Selection guide",
+      "title": "Indicative capacities",
+      "intro": "A starting point for discussion only. Final selection follows a heat-load calculation using your dimensions, product, throughput and door traffic.",
+      "table": {
+        "headers": ["Room volume", "Application", "Temperature", "Panel", "Indicative capacity"],
+        "rows": [
+          ["Up to 10 m³", "Chiller", "+2 to +8 °C", "75 mm", "1.5 – 2 HP"],
+          ["10 – 25 m³", "Chiller", "+2 to +8 °C", "75 mm", "2 – 3 HP"],
+          ["25 – 50 m³", "Chiller", "+2 to +8 °C", "75 mm", "3 – 5 HP"],
+          ["Up to 10 m³", "Freezer", "−18 to −25 °C", "100 mm", "2 – 3 HP"],
+          ["10 – 25 m³", "Freezer", "−18 to −25 °C", "100 mm", "3 – 5 HP"],
+          ["25 – 50 m³", "Freezer", "−18 to −25 °C", "100 mm", "5 – 7.5 HP"]
+        ]
+      },
+      "note": "Capacities assume 50 °C ambient design and standard door traffic. Blast freezing, high throughput or heavy door usage moves these figures."
+    },
+
+    {
+      "type": "gallery",
+      "toc": true,
+      "eyebrow": "Recent work",
+      "title": "Installations",
+      "columns": 2,
+      "images": [
+        { "src": "sample-images/site.svg", "caption": "Multi-chamber cold storage — industrial site" },
+        { "src": "sample-images/panels.svg", "caption": "Panel erection in progress" },
+        { "src": "sample-images/door.svg", "caption": "Insulated hinged door with heated frame" },
+        { "src": "sample-images/freezer.svg", "caption": "Freezer chamber, commissioned and handed over" }
+      ]
+    },
+
+    {
+      "type": "back",
+      "headline": "Send us the dimensions and the product. We'll send back a sized proposal.",
+      "contact": [
+        "<strong>The New Doha Kitchen Equipment Services W.L.L.</strong>",
+        "P.O. Box 80247, Doha, State of Qatar",
+        "Tel 7706 0676",
+        "farhan@dctsqatar.com"
+      ],
+      "note": "Design · Supply · Installation · Maintenance"
+    }
+  ]
+}
