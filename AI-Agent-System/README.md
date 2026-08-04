@@ -74,6 +74,26 @@ AI-Agent-System/
 repo — that duplication is what produced three different answers for Samoosa
 (`memory/lessons.md` L-003).
 
+## George — the paperwork person
+
+`.claude/skills/george/` is the operator-facing front door to all of this. Where the agents
+above are lanes, George is a person: give him a scrap — a forwarded message, a photo of an LPO,
+"Suresh paid 20k" — and he works out which chain of documents it belongs to, produces them
+through the existing generators (`tndk-accounts`, `tndk-lpo`, `tndk-coldroom-quotation`),
+verifies them, numbers them, files them, updates the registers, and hands back a short note
+saying what still needs Farhan.
+
+He carries `RULES.md` section A as hard limits, and `scripts/check_document.py` enforces the
+ones a script can see — the tax prohibition, the payee wording, numbering, signatories.
+
+```bash
+# make him available outside this repo
+cp -r .claude/skills/george ~/.claude/skills/
+
+# verify a finished document before it goes out
+python3 .claude/skills/george/scripts/check_document.py --type invoice "Invoice INV-253-2026.pdf"
+```
+
 ## Scripts
 
 ```bash
