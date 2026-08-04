@@ -1,0 +1,60 @@
+{
+  "as_of": "3 August 2026",
+  "_note": "Figures taken from the live approved_register.xlsx in Drive (modified 31 July 2026). Samoosa uses the live register's 38,500 / 20,000 pending resolution of DECISIONS.md D-006 — the skill's sample data shows 39,375 / 31,500 and only one receipt (RCT-256, 20,000) is logged.",
+
+  "awards": [
+    { "project": "Freezer Unit Replacement", "client": "Lean N Fit",
+      "ref": "LPO 26060001", "date": "23-Jun-26", "type": "LPO",
+      "contract": 17000, "received": 17000, "status": "Completed & Paid" },
+
+    { "project": "Refrigeration Maintenance", "client": "Al Noor Bakery",
+      "ref": "Cash (verbal)", "date": "25-Jun-26", "type": "Cash",
+      "contract": 800, "received": 800, "status": "Completed & Paid" },
+
+    { "project": "Cold Room Maintenance", "client": "BSI Company (Mr. Lijo)",
+      "ref": "INV-254/2026", "date": "06-Jul-26", "type": "Cash",
+      "contract": 450, "received": 450, "status": "Completed & Paid" },
+
+    { "project": "Refrigeration Maintenance", "client": "Ruwais Farm",
+      "ref": "INV-014/2026", "date": "08-Jul-26", "type": "Invoice",
+      "contract": 1850, "received": 1850, "status": "Completed & Paid" },
+
+    { "project": "Jollibee Rasaboud Cold Room", "client": "Sunrise Trading & Food Stuff Co.",
+      "ref": "PO-2026-0000248", "date": "06-Jul-26", "type": "LPO",
+      "contract": 46000, "received": 27600, "status": "Advance received" },
+
+    { "project": "HIA Airport Cold Rooms (5)", "client": "Consolidated Contractors (CCC)",
+      "ref": "DIAR-L05531 MCR", "date": "18-Jun-26", "type": "LPO",
+      "contract": 253500, "received": 76050, "status": "Advance received" },
+
+    { "project": "Mesaieed Animal Waste Cold Room", "client": "HBK-BWTC-BEIL JV",
+      "ref": "HBB000353-0", "date": "21-May-26", "type": "LOA",
+      "contract": 400000, "received": 0, "status": "Pending bank guarantee" },
+
+    { "project": "Samoosa Cold Room (Freezer)", "client": "Samoosa Shop",
+      "ref": "QUT/DCTS/066/2026", "date": "13-Jul-26", "type": "Quote",
+      "contract": 38500, "received": 20000, "status": "Advance received" }
+  ],
+
+  "receivables": [
+    { "project": "Mesaieed Animal Waste Cold Room", "client": "HBK-BWTC-BEIL JV",
+      "ref": "HBB000353-0 (LOA)", "stage": "15% advance",
+      "next_due": 60000, "total_remaining": 400000, "blocked": true,
+      "status": "BLOCKED — advance bank guarantee + performance cheque not posted. LOA dated 21-May-26." },
+
+    { "project": "HIA Airport Cold Rooms (5)", "client": "Consolidated Contractors (CCC)",
+      "ref": "DIAR-L05531 MCR", "stage": "30% delivery",
+      "next_due": 76050, "total_remaining": 177450, "blocked": false,
+      "status": "Due on delivery milestone — confirm date" },
+
+    { "project": "Jollibee Rasaboud Cold Room", "client": "Sunrise Trading & Food Stuff Co.",
+      "ref": "PO-2026-0000248", "stage": "40% final",
+      "next_due": 18400, "total_remaining": 18400, "blocked": false,
+      "status": "Due after commissioning — confirm status" },
+
+    { "project": "Samoosa Cold Room (Freezer)", "client": "Samoosa Shop",
+      "ref": "QUT/DCTS/066/2026", "stage": "25% + 5%",
+      "next_due": 9625, "total_remaining": 18500, "blocked": false,
+      "status": "Contract value unresolved — see D-006 before invoicing" }
+  ]
+}

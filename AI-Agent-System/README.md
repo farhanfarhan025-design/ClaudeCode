@@ -96,6 +96,9 @@ AI-Agent-System/
 ├── analysis/
 │   ├── FINDINGS.md      the evidence — delivery side
 │   └── SALES_FINDINGS.md the evidence — demand side
+├── skills/
+│   └── tndk-sales-pipeline/  the sales division packaged as a Claude skill,
+│                             alongside tndk-coldroom-quotation and tndk-accounts
 └── scripts/
     ├── margin.py        cost build-up + floor check     (verified)
     ├── build_register.py corrected registers            (verified)
@@ -150,6 +153,12 @@ comes from a single documented example, not a trend.
 **Week 8+ — ANNUITY.** Warranty register first, then AMC proposals.
 
 Nothing gets promoted on a good demo. See the promotion gates in `agents/price/TESTS.md`.
+
+**The sales division also ships as a skill.** `skills/tndk-sales-pipeline/` packages the PURSUE
+workflow, the qualification and account/prospect guidance, and both scripts into a Claude skill
+that triggers on ordinary sales language — "quotation sent", "chase them", "did we win that
+one". It is the same instructions in the form Farhan already uses for quotations, LPOs and
+accounts, and it is the fastest route from this repo to something he actually runs.
 
 **In parallel, on the sales side** (`agents/sales/README.md` has the detail): PURSUE reconstructs
 the quotation history in week 1 and runs live from week 2; QUALIFY starts at week 6; ACCOUNT and
