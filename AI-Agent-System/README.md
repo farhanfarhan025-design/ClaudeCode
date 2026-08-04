@@ -39,7 +39,8 @@ FARHAN (owner — goals, risk, pricing authority, all approvals)
 
 **Accounts is a team, not four lanes.** LEDGER and COLLECT share registers, a numbering log and
 a month-end; PAYABLES and CASHBOOK close the two questions nothing owned — *what do we owe* and
-*how much have we actually got*. Charter: `teams/accounts/TEAM.md`.
+*how much have we actually got*. Charter: `teams/accounts/TEAM.md`, packaged as the
+`tndk-accounts-team` skill in `.claude/skills/` so it can be invoked, not just read.
 
 **One agent, one lane.** SCOPE defines what is built; PRICE decides what it costs. That
 separation is the structural fix for the margin problem — the person who wants the job does

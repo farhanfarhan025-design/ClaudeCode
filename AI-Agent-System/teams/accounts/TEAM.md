@@ -7,6 +7,17 @@ The finance function of TNDK, as a team rather than four unrelated lanes.
 
 ---
 
+## Running it
+
+This charter is packaged as a skill at `.claude/skills/tndk-accounts-team/`, so the team can be
+invoked directly rather than read. The skill carries the routing table, the weekly and close
+formats, the lane contracts, and `scripts/close.py` — which recomputes the register arithmetic,
+the three-way tie-out, the payables buckets, the cash split and the per-project exposure from
+source rows, and exits non-zero when anything is unknown or disagrees.
+
+`tndk-accounts` produces the documents. `tndk-accounts-team` decides whether the numbers going
+into them are trustworthy.
+
 ## Why a team and not four agents
 
 LEDGER and COLLECT already existed as separate lanes. They share the same registers, the same
