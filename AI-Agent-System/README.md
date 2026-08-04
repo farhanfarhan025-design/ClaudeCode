@@ -14,6 +14,7 @@ Built 3 August 2026 for Farhan (owner).
 | Know what was found and why it matters | `analysis/FINDINGS.md` |
 | Understand the whole design | this file |
 | Deploy the first agent | `agents/price/` + the deployment sequence below |
+| Understand the accounts function | `teams/accounts/TEAM.md` |
 | Know what's blocking | `memory/open_loops.md` |
 | Know the rules | `RULES.md` |
 
@@ -27,10 +28,18 @@ FARHAN (owner — goals, risk, pricing authority, all approvals)
     ├── SCOPE     enquiry → technical definition          Stage 2
     ├── PRICE     cost → margin → price                   Stage 2  ★ built
     ├── PROCURE   vendor → LPO → committed spend          Stage 2
-    ├── LEDGER    invoice · receipt · register integrity  Stage 3
-    ├── COLLECT   milestones · guarantees · follow-ups    Stage 2
-    └── ANNUITY   warranty → AMC → recurring revenue      Stage 1
+    ├── ANNUITY   warranty → AMC → recurring revenue      Stage 1
+    │
+    └── ACCOUNTS TEAM — led by ACCOUNTS-LEAD              Stage 2
+        ├── LEDGER    invoice · receipt · register integrity  Stage 3
+        ├── COLLECT   milestones · guarantees · follow-ups    Stage 2
+        ├── PAYABLES  vendor bills · due dates · payment runs Stage 2
+        └── CASHBOOK  cash & bank position · instruments      Stage 1
 ```
+
+**Accounts is a team, not four lanes.** LEDGER and COLLECT share registers, a numbering log and
+a month-end; PAYABLES and CASHBOOK close the two questions nothing owned — *what do we owe* and
+*how much have we actually got*. Charter: `teams/accounts/TEAM.md`.
 
 **One agent, one lane.** SCOPE defines what is built; PRICE decides what it costs. That
 separation is the structural fix for the margin problem — the person who wants the job does
@@ -56,10 +65,14 @@ AI-Agent-System/
 ├── MEMORY_POLICY.md     what may be stored, retrieved, superseded
 ├── HEARTBEAT.md         weekly / monthly cycles
 ├── DECISIONS.md         owner rulings, including 3 unresolved
+├── teams/
+│   └── accounts/TEAM.md the accounts team charter: roster · boundaries · handoffs
+│                        · weekly cycle · month-end close
 ├── agents/
 │   ├── price/           ★ full build: SOUL · IDENTITY · PLAYBOOK · EXAMPLES
 │   │                      · QA_CHECKLIST · OUTPUT_SCHEMA · SYSTEM_PROMPT · TESTS
-│   ├── scope|procure|ledger|collect|annuity/   IDENTITY (lane contracts)
+│   ├── scope|procure|annuity/                  IDENTITY (lane contracts)
+│   ├── accounts-lead|ledger|collect|payables|cashbook/   the accounts team
 │   └── TEMPORARY_SPECIALIST.md
 ├── memory/              durable_facts · preferences · open_loops · lessons
 ├── logs/                overrides · actions · failures
@@ -106,6 +119,11 @@ comes from a single documented example, not a trend.
 **Week 5 — PRICE to draft mode.** Every new quote gets a cost build-up first.
 
 **Week 6 — start COLLECT.** Weekly cycle. Mesaieed bank guarantee as a standing item.
+
+**Week 6–7 — stand up the accounts team.** COLLECT's weekly cycle is the first half of the
+accounts page; PAYABLES builds the bill register from the open LPOs, CASHBOOK builds the
+instrument register from the logged receipts. First month-end close at the end of week 8 —
+expect a PARTIAL, and treat what it cannot answer as the finding. Blocked on D-007.
 
 **Week 8+ — ANNUITY.** Warranty register first, then AMC proposals.
 

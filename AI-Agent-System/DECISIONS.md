@@ -73,3 +73,26 @@ These contradict each other and a client can see both. Options:
 The 875 difference is the chequered-sheet variation; the 11,500 difference in receipts has
 no receipt number behind it. **LEDGER must not issue a Samoosa document until Farhan confirms
 which is correct.**
+
+---
+
+### D-007 — Accounts becomes a team, with two new lanes
+**Date:** 2026-08-04 · **By:** proposed by system · **Status:** ⚠️ AWAITING FARHAN
+
+LEDGER and COLLECT are grouped under **ACCOUNTS-LEAD** as a team (`teams/accounts/TEAM.md`),
+and two lanes are added: **PAYABLES** (vendor bills, due dates, payment runs) and **CASHBOOK**
+(cash and bank position, instrument custody).
+
+**Reasoning.** Receivables are tracked to the riyal — 614,350 across eight clients. Payables are
+tracked nowhere, and nothing distinguishes cleared money from an uncleared cheque. PROCURE's own
+exposure check asks for "committed vendor spend vs collected cash" and nothing can answer the
+first half after the LPO is issued. Three questions define a finance function; TNDK could answer
+one. See `GOALS.md` G7.
+
+**What this does not change.** No new authority. No bank connection. No payment capability —
+PAYABLES proposes a run, Farhan pays. D-002 (Drive-only, agents draft and Farhan sends) stands
+unchanged, and this decision must not be read as eroding it.
+
+**Needed from Farhan:** confirm the team structure, confirm Ronaldo remains the human counterpart
+and the signatory on invoices and receipts, and confirm which of the two new registers is built
+first. Recommended: **payables**, because it is the one with money attached to being wrong.

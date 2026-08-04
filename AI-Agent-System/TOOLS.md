@@ -37,7 +37,10 @@ TNDK Documents/                          [1LE14moXA1X6paSMc5dLrOCFz2tlBbLkZ]
 ├── 02 - Registers/                      [1vJaTmO-LjkwDlmGz09kO96tzQc1H6TVu]
 │   ├── approved_register.xlsx           every award to date
 │   ├── amounts_to_receive.xlsx          outstanding, split maintenance / project
-│   └── margin_log.xlsx                  NEW — quoted vs cost vs realised margin
+│   ├── margin_log.xlsx                  NEW — quoted vs cost vs realised margin
+│   ├── payables_register.xlsx           NEW — vendor bills, due dates, LPO match (PAYABLES)
+│   ├── instrument_register.xlsx         NEW — cheques and transfers, status (CASHBOOK)
+│   └── close/YYYY-MM/                   NEW — dated month-end close packs (ACCOUNTS-LEAD)
 └── 03 - Under process/                  [1wKVUqP5iZdUCsBKR-HdLkRTiAC-K-8Xj]
     └── live jobs not yet awarded
 ```
@@ -54,9 +57,18 @@ it will drift, which is the exact failure this system exists to fix.
 | SCOPE | ✅ | ✅ | ✅ | ❌ | ❌ |
 | **PRICE** | ✅ | ✅ | ✅ | ❌ | ❌ |
 | PROCURE | ✅ | ✅ | ✅ | ❌ | ❌ |
+| ANNUITY | ✅ | ✅ | ✅ | ❌ | ❌ |
+| *Accounts team* | | | | | |
+| ACCOUNTS-LEAD | ✅ | ✅ | ✅ | ❌ | ❌ |
 | LEDGER | ✅ | ✅ | ✅ | **approval** | ❌ |
 | COLLECT | ✅ | ✅ | ✅ | ❌ | ❌ |
-| ANNUITY | ✅ | ✅ | ✅ | ❌ | ❌ |
+| PAYABLES | ✅ | ✅ | ✅ | **approval** | ❌ |
+| CASHBOOK | ✅ | ✅ | ✅ | **approval** | ❌ |
 
 **No agent has external action at any trust stage.** That column stays ❌ until Farhan
 separately decides to connect a sending capability — a decision, not a drift.
+
+**No agent may move money.** There is no bank connection (see the table above), so PAYABLES
+proposes payment runs and CASHBOOK reports positions; Farhan executes every payment himself.
+Adding a payment capability is the same kind of decision as adding a sending capability —
+separate, explicit, and Farhan's alone.

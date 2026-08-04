@@ -94,3 +94,31 @@ The book shows revenue and cash but never profit. Realised margin per project is
 **Owner:** PRICE
 Quotations issued up to QUT/DCTS/066/2026, but only won jobs are recorded. Win rate unknown,
 so the effect of low pricing on win rate cannot be assessed.
+
+### OL-013 — No payables register exists
+**Owner:** PAYABLES · **Raised:** 2026-08-04
+
+Nothing records what TNDK owes. No bill register, no due dates, no LPO-to-bill matching, no
+payment run. Committed spend is visible at the moment PROCURE issues an LPO and invisible
+thereafter — which means PROCURE's own exposure check cannot be answered after the fact.
+
+**Needed:** the open LPOs and the bills received against them. Value: unknown, and that is
+the finding. Blocks `GOALS.md` G7 and the month-end close (step 4).
+
+### OL-014 — No instrument register; cleared and uncleared money are indistinguishable
+**Owner:** CASHBOOK · **Raised:** 2026-08-04
+
+The register's "Received" column treats a cheque received last week and cash received last
+month as the same figure. Receipts capture the instrument on the document (`RULES.md` C7) but
+nothing tracks it afterwards, so no cheque has a clearance status and the cash position cannot
+be stated.
+
+**Needed:** an instrument recorded for every logged receipt, then Farhan's confirmation of the
+opening cash position — CASHBOOK cannot establish that itself and must not estimate it.
+
+### OL-015 — Accounts team structure awaiting confirmation
+**Owner:** Farhan · **Raised:** 2026-08-04 · **Blocks:** PAYABLES and CASHBOOK starting work
+
+`DECISIONS.md` D-007 proposes the team, the two new lanes and their trust stages.
+
+**Needed:** confirm the structure, and which register is built first. Recommended: payables.
