@@ -52,6 +52,9 @@ COLS = {
 
 DEFAULT_COMPANY = {
     "name": "THE NEW DOHA KITCHEN COMPANY",
+    # How the entity is named above a signature. Kept separate from the header name, which
+    # is set in capitals — "For THE NEW DOHA KITCHEN COMPANY" reads as shouting.
+    "legal": "The New Doha Kitchen Company",
     "address": "P.O. Box 80247, Doha, Qatar | info@dkeqatar.com",
     "footer": "The New Doha Kitchen Company  |  P.O. Box 80247, Doha, Qatar | info@dkeqatar.com",
 }
@@ -232,7 +235,7 @@ def build_html(doc):
         check_arithmetic(doc, lines, subtotal, discount, grand, adjustments)
 
     # ---- header, meta strip
-    labels = spec["badge"]
+    labels = doc.get("badge") or spec["badge"]
     badge = "<br/>".join(f'<span class="b{i if len(labels) > 1 else 1}">{esc(t)}</span>'
                          for i, t in enumerate(labels))
     meta_labels = doc.get("meta_labels", spec["meta"])
@@ -343,7 +346,7 @@ def build_html(doc):
     elif spec["sign"] == "accountant":
         sign = ('<div class="sigwrap"><div class="sig">'
                 '<div class="sigline"></div><div class="signame">Ronaldo / Accountant</div>'
-                '<div class="sigco">For The New Doha Kitchen Company</div></div></div>')
+                f'<div class="sigco">For {esc(company["legal"])}</div></div></div>')
     else:
         left, right = spec.get("sign_labels", ("Delivered by", "Received by"))
         sign = (f'<table class="sig2"><tr>'

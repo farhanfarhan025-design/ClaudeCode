@@ -73,7 +73,10 @@ need two physical signatures because they are the proof that goods moved.
 }
 ```
 
-Optional: `currency` (QAR default), `company` (name/address/footer), `amount_in_words`
+Optional: `badge` (override the type's badge — INV-253 went out as *ADVANCE INVOICE*, so its
+final counterpart says *FINAL INVOICE* rather than a label the client has not seen),
+`currency` (QAR default), `company` (`{name, address, footer, legal}` — `legal` is the entity
+named above a signature, kept separate because the header name is set in capitals), `amount_in_words`
 (computed if omitted), `grand_total_label`, `show_prices` (put prices on a delivery note),
 `instrument` (**required** on receipts), `meta_labels`, `counterparty_label`, `filename`,
 `extra_column` (`{label, field, width, align, position}` — `position: "end"` puts it after the
@@ -101,6 +104,12 @@ inverts the whole point of having it.
 
 ## Conventions the format carries for you
 
+- **Match the letterhead the client already holds.** TNDK trades under more than one name:
+  the Airtronics LPO says *The New Doha Kitchen Company / info@dkeqatar.com*, while Jollibee's
+  INV-253, their quotation and their cheque all say *The New Doha Kitchen Equipment Services
+  W.L.L.* Pass `company` per client rather than accepting the default, and check an earlier
+  document to that client before issuing. A second invoice under a different name invites a
+  question you do not want asked.
 - **Payee line on invoices**, exact wording: *"Cheque should be prepared under the name of:
   The New Doha Kitchen Equipment and Services"*.
 - **Negatives in parentheses**, accounting style: `(27,600.00)`.
