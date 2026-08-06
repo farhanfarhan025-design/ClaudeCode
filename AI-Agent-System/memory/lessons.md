@@ -76,3 +76,26 @@ job rather than time per document.
 
 **Generalisation:** before automating a task, ask whether the task or the *decision to do the
 task* is the bottleneck.
+
+---
+
+### L-005 — Correct lines can still add up to a wrong total
+**Observed:** 2026-08-06 · **Source:** `scripts/payroll.py`, during the HR build
+
+The first payroll run printed four correct net figures and a wrong total. Unpaid absence was
+subtracted twice — once inside gross, where it belongs, and again in the "total deductions"
+line — so the reported net was QAR 200 below the sum of the four nets sitting directly above
+it on the same page.
+
+**Cause:** the total was assembled from a different expression than the lines. Nothing was
+mistyped; the two ways of reaching the same number were never required to agree.
+
+**Rule change:** `agents/hr/payroll/QA_CHECKLIST.md` requires the register total to be
+recomputed from the lines rather than carried from the script, and one employee's net to be
+re-derived **by hand** every run. `agents/hr/payroll/TESTS.md` case 2 pins the reconciliation
+chain: earned − absence = gross, gross − deductions = net.
+
+**Generalisation:** this is L-002 again in a different file — the register that summed three
+rows out of eight was the same shape of failure. **Any total that is computed separately from
+its own lines must be checked against them.** It was caught here by adding four numbers up by
+hand, not by reading the code, which is worth remembering about how these get found.

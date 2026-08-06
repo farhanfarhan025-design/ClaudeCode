@@ -82,3 +82,23 @@ Recorded in `tndk-coldroom-quotation/references/pricing-guide.md` and mirrored i
 
 No warranty expiry dates recorded for any completed project. AMC contracted value: **QAR 0**.
 This is a gap, not a finding of fact — ANNUITY's first task is to establish it.
+
+## People — what is actually known
+
+| Fact | Value | Source | Confidence |
+|---|---|---|---|
+| Owner / employer | Farhan | `USER.md` | high |
+| Accountant | Ronaldo | conventions.md | high |
+| Everyone else | **unknown** | — | — |
+| Headcount | **unknown** | — | — |
+| Employees vs subcontractors | **unknown** — changes what is legally owed | — | — |
+| Wage bill | **unknown** | — | — |
+| Accrued end-of-service liability | **unknown** | — | — |
+
+No roster exists. Labour is inferred only from `margin.py` charging 15% of direct cost for
+labour and installation on every job, and from TNDK installing on live sites at Hamad
+International Airport and Mesaieed. **That is an inference, not a fact** — recorded here so it
+is not mistaken for one. `memory/open_loops.md` OL-013.
+
+No personal data is held in this repo and none may be added (`RULES.md` A11). When the roster
+exists it lives in Drive at `04 - HR/roster.json`.

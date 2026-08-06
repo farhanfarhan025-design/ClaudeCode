@@ -1,0 +1,34 @@
+{
+  "_note": "ILLUSTRATIVE SAMPLE. Month variables for scripts/payroll.py run. Pairs with payroll_roster.json. Everything variable about a month lives here; nothing durable does.",
+  "month": "2026-08",
+  "cut_off": "2026-08-25",
+  "entries": [
+    {
+      "id": "TNDK-001",
+      "ot_normal_hours": 12,
+      "ot_restday_hours": 8,
+      "deductions": [
+        { "item": "salary advance repayment", "amount": 500.0 }
+      ],
+      "job_hours": { "CCC-HIA": 104, "Samoosa": 16 }
+    },
+    {
+      "id": "TNDK-002",
+      "unpaid_days": 2,
+      "ot_normal_hours": 6,
+      "job_hours": { "CCC-HIA": 120, "Jollibee": 24 }
+    },
+    {
+      "id": "TNDK-003",
+      "ot_normal_hours": 4,
+      "job_hours": { "CCC-HIA": 88 }
+    },
+    {
+      "id": "TNDK-004",
+      "additions": [
+        { "item": "site allowance — Mesaieed mobilisation", "amount": 300.0 }
+      ],
+      "job_hours": { "Mesaieed": 60, "workshop": 100 }
+    }
+  ]
+}

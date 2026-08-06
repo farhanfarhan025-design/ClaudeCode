@@ -73,3 +73,69 @@ These contradict each other and a client can see both. Options:
 The 875 difference is the chequered-sheet variation; the 11,500 difference in receipts has
 no receipt number behind it. **LEDGER must not issue a Samoosa document until Farhan confirms
 which is correct.**
+
+---
+
+### D-007 — An HR team is added, as a sub-team under TNDK-OPS
+**Date:** 2026-08-06 · **By:** Farhan (requested) · **Status:** current
+
+Four lanes — PEOPLE, TIME, PAYROLL, EXIT — under a sub-manager, TNDK-HR, which reports to
+TNDK-OPS. PAYROLL is built to completion first, on the same pattern as PRICE.
+
+**Why a sub-manager rather than four more lanes on TNDK-OPS.** The routing table works
+because it is short and every row is a commercial trigger. Adding four people-lanes to it
+would dilute the one thing that keeps routing reliable. HR is also a different data domain:
+personal data, statutory obligations, and a confidentiality rule no commercial lane has.
+
+**Why PAYROLL first.** It is the lane with a legal deadline attached and the one that
+produces the two figures nothing in the system currently holds — the committed monthly wage
+bill, and the accrued end-of-service liability.
+
+---
+
+### D-008 — Wage divisor conventions
+**Date:** 2026-08-06 · **By:** proposed by system · **Status:** ⚠️ AWAITING FARHAN
+
+| Convention | Proposed | Used for |
+|---|---|---|
+| Basic hourly | basic ÷ 240 (30 × 8 h) | Overtime |
+| Daily rate | total wage ÷ 30 | Unpaid absence · leave encashment · notice in lieu |
+| Gratuity daily | basic ÷ 30 | End-of-service gratuity |
+
+Qatari law states entitlements in weeks and days; the divisor that turns a monthly wage into a
+daily or hourly rate is the employer's convention. **What matters is that it is identical in
+the employment contract, the payslip and the final settlement.** Using one divisor for
+overtime and another for a settlement years later is the kind of quiet inconsistency that
+surfaces as a claim.
+
+`scripts/payroll.py` operates on these until Farhan confirms or changes them.
+
+---
+
+### D-009 — Qatar labour parameters are unverified
+**Date:** 2026-08-06 · **Status:** ⚠️ UNRESOLVED — blocking any live payroll
+
+`agents/hr/LABOUR_LAW.md` records minimum wage, overtime multipliers, leave entitlements,
+gratuity basis, notice periods and the deduction cap — each with its provision. **None has
+been checked against the current published law or ADLSA guidance by this system.**
+
+A wrong parameter here is wrong every month, for everyone, silently — the same failure shape
+as the register that summed three rows out of eight (`memory/lessons.md` L-002).
+
+**Needed:** confirmation by Farhan or a Qatari HR/PRO consultant. Until then every HR output
+names the provision *and* states that it is unverified, and no lane advises Farhan on what
+the law permits him to do.
+
+---
+
+### D-010 — A statutory minimum is not an owner override
+**Date:** 2026-08-06 · **By:** system, for Farhan's ratification · **Status:** current unless overruled
+
+Every other gate in this system is a business rule Farhan may override as owner — the margin
+floor, the pricing tier, the payment terms. **The statutory wage minimum is not**, and neither
+is a negative net. It is not the employer's to waive, and an employee's agreement to a lower
+figure does not change it.
+
+PAYROLL therefore reports a below-minimum wage as a **defect with a cost attached**, never as
+an option with trade-offs, and does not produce a run containing it. Recorded here so that the
+one place the system refuses Farhan is explicit and reasoned rather than a surprise.

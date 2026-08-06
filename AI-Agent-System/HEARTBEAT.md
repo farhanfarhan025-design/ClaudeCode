@@ -27,6 +27,12 @@ MARGIN
   Quotes issued:          [n]   Weighted realised margin: [x]%
   Below floor:            [n]   ← each with its logged reason
 
+PEOPLE
+  Wage bill (committed):  QAR [x]/month
+  Months covered by collected cash: [n]
+  Accrued gratuity:       QAR [x]  ← the liability in no register
+  Expiring inside 30 days:[n]      ← QID · contract · health card
+
 NEEDS YOU
   [decisions, each with a recommendation and a number]
 
@@ -66,6 +72,46 @@ than three small good ones.
 - [ ] Margin column populated where cost is known
 
 Output: variance in QAR. Target zero, or explained.
+
+## Monthly, 25th — Payroll cut-off  *(TIME)*
+
+Timesheets close. Every active employee gets a complete month or a named gap:
+
+- Overtime **split by category** — normal · night · rest day. A merged figure is unusable.
+- Unpaid absence days, distinguished from authorised paid leave.
+- Leave taken, and the resulting balance.
+- Every site day allocated to a job, or explicitly to "workshop".
+
+Delivered to PAYROLL on the 25th. **A missing day is reported as unknown, never filled in.**
+
+## Monthly, 26th–28th — Payroll run  *(PAYROLL)*
+
+1. `payroll.py check` **first** — minimum wage, deduction cap, WPS readiness, expiries.
+   A blocker found on the 26th is a conversation; the same blocker found on the 5th is a late wage.
+2. Build the period file from TIME's sheet. Nothing estimated.
+3. `payroll.py run`. Exit code 2 is a hard stop.
+4. Re-derive one employee's net **by hand** — a different one each month.
+5. Register, payslips, draft WPS file. The WPS file only if nothing is blocking.
+6. Hand to Farhan with the exception on top, not the total.
+
+```
+25th          TIME closes
+26th–28th     PAYROLL prepares
+by month end  Farhan approves
+1st–7th       Farhan uploads the WPS file      ← the statutory window
+```
+
+## Monthly, 1st — HR compliance sweep  *(PEOPLE, with EXIT)*
+
+- [ ] Every active employee has a signed contract on file
+- [ ] QID · passport · health card · contract expiries inside 90 days, each with an owner
+- [ ] Anything **expired** — escalate the same day; it stops a man working on a live site
+- [ ] Roster reconciles to last month's payroll: no ghost employee, no missing joiner
+- [ ] Accrued end-of-service liability recomputed *(EXIT)* and handed to LEDGER
+- [ ] Summer outdoor-work restriction dates confirmed for the year, and who they affect
+- [ ] Labour hours by job passed to PRICE — the 15% assumption against actuals
+
+Output: the people brief in `agents/hr/HR_MANAGER.md`. If nothing needs him, four lines.
 
 ## Monthly, 1st — Warranty & AMC sweep  *(ANNUITY)*
 

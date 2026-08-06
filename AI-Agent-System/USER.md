@@ -24,6 +24,17 @@ and commercial refrigeration.
 | Farhan | Owner; sales, technical scoping, pricing, vendor negotiation | Quotations |
 | Ronaldo | Accountant | Invoices, receipts |
 
+> **The staff position is undocumented.** These are the only two people named anywhere in
+> TNDK's files, yet every job carries 15% of direct cost for labour and installation, and the
+> company installs on live sites at Hamad International Airport and Mesaieed. Somebody is
+> doing that work. Whether they are employees of TNDK, of DCTS, or subcontractors is unknown
+> to this system, and the answer changes what is owed: gratuity, WPS, minimum wage and permit
+> obligations attach to employees and not to subcontractors.
+>
+> `memory/open_loops.md` OL-013. Every HR lane is blocked until it is answered.
+> Farhan is also the employer for every purpose — hiring, wages, terminations and every
+> payment are his decisions alone.
+
 ## Primary goals
 
 1. **Protect margin.** Stop quoting below the documented floor without knowing it.
@@ -45,7 +56,8 @@ and commercial refrigeration.
 - **Tooling:** Google Drive is the operational home. **No email, WhatsApp or bank access.**
   Agents cannot send anything to anyone. All external communication is drafted for Farhan
   to send himself.
-- **Team:** No ops staff to delegate to. Ronaldo handles accounts only.
+- **Team:** No ops staff to delegate to for commercial work. Ronaldo handles accounts only.
+  Site labour exists but is undocumented here — see the note under **People** above (OL-013).
 - **Market:** Qatar. Competitive tendering; clients include main contractors (CCC), JVs
   (HBK-BWTC-BEIL) and SMEs (bakeries, restaurants).
 

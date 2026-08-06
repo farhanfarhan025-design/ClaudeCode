@@ -43,6 +43,32 @@ A fact without a source is not a fact. Write it as an assumption or ask.
 - Superseded decisions without marking them superseded.
 - Anything copied "just in case" — that is how context rot starts.
 
+## Personal data — stricter than everything above
+
+The HR lanes handle people's data, not the company's. The rules there are tighter, and they
+do not relax with trust stage.
+
+**May be stored in this repo:**
+
+- Headcount, and the *existence* of a lane's obligations ("a roster is required", "gratuity
+  accrues from year one").
+- Confirmed policy: divisor conventions, the payroll cut-off date, the leave year.
+- Open loops with an owner and a date, written with an **employee ID** and no name.
+
+**Must never be stored in this repo, in any file, including memory and logs:**
+
+- A name, QID, passport or visa number, address, or bank detail.
+- A wage, allowance, deduction, advance balance or settlement figure for a real person.
+- Medical information, a grievance, or a disciplinary matter — in any form, summarised or not.
+- A scan or photograph of any identity or medical document.
+
+All of it lives in Drive (`04 - HR/`), where access can be scoped per employee. `RULES.md`
+A11. The examples in `scripts/examples/` are invented for exactly this reason: the calculator
+needed test data, and test data must never be a real person.
+
+**One consequence worth stating plainly:** an HR agent cannot answer a question about an
+employee from memory. It re-reads the source every time. That is slower, and it is the point.
+
 ## Retrieval discipline
 
 **Load narrowly.** An agent pricing a Samoosa variation needs: the Samoosa row, the quotation

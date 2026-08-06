@@ -94,3 +94,49 @@ negotiation. Document production and tracking do not need him.
 Farhan makes **decisions** (scope, price, approve-to-send) and touches **no document production**.
 
 **Metric.** Owner-touches per completed job. **Direction: down.**
+
+## G7 — Payroll integrity and labour compliance  *(owner: TNDK-HR / PAYROLL)*
+
+**Problem.** Staff work existed in no lane of this system. There is no roster, no timesheet,
+no leave record and no payroll register. Wages are the one outflow that cannot wait for a slow
+client, and nothing measured them. Qatar's labour parameters — minimum wage, overtime
+multipliers, gratuity basis — are recorded nowhere and unverified.
+
+**Outcome.** Every employee paid the right amount, through WPS, inside the statutory window,
+on a build-up anyone can re-derive.
+
+**Definition of Done.**
+- A verified roster exists: wage, allowances, joining date, QID, contract dates, IBAN, for
+  every person.
+- Every monthly run passes the compliance sweep before it is prepared — minimum wage,
+  deduction cap, negative net, WPS readiness — with every gate reported, including the clear ones.
+- Zero wages paid late, zero below a statutory minimum, zero deductions without a written
+  instruction.
+- `agents/hr/LABOUR_LAW.md` confirmed, and the divisor conventions ruled in `DECISIONS.md`.
+
+**Metric.** Runs paid correctly and on time, as a share of runs. **Baseline: not measured —
+no payroll exists in this system.** Target 100%, from the first live run.
+
+## G8 — Labour cost visible  *(owner: TIME, with PAYROLL and PRICE)*
+
+**Problem.** `scripts/margin.py` charges labour at a flat **15% of direct cost** — QAR 6,517
+on the documented Suresh example — and nobody has ever checked it against an hour actually
+worked. Every margin figure this system produces rests on that assumption. Separately,
+end-of-service gratuity accrues against no register: on the invented sample roster four people
+carry QAR 13,803, and TNDK's real figure is unknown.
+
+**Outcome.** Labour stops being an assumption. Hours are booked against jobs, priced at real
+wage rates, and compared with what PRICE assumed. The gratuity liability is a monthly number.
+
+**Definition of Done.**
+- Every site day allocated to a project or explicitly to "workshop".
+- A realised labour cost exists for at least one completed project, set against the 15% estimate.
+- The register carries labour cost per job (feeds G3's margin column).
+- Accrued gratuity liability reported every month and visible to LEDGER and TNDK-OPS.
+
+**Metric.** Actual labour as a % of direct cost, against the assumed 15%.
+**Baseline: unknown.** The first real measurement is the deliverable; the direction comes after.
+
+> If the true figure is 20%, every margin in this system is overstated by roughly 5 points of
+> direct cost — on the Suresh example, about QAR 2,170 a job. That is the same order as the
+> margin gap G1 exists to close, and it is currently invisible.

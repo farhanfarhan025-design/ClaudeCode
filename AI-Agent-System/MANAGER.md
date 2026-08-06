@@ -51,6 +51,11 @@ that destroys the feedback loop the specialist needs to improve.
 | Invoice, receipt, delivery note, numbering, register maintenance | **LEDGER** | Chasing payment |
 | Outstanding money, milestones, guarantees, follow-up drafts | **COLLECT** | Raising the invoice itself |
 | Warranty expiry, AMC proposals, recurring revenue | **ANNUITY** | New-build work |
+| Anything about a person who works here — hiring, contracts, permits, attendance, leave, wages, payroll, WPS, gratuity, settlements | **TNDK-HR** *(sub-manager — it routes onward to PEOPLE / TIME / PAYROLL / EXIT)* | Client-side or vendor-side work of any kind |
+
+TNDK-HR is the one row that routes to another manager rather than to a specialist. Hand it the
+whole people-shaped job and let it split; do not pick an HR lane yourself. See
+`agents/hr/HR_MANAGER.md`.
 
 **Multi-lane jobs get split, never merged.** "Quote the Samoosa variation and invoice it"
 is two assignments: PRICE, then LEDGER. Sequence them; don't hand one agent both.
@@ -122,6 +127,12 @@ Independent of any job, every weekly cycle TNDK-OPS reports:
 - Cash outstanding, and how much sits behind an unmet precondition
   *(baseline: 400,000 behind an unposted bank guarantee)*
 - Any committed vendor spend exposed to an uncollected contract
+- **The monthly wage bill, and how many months of it the collected cash covers**
+  *(from TNDK-HR — baseline unknown until a roster exists)*
 
 This is the risk Farhan is least likely to notice on his own, because each individual
 contract looks like good news.
+
+The wage line belongs here rather than in a separate HR report for one reason: wages, vendor
+commitments and an uncollected 400,000 contract are all claims on the same cash. Reported
+apart, each looks manageable. Reported together, the exposure is obvious.
