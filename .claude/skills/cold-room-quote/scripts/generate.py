@@ -494,6 +494,54 @@ def fill_delivery(doc, spec):
                   file=sys.stderr)
 
 
+def fit_banner(doc, spec):
+    """Shrink the service banner so it sits under section 12 instead of
+    stranding itself on a page of its own.
+
+    The master ships the banner at 7.27 x 5.45 in, which is a shade taller than
+    the space left below the delivery table — so it flows to the next page and
+    the quotation gains a near-empty sheet. Scaling it to fit closes that gap.
+    Set `banner_height_in` to 0 to leave the master's size alone.
+    """
+    target_h = spec.get("banner_height_in", 4.4)
+    if not target_h:
+        return
+    body = doc.element.body
+    # The master parks the banner in the delivery table's own trailing row, but
+    # a revised master could just as well put it in a paragraph underneath.
+    candidates, seen_delivery = [], False
+    for child in body.iterchildren():
+        if child.tag == qn("w:tbl"):
+            # joined, because Word may split a label across several runs
+            texts = "".join(t.text or "" for t in child.iter(qn("w:t")))
+            if "Material Delivery" in texts:
+                seen_delivery = True
+                candidates.append(child)
+            continue
+        if seen_delivery and child.tag == qn("w:p"):
+            candidates.append(child)
+
+    for child in candidates:
+        extent = child.find(".//" + qn("wp:extent"))
+        if extent is None:
+            continue
+        cx, cy = int(extent.get("cx")), int(extent.get("cy"))
+        target_cy = int(target_h * 914400)
+        if cy <= target_cy:
+            return
+        target_cx = int(cx * target_cy / cy)
+        extent.set("cx", str(target_cx))
+        extent.set("cy", str(target_cy))
+        for ext in child.iter(qn("a:ext")):
+            # a:ext also names the extension-list element, which carries a uri
+            # and rejects cx/cy — only the a:xfrm one describes a size
+            if ext.get("cx") is None:
+                continue
+            ext.set("cx", str(target_cx))
+            ext.set("cy", str(target_cy))
+        return
+
+
 def fill_subject(doc, spec):
     subject = spec.get("subject")
     intro = spec.get("intro")
@@ -547,6 +595,7 @@ def generate(spec, output):
     fill_boq(doc, spec, qs, tot)
     fill_total(doc, spec)
     fill_delivery(doc, spec)
+    fit_banner(doc, spec)
 
     doc.save(output)
     return output, tot

@@ -35,7 +35,7 @@ dark bands.
 | 9 | **EXCLUSIONS** — 10 bullets | untouched |
 | 10 | **PRICING / BILL OF QUANTITIES** | 6 BOQ rows + GRAND TOTAL + amount in words + image12 |
 | 11 | **WARRANTY** | untouched |
-| 12 | **DELIVERY & WORK COMPLETION** + image13 | `delivery` patches named rows |
+| 12 | **DELIVERY & WORK COMPLETION** + image13 | `delivery` patches named rows; image13 scaled to fit the page |
 | 13 | **PAYMENT & COMMERCIAL TERMS** — 6 bullets | untouched |
 | — | Closing paragraphs + signature block | untouched |
 
@@ -74,6 +74,19 @@ matched by regex on their opening words:
 - `Supply and installation of condensing unit ...` → number of sets
 
 The other seven bullets are boilerplate and left alone.
+
+## The service banner
+
+image13 sits in a trailing row *inside* the delivery table, not in a paragraph
+below it — worth knowing, because a search of body paragraphs will not find it.
+The master sizes it 7.27 × 5.45 in, marginally taller than the space left under
+section 12, so Word pushes it onto a page of its own and the quotation ends with
+a mostly empty sheet. `fit_banner()` scales it to 4.4 in tall (5.87 in wide),
+which pulls it back onto the section 11/12 page.
+
+When resizing any image here, set `cx`/`cy` only on the `a:ext` inside `a:xfrm`.
+The `a:ext` in an `a:extLst` takes a `uri` instead and rejects `cx`/`cy` —
+writing them there produces a file Word will complain about.
 
 ## Editing the master
 

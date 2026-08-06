@@ -1,6 +1,6 @@
 ---
 name: cold-room-quote
-description: Produce a TNDK cold room quotation in the standard house format (The New Doha Kitchen Equipment Services W.L.L.). Use this skill whenever the user asks for a cold room, cold storage, chiller, freezer or refrigeration quotation or quote; says "make a quotation", "draft a quote", "send a price" or "quote this client" for a cold room project; mentions a QUT/DCTS reference number; or gives client name, room dimensions and a price and wants the document built. Also use when revising or re-issuing an existing cold room quotation. Produces a 10-page branded Word document with the fixed 13-section structure, computing all panel areas, floor areas and heat-load volumes from the room dimensions.
+description: Produce a TNDK cold room quotation in the standard house format (The New Doha Kitchen Equipment Services W.L.L.). Use this skill whenever the user asks for a cold room, cold storage, chiller, freezer or refrigeration quotation or quote; says "make a quotation", "draft a quote", "send a price" or "quote this client" for a cold room project; mentions a QUT/DCTS reference number; or gives client name, room dimensions and a price and wants the document built. Also use when revising or re-issuing an existing cold room quotation. Produces a branded multi-page Word document with the fixed 13-section structure, computing all panel areas, floor areas and heat-load volumes from the room dimensions.
 ---
 
 # Cold Room Quote
@@ -25,6 +25,12 @@ a hardcoded position, so it stays correct if rows shift.
 Verified: regenerating the Marza Group quote from its spec reproduces the
 original document exactly — same text, same 13 images byte-for-byte, same
 brand colours, same fonts and sizes.
+
+One layout fix is applied on top: the master sizes the service banner under
+section 12 slightly too tall for the space left on the page, so it flows onto
+a sheet of its own and the quotation ends with a near-empty page. The generator
+scales it to fit (default 4.4 in tall), which drops one page from every
+quotation. Pass `"banner_height_in": 0` to keep the master's original size.
 
 ## Workflow
 
@@ -102,6 +108,15 @@ python3 /mnt/skills/public/docx/scripts/office/validate.py <output>.docx
 Then confirm by eye: client name and reference correct, room table matches what
 was asked for, grand total and the words agree, no leftover text from the
 reference quote.
+
+For a PDF to send the client:
+
+```bash
+soffice --headless --convert-to pdf --outdir . <output>.docx
+```
+
+This needs `libreoffice-writer` installed, not just `libreoffice-core` —
+without it every .docx fails to load with "source file could not be loaded".
 
 ## What the generator computes
 

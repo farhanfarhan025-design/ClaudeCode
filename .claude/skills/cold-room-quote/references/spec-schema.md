@@ -78,6 +78,7 @@ All optional — omit the block entirely to leave section 5 as the master has it
 | `total_words` | overrides the auto-generated amount in words |
 | `boq` | array of `{"description": "...", "amount": 1234}` replacing the six default lines; `amount` may be omitted for a lump-sum quote |
 | `delivery` | object of `{"<row label>": "<value>"}` patching section 12, e.g. `{"Installation Period": "10 – 14 working days for civil-ready site"}` |
+| `banner_height_in` | height of the service banner under section 12, default `4.4`; `0` keeps the master's 5.45 in, which strands it on a page of its own |
 
 ## Worked example
 
