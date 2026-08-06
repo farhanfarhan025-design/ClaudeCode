@@ -1,0 +1,8 @@
+{
+  "job": "Freezer room 4.80 x 3.35 x 2.70, no insulated floor at base scope",
+  "client": "Samoosa Shop",
+  "rooms": [
+    { "name": "Freezer", "type": "freezer", "length": 4.80, "width": 3.35, "height": 2.70, "floor": false, "doors": 1 }
+  ],
+  "transport": 1500
+}

@@ -1,0 +1,9 @@
+{
+  "job": "Chiller + Freezer, 2.15 x 2.00 x 2.40 each, insulated floors",
+  "client": "Mohammed Mecca Trading & Technical Services W.L.L.",
+  "rooms": [
+    { "name": "Chiller", "type": "chiller", "length": 2.15, "width": 2.00, "height": 2.40, "floor": true, "doors": 1 },
+    { "name": "Freezer", "type": "freezer", "length": 2.15, "width": 2.00, "height": 2.40, "floor": true, "doors": 1 }
+  ],
+  "transport": 1500
+}
