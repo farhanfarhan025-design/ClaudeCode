@@ -100,7 +100,8 @@ first. Recommended: **payables**, because it is the one with money attached to b
 ---
 
 ### D-008 — Samoosa figures resolved: the register was right
-**Date:** 2026-08-06 · **By:** Farhan · **Status:** current · **Resolves:** D-006, OL-001
+**Date:** 2026-08-06 · **By:** Farhan · **Status:** superseded → D-009 (same day). The
+ruling on the amount stands; the conclusion drawn from it was wrong.
 
 Farhan confirmed the final Samoosa payment as **QAR 18,500**, which settles the three-way
 disagreement that had blocked every Samoosa document since 3 August:
@@ -121,3 +122,48 @@ against Drive.
 **Still outstanding:** the payment instrument (cheque no. + bank + date + drawer, transfer
 reference, or cash). The receipt cannot be issued and the register cannot be updated without it
 — `RULES.md` B and C7.
+
+---
+
+### D-009 — Samoosa is not settled: the variation and INV-258 do not reconcile
+**Date:** 2026-08-06 · **By:** system · **Status:** ⚠️ OPEN — supersedes D-008
+
+D-008 concluded Samoosa was closed. That was wrong, and the error was mine: I offered
+"QAR 18,500" as the settlement figure because the live register shows 38,500 − 20,000. The
+register's 38,500 **excludes the 875 chequered-floor variation.** The numbering log's client
+registry records the contract as *"38,500 + 875 variation (2mm chequered floor) = 39,375"*.
+
+    20,000 already received + 18,500 confirmed = 38,500
+    contract including the variation           = 39,375
+    still outstanding                          =    875
+
+**Second and larger problem — the invoice trail does not tie.** Three invoices were issued:
+
+| Invoice | Amount | Composition |
+|---|---|---|
+| INV-256 | 20,000 | advance |
+| INV-257 | 16,575 | 9,625 (25% stage) + 6,950 carried shortfall |
+| INV-258 | 7,875 | 7,000 + 875 variation |
+
+The 6,950 carried shortfall reconciles exactly: 70% of 38,500 is 26,950, and 26,950 − 20,000 =
+6,950. So the base contract of 38,500 and the 20,000 receipt are both confirmed.
+
+But the final stage should be 5% + variation = 1,925 + 875 = **2,800**. INV-258 was issued at
+**7,875 — over by 5,075.** That 7,875 is exactly 39,375 − 31,500, so INV-258 was computed on
+the assumption that **31,500** had been received. Only 20,000 has a receipt (RCT-256, cash).
+
+**Two possibilities, and they are not both true:**
+
+1. Only 20,000 was ever received → INV-258 over-bills by 5,075 and should be superseded by a
+   corrected invoice at 2,800; after the 18,500, **875 remains outstanding**.
+2. 31,500 was genuinely received → 11,500 has no receipt, INV-258's 7,875 was correct, and the
+   settlement should have been 7,875, not 18,500.
+
+**Needed from Farhan:** how much has Samoosa actually paid in total, and against which invoices.
+Until then, no Samoosa receipt is issued and the register is not updated. The client may be owed
+a corrected invoice or a refund; both are worse to discover later.
+
+**Process lesson:** I offered a figure derived from one source and treated the owner's selection
+as confirmation of that source's correctness. Confirming an amount is not the same as confirming
+the reconciliation behind it. Options presented for approval must carry their own reconciliation,
+or they launder an assumption into a ruling.

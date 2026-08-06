@@ -9,7 +9,7 @@ Anything awaiting someone. Every entry has an owner and a date. Closed loops mov
 
 ## 🔴 Blocking — resolve before related work proceeds
 
-### OL-001 — Samoosa contract value — ✅ CLOSED 2026-08-06
+### OL-001 — Samoosa contract value — ⚠️ CLOSURE WITHDRAWN, see OL-019
 **Closed by:** Farhan · **Ruling:** `DECISIONS.md` D-008
 
 The register was right (38,500 / 20,000); the skill's copied data (39,375 / 31,500) was wrong.
@@ -61,8 +61,19 @@ any has already passed without an invoice.
 Commissioning confirmed by Farhan 6 Aug 2026 — the milestone has been reached and the balance
 is now due. Invoice raised the same day; see OL-017.
 
-### OL-008 — Samoosa balance — ✅ CLOSED 2026-08-06
-Settled in full. Contract 38,500, received 38,500, balance nil.
+### OL-008 — Samoosa balance — ⚠️ CLOSURE WITHDRAWN, see OL-019
+Closed in error on 6 Aug: the 875 variation was not included and INV-258 does not reconcile.
+
+### OL-019 — 🔴 Samoosa is not settled — variation unpaid, INV-258 over-billed
+**Owner:** Farhan · **Raised:** 2026-08-06 · **Supersedes the premature closure of OL-001/OL-008**
+
+18,500 + 20,000 = 38,500, but the contract including the chequered-floor variation is 39,375 —
+so **875 is outstanding**. Separately, INV-258 was issued at 7,875 when the final stage
+(5% + variation) is 2,800: **over-billed by 5,075**, apparently computed on an assumed 31,500
+received when only 20,000 has a receipt.
+
+**Needed:** the total Samoosa has actually paid, and against which invoices. A corrected invoice
+or a refund may be due. See `DECISIONS.md` D-009.
 
 ### OL-016 — Samoosa receipt cannot be issued — no instrument
 **Owner:** Farhan · **Raised:** 2026-08-06 · **Value:** QAR 18,500 · **Blocks:** the receipt
