@@ -107,7 +107,18 @@ TYPES = {
         "money": False,
         "sign": "two-party",
         "sign_labels": ("Returned by", "Received back by (TNDK)"),
-        "reason_column": True,
+        "extra_column": {"label": "REASON", "field": "reason", "width": 14.0},
+    },
+    "handover": {
+        "badge": ["HANDOVER", "CERTIFICATE"],
+        "party": "HANDOVER TO",
+        "meta": ["HANDOVER NO", "DATE", "REF LPO"],
+        "counterparty": "CLIENT",
+        "money": False,
+        "sign": "two-party",
+        "sign_labels": ("Handed over by (TNDK)", "Received & accepted by (Client)"),
+        "extra_column": {"label": "VERIFIED", "field": "result", "width": 11.0,
+                          "align": "c", "position": "end"},
     },
 }
 
@@ -242,14 +253,17 @@ def build_html(doc):
     party_rows = "\n".join(rows)
 
     # ---- line table
-    reason = spec.get("reason_column") or doc.get("reason_column")
+    extra = doc.get("extra_column") or spec.get("extra_column")
     head = [("S/N", COLS["sn"], "c"), ("DESCRIPTION", COLS["description"], "c")]
-    if reason:
-        head.append(("REASON", 14.0, "l"))
+    at_end = extra and extra.get("position") == "end"
+    if extra and not at_end:
+        head.append((extra["label"], extra.get("width", 14.0), extra.get("align", "l")))
     head += [("UNIT", COLS["unit"], "c"), ("QTY", COLS["qty"], "c")]
     if show_money:
         head += [(f"UNIT PRICE<br/>({currency})", COLS["rate"], "r"),
                  (f"TOTAL<br/>({currency})", COLS["amount"], "r")]
+    if at_end:
+        head.append((extra["label"], extra.get("width", 14.0), extra.get("align", "c")))
 
     total_w = sum(h[1] for h in head)
     ths = "".join(f'<th style="width:{w / total_w * 100:.2f}%" class="{a}">{t}</th>'
@@ -259,13 +273,17 @@ def build_html(doc):
     for i, line in enumerate(lines, 1):
         cells = [f'<td class="c sn">{i}</td>',
                  f'<td class="l desc">{esc(line.get("description"))}</td>']
-        if reason:
-            cells.append(f'<td class="l">{esc(line.get("reason", ""))}</td>')
+        extra_cell = (f'<td class="{extra.get("align", "l")}">'
+                      f'{esc(line.get(extra["field"], ""))}</td>') if extra else ""
+        if extra and not at_end:
+            cells.append(extra_cell)
         cells += [f'<td class="c">{esc(line.get("unit", "Nos"))}</td>',
                   f'<td class="c">{esc(line.get("qty", ""))}</td>']
         if show_money:
             cells += [f'<td class="r">{money(line.get("rate", 0))}</td>',
                       f'<td class="r">{money(line.get("amount", 0))}</td>']
+        if at_end:
+            cells.append(extra_cell)
         trs.append("<tr>" + "".join(cells) + "</tr>")
 
     # ---- money block
@@ -333,6 +351,10 @@ def build_html(doc):
                 f'<div class="sigco">Name / Signature / Date</div></td><td class="gap"></td>'
                 f'<td><div class="sigline"></div><div class="signame">{esc(right)}</div>'
                 f'<div class="sigco">Name / Signature / Date</div></td></tr></table>')
+
+    foot_line = ("This document requires the signature of both parties to be valid."
+                 if spec["sign"] == "two-party" else
+                 "This is a computer-generated document and does not require a physical signature.")
 
     html = f"""<!DOCTYPE html>
 <html><head><meta charset="utf-8"><title>{esc(doc.get('number', ''))}</title>
@@ -426,7 +448,7 @@ def build_html(doc):
 
 <div class="footwrap"><div class="rule"></div>
   <div class="foot"><b>{esc(company['footer'])}</b>
-    <div class="f2">This is a computer-generated document and does not require a physical signature.</div>
+    <div class="f2">{esc(foot_line)}</div>
   </div>
 </div>
 </body></html>"""
