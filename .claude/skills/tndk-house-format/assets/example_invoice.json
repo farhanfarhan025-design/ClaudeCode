@@ -1,0 +1,26 @@
+{
+  "type": "invoice",
+  "number": "INV-259/2026",
+  "date": "06-08-2026",
+  "ref": "LPO PO-2026-0000248 dated 12-05-2026",
+  "meta_labels": ["INVOICE NO", "DATE", "REF"],
+  "currency": "QAR",
+  "party": {
+    "title": "BILL TO",
+    "name": "Example Trading & Food Stuff Co. W.L.L. – Qatar",
+    "fields": [
+      { "label": "Attention", "value": "Mr. Example | Projects Manager" },
+      { "label": "Project", "value": "Cold room supply and installation – Example Branch" },
+      { "label": "Payment Terms", "value": "60% advance / 40% on commissioning (per LPO)" },
+      { "label": "Stage", "value": "Balance invoice – 40% due on commissioning" }
+    ]
+  },
+  "lines": [
+    { "description": "Cold room supply and installation as per approved quotation QUT/DCTS/066/2026", "unit": "Job", "qty": 1, "rate": 46000.00 },
+    { "description": "Less: advance already invoiced under INV-253/2026 (60%)", "unit": "Job", "qty": 1, "rate": -27600.00 }
+  ],
+  "notes": [
+    "Payment terms per LPO PO-2026-0000248, which govern over the quotation terms.",
+    "Balance due on commissioning as per the approved payment schedule."
+  ]
+}
