@@ -337,7 +337,7 @@ def build_html(doc):
     html = f"""<!DOCTYPE html>
 <html><head><meta charset="utf-8"><title>{esc(doc.get('number', ''))}</title>
 <style>
-  @page {{ size: A4; margin: 0; }}
+  @page {{ size: A4; margin: 0 0 42pt 0; }}
   * {{ -webkit-print-color-adjust: exact; print-color-adjust: exact; }}
   body {{ font-family: Arial, "Liberation Sans", Helvetica, sans-serif;
           font-size: 9.5pt; color: {INK}; margin: 0; }}
@@ -387,10 +387,9 @@ def build_html(doc):
   .sigline {{ border-top: 0.8pt solid {INK}; height: 1pt; font-size: 1pt; }}
   .signame {{ font-weight: bold; padding-top: 3pt; }}
   .sigco {{ font-size: 8.5pt; color: {INK_SOFT}; }}
-  .footwrap {{ position: fixed; bottom: 0; left: 0; right: 0; }}
+  .footwrap {{ position: fixed; bottom: -42pt; left: 0; right: 0; }}
   .foot {{ background: {NAVY}; color: #FFFFFF; text-align: center; padding: 7pt 27pt;
            font-size: 8.5pt; }}
-  .tail {{ height: 46pt; }}   /* keeps content clear of the fixed footer */
   .foot .f2 {{ font-style: italic; }}
 </style></head><body>
 
@@ -414,7 +413,6 @@ def build_html(doc):
   {sign}
 </div>
 
-<div class="tail"></div>
 <div class="footwrap"><div class="rule"></div>
   <div class="foot"><b>{esc(company['footer'])}</b>
     <div class="f2">This is a computer-generated document and does not require a physical signature.</div>
