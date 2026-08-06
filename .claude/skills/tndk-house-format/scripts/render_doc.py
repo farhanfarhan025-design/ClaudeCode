@@ -337,7 +337,7 @@ def build_html(doc):
     html = f"""<!DOCTYPE html>
 <html><head><meta charset="utf-8"><title>{esc(doc.get('number', ''))}</title>
 <style>
-  @page {{ size: A4; margin: 0 0 42pt 0; }}
+  @page {{ size: A4; margin: 0; }}
   * {{ -webkit-print-color-adjust: exact; print-color-adjust: exact; }}
   body {{ font-family: Arial, "Liberation Sans", Helvetica, sans-serif;
           font-size: 9.5pt; color: {INK}; margin: 0; }}
@@ -379,19 +379,28 @@ def build_html(doc):
               padding: 9pt; margin-top: 14pt; }}
   .callout .cg {{ color: {NAVY}; font-weight: bold; font-size: 10.5pt; }}
   .callout .cgs {{ font-size: 9pt; color: {INK_SOFT}; }}
-  .sigwrap {{ margin-top: 30pt; text-align: right; }}
+  .sigwrap {{ margin-top: 18pt; text-align: right; }}
   .sig {{ display: inline-block; width: 210pt; text-align: center; }}
-  table.sig2 {{ width: 100%; margin-top: 34pt; }}
+  table.sig2 {{ width: 100%; margin-top: 22pt; }}
   table.sig2 td {{ width: 44%; text-align: center; }}
   table.sig2 td.gap {{ width: 12%; }}
   .sigline {{ border-top: 0.8pt solid {INK}; height: 1pt; font-size: 1pt; }}
   .signame {{ font-weight: bold; padding-top: 3pt; }}
   .sigco {{ font-size: 8.5pt; color: {INK_SOFT}; }}
-  .footwrap {{ position: fixed; bottom: -42pt; left: 0; right: 0; }}
+  .footwrap {{ position: fixed; bottom: 0; left: 0; right: 0; }}
+  /* The footer is fixed, so it repeats on every page and sits flush to the paper edge.
+     A zero page margin is what puts it there — which means flowing content would run
+     underneath it and be lost at each page break. This table's tfoot repeats on every
+     page too, reserving the band so nothing can ever occupy it. */
+  table.pagegrid {{ width: 100%; border-collapse: collapse; }}
+  table.pagegrid > tfoot > tr > td {{ height: 44pt; border: 0; padding: 0; }}
+  table.pagegrid > tbody > tr > td {{ border: 0; padding: 0; }}
   .foot {{ background: {NAVY}; color: #FFFFFF; text-align: center; padding: 7pt 27pt;
            font-size: 8.5pt; }}
   .foot .f2 {{ font-style: italic; }}
 </style></head><body>
+
+<table class="pagegrid"><tfoot><tr><td></td></tr></tfoot><tbody><tr><td>
 
 <table width="100%" cellpadding="0" cellspacing="0" class="band"><tr>
   <td><div class="co">{esc(company['name'])}</div>
@@ -412,6 +421,8 @@ def build_html(doc):
   {notes}
   {sign}
 </div>
+
+</td></tr></tbody></table>
 
 <div class="footwrap"><div class="rule"></div>
   <div class="foot"><b>{esc(company['footer'])}</b>
@@ -473,6 +484,24 @@ def to_pdf(html_path, outdir):
         "fallback, A4 with margins off.")
 
 
+def trailing_blank_page(pdf):
+    """Return the page number if the last page holds only the footer, else None.
+
+    Content that overflows by a few points produces a page carrying nothing but the
+    repeating footer. It renders fine and reads as a mistake, so say so rather than
+    let it go out."""
+    try:
+        import fitz
+    except ImportError:
+        return None
+    doc = fitz.open(pdf)
+    if doc.page_count < 2:
+        return None
+    text = doc[-1].get_text().strip()
+    # The footer is the two company lines; anything more is real content.
+    return doc.page_count if len(text.splitlines()) <= 2 else None
+
+
 def main():
     ap = argparse.ArgumentParser(description="Render a TNDK document in the house format")
     ap.add_argument("data", help="JSON document definition — see assets/")
@@ -497,6 +526,12 @@ def main():
 
     pdf = to_pdf(html_path, args.outdir)
     print(f"{doc.get('type')} {doc.get('number', '')} -> {pdf}")
+
+    blank = trailing_blank_page(pdf)
+    if blank:
+        print(f"NOTE: page {blank} carries only the repeating footer — the content overflows "
+              f"the previous page by a hair. Trim a note or shorten a description; a document "
+              f"that ends on a blank page looks unfinished to a client.", file=sys.stderr)
     print("Verify before it goes anywhere: totals reconcile, numbering log updated, "
           "no 'tax' (checked), signature correct for the document type.")
     return 0

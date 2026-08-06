@@ -9,21 +9,12 @@ Anything awaiting someone. Every entry has an owner and a date. Closed loops mov
 
 ## 🔴 Blocking — resolve before related work proceeds
 
-### OL-001 — Samoosa contract value unresolved
-**Owner:** Farhan · **Raised:** 2026-08-03 · **Blocks:** any Samoosa document
+### OL-001 — Samoosa contract value — ✅ CLOSED 2026-08-06
+**Closed by:** Farhan · **Ruling:** `DECISIONS.md` D-008
 
-Three sources disagree:
-
-| Source | Contract | Received |
-|---|---|---|
-| `approved_register.xlsx` (Drive, 31 Jul) | 38,500 | 20,000 |
-| `register_data.json` (skill) | 39,375 | 31,500 |
-| `numbering-log.md` receipts | — | 20,000 (RCT-256 only) |
-
-The 875 is the chequered-sheet variation. The 11,500 receipt gap has no receipt number.
-Invoices INV-256/257/258 exist against this job; only RCT-256 is logged.
-
-**Needed:** which figure is correct, and whether receipts exist for the 11,500.
+The register was right (38,500 / 20,000); the skill's copied data (39,375 / 31,500) was wrong.
+Final payment of 18,500 confirmed, Samoosa fully settled. Taught nothing new — it is
+`lessons.md` L-003 happening exactly as predicted, so the lesson stands unchanged.
 
 ### OL-002 — Approved Works Register is arithmetically broken
 **Owner:** LEDGER · **Raised:** 2026-08-03 · **Blocks:** any decision using register totals
@@ -67,11 +58,35 @@ any has already passed without an invoice.
 
 ### OL-007 — Jollibee balance
 **Owner:** COLLECT · **Value:** QAR 18,400 (40%)
-Due after commissioning. Confirm commissioning status.
+Commissioning confirmed by Farhan 6 Aug 2026 — the milestone has been reached and the balance
+is now due. Invoice raised the same day; see OL-017.
 
-### OL-008 — Samoosa balance
-**Owner:** COLLECT · **Value:** QAR 7,875 *(subject to OL-001)*
-Due on completion.
+### OL-008 — Samoosa balance — ✅ CLOSED 2026-08-06
+Settled in full. Contract 38,500, received 38,500, balance nil.
+
+### OL-016 — Samoosa receipt cannot be issued — no instrument
+**Owner:** Farhan · **Raised:** 2026-08-06 · **Value:** QAR 18,500 · **Blocks:** the receipt
+and the register update
+
+Farhan has confirmed the amount, which satisfies half of `RULES.md` B. The other half is the
+instrument: cheque no. + bank + date + drawer, transfer reference + bank + date, or
+"Payment Mode: Cash". Until it exists, the payment is confirmed but not recorded — a received
+amount with nothing behind it is precisely what the tie-out is built to catch.
+
+### OL-017 — Jollibee commissioned; balance invoice raised, not sent
+**Owner:** Farhan · **Raised:** 2026-08-06 · **Value:** QAR 18,400
+
+Commissioning confirmed by Farhan, which triggers the 40% under LPO PO-2026-0000248.
+INV-259/2026 drafted 6 Aug 2026 (contract 46,000 less advance 27,600). **Not sent** — Farhan
+sends. Two things to confirm before it goes: the number against the numbering log (see OL-018),
+and the commissioning date, which is not recorded anywhere.
+
+### OL-018 — Numbering series have drifted
+**Owner:** LEDGER · **Raised:** 2026-08-06
+
+Quotations ran 066 (13 Jul) → 174 (3 Aug) → 214 (5 Aug); LPOs jumped 189 → 194. Either the
+series are not sequential or the log is not being read before issuing. The next invoice number
+(INV-259) is therefore an assumption, not a fact — verify before issuing.
 
 ---
 

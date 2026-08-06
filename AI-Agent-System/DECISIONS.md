@@ -62,7 +62,7 @@ These contradict each other and a client can see both. Options:
 ---
 
 ### D-006 — Samoosa contract value unresolved
-**Date:** 2026-08-03 · **Status:** ⚠️ UNRESOLVED — blocking any Samoosa document
+**Date:** 2026-08-03 · **Status:** superseded → D-008 (2026-08-06)
 
 | Source | Contract | Received |
 |---|---|---|
@@ -96,3 +96,28 @@ unchanged, and this decision must not be read as eroding it.
 **Needed from Farhan:** confirm the team structure, confirm Ronaldo remains the human counterpart
 and the signatory on invoices and receipts, and confirm which of the two new registers is built
 first. Recommended: **payables**, because it is the one with money attached to being wrong.
+
+---
+
+### D-008 — Samoosa figures resolved: the register was right
+**Date:** 2026-08-06 · **By:** Farhan · **Status:** current · **Resolves:** D-006, OL-001
+
+Farhan confirmed the final Samoosa payment as **QAR 18,500**, which settles the three-way
+disagreement that had blocked every Samoosa document since 3 August:
+
+| Source | Contract | Received before final | Verdict |
+|---|---|---|---|
+| Live `approved_register.xlsx` | 38,500 | 20,000 | **correct** |
+| Skill `register_data.json` | 39,375 | 31,500 | **wrong — do not use** |
+| Receipts logged (`numbering-log.md`) | — | 20,000 (RCT-256) | consistent with the register |
+
+Samoosa is now fully settled: contract 38,500, received 38,500, balance nil.
+
+**Consequence for the system, not just for Samoosa:** the copied data in the skill's assets was
+the wrong one. That is `lessons.md` L-003 confirmed in practice — the copy drifted, and the copy
+was the one that disagreed. Any remaining figures in skill assets are suspect until checked
+against Drive.
+
+**Still outstanding:** the payment instrument (cheque no. + bank + date + drawer, transfer
+reference, or cash). The receipt cannot be issued and the register cannot be updated without it
+— `RULES.md` B and C7.

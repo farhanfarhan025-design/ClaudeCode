@@ -31,15 +31,23 @@ A fact without a source is not a fact.
 | Jollibee Rasaboud cold room | Sunrise Trading & Food Stuff Co. | PO-2026-0000248 | LPO | 46,000 | 27,600 | 18,400 |
 | HIA Airport cold rooms (5) | Consolidated Contractors (CCC) | DIAR-L05531 MCR | LPO | 253,500 | 76,050 | 177,450 |
 | Mesaieed animal waste cold room | HBK-BWTC-BEIL JV | HBB000353-0 | LOA | 400,000 | 0 | 400,000 |
-| Samoosa cold room (freezer) | Samoosa Shop | QUT/DCTS/066/2026 | Quote | ⚠️ 38,500 *or* 39,375 | ⚠️ 20,000 *or* 31,500 | ⚠️ unresolved |
+| Samoosa cold room (freezer) | Samoosa Shop | QUT/DCTS/066/2026 | Quote | 38,500 | 38,500 | 0 |
 
-**Totals (using live register figures):** contract **758,100** · received **143,750** ·
-outstanding **614,350**.
+**Totals as at 6 August 2026:** contract **758,100** · received **162,250** ·
+outstanding **595,850**.
+
+Outstanding now sits in exactly three projects: Mesaieed 400,000 (67.1%), CCC 177,450 (29.8%),
+Jollibee 18,400 (3.1%). Two clients hold **96.9% of the outstanding money**.
 
 > These totals are computed here, not read from the register — the register's own total row
 > reads 18,250 and its summary block reads zero. See `analysis/FINDINGS.md`.
 
-**Status:** current, except Samoosa — see `DECISIONS.md` D-006.
+**Status:** current. Samoosa resolved 6 August 2026 — see `DECISIONS.md` D-008; the
+register figures were correct and the skill's copied data was wrong.
+
+**Pending evidence:** the Samoosa final payment of 18,500 is confirmed by Farhan (6 Aug 2026)
+but has **no instrument recorded yet**, so no receipt has been issued and the Drive register has
+not been updated. Confidence: high on the amount, absent on the instrument.
 
 ## Payment terms
 
