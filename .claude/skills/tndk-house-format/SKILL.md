@@ -26,7 +26,7 @@ inspect the markup.
 Worked inputs for every type are in `assets/` — `example_lpo.json` reproduces the approved
 Airtronics LPO exactly, and is the reference to copy from.
 
-## The six types
+## The seven types
 
 Everything shares the header, meta strip, party block, line table and footer. Only four things
 change, and the renderer already knows them — do not override them casually:
@@ -38,6 +38,7 @@ change, and the renderer already knows them — do not override them casually:
 | `receipt` | RECEIPT | RECEIVED FROM | yes | `Ronaldo / Accountant` + instrument block |
 | `delivery_note` | DELIVERY / NOTE | DELIVER TO | no | delivered-by / received-by |
 | `delivery_return` | DELIVERY / RETURN | RETURNED FROM | no | returned-by / received-back-by, adds a REASON column |
+| `quotation` | QUOTATION | TO | yes | `Farhan / Sales Engineer` |
 | `handover` | HANDOVER / CERTIFICATE | HANDOVER TO | no | handed-over-by / received-and-accepted-by, adds a VERIFIED tick column |
 
 A handover certificate is a checklist signed at site: each line is ticked by both parties, and
@@ -47,6 +48,14 @@ asserting a test passed — a certificate that pre-ticks its own checks is worth
 The footer follows the signature mode. Documents with signature lines say *"This document
 requires the signature of both parties to be valid"*; the rest carry the computer-generated
 line. A handover that denied needing a signature would contradict itself on its own face.
+
+Quotations are signed `Farhan / Sales Engineer` and invoices and receipts `Ronaldo /
+Accountant`. That split is a standing convention, not a preference — do not let a quotation go
+out under the accountant's name.
+
+A line description may contain newlines; they render as line breaks. That is how a lump-sum
+quotation carries a numbered scope inside one priced row without inventing a price split for
+each item.
 
 The signature rules are not stylistic. LPOs carry the "computer generated document" callout
 *instead of* a signature; invoices and receipts are signed by the accountant; delivery documents

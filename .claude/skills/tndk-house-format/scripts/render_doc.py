@@ -112,6 +112,14 @@ TYPES = {
         "sign_labels": ("Returned by", "Received back by (TNDK)"),
         "extra_column": {"label": "REASON", "field": "reason", "width": 14.0},
     },
+    "quotation": {
+        "badge": ["QUOTATION"],
+        "party": "TO",
+        "meta": ["QUOTATION NO", "DATE", "VALIDITY"],
+        "counterparty": "CLIENT",
+        "money": True,
+        "sign": "sales",
+    },
     "handover": {
         "badge": ["HANDOVER", "CERTIFICATE"],
         "party": "HANDOVER TO",
@@ -275,7 +283,8 @@ def build_html(doc):
     trs = []
     for i, line in enumerate(lines, 1):
         cells = [f'<td class="c sn">{i}</td>',
-                 f'<td class="l desc">{esc(line.get("description"))}</td>']
+                 f'<td class="l desc">'
+                 f'{esc(line.get("description")).replace(chr(10), "<br/>")}</td>']
         extra_cell = (f'<td class="{extra.get("align", "l")}">'
                       f'{esc(line.get(extra["field"], ""))}</td>') if extra else ""
         if extra and not at_end:
@@ -343,6 +352,10 @@ def build_html(doc):
         callout = spec.get("callout", "")
         sign = (f'<div class="callout"><div class="cg">*** COMPUTER GENERATED DOCUMENT ***</div>'
                 f'<div class="cgs">{esc(callout)}</div></div>')
+    elif spec["sign"] == "sales":
+        sign = ('<div class="sigwrap"><div class="sig">'
+                '<div class="sigline"></div><div class="signame">Farhan / Sales Engineer</div>'
+                f'<div class="sigco">For {esc(company["legal"])}</div></div></div>')
     elif spec["sign"] == "accountant":
         sign = ('<div class="sigwrap"><div class="sig">'
                 '<div class="sigline"></div><div class="signame">Ronaldo / Accountant</div>'
