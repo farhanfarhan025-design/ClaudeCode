@@ -132,28 +132,51 @@ def wage_structure_checks(emp, pol):
     """Statutory minimums and WPS readiness. Independent of any month."""
     out = []
     eid = emp["id"]
-    basic = float(emp["basic"])
     allow = emp.get("allowances", {})
 
-    if basic < pol["min_basic"]:
+    raw = emp.get("basic")
+    if raw in (None, ""):
+        basic = None
+        out.append((BLOCK, "NO-WAGE",
+                    f"{eid}: no wage recorded — nothing can be computed for this person. "
+                    f"A missing wage is a question for Farhan, never an estimate"))
+    else:
+        basic = float(raw)
+
+    if not emp.get("joined"):
+        out.append((BLOCK, "NO-JOINED",
+                    f"{eid}: no joining date — gratuity, leave entitlement and notice "
+                    f"period all run from it"))
+
+    sponsor = emp.get("sponsor")
+    if sponsor and not emp.get("sponsor_is_employer", False):
+        out.append((BLOCK, "NOT-SPONSORED",
+                    f"{eid}: residency permit is sponsored by \"{sponsor}\", not by this "
+                    f"employer — this person cannot be paid through this establishment's "
+                    f"WPS file, and the employment relationship needs resolving first"))
+
+    if basic is not None and basic < pol["min_basic"]:
         out.append((BLOCK, "MIN-BASIC",
                     f"{eid}: basic {basic:,.2f} is below the statutory minimum "
                     f"{pol['min_basic']:,.2f} (Law 17/2020)"))
 
-    if not emp.get("food_provided", False):
-        food = float(allow.get("food", 0.0))
-        if food < pol["min_food_allowance"]:
-            out.append((BLOCK, "MIN-FOOD",
-                        f"{eid}: food allowance {food:,.2f} is below "
-                        f"{pol['min_food_allowance']:,.2f} and food is not provided"))
+    # The allowance minimums only mean something once a wage structure exists.
+    # Firing them on an empty record buries the one finding that matters.
+    if basic is not None:
+        if not emp.get("food_provided", False):
+            food = float(allow.get("food", 0.0))
+            if food < pol["min_food_allowance"]:
+                out.append((BLOCK, "MIN-FOOD",
+                            f"{eid}: food allowance {food:,.2f} is below "
+                            f"{pol['min_food_allowance']:,.2f} and food is not provided"))
 
-    if not emp.get("accommodation_provided", False):
-        acc = float(allow.get("accommodation", 0.0))
-        if acc < pol["min_accommodation_allowance"]:
-            out.append((BLOCK, "MIN-ACCOM",
-                        f"{eid}: accommodation allowance {acc:,.2f} is below "
-                        f"{pol['min_accommodation_allowance']:,.2f} and accommodation "
-                        f"is not provided"))
+        if not emp.get("accommodation_provided", False):
+            acc = float(allow.get("accommodation", 0.0))
+            if acc < pol["min_accommodation_allowance"]:
+                out.append((BLOCK, "MIN-ACCOM",
+                            f"{eid}: accommodation allowance {acc:,.2f} is below "
+                            f"{pol['min_accommodation_allowance']:,.2f} and accommodation "
+                            f"is not provided"))
 
     bank = emp.get("bank", {})
     if not bank.get("iban"):
@@ -341,10 +364,18 @@ def compute_eos(emp, pol, last_day, reason, leave_balance=None,
 
 
 def accrued_gratuity(emp, pol, as_of):
-    """What this employee would be owed if they left today — the hidden liability."""
+    """What this employee would be owed if they left today — the hidden liability.
+
+    Returns (amount, service_days); either is None when the input is missing.
+    An unknown liability is reported as unknown, never as zero.
+    """
+    if not emp.get("joined"):
+        return None, None
     sdays = service_days(d(emp["joined"]), as_of)
     if sdays < pol["gratuity_min_service_days"]:
         return 0.0, sdays
+    if emp.get("basic") in (None, ""):
+        return None, sdays
     daily = float(emp["basic"]) / pol["gratuity_divisor_days"]
     return daily * pol["gratuity_days_per_year"] * (sdays / 365.0), sdays
 
@@ -480,11 +511,14 @@ def report_check(roster, pol, as_of, issues, liability):
     A("=" * 74)
     A("  ACCRUED END-OF-SERVICE LIABILITY  (if everyone left today)")
     for row in liability:
-        A(f"  {row['id']:<10}{row['name']:<26}{row['service']:<20}"
-          f"{money(row['gratuity'])}")
+        amount = "     unknown" if row["gratuity"] is None else money(row["gratuity"])
+        A(f"  {row['id']:<10}{row['name'][:24]:<26}{row['service']:<20}{amount}")
     A("-" * 74)
-    A(f"  {'TOTAL ACCRUED GRATUITY':<56}"
-      f"{money(sum(r['gratuity'] for r in liability))}")
+    known = [r["gratuity"] for r in liability if r["gratuity"] is not None]
+    unknown = len(liability) - len(known)
+    label = ("TOTAL ACCRUED GRATUITY" if not unknown
+             else f"TOTAL — INCOMPLETE, {unknown} of {len(liability)} not computable")
+    A(f"  {label:<56}{money(sum(known))}")
     A("=" * 74)
     A(issue_block(issues))
     return "\n".join(out)
@@ -552,15 +586,20 @@ def cmd_check(args):
         issues += expiry_checks(emp, pol, as_of)
         g, sdays = accrued_gratuity(emp, pol, as_of)
         liability.append({"id": emp["id"], "name": emp["name"],
-                          "service": service_text(sdays), "gratuity": g})
+                          "service": "unknown" if sdays is None else service_text(sdays),
+                          "gratuity": g})
 
     if args.json:
+        known = [r["gratuity"] for r in liability if r["gratuity"] is not None]
         print(json.dumps({
             "as_of": as_of.isoformat(),
             "headcount": len(active(roster)),
-            "accrued_gratuity_total": round(sum(r["gratuity"] for r in liability), 2),
-            "accrued_gratuity": [{"id": r["id"], "amount": round(r["gratuity"], 2)}
-                                 for r in liability],
+            "accrued_gratuity_total": round(sum(known), 2),
+            "accrued_gratuity_complete": len(known) == len(liability),
+            "accrued_gratuity": [
+                {"id": r["id"],
+                 "amount": None if r["gratuity"] is None else round(r["gratuity"], 2)}
+                for r in liability],
             "blocking": [{"code": c, "message": m} for lv, c, m in issues if lv == BLOCK],
             "flags": [{"code": c, "message": m} for lv, c, m in issues if lv == FLAG],
         }, indent=2))
@@ -583,10 +622,12 @@ def cmd_run(args):
     issues = employer_checks(roster)
     results = []
     for emp in active(roster):
+        issues += wage_structure_checks(emp, pol)
+        if emp.get("basic") in (None, ""):
+            continue          # nothing computable; the BLOCK is already recorded
         per = per_by_id.get(emp["id"], {})
         r = compute_month(emp, per, pol, year, month)
         results.append(r)
-        issues += wage_structure_checks(emp, pol)
         issues += month_checks(r, pol)
 
     unknown = set(per_by_id) - {e["id"] for e in active(roster)}

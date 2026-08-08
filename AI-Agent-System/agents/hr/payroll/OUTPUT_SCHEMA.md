@@ -112,6 +112,7 @@ narrative fields (`assumptions`, `flags`, `needs_decision`, `handoffs`).
 | `NEEDS_INSTRUCTION` | Computable, but a deduction or exception needs Farhan's written word. | Present; capture the instruction verbatim. |
 | `BLOCKED_ON_COMPLIANCE` | A statutory gate failed. | **Stop.** No WPS file. Escalate with the cost of the fix. |
 | `BLOCKED_ON_INPUT` | Timesheet, roster field or joiner/leaver date missing. | Ask the one question. Never estimate. |
+| `BLOCKED_ON_SPONSORSHIP` | One or more people are sponsored by another establishment. | **Stop.** No WPS route exists for them. Escalate to Farhan and the PRO. |
 | `BLOCKED_ON_EMPLOYER_DATA` | WPS establishment ID, company QID or bank template missing. | OL-014. No file can be produced at all. |
 | `ESTIMATE_ONLY` | A planning figure — a forecast wage bill, a costing for a proposed hire. | Label clearly. It must never become a run. |
 

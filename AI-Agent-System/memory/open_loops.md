@@ -172,3 +172,54 @@ a contract worth 33% of the order book. This is not a filing problem.
 Entitlement, taken and balance are unknown for everyone. Consequence: **no final settlement
 can be completed** — `payroll.py eos` blocks on a missing leave balance rather than assuming
 zero, because assuming zero underpays, systematically and always in the same direction.
+
+---
+
+## 🔴 People — urgent, opened 8 August 2026
+
+Identity documents for four people were supplied on 8 August 2026 (QID cards, passport data
+pages, one driving licence). Names, ID numbers and dates are **not** recorded here — they are
+in Drive. Employee IDs only, per `MEMORY_POLICY.md`.
+
+### OL-020 — Two residency permits have expired  🔴 URGENT
+**Owner:** Farhan, with the PRO · **Raised:** 2026-08-08 · **Blocks:** lawful work, and payroll
+
+| Person | Expired | Days as at 8 Aug 2026 |
+|---|---|---|
+| TNDK-001 | Nov 2025 | **254** |
+| TNDK-002 | May 2026 | **79** |
+
+A daily fine accrues on an expired permit and the holder is not lawfully resident. **The fine
+rate and cap must be confirmed with the PRO — do not quote a figure from memory.**
+
+Compounding it: **TNDK-001's passport expires 37 days from now.** A residency renewal needs a
+valid passport, so the passport has to be renewed first. Two deadlines, one queue.
+
+### OL-021 — Three of four QIDs name a sponsor that is not TNDK  🔴 BLOCKING
+**Owner:** Farhan, with the PRO or a labour adviser · **Raised:** 2026-08-08
+**Blocks:** any payroll, any WPS file, any employment contract
+
+Three permits name other establishments as sponsor. If these men work for TNDK, then TNDK is
+not their sponsor and **cannot pay them through its own WPS file** — WPS pays employees
+registered under the paying establishment.
+
+This is the answer to OL-013's central question, and it is not the expected one. It is a legal
+question, not a payroll one: no agent may advise on it (`RULES.md` A12). It goes to the PRO.
+
+`scripts/payroll.py` now blocks on it: `NOT-SPONSORED`.
+
+### OL-022 — Occupations on the permits do not match the work  🟠
+**Owner:** PEOPLE · **Raised:** 2026-08-08
+
+The permits read Projects Manager, Administration Manager and Executive Manager (×2). At least
+one of these men is described as a driver. Worth raising with the PRO before an inspection does.
+
+### OL-023 — Employment facts still missing for all four  🔴
+**Owner:** Farhan · **Blocks:** every payroll figure
+
+Identity is on file. **Nothing about the employment is.** Missing for each person: whether they
+are an employee or a subcontractor, joining date, basic wage, allowances, whether food and
+accommodation are provided in kind, bank + IBAN, signed contract, health card expiry, leave
+taken to date.
+
+No wage may be estimated to fill the gap (`RULES.md` A3). OL-013 stays open until this lands.

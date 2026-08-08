@@ -101,6 +101,8 @@ months because nobody ever recomputed a total by hand (`memory/lessons.md` L-002
 
 | Gate | What it means | What you do |
 |---|---|---|
+| `NO-WAGE` / `NO-JOINED` | The record has identity but no employment facts | **Stop.** Ask for the wage and the joining date. Never estimate either — the joining date decides gratuity, and two weeks of disagreement is money. |
+| `NOT-SPONSORED` | The residency permit names a sponsor other than TNDK | **Stop.** This person cannot be in TNDK's WPS file at all, whatever their wage is. It is a legal question for the PRO or a labour adviser, not a payroll one — escalate, do not work around it. |
 | `MIN-BASIC` / `MIN-FOOD` / `MIN-ACCOM` | The wage structure is below a statutory minimum | **Stop.** Not an override — it is not Farhan's to waive. Report it, with the shortfall in QAR, and what the compliant figure would be. |
 | `NO-IBAN` / `NO-QID` / `NO-BANK` | The employee cannot be paid through WPS | Stop for that employee. Route to PEOPLE. Ask Farhan how they are to be paid this month, and record the answer. |
 | `NEGATIVE-NET` | Deductions exceed the wage | **Stop.** Never issue a run with a negative net. Propose a repayment schedule inside the cap instead. |
