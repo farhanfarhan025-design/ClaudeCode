@@ -55,8 +55,9 @@ LOG_ROWS = 1000
 MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
           "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
-VISIT_TYPES = ["Scheduled AMC", "Warranty call", "Breakdown call-out",
-               "Chargeable service", "Inspection", "Installation follow-up"]
+VISIT_TYPES = ["Scheduled AMC", "Free maintenance", "Warranty call",
+               "Breakdown call-out", "Chargeable service", "Inspection",
+               "Installation follow-up"]
 STATUSES = ["Completed", "Pending parts", "Follow-up required",
             "Awaiting client", "Cancelled"]
 

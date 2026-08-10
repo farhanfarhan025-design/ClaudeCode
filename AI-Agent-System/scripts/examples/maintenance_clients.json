@@ -1,9 +1,7 @@
 {
   "_note": "Seed list for build_maintenance_log.py. Client names and equipment come from memory/durable_facts.md (order book as at 13 July 2026, verified 3 August 2026). Warranty dates, AMC status, AMC value and visit frequency are NOT recorded anywhere in the system — they are left blank deliberately. Fill them from the handover records; do not guess them. A wrong warranty date sells an AMC against a period still covered free.",
-
   "year": 2026,
   "as_of": "10 August 2026",
-
   "clients": [
     {
       "client": "Consolidated Contractors (CCC)",
@@ -28,10 +26,13 @@
     },
     {
       "client": "Samoosa Shop",
-      "site": "—",
+      "site": "Doha",
       "equipment": "Freezer room",
       "type": "Freezer",
-      "source": "QUT/DCTS/066/2026, 13-Jul-26 — contract value unresolved, D-006"
+      "source": "1 year free maintenance from 27-Jul-2026 (Farhan, 10-Aug-2026). Quotation QUT/DCTS/066/2026 — contract value unresolved, D-006. Visits/year under the free period not yet confirmed.",
+      "handover_date": "2026-07-27",
+      "warranty_end": "2027-07-27",
+      "amc_status": "Not offered"
     },
     {
       "client": "Lean N Fit",
@@ -60,6 +61,20 @@
       "equipment": "Cold room",
       "type": "Cold room",
       "source": "INV-254/2026, 06-Jul-26 — maintenance job"
+    }
+  ],
+  "visits": [
+    {
+      "date": "2026-08-10",
+      "client": "Samoosa Shop",
+      "site": "Doha",
+      "equipment": "Freezer room",
+      "visit_type": "Free maintenance",
+      "work_done": "Ice formation on evaporator fan. Fan de-iced and cleared, unit returned to normal operation. Cause: no PVC strip curtain to the door, allowing warm humid air ingress.",
+      "chargeable": "No",
+      "status": "Completed",
+      "next_due": "2026-09-10",
+      "remarks": "Within 1 year free maintenance. Client advised to fit a PVC strip curtain to prevent recurrence — confirm in writing. Icing will repeat until fitted. Next visit is to verify the curtain and check for re-icing."
     }
   ]
 }

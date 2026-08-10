@@ -33,6 +33,28 @@ Summary block reads 0.00 throughout. Details in `analysis/FINDINGS.md`.
 
 **Needed:** rebuild with verified arithmetic. Draft prepared 3 Aug 2026, awaiting Farhan.
 
+### OL-008 — Samoosa: PVC strip curtain not fitted
+**Owner:** Farhan → client · **Raised:** 2026-08-10 · **Verify by:** 2026-09-10
+
+Free-maintenance visit on 10 Aug 2026 cleared ice formation on the evaporator fan. Cause is
+a missing PVC strip curtain to the door — warm humid air enters every time it opens. The
+client was advised verbally on site.
+
+Until the curtain is fitted the icing recurs, and every recurrence is a free call-out
+against a 1-year free-maintenance obligation running to 27 Jul 2027.
+
+**Needed:** the recommendation confirmed to the client in writing, and a decision on whether
+TNDK supplies and fits the curtain as a chargeable item. Verify at the 10 Sep visit.
+
+### OL-009 — Samoosa: free-maintenance visit count not confirmed
+**Owner:** Farhan · **Raised:** 2026-08-10
+
+The free-maintenance period runs 27 Jul 2026 → 27 Jul 2027, but how many visits it includes
+is not recorded. Without it the maintenance log cannot say whether TNDK is ahead or behind,
+and a client can ask for more visits than were priced.
+
+**Needed:** the visit count from QUT/DCTS/066/2026, entered in the maintenance log.
+
 ### OL-003 — VAT / tax wording contradiction
 **Owner:** Farhan · **Raised:** 2026-08-03 · **Blocks:** clean quotation issuance
 

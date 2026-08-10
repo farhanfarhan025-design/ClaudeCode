@@ -80,5 +80,18 @@ Recorded in `tndk-coldroom-quotation/references/pricing-guide.md` and mirrored i
 
 ## Known warranty / AMC position
 
-No warranty expiry dates recorded for any completed project. AMC contracted value: **QAR 0**.
-This is a gap, not a finding of fact — ANNUITY's first task is to establish it.
+AMC contracted value: **QAR 0**. Warranty and free-maintenance end dates are recorded for
+one project of eight; the rest are still unestablished — a gap, not a finding of fact.
+
+| Project | Cover | From | Ends | Source |
+|---|---|---|---|---|
+| Samoosa Shop — freezer room | 1 year free maintenance | 27-Jul-2026 | **27-Jul-2027** | Farhan, 10-Aug-2026 |
+
+**Samoosa free maintenance.** Runs to 27 July 2027. The AMC approach is due 60 days before
+that — **28 May 2027** (`GOALS.md` G5). Number of visits included in the free period is not
+confirmed; the quotation QUT/DCTS/066/2026 should state it (`open_loops.md` OL-009).
+
+Every visit under a free-maintenance period is TNDK cost at zero revenue. Where a repeat
+fault has an identified, client-side cause, the recommendation goes to the client **in
+writing** — otherwise the repeat visits are absorbed indefinitely and there is no record
+that the cause was raised.
