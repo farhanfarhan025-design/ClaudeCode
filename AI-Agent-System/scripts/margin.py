@@ -83,28 +83,31 @@ def room_cost(room):
          "detail": f"{panel_sqm:.2f} sqm @ {RATES['panel_sqm']:.0f}"
                    f"  (wall {wall:.2f} + ceiling {ceiling:.2f}"
                    + (f" + floor {floor:.2f}" if has_floor else "") + ")",
-         "amount": panel_sqm * RATES["panel_sqm"]},
+         "amount": panel_sqm * RATES["panel_sqm"], "class": "envelope"},
         {"item": f"{room['name']} — angles",
          "detail": f"{angle_pieces} pcs @ {RATES['angle_piece']:.0f}",
-         "amount": angle_pieces * RATES["angle_piece"]},
+         "amount": angle_pieces * RATES["angle_piece"], "class": "envelope"},
     ]
 
     doors = room.get("doors", 1)
     if doors:
         lines.append({"item": f"{room['name']} — door",
                       "detail": f"{doors} @ {RATES['door']:.0f}",
-                      "amount": doors * RATES["door"]})
+                      "amount": doors * RATES["door"], "class": "envelope"})
 
     if has_floor:
         pairs = math.ceil(floor / RATES["floor_pair_coverage"])
         lines.append({"item": f"{room['name']} — floor (chequered + ply)",
                       "detail": f"{pairs} pairs @ {RATES['floor_pair']:.0f}",
-                      "amount": pairs * RATES["floor_pair"]})
+                      "amount": pairs * RATES["floor_pair"], "class": "envelope"})
 
     unit_rate = RATES["unit_freezer"] if "freez" in kind else RATES["unit_chiller"]
     lines.append({"item": f"{room['name']} — condensing unit + evaporator",
                   "detail": f"{kind} duty, 1 set @ {unit_rate:.0f}",
-                  "amount": unit_rate})
+                  "amount": unit_rate, "class": "equipment"})
+
+    for ln in lines:
+        ln["room"] = room["name"]
 
     if qty > 1:
         for ln in lines:
@@ -120,37 +123,70 @@ def build(config):
 
     lines = []
     total_panel = 0.0
+    groups = []          # per room-entry: name, qty, panel sqm, own cost
     for r in rooms:
-        rl, _, panel = room_cost(r)
+        rl, sub, panel = room_cost(r)
         lines.extend(rl)
         total_panel += panel
+        groups.append({"name": r["name"], "qty": r.get("qty", 1),
+                       "panel_sqm": panel, "own_cost": sub})
 
     # Common / shared items
     common = [
         {"item": "Common — control panels",
          "detail": f"{n_rooms} @ {RATES['control_panel']:.0f}",
-         "amount": n_rooms * RATES["control_panel"]},
+         "amount": n_rooms * RATES["control_panel"], "class": "equipment"},
         {"item": "Common — pipe & accessories",
          "detail": f"{n_rooms} systems @ {RATES['pipe_system']:.0f}",
-         "amount": n_rooms * RATES["pipe_system"]},
+         "amount": n_rooms * RATES["pipe_system"], "class": "equipment"},
         {"item": "Common — wiring",
          "detail": f"{n_rooms} systems @ {RATES['wiring_system']:.0f}",
-         "amount": n_rooms * RATES["wiring_system"]},
+         "amount": n_rooms * RATES["wiring_system"], "class": "equipment"},
         {"item": "Common — LED vapour-proof lights",
          "detail": f"lump sum for {n_rooms} rooms",
-         "amount": RATES["lights_per_2_rooms"] * max(1, round(n_rooms / 2))},
+         "amount": RATES["lights_per_2_rooms"] * max(1, round(n_rooms / 2)),
+         "class": "equipment"},
     ]
     lines.extend(common)
 
     for extra in config.get("extras", []):
         lines.append({"item": f"Extra — {extra['item']}",
                       "detail": extra.get("detail", ""),
-                      "amount": float(extra["amount"])})
+                      "amount": float(extra["amount"]), "class": "extra"})
 
     direct = sum(ln["amount"] for ln in lines)
     labour = direct * config.get("labour_pct", LABOUR_PCT)
     transport = config.get("transport", TRANSPORT_DEFAULT)
     cost = direct + labour + transport
+
+    # --- Cost drivers -----------------------------------------------------
+    # Envelope scales with room size. Equipment scales with room COUNT. When
+    # equipment dominates, room area is a misleading proxy for price — which is
+    # exactly how 174/2026 was quoted at -0.3%. See analysis/BACKTEST-2026-08-06.md.
+    drivers = {"envelope": 0.0, "equipment": 0.0, "extra": 0.0}
+    for ln in lines:
+        drivers[ln.get("class", "extra")] += ln["amount"]
+
+    # --- Per-room cost ----------------------------------------------------
+    # Common items allocated per room-unit; extras, labour and transport
+    # allocated pro-rata. The point is a like-for-like against price per room.
+    common_total = sum(ln["amount"] for ln in lines if ln["item"].startswith("Common"))
+    extras_total = drivers["extra"]
+    per_unit_common = common_total / n_rooms if n_rooms else 0.0
+
+    base = [g["own_cost"] + g["qty"] * per_unit_common for g in groups]
+    base_sum = sum(base) or 1.0
+    load = (cost / direct) if direct else 1.0
+
+    per_room = []
+    for g, b in zip(groups, base):
+        share = b + extras_total * (b / base_sum)
+        per_room.append({
+            "name": g["name"], "qty": g["qty"],
+            "panel_sqm": g["panel_sqm"],
+            "equipment_set": g["qty"] * per_unit_common,
+            "cost": share * load,
+        })
 
     return {
         "lines": lines,
@@ -161,6 +197,9 @@ def build(config):
         "cost": cost,
         "total_panel_sqm": total_panel,
         "n_rooms": n_rooms,
+        "drivers": drivers,
+        "per_room": per_room,
+        "per_unit_common": per_unit_common * load,
     }
 
 
@@ -201,6 +240,33 @@ def report(config, b, proposed=None):
     A(f"  {'Transport & handling':<44}{money(b['transport'])}")
     A(f"  {'TOTAL COST':<44}{money(b['cost'])}")
     A("=" * 74)
+
+    d = b["drivers"]
+    env_pct = d["envelope"] / b["direct"] * 100 if b["direct"] else 0
+    eqp_pct = d["equipment"] / b["direct"] * 100 if b["direct"] else 0
+    A("  COST DRIVERS")
+    A(f"  {'Envelope — panel, angles, doors, floor':<44}{money(d['envelope'])}"
+      f"   ({env_pct:>5.1f}%)")
+    A(f"  {'Equipment & systems — scales with ROOM COUNT':<44}"
+      f"{money(d['equipment'])}   ({eqp_pct:>5.1f}%)")
+    if d["extra"]:
+        A(f"  {'Extras':<44}{money(d['extra'])}")
+    if eqp_pct >= env_pct:
+        A("")
+        A("  *** EQUIPMENT-DRIVEN JOB ***")
+        A(f"  Equipment is the larger half of direct cost. Each room adds")
+        A(f"  ~{b['per_unit_common']:,.2f} of systems regardless of its size,")
+        A(f"  on top of its own condensing unit and evaporator.")
+        A("  Pricing this off room area will underprice it.")
+    A("=" * 74)
+
+    if b["n_rooms"] > 1 or len(b["per_room"]) > 1:
+        A("  COST PER ROOM")
+        for r in b["per_room"]:
+            label = r["name"] + (f" x{r['qty']}" if r["qty"] > 1 else "")
+            A(f"  {label:<28}{r['panel_sqm']:>8.2f} sqm{money(r['cost'])}")
+        A("=" * 74)
+
     A("  PRICE LADDER")
     for label, mk in [("FLOOR / competitive / tender / repeat (20%)", MARKUP_FLOOR),
                       ("Standard (25%)", 0.25),
@@ -223,6 +289,27 @@ def report(config, b, proposed=None):
         A(f"  {'True gross margin (share of price)':<44}"
           f"{a['margin_on_price']*100:>11.1f}%")
         A("")
+
+        # Area-weighted test: split the proposed price the way the job LOOKS
+        # (by panel area) and compare with what each room actually costs.
+        # This is the Mecca failure made visible.
+        if len(b["per_room"]) > 1 and b["total_panel_sqm"]:
+            A("  IF PRICED BY ROOM SIZE (area-weighted)")
+            worst = None
+            for r in b["per_room"]:
+                alloc = proposed * (r["panel_sqm"] / b["total_panel_sqm"])
+                gap = alloc - r["cost"]
+                flag = "  <-- UNDER COST" if gap < 0 else ""
+                A(f"  {r['name']:<20}{money(alloc)} vs cost{money(r['cost'])}"
+                  f"{flag}")
+                if worst is None or gap < worst[1]:
+                    worst = (r["name"], gap)
+            if worst and worst[1] < 0:
+                A("")
+                A(f"  '{worst[0]}' is {abs(worst[1]):,.2f} under its own cost when the")
+                A("  price is split by area. Equipment does not scale with size —")
+                A("  price the equipment count, not the square metres.")
+            A("")
         if a["markup_on_cost"] < MARKUP_FLOOR:
             shortfall = price_at(b["cost"], MARKUP_FLOOR) - proposed
             A(f"  *** BELOW FLOOR ***  {a['markup_on_cost']*100:.1f}% markup"

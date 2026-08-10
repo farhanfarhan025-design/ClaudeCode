@@ -8,3 +8,6 @@ out/
 __pycache__/
 *.pyc
 .DS_Store
+
+# Quote outcome log is operational data (D-001) — tool is tracked, data is not.
+AI-Agent-System/logs/*.csv
