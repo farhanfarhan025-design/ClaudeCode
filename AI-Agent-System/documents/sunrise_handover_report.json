@@ -1,5 +1,5 @@
 {
-  "_note": "Cold room handover & awareness report — Sunrise Trading (Jollibee Rasaboud). Warranty: 400 days from 13 Aug 2026, ending 17 Sep 2027 (Farhan, 10 Aug 2026). Door handles and lights excluded, all other items included. Handover date aligned to the warranty start — confirm if handover is a different day.",
+  "_note": "Cold room handover & awareness report — Sunrise Trading (Jollibee Rasaboud). Handover 13 Aug 2026. Warranty 13 Aug 2026 to 12 Aug 2027 inclusive (Farhan, 10 Aug 2026). Door handles and lights excluded, all other items included.",
   "title": "Cold Room Handover & Awareness Report — Jollibee Rasaboud",
   "folio": "TNDK · Jollibee Rasaboud · Handover Report",
   "pages": [
@@ -47,7 +47,7 @@
           ],
           [
             "Warranty period",
-            "400 days — 13 August 2026 to 17 September 2027"
+            "12 months — 13 August 2026 to 12 August 2027"
           ],
           [
             "Maintenance — 24 hr",
@@ -147,12 +147,12 @@
     {
       "type": "spec",
       "eyebrow": "Warranty",
-      "title": "400 day warranty — what is covered",
-      "intro": "TNDK warrants the equipment and materials supplied and installed under LPO PO-2026-0000248, and the workmanship of that installation, for 400 days from 13 August 2026 — expiring 17 September 2027. Two items are excluded and are shown in red below.",
+      "title": "12 month warranty — what is covered",
+      "intro": "TNDK warrants the equipment and materials supplied and installed under LPO PO-2026-0000248, and the workmanship of that installation, for 12 months — 13 August 2026 to 12 August 2027 inclusive. Two items are excluded and are shown in red below.",
       "table": {
         "headers": [
           "Item",
-          "Covered for 400 days"
+          "Covered for 12 months"
         ],
         "rows": [
           [
@@ -261,7 +261,7 @@
         "<strong>Sales Engineer</strong>&nbsp;&nbsp;+974 7706 0676",
         "farhan@dctsqatar.com",
         "",
-        "Warranty: 400 days — 13 August 2026 to 17 September 2027"
+        "Warranty: 12 months — 13 August 2026 to 12 August 2027"
       ],
       "note": "Design · Supply · Installation · Maintenance"
     }

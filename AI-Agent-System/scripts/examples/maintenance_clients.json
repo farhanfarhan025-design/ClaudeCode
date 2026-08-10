@@ -22,9 +22,9 @@
       "site": "Jollibee Rasaboud",
       "equipment": "Cold room",
       "type": "Cold room",
-      "source": "Handover 13-Aug-2026. LPO PO-2026-0000248. Warranty 400 days from 13-Aug-2026, expiring 17-Sep-2027, EXCLUDING door handles and lights (Farhan, 10-Aug-2026). Visits/year not yet agreed.",
+      "source": "Handover 13-Aug-2026. LPO PO-2026-0000248. Warranty 13-Aug-2026 to 12-Aug-2027 inclusive, EXCLUDING door handles and lights (Farhan, 10-Aug-2026). Visits/year not yet agreed.",
       "handover_date": "2026-08-13",
-      "warranty_end": "2027-09-17",
+      "warranty_end": "2027-08-12",
       "amc_status": "Not offered"
     },
     {

@@ -86,7 +86,7 @@ one project of eight; the rest are still unestablished — a gap, not a finding 
 | Project | Cover | From | Ends | Source |
 |---|---|---|---|---|
 | Samoosa Shop — freezer room | 1 year free maintenance | 27-Jul-2026 | **27-Jul-2027** | Farhan, 10-Aug-2026 |
-| Sunrise / Jollibee Rasaboud — cold room | 400 day warranty | 13-Aug-2026 | **17-Sep-2027** | Farhan, 10-Aug-2026 |
+| Sunrise / Jollibee Rasaboud — cold room | 12 month warranty | 13-Aug-2026 | **12-Aug-2027** | Farhan, 10-Aug-2026 |
 
 **Sunrise warranty excludes door handles and lights**; all other supplied items and the
 workmanship of the installation are covered. Stated on the handover report issued to the
