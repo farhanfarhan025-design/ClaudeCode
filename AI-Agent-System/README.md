@@ -14,6 +14,7 @@ Built 3 August 2026 for Farhan (owner).
 | Know what was found and why it matters | `analysis/FINDINGS.md` |
 | Understand the whole design | this file |
 | Deploy the first agent | `agents/price/` + the deployment sequence below |
+| Decide whether to do something at all | ask **RAIS** — `.claude/skills/rais/` |
 | Know what's blocking | `memory/open_loops.md` |
 | Know the rules | `RULES.md` |
 
@@ -22,7 +23,9 @@ Built 3 August 2026 for Farhan (owner).
 ```
 FARHAN (owner — goals, risk, pricing authority, all approvals)
 │
-└── TNDK-OPS (manager) — diagnose · route · review · report. Never executes.
+├── RAIS (advisor) — "should we?" · verdicts on owner-level decisions. Never executes.
+│
+└── TNDK-OPS (manager) — "how do we?" · diagnose · route · review · report. Never executes.
     │
     ├── SCOPE     enquiry → technical definition          Stage 2
     ├── PRICE     cost → margin → price                   Stage 2  ★ built
@@ -35,6 +38,12 @@ FARHAN (owner — goals, risk, pricing authority, all approvals)
 **One agent, one lane.** SCOPE defines what is built; PRICE decides what it costs. That
 separation is the structural fix for the margin problem — the person who wants the job does
 not set the number alone.
+
+**RAIS is not a lane.** The six lanes are all downstream of a decision already taken —
+PRICE prices the job Farhan chose to quote, PROCURE buys for the job he chose to take.
+RAIS is the second opinion on the choice itself: take it or refuse it, discount or hold,
+hire or wait, expand or not. It gives a verdict and a number; it produces no documents and
+executes nothing. Lives as an invocable skill at `.claude/skills/rais/`.
 
 ## Why PRICE first
 
@@ -59,6 +68,7 @@ AI-Agent-System/
 ├── agents/
 │   ├── price/           ★ full build: SOUL · IDENTITY · PLAYBOOK · EXAMPLES
 │   │                      · QA_CHECKLIST · OUTPUT_SCHEMA · SYSTEM_PROMPT · TESTS
+│   ├── rais/            advisor to the owner — IDENTITY; body lives in the skill
 │   ├── scope|procure|ledger|collect|annuity/   IDENTITY (lane contracts)
 │   └── TEMPORARY_SPECIALIST.md
 ├── memory/              durable_facts · preferences · open_loops · lessons

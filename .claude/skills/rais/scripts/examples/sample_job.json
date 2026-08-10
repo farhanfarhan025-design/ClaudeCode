@@ -1,0 +1,36 @@
+{
+  "job": "Bakery cold room + freezer (illustrative figures only)",
+  "client": "New client, SME",
+
+  "contract_value": 46000,
+
+  "direct_cost": 30000,
+  "labour_cost": 2500,
+  "transport_cost": 800,
+  "other_cost": 0,
+  "overhead_pct": 5,
+
+  "duration_days": 30,
+  "material_order_day": 0,
+  "vendor_payment_days": 30,
+
+  "payment_schedule": [
+    { "pct": 60, "trigger": "advance",       "expected_day": 0 },
+    { "pct": 40, "trigger": "commissioning", "expected_day": 45 }
+  ],
+
+  "retention_pct": 0,
+  "retention_release_day": null,
+
+  "current_book": 758100,
+  "client_existing_book": 0,
+  "cash_in_hand": 120000,
+
+  "new_client": true,
+  "penalty_clause": false,
+  "verbal_award": false,
+  "unverified_rates": true,
+
+  "margin_floor_pct": 22,
+  "new_client_floor_pct": 30
+}
