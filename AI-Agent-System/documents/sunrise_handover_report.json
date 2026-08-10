@@ -1,0 +1,262 @@
+{
+  "_note": "Cold room handover & awareness report — Sunrise Trading (Jollibee Rasaboud). Warranty inclusions/exclusions per Farhan, 10 Aug 2026: door handles and lights excluded, all other items included. Handover date assumed 11 Aug 2026 ('tomorrow evening') — confirm before printing.",
+  "title": "Cold Room Handover & Awareness Report — Jollibee Rasaboud",
+  "folio": "TNDK · Jollibee Rasaboud · Handover Report",
+  "pages": [
+    {
+      "type": "cover",
+      "mark": "TNDK|.",
+      "title": "Cold Room\nHandover &\nAwareness Report",
+      "subtitle": "Prepared for Sunrise Trading & Food Stuff Co.\nJollibee Rasaboud — cold room installation. Operating guidance, routine checks and warranty terms for the operations team.",
+      "footer": "The New Doha Kitchen Equipment Services W.L.L. · Doha, Qatar"
+    },
+    {
+      "type": "spec",
+      "eyebrow": "Handover",
+      "title": "Project details",
+      "intro": "This report is issued to Sunrise Trading & Food Stuff Co. on completion and handover of the cold room installation at Jollibee Rasaboud. Please keep it with your site records and make it available to the staff who use the room.",
+      "table": {
+        "headers": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "Client",
+            "Sunrise Trading & Food Stuff Co."
+          ],
+          [
+            "Project",
+            "Jollibee Rasaboud — cold room"
+          ],
+          [
+            "Order reference",
+            "LPO PO-2026-0000248 dated 06 July 2026"
+          ],
+          [
+            "Contractor",
+            "The New Doha Kitchen Equipment Services W.L.L. (TNDK)"
+          ],
+          [
+            "Scope",
+            "Design, supply, installation and commissioning"
+          ],
+          [
+            "Handover date",
+            "11 August 2026"
+          ],
+          [
+            "Warranty period",
+            "12 months — 11 August 2026 to 11 August 2027"
+          ],
+          [
+            "Service contact",
+            "Tel 7706 0676 · farhan@dctsqatar.com"
+          ]
+        ]
+      },
+      "note": "The room has been commissioned and left running at its design temperature. Please confirm the temperature is holding before the first product is loaded."
+    },
+    {
+      "type": "text",
+      "eyebrow": "Awareness",
+      "title": "Operating your cold room",
+      "panel": "Almost every cold room fault we are called to attend comes from one of three things: a door left open, air blocked at the evaporator, or hot product loaded straight in. All three are avoidable at no cost.",
+      "columns": 2,
+      "body": [
+        "KEEP THE DOOR CLOSED. Every time the door opens, warm humid air enters and turns into ice on the evaporator and frost on the floor. Open it, go in, close it. Do not prop it open while loading — stage the goods outside and move them in one trip. Where a strip curtain is fitted, keep it complete and hanging straight; a missing strip is a permanently open door.",
+        "LEAVE AIR SPACE. Cold air has to circulate. Do not stack goods against the evaporator, under its discharge, or tight to the walls and ceiling. Leave a clear gap all round and keep the fan discharge unobstructed. A blocked evaporator raises the room temperature even though the unit is running normally.",
+        "DO NOT LOAD HOT PRODUCT. Let cooked or freshly delivered warm product cool before it goes into the room. Hot product raises the room temperature, puts the compressor under sustained load, and adds moisture that becomes ice.",
+        "DO NOT CHANGE THE SETTING. The thermostat has been set for the product this room is intended to hold. If your storage requirement changes, call us and we will reset it — do not adjust the controller on site.",
+        "LEAVE THE UNIT RUNNING. Do not switch the room off overnight or at weekends to save electricity. The product warms, moisture condenses, and the compressor is stressed by repeated cold starts. After any power failure, allow a few minutes before restarting so pressures can equalise.",
+        "CLEAN CAREFULLY. Use a mild detergent and a damp cloth on panels and floor. Never pressure-wash the panels, the evaporator, the control panel or any electrical enclosure. Keep the floor clear of standing water and ice — it is a slip hazard and usually a sign of a door or drain problem.",
+        "DO NOT MODIFY THE STRUCTURE. Do not drill, screw into, or hang shelving or loads from the insulated panels. Do not run cables or pipework through them. Any penetration breaks the vapour seal and causes condensation inside the panel that cannot be seen until the insulation has failed.",
+        "REPORT EARLY. Unusual noise, ice building up, water on the floor, or a temperature drifting away from its normal reading are all early signs. Called in early they are a service visit; left alone they become a breakdown and a load of spoiled product."
+      ]
+    },
+    {
+      "type": "spec",
+      "eyebrow": "Awareness",
+      "title": "Routine checks for your team",
+      "intro": "These take a few minutes and are the difference between a small correction and a breakdown. Assign them to a named person and keep a simple temperature record.",
+      "table": {
+        "headers": [
+          "When",
+          "Check",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Daily",
+            "Room temperature against its normal reading",
+            "The earliest warning of any developing fault"
+          ],
+          [
+            "Daily",
+            "Door closes fully and the gasket seals all round",
+            "The single largest cause of ice and lost temperature"
+          ],
+          [
+            "Daily",
+            "Floor clear of water and ice",
+            "Slip hazard, and a sign of a door or drain problem"
+          ],
+          [
+            "Daily",
+            "Strip curtain complete and hanging straight",
+            "A missing strip is a permanently open door"
+          ],
+          [
+            "Weekly",
+            "Evaporator free of ice build-up",
+            "Ice restricts airflow and raises room temperature"
+          ],
+          [
+            "Weekly",
+            "Nothing stacked against the evaporator or blocking airflow",
+            "Blocked air circulation warms the room while the unit runs"
+          ],
+          [
+            "Weekly",
+            "Condenser coil clear of dust, boxes and obstruction",
+            "A blocked condenser trips the unit on high pressure"
+          ],
+          [
+            "Monthly",
+            "Door gasket, hinges and closer condition",
+            "Worn seals lose temperature continuously"
+          ],
+          [
+            "Monthly",
+            "Drain line clear and draining freely",
+            "A blocked drain puts water on the floor and ice in the room"
+          ],
+          [
+            "Monthly",
+            "Temperature records reviewed for any drift",
+            "A slow trend is visible in the record long before it is visible in the room"
+          ]
+        ]
+      },
+      "note": "Keep the temperature record. If a fault is ever disputed, the record is what shows how the room was operated."
+    },
+    {
+      "type": "spec",
+      "eyebrow": "Warranty",
+      "title": "12 month warranty — what is covered",
+      "intro": "TNDK warrants the equipment and materials supplied and installed under LPO PO-2026-0000248, and the workmanship of that installation, for 12 months from the date of handover — 11 August 2026 to 11 August 2027. Two items are excluded and are shown in red below.",
+      "table": {
+        "headers": [
+          "Item",
+          "Covered for 12 months"
+        ],
+        "rows": [
+          [
+            "Condensing unit",
+            "Included"
+          ],
+          [
+            "Evaporator unit",
+            "Included"
+          ],
+          [
+            "Insulated wall, ceiling and floor panels",
+            "Included"
+          ],
+          [
+            "Cold room door — leaf, frame, hinges, closer and gasket",
+            "Included"
+          ],
+          [
+            "Control panel, thermostat and electrical wiring",
+            "Included"
+          ],
+          [
+            "Refrigeration pipework and insulation",
+            "Included"
+          ],
+          [
+            "Workmanship of the installation",
+            "Included"
+          ],
+          [
+            "Door handles",
+            "NOT INCLUDED"
+          ],
+          [
+            "Lights and light fittings",
+            "NOT INCLUDED"
+          ]
+        ]
+      },
+      "note": "Door handles and lights are not covered under the warranty. They remain available from TNDK as chargeable replacement items — call the service number and we will supply and fit them.",
+      "highlight": [
+        7,
+        8
+      ],
+      "signoff": [
+        "Handed over by — TNDK",
+        "Received and understood — Client"
+      ]
+    },
+    {
+      "type": "spec",
+      "eyebrow": "Support",
+      "title": "If there is a problem",
+      "intro": "Check the obvious first — it resolves a good proportion of call-outs in minutes. If it is not one of these, call us rather than waiting to see whether it settles.",
+      "table": {
+        "headers": [
+          "What you see",
+          "Check first",
+          "Then"
+        ],
+        "rows": [
+          [
+            "Temperature rising",
+            "Door closed and sealing · nothing blocking the evaporator · condenser clear",
+            "Call TNDK. Move product if the rise continues"
+          ],
+          [
+            "Ice on the evaporator or ceiling",
+            "Door discipline · strip curtain complete",
+            "Call TNDK. Do not chip or hammer ice off — the coil damages easily"
+          ],
+          [
+            "Water on the floor",
+            "Drain not blocked · door gasket sealing",
+            "Call TNDK"
+          ],
+          [
+            "Unit not running",
+            "Power on · breaker not tripped",
+            "Reset the breaker once. If it trips again, call TNDK and leave it off"
+          ],
+          [
+            "Unusual noise or vibration",
+            "—",
+            "Switch off and call TNDK immediately. Running a failing compressor destroys it"
+          ],
+          [
+            "Frost on the outside of panels",
+            "—",
+            "Call TNDK — this indicates a vapour seal issue and should be seen quickly"
+          ]
+        ]
+      },
+      "note": "Service contact: Tel 7706 0676 · farhan@dctsqatar.com. Please have the project name — Jollibee Rasaboud — and a description of what the room is doing ready when you call."
+    },
+    {
+      "type": "back",
+      "headline": "Call us early. A service visit costs far less than a breakdown and a room full of spoiled product.",
+      "contact": [
+        "<strong>The New Doha Kitchen Equipment Services W.L.L.</strong>",
+        "P.O. Box 80247, Doha, State of Qatar",
+        "Tel 7706 0676",
+        "farhan@dctsqatar.com",
+        "",
+        "Warranty period: 11 August 2026 — 11 August 2027"
+      ],
+      "note": "Design · Supply · Installation · Maintenance"
+    }
+  ]
+}

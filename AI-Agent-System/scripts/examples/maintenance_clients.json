@@ -22,7 +22,10 @@
       "site": "Jollibee Rasaboud",
       "equipment": "Cold room",
       "type": "Cold room",
-      "source": "LPO PO-2026-0000248, 06-Jul-26"
+      "source": "Handover 11-Aug-2026 (Farhan, 10-Aug-2026). LPO PO-2026-0000248. 12-month warranty EXCLUDING door handles and lights. Visits/year not yet agreed.",
+      "handover_date": "2026-08-11",
+      "warranty_end": "2027-08-11",
+      "amc_status": "Not offered"
     },
     {
       "client": "Samoosa Shop",

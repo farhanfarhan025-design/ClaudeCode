@@ -84,14 +84,21 @@ class Builder:
         return f'<img{cls} src="{esc(url)}" alt="{esc(alt)}">'
 
     def bg_image(self, src: str | None, css_class: str, alt: str = "") -> str:
-        """Full-bleed image that must fill its frame; placeholder keeps the box."""
-        if src and (self.base / src).exists() or (src or "").startswith(("http", "data:")):
+        """Full-bleed image for a cover, feature or section band.
+
+        Distinguishes two different things that both look like "no picture".
+        A path that was given and does not resolve is a fault, and shows as a
+        placeholder so it gets fixed. No path at all is a decision — a plain
+        brand field is a legitimate cover, and often the right one for a
+        document where a stock photograph would be worse than none."""
+        if not src:
+            return ""
+        if (self.base / src).exists() or src.startswith(("http", "data:")):
             return self.image(src, css_class, alt)
-        if src:
-            self.missing_images.append(src)
+        self.missing_images.append(src)
         return (
             f'<div class="{css_class}" style="display:flex">'
-            f'<div class="missing">{"MISSING: " + esc(src) if src else "NO IMAGE"}</div></div>'
+            f'<div class="missing">MISSING: {esc(src)}</div></div>'
         )
 
     # ----------------------------------------------------------------- pages
@@ -120,7 +127,7 @@ class Builder:
         <div class="cover__stack">
           <div class="rule"></div>
           <h1 class="cover__title">{esc_lines(p.get("title", ""))}</h1>
-          <p class="cover__sub">{esc(p.get("subtitle", ""))}</p>
+          <p class="cover__sub">{esc_lines(p.get("subtitle", ""))}</p>
         </div>
         <div class="cover__foot">{esc(p.get("footer", ""))}</div>
       </div>"""
@@ -214,12 +221,28 @@ class Builder:
     def spec(self, p: dict) -> str:
         table = p.get("table", {})
         head = "".join(f"<th>{esc(h)}</th>" for h in table.get("headers", []))
+        # Rows named in `highlight` (0-based) render in the alert colours. A
+        # table whose exclusions look exactly like its inclusions has not
+        # communicated the exclusion, however clearly the words are chosen.
+        flagged = set(p.get("highlight", []))
         body = "".join(
-            "<tr>" + "".join(f"<td>{esc(c)}</td>" for c in row) + "</tr>"
-            for row in table.get("rows", [])
+            f'<tr class="{"row--flag" if i in flagged else ""}">'
+            + "".join(f"<td>{esc(c)}</td>" for c in row) + "</tr>"
+            for i, row in enumerate(table.get("rows", []))
         )
         intro = f'<p class="lead">{esc(p["intro"])}</p>' if p.get("intro") else ""
         note = f'<p class="caption">{esc(p["note"])}</p>' if p.get("note") else ""
+        # Signature lines for a handover or acceptance document, where the
+        # point is not only that the terms were stated but that they were
+        # received.
+        signoff = ""
+        if p.get("signoff"):
+            cols = "".join(
+                f'<div class="sign__col"><div class="sign__rule"></div>'
+                f'<div class="sign__label">{esc(c)}</div></div>'
+                for c in p["signoff"]
+            )
+            signoff = f'<div class="sign">{cols}</div>'
         return f"""
       <div class="well">
         <div class="eyebrow">{esc(p.get("eyebrow", ""))}</div>
@@ -228,6 +251,7 @@ class Builder:
         {intro}
         <table class="table"><thead><tr>{head}</tr></thead><tbody>{body}</tbody></table>
         {note}
+        {signoff}
       </div>"""
 
     def gallery(self, p: dict) -> str:

@@ -336,6 +336,12 @@ p { font-size: 9.5pt; line-height: 1.55; margin: 0 0 3mm; }
 .table tbody tr:nth-child(even) { background: #FAFBFC; }
 .table tbody td:first-child { font-weight: 700; color: var(--ink); }
 
+/* An exclusion, a warning, a row that must not be read as one of the others. */
+.table tbody tr.row--flag,
+.table tbody tr.row--flag:nth-child(even) { background: #FDECEA; }
+.table tbody tr.row--flag td,
+.table tbody tr.row--flag td:first-child { color: #C00000; font-weight: 700; }
+
 /* ---------------------------------------------------------- item grid */
 
 .grid { display: grid; gap: 7mm; align-content: start; }
@@ -370,6 +376,16 @@ p { font-size: 9.5pt; line-height: 1.55; margin: 0 0 3mm; }
   color: var(--ink);
   background: var(--tint);
   padding: 1.2mm 2mm;
+}
+
+/* ---------------------------------------------------------- sign-off */
+
+.sign { display: flex; gap: 14mm; margin-top: 14mm; }
+.sign__col { flex: 1; }
+.sign__rule { border-bottom: 0.3mm solid var(--ink); height: 12mm; }
+.sign__label {
+  font-size: 8pt; letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--muted); font-weight: 700; margin-top: 2mm;
 }
 
 /* ----------------------------------------------------------- gallery */
