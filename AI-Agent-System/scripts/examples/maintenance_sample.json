@@ -1,0 +1,163 @@
+{
+  "_note": "SAMPLE ONLY. Client names and equipment are real (memory/durable_facts.md). Every warranty date, AMC value, visit frequency, visit record and amount below is INVENTED to demonstrate the workbook. None of it is a record of work actually done. Do not copy any figure from this file into a register, an invoice or a conversation with a client.",
+
+  "banner": "SAMPLE — ILLUSTRATIVE DATA ONLY. NOT A RECORD OF ACTUAL WORK.",
+  "year": 2026,
+  "as_of": "10 August 2026",
+
+  "clients": [
+    {
+      "client": "Consolidated Contractors (CCC)",
+      "site": "HIA Airport",
+      "equipment": "Cold rooms (5 no.)",
+      "type": "Cold room",
+      "handover_date": "2026-07-15",
+      "warranty_end": "2027-07-15",
+      "amc_status": "Not offered",
+      "visits_per_year": 2,
+      "contact": "Site QA/QC",
+      "source": "SAMPLE dates — real award LPO DIAR-L05531 MCR"
+    },
+    {
+      "client": "HBK-BWTC-BEIL JV",
+      "site": "Mesaieed",
+      "equipment": "Animal waste cold room",
+      "type": "Cold room",
+      "amc_status": "Proposed",
+      "source": "SAMPLE — not installed; LOA HBB000353-0 carries an AMC clause"
+    },
+    {
+      "client": "Sunrise Trading & Food Stuff Co.",
+      "site": "Jollibee Rasaboud",
+      "equipment": "Cold room",
+      "type": "Cold room",
+      "handover_date": "2026-07-20",
+      "warranty_end": "2027-07-20",
+      "amc_status": "Not offered",
+      "visits_per_year": 2,
+      "source": "SAMPLE dates — real award LPO PO-2026-0000248"
+    },
+    {
+      "client": "Samoosa Shop",
+      "site": "Doha",
+      "equipment": "Freezer room",
+      "type": "Freezer",
+      "handover_date": "2026-08-01",
+      "warranty_end": "2027-08-01",
+      "amc_status": "Not offered",
+      "visits_per_year": 2,
+      "source": "SAMPLE dates — contract value unresolved, D-006"
+    },
+    {
+      "client": "Lean N Fit",
+      "site": "Doha",
+      "equipment": "Freezer unit (replacement)",
+      "type": "Freezer",
+      "handover_date": "2025-09-25",
+      "warranty_end": "2026-09-25",
+      "amc_status": "Proposed",
+      "visits_per_year": 2,
+      "source": "SAMPLE dates — warranty ending, AMC not yet closed"
+    },
+    {
+      "client": "Ruwais Farm",
+      "site": "Al Ruwais",
+      "equipment": "Refrigeration — 2 chillers, 1 freezer",
+      "type": "Refrigeration",
+      "handover_date": "2024-04-10",
+      "warranty_end": "2025-04-10",
+      "amc_status": "Active",
+      "amc_start": "2026-01-01",
+      "amc_end": "2026-12-31",
+      "amc_value": 7400,
+      "visits_per_year": 4,
+      "contact": "Farm manager",
+      "source": "SAMPLE — demonstrates an AMC running to schedule"
+    },
+    {
+      "client": "Al Noor Bakery",
+      "site": "Doha",
+      "equipment": "Refrigeration — display + walk-in",
+      "type": "Refrigeration",
+      "handover_date": "2024-11-02",
+      "warranty_end": "2025-11-02",
+      "amc_status": "Active",
+      "amc_start": "2026-01-01",
+      "amc_end": "2026-12-31",
+      "amc_value": 1600,
+      "visits_per_year": 2,
+      "source": "SAMPLE — demonstrates unbilled work"
+    },
+    {
+      "client": "BSI Company (Mr. Lijo)",
+      "site": "Doha",
+      "equipment": "Cold room",
+      "type": "Cold room",
+      "handover_date": "2024-06-18",
+      "warranty_end": "2025-06-18",
+      "amc_status": "Declined",
+      "source": "SAMPLE — breakdown call-outs only, no AMC"
+    }
+  ],
+
+  "visits": [
+    { "date": "2026-01-14", "client": "Ruwais Farm", "site": "Al Ruwais",
+      "equipment": "Chiller 1 & 2", "visit_type": "Scheduled AMC",
+      "work_done": "Q1 service — coils cleaned, gas pressure checked, controls verified",
+      "parts": "Filter driers x2", "technician": "Team A", "chargeable": "Yes",
+      "amount": 1850, "invoice_ref": "INV-231/2026", "status": "Completed",
+      "next_due": "2026-04-14" },
+
+    { "date": "2026-02-09", "client": "Al Noor Bakery", "site": "Doha",
+      "equipment": "Walk-in chiller", "visit_type": "Scheduled AMC",
+      "work_done": "H1 service — condenser cleaned, door gasket adjusted",
+      "technician": "Team B", "chargeable": "Yes", "amount": 800,
+      "invoice_ref": "INV-238/2026", "status": "Completed", "next_due": "2026-08-09" },
+
+    { "date": "2026-03-03", "client": "BSI Company (Mr. Lijo)", "site": "Doha",
+      "equipment": "Cold room", "visit_type": "Breakdown call-out",
+      "work_done": "Room not holding temperature — thermostat replaced",
+      "parts": "Thermostat", "technician": "Team B", "chargeable": "Yes",
+      "amount": 450, "invoice_ref": "INV-254/2026", "status": "Completed" },
+
+    { "date": "2026-04-16", "client": "Ruwais Farm", "site": "Al Ruwais",
+      "equipment": "Chiller 1 & 2, Freezer", "visit_type": "Scheduled AMC",
+      "work_done": "Q2 service — full clean, refrigerant top-up on freezer circuit",
+      "parts": "R404A 2 kg", "technician": "Team A", "chargeable": "Yes",
+      "amount": 1850, "invoice_ref": "INV-247/2026", "status": "Completed",
+      "next_due": "2026-07-16" },
+
+    { "date": "2026-05-22", "client": "Lean N Fit", "site": "Doha",
+      "equipment": "Freezer unit", "visit_type": "Warranty call",
+      "work_done": "Fan motor noise — motor replaced under warranty",
+      "parts": "Evaporator fan motor", "technician": "Team A", "chargeable": "No",
+      "status": "Completed", "remarks": "Under warranty — no charge" },
+
+    { "date": "2026-06-11", "client": "Al Noor Bakery", "site": "Doha",
+      "equipment": "Display chiller", "visit_type": "Breakdown call-out",
+      "work_done": "Compressor tripping on overload — contactor replaced",
+      "parts": "Contactor 25A", "technician": "Team B", "chargeable": "Yes",
+      "amount": 650, "status": "Completed",
+      "remarks": "SAMPLE: chargeable, never invoiced — shows red" },
+
+    { "date": "2026-07-16", "client": "Ruwais Farm", "site": "Al Ruwais",
+      "equipment": "Chiller 1 & 2, Freezer", "visit_type": "Scheduled AMC",
+      "work_done": "Q3 service — coils cleaned, controls verified",
+      "technician": "Team A", "chargeable": "Yes", "amount": 1850,
+      "status": "Completed", "next_due": "2026-10-16",
+      "remarks": "SAMPLE: chargeable, never invoiced — shows red" },
+
+    { "date": "2026-07-28", "client": "Consolidated Contractors (CCC)", "site": "HIA Airport",
+      "equipment": "Cold rooms 1-5", "visit_type": "Installation follow-up",
+      "work_done": "Post-handover inspection — temperatures verified across all 5 chambers",
+      "technician": "Team A", "chargeable": "No", "status": "Completed",
+      "next_due": "2027-01-15", "remarks": "Within warranty" },
+
+    { "date": "2026-08-04", "client": "BSI Company (Mr. Lijo)", "site": "Doha",
+      "equipment": "Cold room", "visit_type": "Breakdown call-out",
+      "work_done": "Door closer broken — replacement ordered",
+      "technician": "Team B", "chargeable": "Yes", "amount": 380,
+      "status": "Pending parts",
+      "remarks": "SAMPLE: awaiting part, invoice on completion" }
+  ]
+}

@@ -74,14 +74,22 @@ def style_header(ws, row: int, ncols: int) -> None:
     ws.row_dimensions[row].height = 30
 
 
-def title_block(ws, title: str, subtitle: str, ncols: int) -> None:
+def title_block(ws, title: str, subtitle: str, ncols: int, banner: str = "") -> None:
     ws["A1"] = "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L."
     ws["A1"].font = Font(name="Calibri", size=12, bold=True, color=INK)
     ws["A2"] = title
     ws["A2"].font = Font(name="Calibri", size=14, bold=True, color=INK)
     ws["A3"] = subtitle
     ws["A3"].font = Font(name="Calibri", size=9, italic=True, color="6B7280")
-    for row in (1, 2, 3):
+    rows = [1, 2, 3]
+    if banner:
+        ws["A4"] = banner
+        ws["A4"].font = Font(name="Calibri", size=11, bold=True, color=DUE_TEXT)
+        ws["A4"].fill = PatternFill("solid", fgColor=CAUTION)
+        ws["A4"].alignment = Alignment(horizontal="center", vertical="center")
+        ws.row_dimensions[4].height = 20
+        rows.append(4)
+    for row in rows:
         ws.merge_cells(start_row=row, start_column=1, end_row=row, end_column=min(ncols, 8))
 
 
@@ -90,13 +98,13 @@ def set_widths(ws, widths: dict[str, int]) -> None:
         ws.column_dimensions[col].width = width
 
 
-def build_clients(wb, clients: list[dict], as_of: str):
+def build_clients(wb, clients: list[dict], as_of: str, banner: str = ""):
     ws = wb.create_sheet("Clients")
     headers = ["Client", "Site / Location", "Equipment covered", "Type",
                "Handover date", "Warranty end", "AMC status", "AMC start", "AMC end",
                "AMC value (QAR)", "Visits / year", "Contact", "Source / notes"]
     title_block(ws, "MAINTENANCE CLIENT REGISTER",
-                f"One row per covered installation · as of {as_of}", len(headers))
+                f"One row per covered installation · as of {as_of}", len(headers), banner)
 
     ws.append([])
     ws.append(headers)
@@ -158,7 +166,7 @@ def build_clients(wb, clients: list[dict], as_of: str):
     return ws, first, last
 
 
-def build_service_log(wb, year: int):
+def build_service_log(wb, year: int, visits: list[dict] | None = None, banner: str = ""):
     ws = wb.create_sheet("Service Log")
     headers = ["No.", "Date", "Client", "Site", "Equipment", "Visit type",
                "Reported issue / work done", "Parts used", "Technician",
@@ -166,7 +174,7 @@ def build_service_log(wb, year: int):
                "Next visit due", "Remarks"]
     title_block(ws, f"SERVICE LOG {year}",
                 "One row per visit. Every other sheet reads from this one — "
-                "log the visit here first.", len(headers))
+                "log the visit here first.", len(headers), banner)
 
     ws.append([])
     ws.append(headers)
@@ -176,6 +184,15 @@ def build_service_log(wb, year: int):
 
     first = header_row + 1
     last = first + LOG_ROWS - 1
+
+    order = ["date", "client", "site", "equipment", "visit_type", "work_done",
+             "parts", "technician", "chargeable", "amount", "invoice_ref",
+             "status", "next_due", "remarks"]
+    for i, visit in enumerate(visits or []):
+        for j, key in enumerate(order):
+            value = visit.get(key, "")
+            if value != "":
+                ws.cell(row=first + i, column=2 + j, value=value)
 
     for row in range(first, last + 1):
         ws.cell(row=row, column=1, value=f"=IF(B{row}=\"\",\"\",ROW()-{header_row})")
@@ -214,12 +231,13 @@ def build_service_log(wb, year: int):
     return ws, first, last
 
 
-def build_schedule(wb, clients: list[dict], year: int, log_first: int, log_last: int):
+def build_schedule(wb, clients: list[dict], year: int, log_first: int, log_last: int,
+                   clients_first: int, banner: str = ""):
     ws = wb.create_sheet("Schedule")
     headers = ["Client", "Site", "Visits / year"] + MONTHS + ["Logged", "Gap"]
     title_block(ws, f"VISIT SCHEDULE {year}",
                 "Counts are read from the Service Log. Gap = visits contracted "
-                "minus visits actually logged.", len(headers))
+                "minus visits actually logged.", len(headers), banner)
 
     ws.append([])
     ws.append(headers)
@@ -231,10 +249,10 @@ def build_schedule(wb, clients: list[dict], year: int, log_first: int, log_last:
     log = "'Service Log'"
     for i, entry in enumerate(clients):
         row = first + i
-        client_ref = f"Clients!A{6 + i}"
-        ws.cell(row=row, column=1, value=f"={client_ref}")
-        ws.cell(row=row, column=2, value=f"=Clients!B{6 + i}")
-        ws.cell(row=row, column=3, value=f"=IF(Clients!K{6 + i}=\"\",\"\",Clients!K{6 + i})")
+        cr = clients_first + i
+        ws.cell(row=row, column=1, value=f"=Clients!A{cr}")
+        ws.cell(row=row, column=2, value=f"=Clients!B{cr}")
+        ws.cell(row=row, column=3, value=f'=IF(Clients!K{cr}="","",Clients!K{cr})')
 
         for m in range(12):
             col = 4 + m
@@ -276,7 +294,8 @@ def build_schedule(wb, clients: list[dict], year: int, log_first: int, log_last:
     return ws
 
 
-def build_summary(wb, clients: list[dict], year: int, log_first: int, log_last: int):
+def build_summary(wb, clients: list[dict], year: int, log_first: int, log_last: int,
+                  clients_first: int, banner: str = ""):
     ws = wb.create_sheet("Summary")
     headers = ["Client", "Visits contracted", "Visits logged", "Coverage",
                "Chargeable revenue (QAR)", "Uninvoiced (QAR)", "Last visit",
@@ -284,7 +303,7 @@ def build_summary(wb, clients: list[dict], year: int, log_first: int, log_last: 
                "Action"]
     title_block(ws, f"MAINTENANCE SUMMARY {year}",
                 "Everything here is computed. Correct the Clients and Service Log "
-                "sheets, not this one.", len(headers))
+                "sheets, not this one.", len(headers), banner)
 
     ws.append([])
     ws.append(headers)
@@ -299,7 +318,7 @@ def build_summary(wb, clients: list[dict], year: int, log_first: int, log_last: 
 
     for i, entry in enumerate(clients):
         row = first + i
-        cr = 6 + i  # matching row on the Clients sheet
+        cr = clients_first + i  # matching row on the Clients sheet
         ws.cell(row=row, column=1, value=f"=Clients!A{cr}")
         ws.cell(row=row, column=2, value=f'=IF(Clients!K{cr}="","",Clients!K{cr})')
         ws.cell(row=row, column=3,
@@ -348,8 +367,13 @@ def build_summary(wb, clients: list[dict], year: int, log_first: int, log_last: 
         # " · · " where a condition is false.
         parts = (
             f'IF($F{row}>0," · Invoice completed work","")'
-            f'&IF(AND($I{row}<>"",$J{row}<=60,$J{row}>=0)," · Warranty ending — propose AMC","")'
-            f'&IF(AND($I{row}<>"",$J{row}<0)," · Warranty expired — AMC or lose it","")'
+            # Warranty prompts only matter while there is no AMC running.
+            # Nagging about an expired warranty on a client already under
+            # contract is how an action column stops being read.
+            f'&IF(AND($K{row}<>"Active",$I{row}<>"",$J{row}<=60,$J{row}>=0),'
+            f'" · Warranty ending — propose AMC","")'
+            f'&IF(AND($K{row}<>"Active",$I{row}<>"",$J{row}<0),'
+            f'" · Warranty expired — AMC or lose it","")'
             f'&IF(AND($B{row}<>"",$C{row}<$B{row})," · Visits behind schedule","")'
             f'&IF($I{row}=""," · Confirm warranty end date","")'
         )
@@ -398,9 +422,9 @@ def build_summary(wb, clients: list[dict], year: int, log_first: int, log_last: 
     return ws
 
 
-def build_notes(wb, as_of: str, year: int):
+def build_notes(wb, as_of: str, year: int, banner: str = ""):
     ws = wb.create_sheet("Notes")
-    title_block(ws, "HOW THIS WORKBOOK WORKS", f"Built {as_of}", 2)
+    title_block(ws, "HOW THIS WORKBOOK WORKS", f"Built {as_of}", 2, banner)
 
     lines = [
         ("", ""),
@@ -468,28 +492,49 @@ def main() -> int:
 
     config = json.loads(args.data.read_text())
     clients = config["clients"]
+    visits = config.get("visits", [])
+
+    def to_date(value):
+        if isinstance(value, str) and len(value) == 10 and value[4] == "-":
+            try:
+                return date.fromisoformat(value)
+            except ValueError:
+                return value
+        return value
+
+    for entry in clients:
+        for key in ("handover_date", "warranty_end", "amc_start", "amc_end"):
+            if entry.get(key):
+                entry[key] = to_date(entry[key])
+    for visit in visits:
+        for key in ("date", "next_due"):
+            if visit.get(key):
+                visit[key] = to_date(visit[key])
     year = args.year or config.get("year", date.today().year)
     as_of = config.get("as_of", date.today().strftime("%d %B %Y"))
 
     wb = Workbook()
     wb.remove(wb.active)
 
-    build_clients(wb, clients, as_of)
-    _, log_first, log_last = build_service_log(wb, year)
-    build_schedule(wb, clients, year, log_first, log_last)
-    build_summary(wb, clients, year, log_first, log_last)
-    build_notes(wb, as_of, year)
+    banner = config.get("banner", "")
+    _, clients_first, _ = build_clients(wb, clients, as_of, banner)
+    _, log_first, log_last = build_service_log(wb, year, visits, banner)
+    build_schedule(wb, clients, year, log_first, log_last, clients_first, banner)
+    build_summary(wb, clients, year, log_first, log_last, clients_first, banner)
+    build_notes(wb, as_of, year, banner)
 
     wb._sheets = [wb["Summary"], wb["Clients"], wb["Service Log"],
                   wb["Schedule"], wb["Notes"]]
 
     args.outdir.mkdir(parents=True, exist_ok=True)
-    out = args.outdir / f"maintenance_log_{year}.xlsx"
+    suffix = "_SAMPLE" if banner else ""
+    out = args.outdir / f"maintenance_log_{year}{suffix}.xlsx"
     wb.save(out)
 
     blanks = sum(1 for c in clients if not c.get("warranty_end"))
     print(f"{out}")
-    print(f"  {len(clients)} installations · Service Log rows {log_first}-{log_last}")
+    print(f"  {len(clients)} installations · {len(visits)} visits pre-filled · "
+          f"Service Log rows {log_first}-{log_last}")
     if blanks:
         print(f"  {blanks} of {len(clients)} have no warranty end date — "
               f"amber on the Clients sheet until filled")
