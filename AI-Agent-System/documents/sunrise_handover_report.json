@@ -1,5 +1,5 @@
 {
-  "_note": "Cold room handover & awareness report — Sunrise Trading (Jollibee Rasaboud). Warranty inclusions/exclusions per Farhan, 10 Aug 2026: door handles and lights excluded, all other items included. Handover date assumed 11 Aug 2026 ('tomorrow evening') — confirm before printing.",
+  "_note": "Cold room handover & awareness report — Sunrise Trading (Jollibee Rasaboud). Warranty: 400 days from 13 Aug 2026, ending 17 Sep 2027 (Farhan, 10 Aug 2026). Door handles and lights excluded, all other items included. Handover date aligned to the warranty start — confirm if handover is a different day.",
   "title": "Cold Room Handover & Awareness Report — Jollibee Rasaboud",
   "folio": "TNDK · Jollibee Rasaboud · Handover Report",
   "pages": [
@@ -43,15 +43,19 @@
           ],
           [
             "Handover date",
-            "11 August 2026"
+            "13 August 2026"
           ],
           [
             "Warranty period",
-            "12 months — 11 August 2026 to 11 August 2027"
+            "400 days — 13 August 2026 to 17 September 2027"
           ],
           [
-            "Service contact",
-            "Tel 7706 0676 · farhan@dctsqatar.com"
+            "Maintenance — 24 hr",
+            "+974 7742 2762  ·  +974 3103 4912"
+          ],
+          [
+            "Sales Engineer",
+            "+974 7706 0676 · farhan@dctsqatar.com"
           ]
         ]
       },
@@ -143,12 +147,12 @@
     {
       "type": "spec",
       "eyebrow": "Warranty",
-      "title": "12 month warranty — what is covered",
-      "intro": "TNDK warrants the equipment and materials supplied and installed under LPO PO-2026-0000248, and the workmanship of that installation, for 12 months from the date of handover — 11 August 2026 to 11 August 2027. Two items are excluded and are shown in red below.",
+      "title": "400 day warranty — what is covered",
+      "intro": "TNDK warrants the equipment and materials supplied and installed under LPO PO-2026-0000248, and the workmanship of that installation, for 400 days from 13 August 2026 — expiring 17 September 2027. Two items are excluded and are shown in red below.",
       "table": {
         "headers": [
           "Item",
-          "Covered for 12 months"
+          "Covered for 400 days"
         ],
         "rows": [
           [
@@ -243,7 +247,7 @@
           ]
         ]
       },
-      "note": "Service contact: Tel 7706 0676 · farhan@dctsqatar.com. Please have the project name — Jollibee Rasaboud — and a description of what the room is doing ready when you call."
+      "note": "Maintenance, 24 hr: +974 7742 2762 or +974 3103 4912. Sales Engineer: +974 7706 0676. Please have the project name — Jollibee Rasaboud — and a description of what the room is doing ready when you call."
     },
     {
       "type": "back",
@@ -251,10 +255,13 @@
       "contact": [
         "<strong>The New Doha Kitchen Equipment Services W.L.L.</strong>",
         "P.O. Box 80247, Doha, State of Qatar",
-        "Tel 7706 0676",
+        "",
+        "<strong>Maintenance</strong>&nbsp;&nbsp;+974 7742 2762",
+        "<strong>Maintenance</strong>&nbsp;&nbsp;+974 3103 4912",
+        "<strong>Sales Engineer</strong>&nbsp;&nbsp;+974 7706 0676",
         "farhan@dctsqatar.com",
         "",
-        "Warranty period: 11 August 2026 — 11 August 2027"
+        "Warranty: 400 days — 13 August 2026 to 17 September 2027"
       ],
       "note": "Design · Supply · Installation · Maintenance"
     }

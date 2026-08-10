@@ -220,7 +220,12 @@ class Builder:
 
     def spec(self, p: dict) -> str:
         table = p.get("table", {})
-        head = "".join(f"<th>{esc(h)}</th>" for h in table.get("headers", []))
+        # A key-value table has no column names. Rendering an empty header row
+        # leaves a dark band that reads as a mistake, so omit the head entirely
+        # when there is nothing to put in it.
+        headers = [h for h in table.get("headers", [])]
+        head = ("<thead><tr>" + "".join(f"<th>{esc(h)}</th>" for h in headers) + "</tr></thead>"
+                if any(str(h).strip() for h in headers) else "")
         # Rows named in `highlight` (0-based) render in the alert colours. A
         # table whose exclusions look exactly like its inclusions has not
         # communicated the exclusion, however clearly the words are chosen.
@@ -249,7 +254,7 @@ class Builder:
         <h1>{esc(p.get("title", ""))}</h1>
         <div class="rule"></div>
         {intro}
-        <table class="table"><thead><tr>{head}</tr></thead><tbody>{body}</tbody></table>
+        <table class="table">{head}<tbody>{body}</tbody></table>
         {note}
         {signoff}
       </div>"""

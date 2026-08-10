@@ -86,6 +86,23 @@ one project of eight; the rest are still unestablished — a gap, not a finding 
 | Project | Cover | From | Ends | Source |
 |---|---|---|---|---|
 | Samoosa Shop — freezer room | 1 year free maintenance | 27-Jul-2026 | **27-Jul-2027** | Farhan, 10-Aug-2026 |
+| Sunrise / Jollibee Rasaboud — cold room | 400 day warranty | 13-Aug-2026 | **17-Sep-2027** | Farhan, 10-Aug-2026 |
+
+**Sunrise warranty excludes door handles and lights**; all other supplied items and the
+workmanship of the installation are covered. Stated on the handover report issued to the
+client, so it is the version TNDK is held to.
+
+## Contact numbers — client facing
+
+| Line | Number |
+|---|---|
+| Maintenance | +974 7742 2762 |
+| Maintenance (second) | +974 3103 4912 |
+| Sales Engineer | +974 7706 0676 |
+
+Source: Farhan, 10 Aug 2026. The Sales Engineer number is the 7706 0676 already carried on
+every letterhead. The two maintenance lines are new and belong on handover and service
+documents; they are not yet on the invoice, quotation or LPO templates.
 
 **Samoosa free maintenance.** Runs to 27 July 2027. The AMC approach is due 60 days before
 that — **28 May 2027** (`GOALS.md` G5). Number of visits included in the free period is not
