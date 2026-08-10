@@ -1,0 +1,65 @@
+{
+  "_note": "Seed list for build_maintenance_log.py. Client names and equipment come from memory/durable_facts.md (order book as at 13 July 2026, verified 3 August 2026). Warranty dates, AMC status, AMC value and visit frequency are NOT recorded anywhere in the system — they are left blank deliberately. Fill them from the handover records; do not guess them. A wrong warranty date sells an AMC against a period still covered free.",
+
+  "year": 2026,
+  "as_of": "10 August 2026",
+
+  "clients": [
+    {
+      "client": "Consolidated Contractors (CCC)",
+      "site": "HIA Airport",
+      "equipment": "Cold rooms (5 no.)",
+      "type": "Cold room",
+      "source": "LPO DIAR-L05531 MCR — project 253,500, awarded 18-Jun-26"
+    },
+    {
+      "client": "HBK-BWTC-BEIL JV",
+      "site": "Mesaieed",
+      "equipment": "Animal waste cold room",
+      "type": "Cold room",
+      "source": "LOA HBB000353-0, 21-May-26 — LOA carries an AMC clause"
+    },
+    {
+      "client": "Sunrise Trading & Food Stuff Co.",
+      "site": "Jollibee Rasaboud",
+      "equipment": "Cold room",
+      "type": "Cold room",
+      "source": "LPO PO-2026-0000248, 06-Jul-26"
+    },
+    {
+      "client": "Samoosa Shop",
+      "site": "—",
+      "equipment": "Freezer room",
+      "type": "Freezer",
+      "source": "QUT/DCTS/066/2026, 13-Jul-26 — contract value unresolved, D-006"
+    },
+    {
+      "client": "Lean N Fit",
+      "site": "—",
+      "equipment": "Freezer unit (replacement)",
+      "type": "Freezer",
+      "source": "LPO 26060001, 23-Jun-26 — completed and paid"
+    },
+    {
+      "client": "Ruwais Farm",
+      "site": "—",
+      "equipment": "Refrigeration",
+      "type": "Refrigeration",
+      "source": "INV-014/2026, 08-Jul-26 — maintenance job, own invoice series"
+    },
+    {
+      "client": "Al Noor Bakery",
+      "site": "—",
+      "equipment": "Refrigeration",
+      "type": "Refrigeration",
+      "source": "Cash (verbal), 25-Jun-26 — maintenance job"
+    },
+    {
+      "client": "BSI Company (Mr. Lijo)",
+      "site": "—",
+      "equipment": "Cold room",
+      "type": "Cold room",
+      "source": "INV-254/2026, 06-Jul-26 — maintenance job"
+    }
+  ]
+}

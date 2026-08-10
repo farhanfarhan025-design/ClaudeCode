@@ -105,7 +105,16 @@ python3 scripts/margin.py --config scripts/examples/suresh.json --price 59000
 
 # Rebuild both registers with verified arithmetic
 python3 scripts/build_register.py --data scripts/examples/awards.json --outdir ./out
+
+# Yearly maintenance & service log (G5 — recurring revenue)
+python3 scripts/build_maintenance_log.py \
+    --data scripts/examples/maintenance_clients.json --outdir ./out
 ```
+
+`build_maintenance_log.py` produces the workbook that answers what nothing currently answers:
+which warranties are about to expire, which contracted visits were missed, and which completed
+work was never invoiced. Formulas were evaluated before release — see the commit for the
+off-by-one it caught.
 
 `margin.py` reproduces the pricing guide's worked example to the riyal (direct 43,448.45,
 cost 51,465.72). `build_register.py` asserts every total against source data before writing.
