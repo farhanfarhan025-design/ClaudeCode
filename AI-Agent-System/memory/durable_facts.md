@@ -31,11 +31,17 @@ A fact without a source is not a fact.
 | Jollibee Rasaboud cold room | Sunrise Trading & Food Stuff Co. | PO-2026-0000248 | LPO | 46,000 | 27,600 | 18,400 |
 | HIA Airport cold rooms (5) | Consolidated Contractors (CCC) | DIAR-L05531 MCR | LPO | 253,500 | 76,050 | 177,450 |
 | Mesaieed animal waste cold room | HBK-BWTC-BEIL JV | HBB000353-0 | LOA | 400,000 | 0 | 400,000 |
-| Samoosa cold room (freezer) | Samoosa Shop | QUT/DCTS/066/2026 | Quote | ⚠️ 39,375 (38,500 + 875) | ⚠️ 38,500 claimed | ⚠️ 875, and INV-258 unreconciled |
+| Samoosa cold room (freezer) | Samoosa Shop | QUT/DCTS/066/2026 | Quote | 38,500 | 38,500 | 0 — settled, confirmed by Farhan 11-08-2026 |
+| Jollibee condensing unit relocation | Sunrise Trading | PO-2026-0000310 | LPO | 7,000 | 0 | 7,000 |
+| Drainage system replacement | Lean N Fit | QUT/DCTS/214/2026 | Cash | 1,200 | 1,200 | 0 — completed & paid 11-08-2026 |
 
-**Totals as at 6 August 2026:** contract **758,975** (the register's 758,100 omits the 875
-Samoosa variation) · received **162,250** *(claimed; 18,500 has no instrument)* ·
-outstanding **596,725**.
+**Totals as at 11 August 2026:** contract **766,300** · received **163,450** ·
+outstanding **602,850**.
+
+Live (money still to collect): four projects, 706,500 contracted, 103,650 received,
+**602,850 outstanding**. Completed and fully paid: 59,800 across six jobs.
+
+Outstanding concentration: **Mesaieed 66.4%**, Mesaieed + CCC together **95.8%**.
 
 Outstanding now sits in exactly three projects: Mesaieed 400,000 (67.1%), CCC 177,450 (29.8%),
 Jollibee 18,400 (3.1%). Two clients hold **96.9% of the outstanding money**.
@@ -43,10 +49,10 @@ Jollibee 18,400 (3.1%). Two clients hold **96.9% of the outstanding money**.
 > These totals are computed here, not read from the register — the register's own total row
 > reads 18,250 and its summary block reads zero. See `analysis/FINDINGS.md`.
 
-**Status:** current except Samoosa — **not** resolved. See `DECISIONS.md` D-009, which
-supersedes D-008. The base contract (38,500) and the 20,000 receipt are confirmed by the
-carried-shortfall arithmetic, but the 875 variation is unpaid and INV-258 (7,875) over-bills
-the final stage by 5,075.
+**Status:** current. Samoosa settled at 38,500 — Farhan confirmed the payment cleared on
+11 August 2026. Two records items remain open and are bookkeeping only, not money owed:
+the 875 chequered-floor variation was never separately collected, and INV-258 (7,875) still
+over-bills the final stage by 5,075 against the invoice trail. See `DECISIONS.md` D-009.
 
 **Pending evidence:** the Samoosa final payment of 18,500 is confirmed by Farhan (6 Aug 2026)
 but has **no instrument recorded yet**, so no receipt has been issued and the Drive register has

@@ -64,7 +64,7 @@ is now due. Invoice raised the same day; see OL-017.
 ### OL-008 — Samoosa balance — ⚠️ CLOSURE WITHDRAWN, see OL-019
 Closed in error on 6 Aug: the 875 variation was not included and INV-258 does not reconcile.
 
-### OL-019 — 🔴 Samoosa is not settled — variation unpaid, INV-258 over-billed
+### OL-019 — Samoosa settled; invoice trail still to be tidied
 **Owner:** Farhan · **Raised:** 2026-08-06 · **Supersedes the premature closure of OL-001/OL-008**
 
 18,500 + 20,000 = 38,500, but the contract including the chequered-floor variation is 39,375 —
@@ -72,8 +72,20 @@ so **875 is outstanding**. Separately, INV-258 was issued at 7,875 when the fina
 (5% + variation) is 2,800: **over-billed by 5,075**, apparently computed on an assumed 31,500
 received when only 20,000 has a receipt.
 
-**Needed:** the total Samoosa has actually paid, and against which invoices. A corrected invoice
-or a refund may be due. See `DECISIONS.md` D-009.
+**Closed on the money 11-08-2026** — Farhan confirms payment cleared, contract settled at 38,500.
+**Still open as bookkeeping:** INV-258 was issued at 7,875 against a final stage of 2,800, so the
+issued invoices total more than the contract. Supersede or credit-note it so the file reconciles.
+No further money is expected from the client. See `DECISIONS.md` D-009.
+
+### OL-020 — Documents outstanding on two settled jobs
+**Owner:** LEDGER · **Raised:** 2026-08-11
+
+Cash has been received on both and neither has paperwork:
+- **Samoosa** — 18,500 final payment. Receipt not issued; instrument still not recorded.
+- **Lean N Fit drainage** (QUT/DCTS/214/2026) — 1,200 cash, work complete. No invoice, no receipt.
+
+Next free numbers: INV-261/2026 and RCT-257/2026 (INV-259 and INV-260 are allocated to the two
+Jollibee invoices, neither yet appended to the log).
 
 ### OL-016 — Samoosa receipt cannot be issued — no instrument
 **Owner:** Farhan · **Raised:** 2026-08-06 · **Value:** QAR 18,500 · **Blocks:** the receipt
