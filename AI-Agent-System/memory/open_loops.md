@@ -48,13 +48,20 @@ QAR 400,000 contract
 Over ten weeks with no advance collected on 53% of the order book. Requires an advance bank
 guarantee plus a performance security cheque before the 15% advance is released.
 
+**Site not ready as at 11-08-2026 and works have not started.** This does **not** release the
+advance: under the LOA the 15% falls due against the advance bank guarantee and performance
+cheque, not against site readiness or commencement. The two must not be allowed to merge — the
+guarantee is collectable now and has been for twelve weeks.
+
 **Standing item in every weekly COLLECT cycle until cleared.** Escalate to headline status if
 three consecutive weeks pass with no movement.
 
 ### OL-006 — CCC / HIA balance
-**Owner:** COLLECT · **Value:** QAR 177,450 (70%)
-Due on delivery / progress / completion milestones. Confirm next milestone date and whether
-any has already passed without an invoice.
+**Owner:** COLLECT · **Value:** QAR 177,450 (70%) · **Updated:** 2026-08-11
+
+Site not ready; works have not started (Farhan, 11-08-2026). That answers the standing question:
+**no milestone has passed uninvoiced**, because no milestone has been reached. Nothing is overdue
+from the client. The exposure is programme, not collection — see OL-021.
 
 ### OL-007 — Jollibee balance
 **Owner:** COLLECT · **Value:** QAR 18,400 (40%)
@@ -110,6 +117,22 @@ and the commissioning date, which is not recorded anywhere.
 Quotations ran 066 (13 Jul) → 174 (3 Aug) → 214 (5 Aug); LPOs jumped 189 → 194. Either the
 series are not sequential or the log is not being read before issuing. The next invoice number
 (INV-259) is therefore an assumption, not a fact — verify before issuing.
+
+### OL-021 — Both large projects delayed on client site readiness
+**Owner:** Farhan · **Raised:** 2026-08-11 · **Value at stake:** QAR 577,450 outstanding
+
+Neither Mesaieed nor CCC/HIA has started; both sites are reported not ready. Three consequences
+worth acting on before they harden:
+
+1. **Put the cause in writing to each client.** The Mesaieed LOA carries delay penalties. A delay
+   that is client-caused only protects TNDK if it was recorded at the time, not argued afterwards.
+   A short dated notice per project, stating the site was not available and that the programme
+   runs from the date access is given, is the whole protection.
+2. **Committed spend against work that cannot proceed.** LPO-194/2026 to Airtronics (9,500) is
+   still unmatched to any project — if it belongs to either of these, materials are bought for a
+   site that cannot receive them. Confirm what has been ordered and where it will be stored.
+3. **Cost validity.** Vendor prices quoted for a programme starting in July may not hold if the
+   start slips materially. Re-check before releasing further orders.
 
 ---
 
