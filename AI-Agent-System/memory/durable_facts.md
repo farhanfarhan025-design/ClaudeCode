@@ -75,6 +75,20 @@ not been updated. Confidence: high on the amount, absent on the instrument.
 | Performance security cheque | Mesaieed | Required before advance release | 21 May 2026 |
 | Retention 10% (5% + 5%) | Mesaieed | Applies through the contract | 21 May 2026 |
 
+## Vendor commitments
+
+| LPO | Vendor | Project | Value | Terms | Status |
+|---|---|---|---|---|---|
+| LPO-194/2026, 14-07-2026 | Airtronics Trading Contracting & Maintenance | **Jollibee Rasaboud** (confirmed by Farhan 11-08-2026) | 9,500 | 100% CDC upon collection | ordered |
+
+Ordered **after** the Jollibee advance was received — LPO 6 Jul, cheque 7 Jul, materials 14 Jul.
+Collected 27,600 against committed 9,500, so the project was never funded out of working capital.
+
+This is the first real cost line the system holds. Jollibee refrigeration material is **20.7%**
+of the 46,000 contract — one input toward the margin column the register still lacks (OL-011).
+
+No vendor spend is committed against Mesaieed or CCC/HIA.
+
 ## Concentration
 
 Top-2 clients = **86.2%** of the order book (Mesaieed 52.8% + CCC 33.4%, on 758,100).

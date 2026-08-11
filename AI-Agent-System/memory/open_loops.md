@@ -128,9 +128,10 @@ worth acting on before they harden:
    that is client-caused only protects TNDK if it was recorded at the time, not argued afterwards.
    A short dated notice per project, stating the site was not available and that the programme
    runs from the date access is given, is the whole protection.
-2. **Committed spend against work that cannot proceed.** LPO-194/2026 to Airtronics (9,500) is
-   still unmatched to any project — if it belongs to either of these, materials are bought for a
-   site that cannot receive them. Confirm what has been ordered and where it will be stored.
+2. **Committed spend against work that cannot proceed — resolved 11-08-2026.** LPO-194/2026
+   belongs to Jollibee, not to either delayed project. **No vendor spend is committed against
+   Mesaieed or CCC.** Nothing has been bought for a site that cannot receive it, so the delay
+   carries no material exposure. Re-check if either project is released for ordering.
 3. **Cost validity.** Vendor prices quoted for a programme starting in July may not hold if the
    start slips materially. Re-check before releasing further orders.
 
