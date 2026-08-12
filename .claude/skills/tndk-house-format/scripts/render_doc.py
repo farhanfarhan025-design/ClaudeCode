@@ -375,7 +375,11 @@ def build_html(doc):
     html = f"""<!DOCTYPE html>
 <html><head><meta charset="utf-8"><title>{esc(doc.get('number', ''))}</title>
 <style>
-  @page {{ size: A4; margin: 0; }}
+  /* Page 1 is full bleed so the navy header touches the paper edge. Every page after it
+     gets a top margin — content starting hard against the top edge reads as a broken page,
+     and a client is right to reject it. */
+  @page {{ size: A4; margin: 34pt 0 0 0; }}
+  @page :first {{ margin-top: 0; }}
   * {{ -webkit-print-color-adjust: exact; print-color-adjust: exact; }}
   body {{ font-family: Arial, "Liberation Sans", Helvetica, sans-serif;
           font-size: 9.5pt; color: {INK}; margin: 0; }}
