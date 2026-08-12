@@ -114,10 +114,13 @@ table { width: 100%; border-collapse: collapse; }
                 letter-spacing: .1em; padding: 1.4mm 2.4mm; text-transform: uppercase; }
 
 h2 { font-size: 9.8pt; font-weight: 700; color: #fff; background: #1F3864;
-     padding: 1.6mm 2.6mm; margin: 4.5mm 0 2.2mm; letter-spacing: .06em;
+     padding: 1.6mm 2.6mm; margin: 3.2mm 0 2mm; letter-spacing: .06em;
      text-transform: uppercase; break-after: avoid; }
 
 p { margin: 0 0 2mm; }
+h2.newpage { break-before: page; page-break-before: always; margin-top: 0; }
+/* Keep a table with the heading that introduces it. */
+.spec, .boq, .total { break-inside: auto; }
 .subject { background: #F2F2F2; border-left: 1.2mm solid #C9A24E; padding: 2.4mm 3mm; margin-bottom: 3mm; }
 .subject strong { color: #1F3864; }
 
@@ -126,7 +129,7 @@ ol.scope li, ul.plain li { margin-bottom: 1.8mm; }
 
 .boq th { background: #2F5496; color: #fff; font-size: 8pt; text-align: left;
           padding: 1.9mm 2.2mm; letter-spacing: .04em; text-transform: uppercase; }
-.boq td { border-bottom: .25mm solid #D6E4F0; padding: 2.2mm 2.4mm; font-size: 8.8pt; vertical-align: top; }
+.boq td { border-bottom: .25mm solid #D6E4F0; padding: 1.9mm 2.4mm; font-size: 8.8pt; vertical-align: top; }
 .boq tr:nth-child(even) td { background: #FAFBFC; }
 .boq .num { width: 8mm; text-align: center; color: #6B7280; }
 .boq .amt { width: 28mm; text-align: right; white-space: nowrap; }
@@ -134,16 +137,16 @@ ol.scope li, ul.plain li { margin-bottom: 1.8mm; }
 .total { margin-top: 2.5mm; background: #1F3864; color: #fff; }
 .total td { padding: 2.4mm 3mm; font-weight: 700; font-size: 10pt; }
 .total .amt { text-align: right; }
-.words { font-size: 8.5pt; font-style: italic; color: #1F3864; margin-top: 1.6mm; }
+.words { font-size: 8.5pt; font-style: italic; color: #1F3864; margin-top: 1.2mm; }
 
 .spec td { border: .25mm solid #BFC7D5; padding: 2mm 2.4mm; font-size: 8.8pt; vertical-align: top; }
 .spec .k { background: #D6E4F0; font-weight: 700; color: #1F3864; width: 38mm; }
 
 .payee { background: #D6E4F0; border-left: 1.2mm solid #1F3864; padding: 2mm 3mm;
-         font-size: 8.5pt; font-weight: 700; color: #1F3864; margin: 2.5mm 0; }
+         font-size: 8.5pt; font-weight: 700; color: #1F3864; margin: 2mm 0 0; }
 
-.sign { margin-top: 7mm; break-inside: avoid; }
-.sign__name { font-weight: 700; color: #1F3864; margin-top: 10mm; }
+.sign { margin-top: 5mm; break-inside: avoid; }
+.sign__name { font-weight: 700; color: #1F3864; margin-top: 7mm; }
 .foot { margin-top: 5mm; border-top: .25mm solid #D6E4F0; padding-top: 1.6mm;
         font-size: 7pt; color: #6B7280; text-align: center; }
 """
@@ -153,8 +156,16 @@ def render(spec: dict) -> str:
     company = spec.get("company", {})
     client = spec.get("client", {})
 
+    # Sections named in `page_breaks` start a new sheet. Pagination is a
+    # deliberate choice on a quotation — the client reads the price on one page
+    # and the exclusions on another, and neither should straddle a fold.
+    breaks = set(spec.get("page_breaks", []))
+
     def section(title: str, body: str) -> str:
-        return f"<h2>{esc(title)}</h2>{body}" if body else ""
+        if not body:
+            return ""
+        cls = ' class="newpage"' if title in breaks else ""
+        return f"<h2{cls}>{esc(title)}</h2>{body}"
 
     scope = "".join(f"<li>{esc(i)}</li>" for i in spec.get("scope", []))
     scope_html = f'<ol class="scope">{scope}</ol>' if scope else ""

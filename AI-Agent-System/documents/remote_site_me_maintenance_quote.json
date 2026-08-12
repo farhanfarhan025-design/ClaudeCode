@@ -112,12 +112,8 @@
       "value": "Within 3 working days of material arrival at site"
     },
     {
-      "label": "Removal & panel work",
-      "value": "Commences on mobilisation"
-    },
-    {
-      "label": "Concrete & epoxy flooring",
-      "value": "Follows completion of panel work; minimum 7 days curing before pull-down"
+      "label": "Site works",
+      "value": "Removal and panel work commence on mobilisation; concrete and epoxy flooring follow completion of the panel work, with minimum 7 days curing before pull-down"
     },
     {
       "label": "Testing & commissioning",
@@ -152,5 +148,10 @@
   ],
   "company": {
     "subtitle": "Division of Doha Cooling Trading & Solutions W.L.L."
-  }
+  },
+  "page_breaks": [
+    "Materials & Specification",
+    "Pricing / Bill of Quantities",
+    "Warranty"
+  ]
 }
