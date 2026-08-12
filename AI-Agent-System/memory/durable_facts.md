@@ -69,9 +69,19 @@ The larger of the two has collected nothing.
 |---|---|
 | Invoice | INV-259/2026 |
 | Receipt | RCT-257/2026 |
-| Quotation | next after QUT/DCTS/066/2026 |
+| Quotation | **QUT/DCTS/219/2026** — see correction below |
 | Delivery note | DN-252/2026 |
 | LPO | next after LPO-189/2026 |
+
+**Quotation series correction — 10 August 2026.** The live series is at **QUT/DCTS/218/2026**
+(issued to Remote Site Middle East), not the 066 the numbering log carried. Source: Farhan,
+10 August 2026, superseding the log.
+
+The `tndk-accounts` numbering log and the `cold-room-quote` skill (which records the last issued
+as `QUT/DCTS/SQ072/2026`) are both out of step with the live series. Three sources, three
+answers — the same failure pattern as the Samoosa contract value. **Correcting the log needs
+Farhan's approval (`RULES.md` B) and should happen before the next quotation is numbered**,
+or the next one collides.
 
 ## Pricing rate card
 
