@@ -55,10 +55,12 @@ and a client can ask for more visits than were priced.
 
 **Needed:** the visit count from QUT/DCTS/066/2026, entered in the maintenance log.
 
-### OL-003 — VAT / tax wording contradiction
-**Owner:** Farhan · **Raised:** 2026-08-03 · **Blocks:** clean quotation issuance
+### OL-003 — VAT / tax wording contradiction ✅ CLOSED 2026-08-10
+**Owner:** Farhan · **Raised:** 2026-08-03 · **Closed:** 2026-08-10
 
-Invoices may never say "tax". Quotations say "excluding 5% VAT". See `DECISIONS.md` D-005.
+Ruled: no VAT mention in any quote. See `DECISIONS.md` D-005. The master quotation template
+still carries the old wording and is patched per document — correct it at source on the next
+template revision.
 
 **Needed:** a ruling. Option A (remove the VAT line) recommended.
 

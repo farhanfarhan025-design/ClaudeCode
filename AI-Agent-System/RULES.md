@@ -61,8 +61,10 @@ These exist because he has corrected them repeatedly. Treat a violation as a def
 > These conflict. A client can hold both documents side by side. Qatar had not implemented
 > VAT as at the last update of these files, which makes the quotation line questionable too.
 >
-> **Until Farhan rules on it, PRICE must surface this on any quotation it touches and ask.**
-> Do not silently pick one. Record the ruling in `DECISIONS.md` when it comes.
+> **RESOLVED 10 August 2026 (Farhan): no VAT or tax wording in any quotation.**
+> The prohibition in A1 now applies to every client-facing document, not only invoices.
+> Quotations carry no VAT line, no "exclusive of VAT", and no tax in the exclusions list.
+> Recorded as `DECISIONS.md` D-005.
 
 ## E. Escalation
 

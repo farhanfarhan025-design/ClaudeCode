@@ -44,7 +44,20 @@ Confirm the number, then this entry becomes current.
 ---
 
 ### D-005 — VAT / tax wording contradiction
-**Date:** 2026-08-03 · **Status:** ⚠️ UNRESOLVED — blocking
+**Date:** 2026-08-03 · **Resolved:** 2026-08-10 · **Status:** ✅ RESOLVED — Option A
+
+> **Ruling (Farhan, 10 August 2026): "No VAT mention in any quote."**
+>
+> Option A adopted. Quotations carry no VAT or tax wording of any kind, matching the absolute
+> rule already in force on invoices. The contradiction a client could hold in two hands is
+> closed.
+>
+> **Effect.** The `cold-room-quote` payment bullet "exclusive of VAT, if applicable" is
+> removed, and the exclusions bullet no longer lists taxes. `RULES.md` A1 now reads across
+> every client-facing document, not only invoices. First applied on QUT/DCTS/067/2026.
+>
+> The master template still carries the old wording — it is patched per document today, and
+> should be corrected at source the next time the master is revised.
 
 Invoices must never contain the word "tax" (absolute standing rule, script-enforced).
 Quotations currently state the grand total is *"excluding 5% VAT"*.
