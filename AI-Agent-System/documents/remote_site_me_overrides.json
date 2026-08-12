@@ -1,0 +1,65 @@
+{
+  "_note": "Job-specific overrides for QUT/DCTS/SQ073/2026. This job re-uses the client's existing door and refrigeration equipment and replaces the insulated floor panel with a concrete slab, so the template's flooring, refrigeration and capacity boilerplate would misdescribe the offer if left as-is.",
+  "tables": {
+    "Flooring": {
+      "Insulated Floor Panel": "Not included — the existing insulated floor panel is removed under item 1 and replaced with a concrete slab as described below.",
+      "Plywood Layer": "Not applicable to this scope.",
+      "Top Finish": "100 mm reinforced concrete screed, grade C25/30, over 500 gauge polythene damp-proof membrane and A142 mesh reinforcement, power-float finished, with three-coat food-grade epoxy system to nominal 2 mm — 40.00 sqm.",
+      "Edge Sealing": "100 mm epoxy coving to all wall-to-floor junctions, sealed for hygienic cleaning.",
+      "Load Suitability": "Suitable for hand pallet and light trolley loading."
+    },
+    "Refrigeration": {
+      "System Type": "Existing split-type refrigeration system — removed under item 1 and re-installed (1 set). No new refrigeration equipment is supplied under this quotation.",
+      "Condensing Unit": "Client's existing condensing unit — re-installed, cleaned and re-connected.",
+      "Compressor Brand": "As per the client's existing installed equipment.",
+      "Refrigerant": "As per the existing system — recharged after installation.",
+      "Evaporator (Air Cooler)": "Client's existing evaporator — re-installed, cleaned and re-connected.",
+      "Operating Temperature": "As per the existing refrigeration system.",
+      "Defrost": "As per the existing controls, re-connected and tested."
+    },
+    "Capacity": {
+      "Design Room Temp.": "As per the existing refrigeration system.",
+      "Estimated Heat Load": "Not re-calculated — the existing refrigeration equipment is re-used at the client's instruction.",
+      "Selected Capacity": "Existing condensing unit and evaporator re-installed. Capacity is that of the client's installed equipment; TNDK has not re-selected the plant for the re-built room.",
+      "Design Ambient": "+43°C (Doha ambient design condition)"
+    }
+  },
+  "bullets": {
+    "8.  SCOPE OF WORK": [
+      "Site survey and confirmation of final room dimensions before fabrication.",
+      "Removal and dismantling of the existing cold storage room (10.00 × 4.00 × 3.00 m) — wall and ceiling panels, insulated floor system, door, condensing unit, evaporator, piping and electrical accessories — including safe stacking of the items to be re-used and clearing of all debris from site.",
+      "Supply and installation of 100 mm PUF sandwich panels to walls and ceiling (total 124.00 sqm).",
+      "Re-installation of the client's existing hinged cold room door (900 × 1900 mm), including frame alignment, gasket adjustment and hardware re-fixing.",
+      "Supply and installation of new concrete flooring with epoxy finish (40.00 sqm) — damp-proof membrane, A142 mesh reinforcement, 100 mm C25/30 reinforced screed power-float finished, three-coat food-grade epoxy to nominal 2 mm, and 100 mm epoxy coving to all wall-to-floor junctions.",
+      "Re-installation of the client's existing condensing unit and evaporator (1 set), including mounting, fixing and re-connection.",
+      "Refrigeration interconnecting copper piping, armaflex insulation and insulated drain line.",
+      "Electrical re-wiring from the cold room control panel onward — including power, control wiring, internal LED light and door frame heater connections, and re-connection of the existing control panel and safeties.",
+      "Aluminium coving, corner angles, silicone sealing and full vapour sealing.",
+      "Pressure testing, vacuum, refrigerant gas charging, testing and commissioning.",
+      "Handover to client with operational check and demonstration of the installed system."
+    ],
+    "9.  EXCLUSIONS": [
+      "Performance of the re-used refrigeration equipment. The existing condensing unit and evaporator are re-installed and tested, but their cooling capacity, condition and remaining service life are not warranted by TNDK.",
+      "Floor insulation. The existing insulated floor panel is removed and replaced with a concrete slab as instructed; no thermal insulation is included beneath the new floor.",
+      "Civil works, foundation, leveling and any structural support beyond the concrete flooring quoted in item 4.",
+      "Power supply (Main DB), main cable run from MDB to cold room control panel.",
+      "Any false ceiling removal, modifications or restoration of existing finishes.",
+      "Drain piping beyond 3 m from the evaporator drain outlet.",
+      "Backup power, UPS, generator or stabilizer.",
+      "Telephone, CCTV, BMS or IoT integration (available on request — separately quoted).",
+      "Any duties or municipality fees other than those explicitly mentioned.",
+      "Lifting equipment / cranes if access requires more than standard manual handling.",
+      "Working at heights above 3 m (additional scaffolding cost shall apply).",
+      "Any item not specifically listed in the Scope of Work."
+    ],
+    "13.  PAYMENT & COMMERCIAL TERMS": [
+      "75% advance payment along with confirmed Local Purchase Order (LPO).",
+      "10% on delivery of materials at site.",
+      "10% on completion of the panel work, prior to commencement of the concrete flooring works.",
+      "5% balance after successful testing, commissioning and handover.",
+      "Cheque should be prepared under the name of: The New Doha Kitchen Equipment and Services",
+      "Prices are quoted in Qatari Riyals (QAR) as a lump sum, and are exclusive of VAT, if applicable.",
+      "This quotation is valid for 15 days from the date of issue."
+    ]
+  }
+}

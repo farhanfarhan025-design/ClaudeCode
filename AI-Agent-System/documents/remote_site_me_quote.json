@@ -1,0 +1,49 @@
+{
+  "reference": "QUT/DCTS/SQ073/2026",
+  "date": "10 August 2026",
+  "validity": "15 Days from quote date",
+
+  "client": {
+    "name": "M/s. Remote Site Middle East"
+  },
+
+  "subject": "Removal of existing cold storage and re-installation — supply and installation of new 100 mm sandwich panel system, new concrete flooring with epoxy finish, re-installation of the existing door and existing refrigeration equipment, gas charging, testing, commissioning and handover (10.00 × 4.00 × 3.00 m)",
+
+  "intro": "Dear Sir, with reference to the above subject, we thank you for the opportunity to quote for the removal of your existing cold storage room and its re-installation with a new sandwich panel envelope and new concrete flooring. Our offer covers the dismantling of the existing room, supply and installation of the new panel system, re-installation of your existing door and existing refrigeration equipment, new concrete and epoxy flooring, gas charging, testing, commissioning and handover, as detailed below.",
+
+  "rooms": [
+    {
+      "type": "COLD ROOM",
+      "qty": 1,
+      "temperature": "As per existing refrigeration system",
+      "length": "10.00",
+      "width": "4.00",
+      "height": "3.00",
+      "panel_thickness": "100 mm",
+      "floor_included": false
+    }
+  ],
+
+  "door": { "qty": 1, "width_mm": 900, "height_mm": 1900 },
+
+  "boq": [
+    { "description": "Removal and dismantling of the existing cold storage room (10.00 × 4.00 × 3.00 m) — sandwich wall and ceiling panels, insulated floor system, cold room door, condensing unit, evaporator, piping and electrical accessories. Includes careful removal and safe stacking of items to be re-used, and clearing of all debris from site." },
+    { "description": "Supply and installation of complete 100 mm PUF sandwich panel system to walls and ceiling — 124.00 sqm total — including aluminium coving, corner angles, silicone sealing and full vapour sealing." },
+    { "description": "Re-installation of the existing cold room door removed under item 1, including frame alignment, gasket adjustment, hardware re-fixing and sealing." },
+    { "description": "Supply and installation of new concrete flooring with epoxy finish — 40.00 sqm. Sub-floor preparation; 500 gauge polythene damp-proof membrane, lapped and sealed; A142 steel mesh reinforcement; 100 mm reinforced concrete screed, grade C25/30, laid to falls where required and power-float finished; three-coat food-grade epoxy system (primer, self-levelling body coat, chemical-resistant top coat) to nominal 2 mm; 100 mm epoxy coving to all wall-to-floor junctions for hygienic cleaning." },
+    { "description": "Re-installation of the condensing unit and evaporator removed under item 1 — including mounting and fixing, interconnecting copper pipework with armaflex insulation, insulated drain line, complete electrical re-wiring, control wiring and terminations." },
+    { "description": "Refrigerant gas charging, including pressure testing, leak testing and vacuum." },
+    { "description": "Testing and commissioning of the complete installation, including temperature pull-down verification." },
+    { "description": "Handover to client, including operational check and demonstration of the installed system." }
+  ],
+
+  "total": 53300,
+
+  "delivery": {
+    "Material Delivery": "5 – 7 days from date of LPO and approved advance payment",
+    "Site Mobilization": "Within 3 working days of material arrival at site",
+    "Installation Period": "12 – 15 working days — removal, panel work, then concrete and epoxy flooring",
+    "Testing & Commissioning": "2 – 3 working days after installation completion, following concrete curing",
+    "Total Project Duration": "20 – 25 working days from LPO (subject to site readiness)"
+  }
+}
