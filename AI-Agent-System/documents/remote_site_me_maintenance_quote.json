@@ -1,0 +1,99 @@
+{
+  "_note": "Maintenance quotation for Remote Site Middle East. Reference opens a new maintenance-quotation series at MQ001 — confirm before the numbering log is updated. Warranty period of 12 months on TNDK-supplied materials and workmanship is the house standard, not something Farhan has stated for this job; confirm.",
+
+  "reference": "QUT/DCTS/MQ001/2026",
+  "date": "10 August 2026",
+  "validity": "15 days from date of issue",
+  "doc_title": "Maintenance Quotation",
+
+  "client": {
+    "name": "M/s. Remote Site Middle East",
+    "address": "State of Qatar"
+  },
+
+  "subject": "Maintenance and refurbishment of the existing freezer cold storage room (10.00 × 4.00 × 3.00 m) — removal of existing panels and floor, supply and installation of new 100 mm sandwich panels with aluminium angles, new concrete flooring with epoxy finish, re-installation of the existing door and refrigeration equipment, gas charging, testing, commissioning and handover.",
+
+  "intro": "Dear Sir, with reference to the above subject, we thank you for the opportunity to quote for the maintenance and refurbishment of your existing freezer cold storage room. New sandwich panels and aluminium angles are supplied under this offer. The existing door, condensing unit, evaporator and control panel are removed, re-installed and re-connected. The existing insulated floor system is removed and replaced with a new concrete floor with epoxy finish. Our detailed scope, specification and price are set out below.",
+
+  "scope": [
+    "Site survey and confirmation of final room dimensions before fabrication.",
+    "Removal and dismantling of the existing freezer cold storage room (10.00 × 4.00 × 3.00 m) — sandwich wall and ceiling panels; the insulated floor system comprising PUF floor panel, marine plywood layer and MS chequered plate; cold room door; condensing unit; evaporator; refrigeration piping and electrical accessories. Includes careful removal and safe stacking of all items to be re-used, and clearing of debris from site.",
+    "Supply and installation of new 100 mm PUF sandwich panels with new aluminium angles to walls and ceiling — 124.00 sqm total — including coving, corner angles, silicone sealing and full vapour sealing.",
+    "Re-installation of the existing hinged cold room door, including frame alignment, gasket adjustment, hardware re-fixing and sealing.",
+    "Supply and installation of new concrete flooring with epoxy finish — 40.00 sqm — as specified below.",
+    "Re-installation of the existing condensing unit, evaporator and control panel, including mounting and fixing, interconnecting copper pipework with armaflex insulation, insulated drain line, complete electrical re-wiring, control wiring and terminations.",
+    "Refrigerant gas charging, including pressure testing, leak testing and vacuum.",
+    "Testing and commissioning of the complete installation, including temperature pull-down verification.",
+    "Handover to client, including operational check and demonstration of the installed system."
+  ],
+
+  "specification": [
+    { "label": "Room", "value": "Existing freezer cold storage room — 10.00 × 4.00 × 3.00 m external. Internal volume 120.00 m³." },
+    { "label": "Wall & ceiling panel", "value": "New 100 mm pre-insulated polyurethane (PUF) sandwich panel. CFC-free injected foam core, density 40 ± 2 kg/m³. 0.5 mm pre-painted galvanised steel (PPGI) skins, food-grade white both faces. Cam-lock / hook-lock jointing for tight, leak-proof joints." },
+    { "label": "Panel coverage", "value": "Walls 2 × (10.00 × 3.00) + 2 × (4.00 × 3.00) = 84.00 sqm · Ceiling 10.00 × 4.00 = 40.00 sqm · Total 124.00 sqm" },
+    { "label": "Angles & sealing", "value": "New aluminium coving and corner angles throughout, silicone sealed, with full vapour sealing to all joints and penetrations." },
+    { "label": "Existing floor — removed", "value": "The existing insulated floor system — PUF floor panel, marine plywood layer and MS chequered plate — is removed in full and is not re-used." },
+    { "label": "New floor — preparation", "value": "Existing sub-floor cleaned and mechanically prepared; laitance, loose material and residual adhesive removed." },
+    { "label": "New floor — membrane", "value": "500 gauge polythene damp-proof membrane, laid with 300 mm laps, taped and sealed, turned up at all perimeter walls." },
+    { "label": "New floor — reinforcement", "value": "A142 steel mesh reinforcement, laid on spacers to maintain cover." },
+    { "label": "New floor — concrete", "value": "100 mm reinforced concrete screed, grade C25/30, laid to falls where required and power-float finished to a smooth, dense surface. 40.00 sqm." },
+    { "label": "New floor — epoxy finish", "value": "Three-coat food-grade epoxy system to nominal 2 mm total thickness: penetrating epoxy primer; self-levelling epoxy body coat; chemical- and abrasion-resistant epoxy top coat. Non-toxic and suitable for food storage areas." },
+    { "label": "New floor — coving", "value": "100 mm epoxy coving formed at all wall-to-floor junctions, sealed for hygienic wash-down cleaning." },
+    { "label": "New floor — curing", "value": "Minimum 7 days curing before the room is brought down to operating temperature." },
+    { "label": "Door", "value": "Client's existing hinged cold room door — removed, re-installed, aligned and re-sealed. No new door supplied." },
+    { "label": "Refrigeration", "value": "Client's existing condensing unit and evaporator — removed, cleaned, re-installed and re-connected. No new refrigeration equipment supplied. Operating temperature as per the existing system." },
+    { "label": "Electrical", "value": "Complete re-wiring from the cold room control panel onward — power, control wiring, internal lighting and door frame heater connections. The existing control panel is re-installed and re-connected." }
+  ],
+
+  "items": [
+    { "description": "Removal and dismantling of the existing freezer cold storage room — sandwich panels, insulated floor system (PUF panel, plywood, chequered plate), door, condensing unit, evaporator, piping and electrical accessories, including safe stacking of re-usable items and clearing of debris from site." },
+    { "description": "Supply and installation of new 100 mm PUF sandwich panels with new aluminium angles to walls and ceiling — 124.00 sqm — including coving, silicone sealing and full vapour sealing." },
+    { "description": "Re-installation of the existing cold room door, including frame alignment, gasket adjustment and hardware re-fixing." },
+    { "description": "Supply and installation of new concrete flooring with epoxy finish — 40.00 sqm — damp-proof membrane, A142 mesh reinforcement, 100 mm C25/30 reinforced screed power-float finished, three-coat food-grade epoxy to nominal 2 mm, and 100 mm epoxy coving to all wall-to-floor junctions." },
+    { "description": "Re-installation of the existing condensing unit, evaporator and control panel — including copper pipework with armaflex insulation, insulated drain line, electrical re-wiring, control wiring and fixing." },
+    { "description": "Refrigerant gas charging, including pressure testing, leak testing and vacuum." },
+    { "description": "Testing and commissioning of the complete installation." },
+    { "description": "Handover to client." }
+  ],
+
+  "total": 53300,
+
+  "payment_terms": [
+    "75% advance payment along with confirmed Local Purchase Order (LPO).",
+    "10% on delivery of materials at site.",
+    "10% on completion of the panel work, prior to commencement of the concrete flooring works.",
+    "5% balance after successful testing, commissioning and handover.",
+    "Prices are quoted in Qatari Riyals (QAR) as a lump sum.",
+    "Payment by cheque or bank transfer."
+  ],
+
+  "completion": [
+    { "label": "Material delivery", "value": "5 – 7 days from date of LPO and approved advance payment" },
+    { "label": "Site mobilisation", "value": "Within 3 working days of material arrival at site" },
+    { "label": "Removal & panel work", "value": "Commences on mobilisation" },
+    { "label": "Concrete & epoxy flooring", "value": "Follows completion of panel work; minimum 7 days curing before pull-down" },
+    { "label": "Testing & commissioning", "value": "2 – 3 working days after installation completion" },
+    { "label": "Total work completion", "value": "20 – 25 working days from LPO, subject to site readiness" },
+    { "label": "Working hours", "value": "Standard working days, 08:00 – 17:00. Extended hours billed separately." }
+  ],
+
+  "warranty": [
+    "12 months from the date of handover on the sandwich panels, aluminium angles and concrete/epoxy flooring supplied under this quotation, and on the workmanship of the installation.",
+    "The existing condensing unit, evaporator, control panel and door are re-installed and tested, but are not covered by this warranty. Their condition, cooling capacity and remaining service life remain the responsibility of the client.",
+    "The warranty excludes damage arising from misuse, unauthorised modification, interruption of power supply, or operation outside the design conditions of the existing refrigeration system."
+  ],
+
+  "exclusions": [
+    "Floor insulation. The existing insulated floor panel is removed and replaced with a concrete slab at the client's instruction. No thermal insulation is included beneath the new floor. For freezer service an uninsulated slab may result in frost heave, slab cracking and increased running load, and TNDK accepts no liability for these.",
+    "Performance of the re-used refrigeration equipment. The existing condensing unit and evaporator are re-installed and tested, but their capacity and condition are not warranted by TNDK.",
+    "Any civil works, foundation, levelling or structural support beyond the concrete flooring quoted above.",
+    "Power supply (main DB) and main cable run from the MDB to the cold room control panel.",
+    "Drain piping beyond 3 m from the evaporator drain outlet.",
+    "Backup power, UPS, generator or stabiliser.",
+    "Removal or restoration of any false ceiling, existing finishes or adjacent fit-out.",
+    "Lifting equipment or cranes where access requires more than standard manual handling.",
+    "Working at heights above 3 m — additional scaffolding cost shall apply.",
+    "Municipality fees, permits and site access approvals.",
+    "Any item not specifically listed in the Scope of Work above."
+  ]
+}
