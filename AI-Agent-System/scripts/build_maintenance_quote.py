@@ -80,63 +80,72 @@ def esc(value) -> str:
 
 
 CSS = """
-@page { size: A4 portrait; margin: 16mm 15mm 18mm; }
+/* The band sits inside the page margins rather than bleeding to the paper
+   edge. Negative margins would bleed it, but anything pulled outside the page
+   box is liable to be clipped by the print engine — and a letterhead with the
+   company name sheared off is worse than one that stops at the margin. */
+@page { size: A4 portrait; margin: 13mm 14mm 15mm; }
 * { box-sizing: border-box; }
-body { font-family: 'Calibri','Carlito','Liberation Sans',sans-serif; font-size: 9.5pt;
+body { font-family: 'Calibri','Carlito','Liberation Sans',sans-serif; font-size: 9.4pt;
        line-height: 1.45; color: #333; margin: 0;
        -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 
-.head { border-bottom: 1.2mm solid #C9A24E; padding-bottom: 3mm; margin-bottom: 5mm; }
-.head__name { font-size: 15pt; font-weight: 700; color: #1F3864; letter-spacing: .04em; }
-.head__sub { font-size: 8pt; color: #6B7280; margin-top: 1mm; }
-
-h1.doc { font-size: 15pt; font-weight: 700; color: #1F3864; text-align: center;
-         letter-spacing: .12em; margin: 0 0 5mm; text-transform: uppercase; }
+/* ---- letterhead: matches the TNDK band used on LPOs ---- */
+.letterhead { display: flex; justify-content: space-between; align-items: flex-start;
+              gap: 8mm; background: #1F3864; color: #fff;
+              padding: 5.5mm 7mm; }
+.letterhead__name { font-size: 12.6pt; font-weight: 700; line-height: 1.15;
+                    letter-spacing: .02em; white-space: nowrap; }
+.letterhead__sub  { font-size: 8.5pt; margin-top: 1.6mm; opacity: .92; }
+.letterhead__addr { font-size: 8pt; margin-top: 1.2mm; opacity: .85; }
+.badge { background: #C9A24E; color: #1F3864; text-align: center; padding: 3mm 5mm;
+         min-width: 40mm; flex-shrink: 0; }
+.badge .small { font-size: 8.5pt; font-weight: 700; letter-spacing: .04em; }
+.badge .big   { font-size: 12.5pt; font-weight: 700; letter-spacing: .06em; margin-top: .8mm; }
+.gold-stripe { height: 1.6mm; background: #C9A24E; margin: 0 0 4mm; }
 
 table { width: 100%; border-collapse: collapse; }
-.meta td { border: .25mm solid #BFC7D5; padding: 2mm 2.5mm; font-size: 9pt; vertical-align: top; }
-.meta .k { background: #D6E4F0; font-weight: 700; color: #1F3864; width: 26mm; }
+.meta td { border: .25mm solid #BFC7D5; padding: 1.6mm 2.2mm; font-size: 8.5pt; vertical-align: top; }
+.meta .k { background: #D6E4F0; font-weight: 700; color: #1F3864; width: 24mm; }
 
-.parties { margin: 4mm 0 5mm; }
-.parties td { border: .25mm solid #BFC7D5; padding: 3mm; width: 50%; vertical-align: top; font-size: 9pt; }
-.parties .hdr { background: #1F3864; color: #fff; font-weight: 700; font-size: 8pt;
-                letter-spacing: .1em; padding: 1.8mm 3mm; text-transform: uppercase; }
+.parties { margin: 3mm 0 4mm; }
+.parties td { border: .25mm solid #BFC7D5; padding: 2.4mm; width: 50%; vertical-align: top; font-size: 8.5pt; }
+.parties .hdr { background: #1F3864; color: #fff; font-weight: 700; font-size: 7.5pt;
+                letter-spacing: .1em; padding: 1.4mm 2.4mm; text-transform: uppercase; }
 
-h2 { font-size: 10pt; font-weight: 700; color: #fff; background: #1F3864;
-     padding: 2mm 3mm; margin: 6mm 0 3mm; letter-spacing: .06em; text-transform: uppercase;
-     break-after: avoid; }
+h2 { font-size: 9.8pt; font-weight: 700; color: #fff; background: #1F3864;
+     padding: 1.6mm 2.6mm; margin: 4.5mm 0 2.2mm; letter-spacing: .06em;
+     text-transform: uppercase; break-after: avoid; }
 
-p { margin: 0 0 2.5mm; }
-.subject { background: #F2F2F2; border-left: 1.2mm solid #C9A24E; padding: 3mm 4mm; margin-bottom: 4mm; }
+p { margin: 0 0 2mm; }
+.subject { background: #F2F2F2; border-left: 1.2mm solid #C9A24E; padding: 2.4mm 3mm; margin-bottom: 3mm; }
 .subject strong { color: #1F3864; }
 
-ol.scope, ul.plain { margin: 0 0 2mm; padding-left: 6mm; }
-ol.scope li, ul.plain li { margin-bottom: 2mm; }
+ol.scope, ul.plain { margin: 0 0 1.5mm; padding-left: 5.5mm; }
+ol.scope li, ul.plain li { margin-bottom: 1.8mm; }
 
-.boq th { background: #2F5496; color: #fff; font-size: 8.5pt; text-align: left;
-          padding: 2.4mm; letter-spacing: .04em; text-transform: uppercase; }
-.boq td { border-bottom: .25mm solid #D6E4F0; padding: 2.4mm; font-size: 9pt; vertical-align: top; }
+.boq th { background: #2F5496; color: #fff; font-size: 8pt; text-align: left;
+          padding: 1.9mm 2.2mm; letter-spacing: .04em; text-transform: uppercase; }
+.boq td { border-bottom: .25mm solid #D6E4F0; padding: 2.2mm 2.4mm; font-size: 8.8pt; vertical-align: top; }
 .boq tr:nth-child(even) td { background: #FAFBFC; }
-.boq .num { width: 9mm; text-align: center; color: #6B7280; }
-.boq .amt { width: 30mm; text-align: right; white-space: nowrap; }
+.boq .num { width: 8mm; text-align: center; color: #6B7280; }
+.boq .amt { width: 28mm; text-align: right; white-space: nowrap; }
 
-.total { margin-top: 3mm; background: #1F3864; color: #fff; }
-.total td { padding: 3mm 3.5mm; font-weight: 700; font-size: 10.5pt; }
+.total { margin-top: 2.5mm; background: #1F3864; color: #fff; }
+.total td { padding: 2.4mm 3mm; font-weight: 700; font-size: 10pt; }
 .total .amt { text-align: right; }
-.words { font-size: 9pt; font-style: italic; color: #1F3864; margin-top: 2mm; }
+.words { font-size: 8.5pt; font-style: italic; color: #1F3864; margin-top: 1.6mm; }
 
-.spec td { border: .25mm solid #BFC7D5; padding: 2.2mm 2.5mm; font-size: 9pt; vertical-align: top; }
-.spec .k { background: #D6E4F0; font-weight: 700; color: #1F3864; width: 42mm; }
+.spec td { border: .25mm solid #BFC7D5; padding: 2mm 2.4mm; font-size: 8.8pt; vertical-align: top; }
+.spec .k { background: #D6E4F0; font-weight: 700; color: #1F3864; width: 38mm; }
 
-.note { background: #FFF2CC; border-left: 1.2mm solid #C9A24E; padding: 2.5mm 3.5mm;
-        font-size: 8.5pt; margin: 3mm 0; }
-.payee { background: #D6E4F0; border-left: 1.2mm solid #1F3864; padding: 2.5mm 3.5mm;
-         font-size: 9pt; font-weight: 700; color: #1F3864; margin: 3mm 0; }
+.payee { background: #D6E4F0; border-left: 1.2mm solid #1F3864; padding: 2mm 3mm;
+         font-size: 8.5pt; font-weight: 700; color: #1F3864; margin: 2.5mm 0; }
 
-.sign { margin-top: 10mm; break-inside: avoid; }
-.sign__name { font-weight: 700; color: #1F3864; margin-top: 12mm; }
-.foot { margin-top: 8mm; border-top: .25mm solid #D6E4F0; padding-top: 2mm;
-        font-size: 7.5pt; color: #6B7280; text-align: center; }
+.sign { margin-top: 7mm; break-inside: avoid; }
+.sign__name { font-weight: 700; color: #1F3864; margin-top: 10mm; }
+.foot { margin-top: 5mm; border-top: .25mm solid #D6E4F0; padding-top: 1.6mm;
+        font-size: 7pt; color: #6B7280; text-align: center; }
 """
 
 
@@ -189,14 +198,15 @@ def render(spec: dict) -> str:
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <title>{esc(spec.get('reference',''))}</title><style>{CSS}</style></head><body>
 
-<div class="head">
-  <div class="head__name">{esc(company.get('name','THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.'))}</div>
-  <div class="head__sub">{esc(company.get('tagline','Design · Supply · Installation · Maintenance of Cold Rooms, Chillers & Freezers'))}
-    &nbsp;·&nbsp; {esc(company.get('address','P.O. Box 80247, Doha, State of Qatar'))}
-    &nbsp;·&nbsp; {esc(company.get('contact','Tel 7706 0676 · farhan@dctsqatar.com'))}</div>
+<div class="letterhead">
+  <div>
+    <div class="letterhead__name">{esc(company.get('name','THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.'))}</div>
+    <div class="letterhead__sub">{esc(company.get('subtitle','Division of Doha Cooling Trading & Solutions W.L.L.'))}</div>
+    <div class="letterhead__addr">{esc(company.get('address','P.O. Box 80247, Doha, State of Qatar'))} &nbsp;·&nbsp; {esc(company.get('contact','Tel 7706 0676 · farhan@dctsqatar.com'))}</div>
+  </div>
+  <div class="badge"><div class="small">MAINTENANCE</div><div class="big">QUOTATION</div></div>
 </div>
-
-<h1 class="doc">{esc(spec.get('doc_title','Maintenance Quotation'))}</h1>
+<div class="gold-stripe"></div>
 
 <table class="meta">
   <tr><td class="k">Reference</td><td>{esc(spec.get('reference',''))}</td>
