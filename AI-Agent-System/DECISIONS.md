@@ -167,3 +167,32 @@ a corrected invoice or a refund; both are worse to discover later.
 as confirmation of that source's correctness. Confirming an amount is not the same as confirming
 the reconciliation behind it. Options presented for approval must carry their own reconciliation,
 or they launder an assumption into a ruling.
+
+---
+
+## D-010 — TNDK accepts third-party injury and property liability on the Jollibee stands
+
+**Date:** 12 August 2026 · **Decided by:** Farhan · **Recorded by:** ACCOUNTS-LEAD
+**Document:** LTR/DCTS/216/2026, warranty undertaking to Sunrise Trading & Food Stuff Co.
+
+The undertaking on the two fabricated outdoor unit support stands at Jollibee Ras Abu Aboud was
+widened on Farhan's instruction. It now covers, for twelve months from completion:
+
+1. Repair or replacement of a defective stand at TNDK's cost — the original scope; and
+2. **Injury to any person and damage to any vehicle, property or equipment** caused by a stand
+   collapsing, falling or giving way, whether the person or property belongs to the client, its
+   staff, its customers or any third party, together with the cost of dealing with the claim.
+
+Carve-outs retained and made to apply to both limbs: impact by vehicles, plant or equipment
+striking the stand; interference, modification or relocation by others; loading beyond the
+condensing units TNDK installed.
+
+**Why this is recorded as a decision and not just a letter.** Limb 2 is a different kind of
+obligation from limb 1. Limb 1 is capped by what the stands cost to rebuild — a few hundred
+riyals. Limb 2 has no cap: a falling condensing unit that injures someone is a personal-injury
+claim, and the letter commits TNDK to it in writing with no monetary limit and no requirement
+that TNDK be found negligent. The exposure is not the 770 the stands were sold for.
+
+Farhan asked for this wording after being told the above. It is his call and it is made. What
+it changes is downstream: see OL-022 on insurance, and note that any future undertaking of this
+kind should be priced and covered before it is signed, not after.

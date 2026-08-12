@@ -135,6 +135,34 @@ worth acting on before they harden:
 3. **Cost validity.** Vendor prices quoted for a programme starting in July may not hold if the
    start slips materially. Re-check before releasing further orders.
 
+### OL-022 — Third-party liability accepted in writing; insurance cover not confirmed
+**Owner:** Farhan · **Raised:** 2026-08-12 · **Value at stake:** uncapped
+
+LTR/DCTS/216/2026 commits TNDK to any injury to persons and any damage to vehicles or property
+should a Jollibee outdoor unit support stand fall, for twelve months. See `DECISIONS.md` D-010.
+
+**Needed:** confirmation that the company carries public / third-party liability insurance, its
+limit of indemnity, and whether fabricated steelwork installed by TNDK is within cover. If there
+is no policy, or the limit is small, the undertaking is backed by the company's own money.
+
+This is not a reason to withdraw the letter — the client asked for it and Farhan agreed to it.
+It is a reason to know the answer before the next one is signed, and before the same wording is
+reused on a larger stand or a heavier unit.
+
+### OL-023 — Documents issued 12-08-2026 not yet in the numbering log
+**Owner:** LEDGER · **Raised:** 2026-08-12 · **Related:** OL-018
+
+Three documents were produced today and none has been appended to the log in Drive:
+
+- **HO-DCTS-065/2026** — Jollibee handover certificate, numbered to follow QUT/DCTS/216/2026 on
+  Farhan's instruction. First issue was rejected by the client on a layout fault and re-issued
+  the same day under the same number; that is correct and must not be renumbered.
+- **LTR/DCTS/216/2026** — warranty undertaking, letter series sharing the quotation's serial.
+- **INV-259/2026 and INV-260/2026** — still recorded as allocated, still not appended.
+
+Until the log is updated, the next free number in every series is an assumption. OL-018 said the
+series had drifted; a week later they are drifting further.
+
 ---
 
 ## 🟡 Data gaps
