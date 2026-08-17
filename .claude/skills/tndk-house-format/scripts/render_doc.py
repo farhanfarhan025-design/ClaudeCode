@@ -40,6 +40,12 @@ GRID = "#C9CDD6"
 INK = "#222222"
 INK_SOFT = "#333333"
 
+# White space opened at the top of every page after the first. Page 1 is full bleed —
+# the navy header touches the paper edge — but a continuation page whose content starts
+# hard against the top of the sheet reads as a broken page, and a client is right to
+# reject it.
+PAGETOP = 34
+
 # Column widths as measured off the approved LPO, in % of the 540.8pt content width.
 COLS = {
     "sn": 4.59,
@@ -176,6 +182,45 @@ def esc(s):
             if s is not None else "")
 
 
+# Longest a numbered clause heading may run before the dash that ends it. Beyond this the
+# text is a sentence, not a heading, and bolding it would defeat the point of bolding.
+HEADING_MAX = 90
+
+
+def describe(text):
+    """Render a line description: bold the opening line, and bold the heading of each
+    numbered clause under it, but set the body copy in normal weight.
+
+    A one-line item — which is all an LPO ever has — comes out fully bold, exactly as on
+    the approved Airtronics LPO. A lump-sum scope carrying seven numbered clauses inside a
+    single priced row used to come out bold from top to bottom, which on a full page reads
+    as shouting rather than emphasis. Bold now marks the headings so the scope can be
+    skimmed, which is the only thing bold is for.
+    """
+    parts = str(text or "").split("\n")
+    out = []
+    for i, raw in enumerate(parts):
+        seg = esc(raw)
+        if i == 0:
+            out.append(f"<b>{seg}</b>")
+            continue
+        # "3. EVACUATION, GAS CHARGING ... — Fitting of a new filter drier, ..."
+        # Bold as far as a dash, but only when what precedes it reads as a heading rather
+        # than a sentence. A heading may itself contain a dash ("WATER SERVICE OF TWO COLD
+        # ROOM UNITS — CONDENSING UNIT AND EVAPORATOR"), so take the longest prefix that is
+        # still short enough to be a heading, not the first one.
+        cut = 0
+        if re.match(r"^\d+\.\s", seg):
+            for m in re.finditer(" — ", seg):
+                if m.start() <= HEADING_MAX:
+                    cut = m.end()
+        if cut:
+            out.append(f"<b>{seg[:cut]}</b>{seg[cut:]}")
+        else:
+            out.append(seg)
+    return "<br/>".join(out)
+
+
 class DocumentError(Exception):
     """Raised when a document would go out wrong. Never downgraded to a warning."""
 
@@ -283,8 +328,7 @@ def build_html(doc):
     trs = []
     for i, line in enumerate(lines, 1):
         cells = [f'<td class="c sn">{i}</td>',
-                 f'<td class="l desc">'
-                 f'{esc(line.get("description")).replace(chr(10), "<br/>")}</td>']
+                 f'<td class="l desc">{describe(line.get("description"))}</td>']
         extra_cell = (f'<td class="{extra.get("align", "l")}">'
                       f'{esc(line.get(extra["field"], ""))}</td>') if extra else ""
         if extra and not at_end:
@@ -368,22 +412,32 @@ def build_html(doc):
                 f'<td><div class="sigline"></div><div class="signame">{esc(right)}</div>'
                 f'<div class="sigco">Name / Signature / Date</div></td></tr></table>')
 
-    foot_line = ("This document requires the signature of both parties to be valid."
-                 if spec["sign"] == "two-party" else
-                 "This is a computer-generated document and does not require a physical signature.")
+    # The footer must agree with what is printed above it. A page carrying a signature line
+    # cannot also announce that it needs no signature — that contradiction is visible to the
+    # client on the face of the document.
+    if spec["sign"] == "two-party":
+        foot_line = "This document requires the signature of both parties to be valid."
+    elif spec["sign"] == "computer":
+        foot_line = "This is a computer-generated document and does not require a physical signature."
+    else:
+        foot_line = ("This document is valid when signed and stamped by an authorised "
+                     "signatory of the company.")
 
     html = f"""<!DOCTYPE html>
 <html><head><meta charset="utf-8"><title>{esc(doc.get('number', ''))}</title>
 <style>
-  /* Page 1 is full bleed so the navy header touches the paper edge. Every page after it
-     gets a top margin — content starting hard against the top edge reads as a broken page,
-     and a client is right to reject it. */
-  @page {{ size: A4; margin: 34pt 0 0 0; }}
-  @page :first {{ margin-top: 0; }}
+  /* Margins stay at zero. A @page top margin would give continuation pages their breathing
+     space, but it also shifts the fixed footer off the bottom of every page after the first,
+     so the document loses its letterhead exactly where it needs it. The space is reserved in
+     the flow instead — see table.pagegrid below. */
+  @page {{ size: A4; margin: 0; }}
   * {{ -webkit-print-color-adjust: exact; print-color-adjust: exact; }}
   body {{ font-family: Arial, "Liberation Sans", Helvetica, sans-serif;
           font-size: 9.5pt; color: {INK}; margin: 0; }}
-  .band {{ background: {NAVY}; color: #FFFFFF; padding: 13pt 27pt 11pt 27pt; }}
+  /* Cancels the repeating top spacer on page 1 only, so the navy header still bleeds to the
+     paper edge while pages 2+ keep the gap. */
+  .band {{ background: {NAVY}; color: #FFFFFF; padding: 13pt 27pt 11pt 27pt;
+           margin-top: -{PAGETOP}pt; }}
   .band .co {{ font-size: 17pt; font-weight: bold; }}
   .band .ad {{ font-size: 9pt; }}
   .badge {{ background: {GOLD}; color: {NAVY}; text-align: center; width: 123pt;
@@ -401,7 +455,8 @@ def build_html(doc):
                     border: 0.6pt solid {GRID}; }}
   table.items td {{ border: 0.6pt solid {GRID}; padding: 5pt; font-size: 9.5pt;
                     vertical-align: top; }}
-  table.items td.desc {{ font-weight: bold; }}
+  table.items td.desc {{ font-weight: normal; }}
+  table.items td.desc b {{ font-weight: bold; }}
   .l {{ text-align: left; }} .c {{ text-align: center; }} .r {{ text-align: right; }}
   table.money {{ width: 100%; border-collapse: collapse; margin-top: 6pt; }}
   table.money td {{ padding: 3pt 5pt; font-weight: bold; }}
@@ -434,7 +489,12 @@ def build_html(doc):
      A zero page margin is what puts it there — which means flowing content would run
      underneath it and be lost at each page break. This table's tfoot repeats on every
      page too, reserving the band so nothing can ever occupy it. */
+  /* thead and tfoot repeat on every printed page, which is how the band at the top and the
+     footer at the bottom are reserved without a @page margin. The head spacer opens pages 2+;
+     .band pulls page 1 back up over it. The foot spacer keeps text clear of the fixed footer,
+     which would otherwise print over the last lines of a page. */
   table.pagegrid {{ width: 100%; border-collapse: collapse; }}
+  table.pagegrid > thead > tr > td {{ height: {PAGETOP}pt; border: 0; padding: 0; }}
   table.pagegrid > tfoot > tr > td {{ height: 44pt; border: 0; padding: 0; }}
   table.pagegrid > tbody > tr > td {{ border: 0; padding: 0; }}
   .foot {{ background: {NAVY}; color: #FFFFFF; text-align: center; padding: 7pt 27pt;
@@ -442,7 +502,7 @@ def build_html(doc):
   .foot .f2 {{ font-style: italic; }}
 </style></head><body>
 
-<table class="pagegrid"><tfoot><tr><td></td></tr></tfoot><tbody><tr><td>
+<table class="pagegrid"><thead><tr><td></td></tr></thead><tfoot><tr><td></td></tr></tfoot><tbody><tr><td>
 
 <table width="100%" cellpadding="0" cellspacing="0" class="band"><tr>
   <td><div class="co">{esc(company['name'])}</div>

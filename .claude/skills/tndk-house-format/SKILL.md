@@ -45,9 +45,10 @@ A handover certificate is a checklist signed at site: each line is ticked by bot
 the client's signature starts the warranty. Leave the verification column as `"☐"` rather than
 asserting a test passed — a certificate that pre-ticks its own checks is worthless as evidence.
 
-The footer follows the signature mode. Documents with signature lines say *"This document
-requires the signature of both parties to be valid"*; the rest carry the computer-generated
-line. A handover that denied needing a signature would contradict itself on its own face.
+The footer follows the signature mode. Two-party documents say *"This document requires the
+signature of both parties to be valid"*; documents signed by one TNDK signatory say *"valid when
+signed and stamped by an authorised signatory"*; only the LPO, which carries no signature at all,
+carries the computer-generated line. A handover that denied needing a signature would contradict itself on its own face.
 
 Quotations are signed `Farhan / Sales Engineer` and invoices and receipts `Ronaldo /
 Accountant`. That split is a standing convention, not a preference — do not let a quotation go
@@ -125,7 +126,16 @@ inverts the whole point of having it.
 - **QAR, comma-separated, two decimals.** Pass raw numbers; formatting is the renderer's job.
 - **Amount in words** generated from the grand total, in the approved phrasing:
   *"Nine Thousand Five Hundred Qatari Riyals Only (QAR 9,500.00)"*.
-- **Footer on every page**, pinned to the page edge however short the document is.
+- **Footer on every page**, pinned to the page edge however short the document is — and on
+  every page of a document that runs to two or three, which is where it is easiest to lose.
+- **Pages after the first open with a top margin.** Page 1 is full bleed so the navy header
+  touches the paper edge; a continuation page that starts hard against the top of the sheet
+  reads as a broken page. Both are handled by the repeating `thead`/`tfoot` spacers on
+  `table.pagegrid`, not by `@page` margins — a `@page` top margin pushes the fixed footer
+  off every page after the first. Do not swap one for the other.
+- **Bold marks headings, not body copy.** A single-line item renders bold, as on the approved
+  LPO. In a lump-sum scope, each numbered clause has its heading bolded and its body set in
+  normal weight; a full page of bold reads as shouting.
 
 ## Before it goes anywhere
 
