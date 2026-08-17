@@ -215,6 +215,9 @@ Three documents were produced today and none has been appended to the log in Dri
   17-08-2026. Same assumption as above.
 - **INV-261/2026** — Oscar Prime 75% advance, 58,500, issued 17-08-2026.
 - **LPO-195/2026** — Doha Controls, 14,750, drafted 17-08-2026, not yet issued.
+- **LTR/DCTS/217/2026** — bank details letter on letterhead, 17-08-2026. Letter series now runs
+  216 (warranty undertaking) and 217; it shares serials with the quotation series, which is a
+  convention worth writing down before the two collide.
 - **QUT/DCTS/SQ074/2026** — Oscar Prime cold room, 16-08-2026. Note the **SQ** infix: this is a
   second quotation series running alongside the plain QUT/DCTS/NNN numbers. Either it is a
   deliberate series and the log needs a column for it, or a number was improvised.
