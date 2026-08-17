@@ -33,6 +33,39 @@ Summary block reads 0.00 throughout. Details in `analysis/FINDINGS.md`.
 
 **Needed:** rebuild with verified arithmetic. Draft prepared 3 Aug 2026, awaiting Farhan.
 
+### OL-010 — Mesaieed: LOA requires drawings and stamped design calculations the quotation excluded
+**Owner:** Farhan · **Raised:** 2026-08-17 · **Value at risk:** unpriced scope on a 400,000 contract
+
+Quotation DCTS/QT/SQ0005/2026 excludes, at Exclusions item 4(b), "preparation and submission of
+architectural/MEP/shop drawings for approval" — client scope.
+
+LOA HBB000353-0 clause 6(iii) requires the Subcontractor to provide "complete drawings with
+proper fixing details, Design Calculations with Third party verification and stamping, Method
+statements etc." Clause 6(ii) adds all documentation submittals for formal approval.
+
+The LOA governs (`RULES.md` C5). Third-party verification and stamping of a refrigeration load
+calculation is a paid external engagement, and it was not in the price.
+
+**Needed:** a decision on who carries the cost, and whether it is raised as a variation. The
+consultant has already asked for both the load calculation (comment 9) and shop drawings
+(comment 17) in the CDM Smith review of C2024/78-MM-CJV-SPC-0013.
+
+### OL-011 — Mesaieed: LOA folds two years of AMC into the lump sum
+**Owner:** Farhan · **Raised:** 2026-08-17 · **Value at risk:** quoted separately at QR 72,000 / 5 years
+
+Quotation SQ0005 offers AMC as an optional extra — "AMC FOR THE COMPLETE SYSTEM FOR EXTENDED 05
+YEARS QR 72,000" — and warrants materials for 2 years.
+
+LOA clause 8(a) states the lump sum "includes comprehensive AMC for the initial two years incl
+labour, and maintenance." Clause 8(b) makes any extended warranty, AMC or spares beyond two
+years a Provisional Sum under Annexure-2 Part B, executed only on written instruction.
+
+Two years of comprehensive AMC including labour is therefore inside the 400,000, not additional.
+
+**Needed:** confirm the cost of two years' comprehensive AMC is carried in the margin on this
+contract, and record the AMC obligation in the maintenance log so the visits are actually
+planned rather than absorbed ad hoc. This is also the first real entry for `GOALS.md` G5.
+
 ### OL-008 — Samoosa: PVC strip curtain not fitted
 **Owner:** Farhan → client · **Raised:** 2026-08-10 · **Verify by:** 2026-09-10
 
