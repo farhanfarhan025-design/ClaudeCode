@@ -80,6 +80,7 @@ not been updated. Confidence: high on the amount, absent on the instrument.
 | LPO | Vendor | Project | Value | Terms | Status |
 |---|---|---|---|---|---|
 | LPO-194/2026, 14-07-2026 | Airtronics Trading Contracting & Maintenance | **Jollibee Rasaboud** (confirmed by Farhan 11-08-2026) | 9,500 | 100% CDC upon collection | ordered |
+| LPO-195/2026, 17-08-2026 | Doha Controls Trading W.L.L. | **Oscar Prime** cold room | 14,750 | CDC | drafted, not issued |
 
 Ordered **after** the Jollibee advance was received — LPO 6 Jul, cheque 7 Jul, materials 14 Jul.
 Collected 27,600 against committed 9,500, so the project was never funded out of working capital.
@@ -88,6 +89,15 @@ This is the first real cost line the system holds. Jollibee refrigeration materi
 of the 46,000 contract — one input toward the margin column the register still lacks (OL-011).
 
 No vendor spend is committed against Mesaieed or CCC/HIA.
+
+LPO-195 is the refrigeration equipment for Oscar Prime: 14,750 against a 78,000 contract, or
+**18.9%**. It is drafted but not issued, and should stay that way until the 58,500 advance is
+in — the same order Jollibee ran in.
+
+**Note the entity.** The vendor quoted Doha Cooling Trading and Solutions W.L.L., so LPO-195 is
+issued by Doha Cooling, while the contract and INV-261 are TNDK's. Revenue in one company,
+cost in another. The Jollibee P&L raised the same split on two supplier invoices; it is now a
+pattern rather than a one-off.
 
 ## New order — Oscar Prime, 17 August 2026
 
@@ -120,7 +130,7 @@ The larger of the two has collected nothing.
 | Receipt | RCT-257/2026 |
 | Quotation | next after QUT/DCTS/220/2026, plus the separate SQ074 series — see OL-018 |
 | Delivery note | DN-252/2026 |
-| LPO | next after LPO-189/2026 |
+| LPO | LPO-196/2026 — 194 to Airtronics, 195 to Doha Controls |
 
 ## Pricing rate card
 

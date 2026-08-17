@@ -102,6 +102,37 @@ Two things to settle before material is ordered:
    full account details. See `DECISIONS.md` D-011. What remains is historical: check whether any
    cheque already banked was drawn to the old *"and"* wording, and whether any is still uncleared.
 
+### OL-025 — Oscar Prime: one condensing unit ordered for two rooms
+**Owner:** Farhan · **Raised:** 2026-08-17 · **Blocks:** issuing LPO-195
+
+The vendor offer, and therefore LPO-195, is **1 condensing unit and 2 evaporators** for a job
+sold as two cold rooms. The paperwork does not agree with itself on what was sold:
+
+- SQ074 §5 refrigeration details: *"Split-type refrigeration system (1 set)"*
+- SQ074 §8 scope of work item 4: *"condensing unit and matching evaporator (2 set)"*
+- The client's LPO line 3: singular — *"condensing unit ... + Guntner evaporating unit"*
+
+One CDU driving two evaporators is a legitimate design for two rooms at the same temperature,
+and 0–5 °C chiller duty is the same on both. It is not a mistake on its face. But the scope of
+work says two sets, the client's own order was placed on that scope, and if they expect two
+condensing units on site the argument happens at commissioning, after the money is spent.
+
+**Needed:** Farhan's confirmation that one CDU is the intended design and that it carries both
+rooms. If it is, the client should be told in writing before delivery, not shown at handover.
+
+### OL-026 — Cost and revenue are landing in different companies
+**Owner:** Farhan · **Raised:** 2026-08-17 · **Related:** Jollibee P&L note 6
+
+Oscar Prime: the contract, quotation SQ074 and INV-261 are **The New Doha Kitchen Equipment
+Services W.L.L.**; the vendor quoted, and LPO-195 is issued by, **Doha Cooling Trading and
+Solutions W.L.L.** The Jollibee job did the same on two supplier invoices. SQ074 itself is
+signed off in both names.
+
+Each job's true margin is therefore split across two sets of books, and neither company's
+accounts show the whole picture — which is the same reason `OL-011` matters. This is not an
+error to correct after the fact; it is a choice to make deliberately and then apply
+consistently. Until it is made, no P&L for this job will be complete.
+
 ### OL-020 — Documents outstanding on two settled jobs
 **Owner:** LEDGER · **Raised:** 2026-08-11
 
@@ -183,6 +214,7 @@ Three documents were produced today and none has been appended to the log in Dri
 - **QUT/DCTS/220/2026** — Dana Hypermarket cold room door handle replacement, 700, issued
   17-08-2026. Same assumption as above.
 - **INV-261/2026** — Oscar Prime 75% advance, 58,500, issued 17-08-2026.
+- **LPO-195/2026** — Doha Controls, 14,750, drafted 17-08-2026, not yet issued.
 - **QUT/DCTS/SQ074/2026** — Oscar Prime cold room, 16-08-2026. Note the **SQ** infix: this is a
   second quotation series running alongside the plain QUT/DCTS/NNN numbers. Either it is a
   deliberate series and the log needs a column for it, or a number was improvised.
