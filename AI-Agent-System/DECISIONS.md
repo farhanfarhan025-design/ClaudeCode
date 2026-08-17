@@ -196,3 +196,33 @@ that TNDK be found negligent. The exposure is not the 770 the stands were sold f
 Farhan asked for this wording after being told the above. It is his call and it is made. What
 it changes is downstream: see OL-022 on insurance, and note that any future undertaking of this
 kind should be priced and covered before it is signed, not after.
+
+---
+
+## D-011 — The payee name on invoices was wrong; corrected to the bank account name
+
+**Date:** 17 August 2026 · **Evidence:** Commercial Bank (P.S.Q.C.) IBAN certificate,
+issued 23-Dec-2025 · **Recorded by:** ACCOUNTS-LEAD
+
+Every TNDK invoice carried the standing line *"Cheque should be prepared under the name of:
+The New Doha Kitchen Equipment **and** Services"*. The IBAN certificate names the account
+holder as **THE NEW DOHA KITCHEN EQUIPMENT SERV** — the bank's field truncates, but there is
+no *"and"* in it. Quotation SQ074 also says *"in favor of The New Doha Kitchen Equipment
+Services W.L.L."*, with no *"and"*.
+
+So the payee line on issued invoices did not match the account. A crossed cheque drawn to a
+name the account is not in is refused at the counter, and the client has to be asked for a
+replacement — on the Oscar Prime advance that would be a 58,500 cheque and a fortnight.
+
+**Corrected.** `DEFAULT_PAYEE` in the renderer is now *The New Doha Kitchen Equipment Services
+W.L.L.* Documents may override it with `payee_name`, and the renderer prints a note whenever
+the payee and the signing entity disagree — the check that would have caught this earlier.
+
+**Not resolved by this ruling:** whether any cheque already received was drawn to the old
+wording and cleared anyway. If the bank has been accepting it, nothing is broken historically;
+if one is sitting uncleared, that is worth finding now rather than at the month-end close.
+
+**Account, for the record** (Drive remains the source of truth — this is here because a
+document generator needs it): Commercial Bank (P.S.Q.C.), Grand Hamad Branch 4010, account
+4010-777739-001, IBAN QA06CBQA000000004010777739001, SWIFT CBQAQAQA, QAR, opened 12-Aug-2024,
+C.R. 199351.

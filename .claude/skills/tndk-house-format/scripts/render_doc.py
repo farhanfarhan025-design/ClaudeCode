@@ -56,6 +56,12 @@ COLS = {
     "amount": 13.18,
 }
 
+# The name the cheque must be drawn to. Taken from the Commercial Bank IBAN certificate
+# dated 23-Dec-2025, which reads "THE NEW DOHA KITCHEN EQUIPMENT SERV" — the bank's field
+# truncates, but there is no "and" between EQUIPMENT and SERV. Invoices previously carried
+# "The New Doha Kitchen Equipment and Services", which the account is not in.
+DEFAULT_PAYEE = "The New Doha Kitchen Equipment Services W.L.L."
+
 DEFAULT_COMPANY = {
     "name": "THE NEW DOHA KITCHEN COMPANY",
     # How the entity is named above a signature. Kept separate from the header name, which
@@ -385,11 +391,36 @@ def build_html(doc):
         items = "".join(f"<div>{i}. {esc(n)}</div>" for i, n in enumerate(doc["notes"], 1))
         notes = f'<div class="notes"><b><i>Notes:</i></b><div class="nlist">{items}</div></div>'
 
-    # ---- payee line (invoices), exact wording — a standing correction
+    # ---- payee line and bank details (invoices)
+    #
+    # The payee must be the name the bank account is actually in. TNDK's Commercial Bank
+    # certificate reads THE NEW DOHA KITCHEN EQUIPMENT SERV[ICES] — no "and" — while the
+    # standing wording on issued invoices inserted one. A cheque drawn to a name the account
+    # is not in gets refused at the counter, so this is not a wording preference.
     payee = ""
     if spec.get("payee") and doc.get("show_payee", True):
+        payee_name = doc.get("payee_name") or DEFAULT_PAYEE
         payee = ('<div class="payee">Cheque should be prepared under the name of: '
-                 '<b>The New Doha Kitchen Equipment and Services</b></div>')
+                 f'<b>{esc(payee_name)}</b></div>')
+        bank = doc.get("bank")
+        if bank:
+            # Two label/value pairs per row. Stacked one per row this block runs long enough
+            # to push a short invoice onto a second page for the sake of six lines of text.
+            pairs = list(bank.items())
+            rows = ""
+            for i in range(0, len(pairs), 2):
+                cells = "".join(f'<td class="bl">{esc(k)}</td><td class="bv">{esc(v)}</td>'
+                                for k, v in pairs[i:i + 2])
+                if len(pairs[i:i + 2]) == 1:
+                    cells += '<td class="bx" colspan="2"></td>'
+                rows += f"<tr>{cells}</tr>"
+            payee += f'<div class="bankwrap"><table class="bank">{rows}</table></div>'
+        elif payee_name.lower() not in str(company.get("legal", "")).lower():
+            # Not fatal — but the two names should agree, and when they don't it is worth
+            # saying so out loud rather than discovering it when the cheque bounces.
+            print(f"  note: payee '{payee_name}' does not match the signing entity "
+                  f"'{company.get('legal')}' — confirm which name the bank account is in.",
+                  file=sys.stderr)
 
     # ---- signature
     if spec["sign"] == "computer":
@@ -468,6 +499,13 @@ def build_html(doc):
   table.money tr.grand td.mval {{ background: {PANEL}; }}
   .words {{ background: {PANEL}; padding: 6pt 12pt; margin-top: 8pt; }}
   .payee {{ padding: 8pt 12pt 0 12pt; }}
+  .bankwrap {{ padding: 6pt 12pt 0 12pt; }}
+  table.bank {{ border-collapse: collapse; }}
+  table.bank td {{ border: 0.6pt solid {GRID}; padding: 2.5pt 7pt; font-size: 9pt; }}
+  table.bank td.bl {{ background: {PANEL}; color: {NAVY}; font-weight: bold;
+                      white-space: nowrap; }}
+  table.bank td.bv {{ white-space: nowrap; }}
+  table.bank td.bx {{ border: 0; }}
   .notes {{ margin-top: 10pt; font-size: 8.5pt; font-style: italic; color: {INK_SOFT}; }}
   .notes b {{ color: {NAVY}; }}
   .notes .nlist {{ padding-left: 8pt; }}

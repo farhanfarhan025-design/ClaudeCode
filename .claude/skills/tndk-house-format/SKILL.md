@@ -88,7 +88,8 @@ final counterpart says *FINAL INVOICE* rather than a label the client has not se
 `currency` (QAR default), `company` (`{name, address, footer, legal}` — `legal` is the entity
 named above a signature, kept separate because the header name is set in capitals), `amount_in_words`
 (computed if omitted), `grand_total_label`, `show_prices` (put prices on a delivery note),
-`instrument` (**required** on receipts), `meta_labels`, `counterparty_label`, `filename`,
+`instrument` (**required** on receipts), `payee_name` and `bank` (invoices — see below),
+`meta_labels`, `counterparty_label`, `filename`,
 `extra_column` (`{label, field, width, align, position}` — `position: "end"` puts it after the
 money columns, which is where a tick box belongs).
 
@@ -120,8 +121,16 @@ inverts the whole point of having it.
   W.L.L.* Pass `company` per client rather than accepting the default, and check an earlier
   document to that client before issuing. A second invoice under a different name invites a
   question you do not want asked.
-- **Payee line on invoices**, exact wording: *"Cheque should be prepared under the name of:
-  The New Doha Kitchen Equipment and Services"*.
+- **Payee line on invoices** names the account the cheque must be drawn to:
+  *"Cheque should be prepared under the name of: The New Doha Kitchen Equipment Services
+  W.L.L."* — taken from the Commercial Bank IBAN certificate, which has no *"and"* between
+  *Equipment* and *Services*. Invoices previously carried the *"and"*, which the account is
+  not in. Override per document with `payee_name` if a client pays a different entity, and
+  the renderer says so when the payee and the signing entity disagree.
+- **Bank details** go on the invoice with `bank` — a plain `{label: value}` map, rendered two
+  pairs to a row so six lines of detail do not push a short invoice onto a second page. Put
+  the account name in it as well as in the payee line; a client transferring money reads the
+  block, not the sentence above it.
 - **Negatives in parentheses**, accounting style: `(27,600.00)`.
 - **QAR, comma-separated, two decimals.** Pass raw numbers; formatting is the renderer's job.
 - **Amount in words** generated from the grand total, in the approved phrasing:

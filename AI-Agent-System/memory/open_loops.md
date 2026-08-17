@@ -97,11 +97,10 @@ Two things to settle before material is ordered:
    evaporator and 86.4 sqm of panel several times over. Ordering before the advance lands would
    put the largest single-job commitment TNDK has made onto working capital, on a client with no
    payment history in the file.
-2. **The payee name does not match.** The quotation says pay *The New Doha Kitchen Equipment
-   Services W.L.L.*; the standing payee line on invoices says *The New Doha Kitchen Equipment
-   and Services*; the LPO is addressed to *The Doha Kitchen Equipment and Services*. Three
-   names for one payee is how a cheque gets refused at the counter. Confirm which name the bank
-   account is in and make every document say it.
+2. **Payee name — resolved 17-08-2026.** The IBAN certificate settles it: the account is
+   *THE NEW DOHA KITCHEN EQUIPMENT SERV[ICES]*, no *"and"*. INV-261 carries that name plus the
+   full account details. See `DECISIONS.md` D-011. What remains is historical: check whether any
+   cheque already banked was drawn to the old *"and"* wording, and whether any is still uncleared.
 
 ### OL-020 — Documents outstanding on two settled jobs
 **Owner:** LEDGER · **Raised:** 2026-08-11
