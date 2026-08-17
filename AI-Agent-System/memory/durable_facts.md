@@ -89,6 +89,24 @@ of the 46,000 contract — one input toward the margin column the register still
 
 No vendor spend is committed against Mesaieed or CCC/HIA.
 
+## New order — Oscar Prime, 17 August 2026
+
+| Item | Value |
+|---|---|
+| Client | Oscar Prime Trading Contracting and Services W.L.L. (attn. Mr. Shameem) |
+| Scope | Supply, installation, testing and commissioning of 2 cold rooms, 3.75 × 2.00 × 3.00 m |
+| Quotation | QUT/DCTS/SQ074/2026, 16-08-2026 |
+| LPO | OTTS/LPO/19082026-01/2026, 17-08-2026, signed by their General Manager |
+| Contract value | **QAR 78,000.00** lump sum |
+| Terms | 75% advance on confirmed LPO · 20% on delivery of material · 5% after testing, commissioning and handover |
+| Invoiced to date | INV-261/2026, 58,500.00 (the 75% advance), raised 17-08-2026 — **not yet sent** |
+| Duration | 05 – 07 days from LPO, subject to site readiness |
+
+The LPO is signed and dated, so the 75% advance falls due now, not on delivery. No vendor spend
+is committed against this order yet — the BITZER unit and the Guntner evaporator have to be
+ordered, and the terms are written so the advance lands before that commitment is made. Keep it
+that way: this is the same sequence that kept Jollibee off working capital.
+
 ## Concentration
 
 Top-2 clients = **86.2%** of the order book (Mesaieed 52.8% + CCC 33.4%, on 758,100).
@@ -98,9 +116,9 @@ The larger of the two has collected nothing.
 
 | Series | Next free |
 |---|---|
-| Invoice | INV-259/2026 |
+| Invoice | INV-262/2026 — 259 and 260 to Jollibee/Sunrise, 261 to Oscar Prime, none yet in the log |
 | Receipt | RCT-257/2026 |
-| Quotation | next after QUT/DCTS/066/2026 |
+| Quotation | next after QUT/DCTS/220/2026, plus the separate SQ074 series — see OL-018 |
 | Delivery note | DN-252/2026 |
 | LPO | next after LPO-189/2026 |
 

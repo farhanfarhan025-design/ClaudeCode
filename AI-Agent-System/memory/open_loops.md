@@ -84,6 +84,25 @@ received when only 20,000 has a receipt.
 issued invoices total more than the contract. Supersede or credit-note it so the file reconciles.
 No further money is expected from the client. See `DECISIONS.md` D-009.
 
+### OL-024 — Oscar Prime advance, QAR 58,500 — invoice raised, not sent
+**Owner:** Farhan · **Raised:** 2026-08-17 · **Value:** QAR 58,500 of a 78,000 contract
+
+LPO OTTS/LPO/19082026-01/2026 is signed and dated 17-08-2026, which is the trigger for the 75%
+advance under clause 1 of the agreed terms. INV-261/2026 raised the same day. **Not sent** —
+Farhan sends.
+
+Two things to settle before material is ordered:
+
+1. **Collect the advance first.** 58,500 covers the BITZER condensing unit, the Guntner
+   evaporator and 86.4 sqm of panel several times over. Ordering before the advance lands would
+   put the largest single-job commitment TNDK has made onto working capital, on a client with no
+   payment history in the file.
+2. **The payee name does not match.** The quotation says pay *The New Doha Kitchen Equipment
+   Services W.L.L.*; the standing payee line on invoices says *The New Doha Kitchen Equipment
+   and Services*; the LPO is addressed to *The Doha Kitchen Equipment and Services*. Three
+   names for one payee is how a cheque gets refused at the counter. Confirm which name the bank
+   account is in and make every document say it.
+
 ### OL-020 — Documents outstanding on two settled jobs
 **Owner:** LEDGER · **Raised:** 2026-08-11
 
@@ -164,6 +183,10 @@ Three documents were produced today and none has been appended to the log in Dri
   assumption drawn from this session's own drafts, not from the log.
 - **QUT/DCTS/220/2026** — Dana Hypermarket cold room door handle replacement, 700, issued
   17-08-2026. Same assumption as above.
+- **INV-261/2026** — Oscar Prime 75% advance, 58,500, issued 17-08-2026.
+- **QUT/DCTS/SQ074/2026** — Oscar Prime cold room, 16-08-2026. Note the **SQ** infix: this is a
+  second quotation series running alongside the plain QUT/DCTS/NNN numbers. Either it is a
+  deliberate series and the log needs a column for it, or a number was improvised.
 
 Until the log is updated, the next free number in every series is an assumption. OL-018 said the
 series had drifted; a week later they are drifting further.
