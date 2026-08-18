@@ -178,6 +178,19 @@ def amount_in_words(total, currency="QAR"):
     return f"{out} Only ({currency} {total:,.2f})"
 
 
+def qty_text(q):
+    """Whole counts print as counts; measured quantities keep two decimals.
+
+    An LPO line is usually "2 PCS", where "2.00" would read oddly. A panel schedule is
+    priced by area, where 51.2 next to a rate of 113.50 looks like a truncated figure.
+    """
+    if isinstance(q, float) and not q.is_integer():
+        return f"{q:,.2f}"
+    if isinstance(q, float):
+        return f"{int(q):,}"
+    return esc(q)
+
+
 def money(n):
     """Negatives in parentheses, accounting style — a standing convention."""
     return f"({abs(n):,.2f})" if n < 0 else f"{n:,.2f}"
@@ -340,7 +353,7 @@ def build_html(doc):
         if extra and not at_end:
             cells.append(extra_cell)
         cells += [f'<td class="c">{esc(line.get("unit", "Nos"))}</td>',
-                  f'<td class="c">{esc(line.get("qty", ""))}</td>']
+                  f'<td class="c">{qty_text(line.get("qty", ""))}</td>']
         if show_money:
             cells += [f'<td class="r">{money(line.get("rate", 0))}</td>',
                       f'<td class="r">{money(line.get("amount", 0))}</td>']
@@ -520,13 +533,16 @@ def build_html(doc):
      through the middle of one. */
   .notes .nlist > div {{ page-break-inside: avoid; }}
   .realis {{ font-size: 8.5pt; color: {INK_SOFT}; padding-top: 3pt; }}
-  .callout {{ background: {PANEL}; border: 0.8pt solid {GOLD}; text-align: center;
+  /* A signature block or a bordered callout split across a page break is a broken document,
+     not a long one. Each stays whole. */
+  .callout {{ page-break-inside: avoid; background: {PANEL}; border: 0.8pt solid {GOLD};
+              text-align: center;
               padding: 9pt; margin-top: 14pt; }}
   .callout .cg {{ color: {NAVY}; font-weight: bold; font-size: 10.5pt; }}
   .callout .cgs {{ font-size: 9pt; color: {INK_SOFT}; }}
-  .sigwrap {{ margin-top: 18pt; text-align: right; }}
+  .sigwrap {{ margin-top: 18pt; text-align: right; page-break-inside: avoid; }}
   .sig {{ display: inline-block; width: 210pt; text-align: center; }}
-  table.sig2 {{ width: 100%; margin-top: 22pt; }}
+  table.sig2 {{ width: 100%; margin-top: 22pt; page-break-inside: avoid; }}
   table.sig2 td {{ width: 44%; text-align: center; }}
   table.sig2 td.gap {{ width: 12%; }}
   .sigline {{ border-top: 0.8pt solid {INK}; height: 1pt; font-size: 1pt; }}

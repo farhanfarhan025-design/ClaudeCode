@@ -92,6 +92,7 @@ not been updated. Confidence: high on the amount, absent on the instrument.
 | LPO-194/2026, 14-07-2026 | Airtronics Trading Contracting & Maintenance | **Jollibee Rasaboud** (confirmed by Farhan 11-08-2026) | 9,500 | 100% CDC upon collection | ordered |
 | ~~LPO-195/2026, 17-08-2026~~ | Doha Controls Trading W.L.L. | **Oscar Prime** cold room | 14,750 | CDC | **CANCELLED** 18-08-2026, replaced by LPO-196 |
 | LPO-196/2026, 18-08-2026 | Doha Controls Trading W.L.L. | **Oscar Prime** cold room | 24,500 | CDC | drafted, not issued |
+| LPO-197/2026, 18-08-2026 | Al Buhsain Steel Industries W.L.L. (JMB) | **project not stated on the vendor quote** | 8,140 | 50% advance / 50% before shipment | drafted, not issued |
 
 Ordered **after** the Jollibee advance was received — LPO 6 Jul, cheque 7 Jul, materials 14 Jul.
 Collected 27,600 against committed 9,500, so the project was never funded out of working capital.
@@ -147,7 +148,7 @@ The larger of the two has collected nothing.
 | Receipt | RCT-257/2026 |
 | Quotation | next after QUT/DCTS/220/2026, plus the separate SQ074 series — see OL-018 |
 | Delivery note | DN-252/2026 |
-| LPO | LPO-197/2026 — 194 Airtronics, 195 cancelled, 196 Doha Controls |
+| LPO | LPO-198/2026 — 194 Airtronics, 195 cancelled, 196 Doha Controls, 197 Al Buhsain |
 
 ## Pricing rate card
 

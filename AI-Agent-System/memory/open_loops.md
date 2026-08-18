@@ -212,6 +212,32 @@ Three things follow, none of which the quotation itself can settle:
 
 **Needed:** the landed cost per unit, and the supplier's own warranty position.
 
+### OL-030 — Panel order LPO-197 has no project, and the area does not match Oscar Prime
+**Owner:** Farhan · **Raised:** 2026-08-18 · **Value:** QAR 8,140
+
+Al Buhsain quotation SAL-QTN-2026-01302 has its **Project field blank**, so nothing links the
+25 panels to a job. The obvious candidate is Oscar Prime, and the arithmetic does not fit:
+
+- Quoted here: **71.78 m²** of 100 mm panel.
+- SQ074 §8 item 2 for Oscar Prime: **86.4 m²** of 100 mm panel for walls, ceiling **and floor**.
+- Walls and ceiling alone for the two rooms as sold work out at roughly 84 m².
+
+So this order is short of either figure. It is either for a different job, or for part of Oscar
+Prime with a second order to follow, or the room sizes have changed since SQ074 was written.
+
+**Needed:** which project, and whether a second panel order is coming. Until that is answered
+the committed-spend position for Oscar Prime cannot be stated, and 8,140 is sitting in the
+payables picture against no job.
+
+Two commercial points on the same order, neither blocking:
+
+1. **The quotation is watermarked DRAFT and is valid for three working days.** LPO-197 asks for
+   a confirmed quotation or proforma before the advance is released. Do not pay against a draft.
+2. **EXW factory, with a 1% per week penalty if the panels are not lifted within a week of being
+   ready.** Collection and haulage are TNDK's, and the clock is the vendor's to start. LPO-197
+   accepts the term only from written notice of readiness; if they will not agree that in
+   writing, the penalty runs from a date TNDK cannot see.
+
 ### OL-020 — Documents outstanding on two settled jobs
 **Owner:** LEDGER · **Raised:** 2026-08-11
 
@@ -293,6 +319,8 @@ Three documents were produced today and none has been appended to the log in Dri
 - **QUT/DCTS/220/2026** — Dana Hypermarket cold room door handle replacement, 700, issued
   17-08-2026. Same assumption as above.
 - **INV-261/2026** — Oscar Prime 75% advance, 58,500, issued 17-08-2026.
+- **LPO-196/2026** — Doha Controls, 24,500, drafted 18-08-2026.
+- **LPO-197/2026** — Al Buhsain Steel Industries, 8,140, drafted 18-08-2026.
 - **LPO-195/2026** — Doha Controls, 14,750, drafted 17-08-2026. **Cancelled 18-08-2026** and
   replaced by LPO-196/2026 at 24,500. The number is retired, not reissued and not skipped.
 - **INV-262/2026** — Sunrise balance, 2,300, issued 18-08-2026.
