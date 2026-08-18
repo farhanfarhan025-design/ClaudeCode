@@ -63,8 +63,8 @@ Site not ready; works have not started (Farhan, 11-08-2026). That answers the st
 **no milestone has passed uninvoiced**, because no milestone has been reached. Nothing is overdue
 from the client. The exposure is programme, not collection — see OL-021.
 
-### OL-007 — Jollibee balance
-**Owner:** COLLECT · **Value:** QAR 18,400 (40%)
+### OL-007 — Jollibee balance — largely collected 18-08-2026
+**Owner:** COLLECT · **Value:** QAR 2,300 remaining of 25,400 (see OL-027)
 Commissioning confirmed by Farhan 6 Aug 2026 — the milestone has been reached and the balance
 is now due. Invoice raised the same day; see OL-017.
 
@@ -132,6 +132,37 @@ Each job's true margin is therefore split across two sets of books, and neither 
 accounts show the whole picture — which is the same reason `OL-011` matters. This is not an
 error to correct after the fact; it is a choice to make deliberately and then apply
 consistently. Until it is made, no P&L for this job will be complete.
+
+### OL-027 — Sunrise short-paid by 2,300, which is exactly 5% of the cold room contract
+**Owner:** Farhan · **Raised:** 2026-08-18 · **Value:** QAR 2,300
+
+25,400 was due across INV-259 and INV-260; cheque 00990904 brought 23,100. INV-262/2026 raised
+for the 2,300.
+
+Farhan reports the short payment as a mistake by the client. The arithmetic does not support
+that reading: 2,300 is **5.00% of 46,000** to the riyal. A keying error produces a round or
+transposed figure, not the contract value multiplied by a retention percentage. The likeliest
+explanation is that their accounts applied a 5% retention — the same 5% that was drafted into
+an earlier version of the balance invoice and then removed on Farhan's instruction.
+
+This matters for how it is chased. Neither LPO carries a retention clause, so TNDK's position is
+sound either way; but an email calling it a mistake invites the reply "it is our standard
+retention", and the conversation restarts. INV-262 states the reconciliation and records that no
+retention applies, which holds under either explanation.
+
+**Needed:** ask their accounts what the 2,300 was, rather than assert what it was.
+
+### OL-028 — Cheque 00990904 was drawn to the superseded payee name
+**Owner:** CASHBOOK · **Raised:** 2026-08-18 · **Value:** QAR 23,100 · **Related:** D-011
+
+The cheque reads *"THE NEW DOHA KITCHEN EQUIPMENT AND SERVICES"* — the wording D-011 found does
+not match the bank account, which is *THE NEW DOHA KITCHEN EQUIPMENT SERV[ICES]*, no *"and"*.
+It is A/C payee only, so it can only go into the company's own account.
+
+**Confirm this specific cheque clears.** If the bank accepts it, D-011's open question is
+answered for the past and only future documents needed correcting. If it is returned on the
+name, 23,100 is delayed and the client has to be asked for a replacement — and the corrected
+payee wording just paid for itself.
 
 ### OL-020 — Documents outstanding on two settled jobs
 **Owner:** LEDGER · **Raised:** 2026-08-11
@@ -215,6 +246,7 @@ Three documents were produced today and none has been appended to the log in Dri
   17-08-2026. Same assumption as above.
 - **INV-261/2026** — Oscar Prime 75% advance, 58,500, issued 17-08-2026.
 - **LPO-195/2026** — Doha Controls, 14,750, drafted 17-08-2026, not yet issued.
+- **INV-262/2026** — Sunrise balance, 2,300, issued 18-08-2026.
 - **LTR/DCTS/217/2026** — bank details letter on letterhead, 17-08-2026. Letter series now runs
   216 (warranty undertaking) and 217; it shares serials with the quotation series, which is a
   convention worth writing down before the two collide.

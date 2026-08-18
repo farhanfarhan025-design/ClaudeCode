@@ -28,11 +28,21 @@ A fact without a source is not a fact.
 | Refrigeration maintenance | Al Noor Bakery | verbal | Cash | 800 | 800 | 0 |
 | Cold room maintenance | BSI (Mr. Lijo) | INV-254/2026 | Cash | 450 | 450 | 0 |
 | Refrigeration maintenance | Ruwais Farm | INV-014/2026 | Invoice | 1,850 | 1,850 | 0 |
-| Jollibee Rasaboud cold room | Sunrise Trading & Food Stuff Co. | PO-2026-0000248 | LPO | 46,000 | 27,600 | 18,400 |
+| Jollibee Rasaboud cold room | Sunrise Trading & Food Stuff Co. | PO-2026-0000248 | LPO | 46,000 | 27,600 + part of 23,100 (18-08-2026) | see below |
 | HIA Airport cold rooms (5) | Consolidated Contractors (CCC) | DIAR-L05531 MCR | LPO | 253,500 | 76,050 | 177,450 |
 | Mesaieed animal waste cold room | HBK-BWTC-BEIL JV | HBB000353-0 | LOA | 400,000 | 0 | 400,000 |
 | Samoosa cold room (freezer) | Samoosa Shop | QUT/DCTS/066/2026 | Quote | 38,500 | 38,500 | 0 — settled, confirmed by Farhan 11-08-2026 |
-| Jollibee condensing unit relocation | Sunrise Trading | PO-2026-0000310 | LPO | 7,000 | 0 | 7,000 |
+| Jollibee condensing unit relocation | Sunrise Trading | PO-2026-0000310 | LPO | 7,000 | part of 23,100 (18-08-2026) | see below |
+
+**Sunrise, combined position as at 18-08-2026.** The two orders are settled together: 18,400 +
+7,000 = 25,400 invoiced and outstanding, against which cheque no. 00990904 (Dukhan Bank,
+dated 16-08-2026) brought in **23,100**. **Balance outstanding: QAR 2,300**, invoiced under
+INV-262/2026. The client's own receipt voucher 0684 allocates the cheque to cold room work; the
+split between the two orders does not change the 2,300.
+
+The shortfall is **exactly 5% of the 46,000 cold room contract**. Neither LPO carries a
+retention clause, so this reads as a retention applied by the client's accounts rather than a
+keying error — see OL-027.
 | Drainage system replacement | Lean N Fit | QUT/DCTS/214/2026 | Cash | 1,200 | 1,200 | 0 — completed & paid 11-08-2026 |
 
 **Totals as at 11 August 2026:** contract **766,300** · received **163,450** ·
@@ -126,7 +136,7 @@ The larger of the two has collected nothing.
 
 | Series | Next free |
 |---|---|
-| Invoice | INV-262/2026 — 259 and 260 to Jollibee/Sunrise, 261 to Oscar Prime, none yet in the log |
+| Invoice | INV-263/2026 — 259/260 Sunrise, 261 Oscar Prime, 262 Sunrise balance, none yet in the log |
 | Receipt | RCT-257/2026 |
 | Quotation | next after QUT/DCTS/220/2026, plus the separate SQ074 series — see OL-018 |
 | Delivery note | DN-252/2026 |
