@@ -102,8 +102,26 @@ Two things to settle before material is ordered:
    full account details. See `DECISIONS.md` D-011. What remains is historical: check whether any
    cheque already banked was drawn to the old *"and"* wording, and whether any is still uncleared.
 
-### OL-025 — Oscar Prime: one condensing unit ordered for two rooms
-**Owner:** Farhan · **Raised:** 2026-08-17 · **Blocks:** issuing LPO-195
+### OL-025 — Oscar Prime: one condensing unit for two rooms — RESOLVED 18-08-2026
+**Owner:** Farhan · **Raised:** 2026-08-17 · **Closed:** 2026-08-18
+
+**Resolved as two complete sets.** The vendor's revised offer 107/QTN261867-R1 adds a second
+condensing unit, a 3 HP BITZER LH64/2DES-3Y, alongside the 2 HP LH44/2FES-2Y and the two
+Guntner evaporators. That matches SQ074's scope of work — *"condensing unit and matching
+evaporator (2 set)"* — which is the document the client placed their order on. LPO-195 is
+cancelled and LPO-196 issued in its place.
+
+**What it cost to get right:** 14,750 → 24,500, up 9,750, against an unchanged 78,000 contract.
+Equipment goes from 18.9% to 31.4% of the sale. Caught before delivery it is a margin
+reduction; caught at commissioning it would have been a dispute, a second mobilisation and a
+unit bought at whatever the yard asked that week.
+
+**Kept for the lesson:** the contradiction was visible in TNDK's own quotation — §5 said one set,
+§8 said two — before the client ever ordered. A quotation that disagrees with itself sets the
+price on one reading and the obligation on the other.
+
+### OL-025-OLD — original entry
+**Raised:** 2026-08-17 · **Blocked:** issuing LPO-195
 
 The vendor offer, and therefore LPO-195, is **1 condensing unit and 2 evaporators** for a job
 sold as two cold rooms. The paperwork does not agree with itself on what was sold:
@@ -275,7 +293,8 @@ Three documents were produced today and none has been appended to the log in Dri
 - **QUT/DCTS/220/2026** — Dana Hypermarket cold room door handle replacement, 700, issued
   17-08-2026. Same assumption as above.
 - **INV-261/2026** — Oscar Prime 75% advance, 58,500, issued 17-08-2026.
-- **LPO-195/2026** — Doha Controls, 14,750, drafted 17-08-2026, not yet issued.
+- **LPO-195/2026** — Doha Controls, 14,750, drafted 17-08-2026. **Cancelled 18-08-2026** and
+  replaced by LPO-196/2026 at 24,500. The number is retired, not reissued and not skipped.
 - **INV-262/2026** — Sunrise balance, 2,300, issued 18-08-2026.
 - **QUT/DCTS/221/2026** — Space Al-Arabi, 8 × 40 ft reefer containers, 400,000, issued
   18-08-2026. The largest quotation TNDK has issued.
