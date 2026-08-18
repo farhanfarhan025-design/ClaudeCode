@@ -182,9 +182,15 @@ Three things follow, none of which the quotation itself can settle:
    deal this size. It is also a large ask on used equipment, and it is the term most likely to be
    negotiated. Decide now what the fallback is — an inspection-then-pay structure keeps the
    protection without demanding blind trust.
-3. **A 6 month warranty on eight used refrigeration units is the real exposure.** One compressor
-   failure inside the period can consume the margin on a unit; three would be material. Whatever
-   the supplier warrants should be passed through, in writing, before the price is committed.
+3. **A 6 month warranty on eight used refrigeration units is the real exposure.** Confirmed
+   17-08-2026 as **2015 manufacture — eleven years old at delivery.** One compressor failure
+   inside the period can consume the margin on a unit; three would be material. Whatever the
+   supplier warrants should be passed through, in writing, before the price is committed.
+4. **Delivery and crane are now the client's** (Farhan, 18-08-2026) and the unit rate is
+   unchanged at 50,000, so the haulage and lifting cost comes out of TNDK's side of the deal
+   without the price moving. That is margin gained, provided the removal is stated as clearly
+   to the client as it is on the quotation — it is, in the scope, in the pricing note, in the
+   client's obligations and in the exclusions.
 
 **Needed:** the landed cost per unit, and the supplier's own warranty position.
 

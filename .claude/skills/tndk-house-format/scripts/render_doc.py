@@ -489,6 +489,9 @@ def build_html(doc):
   table.items td.desc {{ font-weight: normal; }}
   table.items td.desc b {{ font-weight: bold; }}
   .l {{ text-align: left; }} .c {{ text-align: center; }} .r {{ text-align: right; }}
+  /* The totals and the amount in words are one thing to a reader — a grand total on one page
+     with its written amount on the next looks like a document that lost a line. */
+  .moneywrap {{ page-break-inside: avoid; }}
   table.money {{ width: 100%; border-collapse: collapse; margin-top: 6pt; }}
   table.money td {{ padding: 3pt 5pt; font-weight: bold; }}
   table.money td.fill {{ width: 69.3%; }}
@@ -562,7 +565,7 @@ def build_html(doc):
   <div class="party">{party_rows}</div>
 
   <table class="items"><tr>{ths}</tr>{''.join(trs)}</table>
-  {money_block}
+  <div class="moneywrap">{money_block}</div>
   {instrument}
   {payee}
   {notes}
