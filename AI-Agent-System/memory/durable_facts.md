@@ -135,6 +135,19 @@ is committed against this order yet — the BITZER unit and the Guntner evaporat
 ordered, and the terms are written so the advance lands before that commitment is made. Keep it
 that way: this is the same sequence that kept Jollibee off working capital.
 
+## Quoted, not yet won — as at 18 August 2026
+
+| Client | Reference | Value | Note |
+|---|---|---|---|
+| Space Al-Arabi | QUT/DCTS/221/2026 | 400,000 | 8 reefer containers, 100% advance |
+| Al Waha Agriculture | QUT/DCTS/222/2026 | 246,675 | cold room 138,000 + air conditioning 108,675 |
+
+The Al Waha air conditioning is bought in from Cool and Rest at 94,500 and sold at 108,675 — a
+**15% markup on cost, 13.0% of the section's price**, applied on Farhan's instruction. It is the
+first bought-in-and-resold line the system holds with both sides of the number recorded. Two
+open questions sit on it: OL-031 on whether 94,500 is six units or seven, and OL-032 on the
+missing lead time.
+
 ## Concentration
 
 Top-2 clients = **86.2%** of the order book (Mesaieed 52.8% + CCC 33.4%, on 758,100).
@@ -146,7 +159,7 @@ The larger of the two has collected nothing.
 |---|---|
 | Invoice | INV-263/2026 — 259/260 Sunrise, 261 Oscar Prime, 262 Sunrise balance, none yet in the log |
 | Receipt | RCT-257/2026 |
-| Quotation | next after QUT/DCTS/220/2026, plus the separate SQ074 series — see OL-018 |
+| Quotation | next after QUT/DCTS/222/2026, plus the SQ038 / SQ074 series — see OL-018 |
 | Delivery note | DN-252/2026 |
 | LPO | LPO-198/2026 — 194 Airtronics, 195 cancelled, 196 Doha Controls, 197 Al Buhsain |
 

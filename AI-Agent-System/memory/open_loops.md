@@ -238,6 +238,34 @@ Two commercial points on the same order, neither blocking:
    accepts the term only from written notice of readiness; if they will not agree that in
    writing, the penalty runs from a date TNDK cannot see.
 
+### OL-031 — Al Waha AC: the vendor quote says 06 Nos. and 7 units on the same page
+**Owner:** Farhan · **Raised:** 2026-08-18 · **Value at risk:** QAR 13,500 – 15,750
+
+Cool and Rest offer CNR/CAC/Quot/48152-26-DHC contradicts itself:
+
+- The priced line reads **"06 Nos."** against 94,500.00
+- The equipment schedule on the same page reads 5 units + 2 units and **"TOTAL NO OF AC 7nos"**
+
+At seven units 94,500 is 13,500 each; at six it is 15,750 each. QUT/DCTS/222/2026 quotes the
+client **seven** units, following the schedule and the stated total. **If Cool and Rest meant
+six, TNDK supplies the seventh out of its own margin** — 13,500 against a marked-up section
+worth 108,675, which is most of the 14,175 added.
+
+**Needed before the quotation is issued:** written confirmation from Hashim Bakar that 94,500
+covers seven units. A verbal yes is not enough here; the ambiguity is on their own document.
+
+### OL-032 — Al Waha: no lead time quoted for the air conditioning
+**Owner:** Farhan · **Raised:** 2026-08-18
+
+Cool and Rest give no delivery or installation period, and their payment terms say only "as per
+agreed terms". QUT/DCTS/222/2026 therefore states the Section A programme as quoted and says
+Section B runs concurrently, to be confirmed in writing on award — which is honest but is a
+commitment TNDK cannot yet keep.
+
+**Needed:** the AC lead time and payment terms in writing, before the client is given a date.
+The client is being offered 80% advance / 15% / 5% across both sections; if the AC supplier
+wants its own money on a different schedule, that gap is TNDK's to fund.
+
 ### OL-020 — Documents outstanding on two settled jobs
 **Owner:** LEDGER · **Raised:** 2026-08-11
 
@@ -326,6 +354,8 @@ Three documents were produced today and none has been appended to the log in Dri
 - **INV-262/2026** — Sunrise balance, 2,300, issued 18-08-2026.
 - **QUT/DCTS/221/2026** — Space Al-Arabi, 8 × 40 ft reefer containers, 400,000, issued
   18-08-2026. The largest quotation TNDK has issued.
+- **QUT/DCTS/222/2026** — Al Waha Agriculture, cold room plus air conditioning, 246,675,
+  issued 18-08-2026. Incorporates QUT/DCTS/038/2026 unchanged as its Section A.
 - **LTR/DCTS/217/2026** — bank details letter on letterhead, 17-08-2026. Letter series now runs
   216 (warranty undertaking) and 217; it shares serials with the quotation series, which is a
   convention worth writing down before the two collide.
