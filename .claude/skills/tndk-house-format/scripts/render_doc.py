@@ -506,9 +506,16 @@ def build_html(doc):
                       white-space: nowrap; }}
   table.bank td.bv {{ white-space: nowrap; }}
   table.bank td.bx {{ border: 0; }}
-  .notes {{ margin-top: 10pt; font-size: 8.5pt; font-style: italic; color: {INK_SOFT}; }}
+  /* Keep the block together. A "Notes:" heading stranded at the foot of one page with its
+     notes on the next reads as a document that broke, and on a quotation the page the client
+     reads first is the one carrying the price. */
+  .notes {{ margin-top: 10pt; font-size: 8.5pt; font-style: italic; color: {INK_SOFT};
+            page-break-inside: avoid; }}
   .notes b {{ color: {NAVY}; }}
   .notes .nlist {{ padding-left: 8pt; }}
+  /* If the notes are long enough that they must split anyway, split between notes and never
+     through the middle of one. */
+  .notes .nlist > div {{ page-break-inside: avoid; }}
   .realis {{ font-size: 8.5pt; color: {INK_SOFT}; padding-top: 3pt; }}
   .callout {{ background: {PANEL}; border: 0.8pt solid {GOLD}; text-align: center;
               padding: 9pt; margin-top: 14pt; }}
