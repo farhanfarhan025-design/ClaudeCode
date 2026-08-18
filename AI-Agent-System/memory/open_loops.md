@@ -164,6 +164,30 @@ answered for the past and only future documents needed correcting. If it is retu
 name, 23,100 is delayed and the client has to be asked for a replacement — and the corrected
 payee wording just paid for itself.
 
+### OL-029 — Space Al-Arabi reefer enquiry, 400,000 — quoted without a cost
+**Owner:** Farhan · **Raised:** 2026-08-18 · **Value:** QAR 400,000
+
+QUT/DCTS/221/2026 offers eight reconditioned 40 ft Thermo King reefer containers at 50,000 each.
+It is the largest quotation TNDK has issued and it is a **trading** deal, not a fabrication job —
+the margin is entirely the gap between 50,000 and what a reconditioned unit costs landed,
+serviced and repainted. Nothing in the file records that cost.
+
+Three things follow, none of which the quotation itself can settle:
+
+1. **No supplier quote is on record.** Eight units have to be sourced. If the buy price is not
+   fixed and held before the offer is accepted, the whole margin is exposed to whatever the yard
+   asks on the day. `OL-009` already notes the rate card has never been verified; this is that
+   gap at 400,000 instead of 40,000.
+2. **100% advance cuts both ways.** It removes TNDK's funding risk entirely, which is right on a
+   deal this size. It is also a large ask on used equipment, and it is the term most likely to be
+   negotiated. Decide now what the fallback is — an inspection-then-pay structure keeps the
+   protection without demanding blind trust.
+3. **A 6 month warranty on eight used refrigeration units is the real exposure.** One compressor
+   failure inside the period can consume the margin on a unit; three would be material. Whatever
+   the supplier warrants should be passed through, in writing, before the price is committed.
+
+**Needed:** the landed cost per unit, and the supplier's own warranty position.
+
 ### OL-020 — Documents outstanding on two settled jobs
 **Owner:** LEDGER · **Raised:** 2026-08-11
 
@@ -247,6 +271,8 @@ Three documents were produced today and none has been appended to the log in Dri
 - **INV-261/2026** — Oscar Prime 75% advance, 58,500, issued 17-08-2026.
 - **LPO-195/2026** — Doha Controls, 14,750, drafted 17-08-2026, not yet issued.
 - **INV-262/2026** — Sunrise balance, 2,300, issued 18-08-2026.
+- **QUT/DCTS/221/2026** — Space Al-Arabi, 8 × 40 ft reefer containers, 400,000, issued
+  18-08-2026. The largest quotation TNDK has issued.
 - **LTR/DCTS/217/2026** — bank details letter on letterhead, 17-08-2026. Letter series now runs
   216 (warranty undertaking) and 217; it shares serials with the quotation series, which is a
   convention worth writing down before the two collide.
