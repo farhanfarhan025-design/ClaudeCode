@@ -134,15 +134,20 @@ def fill_person(row, name, desig, mob, mail):
 # r02 carries the template's sample person — Ashley Fernandes of another company. It must be
 # overwritten, not left behind: submitting a form with a stranger's name, number and email on it
 # is both a data-protection problem and an obvious sign the form was not read.
-fill_person(2, "Farhan", "Sales Engineer / Site in charge", "7706 0676", "farhan@dctsqatar.com")
-fill_person(3, "[ name ]", "Refrigeration Technician", "[ mobile ]", "")
-fill_person(4, "[ name ]", "Refrigeration Technician", "[ mobile ]", "")
-fill_person(5, "[ name ]", "Helper", "[ mobile ]", "")
+fill_person(2, "Joseph Jobi", "Engineer — Key Personnel / Site in charge", "7742 2762",
+            "farhan@dctsqatar.com")
+fill_person(3, "Jijo Maliyekkal Thomas\nQID 28035608170 (exp. 10-11-2026)",
+            "Refrigeration Technician", "[ mobile ]", "")
+fill_person(4, "Md Mijan Molla Yeleus Mollah\nQID 29805016707 (exp. 30-12-2026)",
+            "Refrigeration Technician", "[ mobile ]", "")
+fill_person(5, "Tauhid Hossen Ashrafujjaman\nQID 30605005039 (exp. 02-10-2026)",
+            "Helper", "[ mobile ]", "")
 
 # r06 and r08 are the template's own "Work Force" and "Additional Documents" labels — the text
 # goes in the blank row under each, not over the label.
-setcell(R(t1, 7)[0], "1 x Site in charge, 2 x Refrigeration Technicians, 1 x Helper — 4 persons in "
-                     "total. [ Confirm names, QID numbers and trade certificates before submission. ]", size=9)
+setcell(R(t1, 7)[0], "1 x Engineer / Site in charge, 2 x Refrigeration Technicians, 1 x Helper — "
+                     "4 persons in total. QID copies attached for the three site staff. "
+                     "[ Attach the Engineer's QID copy and insert mobile numbers before submission. ]", size=9)
 setcell(R(t1, 9)[0], "Quotation QUT/DCTS/219/2026 (approved)  ·  Work Order "
                      "WO/DCTS/001/2026  ·  Job Hazard Analysis GWC-HSE-FM-JHA.00 (attached)  ·  Hot Work "
                      "Permit (to be obtained)  ·  Company trade licence and CR  ·  Third-party liability "
@@ -150,6 +155,7 @@ setcell(R(t1, 9)[0], "Quotation QUT/DCTS/219/2026 (approved)  ·  Work Order "
                      "test certificates  ·  Safety data sheets for refrigerant, silicone and solvents.", size=9)
 
 setcell(R(t2, 1)[0], "Name:  Farhan")
+setcell(R(t0, 6)[0], "Work Title:")
 setcell(R(t2, 2)[0], "Designation:  Sales Engineer")
 setcell(R(t2, 4)[0], "Date:  19-08-2026")
 

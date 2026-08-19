@@ -293,9 +293,15 @@ are completed and ready. Three things follow that the quotation did not allow fo
 1. **A hot work permit is needed for the brazing repair.** That is a separate application, often
    with its own lead time and a fire-watch requirement. The job was quoted at 02 – 03 days from
    clear access; the permit cycle is not inside that.
-2. **Blanks remain that only Farhan can fill** — the GWC facility, building and unit references,
-   and the names, QID numbers and trade certificates of the three technicians. GWC will not accept
-   the submission without them.
+2. **Personnel supplied 19-08-2026 and entered on the forms** — Joseph Jobi, Engineer and key
+   personnel (7742 2762); Jijo Maliyekkal Thomas, QID 28035608170; Md Mijan Molla Yeleus Mollah,
+   QID 29805016707; Tauhid Hossen Ashrafujjaman, QID 30605005039. Still outstanding: the GWC
+   facility, building and unit references; mobile numbers for the three staff; and the Engineer's
+   own QID copy, which was not among those provided. See OL-035 on two things the QIDs show.
+
+   Designations were assigned from age and seniority and are an assumption, not a fact — Farhan to
+   confirm which two are technicians and which is the helper before submission, because GWC checks
+   the designation against the trade certificate.
 3. **Supporting documents are listed but not confirmed to exist** — third-party liability
    insurance certificate, gas cylinder test certificates, and safety data sheets for the
    refrigerant, silicone and solvents. If any of these are missing, the submission stalls and the
@@ -303,6 +309,28 @@ are completed and ready. Three things follow that the quotation did not allow fo
 
 Worth noting for pricing: a facility with a formal permit regime costs a day of somebody's time
 before a spanner is turned. `OL-004`'s margin floor was set without that in it.
+
+### OL-035 — Two problems visible on the staff QIDs for the GWC submission
+**Owner:** Farhan · **Raised:** 2026-08-19 · **Blocks:** the gate pass, not the work
+
+The three residency permits supplied for the Al Zehrabi submission show:
+
+1. **Md Mijan Molla Yeleus Mollah is sponsored by another company.** His QID names the employer as
+   اي اي سي للمقاولات والضيافة (A A C Contracting and Hospitality), not TNDK. On a facility running
+   a permit-to-work regime, a worker whose card names a different sponsor is routinely refused a
+   gate pass without a no-objection or secondment letter from the sponsor. Get one before the day
+   of the work, not at the gate.
+2. **None of the three QIDs shows a refrigeration trade.** Two read مدير تنفيذي (executive
+   manager) and one بائع (salesman). The method statement puts two of them forward as refrigeration
+   technicians doing brazing and pressure testing. GWC security and HSE both compare the stated
+   designation against the card and against a trade certificate. Expect the question, and have the
+   certificates ready rather than arguing it on site.
+
+Neither stops the work. Both stop the team at the gate on the morning, which is worse — the client
+is waiting and the day is lost.
+
+Also noted: Tauhid Hossen Ashrafujjaman's permit expires **02-10-2026**, about six weeks out. Fine
+for this job; flag it for renewal.
 
 ### OL-020 — Documents outstanding on two settled jobs
 **Owner:** LEDGER · **Raised:** 2026-08-11
