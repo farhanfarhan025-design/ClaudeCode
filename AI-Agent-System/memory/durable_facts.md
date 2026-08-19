@@ -142,6 +142,13 @@ that way: this is the same sequence that kept Jollibee off working capital.
 | Space Al-Arabi | QUT/DCTS/221/2026 | 400,000 | 8 reefer containers, 100% advance |
 | Al Waha Agriculture | QUT/DCTS/222/2026 | 246,675 | cold room 138,000 + air conditioning 108,675 |
 
+**Al Zehrabi Medical, QUT/DCTS/219/2026 — 4,900 — APPROVED 18-08-2026.** Cold room maintenance:
+two units water service, one room leak test and re-gas, silicone, door gaps, 25 m pipe insulation
+and an outdoor sunshade. Terms 80% advance / 20% on completion, 02 – 03 days. Work order
+WO/DCTS/001/2026 issued to the site team the same day. **Confirm the 80% advance of 3,920 is in
+before the team consumes materials** — the advance is the term, and an approved quotation is not
+a payment.
+
 The Al Waha air conditioning is bought in from Cool and Rest at 94,500 and sold at 108,675 — a
 **15% markup on cost, 13.0% of the section's price**, applied on Farhan's instruction. It is the
 first bought-in-and-resold line the system holds with both sides of the number recorded. Two

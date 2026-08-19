@@ -132,6 +132,20 @@ TYPES = {
         "money": True,
         "sign": "sales",
     },
+    "work_order": {
+        # The sheet the technicians carry to site. Same house format so a job that starts as a
+        # quotation ends as a signed record without anything being retyped: the scope becomes
+        # the checklist, and the checklist becomes the evidence the work was done.
+        "badge": ["WORK", "ORDER"],
+        "party": "JOB & SITE DETAILS",
+        "meta": ["WORK ORDER NO", "DATE", "REF QUOTATION"],
+        "counterparty": "CLIENT",
+        "money": False,
+        "sign": "two-party",
+        "sign_labels": ("Completed by (Technician)", "Checked by (Supervisor / Client)"),
+        "extra_column": {"label": "DONE", "field": "result", "width": 11.0,
+                          "align": "c", "position": "end"},
+    },
     "handover": {
         "badge": ["HANDOVER", "CERTIFICATE"],
         "party": "HANDOVER TO",

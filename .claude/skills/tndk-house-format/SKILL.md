@@ -26,7 +26,7 @@ inspect the markup.
 Worked inputs for every type are in `assets/` — `example_lpo.json` reproduces the approved
 Airtronics LPO exactly, and is the reference to copy from.
 
-## The seven types
+## The eight types
 
 Everything shares the header, meta strip, party block, line table and footer. Only four things
 change, and the renderer already knows them — do not override them casually:
@@ -39,7 +39,15 @@ change, and the renderer already knows them — do not override them casually:
 | `delivery_note` | DELIVERY / NOTE | DELIVER TO | no | delivered-by / received-by |
 | `delivery_return` | DELIVERY / RETURN | RETURNED FROM | no | returned-by / received-back-by, adds a REASON column |
 | `quotation` | QUOTATION | TO | yes | `Farhan / Sales Engineer` |
+| `work_order` | WORK / ORDER | JOB & SITE DETAILS | no | completed-by / checked-by, adds a DONE tick column |
 | `handover` | HANDOVER / CERTIFICATE | HANDOVER TO | no | handed-over-by / received-and-accepted-by, adds a VERIFIED tick column |
+
+A work order is the sheet the technicians carry. It takes an approved quotation's scope and
+turns it into numbered, ticked instructions, so the job that was sold is the job that gets
+done and the signed sheet comes back as the record. Put the readings and findings in table
+rows rather than notes — a row gives room to write on, a note does not. Carry the quotation's
+exclusions onto it verbatim: a technician who does not know what is out of scope will do it
+for free.
 
 A handover certificate is a checklist signed at site: each line is ticked by both parties, and
 the client's signature starts the warranty. Leave the verification column as `"☐"` rather than
