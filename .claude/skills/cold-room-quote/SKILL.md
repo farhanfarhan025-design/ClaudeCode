@@ -154,7 +154,10 @@ do not reuse one.
 exclusive of VAT.
 
 **Multiple rooms** are supported: add entries to `rooms` and the project table
-grows a row each. Coverage figures are then reported as summed totals across
+grows a row each. When the rooms run on different machines, pass
+`refrigeration` as a list — one entry per system, each with a `room` label.
+Rows where the systems agree (brand, refrigerant) print once; rows that differ
+(capacity) print one labelled line each. Coverage figures are then reported as summed totals across
 all rooms rather than as a single arithmetic expression, and mixed panel
 thicknesses print as `100 / 150 mm`. For a multi-room job where the client wants
 a price per room, ask first — the BOQ carries one lump-sum grand total, so

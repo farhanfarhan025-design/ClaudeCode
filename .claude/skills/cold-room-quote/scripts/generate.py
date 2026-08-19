@@ -288,33 +288,113 @@ def fill_flooring_section(doc, spec, tot):
             f"3 mm Mild Steel Chequered (Checkered) Plate, slip-resistant — {area}")
 
 
-def fill_refrigeration_section(doc, spec):
-    ref = spec.get("refrigeration", {})
+def ref_entries(spec):
+    """Refrigeration as a list — one entry per system, however it was written.
+
+    A single-system quote may pass one object; a job with a different machine
+    per room passes a list, each entry optionally carrying a `room` label that
+    prefixes its line in the tables.
+    """
+    ref = spec.get("refrigeration")
     if not ref:
+        return []
+    return list(ref) if isinstance(ref, list) else [ref]
+
+
+def _tag(entry):
+    return f"{entry['room']}: " if entry.get("room") else ""
+
+
+def _origin(entry, key):
+    return f" ({entry[key]})" if entry.get(key) else ""
+
+
+def cu_text(entry):
+    kind = entry.get("cu_type", "semi-hermetic").strip()
+    # "BITZER LH64/2DES-3Y, semi-hermetic condensing unit" reads with a comma;
+    # a bare brand does not — "Copeland condensing unit"
+    head = (f"{entry['condensing_unit']}, {kind} condensing unit" if kind
+            else f"{entry['condensing_unit']} condensing unit")
+    return head + (f", {entry['cu_origin']}" if entry.get("cu_origin") else "")
+
+
+def compressor_text(entry):
+    brand = entry.get("compressor_brand") or entry["condensing_unit"].split()[0]
+    # the model is quoted without repeating the brand that already precedes it
+    model = re.sub(rf"^{re.escape(brand)}\s*", "", entry["condensing_unit"]).strip()
+    kind = entry.get("cu_type", "semi-hermetic").strip()
+    text = f"{brand}{_origin(entry, 'cu_origin')}"
+    if kind:
+        text += f" — {kind} compressor"
+    if model:
+        text += f"{',' if kind else ' —'} model {model}"
+    return text
+
+
+def evaporator_text(entry):
+    parts = [f"{entry['evaporator']} evaporating unit"]
+    if entry.get("evap_note"):
+        parts.append(entry["evap_note"])
+    if entry.get("evap_origin"):
+        parts.append(entry["evap_origin"])
+    return ", ".join(parts)
+
+
+def capacity_text(entry):
+    basis = entry.get("selection_basis") or (
+        entry.get("compressor_brand")
+        or entry.get("condensing_unit", "").split()[0] if entry.get("condensing_unit") else "")
+    at = f"{entry['sst']} SST / {entry['ambient']}" if entry.get("sst") else entry.get("ambient", "")
+    note = f" (per {basis} selection at {at} ambient)" if basis and at else ""
+    return f"Cooling capacity {fmt(entry['capacity_kw'])} kW{note}"
+
+
+def selected_text(entry):
+    bits = [f"{fmt(entry['capacity_kw'])} kW cooling capacity"]
+    if entry.get("power_input_kw"):
+        bits.append(f"{fmt(entry['power_input_kw'])} kW power input")
+    if entry.get("current_a"):
+        supply = entry.get("power_supply", "400V-3-50Hz")
+        bits.append(f"{fmt(entry['current_a'])} A @ {supply}")
+    head = entry.get("condensing_unit", "")
+    return (f"{head} — " if head else "") + ", ".join(bits)
+
+
+def joined(entries, fn):
+    """One labelled line per system — collapsed to one line when they agree.
+
+    Two rooms sharing a brand should not print that brand twice; two rooms with
+    different capacities should print both, each tagged with its room.
+    """
+    texts = [fn(e) for e in entries]
+    if len(set(texts)) == 1:
+        return texts[0]
+    return "\n".join(_tag(e) + t for e, t in zip(entries, texts))
+
+
+def fill_refrigeration_section(doc, spec):
+    entries = ref_entries(spec)
+    if not entries:
         return
     t = find_table(doc, "System Type")
-    sets_ = ref.get("sets", 1)
-    set_row(t, "System Type", f"Split-type refrigeration system ({sets_} set)"
-            if sets_ == 1 else f"Split-type refrigeration system ({sets_} sets)")
-    if ref.get("condensing_unit"):
-        set_row(t, "Condensing Unit",
-                f"{ref['condensing_unit']}, semi-hermetic condensing unit, "
-                f"{ref.get('cu_origin', 'Germany')}")
-        brand = ref.get("compressor_brand", "BITZER")
-        # the model number is quoted without repeating the brand that precedes it
-        model = re.sub(rf"^{re.escape(brand)}\s+", "", ref["condensing_unit"])
-        set_row(t, "Compressor Brand",
-                f"{brand} ({ref.get('cu_origin', 'Germany')}) — semi-hermetic "
-                f"compressor, model {model}")
-    if ref.get("refrigerant"):
-        set_row(t, "Refrigerant", ref["refrigerant"])
-    if ref.get("evaporator"):
-        set_row(t, "Evaporator (Air Cooler)",
-                f"{ref['evaporator']} evaporating unit, HC refrigerant compatible, "
-                f"{ref.get('evap_origin', 'South Africa')}")
+    sets_ = spec.get("sets") or entries[0].get("sets") or len(entries)
+    set_row(t, "System Type", f"Split-type refrigeration system "
+            f"({sets_} set{'s' if sets_ > 1 else ''})")
+    if all(e.get("condensing_unit") for e in entries):
+        set_row(t, "Condensing Unit", joined(entries, cu_text))
+        set_row(t, "Compressor Brand", joined(entries, compressor_text))
+    refrigerants = []
+    for e in entries:
+        if e.get("refrigerant") and e["refrigerant"] not in refrigerants:
+            refrigerants.append(e["refrigerant"])
+    if refrigerants:
+        set_row(t, "Refrigerant", " / ".join(refrigerants))
+    if all(e.get("evaporator") for e in entries):
+        set_row(t, "Evaporator (Air Cooler)", joined(entries, evaporator_text))
     set_row(t, "Operating Temperature", operating_temp(spec))
-    if ref.get("defrost"):
-        set_row(t, "Defrost", ref["defrost"])
+    defrosts = [e["defrost"] for e in entries if e.get("defrost")]
+    if defrosts:
+        set_row(t, "Defrost", defrosts[0])
 
 
 def operating_temp(spec):
@@ -343,35 +423,38 @@ def thickness_label(spec):
 
 def fill_capacity_section(doc, spec, tot, qs):
     t = find_table(doc, "Internal Volume")
-    ref = spec.get("refrigeration", {})
+    entries = ref_entries(spec)
     if len(qs) == 1:
         vol = f"{qs[0]['vol_expr']} = {fmt(tot['volume'])} m³"
     else:
-        vol = f"{fmt(tot['volume'])} m³ (all rooms)"
+        vol = "\n".join(
+            f"{r['type'].title()}: {q['vol_expr']} = {fmt(q['volume'])} m³"
+            for r, q in zip(spec["rooms"], qs)) + f"\nTotal: {fmt(tot['volume'])} m³"
     set_row(t, "Internal Volume", vol)
     set_row(t, "Design Room Temp.", operating_temp(spec))
-    if ref.get("capacity_kw"):
-        set_row(t, "Estimated Heat Load",
-                f"Cooling capacity {fmt(ref['capacity_kw'])} kW "
-                f"(per {ref.get('selection_basis', 'BITZER')} selection at "
-                f"{ref.get('sst', '−8°C')} SST / {ref.get('ambient', '43°C')} ambient)")
-        set_row(t, "Selected Capacity",
-                f"{ref.get('condensing_unit', '')} — {fmt(ref['capacity_kw'])} kW "
-                f"cooling capacity, {fmt(ref.get('power_input_kw', 0))} kW power input, "
-                f"{fmt(ref.get('current_a', 0))} A @ "
-                f"{ref.get('power_supply', '400V-3-50Hz')}".strip())
-    if ref.get("ambient"):
+
+    rated = [e for e in entries if e.get("capacity_kw")]
+    if rated:
+        set_row(t, "Estimated Heat Load", joined(rated, capacity_text))
+        set_row(t, "Selected Capacity", joined(rated, selected_text))
+    ambients = []
+    for e in entries:
+        if e.get("ambient") and e["ambient"] not in ambients:
+            ambients.append(e["ambient"])
+    if ambients:
+        basis = entries[0].get("selection_basis")
+        note = f"per {basis} selection, " if basis else ""
         set_row(t, "Design Ambient",
-                f"+{ref['ambient'].lstrip('+')} (per "
-                f"{ref.get('selection_basis', 'BITZER')} selection, Doha ambient design)")
+                f"+{ambients[0].lstrip('+')} ({note}Doha ambient design)")
 
 
 def fill_scope(doc, spec, tot):
     """Rewrite the scope bullets whose wording depends on the quoted sizes."""
     thickness = thickness_label(spec)
     door = spec.get("door", {})
-    ref = spec.get("refrigeration", {})
-    sets_ = ref.get("sets", 1)
+    entries = ref_entries(spec)
+    sets_ = spec.get("sets") or (entries[0].get("sets") if entries else None) \
+        or max(len(entries), 1)
     n_words = {1: "one (1)", 2: "two (2)", 3: "three (3)", 4: "four (4)"}
     door_qty = door.get("qty", 1)
     rules = [
@@ -420,7 +503,7 @@ def fill_boq(doc, spec, qs, tot):
 def default_boq(spec, qs, tot):
     thickness = thickness_label(spec)
     door = spec.get("door", {})
-    ref = spec.get("refrigeration", {})
+    entries = ref_entries(spec)
     q = qs[0]
     if len(qs) == 1:
         size = (f"internal size {q['dL']} m (L) × {q['dW']} m (W) × "
@@ -429,17 +512,23 @@ def default_boq(spec, qs, tot):
         size = " and ".join(
             f"{r['type'].lower()} {x['dims']} ({fmt(x['volume'])} m³)"
             for r, x in zip(spec["rooms"], qs))
+
+    def one_system(e):
+        text = f"{e['condensing_unit']}"
+        kind = e.get("cu_type", "semi-hermetic").strip()
+        text += f" {kind} condensing unit" if kind else " condensing unit"
+        text += _origin(e, "cu_origin")
+        if e.get("evaporator"):
+            text += f" + {e['evaporator']} evaporating unit{_origin(e, 'evap_origin')}"
+        if e.get("refrigerant"):
+            text += f", {e['refrigerant']}"
+        if e.get("capacity_kw"):
+            text += f", cooling capacity {fmt(e['capacity_kw'])} kW"
+        return _tag(e) + text
+
     fridge = ""
-    if ref.get("condensing_unit"):
-        fridge = (f"{ref['condensing_unit']} semi-hermetic condensing unit "
-                  f"({ref.get('cu_origin', 'Germany')})")
-        if ref.get("evaporator"):
-            fridge += (f" + {ref['evaporator']} evaporating unit "
-                       f"({ref.get('evap_origin', 'South Africa')})")
-        if ref.get("refrigerant"):
-            fridge += f", {ref['refrigerant']}"
-        if ref.get("capacity_kw"):
-            fridge += f", cooling capacity {fmt(ref['capacity_kw'])} kW"
+    if entries and all(e.get("condensing_unit") for e in entries):
+        fridge = "; ".join(one_system(e) for e in entries)
         fridge += (", including refrigeration copper piping, armaflex insulation "
                    "and insulated drain line")
     n_words = {1: "one (1)", 2: "two (2)", 3: "three (3)", 4: "four (4)"}

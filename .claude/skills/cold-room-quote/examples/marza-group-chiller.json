@@ -30,6 +30,7 @@
     "compressor_brand": "BITZER",
     "cu_origin": "Germany",
     "evaporator": "HSE302-1DWEO",
+    "evap_note": "HC refrigerant compatible",
     "evap_origin": "South Africa",
     "refrigerant": "R404A",
     "capacity_kw": 5.60,

@@ -50,22 +50,30 @@ Note the minus sign in freezer temperatures is U+2212 (`−`), matching the mast
 
 All optional — omit the block entirely to leave section 5 as the master has it.
 
+May be a **single object** (one system) or a **list of objects** (one per room,
+e.g. a chiller and a freezer on different machines). Each entry in a list may
+carry a `room` label, used to tag its line. Rows where every entry agrees print
+once without labels; rows that differ print one labelled line per system.
+
 | Field | Default | Example |
 |---|---|---|
 | `sets` | `1` | number of split systems |
 | `condensing_unit` | — | `"BITZER LH64/2DES-3Y"` |
-| `compressor_brand` | `"BITZER"` | stripped from the model when printing "model ..." |
-| `cu_origin` | `"Germany"` | |
+| `room` | — | label for this system in a multi-system quote, e.g. `"Chiller"` |
+| `compressor_brand` | first word of `condensing_unit` | stripped from the model when printing "model ..." |
+| `cu_type` | `"semi-hermetic"` | compressor/unit type; `""` omits the claim when the type is unknown |
+| `cu_origin` | — | omitted when not given |
 | `evaporator` | — | `"HSE302-1DWEO"` |
-| `evap_origin` | `"South Africa"` | |
+| `evap_origin` | — | omitted when not given |
+| `evap_note` | — | extra clause after the evaporator model, e.g. `"HC refrigerant compatible"` |
 | `refrigerant` | — | `"R404A"` |
 | `capacity_kw` | — | `5.60` — cooling capacity |
 | `power_input_kw` | — | `3.25` |
 | `current_a` | — | `6.05` |
 | `power_supply` | `"400V-3-50Hz"` | |
-| `sst` | `"−8°C"` | saturated suction temp for the selection note |
-| `ambient` | `"43°C"` | Doha design ambient |
-| `selection_basis` | `"BITZER"` | whose selection software was used |
+| `sst` | — | saturated suction temp for the selection note; omitted when not given |
+| `ambient` | — | Doha design ambient, e.g. `"46°C"` |
+| `selection_basis` | compressor brand | whose selection software was used |
 | `defrost` | — | overrides the defrost row |
 
 ## Optional overrides
