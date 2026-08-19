@@ -329,8 +329,18 @@ The three residency permits supplied for the Al Zehrabi submission show:
 Neither stops the work. Both stop the team at the gate on the morning, which is worse — the client
 is waiting and the day is lost.
 
+3. **A fifth name was added 19-08-2026 — Jishan Shil Tapan Shil, QID 30305014411 — and his
+   residency permit expired on 21-05-2026, three months ago.** His card also names a wholly
+   unrelated sponsor: دهاكه مودرن منس كار سالون, a salon. He is on the form as instructed with the
+   expiry shown, so nothing is concealed, but an expired permit is refused at a GWC gate as a
+   matter of course, and deploying a worker on one carries its own exposure quite apart from the
+   gate pass. **This one needs an answer before the submission goes in, not after.**
+
 Also noted: Tauhid Hossen Ashrafujjaman's permit expires **02-10-2026**, about six weeks out. Fine
-for this job; flag it for renewal.
+for this job; flag it for renewal. Of the four site staff, **three are sponsored by companies other
+than TNDK** — a salon, a contracting and hospitality company, and one card not yet seen. That is a
+pattern rather than an exception and is worth resolving as a standing arrangement rather than job
+by job.
 
 ### OL-020 — Documents outstanding on two settled jobs
 **Owner:** LEDGER · **Raised:** 2026-08-11
