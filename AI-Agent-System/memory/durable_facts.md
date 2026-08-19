@@ -145,10 +145,11 @@ that way: this is the same sequence that kept Jollibee off working capital.
 **Al Zehrabi Medical, QUT/DCTS/219/2026 — 4,900 — APPROVED 18-08-2026.** Cold room maintenance:
 two units water service, one room leak test and re-gas, silicone, door gaps, 25 m pipe insulation
 and an outdoor sunshade. Terms 80% advance / 20% on completion, 02 – 03 days. Work order
-WO/DCTS/001/2026 issued to the site team the same day, and **INV-263/2026 raised 19-08-2026
-for the 80% advance of 3,920** — leaving 980 due on completion. The invoice is drafted, not sent.
-An approved quotation is not a payment; confirm the advance is in before the team consumes
-materials.
+WO/DCTS/001/2026 issued to the site team the same day. **INV-263/2026 was first drafted for the
+80% advance of 3,920, then redrafted at the full 4,900 on Farhan's instruction** before either
+version left the office — one number, one document, the 80/20 schedule replaced by a single
+payment. Drafted, not sent. An approved quotation is not a payment; confirm the money is in
+before the team consumes materials.
 
 The Al Waha air conditioning is bought in from Cool and Rest at 94,500 and sold at 108,675 — a
 **15% markup on cost, 13.0% of the section's price**, applied on Farhan's instruction. It is the
