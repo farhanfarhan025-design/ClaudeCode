@@ -1,0 +1,44 @@
+{
+  "_note": "Employment / work statement certificate for an administrative secretary sponsored by TNDK. Details taken from the employee's Qatar Residency Permit. Date of joining and salary are NOT recorded in any document provided and are deliberately absent — add them if the recipient requires them. Reference opens an HR letter series; confirm before the numbering log records it.",
+
+  "filename": "TNDK-HR-001-2026 Work Certificate - Thanzila Shanavas Saidmuhammad",
+  "reference": "TNDK/HR/001/2026",
+  "date": "19 August 2026",
+  "badge": ["WORK STATEMENT", "CERTIFICATE"],
+  "title": "To Whom It May Concern",
+
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "subtitle": "Division of Doha Cooling Trading & Solutions W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar",
+    "contact": "Tel 7706 0676 · farhan@dctsqatar.com"
+  },
+
+  "body": [
+    "This is to certify that THANZILA SHANAVAS SAIDMUHAMMAD, holding Qatar Identification No. 30135612414, an Indian national, is employed with The New Doha Kitchen Equipment Services W.L.L., Doha, State of Qatar, in the capacity of Administrative Secretary.",
+    "The employee is engaged on a full-time basis and remains in active service with the company as at the date of this certificate. Residency in the State of Qatar is sponsored by the company under a work residency permit, valid until 13 June 2027."
+  ],
+
+  "details": [
+    { "label": "Employee Name", "value": "THANZILA SHANAVAS SAIDMUHAMMAD" },
+    { "label": "Nationality", "value": "Indian" },
+    { "label": "Qatar ID (QID) No.", "value": "30135612414" },
+    { "label": "Passport No.", "value": "U3678681" },
+    { "label": "Designation", "value": "Administrative Secretary" },
+    { "label": "Employment Type", "value": "Full time — currently in service" },
+    { "label": "Sponsor / Employer", "value": "The New Doha Kitchen Equipment Services W.L.L." },
+    { "label": "Residency Permit", "value": "Work residency, valid until 13 June 2027" },
+    { "label": "Commercial Registration", "value": "C.R. No. 199351, State of Qatar" }
+  ],
+
+  "closing": [
+    "This certificate has been issued at the request of the employee for whatever lawful purpose it may serve, and does not constitute any financial or other obligation on the part of the company towards any third party."
+  ],
+
+  "note": "Valid only when bearing the company stamp and the signature of the authorised signatory.",
+
+  "signatory": {
+    "name": "ABDULLA KAVUMTHALAKKAL",
+    "role": "Manager — Authorised Signatory"
+  }
+}
