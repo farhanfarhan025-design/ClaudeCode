@@ -283,6 +283,27 @@ Also outstanding on this job: **no LPO or written order reference is recorded**,
 quotation was approved. Ask for their purchase order number before invoicing, or the invoice has
 nothing to sit under.
 
+### OL-034 — Al Zehrabi sits inside a GWC facility, and the permit chain was not priced
+**Owner:** Farhan · **Raised:** 2026-08-19
+
+The client's site requires GWC's own Method Statement and Job Hazard Analysis before work can
+start, which means a permit-to-work regime, gate passes and a facility approval cycle. Both forms
+are completed and ready. Three things follow that the quotation did not allow for:
+
+1. **A hot work permit is needed for the brazing repair.** That is a separate application, often
+   with its own lead time and a fire-watch requirement. The job was quoted at 02 – 03 days from
+   clear access; the permit cycle is not inside that.
+2. **Blanks remain that only Farhan can fill** — the GWC facility, building and unit references,
+   and the names, QID numbers and trade certificates of the three technicians. GWC will not accept
+   the submission without them.
+3. **Supporting documents are listed but not confirmed to exist** — third-party liability
+   insurance certificate, gas cylinder test certificates, and safety data sheets for the
+   refrigerant, silicone and solvents. If any of these are missing, the submission stalls and the
+   4,900 job sits waiting on paperwork.
+
+Worth noting for pricing: a facility with a formal permit regime costs a day of somebody's time
+before a spanner is turned. `OL-004`'s margin floor was set without that in it.
+
 ### OL-020 — Documents outstanding on two settled jobs
 **Owner:** LEDGER · **Raised:** 2026-08-11
 
@@ -377,6 +398,9 @@ Three documents were produced today and none has been appended to the log in Dri
   no work-order column yet.
 - **INV-263/2026** — Al Zehrabi, **4,900 in full**, issued 19-08-2026 (redrafted from an 80%
   advance version that was never sent).
+- **GWC HSE submission for Al Zehrabi** — Method Statement GWC-HSE-FM11-MS.00 and Job Hazard
+  Analysis GWC-HSE-FM-JHA.00 completed 19-08-2026. Not a TNDK series; these are the facility's
+  own forms and keep their own reference numbers.
 - **LTR/DCTS/217/2026** — bank details letter on letterhead, 17-08-2026. Letter series now runs
   216 (warranty undertaking) and 217; it shares serials with the quotation series, which is a
   convention worth writing down before the two collide.
