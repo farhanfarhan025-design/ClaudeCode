@@ -46,8 +46,7 @@ setcell(R(t0, 3)[1], "Cold room maintenance — servicing of two refrigeration u
                      "3.00 m x 1.50 m sunshade over the outdoor condensing units.")
 row4 = R(t0, 4)
 setcell(row4[1], "[ GWC facility / area — to be inserted ]")
-setcell(row4[3], "Al Zehrabi Medical L.L.C. — cold room area and adjacent outdoor plant area "
-                 "[ building / unit no. to be inserted ]")
+setcell(row4[3], "Al Zehrabi Medical L.L.C. — cold room area and adjacent outdoor plant area, B11 9")
 setcell(R(t0, 7)[0], "Cold room maintenance: servicing, leak rectification, re-gassing, sealing, door "
                      "adjustment, pipe insulation and outdoor sunshade installation.")
 
@@ -134,20 +133,23 @@ def fill_person(row, name, desig, mob, mail):
 # r02 carries the template's sample person — Ashley Fernandes of another company. It must be
 # overwritten, not left behind: submitting a form with a stranger's name, number and email on it
 # is both a data-protection problem and an obvious sign the form was not read.
+# Responsible Personnel carries the key person only; the site staff are listed under Work Force
+# below, which is how Farhan restructured the form.
 fill_person(2, "Joseph Jobi", "Engineer — Key Personnel / Site in charge", "7742 2762",
             "farhan@dctsqatar.com")
-fill_person(3, "Jijo Maliyekkal Thomas\nQID 28035608170 (exp. 10-11-2026)",
-            "Refrigeration Technician", "[ mobile ]", "")
-fill_person(4, "Md Mijan Molla Yeleus Mollah\nQID 29805016707 (exp. 30-12-2026)",
-            "Refrigeration Technician", "[ mobile ]", "")
-fill_person(5, "Tauhid Hossen Ashrafujjaman\nQID 30605005039 (exp. 02-10-2026)",
-            "Helper", "[ mobile ]", "")
+for blank_row in (3, 4, 5):
+    fill_person(blank_row, "", "", "", "")
 
 # r06 and r08 are the template's own "Work Force" and "Additional Documents" labels — the text
 # goes in the blank row under each, not over the label.
-setcell(R(t1, 7)[0], "1 x Engineer / Site in charge, 2 x Refrigeration Technicians, 1 x Helper — "
-                     "4 persons in total. QID copies attached for the three site staff. "
-                     "[ Attach the Engineer's QID copy and insert mobile numbers before submission. ]", size=9)
+setcell(R(t1, 7)[0],
+ "1.  Jijo Maliyekkal Thomas — Refrigeration Technician — QID 28035608170 (exp. 10-11-2026)\n"
+ "2.  Md Mijan Molla Yeleus Mollah — Refrigeration Technician — QID 29805016707 (exp. 30-12-2026)\n"
+ "3.  Jishan Shil Tapan Shil — Technician — QID 30305014411 (exp. 21-05-2026)\n"
+ "4.  Tauhid Hossen Ashrafujjaman — Helper — QID 30605005039 (exp. 02-10-2026)\n"
+ "Total 5 persons on site including the Engineer / Site in charge named above. QID copies attached "
+ "for the four site staff. [ Attach the Engineer's QID copy and insert mobile numbers before "
+ "submission. ]", size=9)
 setcell(R(t1, 9)[0], "Quotation QUT/DCTS/219/2026 (approved)  ·  Work Order "
                      "WO/DCTS/001/2026  ·  Job Hazard Analysis GWC-HSE-FM-JHA.00 (attached)  ·  Hot Work "
                      "Permit (to be obtained)  ·  Company trade licence and CR  ·  Third-party liability "

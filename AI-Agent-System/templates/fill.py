@@ -45,8 +45,8 @@ def C(r, c):
     return t.rows[r].cells[c]
 
 setcell(C(2, 0), "CLIENT/ CONTRACTOR NAME:  The New Doha Kitchen Equipment Services W.L.L. (TNDK)")
-setcell(C(2, 6), "SITE:  Al Zehrabi Medical L.L.C. — cold room area and adjacent outdoor plant area, "
-                 "[ GWC facility / building / unit no. to be inserted ]")
+setcell(C(2, 6), "SITE:  Al Zehrabi Medical L.L.C. — cold room area and adjacent outdoor plant "
+                 "area, B11 9")
 setcell(C(3, 0), "DESCRIPTION OF THE ACTIVITY:  Cold room maintenance — water servicing of two (2) "
                  "refrigeration units (condensing unit and evaporator each); nitrogen pressure test and "
                  "brazing repair of a refrigerant leak on one (1) cold room circuit; evacuation, refrigerant "
