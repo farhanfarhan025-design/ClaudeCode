@@ -274,7 +274,8 @@ with the order**, which is 3,920. Nothing records that it has been received.
 
 An approval is not a payment. The job consumes refrigerant, a filter drier, 25 m of insulation,
 silicone and fabricated steel — most of the cost leaves the store on day one and cannot be
-recovered if the client then delays. Confirm the advance, or take the decision knowingly.
+recovered if the client then delays. **INV-263/2026 raised 19-08-2026 for the 3,920** so there is
+now something to pay against; confirm it is received, or take the decision to start knowingly.
 
 Also outstanding on this job: **no LPO or written order reference is recorded**, only that the
 quotation was approved. Ask for their purchase order number before invoicing, or the invoice has
@@ -372,6 +373,7 @@ Three documents were produced today and none has been appended to the log in Dri
   issued 18-08-2026. Incorporates QUT/DCTS/038/2026 unchanged as its Section A.
 - **WO/DCTS/001/2026** — Al Zehrabi work order, 18-08-2026. **Opens a new series**; the log has
   no work-order column yet.
+- **INV-263/2026** — Al Zehrabi 80% advance, 3,920, issued 19-08-2026.
 - **LTR/DCTS/217/2026** — bank details letter on letterhead, 17-08-2026. Letter series now runs
   216 (warranty undertaking) and 217; it shares serials with the quotation series, which is a
   convention worth writing down before the two collide.
