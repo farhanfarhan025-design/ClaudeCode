@@ -114,7 +114,9 @@ No vendor spend is committed against Mesaieed or CCC/HIA.
 | LPO-199 | Arctic Cooling | piping, insulation, valves, driers, brazing consumables | 2,900 |
 | | | **Committed** | **40,940** |
 
-**52.5% of the 78,000 contract, and the job is not fully bought.** Still to come: the control
+**Against the revised 75,000 the committed spend is 54.6%, leaving 34,060** for the control panel, electrical works, transport, lifting and labour, and for the profit.
+
+**54.6% of the revised 75,000 contract, and the job is not fully bought.** Still to come: the control
 panel with safeties, the internal light and door frame heater, the electrical works from the
 panel onward, transport, lifting and labour — all of which SQ074 sells. What is left to cover
 them and to be the profit is **37,060**.
@@ -141,12 +143,13 @@ pattern rather than a one-off.
 | Item | Value |
 |---|---|
 | Client | Oscar Prime Trading Contracting and Services W.L.L. (attn. Mr. Shameem) |
-| Scope | Supply, installation, testing and commissioning of 2 cold rooms, 3.75 × 2.00 × 3.00 m |
+| Scope | 2 chiller rooms — **Room 01: 2.59 × 1.80 × 3.20 m  ·  Room 02: 3.94 × 2.31 × 3.20 m** (revised) |
 | Quotation | QUT/DCTS/SQ074/2026, 16-08-2026 |
-| LPO | OTTS/LPO/19082026-01/2026, 17-08-2026, signed by their General Manager |
-| Contract value | **QAR 78,000.00** lump sum |
+| LPO | **OTTS/LPO/19082026-02/2026**, 17-08-2026, signed 18-08-2026 — cancels their -01 |
+| Contract value | **QAR 75,000.00** lump sum (revised 17-08-2026, was 78,000) |
 | Terms | 75% advance on confirmed LPO · 20% on delivery of material · 5% after testing, commissioning and handover |
-| Invoiced to date | INV-261/2026, 58,500.00 (the 75% advance), raised 17-08-2026 — **not yet sent** |
+| **Advance received** | **QAR 56,250.00** — Commercial Bank transfer from Oscar Prime, value date 19-08-2026. The advice reads *Pending Approval* with no processed date; confirm the credit before relying on it |
+| Invoiced to date | **INV-264/2026, 56,250.00** — cancels and replaces INV-261/2026 (58,500 on the superseded LPO) |
 | Duration | 05 – 07 days from LPO, subject to site readiness |
 
 The LPO is signed and dated, so the 75% advance falls due now, not on delivery. No vendor spend
@@ -185,7 +188,7 @@ The larger of the two has collected nothing.
 
 | Series | Next free |
 |---|---|
-| Invoice | INV-264/2026 — 259/260 Sunrise, 261 Oscar Prime, 262 Sunrise balance, 263 Al Zehrabi |
+| Invoice | INV-265/2026 — 261 cancelled, 264 Oscar Prime, none yet in the log |
 | Receipt | RCT-257/2026 |
 | Quotation | next after QUT/DCTS/222/2026, plus the SQ038 / SQ074 series — see OL-018 |
 | Delivery note | DN-252/2026 |
