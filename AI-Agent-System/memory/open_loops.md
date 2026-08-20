@@ -85,18 +85,18 @@ issued invoices total more than the contract. Supersede or credit-note it so the
 No further money is expected from the client. See `DECISIONS.md` D-009.
 
 ### OL-024 — Oscar Prime advance, QAR 58,500 — invoice raised, not sent
-**Owner:** Farhan · **Raised:** 2026-08-17 · **Value:** QAR 58,500 of a 78,000 contract
+**Owner:** Farhan · **Raised:** 2026-08-17 · **Updated:** 2026-08-20 · **Value:** QAR 56,250 of a
+75,000 contract
 
-LPO OTTS/LPO/19082026-01/2026 is signed and dated 17-08-2026, which is the trigger for the 75%
-advance under clause 1 of the agreed terms. INV-261/2026 raised the same day. **Not sent** —
-Farhan sends.
+Superseded in its numbers by the revised order. LPO -01 is cancelled and replaced by
+OTTS/LPO/19082026-02/2026; the contract is 75,000 and the advance 56,250, invoiced under
+INV-264/2026. INV-261/2026 is cancelled.
 
 Two things to settle before material is ordered:
 
-1. **Collect the advance first.** 58,500 covers the BITZER condensing unit, the Guntner
-   evaporator and 86.4 sqm of panel several times over. Ordering before the advance lands would
-   put the largest single-job commitment TNDK has made onto working capital, on a client with no
-   payment history in the file.
+1. **Collect the advance first — transferred 19-08-2026, see OL-037.** The four vendor orders
+   (LPO-196 to LPO-199, 40,940 committed) can be released once the credit is confirmed in the
+   account, and not before.
 2. **Payee name — resolved 17-08-2026.** The IBAN certificate settles it: the account is
    *THE NEW DOHA KITCHEN EQUIPMENT SERV[ICES]*, no *"and"*. INV-261 carries that name plus the
    full account details. See `DECISIONS.md` D-011. What remains is historical: check whether any
@@ -369,6 +369,46 @@ asking them to confirm before release.
 If they meant 5,500, TNDK pays 100 more than the order says and the delivery is queried at the
 counter. Small money, but it is the kind of thing that holds up a collection.
 
+### OL-037 — Oscar Prime advance received; receipt held pending confirmation of credit
+**Owner:** Farhan · **Raised:** 2026-08-20 · **Value:** QAR 56,250
+
+Commercial Bank transfer advice, value date 19-08-2026, Oscar Prime to TNDK account
+4010-777739-001, QAR 56,250.00, reference *Kitchen Fabrication*. Farhan reports it as received.
+
+**The advice itself reads "Corporate Status: Pending Approval" with "Processed Date: -".** That is
+a transfer instruction awaiting authorisation at the payer's end, not a credit. RCT-257/2026 is
+ready but deliberately **not issued** until the money is visible in the account — a receipt says
+the money arrived, and the only thing worse than chasing an advance is receipting one that never
+lands.
+
+**Needed:** confirmation from the bank statement. The receipt goes out the same day.
+
+The beneficiary name on the transfer reads THE NEW DOHA KITCHEN EQUIPMENT SERV — the account
+name, with no *"and"*. `D-011` was right.
+
+### OL-038 — Room dimensions changed; the panel order is now short
+**Owner:** Farhan · **Raised:** 2026-08-20 · **Blocks:** issuing LPO-197
+
+The revised SQ074 and LPO -02 change the rooms to 2.59 × 1.80 × 3.20 m and 3.94 × 2.31 × 3.20 m.
+Two consequences, and one error in TNDK's own quotation:
+
+1. **LPO-197 buys 71.78 m² of panel.** The revised quotation states 76.74 m² of wall and ceiling —
+   **short by about 5 m² on the quotation's own figures.** LPO-197 has not been issued, so this is
+   free to fix now; after the panels are cut it is not, because JMB produces what the PO confirms.
+2. **The quotation's Room 1 wall area is arithmetically wrong.** It prints
+   *"2 × (2.59 × 3.20) + 2 × (1.80 × 3.20) = 22.976 sqm"*. That formula gives **28.096 sqm**. Room 2
+   uses the same formula and is correct at 40.00 sqm. On the correct arithmetic the two rooms need
+   **81.86 m²**, and LPO-197 is short by **10.08 m²**, not 5. If the 22.976 is deliberate — a shared
+   wall deducted, say — the quotation should state it; as printed it reads as a mistake, and it is
+   the number the panel order was sized from.
+
+**Needed:** confirm the true panel area, then re-issue LPO-197 at the right quantity. The 3.20 m
+panel lengths already match the new room height, so the order was drafted against the new
+dimensions — only the quantity is in question.
+
+Also for the file: the scope of work says the 76.8 m² covers *"walls, ceiling and floor"*. It does
+not — the floor is not in that figure, and two rooms of floor is a further 13.76 m².
+
 ### OL-020 — Documents outstanding on two settled jobs
 **Owner:** LEDGER · **Raised:** 2026-08-11
 
@@ -467,6 +507,8 @@ Three documents were produced today and none has been appended to the log in Dri
   no work-order column yet.
 - **INV-263/2026** — Al Zehrabi, **4,900 in full**, issued 19-08-2026 (redrafted from an 80%
   advance version that was never sent).
+- **INV-264/2026** — Oscar Prime revised advance, 56,250, issued 20-08-2026. **INV-261/2026 is
+  cancelled**; that number is retired, not reused.
 - **GWC HSE submission for Al Zehrabi** — Method Statement GWC-HSE-FM11-MS.00 and Job Hazard
   Analysis GWC-HSE-FM-JHA.00 completed 19-08-2026. Not a TNDK series; these are the facility's
   own forms and keep their own reference numbers.
