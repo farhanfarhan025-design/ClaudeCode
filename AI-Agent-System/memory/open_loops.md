@@ -212,8 +212,19 @@ Three things follow, none of which the quotation itself can settle:
 
 **Needed:** the landed cost per unit, and the supplier's own warranty position.
 
-### OL-030 — Panel order LPO-197 has no project, and the area does not match Oscar Prime
-**Owner:** Farhan · **Raised:** 2026-08-18 · **Value:** QAR 8,140
+### OL-030 — Panel order LPO-197 project — RESOLVED 20-08-2026
+**Owner:** Farhan · **Raised:** 2026-08-18 · **Closed:** 2026-08-20 · **Value:** QAR 8,140
+
+**Confirmed by Farhan as Oscar Prime**, together with the two Arctic Cooling orders. The area
+question stands and is now a scope question rather than an attribution one: 71.78 m² was bought
+against 86.4 m² sold in SQ074 §8. Either a second panel order follows, or the rooms are being
+built with less panel than the quotation describes. Worth answering before the panels are cut —
+JMB produces what the PO confirms and will not take them back.
+
+The original entry follows.
+
+### OL-030-OLD — original entry
+**Raised:** 2026-08-18 · **Value:** QAR 8,140
 
 Al Buhsain quotation SAL-QTN-2026-01302 has its **Project field blank**, so nothing links the
 25 panels to a job. The obvious candidate is Oscar Prime, and the arithmetic does not fit:
@@ -347,6 +358,17 @@ than TNDK** — a salon, a contracting and hospitality company, and one card not
 pattern rather than an exception and is worth resolving as a standing arrangement rather than job
 by job.
 
+### OL-036 — Arctic Cooling door quotation does not add up
+**Owner:** Farhan · **Raised:** 2026-08-20 · **Value:** QAR 100
+
+Quotation ATC/RY/QT/26/00286: the two line totals come to **5,500.00**, while the quotation's own
+TOTAL and its amount in words both read **5,400.00**. Two independent statements of 5,400 against
+one derived 5,500, so LPO-198 is placed at 5,400 with the 100 shown as a discount and a note
+asking them to confirm before release.
+
+If they meant 5,500, TNDK pays 100 more than the order says and the delivery is queried at the
+counter. Small money, but it is the kind of thing that holds up a collection.
+
 ### OL-020 — Documents outstanding on two settled jobs
 **Owner:** LEDGER · **Raised:** 2026-08-11
 
@@ -430,6 +452,8 @@ Three documents were produced today and none has been appended to the log in Dri
 - **INV-261/2026** — Oscar Prime 75% advance, 58,500, issued 17-08-2026.
 - **LPO-196/2026** — Doha Controls, 24,500, drafted 18-08-2026.
 - **LPO-197/2026** — Al Buhsain Steel Industries, 8,140, drafted 18-08-2026.
+- **LPO-198/2026** — Arctic Cooling, cold room doors, 5,400, drafted 20-08-2026.
+- **LPO-199/2026** — Arctic Cooling, refrigeration spares, 2,900, drafted 20-08-2026.
 - **LPO-195/2026** — Doha Controls, 14,750, drafted 17-08-2026. **Cancelled 18-08-2026** and
   replaced by LPO-196/2026 at 24,500. The number is retired, not reissued and not skipped.
 - **INV-262/2026** — Sunrise balance, 2,300, issued 18-08-2026.
