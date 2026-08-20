@@ -229,6 +229,11 @@ Prime with a second order to follow, or the room sizes have changed since SQ074 
 the committed-spend position for Oscar Prime cannot be stated, and 8,140 is sitting in the
 payables picture against no job.
 
+**A second candidate appeared 19-08-2026.** QUT/DCTS/223/2026 adds panel replacement to the
+Remote Site ME job — 100 mm PIR panel, the same specification as the Al Buhsain order, over a
+4.50 × 4.00 m area. That may be what LPO-197 is for rather than Oscar Prime. It is still a
+guess; the vendor quote's Project field is the thing that should say so.
+
 Two commercial points on the same order, neither blocking:
 
 1. **The quotation is watermarked DRAFT and is valid for three working days.** LPO-197 asks for
@@ -432,6 +437,8 @@ Three documents were produced today and none has been appended to the log in Dri
   18-08-2026. The largest quotation TNDK has issued.
 - **QUT/DCTS/222/2026** — Al Waha Agriculture, cold room plus air conditioning, 246,675,
   issued 18-08-2026. Incorporates QUT/DCTS/038/2026 unchanged as its Section A.
+- **QUT/DCTS/223/2026** — Remote Site ME, revised flooring plus panel replacement, 22,000,
+  issued 19-08-2026. Supersedes QUT/DCTS/215/2026 (9,650), which is withdrawn.
 - **WO/DCTS/001/2026** — Al Zehrabi work order, 18-08-2026. **Opens a new series**; the log has
   no work-order column yet.
 - **INV-263/2026** — Al Zehrabi, **4,900 in full**, issued 19-08-2026 (redrafted from an 80%

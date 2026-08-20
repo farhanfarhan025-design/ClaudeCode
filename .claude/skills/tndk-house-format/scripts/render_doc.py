@@ -242,8 +242,13 @@ def describe(text):
         # than a sentence. A heading may itself contain a dash ("WATER SERVICE OF TWO COLD
         # ROOM UNITS — CONDENSING UNIT AND EVAPORATOR"), so take the longest prefix that is
         # still short enough to be a heading, not the first one.
+        # A section heading inside a description carries no number, but it is still a heading.
+        if seg.startswith("SECTION "):
+            out.append(f"<b>{seg}</b>")
+            continue
         cut = 0
-        if re.match(r"^\d+\.\s", seg):
+        # Numbered clauses, and unnumbered ones that open in capitals, get their heading bolded.
+        if re.match(r"^\d+\.\s", seg) or re.match(r"^[A-Z]{3}", seg):
             for m in re.finditer(" — ", seg):
                 if m.start() <= HEADING_MAX:
                     cut = m.end()
