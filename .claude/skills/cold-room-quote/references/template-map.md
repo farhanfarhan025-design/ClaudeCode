@@ -81,8 +81,14 @@ image13 sits in a trailing row *inside* the delivery table, not in a paragraph
 below it — worth knowing, because a search of body paragraphs will not find it.
 The master sizes it 7.27 × 5.45 in, marginally taller than the space left under
 section 12, so Word pushes it onto a page of its own and the quotation ends with
-a mostly empty sheet. `fit_banner()` scales it to 4.4 in tall (5.87 in wide),
-which pulls it back onto the section 11/12 page.
+a mostly empty sheet. `fit_banner()` scales it down so it lands on the section 11/12 page.
+
+How much room is left there depends on how section 10 breaks — measured at
+5.3 in on a one-room quote but only 4.4 in on a two-room one, whose longer
+machine rows push section 11 further down its page. The banner also needs its
+table cell's padding on top of its own height, so the 4.0 in default leaves
+headroom in the tighter case. Lower `banner_height_in` if a quotation still
+strands it.
 
 When resizing any image here, set `cx`/`cy` only on the `a:ext` inside `a:xfrm`.
 The `a:ext` in an `a:extLst` takes a `uri` instead and rejects `cx`/`cy` —

@@ -44,6 +44,16 @@ MASTER_INTRO = (
 )
 AMOUNT_PREFIX = "Amount in Words:"
 
+# Doha design ambient, used when a quote does not state one
+DEFAULT_AMBIENT = "46°C"
+
+# Height for the service banner under section 12. The free space below the
+# delivery table varies with how section 10 breaks — measured at 5.3 in on a
+# one-room quote and 4.4 in on a two-room one — and the banner needs its cell
+# padding on top of its own height. 4.0 in clears the tighter case; lower
+# banner_height_in if a quotation still strands it on a page of its own.
+BANNER_HEIGHT_IN = 4.0
+
 
 # --------------------------------------------------------------------------
 # low-level docx helpers — all of these preserve existing run formatting
@@ -437,15 +447,19 @@ def fill_capacity_section(doc, spec, tot, qs):
     if rated:
         set_row(t, "Estimated Heat Load", joined(rated, capacity_text))
         set_row(t, "Selected Capacity", joined(rated, selected_text))
-    ambients = []
-    for e in entries:
-        if e.get("ambient") and e["ambient"] not in ambients:
-            ambients.append(e["ambient"])
-    if ambients:
-        basis = entries[0].get("selection_basis")
+    if entries:
+        ambients = []
+        for e in entries:
+            if e.get("ambient") and e["ambient"] not in ambients:
+                ambients.append(e["ambient"])
+        # Always rewrite this row once machines are quoted: leaving the master's
+        # value would carry the reference quote's ambient and its brand into a
+        # quotation selected on entirely different equipment.
+        basis = entries[0].get("selection_basis") if len(entries) == 1 else None
         note = f"per {basis} selection, " if basis else ""
         set_row(t, "Design Ambient",
-                f"+{ambients[0].lstrip('+')} ({note}Doha ambient design)")
+                f"+{(ambients[0] if ambients else DEFAULT_AMBIENT).lstrip('+')} "
+                f"({note}Doha ambient design)")
 
 
 def fill_scope(doc, spec, tot):
@@ -592,7 +606,7 @@ def fit_banner(doc, spec):
     the quotation gains a near-empty sheet. Scaling it to fit closes that gap.
     Set `banner_height_in` to 0 to leave the master's size alone.
     """
-    target_h = spec.get("banner_height_in", 4.4)
+    target_h = spec.get("banner_height_in", BANNER_HEIGHT_IN)
     if not target_h:
         return
     body = doc.element.body

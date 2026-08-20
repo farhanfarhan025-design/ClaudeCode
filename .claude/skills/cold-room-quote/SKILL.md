@@ -29,7 +29,7 @@ brand colours, same fonts and sizes.
 One layout fix is applied on top: the master sizes the service banner under
 section 12 slightly too tall for the space left on the page, so it flows onto
 a sheet of its own and the quotation ends with a near-empty page. The generator
-scales it to fit (default 4.4 in tall), which drops one page from every
+scales it to fit (default 4.0 in tall), which drops one page from every
 quotation. Pass `"banner_height_in": 0` to keep the master's original size.
 
 ## Workflow
