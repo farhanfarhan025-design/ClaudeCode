@@ -414,15 +414,17 @@ not — the floor is not in that figure, and two rooms of floor is a further 13.
 
 QUT/DCTS/224/2026 offers a Copeland FLR7A-ZF18-TFM for freezer duty at −20 °C on R404A. Two gaps:
 
-1. **No client.** The quotation is complete but the TO block is a placeholder. It cannot be issued
-   until the name and contact are supplied.
+1. **Client confirmed 20-08-2026** — Convert Engineering, attn. Mr. Suvarnan; delivery ex-stock.
+   The quotation is complete and issuable.
 2. **No buy price on record.** This is a straight resale of a single unit — the whole margin is the
    gap between 8,800 and the landed cost, and nothing in the file says what that is. The same gap
    as `OL-029` on the reefer containers, at a smaller number. Confirm the supplier price is held
    before the offer is accepted.
 
-Also unstated: the delivery period. The quotation says it is confirmed on order, which is honest
-but is the first thing a buyer will ask.
+Delivery is quoted **ex-stock** on Farhan's instruction, without the "subject to prior sale"
+qualifier the trade usually carries. If the unit is not already TNDK's own stock, that promise is
+being made on a supplier's inventory — worth adding the qualifier, or confirming the unit is
+physically held, before the offer goes out.
 
 **A note on where the risk sits.** The offer is supply only and the notes say so in three places —
 the capacity figures are the manufacturer's, the selection is the client's unless they instruct
@@ -524,9 +526,8 @@ Three documents were produced today and none has been appended to the log in Dri
   issued 18-08-2026. Incorporates QUT/DCTS/038/2026 unchanged as its Section A.
 - **QUT/DCTS/223/2026** — Remote Site ME, revised flooring plus panel replacement, 22,000,
   issued 19-08-2026. Supersedes QUT/DCTS/215/2026 (9,650), which is withdrawn.
-- **QUT/DCTS/224/2026** — supply of one Copeland FLR7A-ZF18-TFM freezer condensing unit, 8,800,
-  issued 20-08-2026. **Client name not yet supplied** — the quotation carries a placeholder and
-  must not go out until it is filled.
+- **QUT/DCTS/224/2026** — Convert Engineering (attn. Mr. Suvarnan), supply of one Copeland
+  FLR7A-ZF18-TFM freezer condensing unit, 8,800, issued 20-08-2026. Ex-stock.
 - **WO/DCTS/001/2026** — Al Zehrabi work order, 18-08-2026. **Opens a new series**; the log has
   no work-order column yet.
 - **INV-263/2026** — Al Zehrabi, **4,900 in full**, issued 19-08-2026 (redrafted from an 80%
