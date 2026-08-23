@@ -421,10 +421,10 @@ QUT/DCTS/224/2026 offers a Copeland FLR7A-ZF18-TFM for freezer duty at −20 °C
    as `OL-029` on the reefer containers, at a smaller number. Confirm the supplier price is held
    before the offer is accepted.
 
-Delivery is quoted **ex-stock** on Farhan's instruction, without the "subject to prior sale"
-qualifier the trade usually carries. If the unit is not already TNDK's own stock, that promise is
-being made on a supplier's inventory — worth adding the qualifier, or confirming the unit is
-physically held, before the offer goes out.
+Delivery is quoted **ex-stock, subject to prior sale** — the qualifier was added on Farhan's
+instruction 20-08-2026, with a note undertaking to advise the client immediately and give the
+replenishment lead time if the unit goes before the order lands. TNDK is no longer promising
+availability it may not control.
 
 **A note on where the risk sits.** The offer is supply only and the notes say so in three places —
 the capacity figures are the manufacturer's, the selection is the client's unless they instruct
