@@ -432,6 +432,51 @@ otherwise, and the evaporator, piping, valves, controls, charge and commissionin
 That matters on a freezer: a −20 °C room that does not pull down gets blamed on the compressor,
 and a supply-only order carries none of the responsibility for the rest of the system.
 
+### OL-040 — LPO-198 is priced below the vendor's own quotation
+**Owner:** Farhan · **Raised:** 2026-08-24 · **Value:** QAR 500
+
+Doha Controls offer 107/QTN261878 totals **15,500**. LPO-198 is placed at **15,000** on Farhan's
+instruction — a 500 discount agreed verbally and not reflected on any document the vendor has
+issued.
+
+The order says so on its face and asks for written acceptance of the net figure before despatch,
+with a line refusing any invoice above 15,000. That is the whole protection: a verbal discount that
+appears only on the buyer's PO is the kind that gets invoiced back at the full figure and argued
+about after the goods are installed.
+
+**Needed:** Mohana Kumar's written acceptance of 15,000, or a revised offer at that figure.
+
+### OL-041 — LPO-198 has no project, and the units differ from LPO-196
+**Owner:** Farhan · **Raised:** 2026-08-24
+
+The offer's Project field is blank and nothing links this order to a job. It is not Oscar Prime's
+equipment — that is LPO-196, a 2 HP LH44/2FES-2Y and a 3 HP LH64/2DES-3Y with two FHA7E
+evaporators. **This order is a four-cylinder LH64/4FES-3Y with an HHA7E evaporator**, a different
+and larger duty. It is also not the Convert Engineering unit, which is a Copeland scroll.
+
+So this is a third destination, and the file does not say which. **Three of the five open vendor
+orders now carry no project** — LPO-197, LPO-198 and the two ACC quotations still unissued. That is
+`OL-013` in practice: committed spend with nothing to attribute it to, and no way to state a job's
+cost or margin afterwards.
+
+**Needed:** the project for each open order, entered before the material moves.
+
+### OL-042 — Two ACC purchases for Oscar Prime are still unordered
+**Owner:** Farhan · **Raised:** 2026-08-24 · **Value:** QAR 8,300
+
+Farhan confirmed on 20-08-2026 that the ACC quotations are for the Oscar Prime job, and asked for
+purchase orders. They were not raised — the request was overtaken by the revised Oscar Prime
+contract and has not been picked up since:
+
+- **ATC/RY/QT/26/00286** — 2 hinged doors 900 × 1900 and 2 Subzero CRC205200, **5,400**. Validity
+  7 days from 20-08, so it has now lapsed. Note the vendor's own arithmetic: the two lines sum to
+  5,500 against a stated total of 5,400.
+- **ATC/NSA/QT/26/00286** — 18 lines of piping, valves, driers, switches and brazing rod, **2,900**
+  after a 180 discount. Validity 5 days from 20-08 — lapsed.
+
+Both need re-quoting before an order can be placed. ACC also require the PO by email to
+arcticparts@accqatar.com and the **original stamped LPO presented at collection**.
+
 ### OL-020 — Documents outstanding on two settled jobs
 **Owner:** LEDGER · **Raised:** 2026-08-11
 
@@ -515,6 +560,7 @@ Three documents were produced today and none has been appended to the log in Dri
 - **INV-261/2026** — Oscar Prime 75% advance, 58,500, issued 17-08-2026.
 - **LPO-196/2026** — Doha Controls, 24,500, drafted 18-08-2026.
 - **LPO-197/2026** — Al Buhsain Steel Industries, 8,140, drafted 18-08-2026.
+- **LPO-198/2026** — Doha Controls, 15,000, drafted 24-08-2026 (quoted 15,500, less 500 agreed).
 - **LPO-198/2026** — Arctic Cooling, cold room doors, 5,400, drafted 20-08-2026.
 - **LPO-199/2026** — Arctic Cooling, refrigeration spares, 2,900, drafted 20-08-2026.
 - **LPO-195/2026** — Doha Controls, 14,750, drafted 17-08-2026. **Cancelled 18-08-2026** and
