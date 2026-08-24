@@ -45,6 +45,24 @@ retention clause, so this reads as a retention applied by the client's accounts 
 keying error — see OL-027.
 | Drainage system replacement | Lean N Fit | QUT/DCTS/214/2026 | Cash | 1,200 | 1,200 | 0 — completed & paid 11-08-2026 |
 
+## Receivables — as at 20 August 2026
+
+| | QAR |
+|---|---|
+| Live contract value | 786,400.00 |
+| Collected to date | (126,750.00) |
+| **Total receivable** | **659,650.00** |
+| — invoiced and awaiting payment | 63,450.00 |
+| — contracted, not yet invoiced | 596,200.00 |
+
+Invoiced: Oscar Prime INV-264 56,250 (transfer advised, credit unconfirmed), Al Zehrabi INV-263
+4,900, Sunrise INV-262 2,300. Not yet invoiced: Mesaieed 400,000, CCC/HIA 177,450, Oscar Prime
+18,750.
+
+**Mesaieed and CCC hold 87.5% of everything owed, and neither has started on site.** Of the whole
+659,650, the sum that could be collected today on the paperwork as it stands is the Mesaieed 15%
+advance of 60,000, now 91 days old. Full statement: `reports/receivables_2026-08-20.html`.
+
 **Totals as at 11 August 2026:** contract **766,300** · received **163,450** ·
 outstanding **602,850**.
 
