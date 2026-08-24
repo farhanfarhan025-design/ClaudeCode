@@ -113,6 +113,7 @@ not been updated. Confidence: high on the amount, absent on the instrument.
 | LPO-197/2026, 18-08-2026 | Al Buhsain Steel Industries W.L.L. (JMB) | **Oscar Prime** cold room (confirmed by Farhan 20-08-2026) | 8,140 | 50% advance / 50% before shipment | drafted, not issued |
 | LPO-198/2026, 20-08-2026 | Arctic Cooling Company (ACC) | **Oscar Prime** cold room | 5,400 | cash | drafted, not issued |
 | LPO-199/2026, 20-08-2026 | Arctic Cooling Company (ACC) | **Oscar Prime** cold room | 2,900 | cash | drafted, not issued |
+| LPO-200/2026, 24-08-2026 | Doha Controls Trading W.L.L. | **project not stated** | 15,000 (quoted 15,500 less 500 agreed) | to be confirmed | drafted, not issued |
 
 Ordered **after** the Jollibee advance was received — LPO 6 Jul, cheque 7 Jul, materials 14 Jul.
 Collected 27,600 against committed 9,500, so the project was never funded out of working capital.
@@ -137,16 +138,15 @@ No vendor spend is committed against Mesaieed or CCC/HIA.
 **54.6% of the revised 75,000 contract, and the job is not fully bought.** Still to come: the control
 panel with safeties, the internal light and door frame heater, the electrical works from the
 panel onward, transport, lifting and labour — all of which SQ074 sells. What is left to cover
-them and to be the profit is **37,060**.
+them and to be the profit is **34,060**.
 
-None of the four orders has been issued. All four should follow the 58,500 advance in, not
-precede it.
+None of the four orders has been issued. All four should follow the **56,250** advance in, not
+precede it — and the advance is transferred but not yet confirmed credited (OL-037).
 
 LPO-196 is the refrigeration equipment: **24,500**, or **31.4%** on its own. It replaces LPO-195 (14,750, 18.9%) after the vendor's revised offer -R1 added a
 second condensing unit — a 3 HP LH64/2DES-3Y — so the job is now two complete sets, matching
-the scope of work sold. **The equipment cost rose 9,750, or 12.5 points of the contract, with
-no change to the 78,000 sold.** That is the price of resolving OL-025 correctly, and it is
-cheaper than resolving it at commissioning.
+the scope of work sold. **The equipment cost rose 9,750** while the contract has since fallen to 75,000. That is the price
+of resolving OL-025 correctly, and it is cheaper than resolving it at commissioning.
 
 Still drafted, not issued, and should stay that way until the 58,500 advance is in — the same
 order Jollibee ran in.
@@ -210,7 +210,7 @@ The larger of the two has collected nothing.
 | Receipt | RCT-257/2026 |
 | Quotation | next after QUT/DCTS/222/2026, plus the SQ038 / SQ074 series — see OL-018 |
 | Delivery note | DN-252/2026 |
-| LPO | LPO-200/2026 — 194 Airtronics, 195 cancelled, 196–199 Oscar Prime |
+| LPO | LPO-201/2026 — 194 Airtronics, 195 cancelled, 196–199 Oscar Prime, 200 Doha Controls |
 
 ## Pricing rate card
 
