@@ -478,6 +478,26 @@ LPO-200 was numbered:
 Both need re-quoting before an order can be placed. ACC also require the PO by email to
 arcticparts@accqatar.com and the **original stamped LPO presented at collection**.
 
+### OL-043 — COMO air coolers: unit rate assumed, and no buy price on file
+**Owner:** Farhan · **Raised:** 2026-08-24 · **Value:** QAR 5,300
+
+QUT/DCTS/225/2026 offers two FREGO 30-inch evaporative coolers to COMO Facilities Management.
+
+**"Price 2650" was read as the rate per unit, not the total.** Two units at 2,650 makes 5,300. The
+alternative reading — 2,650 for the pair, or 1,325 each — is not credible for a 950 W, 18,000 CMH
+industrial cooler, but the instruction did not say which and the figure should be confirmed before
+the quotation goes out.
+
+**Warranty was not specified** and is written as 12 months from delivery against manufacturing
+defect, excluding the pads and the pump as wear items. That follows QUT/DCTS/224 rather than
+anything Farhan stated here.
+
+**No buy price on record.** Third resale this week quoted without a cost — after the reefer
+containers (`OL-029`) and the Convert Engineering unit (`OL-039`). Three open offers now total
+414,100 of resale with no margin visible on any of them. That is not an oversight in one document;
+it is a gap in how bought-in goods are priced, and `OL-011` has been asking for the same column
+since the register was first read.
+
 ### OL-020 — Documents outstanding on two settled jobs
 **Owner:** LEDGER · **Raised:** 2026-08-11
 
@@ -577,6 +597,8 @@ Three documents were produced today and none has been appended to the log in Dri
   issued 19-08-2026. Supersedes QUT/DCTS/215/2026 (9,650), which is withdrawn.
 - **QUT/DCTS/224/2026** — Convert Engineering (attn. Mr. Suvarnan), supply of one Copeland
   FLR7A-ZF18-TFM freezer condensing unit, 8,800, issued 20-08-2026. Ex-stock.
+- **QUT/DCTS/225/2026** — COMO Facilities Management Services (attn. Mr. Abul Kasim K), supply
+  of two FREGO evaporative air coolers, 5,300, issued 24-08-2026. Ex-stock.
 - **WO/DCTS/001/2026** — Al Zehrabi work order, 18-08-2026. **Opens a new series**; the log has
   no work-order column yet.
 - **INV-263/2026** — Al Zehrabi, **4,900 in full**, issued 19-08-2026 (redrafted from an 80%
