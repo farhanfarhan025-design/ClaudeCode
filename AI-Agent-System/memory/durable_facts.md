@@ -110,10 +110,11 @@ not been updated. Confidence: high on the amount, absent on the instrument.
 | LPO-194/2026, 14-07-2026 | Airtronics Trading Contracting & Maintenance | **Jollibee Rasaboud** (confirmed by Farhan 11-08-2026) | 9,500 | 100% CDC upon collection | ordered |
 | ~~LPO-195/2026, 17-08-2026~~ | Doha Controls Trading W.L.L. | **Oscar Prime** cold room | 14,750 | CDC | **CANCELLED** 18-08-2026, replaced by LPO-196 |
 | LPO-196/2026, 18-08-2026 | Doha Controls Trading W.L.L. | **Oscar Prime** cold room | 24,500 | CDC | drafted, not issued |
-| LPO-197/2026, 18-08-2026 | Al Buhsain Steel Industries W.L.L. (JMB) | **Oscar Prime** cold room (confirmed by Farhan 20-08-2026) | 8,140 | 50% advance / 50% before shipment | drafted, not issued |
+| ~~LPO-197/2026, 18-08-2026~~ | Al Buhsain Steel Industries W.L.L. (JMB) | **Oscar Prime** cold room | 8,140 | 50/50 | **CANCELLED** 26-08-2026, replaced by LPO-201 |
 | LPO-198/2026, 20-08-2026 | Arctic Cooling Company (ACC) | **Oscar Prime** cold room | 5,400 | cash | drafted, not issued |
 | LPO-199/2026, 20-08-2026 | Arctic Cooling Company (ACC) | **Oscar Prime** cold room | 2,900 | cash | drafted, not issued |
 | LPO-200/2026, 24-08-2026 | Doha Controls Trading W.L.L. | **project not stated** | 15,000 (quoted 15,500 less 500 agreed) | to be confirmed | drafted, not issued |
+| LPO-201/2026, 26-08-2026 | Al Buhsain Steel Industries W.L.L. (JMB) | **Oscar Prime** cold room | 11,930 | 50% advance / 50% before shipment | drafted, not issued |
 
 Ordered **after** the Jollibee advance was received — LPO 6 Jul, cheque 7 Jul, materials 14 Jul.
 Collected 27,600 against committed 9,500, so the project was never funded out of working capital.
@@ -128,17 +129,17 @@ No vendor spend is committed against Mesaieed or CCC/HIA.
 | LPO | Vendor | Content | QAR |
 |---|---|---|---|
 | LPO-196 | Doha Controls | 2 condensing units + 2 evaporators | 24,500 |
-| LPO-197 | Al Buhsain (JMB) | 25 panels, 71.78 m² of 100 mm PIR | 8,140 |
+| LPO-201 | Al Buhsain (JMB) | 37 panels, 104.70 m² of 100 mm PIR (replaces LPO-197's 71.78 m²) | 11,930 |
 | LPO-198 | Arctic Cooling | 2 hinged cold room doors + 2 Subzero CRC205200 | 5,400 |
 | LPO-199 | Arctic Cooling | piping, insulation, valves, driers, brazing consumables | 2,900 |
-| | | **Committed** | **40,940** |
+| | | **Committed** | **44,730** |
 
-**Against the revised 75,000 the committed spend is 54.6%, leaving 34,060** for the control panel, electrical works, transport, lifting and labour, and for the profit.
+**Against the revised 75,000 the committed spend is 59.6%, leaving 30,270** for the control panel, electrical works, transport, lifting and labour, and for the profit.
 
-**54.6% of the revised 75,000 contract, and the job is not fully bought.** Still to come: the control
+**59.6% of the revised 75,000 contract, and the job is not fully bought.** Still to come: the control
 panel with safeties, the internal light and door frame heater, the electrical works from the
 panel onward, transport, lifting and labour — all of which SQ074 sells. What is left to cover
-them and to be the profit is **34,060**.
+them and to be the profit is **30,270**.
 
 None of the four orders has been issued. All four should follow the **56,250** advance in, not
 precede it — and the advance is transferred but not yet confirmed credited (OL-037).
@@ -210,7 +211,7 @@ The larger of the two has collected nothing.
 | Receipt | RCT-257/2026 |
 | Quotation | next after QUT/DCTS/222/2026, plus the SQ038 / SQ074 series — see OL-018 |
 | Delivery note | DN-252/2026 |
-| LPO | LPO-201/2026 — 194 Airtronics, 195 cancelled, 196–199 Oscar Prime, 200 Doha Controls |
+| LPO | LPO-202/2026 — 195 and 197 cancelled, 196/198/199/201 Oscar Prime, 200 Doha Controls |
 
 ## Pricing rate card
 

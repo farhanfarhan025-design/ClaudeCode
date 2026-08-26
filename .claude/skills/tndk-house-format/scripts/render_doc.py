@@ -192,15 +192,25 @@ def amount_in_words(total, currency="QAR"):
     return f"{out} Only ({currency} {total:,.2f})"
 
 
-def qty_text(q):
-    """Whole counts print as counts; measured quantities keep two decimals.
+# Units that describe a measurement rather than a count. A quantity in one of these always
+# carries two decimals, so a panel schedule does not read 67.50, 19.20, 18 down the column.
+MEASURED_UNITS = {"m2", "m²", "sqm", "sq.m", "sq m", "cbm", "m3", "m³", "lm", "rm",
+                  "mtr", "m", "kg", "ltr", "l", "ton"}
 
-    An LPO line is usually "2 PCS", where "2.00" would read oddly. A panel schedule is
-    priced by area, where 51.2 next to a rate of 113.50 looks like a truncated figure.
+
+def qty_text(q, unit=""):
+    """Counts print as counts; measured quantities keep two decimals.
+
+    An LPO line is usually "2 PCS", where "2.00" would read oddly. A panel schedule is priced
+    by area, where 18 sitting under 67.50 and 19.20 looks like a truncated figure — so the
+    unit decides, not whether this particular number happens to be whole.
     """
-    if isinstance(q, float) and not q.is_integer():
-        return f"{q:,.2f}"
-    if isinstance(q, float):
+    measured = str(unit).strip().lower() in MEASURED_UNITS
+    if isinstance(q, (int, float)) and not isinstance(q, bool):
+        if measured:
+            return f"{q:,.2f}"
+        if isinstance(q, float) and not q.is_integer():
+            return f"{q:,.2f}"
         return f"{int(q):,}"
     return esc(q)
 
@@ -372,7 +382,7 @@ def build_html(doc):
         if extra and not at_end:
             cells.append(extra_cell)
         cells += [f'<td class="c">{esc(line.get("unit", "Nos"))}</td>',
-                  f'<td class="c">{qty_text(line.get("qty", ""))}</td>']
+                  f'<td class="c">{qty_text(line.get("qty", ""), line.get("unit", ""))}</td>']
         if show_money:
             cells += [f'<td class="r">{money(line.get("rate", 0))}</td>',
                       f'<td class="r">{money(line.get("amount", 0))}</td>']

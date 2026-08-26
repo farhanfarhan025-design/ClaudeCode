@@ -392,9 +392,10 @@ name, with no *"and"*. `D-011` was right.
 The revised SQ074 and LPO -02 change the rooms to 2.59 × 1.80 × 3.20 m and 3.94 × 2.31 × 3.20 m.
 Two consequences, and one error in TNDK's own quotation:
 
-1. **LPO-197 buys 71.78 m² of panel.** The revised quotation states 76.74 m² of wall and ceiling —
-   **short by about 5 m² on the quotation's own figures.** LPO-197 has not been issued, so this is
-   free to fix now; after the panels are cut it is not, because JMB produces what the PO confirms.
+1. **Resolved 26-08-2026.** LPO-197's 71.78 m² is replaced by **LPO-201's 104.70 m²**, which
+   covers the 81.86 m² of wall and ceiling on the correct arithmetic, the 13.76 m² of floor SQ074's
+   scope of work also promises, and cutting waste. LPO-197 is cancelled. The panel quantity is no
+   longer the exposure — the skin gauge is, see OL-044.
 2. **The quotation's Room 1 wall area is arithmetically wrong.** It prints
    *"2 × (2.59 × 3.20) + 2 × (1.80 × 3.20) = 22.976 sqm"*. That formula gives **28.096 sqm**. Room 2
    uses the same formula and is correct at 40.00 sqm. On the correct arithmetic the two rooms need
@@ -498,6 +499,28 @@ containers (`OL-029`) and the Convert Engineering unit (`OL-039`). Three open of
 it is a gap in how bought-in goods are priced, and `OL-011` has been asking for the same column
 since the register was first read.
 
+### OL-044 — The panel skin drops to 0.45 mm, but SQ074 sells 0.5 mm
+**Owner:** Farhan · **Raised:** 2026-08-26 · **Blocks:** releasing the advance to Al Buhsain
+
+Al Buhsain quotation SAL-QTN-2026-01334 specifies the panel skins as **0.45 mm** pre-painted
+galvanised steel, inside and out. Their earlier quotation SAL-QTN-2026-01302, on which LPO-197 was
+raised, specified **0.50 mm**.
+
+**TNDK's own quotation to Oscar Prime, SQ074 §1, states "Skin Material: 0.5 mm pre-painted
+galvanized steel (PPGI), food-grade white."** That is what the client has bought.
+
+Buying 0.45 and installing it against a contract that specifies 0.50 is a specification shortfall
+on the client's own document. It is a tenth of a millimetre and nobody may ever measure it — but if
+a consultant does, at handover, the remedy is stripping and replacing panel that is already sealed,
+coved and running.
+
+LPO-201 note 2 puts the question to the vendor in writing and refuses delivery at any gauge other
+than the one confirmed. **Farhan to decide before the advance is released:** insist on 0.50 mm and
+pay the difference, or issue a written variation to Oscar Prime recording the change to 0.45 mm and
+get it accepted. Either is fine. Doing neither is what creates the problem.
+
+Rate has also moved from 113.50 to 114.00 per m², on a thinner skin.
+
 ### OL-020 — Documents outstanding on two settled jobs
 **Owner:** LEDGER · **Raised:** 2026-08-11
 
@@ -582,6 +605,8 @@ Three documents were produced today and none has been appended to the log in Dri
 - **LPO-196/2026** — Doha Controls, 24,500, drafted 18-08-2026.
 - **LPO-197/2026** — Al Buhsain Steel Industries, 8,140, drafted 18-08-2026.
 - **LPO-200/2026** — Doha Controls, 15,000, drafted 24-08-2026 (quoted 15,500, less 500 agreed).
+- **LPO-201/2026** — Al Buhsain, 11,930 for 104.70 m², drafted 26-08-2026. **LPO-197 is
+  cancelled**; that number is retired.
   Numbered 200, not 198: **198 and 199 were already allocated to the two ACC orders on
   20-08-2026.** Caught before issue; the numbers stand as allocated.
 - **LPO-198/2026** — Arctic Cooling, cold room doors, 5,400, drafted 20-08-2026.
