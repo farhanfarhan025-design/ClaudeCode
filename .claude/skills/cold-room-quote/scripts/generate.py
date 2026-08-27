@@ -239,6 +239,8 @@ def fill_client_block(doc, spec):
     lines += [ln for ln in str(client.get("address", "")).split("\n") if ln]
     if client.get("attn"):
         lines.append(f"Attn: {client['attn']}")
+    if client.get("phone"):
+        lines.append(f"Tel: {client['phone']}")
     set_cell(row_cells(t.rows[1])[0], lines)
 
 
@@ -275,18 +277,50 @@ def fill_panel_section(doc, spec, qs, tot):
     set_row(t, "Total Panel Quantity", f"{fmt(tot['total_panel'])} sqm")
 
 
+def door_kind(spec):
+    """'hinged' or 'sliding' — the master is written for hinged doors."""
+    return str(spec.get("door", {}).get("type", "hinged")).strip().lower()
+
+
 def fill_door_section(doc, spec):
     t = find_table(doc, "Door Type")
     door = spec.get("door", {})
     w = door.get("width_mm", 900)
     h = door.get("height_mm", 1900)
+    kind = door_kind(spec)
     set_row(t, "Clear Opening Size", f"{w} mm (W) × {h} mm (H)")
     set_row(t, "Door Thickness", f"{thickness_label(spec)} — matching wall panel")
     set_row(t, "Quantity", str(door.get("qty", 1)))
+    if kind == "sliding":
+        # the master describes a hinged leaf; a sliding door hangs on a track
+        # and has no hinges, so those rows would otherwise be plainly wrong
+        set_row(t, "Door Type", "Sliding Cold Room Door (single leaf)")
+        for r in t.rows:
+            cells = row_cells(r)
+            if cells[0].text.strip() == "Hinges":
+                set_cell(cells[0], "Track & Rollers")
+                set_cell(cells[-1], "Heavy-duty overhead track with nylon rollers, "
+                                    "guide and end stops")
+                break
+        set_row(t, "Handle / Lock",
+                "Recessed sliding handle with internal safety release (anti-trap)")
+    else:
+        set_row(t, "Door Type", "Hinged Cold Room Door (single leaf)")
+
+
+NO_FLOOR = "Not included in this offer"
 
 
 def fill_flooring_section(doc, spec, tot):
     t = find_table(doc, "Insulated Floor Panel")
+    if not tot["floor"]:
+        set_row(t, "Insulated Floor Panel",
+                f"{NO_FLOOR} — room erected on the client's existing finished floor")
+        set_row(t, "Plywood Layer", NO_FLOOR)
+        set_row(t, "Top Finish", NO_FLOOR)
+        set_row(t, "Edge Sealing",
+                "Silicone seal between the wall panels and the existing floor")
+        return
     area = f"{fmt(tot['floor'])} sqm"
     floored = [r for r in spec["rooms"] if r.get("floor_included", True)]
     thickness = thickness_label({"rooms": floored or spec["rooms"]})
@@ -350,17 +384,24 @@ def evaporator_text(entry):
     return ", ".join(parts)
 
 
+def capacity_of(entry):
+    """'5.60 kW', or whatever capacity_label says when a unit is sold by HP."""
+    if entry.get("capacity_label"):
+        return entry["capacity_label"]
+    return f"{fmt(entry['capacity_kw'])} kW"
+
+
 def capacity_text(entry):
     basis = entry.get("selection_basis") or (
         entry.get("compressor_brand")
         or entry.get("condensing_unit", "").split()[0] if entry.get("condensing_unit") else "")
     at = f"{entry['sst']} SST / {entry['ambient']}" if entry.get("sst") else entry.get("ambient", "")
     note = f" (per {basis} selection at {at} ambient)" if basis and at else ""
-    return f"Cooling capacity {fmt(entry['capacity_kw'])} kW{note}"
+    return f"Cooling capacity {capacity_of(entry)}{note}"
 
 
 def selected_text(entry):
-    bits = [f"{fmt(entry['capacity_kw'])} kW cooling capacity"]
+    bits = [f"{capacity_of(entry)} cooling capacity"]
     if entry.get("power_input_kw"):
         bits.append(f"{fmt(entry['power_input_kw'])} kW power input")
     if entry.get("current_a"):
@@ -443,7 +484,7 @@ def fill_capacity_section(doc, spec, tot, qs):
     set_row(t, "Internal Volume", vol)
     set_row(t, "Design Room Temp.", operating_temp(spec))
 
-    rated = [e for e in entries if e.get("capacity_kw")]
+    rated = [e for e in entries if e.get("capacity_kw") or e.get("capacity_label")]
     if rated:
         set_row(t, "Estimated Heat Load", joined(rated, capacity_text))
         set_row(t, "Selected Capacity", joined(rated, selected_text))
@@ -471,18 +512,24 @@ def fill_scope(doc, spec, tot):
         or max(len(entries), 1)
     n_words = {1: "one (1)", 2: "two (2)", 3: "three (3)", 4: "four (4)"}
     door_qty = door.get("qty", 1)
+    kind = door_kind(spec)
+    surfaces = "walls, ceiling and floor" if tot["floor"] else "walls and ceiling"
+    floor_bullet = (
+        f"Supply and installation of insulated floor system: {thickness} PUF floor "
+        f"panel + 18 mm marine plywood + 3 mm MS chequered plate."
+        if tot["floor"] else
+        "Insulated flooring is not included in this offer — the room will be "
+        "erected on the client's existing finished floor.")
     rules = [
         (r"^Supply of .* sandwich panels for walls.*$",
-         f"Supply of {thickness} PUF sandwich panels for walls, ceiling and floor "
+         f"Supply of {thickness} PUF sandwich panels for {surfaces} "
          f"(total {fmt(tot['total_panel'])} sqm)."),
         (r"^Supply and installation of .* hinged cold room door.*$",
          f"Supply and installation of {n_words.get(door_qty, str(door_qty))} No. "
-         f"hinged cold room door{'s' if door_qty > 1 else ''} "
+         f"{kind} cold room door{'s' if door_qty > 1 else ''} "
          f"({door.get('width_mm', 900)} × "
          f"{door.get('height_mm', 1900)} mm)."),
-        (r"^Supply and installation of insulated floor system.*$",
-         f"Supply and installation of insulated floor system: {thickness} PUF floor "
-         f"panel + 18 mm marine plywood + 3 mm MS chequered plate."),
+        (r"^Supply and installation of insulated floor system.*$", floor_bullet),
         (r"^Supply and installation of condensing unit.*$",
          f"Supply and installation of condensing unit and matching evaporator "
          f"({sets_} set{'s' if sets_ > 1 else ''})."),
@@ -536,8 +583,8 @@ def default_boq(spec, qs, tot):
             text += f" + {e['evaporator']} evaporating unit{_origin(e, 'evap_origin')}"
         if e.get("refrigerant"):
             text += f", {e['refrigerant']}"
-        if e.get("capacity_kw"):
-            text += f", cooling capacity {fmt(e['capacity_kw'])} kW"
+        if e.get("capacity_kw") or e.get("capacity_label"):
+            text += f", cooling capacity {capacity_of(e)}"
         return _tag(e) + text
 
     fridge = ""
@@ -548,20 +595,29 @@ def default_boq(spec, qs, tot):
     n_words = {1: "one (1)", 2: "two (2)", 3: "three (3)", 4: "four (4)"}
     door_qty = door.get("qty", 1)
     door_plural = "s" if door_qty > 1 else ""
-    return [
+    kind = door_kind(spec)
+    gear = ("heavy-duty track, rollers and safety handle with inside release"
+            if kind == "sliding" else
+            "heavy-duty hinges, safety latch handle and inside release")
+    panel_area = (f" (total panel area incl. floor: {fmt(tot['total_panel'])} sqm)"
+                  if tot["floor"] else
+                  f" (total panel area: {fmt(tot['total_panel'])} sqm)")
+    items = [
         {"description":
             f"Supply, fabrication & installation of cold room — {size}, complete with "
-            f"{thickness} PUF sandwich panels for walls & ceiling (total panel area "
-            f"incl. floor: {fmt(tot['total_panel'])} sqm), all aluminum coving, corner "
-            f"angles, silicone sealing, fasteners and accessories."},
+            f"{thickness} PUF sandwich panels for walls & ceiling{panel_area}, all "
+            f"aluminum coving, corner angles, silicone sealing, fasteners and "
+            f"accessories."},
         {"description":
-            f"Supply & installation of {n_words.get(door_qty, str(door_qty))} No. hinged "
+            f"Supply & installation of {n_words.get(door_qty, str(door_qty))} No. {kind} "
             f"cold room door{door_plural}, clear opening size {door.get('width_mm', 900)} × "
-            f"{door.get('height_mm', 1900)} mm, {thickness} thick, with heavy-duty hinges, "
-            f"safety latch handle and inside release."},
-        {"description":
+            f"{door.get('height_mm', 1900)} mm, {thickness} thick, with {gear}."},
+    ]
+    if tot["floor"]:
+        items.append({"description":
             f"Supply & installation of insulated floor system: {thickness} PUF floor panel "
-            f"+ 18 mm marine plywood + 3 mm MS chequered plate ({fmt(tot['floor'])} sqm)."},
+            f"+ 18 mm marine plywood + 3 mm MS chequered plate ({fmt(tot['floor'])} sqm)."})
+    items += [
         {"description": f"Supply & installation of refrigeration system: {fridge}."},
         {"description":
             "Supply & installation of digital control panel with all safeties, internal LED "
@@ -570,6 +626,7 @@ def default_boq(spec, qs, tot):
             "Testing, commissioning, transportation, mobilization, lifting at site and "
             "handover with operation training."},
     ]
+    return items
 
 
 def fill_total(doc, spec):
@@ -645,9 +702,16 @@ def fit_banner(doc, spec):
         return
 
 
-def fill_subject(doc, spec):
+def fill_subject(doc, spec, tot=None):
     subject = spec.get("subject")
     intro = spec.get("intro")
+    if not intro and tot is not None and not tot["floor"]:
+        # the master's wording promises insulated flooring, which is not supplied here
+        # also repairs the master's "commissioning of inclusive of" slip
+        intro = MASTER_INTRO.replace("of inclusive of insulated flooring, "
+                                     "refrigeration system and accessories",
+                                     "of the cold storage room, inclusive of the "
+                                     "refrigeration system and accessories")
     for p in doc.paragraphs:
         text = para_text(p).strip()
         if subject and text.startswith("Subject:"):
@@ -687,7 +751,7 @@ def generate(spec, output):
 
     fill_reference_block(doc, spec)
     fill_client_block(doc, spec)
-    fill_subject(doc, spec)
+    fill_subject(doc, spec, tot)
     fill_project_table(doc, spec, qs)
     fill_panel_section(doc, spec, qs, tot)
     fill_door_section(doc, spec)

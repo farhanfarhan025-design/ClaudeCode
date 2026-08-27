@@ -18,6 +18,7 @@ else has a house default or is left as the master has it.
 | Field | Required | Example |
 |---|---|---|
 | `name` | yes | `"M/s. Marza Group of Companies"` |
+| `phone` | no | `"+974 5503 3590"` — printed as `Tel: ...` |
 | `address` | no | `"Doha, Qatar"` — newlines become separate lines |
 | `attn` | no | `"Mr. Ashik"` — printed as `Attn: Mr. Ashik` |
 
@@ -42,6 +43,7 @@ Note the minus sign in freezer temperatures is U+2212 (`−`), matching the mast
 
 | Field | Default | Notes |
 |---|---|---|
+| `type` | `"hinged"` | `"sliding"` relabels the hinges row as Track & Rollers and rewords the scope and BOQ |
 | `qty` | `1` | spelled out in scope and BOQ ("three (3) No.") |
 | `width_mm` | `900` | clear opening |
 | `height_mm` | `1900` | clear opening |
@@ -68,6 +70,7 @@ once without labels; rows that differ print one labelled line per system.
 | `evap_note` | — | extra clause after the evaporator model, e.g. `"HC refrigerant compatible"` |
 | `refrigerant` | — | `"R404A"` |
 | `capacity_kw` | — | `5.60` — cooling capacity |
+| `capacity_label` | from `capacity_kw` | quote the capacity verbatim when a unit is sold by horsepower, e.g. `"15 HP"` |
 | `power_input_kw` | — | `3.25` |
 | `current_a` | — | `6.05` |
 | `power_supply` | `"400V-3-50Hz"` | |
@@ -75,6 +78,14 @@ once without labels; rows that differ print one labelled line per system.
 | `ambient` | — | Doha design ambient, e.g. `"46°C"` |
 | `selection_basis` | compressor brand | whose selection software was used |
 | `defrost` | — | overrides the defrost row |
+
+## Rooms without a floor
+
+Set `floor_included: false` and the quote adjusts throughout: the panel table
+reports "Not included in scope", section 4 says so on every row, the BOQ drops
+its flooring line entirely, the scope bullet states the room is erected on the
+client's existing floor, and the opening paragraph stops promising insulated
+flooring.
 
 ## Optional overrides
 
@@ -86,6 +97,7 @@ once without labels; rows that differ print one labelled line per system.
 | `total_words` | overrides the auto-generated amount in words |
 | `boq` | array of `{"description": "...", "amount": 1234}` replacing the six default lines; `amount` may be omitted for a lump-sum quote |
 | `delivery` | object of `{"<row label>": "<value>"}` patching section 12, e.g. `{"Installation Period": "10 – 14 working days for civil-ready site"}` |
+| `sets` | number of `refrigeration` entries; set it when one machine type is repeated, e.g. 2 identical systems from one entry |
 | `banner_height_in` | height of the service banner under section 12, default `4.0`; `0` keeps the master's 5.45 in, which strands it on a page of its own |
 
 ## Worked example

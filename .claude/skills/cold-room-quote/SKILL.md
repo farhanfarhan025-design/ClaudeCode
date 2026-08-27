@@ -51,8 +51,9 @@ Defaulted if not supplied:
 - Date — today, formatted `05 August 2026`
 - Validity — `15 Days from quote date`
 - Panel thickness — `100 mm` (use `150 mm` for freezers)
-- Door — 1 No., 900 × 1900 mm
-- Floor — included
+- Door — 1 No., hinged, 900 × 1900 mm; pass `"type": "sliding"` for a slider
+- Floor — included; `floor_included: false` reworks section 4, the BOQ and the
+  scope so nothing promises flooring
 
 Everything else in the document (panel construction, coving, control panel,
 warranty, exclusions, payment terms) is boilerplate that stays as-is.
