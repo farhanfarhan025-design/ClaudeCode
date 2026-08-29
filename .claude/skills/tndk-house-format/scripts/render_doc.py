@@ -23,6 +23,7 @@ failed run.
 """
 
 import argparse
+import base64
 import json
 import os
 import re
@@ -218,6 +219,28 @@ def qty_text(q, unit=""):
 def money(n):
     """Negatives in parentheses, accounting style — a standing convention."""
     return f"({abs(n):,.2f})" if n < 0 else f"{n:,.2f}"
+
+
+def seal_tag(doc, size=100):
+    """The company stamp, embedded as a data URI so the PDF is self-contained.
+
+    Set "seal": true on any document that would carry the physical stamp. It is drawn over
+    the signature block, rotated slightly and just short of opaque, the way a real impression
+    sits on paper — and it is positioned absolutely inside a zero-height box so adding it never
+    moves a single line of the document beneath it.
+    """
+    if not doc.get("seal"):
+        return ""
+    path = doc.get("seal_file") or os.path.join(
+        os.path.dirname(os.path.abspath(__file__)), "..", "assets", "seal.png")
+    if not os.path.exists(path):
+        print(f"  note: seal requested but {path} not found — rendered without it",
+              file=sys.stderr)
+        return ""
+    with open(path, "rb") as fh:
+        data = base64.b64encode(fh.read()).decode()
+    return (f'<div class="sealbox"><img class="seal" style="width:{size}pt" '
+            f'src="data:image/png;base64,{data}"/></div>')
 
 
 def esc(s):
@@ -471,16 +494,19 @@ def build_html(doc):
                 f'<div class="cgs">{esc(callout)}</div></div>')
     elif spec["sign"] == "sales":
         sign = ('<div class="sigwrap"><div class="sig">'
+                + seal_tag(doc) +
                 '<div class="sigline"></div><div class="signame">Farhan / Sales Engineer</div>'
                 f'<div class="sigco">For {esc(company["legal"])}</div></div></div>')
     elif spec["sign"] == "accountant":
         sign = ('<div class="sigwrap"><div class="sig">'
+                + seal_tag(doc) +
                 '<div class="sigline"></div><div class="signame">Ronaldo / Accountant</div>'
                 f'<div class="sigco">For {esc(company["legal"])}</div></div></div>')
     else:
         left, right = spec.get("sign_labels", ("Delivered by", "Received by"))
         sign = (f'<table class="sig2"><tr>'
-                f'<td><div class="sigline"></div><div class="signame">{esc(left)}</div>'
+                f'<td>{seal_tag(doc)}<div class="sigline"></div>'
+                f'<div class="signame">{esc(left)}</div>'
                 f'<div class="sigco">Name / Signature / Date</div></td><td class="gap"></td>'
                 f'<td><div class="sigline"></div><div class="signame">{esc(right)}</div>'
                 f'<div class="sigco">Name / Signature / Date</div></td></tr></table>')
@@ -569,6 +595,10 @@ def build_html(doc):
               padding: 9pt; margin-top: 14pt; }}
   .callout .cg {{ color: {NAVY}; font-weight: bold; font-size: 10.5pt; }}
   .callout .cgs {{ font-size: 9pt; color: {INK_SOFT}; }}
+  /* The stamp sits in a zero-height box so it overlays the signature without moving it. */
+  .sealbox {{ position: relative; height: 0; }}
+  .seal {{ position: absolute; left: 26pt; top: -38pt; transform: rotate(-8deg);
+           opacity: 0.85; }}
   .sigwrap {{ margin-top: 18pt; text-align: right; page-break-inside: avoid; }}
   .sig {{ display: inline-block; width: 210pt; text-align: center; }}
   table.sig2 {{ width: 100%; margin-top: 22pt; page-break-inside: avoid; }}
