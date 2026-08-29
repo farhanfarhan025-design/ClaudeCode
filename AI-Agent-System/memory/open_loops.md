@@ -521,6 +521,31 @@ get it accepted. Either is fine. Doing neither is what creates the problem.
 
 Rate has also moved from 113.50 to 114.00 per m², on a thinner skin.
 
+### OL-045 — Completion documents drafted, but the purchase record shows nothing bought
+**Owner:** Farhan · **Raised:** 2026-08-29 · **Blocks:** dating and issuing both certificates
+
+The handover certificate and the certificate of completion for Oscar Prime are drafted. Both
+assert that the works are finished. **Nothing in this file supports that yet:**
+
+- LPO-196 (equipment, 24,500) — drafted 18-08, **not issued**
+- LPO-201 (panels, 11,930) — drafted 26-08, **not issued**; supersedes LPO-197
+- LPO-198 and LPO-199 (doors and consumables, 8,300) — numbers allocated 20-08, **documents never
+  produced**, and both vendor quotations have lapsed on validity
+- The 56,250 advance — transferred 19-08, **credit never confirmed** (OL-037)
+
+On the record as it stands, no panel, door, condensing unit or evaporator has been ordered. Either
+the purchasing has happened outside what has been recorded here — in which case the record needs
+correcting, and the actual costs are unknown — or the works are not complete and these certificates
+must not be dated.
+
+**Both documents are deliberately left undated on completion and commissioning.** They carry blank
+fields for those dates rather than assumed ones, because the commissioning date starts the twelve
+month warranty on the compressors and coils, and a wrong date there is a warranty period given away
+or taken back.
+
+**Needed from Farhan:** the actual completion and commissioning dates, and confirmation of what was
+in fact purchased and when. Until then neither certificate should go to the client.
+
 ### OL-020 — Documents outstanding on two settled jobs
 **Owner:** LEDGER · **Raised:** 2026-08-11
 
@@ -607,6 +632,9 @@ Three documents were produced today and none has been appended to the log in Dri
 - **LPO-200/2026** — Doha Controls, 15,000, drafted 24-08-2026 (quoted 15,500, less 500 agreed).
 - **LPO-201/2026** — Al Buhsain, 11,930 for 104.70 m², drafted 26-08-2026. **LPO-197 is
   cancelled**; that number is retired.
+- **HO/DCTS/SQ074/2026** — Oscar Prime handover certificate, 21 verification lines, drafted
+  29-08-2026. Numbered to the quotation, per Farhan's convention.
+- **LTR/DCTS/226/2026** — Oscar Prime certificate of completion, drafted 29-08-2026.
   Numbered 200, not 198: **198 and 199 were already allocated to the two ACC orders on
   20-08-2026.** Caught before issue; the numbers stand as allocated.
 - **LPO-198/2026** — Arctic Cooling, cold room doors, 5,400, drafted 20-08-2026.
