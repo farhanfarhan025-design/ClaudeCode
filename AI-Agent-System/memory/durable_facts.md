@@ -167,6 +167,7 @@ pattern rather than a one-off.
 | LPO | **OTTS/LPO/19082026-02/2026**, 17-08-2026, signed 18-08-2026 — cancels their -01 |
 | Contract value | **QAR 75,000.00** lump sum (revised 17-08-2026, was 78,000) |
 | Terms | 75% advance on confirmed LPO · 20% on delivery of material · 5% after testing, commissioning and handover |
+| **Completed / commissioned** | **27-08-2026** (Farhan, 29-08-2026). Handover HO/DCTS/SQ074/2026 and completion certificate LTR/DCTS/226/2026 issued on that basis; warranty runs from this date |
 | **Advance received** | **QAR 56,250.00** — Commercial Bank transfer from Oscar Prime, value date 19-08-2026. The advice reads *Pending Approval* with no processed date; confirm the credit before relying on it |
 | Invoiced to date | **INV-264/2026, 56,250.00** — cancels and replaces INV-261/2026 (58,500 on the superseded LPO) |
 | Duration | 05 – 07 days from LPO, subject to site readiness |

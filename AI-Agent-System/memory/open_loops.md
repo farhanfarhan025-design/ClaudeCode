@@ -522,7 +522,7 @@ get it accepted. Either is fine. Doing neither is what creates the problem.
 Rate has also moved from 113.50 to 114.00 per m², on a thinner skin.
 
 ### OL-045 — Completion documents drafted, but the purchase record shows nothing bought
-**Owner:** Farhan · **Raised:** 2026-08-29 · **Blocks:** dating and issuing both certificates
+**Owner:** Farhan · **Raised:** 2026-08-29 · **Dates resolved 29-08-2026; purchase record still open**
 
 The handover certificate and the certificate of completion for Oscar Prime are drafted. Both
 assert that the works are finished. **Nothing in this file supports that yet:**
@@ -543,8 +543,17 @@ fields for those dates rather than assumed ones, because the commissioning date 
 month warranty on the compressors and coils, and a wrong date there is a warranty period given away
 or taken back.
 
-**Needed from Farhan:** the actual completion and commissioning dates, and confirmation of what was
-in fact purchased and when. Until then neither certificate should go to the client.
+**Dates confirmed 29-08-2026 by Farhan: completion and commissioning both 27-08-2026.** Both
+certificates now carry them, and the twelve month warranty on the compressors, coils, electrical
+components and workmanship runs from 27-08-2026 — expiring **27-08-2027**. That is the first
+warranty expiry date the system holds, and it partly answers `OL-010`.
+
+**Still needed:** confirmation of what was actually purchased and when. The job completed on
+27-08-2026, but LPO-201 for the panels was drafted on 26-08 and never issued, and LPO-196, 198 and
+199 were never issued either. Material that was installed by the 27th cannot have been ordered on
+the 26th and unissued. **The purchase record for this job does not describe what happened**, which
+means the job's real cost — and therefore its margin — is unknown. Worth reconstructing from the
+supplier invoices while the job is fresh.
 
 ### OL-020 — Documents outstanding on two settled jobs
 **Owner:** LEDGER · **Raised:** 2026-08-11
