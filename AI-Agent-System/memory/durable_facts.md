@@ -50,16 +50,17 @@ keying error — see OL-027.
 | | QAR |
 |---|---|
 | Live contract value | 786,400.00 |
-| Collected to date | (126,750.00) |
-| **Total receivable** | **659,650.00** |
-| — invoiced and awaiting payment | 63,450.00 |
-| — contracted, not yet invoiced | 596,200.00 |
+| Collected to date | (191,000.00) |
+| **Total receivable** | **595,400.00** |
+| — invoiced and awaiting payment | 17,950.00 |
+| — contracted, not yet invoiced | 577,450.00 |
 
-Invoiced: Oscar Prime INV-264 56,250 (transfer advised, credit unconfirmed), Al Zehrabi INV-263
-4,900, Sunrise INV-262 2,300. Not yet invoiced: Mesaieed 400,000, CCC/HIA 177,450, Oscar Prime
-18,750.
+**Updated 29-08-2026.** Oscar Prime has paid 64,250 of 75,000 and the job is complete; the
+remaining 10,750 is invoiced under INV-265. Invoiced and unpaid: Oscar Prime 10,750, Al Zehrabi
+INV-263 4,900, Sunrise INV-262 2,300 — **17,950 in total**. Not yet invoiceable: Mesaieed 400,000
+and CCC/HIA 177,450, neither of which has started on site.
 
-**Mesaieed and CCC hold 87.5% of everything owed, and neither has started on site.** Of the whole
+**Mesaieed and CCC now hold 97.0% of everything owed, and neither has started on site.** Of the whole
 659,650, the sum that could be collected today on the paperwork as it stands is the Mesaieed 15%
 advance of 60,000, now 91 days old. Full statement: `reports/receivables_2026-08-20.html`.
 
@@ -168,8 +169,9 @@ pattern rather than a one-off.
 | Contract value | **QAR 75,000.00** lump sum (revised 17-08-2026, was 78,000) |
 | Terms | 75% advance on confirmed LPO · 20% on delivery of material · 5% after testing, commissioning and handover |
 | **Completed / commissioned** | **27-08-2026** (Farhan, 29-08-2026). Handover HO/DCTS/SQ074/2026 and completion certificate LTR/DCTS/226/2026 issued on that basis; warranty runs from this date |
-| **Advance received** | **QAR 56,250.00** — Commercial Bank transfer from Oscar Prime, value date 19-08-2026. The advice reads *Pending Approval* with no processed date; confirm the credit before relying on it |
-| Invoiced to date | **INV-264/2026, 56,250.00** — cancels and replaces INV-261/2026 (58,500 on the superseded LPO) |
+| **Received** | **QAR 64,250.00** — 56,250 value date 19-08-2026 and 8,000 value date 24-08-2026, both Commercial Bank transfers from Oscar Prime, reference *Kitchen Fabrication*. Receipt confirmed by Farhan 29-08-2026 |
+| **Balance due** | **QAR 10,750.00** — invoiced under INV-265/2026, final invoice |
+| Invoiced to date | INV-264/2026 advance 56,250 · **INV-265/2026 final 10,750** (20% + 5% milestones less the 8,000 on account). INV-261/2026 cancelled |
 | Duration | 05 – 07 days from LPO, subject to site readiness |
 
 The LPO is signed and dated, so the 75% advance falls due now, not on delivery. No vendor spend
@@ -208,7 +210,7 @@ The larger of the two has collected nothing.
 
 | Series | Next free |
 |---|---|
-| Invoice | INV-265/2026 — 261 cancelled, 264 Oscar Prime, none yet in the log |
+| Invoice | INV-266/2026 — 261 cancelled, 264/265 Oscar Prime, none yet in the log |
 | Receipt | RCT-257/2026 |
 | Quotation | next after QUT/DCTS/222/2026, plus the SQ038 / SQ074 series — see OL-018 |
 | Delivery note | DN-252/2026 |
