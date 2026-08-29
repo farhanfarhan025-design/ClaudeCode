@@ -369,8 +369,8 @@ asking them to confirm before release.
 If they meant 5,500, TNDK pays 100 more than the order says and the delivery is queried at the
 counter. Small money, but it is the kind of thing that holds up a collection.
 
-### OL-037 — Oscar Prime advance received; receipt held pending confirmation of credit
-**Owner:** Farhan · **Raised:** 2026-08-20 · **Value:** QAR 56,250
+### OL-037 — Oscar Prime receipts still to be issued — CREDIT CONFIRMED 29-08-2026
+**Owner:** Farhan · **Raised:** 2026-08-20 · **Value:** QAR 64,250 received
 
 Commercial Bank transfer advice, value date 19-08-2026, Oscar Prime to TNDK account
 4010-777739-001, QAR 56,250.00, reference *Kitchen Fabrication*. Farhan reports it as received.
@@ -381,7 +381,15 @@ ready but deliberately **not issued** until the money is visible in the account 
 the money arrived, and the only thing worse than chasing an advance is receipting one that never
 lands.
 
-**Needed:** confirmation from the bank statement. The receipt goes out the same day.
+**Confirmed 29-08-2026.** Farhan reports both transfers received: 56,250 value date 19-08 and a
+further 8,000 value date 24-08 — **64,250** against a 75,000 contract. Both advices still carry
+*Pending Approval* with no processed date, so a statement check remains worth doing, but the
+owner's confirmation plus the instrument satisfies `RULES.md` B.
+
+**Still to do: issue the receipts.** RCT-257/2026 for 56,250 and RCT-258/2026 for 8,000, or a
+single receipt for 64,250 — Farhan's choice, though two transfers on two dates are cleaner as two
+receipts. Neither has been issued, and the job is otherwise closed out apart from the final
+10,750.
 
 The beneficiary name on the transfer reads THE NEW DOHA KITCHEN EQUIPMENT SERV — the account
 name, with no *"and"*. `D-011` was right.
@@ -531,7 +539,7 @@ assert that the works are finished. **Nothing in this file supports that yet:**
 - LPO-201 (panels, 11,930) — drafted 26-08, **not issued**; supersedes LPO-197
 - LPO-198 and LPO-199 (doors and consumables, 8,300) — numbers allocated 20-08, **documents never
   produced**, and both vendor quotations have lapsed on validity
-- The 56,250 advance — transferred 19-08, **credit never confirmed** (OL-037)
+- The 56,250 advance — **confirmed received 29-08-2026**, with a further 8,000 on 24-08 (OL-037)
 
 On the record as it stands, no panel, door, condensing unit or evaporator has been ordered. Either
 the purchasing has happened outside what has been recorded here — in which case the record needs
@@ -667,6 +675,7 @@ Three documents were produced today and none has been appended to the log in Dri
   advance version that was never sent).
 - **INV-264/2026** — Oscar Prime revised advance, 56,250, issued 20-08-2026. **INV-261/2026 is
   cancelled**; that number is retired, not reused.
+- **INV-265/2026** — Oscar Prime final invoice, 10,750, issued 29-08-2026. Closes the contract.
 - **GWC HSE submission for Al Zehrabi** — Method Statement GWC-HSE-FM11-MS.00 and Job Hazard
   Analysis GWC-HSE-FM-JHA.00 completed 19-08-2026. Not a TNDK series; these are the facility's
   own forms and keep their own reference numbers.
