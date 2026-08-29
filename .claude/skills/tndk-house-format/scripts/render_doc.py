@@ -222,12 +222,15 @@ def money(n):
 
 
 def seal_tag(doc, size=100):
-    """The company stamp, embedded as a data URI so the PDF is self-contained.
+    """Optional printed company stamp — CURRENTLY UNUSED.
 
-    Set "seal": true on any document that would carry the physical stamp. It is drawn over
-    the signature block, rotated slightly and just short of opaque, the way a real impression
-    sits on paper — and it is positioned absolutely inside a zero-height box so adding it never
-    moves a single line of the document beneath it.
+    Farhan ruled on 29 August 2026 that TNDK documents carry no printed seal: the stamp goes on
+    the signed copy by hand. assets/seal.png has been removed, so "seal": true renders nothing
+    and says so on stderr. The mechanism is kept because it works and the ruling could change;
+    it must not be switched back on without Farhan asking.
+
+    When it is used, the stamp is drawn over the signature block inside a zero-height box, so
+    turning it on never moves a line of the document beneath it.
     """
     if not doc.get("seal"):
         return ""

@@ -97,8 +97,7 @@ final counterpart says *FINAL INVOICE* rather than a label the client has not se
 named above a signature, kept separate because the header name is set in capitals), `amount_in_words`
 (computed if omitted), `grand_total_label`, `show_prices` (put prices on a delivery note),
 `instrument` (**required** on receipts), `payee_name` and `bank` (invoices — see below),
-`seal` (`true` prints the company stamp over the signature — `assets/seal.png`, overridable
-with `seal_file`),
+
 `meta_labels`, `counterparty_label`, `filename`,
 `extra_column` (`{label, field, width, align, position}` — `position: "end"` puts it after the
 money columns, which is where a tick box belongs).
@@ -145,12 +144,10 @@ inverts the whole point of having it.
 - **QAR, comma-separated, two decimals.** Pass raw numbers; formatting is the renderer's job.
 - **Amount in words** generated from the grand total, in the approved phrasing:
   *"Nine Thousand Five Hundred Qatari Riyals Only (QAR 9,500.00)"*.
-- **The company stamp** is `assets/seal.png`, embedded as a data URI so the PDF stays
-  self-contained. It is drawn in a zero-height box over the signature block, rotated eight
-  degrees and just short of opaque, so switching it on never moves a line of the document
-  beneath it. Use it on documents that would carry the physical stamp — certificates,
-  handovers, letters — and leave it off anything a client should sign wet, where a printed
-  stamp on an unsigned page is worse than none.
+- **No printed company seal.** Farhan ruled on 29 August 2026 that TNDK documents do not carry
+  one; the stamp is applied by hand to the signed copy. `assets/seal.png` has been removed, so a
+  `"seal": true` left in a JSON file prints a note to stderr and renders nothing. Do not
+  reintroduce it without Farhan asking.
 - **Footer on every page**, pinned to the page edge however short the document is — and on
   every page of a document that runs to two or three, which is where it is easiest to lose.
 - **Pages after the first open with a top margin.** Page 1 is full bleed so the navy header
