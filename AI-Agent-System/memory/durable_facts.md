@@ -186,7 +186,13 @@ that way: this is the same sequence that kept Jollibee off working capital.
 | Space Al-Arabi | QUT/DCTS/221/2026 | 400,000 | 8 reefer containers, 100% advance |
 | Al Waha Agriculture | QUT/DCTS/222/2026 | 246,675 | cold room 138,000 + air conditioning 108,675 |
 
-**Al Zehrabi Medical, QUT/DCTS/219/2026 — 4,900 — APPROVED 18-08-2026.** Cold room maintenance:
+**CLIENT NAME — the correct legal name is Al Zahrawi Medical LLC.** Farhan corrected it on
+30-08-2026; everything issued up to that point carries the misspelling "Al Zehrabi Medical
+L.L.C." INV-263/2026 has been reissued under the correct name at the same number and date.
+QUT/DCTS/219/2026, WO/DCTS/001/2026 and the two GWC HSE submissions still carry the old
+spelling and have not been reissued. Earlier records below keep the old spelling as written.
+
+**Al Zahrawi Medical (recorded below as Al Zehrabi), QUT/DCTS/219/2026 — 4,900 — APPROVED 18-08-2026.** Cold room maintenance:
 two units water service, one room leak test and re-gas, silicone, door gaps, 25 m pipe insulation
 and an outdoor sunshade. Terms 80% advance / 20% on completion, 02 – 03 days. Work order
 WO/DCTS/001/2026 issued to the site team the same day. **INV-263/2026 was first drafted for the
