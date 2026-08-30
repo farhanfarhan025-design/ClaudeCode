@@ -144,10 +144,12 @@ inverts the whole point of having it.
 - **QAR, comma-separated, two decimals.** Pass raw numbers; formatting is the renderer's job.
 - **Amount in words** generated from the grand total, in the approved phrasing:
   *"Nine Thousand Five Hundred Qatari Riyals Only (QAR 9,500.00)"*.
-- **No printed company seal.** Farhan ruled on 29 August 2026 that TNDK documents do not carry
-  one; the stamp is applied by hand to the signed copy. `assets/seal.png` has been removed, so a
-  `"seal": true` left in a JSON file prints a note to stderr and renders nothing. Do not
-  reintroduce it without Farhan asking.
+- **Seal and signature go on only when Farhan asks for them.** He ruled them off on 29 August
+  2026, then supplied a clean scan and asked for both on INV-263/2026 on 30 August 2026. So the
+  default stays clean — the renderer never draws a seal — and the stamp is applied afterwards as
+  a separate step, with `scripts/stamp.py in.pdf out.pdf`. It anchors on the signatory name,
+  drops the block in the clear space to its left, and obscures no printed text. Keep the
+  unsigned PDF as well; the signed one is the copy that leaves the office.
 - **Footer on every page**, pinned to the page edge however short the document is — and on
   every page of a document that runs to two or three, which is where it is easiest to lose.
 - **Pages after the first open with a top margin.** Page 1 is full bleed so the navy header
