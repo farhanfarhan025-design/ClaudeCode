@@ -674,6 +674,12 @@ Three documents were produced today and none has been appended to the log in Dri
   3.20 × 1.75 m, 3,780, issued 30-08-2026. 100% advance, 01 day. **Note LTR/DCTS/226/2026 is
   the Oscar Prime completion certificate** — same serial, different series, and the two must not
   be confused when filing.
+- **QUT/DCTS/227/2026** — Almana Food Stuff, supply of one BITZER 6FE-44Y semi-hermetic
+  compressor for freezer duty, 35,000, issued 30-08-2026. Supply only, ex stock subject to
+  prior sale, 100% payment, 12 month warranty. **No cost on file** — the third resale quoted
+  without a purchase price recorded, after Convert Engineering and COMO (OL-042 pattern).
+  Compressor technical data was written from general knowledge of the model, not from a
+  BITZER data sheet on file; it needs checking against the sheet before the quote is sent.
 - **WO/DCTS/001/2026** — Al Zehrabi work order, 18-08-2026. **Opens a new series**; the log has
   no work-order column yet.
 - **INV-263/2026** — Al Zehrabi, **4,900 in full**, issued 19-08-2026 (redrafted from an 80%

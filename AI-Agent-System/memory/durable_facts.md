@@ -218,7 +218,7 @@ The larger of the two has collected nothing.
 |---|---|
 | Invoice | INV-266/2026 — 261 cancelled, 264/265 Oscar Prime, none yet in the log |
 | Receipt | RCT-257/2026 |
-| Quotation | next after QUT/DCTS/226/2026, plus the SQ038 / SQ074 series — see OL-018 |
+| Quotation | next after QUT/DCTS/227/2026, plus the SQ038 / SQ074 series — see OL-018 |
 | Delivery note | DN-252/2026 |
 | LPO | LPO-202/2026 — 195 and 197 cancelled, 196/198/199/201 Oscar Prime, 200 Doha Controls |
 
