@@ -32,6 +32,7 @@ else has a house default or is left as the master has it.
 | `qty` | no | `1` | number of identical rooms |
 | `panel_thickness` | no | `"100 mm"` | `"150 mm"` for freezers |
 | `floor_included` | no | `true` | `false` prints "Not included in scope" |
+| `glass_front` | no | `false` | `true` drops the front face from the wall panel area — for a display chiller closed by a glass door |
 
 **Dimensions should be strings.** JSON cannot hold the trailing zero in `2.40`,
 and the house style writes `2.40`, not `2.4`. Numbers still work — they are
@@ -43,7 +44,9 @@ Note the minus sign in freezer temperatures is U+2212 (`−`), matching the mast
 
 | Field | Default | Notes |
 |---|---|---|
-| `type` | `"hinged"` | `"sliding"` relabels the hinges row as Track & Rollers and rewords the scope and BOQ |
+| `type` | `"hinged"` | `"sliding"` relabels the hinges row as Track & Rollers; `"glass"` describes a frameless glass door and relabels the row Hinge Type. Both reword the scope and BOQ |
+| `image` | — | path to a photo of the door being quoted; replaces the section 2 photograph, resized to the picture's aspect ratio |
+| `glass` | — | wording for a glass door: `thickness`, `frame`, `gasket`, `handle`, `hinges`, `hardware` |
 | `qty` | `1` | spelled out in scope and BOQ ("three (3) No.") |
 | `width_mm` | `900` | clear opening |
 | `height_mm` | `1900` | clear opening |
@@ -78,6 +81,9 @@ once without labels; rows that differ print one labelled line per system.
 | `ambient` | — | Doha design ambient, e.g. `"46°C"` |
 | `selection_basis` | compressor brand | whose selection software was used |
 | `defrost` | — | overrides the defrost row |
+| `condensing_unit_text` | — | verbatim Condensing Unit row, for a machine with no model — e.g. `"1 HP condensing unit — make and model as per availability"` |
+| `compressor_text` | — | verbatim Compressor Brand row |
+| `evaporator_text` | — | verbatim Evaporator row |
 
 ## Rooms without a floor
 

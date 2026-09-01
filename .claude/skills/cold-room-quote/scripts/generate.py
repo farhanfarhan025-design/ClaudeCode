@@ -186,7 +186,9 @@ def room_quantities(room):
     L, W, H = float(room["length"]), float(room["width"]), float(room["height"])
     dL, dW, dH = dim(room["length"]), dim(room["width"]), dim(room["height"])
     qty = int(room.get("qty", 1))
-    walls = (2 * (L * H) + 2 * (W * H)) * qty
+    # a glazed front (a display chiller closed by a glass door) is not panel
+    glazed = bool(room.get("glass_front"))
+    walls = (2 * (L * H) + 2 * (W * H) - (L * H if glazed else 0)) * qty
     ceiling = L * W * qty
     floor = L * W * qty if room.get("floor_included", True) else 0.0
     volume = L * W * H * qty
@@ -196,7 +198,9 @@ def room_quantities(room):
         "walls": walls, "ceiling": ceiling, "floor": floor,
         "total_panel": walls + ceiling + floor,
         "volume": volume,
-        "wall_expr": f"2 × ({dL} × {dH}) + 2 × ({dW} × {dH})",
+        "glazed": glazed,
+        "wall_expr": (f"({dL} × {dH}) + 2 × ({dW} × {dH})" if glazed
+                      else f"2 × ({dL} × {dH}) + 2 × ({dW} × {dH})"),
         "area_expr": f"{dL} × {dW}",
         "vol_expr": f"{dL} × {dW} × {dH}",
         "dims": f"{dL} × {dW} × {dH} m",
@@ -263,7 +267,9 @@ def fill_panel_section(doc, spec, qs, tot):
     set_row(t, "Panel Thickness", thickness_label(spec))
     if len(qs) == 1:
         q = qs[0]
-        set_row(t, "Wall Coverage", multiplied(q, q["wall_expr"], q["walls"]))
+        wall_note = " — front face glazed (glass door)" if q["glazed"] else ""
+        set_row(t, "Wall Coverage",
+                multiplied(q, q["wall_expr"], q["walls"]) + wall_note)
         set_row(t, "Ceiling Coverage", multiplied(q, q["area_expr"], q["ceiling"]))
         set_row(t, "Floor Coverage",
                 multiplied(q, q["area_expr"], q["floor"]) if q["floor"]
@@ -289,9 +295,26 @@ def fill_door_section(doc, spec):
     h = door.get("height_mm", 1900)
     kind = door_kind(spec)
     set_row(t, "Clear Opening Size", f"{w} mm (W) × {h} mm (H)")
-    set_row(t, "Door Thickness", f"{thickness_label(spec)} — matching wall panel")
+    if kind != "glass":
+        set_row(t, "Door Thickness", f"{thickness_label(spec)} — matching wall panel")
     set_row(t, "Quantity", str(door.get("qty", 1)))
-    if kind == "sliding":
+    if kind == "glass":
+        glass = door.get("glass", {})
+        set_row(t, "Door Type", "Frameless Glass Cold Room Door")
+        set_row(t, "Door Thickness",
+                glass.get("thickness", "10 mm toughened glass"))
+        set_row(t, "Frame", glass.get("frame", "Aluminium / PVC surround (optional)"))
+        set_row(t, "Gasket", glass.get("gasket", "Magnetic gasket seal"))
+        set_row(t, "Handle / Lock",
+                glass.get("handle", "Stainless steel 304 handle, gold finish"))
+        for r in t.rows:
+            cells = row_cells(r)
+            if cells[0].text.strip() == "Hinges":
+                set_cell(cells[0], "Hinge Type")
+                set_cell(cells[-1], glass.get(
+                    "hinges", "Top pivot & bottom pivot, with floor spring"))
+                break
+    elif kind == "sliding":
         # the master describes a hinged leaf; a sliding door hangs on a track
         # and has no hinges, so those rows would otherwise be plainly wrong
         set_row(t, "Door Type", "Sliding Cold Room Door (single leaf)")
@@ -309,6 +332,62 @@ def fill_door_section(doc, spec):
 
 
 NO_FLOOR = "Not included in this offer"
+
+
+def replace_door_image(doc, spec):
+    """Swap the section 2 photograph for a picture of the door being quoted.
+
+    The master's door photo shows a hinged panel door; when a glass door is
+    quoted, showing the actual door is the whole point. The image part is
+    rewritten in place and the frame resized to the new picture's aspect ratio.
+    """
+    path = spec.get("door", {}).get("image")
+    if not path:
+        return
+    path = Path(path)
+    if not path.is_file():
+        print(f"  ! door image {path} not found — keeping the master photo",
+              file=sys.stderr)
+        return
+
+    # the photo sits in the paragraph that follows the "2. DOOR DETAILS" heading
+    body, seen, target = doc.element.body, False, None
+    for child in body.iterchildren():
+        if child.tag == qn("w:p"):
+            text = "".join(t.text or "" for t in child.iter(qn("w:t")))
+            if "DOOR DETAILS" in text:
+                seen = True
+                continue
+            if seen and child.find(".//" + qn("a:blip")) is not None:
+                target = child
+                break
+    if target is None:
+        print("  ! could not locate the door photo — keeping the master image",
+              file=sys.stderr)
+        return
+
+    blip = target.find(".//" + qn("a:blip"))
+    rid = blip.get(qn("r:embed"))
+    part = doc.part.related_parts[rid]
+
+    part._blob = path.read_bytes()
+
+    # resize the frame to the new picture's shape, keeping the master's height
+    extent = target.find(".//" + qn("wp:extent"))
+    if extent is not None:
+        try:
+            from PIL import Image
+            with Image.open(path) as im:
+                ratio = im.size[0] / im.size[1]
+            cy = int(extent.get("cy"))
+            cx = int(cy * ratio)
+            extent.set("cx", str(cx))
+            for ext in target.iter(qn("a:ext")):
+                if ext.get("cx") is not None:
+                    ext.set("cx", str(cx))
+                    ext.set("cy", str(cy))
+        except Exception:
+            pass                                       # keep the master framing
 
 
 def fill_flooring_section(doc, spec, tot):
@@ -431,8 +510,13 @@ def fill_refrigeration_section(doc, spec):
     sets_ = spec.get("sets") or entries[0].get("sets") or len(entries)
     set_row(t, "System Type", f"Split-type refrigeration system "
             f"({sets_} set{'s' if sets_ > 1 else ''})")
-    if all(e.get("condensing_unit") for e in entries):
+    if all(e.get("condensing_unit_text") for e in entries):
+        set_row(t, "Condensing Unit", joined(entries, lambda e: e["condensing_unit_text"]))
+    elif all(e.get("condensing_unit") for e in entries):
         set_row(t, "Condensing Unit", joined(entries, cu_text))
+    if all(e.get("compressor_text") for e in entries):
+        set_row(t, "Compressor Brand", joined(entries, lambda e: e["compressor_text"]))
+    elif all(e.get("condensing_unit") for e in entries):
         set_row(t, "Compressor Brand", joined(entries, compressor_text))
     refrigerants = []
     for e in entries:
@@ -440,7 +524,10 @@ def fill_refrigeration_section(doc, spec):
             refrigerants.append(e["refrigerant"])
     if refrigerants:
         set_row(t, "Refrigerant", " / ".join(refrigerants))
-    if all(e.get("evaporator") for e in entries):
+    if all(e.get("evaporator_text") for e in entries):
+        set_row(t, "Evaporator (Air Cooler)",
+                joined(entries, lambda e: e["evaporator_text"]))
+    elif all(e.get("evaporator") for e in entries):
         set_row(t, "Evaporator (Air Cooler)", joined(entries, evaporator_text))
     set_row(t, "Operating Temperature", operating_temp(spec))
     defrosts = [e["defrost"] for e in entries if e.get("defrost")]
@@ -526,7 +613,8 @@ def fill_scope(doc, spec, tot):
          f"(total {fmt(tot['total_panel'])} sqm)."),
         (r"^Supply and installation of .* hinged cold room door.*$",
          f"Supply and installation of {n_words.get(door_qty, str(door_qty))} No. "
-         f"{kind} cold room door{'s' if door_qty > 1 else ''} "
+         f"{'frameless glass' if kind == 'glass' else kind} cold room "
+         f"door{'s' if door_qty > 1 else ''} "
          f"({door.get('width_mm', 900)} × "
          f"{door.get('height_mm', 1900)} mm)."),
         (r"^Supply and installation of insulated floor system.*$", floor_bullet),
@@ -575,11 +663,16 @@ def default_boq(spec, qs, tot):
             for r, x in zip(spec["rooms"], qs))
 
     def one_system(e):
-        text = f"{e['condensing_unit']}"
-        kind = e.get("cu_type", "semi-hermetic").strip()
-        text += f" {kind} condensing unit" if kind else " condensing unit"
-        text += _origin(e, "cu_origin")
-        if e.get("evaporator"):
+        if e.get("condensing_unit_text"):
+            text = e["condensing_unit_text"]
+        else:
+            kind = e.get("cu_type", "semi-hermetic").strip()
+            text = e["condensing_unit"]
+            text += f" {kind} condensing unit" if kind else " condensing unit"
+            text += _origin(e, "cu_origin")
+        if e.get("evaporator_text"):
+            text += f" + {e['evaporator_text']}"
+        elif e.get("evaporator"):
             text += f" + {e['evaporator']} evaporating unit{_origin(e, 'evap_origin')}"
         if e.get("refrigerant"):
             text += f", {e['refrigerant']}"
@@ -588,7 +681,8 @@ def default_boq(spec, qs, tot):
         return _tag(e) + text
 
     fridge = ""
-    if entries and all(e.get("condensing_unit") for e in entries):
+    if entries and all(e.get("condensing_unit") or e.get("condensing_unit_text")
+                       for e in entries):
         fridge = "; ".join(one_system(e) for e in entries)
         fridge += (", including refrigeration copper piping, armaflex insulation "
                    "and insulated drain line")
@@ -596,9 +690,16 @@ def default_boq(spec, qs, tot):
     door_qty = door.get("qty", 1)
     door_plural = "s" if door_qty > 1 else ""
     kind = door_kind(spec)
-    gear = ("heavy-duty track, rollers and safety handle with inside release"
-            if kind == "sliding" else
-            "heavy-duty hinges, safety latch handle and inside release")
+    glass = door.get("glass", {})
+    if kind == "glass":
+        gear = (f"{glass.get('thickness', '10 mm toughened glass')} with "
+                f"{glass.get('hardware', 'gold-finish SS 304 hardware')}, top and "
+                f"bottom pivot hinges, floor spring, magnetic gasket seal and "
+                f"stainless steel handle")
+    elif kind == "sliding":
+        gear = "heavy-duty track, rollers and safety handle with inside release"
+    else:
+        gear = "heavy-duty hinges, safety latch handle and inside release"
     panel_area = (f" (total panel area incl. floor: {fmt(tot['total_panel'])} sqm)"
                   if tot["floor"] else
                   f" (total panel area: {fmt(tot['total_panel'])} sqm)")
@@ -609,9 +710,11 @@ def default_boq(spec, qs, tot):
             f"aluminum coving, corner angles, silicone sealing, fasteners and "
             f"accessories."},
         {"description":
-            f"Supply & installation of {n_words.get(door_qty, str(door_qty))} No. {kind} "
-            f"cold room door{door_plural}, clear opening size {door.get('width_mm', 900)} × "
-            f"{door.get('height_mm', 1900)} mm, {thickness} thick, with {gear}."},
+            f"Supply & installation of {n_words.get(door_qty, str(door_qty))} No. "
+            f"{'frameless glass' if kind == 'glass' else kind} cold room "
+            f"door{door_plural}, clear opening size {door.get('width_mm', 900)} × "
+            f"{door.get('height_mm', 1900)} mm, "
+            + (f"{gear}." if kind == "glass" else f"{thickness} thick, with {gear}.")},
     ]
     if tot["floor"]:
         items.append({"description":
@@ -763,6 +866,7 @@ def generate(spec, output):
     fill_total(doc, spec)
     fill_delivery(doc, spec)
     fit_banner(doc, spec)
+    replace_door_image(doc, spec)
 
     doc.save(output)
     return output, tot
