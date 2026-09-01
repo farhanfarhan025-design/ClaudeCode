@@ -1,0 +1,769 @@
+#!/usr/bin/env python3
+"""TNDK house-format document renderer.
+
+One layout, every accounts document. JSON in, branded A4 PDF out — LPO, invoice,
+receipt, delivery note, delivery return, and anything else that is a header, a party
+block, a line table and a money block.
+
+    python3 render_doc.py job.json --outdir out/
+
+The geometry is not invented here. It is measured from the approved LPO-194/2026 and
+recorded in references/format-spec.md: navy #1F3864, gold #C9A24E, panel #EEF2F8,
+grid #C9CDD6, Arial 9.5pt body, A4 with a 27pt content margin and a full-bleed header.
+
+Three checks run before a PDF is written, because a document that looks right and is
+wrong is worse than no document:
+
+  * the word "tax"/"VAT" anywhere on the page raises — TNDK invoices never carry one
+  * line totals must sum to the sub-total, and sub-total - discount to the grand total
+  * the amount in words must match the grand total
+
+Each raises rather than warns. A wrong total on an issued document costs more than a
+failed run.
+"""
+
+import argparse
+import base64
+import json
+import os
+import re
+import shutil
+import subprocess
+import sys
+import tempfile
+
+# --------------------------------------------------------------------- brand
+
+NAVY = "#1F3864"
+GOLD = "#C9A24E"
+PANEL = "#EEF2F8"
+GRID = "#C9CDD6"
+INK = "#222222"
+INK_SOFT = "#333333"
+
+# White space opened at the top of every page after the first. Page 1 is full bleed —
+# the navy header touches the paper edge — but a continuation page whose content starts
+# hard against the top of the sheet reads as a broken page, and a client is right to
+# reject it.
+PAGETOP = 34
+
+# Column widths as measured off the approved LPO, in % of the 540.8pt content width.
+COLS = {
+    "sn": 4.59,
+    "description": 50.89,
+    "unit": 6.93,
+    "qty": 6.93,
+    "rate": 17.48,
+    "amount": 13.18,
+}
+
+# The name the cheque must be drawn to. Taken from the Commercial Bank IBAN certificate
+# dated 23-Dec-2025, which reads "THE NEW DOHA KITCHEN EQUIPMENT SERV" — the bank's field
+# truncates, but there is no "and" between EQUIPMENT and SERV. Invoices previously carried
+# "The New Doha Kitchen Equipment and Services", which the account is not in.
+DEFAULT_PAYEE = "The New Doha Kitchen Equipment Services W.L.L."
+
+DEFAULT_COMPANY = {
+    "name": "THE NEW DOHA KITCHEN COMPANY",
+    # How the entity is named above a signature. Kept separate from the header name, which
+    # is set in capitals — "For THE NEW DOHA KITCHEN COMPANY" reads as shouting.
+    "legal": "The New Doha Kitchen Company",
+    "address": "P.O. Box 80247, Doha, Qatar | info@dkeqatar.com",
+    "footer": "The New Doha Kitchen Company  |  P.O. Box 80247, Doha, Qatar | info@dkeqatar.com",
+}
+
+# --------------------------------------------------------- document contracts
+#
+# Each type differs in four ways only: what the badge says, what the party block is
+# called, what the meta strip is labelled, and how it is signed. Everything else is
+# shared — which is the whole point of a house format.
+
+TYPES = {
+    "lpo": {
+        "badge": ["LOCAL PURCHASE", "ORDER"],
+        "party": "VENDOR INFORMATION",
+        "meta": ["PO NUMBER", "DATE", "REF QUOTE"],
+        "counterparty": "VENDOR",
+        "money": True,
+        "sign": "computer",
+        "callout": "This Purchase Order is system-generated and is valid without a physical signature.",
+    },
+    "invoice": {
+        "badge": ["INVOICE"],
+        "party": "BILL TO",
+        "meta": ["INVOICE NO", "DATE", "REF"],
+        "counterparty": "CLIENT",
+        "money": True,
+        "sign": "accountant",
+        "payee": True,
+    },
+    "receipt": {
+        "badge": ["RECEIPT"],
+        "party": "RECEIVED FROM",
+        "meta": ["RECEIPT NO", "DATE", "AGAINST INVOICE"],
+        "counterparty": "CLIENT",
+        "money": True,
+        "sign": "accountant",
+        "instrument": True,
+    },
+    "delivery_note": {
+        "badge": ["DELIVERY", "NOTE"],
+        "party": "DELIVER TO",
+        "meta": ["DN NUMBER", "DATE", "REF LPO"],
+        "counterparty": "CLIENT",
+        "money": False,
+        "sign": "two-party",
+        "sign_labels": ("Delivered by (TNDK)", "Received by (Client)"),
+    },
+    "delivery_return": {
+        "badge": ["DELIVERY", "RETURN"],
+        "party": "RETURNED FROM",
+        "meta": ["RETURN NO", "DATE", "AGAINST DN"],
+        "counterparty": "CLIENT",
+        "money": False,
+        "sign": "two-party",
+        "sign_labels": ("Returned by", "Received back by (TNDK)"),
+        "extra_column": {"label": "REASON", "field": "reason", "width": 14.0},
+    },
+    "quotation": {
+        "badge": ["QUOTATION"],
+        "party": "TO",
+        "meta": ["QUOTATION NO", "DATE", "VALIDITY"],
+        "counterparty": "CLIENT",
+        "money": True,
+        "sign": "sales",
+    },
+    "work_order": {
+        # The sheet the technicians carry to site. Same house format so a job that starts as a
+        # quotation ends as a signed record without anything being retyped: the scope becomes
+        # the checklist, and the checklist becomes the evidence the work was done.
+        "badge": ["WORK", "ORDER"],
+        "party": "JOB & SITE DETAILS",
+        "meta": ["WORK ORDER NO", "DATE", "REF QUOTATION"],
+        "counterparty": "CLIENT",
+        "money": False,
+        "sign": "two-party",
+        "sign_labels": ("Completed by (Technician)", "Checked by (Supervisor / Client)"),
+        "extra_column": {"label": "DONE", "field": "result", "width": 11.0,
+                          "align": "c", "position": "end"},
+    },
+    "handover": {
+        "badge": ["HANDOVER", "CERTIFICATE"],
+        "party": "HANDOVER TO",
+        "meta": ["HANDOVER NO", "DATE", "REF LPO"],
+        "counterparty": "CLIENT",
+        "money": False,
+        "sign": "two-party",
+        "sign_labels": ("Handed over by (TNDK)", "Received & accepted by (Client)"),
+        "extra_column": {"label": "VERIFIED", "field": "result", "width": 11.0,
+                          "align": "c", "position": "end"},
+    },
+}
+
+# --------------------------------------------------------------------- helpers
+
+ONES = ["", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten",
+        "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen",
+        "Eighteen", "Nineteen"]
+TENS = ["", "", "Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety"]
+
+
+def words(n):
+    n = int(n)
+    if n < 20:
+        return ONES[n]
+    if n < 100:
+        return TENS[n // 10] + (" " + ONES[n % 10] if n % 10 else "")
+    for div, name in ((1_000_000_000, "Billion"), (1_000_000, "Million"), (1000, "Thousand"), (100, "Hundred")):
+        if n >= div:
+            rest = n % div
+            return words(n // div) + f" {name}" + (" " + words(rest) if rest else "")
+    return ""
+
+
+def amount_in_words(total, currency="QAR"):
+    """'Nine Thousand Five Hundred Qatari Riyals Only (QAR 9,500.00)'"""
+    unit = {"QAR": ("Qatari Riyals", "Halalas")}.get(currency, (currency, "Cents"))
+    riyals = int(round(total * 100)) // 100
+    sub = int(round(total * 100)) % 100
+    text = words(riyals) or "Zero"
+    out = f"{text} {unit[0]}"
+    if sub:
+        out += f" and {words(sub)} {unit[1]}"
+    return f"{out} Only ({currency} {total:,.2f})"
+
+
+# Units that describe a measurement rather than a count. A quantity in one of these always
+# carries two decimals, so a panel schedule does not read 67.50, 19.20, 18 down the column.
+MEASURED_UNITS = {"m2", "m²", "sqm", "sq.m", "sq m", "cbm", "m3", "m³", "lm", "rm",
+                  "mtr", "m", "kg", "ltr", "l", "ton"}
+
+
+def qty_text(q, unit=""):
+    """Counts print as counts; measured quantities keep two decimals.
+
+    An LPO line is usually "2 PCS", where "2.00" would read oddly. A panel schedule is priced
+    by area, where 18 sitting under 67.50 and 19.20 looks like a truncated figure — so the
+    unit decides, not whether this particular number happens to be whole.
+    """
+    measured = str(unit).strip().lower() in MEASURED_UNITS
+    if isinstance(q, (int, float)) and not isinstance(q, bool):
+        if measured:
+            return f"{q:,.2f}"
+        if isinstance(q, float) and not q.is_integer():
+            return f"{q:,.2f}"
+        return f"{int(q):,}"
+    return esc(q)
+
+
+def money(n):
+    """Negatives in parentheses, accounting style — a standing convention."""
+    return f"({abs(n):,.2f})" if n < 0 else f"{n:,.2f}"
+
+
+def seal_tag(doc, size=100):
+    """Optional printed company stamp — CURRENTLY UNUSED.
+
+    Farhan ruled on 29 August 2026 that TNDK documents carry no printed seal: the stamp goes on
+    the signed copy by hand. assets/seal.png has been removed, so "seal": true renders nothing
+    and says so on stderr. The mechanism is kept because it works and the ruling could change;
+    it must not be switched back on without Farhan asking.
+
+    When it is used, the stamp is drawn over the signature block inside a zero-height box, so
+    turning it on never moves a line of the document beneath it.
+    """
+    if not doc.get("seal"):
+        return ""
+    path = doc.get("seal_file") or os.path.join(
+        os.path.dirname(os.path.abspath(__file__)), "..", "assets", "seal.png")
+    if not os.path.exists(path):
+        print(f"  note: seal requested but {path} not found — rendered without it",
+              file=sys.stderr)
+        return ""
+    with open(path, "rb") as fh:
+        data = base64.b64encode(fh.read()).decode()
+    return (f'<div class="sealbox"><img class="seal" style="width:{size}pt" '
+            f'src="data:image/png;base64,{data}"/></div>')
+
+
+def esc(s):
+    return (str(s).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+            if s is not None else "")
+
+
+# Longest a numbered clause heading may run before the dash that ends it. Beyond this the
+# text is a sentence, not a heading, and bolding it would defeat the point of bolding.
+HEADING_MAX = 90
+
+
+def describe(text):
+    """Render a line description: bold the opening line, and bold the heading of each
+    numbered clause under it, but set the body copy in normal weight.
+
+    A one-line item — which is all an LPO ever has — comes out fully bold, exactly as on
+    the approved Airtronics LPO. A lump-sum scope carrying seven numbered clauses inside a
+    single priced row used to come out bold from top to bottom, which on a full page reads
+    as shouting rather than emphasis. Bold now marks the headings so the scope can be
+    skimmed, which is the only thing bold is for.
+    """
+    parts = str(text or "").split("\n")
+    out = []
+    for i, raw in enumerate(parts):
+        seg = esc(raw)
+        if i == 0:
+            out.append(f"<b>{seg}</b>")
+            continue
+        # "3. EVACUATION, GAS CHARGING ... — Fitting of a new filter drier, ..."
+        # Bold as far as a dash, but only when what precedes it reads as a heading rather
+        # than a sentence. A heading may itself contain a dash ("WATER SERVICE OF TWO COLD
+        # ROOM UNITS — CONDENSING UNIT AND EVAPORATOR"), so take the longest prefix that is
+        # still short enough to be a heading, not the first one.
+        # A section heading inside a description carries no number, but it is still a heading.
+        if seg.startswith("SECTION "):
+            out.append(f"<b>{seg}</b>")
+            continue
+        cut = 0
+        # Numbered clauses, and unnumbered ones that open in capitals, get their heading bolded.
+        if re.match(r"^\d+\.\s", seg) or re.match(r"^[A-Z]{3}", seg):
+            for m in re.finditer(" — ", seg):
+                if m.start() <= HEADING_MAX:
+                    cut = m.end()
+        if cut:
+            out.append(f"<b>{seg[:cut]}</b>{seg[cut:]}")
+        else:
+            out.append(seg)
+    return "<br/>".join(out)
+
+
+class DocumentError(Exception):
+    """Raised when a document would go out wrong. Never downgraded to a warning."""
+
+
+# --------------------------------------------------------------------- checks
+
+
+def check_arithmetic(doc, lines, subtotal, discount, grand, adjustments=0):
+    computed = sum(l.get("amount", 0) for l in lines)
+    if abs(computed - subtotal) > 0.005:
+        raise DocumentError(
+            f"Line totals sum to {money(computed)} but the sub-total says {money(subtotal)}. "
+            f"Difference {money(abs(computed - subtotal))}. Fix the source, not the total.")
+    expected_grand = subtotal - discount + adjustments
+    if abs(expected_grand - grand) > 0.005:
+        adj = f" plus adjustments {money(adjustments)}" if adjustments else ""
+        raise DocumentError(
+            f"Sub-total {money(subtotal)} less discount {money(discount)}{adj} is "
+            f"{money(expected_grand)}, but the grand total says {money(grand)}.")
+    stated = doc.get("amount_in_words")
+    if stated:
+        expected = amount_in_words(grand, doc.get("currency", "QAR"))
+        if re.sub(r"\s+", " ", stated.strip().lower()) != expected.lower():
+            raise DocumentError(
+                f"Amount in words does not match the grand total.\n  given:    {stated}\n"
+                f"  computed: {expected}\nOne of them is wrong — check which before issuing.")
+
+
+def check_no_tax(html):
+    """RULES.md A1. The generator throws on violation; that is deliberate — keep it."""
+    text = re.sub(r"<[^>]+>", " ", html)
+    hit = re.search(r"\b(tax|taxes|taxable|vat)\b", text, re.I)
+    if hit:
+        line = text[max(0, hit.start() - 60):hit.end() + 60].strip()
+        raise DocumentError(
+            f'The word "{hit.group(0)}" appears on this document: "…{line}…"\n'
+            "TNDK documents never carry a tax or VAT line. Remove it, or if this is a "
+            "genuine change of policy, that is Farhan's ruling to make and record first.")
+
+
+# ----------------------------------------------------------------------- HTML
+
+
+def build_html(doc):
+    kind = doc.get("type", "").lower()
+    if kind not in TYPES:
+        raise DocumentError(f"Unknown document type '{kind}'. Known: {', '.join(sorted(TYPES))}")
+    spec = TYPES[kind]
+    company = {**DEFAULT_COMPANY, **doc.get("company", {})}
+    currency = doc.get("currency", "QAR")
+    show_money = spec["money"] and doc.get("show_prices", True)
+
+    lines = []
+    for raw in doc.get("lines", []):
+        line = dict(raw)
+        if show_money and "amount" not in line:
+            line["amount"] = round(line.get("qty", 0) * line.get("rate", 0), 2)
+        lines.append(line)
+
+    subtotal = doc.get("subtotal", round(sum(l.get("amount", 0) for l in lines), 2))
+    discount = doc.get("discount", 0) or 0
+    adjustments = round(sum(a.get("amount", 0) for a in doc.get("adjustments", [])), 2)
+    grand = doc.get("grand_total", round(subtotal - discount + adjustments, 2))
+    if show_money:
+        check_arithmetic(doc, lines, subtotal, discount, grand, adjustments)
+
+    # ---- header, meta strip
+    labels = doc.get("badge") or spec["badge"]
+    badge = "<br/>".join(f'<span class="b{i if len(labels) > 1 else 1}">{esc(t)}</span>'
+                         for i, t in enumerate(labels))
+    meta_labels = doc.get("meta_labels", spec["meta"])
+    meta_values = [doc.get("number", ""), doc.get("date", ""), doc.get("ref", "")]
+    meta = " &nbsp;&nbsp;&nbsp; ".join(
+        f'<b>{esc(l)}:</b>&nbsp;{esc(v)}' for l, v in zip(meta_labels, meta_values) if v)
+
+    party_name = doc.get("party", {}).get("name", "")
+    counterparty = doc.get("counterparty_label", spec["counterparty"])
+
+    # ---- party block
+    rows = []
+    for field in doc.get("party", {}).get("fields", []):
+        if isinstance(field, dict):
+            rows.append(f'<div><b>{esc(field.get("label"))}:</b> {esc(field.get("value"))}</div>')
+        else:
+            rows.append(f"<div>{esc(field)}</div>")
+    party_rows = "\n".join(rows)
+
+    # ---- line table
+    extra = doc.get("extra_column") or spec.get("extra_column")
+    head = [("S/N", COLS["sn"], "c"), ("DESCRIPTION", COLS["description"], "c")]
+    at_end = extra and extra.get("position") == "end"
+    if extra and not at_end:
+        head.append((extra["label"], extra.get("width", 14.0), extra.get("align", "l")))
+    head += [("UNIT", COLS["unit"], "c"), ("QTY", COLS["qty"], "c")]
+    if show_money:
+        head += [(f"UNIT PRICE<br/>({currency})", COLS["rate"], "r"),
+                 (f"TOTAL<br/>({currency})", COLS["amount"], "r")]
+    if at_end:
+        head.append((extra["label"], extra.get("width", 14.0), extra.get("align", "c")))
+
+    total_w = sum(h[1] for h in head)
+    ths = "".join(f'<th style="width:{w / total_w * 100:.2f}%" class="{a}">{t}</th>'
+                  for t, w, a in head)
+
+    trs = []
+    for i, line in enumerate(lines, 1):
+        cells = [f'<td class="c sn">{i}</td>',
+                 f'<td class="l desc">{describe(line.get("description"))}</td>']
+        extra_cell = (f'<td class="{extra.get("align", "l")}">'
+                      f'{esc(line.get(extra["field"], ""))}</td>') if extra else ""
+        if extra and not at_end:
+            cells.append(extra_cell)
+        cells += [f'<td class="c">{esc(line.get("unit", "Nos"))}</td>',
+                  f'<td class="c">{qty_text(line.get("qty", ""), line.get("unit", ""))}</td>']
+        if show_money:
+            cells += [f'<td class="r">{money(line.get("rate", 0))}</td>',
+                      f'<td class="r">{money(line.get("amount", 0))}</td>']
+        if at_end:
+            cells.append(extra_cell)
+        trs.append("<tr>" + "".join(cells) + "</tr>")
+
+    # ---- money block
+    money_block = ""
+    if show_money:
+        rows_html = [f'<tr><td class="fill"></td><td class="mlabel">Sub-Total:</td>'
+                     f'<td class="mval">{money(subtotal)}</td></tr>']
+        if discount:
+            rows_html.append(f'<tr><td class="fill"></td><td class="mlabel">Discount:</td>'
+                             f'<td class="mval">({money(discount)})</td></tr>')
+        for extra in doc.get("adjustments", []):
+            rows_html.append(f'<tr><td class="fill"></td>'
+                             f'<td class="mlabel">{esc(extra["label"])}:</td>'
+                             f'<td class="mval">{money(extra["amount"])}</td></tr>')
+        label = doc.get("grand_total_label", "GRAND TOTAL")
+        rows_html.append(f'<tr class="grand"><td class="fill"></td>'
+                         f'<td class="mlabel">{esc(label)}:</td>'
+                         f'<td class="mval">{money(grand)}</td></tr>')
+        money_block = f'<table class="money">{"".join(rows_html)}</table>'
+
+        aiw = doc.get("amount_in_words") or amount_in_words(grand, currency)
+        money_block += f'<div class="words"><b>Amount in Words:</b>&nbsp; {esc(aiw)}</div>'
+
+    # ---- receipt instrument block (RULES.md C7)
+    instrument = ""
+    if spec.get("instrument"):
+        inst = doc.get("instrument")
+        if not inst:
+            raise DocumentError(
+                "A receipt needs its payment instrument — cheque no. + bank + date + drawer, "
+                "transfer ref + bank + date, or Payment Mode: Cash. A receipt without one is "
+                "a received amount nobody can trace (RULES.md C7).")
+        bits = [f'<div><b>{esc(k.replace("_", " ").title())}:</b> {esc(v)}</div>'
+                for k, v in inst.items() if k != "type"]
+        note = ('<div class="realis"><i>Subject to realization of cheque.</i></div>'
+                if inst.get("type", "").lower() == "cheque" else "")
+        instrument = (f'<div class="sect">PAYMENT INSTRUMENT</div>'
+                      f'<div class="party">{"".join(bits)}{note}</div>')
+
+    # ---- notes
+    notes = ""
+    if doc.get("notes"):
+        items = "".join(f"<div>{i}. {esc(n)}</div>" for i, n in enumerate(doc["notes"], 1))
+        notes = f'<div class="notes"><b><i>Notes:</i></b><div class="nlist">{items}</div></div>'
+
+    # ---- payee line and bank details (invoices)
+    #
+    # The payee must be the name the bank account is actually in. TNDK's Commercial Bank
+    # certificate reads THE NEW DOHA KITCHEN EQUIPMENT SERV[ICES] — no "and" — while the
+    # standing wording on issued invoices inserted one. A cheque drawn to a name the account
+    # is not in gets refused at the counter, so this is not a wording preference.
+    payee = ""
+    if spec.get("payee") and doc.get("show_payee", True):
+        payee_name = doc.get("payee_name") or DEFAULT_PAYEE
+        payee = ('<div class="payee">Cheque should be prepared under the name of: '
+                 f'<b>{esc(payee_name)}</b></div>')
+        bank = doc.get("bank")
+        if bank:
+            # Two label/value pairs per row. Stacked one per row this block runs long enough
+            # to push a short invoice onto a second page for the sake of six lines of text.
+            pairs = list(bank.items())
+            rows = ""
+            for i in range(0, len(pairs), 2):
+                cells = "".join(f'<td class="bl">{esc(k)}</td><td class="bv">{esc(v)}</td>'
+                                for k, v in pairs[i:i + 2])
+                if len(pairs[i:i + 2]) == 1:
+                    cells += '<td class="bx" colspan="2"></td>'
+                rows += f"<tr>{cells}</tr>"
+            payee += f'<div class="bankwrap"><table class="bank">{rows}</table></div>'
+        elif payee_name.lower() not in str(company.get("legal", "")).lower():
+            # Not fatal — but the two names should agree, and when they don't it is worth
+            # saying so out loud rather than discovering it when the cheque bounces.
+            print(f"  note: payee '{payee_name}' does not match the signing entity "
+                  f"'{company.get('legal')}' — confirm which name the bank account is in.",
+                  file=sys.stderr)
+
+    # ---- signature
+    if spec["sign"] == "computer":
+        callout = spec.get("callout", "")
+        sign = (f'<div class="callout"><div class="cg">*** COMPUTER GENERATED DOCUMENT ***</div>'
+                f'<div class="cgs">{esc(callout)}</div></div>')
+    elif spec["sign"] == "sales":
+        sign = ('<div class="sigwrap"><div class="sig">'
+                + seal_tag(doc) +
+                '<div class="sigline"></div><div class="signame">Farhan / Sales Engineer</div>'
+                f'<div class="sigco">For {esc(company["legal"])}</div></div></div>')
+    elif spec["sign"] == "accountant":
+        sign = ('<div class="sigwrap"><div class="sig">'
+                + seal_tag(doc) +
+                '<div class="sigline"></div><div class="signame">Ronaldo / Accountant</div>'
+                f'<div class="sigco">For {esc(company["legal"])}</div></div></div>')
+    else:
+        left, right = spec.get("sign_labels", ("Delivered by", "Received by"))
+        sign = (f'<table class="sig2"><tr>'
+                f'<td>{seal_tag(doc)}<div class="sigline"></div>'
+                f'<div class="signame">{esc(left)}</div>'
+                f'<div class="sigco">Name / Signature / Date</div></td><td class="gap"></td>'
+                f'<td><div class="sigline"></div><div class="signame">{esc(right)}</div>'
+                f'<div class="sigco">Name / Signature / Date</div></td></tr></table>')
+
+    # The footer must agree with what is printed above it. A page carrying a signature line
+    # cannot also announce that it needs no signature — that contradiction is visible to the
+    # client on the face of the document.
+    if spec["sign"] == "two-party":
+        foot_line = "This document requires the signature of both parties to be valid."
+    elif spec["sign"] == "computer":
+        foot_line = "This is a computer-generated document and does not require a physical signature."
+    else:
+        foot_line = ("This document is valid when signed and stamped by an authorised "
+                     "signatory of the company.")
+
+    html = f"""<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>{esc(doc.get('number', ''))}</title>
+<style>
+  /* Margins stay at zero. A @page top margin would give continuation pages their breathing
+     space, but it also shifts the fixed footer off the bottom of every page after the first,
+     so the document loses its letterhead exactly where it needs it. The space is reserved in
+     the flow instead — see table.pagegrid below. */
+  @page {{ size: A4; margin: 0; }}
+  * {{ -webkit-print-color-adjust: exact; print-color-adjust: exact; }}
+  body {{ font-family: Arial, "Liberation Sans", Helvetica, sans-serif;
+          font-size: 9.5pt; color: {INK}; margin: 0; }}
+  /* Cancels the repeating top spacer on page 1 only, so the navy header still bleeds to the
+     paper edge while pages 2+ keep the gap. */
+  .band {{ background: {NAVY}; color: #FFFFFF; padding: 13pt 27pt 11pt 27pt;
+           margin-top: -{PAGETOP}pt; }}
+  .band .co {{ font-size: 17pt; font-weight: bold; }}
+  .band .ad {{ font-size: 9pt; }}
+  .badge {{ background: {GOLD}; color: {NAVY}; text-align: center; width: 123pt;
+            padding: 8pt 0; font-weight: bold; line-height: 1.25; }}
+  .badge .b0 {{ font-size: 10pt; }}
+  .badge .b1 {{ font-size: 14pt; }}
+  .rule {{ background: {GOLD}; height: 4pt; font-size: 1pt; }}
+  .meta {{ background: {PANEL}; padding: 6pt 27pt; font-size: 9.5pt; }}
+  .wrap {{ padding: 0 27pt; }}
+  .sect {{ background: {NAVY}; color: #FFFFFF; font-weight: bold; font-size: 10.5pt;
+           padding: 5pt 12pt; margin-top: 12pt; }}
+  .party {{ padding: 6pt 12pt 2pt 12pt; line-height: 1.45; }}
+  table.items {{ width: 100%; border-collapse: collapse; margin-top: 16pt; }}
+  table.items th {{ background: {NAVY}; color: #FFFFFF; font-size: 9.5pt; padding: 6pt 5pt;
+                    border: 0.6pt solid {GRID}; }}
+  table.items td {{ border: 0.6pt solid {GRID}; padding: 5pt; font-size: 9.5pt;
+                    vertical-align: top; }}
+  table.items td.desc {{ font-weight: normal; }}
+  table.items td.desc b {{ font-weight: bold; }}
+  .l {{ text-align: left; }} .c {{ text-align: center; }} .r {{ text-align: right; }}
+  /* The totals and the amount in words are one thing to a reader — a grand total on one page
+     with its written amount on the next looks like a document that lost a line. */
+  .moneywrap {{ page-break-inside: avoid; }}
+  table.money {{ width: 100%; border-collapse: collapse; margin-top: 6pt; }}
+  table.money td {{ padding: 3pt 5pt; font-weight: bold; }}
+  table.money td.fill {{ width: 69.3%; }}
+  table.money td.mlabel {{ text-align: right; width: 17.6%; white-space: nowrap; }}
+  table.money td.mval {{ text-align: right; width: 13.2%; }}
+  table.money tr.grand td {{ font-size: 11pt; color: {NAVY}; padding: 5pt 5pt; }}
+  table.money tr.grand td.fill {{ background: {PANEL}; }}
+  table.money tr.grand td.mval {{ background: {PANEL}; }}
+  .words {{ background: {PANEL}; padding: 6pt 12pt; margin-top: 8pt; }}
+  .payee {{ padding: 8pt 12pt 0 12pt; }}
+  .bankwrap {{ padding: 6pt 12pt 0 12pt; }}
+  table.bank {{ border-collapse: collapse; }}
+  table.bank td {{ border: 0.6pt solid {GRID}; padding: 2.5pt 7pt; font-size: 9pt; }}
+  table.bank td.bl {{ background: {PANEL}; color: {NAVY}; font-weight: bold;
+                      white-space: nowrap; }}
+  table.bank td.bv {{ white-space: nowrap; }}
+  table.bank td.bx {{ border: 0; }}
+  /* Keep the block together. A "Notes:" heading stranded at the foot of one page with its
+     notes on the next reads as a document that broke, and on a quotation the page the client
+     reads first is the one carrying the price. */
+  .notes {{ margin-top: 10pt; font-size: 8.5pt; font-style: italic; color: {INK_SOFT};
+            page-break-inside: avoid; }}
+  .notes b {{ color: {NAVY}; }}
+  .notes .nlist {{ padding-left: 8pt; }}
+  /* If the notes are long enough that they must split anyway, split between notes and never
+     through the middle of one. */
+  .notes .nlist > div {{ page-break-inside: avoid; }}
+  .realis {{ font-size: 8.5pt; color: {INK_SOFT}; padding-top: 3pt; }}
+  /* A signature block or a bordered callout split across a page break is a broken document,
+     not a long one. Each stays whole. */
+  .callout {{ page-break-inside: avoid; background: {PANEL}; border: 0.8pt solid {GOLD};
+              text-align: center;
+              padding: 9pt; margin-top: 14pt; }}
+  .callout .cg {{ color: {NAVY}; font-weight: bold; font-size: 10.5pt; }}
+  .callout .cgs {{ font-size: 9pt; color: {INK_SOFT}; }}
+  /* The stamp sits in a zero-height box so it overlays the signature without moving it. */
+  .sealbox {{ position: relative; height: 0; }}
+  .seal {{ position: absolute; left: 26pt; top: -38pt; transform: rotate(-8deg);
+           opacity: 0.85; }}
+  .sigwrap {{ margin-top: 18pt; text-align: right; page-break-inside: avoid; }}
+  .sig {{ display: inline-block; width: 210pt; text-align: center; }}
+  table.sig2 {{ width: 100%; margin-top: 22pt; page-break-inside: avoid; }}
+  table.sig2 td {{ width: 44%; text-align: center; }}
+  table.sig2 td.gap {{ width: 12%; }}
+  .sigline {{ border-top: 0.8pt solid {INK}; height: 1pt; font-size: 1pt; }}
+  .signame {{ font-weight: bold; padding-top: 3pt; }}
+  .sigco {{ font-size: 8.5pt; color: {INK_SOFT}; }}
+  .footwrap {{ position: fixed; bottom: 0; left: 0; right: 0; }}
+  /* The footer is fixed, so it repeats on every page and sits flush to the paper edge.
+     A zero page margin is what puts it there — which means flowing content would run
+     underneath it and be lost at each page break. This table's tfoot repeats on every
+     page too, reserving the band so nothing can ever occupy it. */
+  /* thead and tfoot repeat on every printed page, which is how the band at the top and the
+     footer at the bottom are reserved without a @page margin. The head spacer opens pages 2+;
+     .band pulls page 1 back up over it. The foot spacer keeps text clear of the fixed footer,
+     which would otherwise print over the last lines of a page. */
+  table.pagegrid {{ width: 100%; border-collapse: collapse; }}
+  table.pagegrid > thead > tr > td {{ height: {PAGETOP}pt; border: 0; padding: 0; }}
+  table.pagegrid > tfoot > tr > td {{ height: 44pt; border: 0; padding: 0; }}
+  table.pagegrid > tbody > tr > td {{ border: 0; padding: 0; }}
+  .foot {{ background: {NAVY}; color: #FFFFFF; text-align: center; padding: 7pt 27pt;
+           font-size: 8.5pt; }}
+  .foot .f2 {{ font-style: italic; }}
+</style></head><body>
+
+<table class="pagegrid"><thead><tr><td></td></tr></thead><tfoot><tr><td></td></tr></tfoot><tbody><tr><td>
+
+<table width="100%" cellpadding="0" cellspacing="0" class="band"><tr>
+  <td><div class="co">{esc(company['name'])}</div>
+      <div class="ad">{esc(company['address'])}</div></td>
+  <td width="42%" align="right"><div class="badge">{badge}</div></td>
+</tr></table>
+<div class="rule"></div>
+<div class="meta">{meta}<br/><b>{esc(counterparty)}:</b>&nbsp; {esc(party_name)}</div>
+
+<div class="wrap">
+  <div class="sect">{esc(doc.get('party', {}).get('title', spec['party']))}</div>
+  <div class="party">{party_rows}</div>
+
+  <table class="items"><tr>{ths}</tr>{''.join(trs)}</table>
+  <div class="moneywrap">{money_block}</div>
+  {instrument}
+  {payee}
+  {notes}
+  {sign}
+</div>
+
+</td></tr></tbody></table>
+
+<div class="footwrap"><div class="rule"></div>
+  <div class="foot"><b>{esc(company['footer'])}</b>
+    <div class="f2">{esc(foot_line)}</div>
+  </div>
+</div>
+</body></html>"""
+
+    check_no_tax(html)
+    return html
+
+
+# ----------------------------------------------------------------------- main
+
+
+def find_chromium():
+    """Chrome's print-to-pdf gives the closest match to the approved document."""
+    for env in ("CHROME_BIN", "CHROMIUM_BIN"):
+        if os.environ.get(env) and os.path.exists(os.environ[env]):
+            return os.environ[env]
+    for name in ("chromium", "chromium-browser", "google-chrome", "chrome"):
+        found = shutil.which(name)
+        if found:
+            return found
+    root = os.environ.get("PLAYWRIGHT_BROWSERS_PATH", "/opt/pw-browsers")
+    if os.path.isdir(root):
+        for dirpath, _, files in os.walk(root):
+            for candidate in ("chrome", "headless_shell"):
+                if candidate in files:
+                    return os.path.join(dirpath, candidate)
+    return None
+
+
+def to_pdf(html_path, outdir):
+    """Chromium first, LibreOffice second. Both are checked so the same JSON renders
+    the same document wherever it runs — a house format that only works on one machine
+    is not a house format."""
+    out = os.path.join(outdir, os.path.splitext(os.path.basename(html_path))[0] + ".pdf")
+
+    chrome = find_chromium()
+    if chrome:
+        subprocess.run(
+            [chrome, "--headless", "--disable-gpu", "--no-sandbox", "--no-pdf-header-footer",
+             f"--print-to-pdf={out}", "file://" + os.path.abspath(html_path)],
+            capture_output=True, timeout=180)
+        if os.path.exists(out):
+            return out
+
+    soffice = shutil.which("soffice") or shutil.which("libreoffice")
+    if soffice:
+        subprocess.run([soffice, "--headless", "--convert-to", "pdf", "--outdir", outdir,
+                        html_path], capture_output=True, timeout=240)
+        if os.path.exists(out):
+            return out
+
+    raise DocumentError(
+        "No HTML-to-PDF backend worked. Install Chromium (preferred) or LibreOffice, or set "
+        "CHROME_BIN. The HTML itself is valid — render it in any browser's print-to-PDF as a "
+        "fallback, A4 with margins off.")
+
+
+def trailing_blank_page(pdf):
+    """Return the page number if the last page holds only the footer, else None.
+
+    Content that overflows by a few points produces a page carrying nothing but the
+    repeating footer. It renders fine and reads as a mistake, so say so rather than
+    let it go out."""
+    try:
+        import fitz
+    except ImportError:
+        return None
+    doc = fitz.open(pdf)
+    if doc.page_count < 2:
+        return None
+    text = doc[-1].get_text().strip()
+    # The footer is the two company lines; anything more is real content.
+    return doc.page_count if len(text.splitlines()) <= 2 else None
+
+
+def main():
+    ap = argparse.ArgumentParser(description="Render a TNDK document in the house format")
+    ap.add_argument("data", help="JSON document definition — see assets/")
+    ap.add_argument("--outdir", default=".", help="where the PDF lands")
+    ap.add_argument("--keep-html", action="store_true", help="keep the intermediate HTML")
+    args = ap.parse_args()
+
+    doc = json.load(open(args.data))
+    try:
+        html = build_html(doc)
+    except DocumentError as e:
+        print(f"REFUSED — {e}", file=sys.stderr)
+        return 2
+
+    os.makedirs(args.outdir, exist_ok=True)
+    name = (doc.get("filename")
+            or f"{doc.get('type', 'document')}_{doc.get('number', '')}".replace("/", "-"))
+    tmp = tempfile.mkdtemp()
+    html_path = os.path.join(args.outdir if args.keep_html else tmp, name + ".html")
+    with open(html_path, "w") as fh:
+        fh.write(html)
+
+    pdf = to_pdf(html_path, args.outdir)
+    print(f"{doc.get('type')} {doc.get('number', '')} -> {pdf}")
+
+    blank = trailing_blank_page(pdf)
+    if blank:
+        print(f"NOTE: page {blank} carries only the repeating footer — the content overflows "
+              f"the previous page by a hair. Trim a note or shorten a description; a document "
+              f"that ends on a blank page looks unfinished to a client.", file=sys.stderr)
+    print("Verify before it goes anywhere: totals reconcile, numbering log updated, "
+          "no 'tax' (checked), signature correct for the document type.")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
