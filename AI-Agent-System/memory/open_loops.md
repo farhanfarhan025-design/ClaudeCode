@@ -669,6 +669,11 @@ Three documents were produced today and none has been appended to the log in Dri
   FLR7A-ZF18-TFM freezer condensing unit, 8,800, issued 20-08-2026. Ex-stock.
 - **QUT/DCTS/225/2026** — COMO Facilities Management Services (attn. Mr. Abul Kasim K), supply
   of two FREGO evaporative air coolers, 5,300, issued 24-08-2026. Ex-stock.
+- **QUT/DCTS/226/2026** — Mecca Trading and Contracting, cold room flooring: 18 mm plywood
+  overlay to the existing floor with 1.5 mm aluminium chequered sheet top finish, room
+  3.20 × 1.75 m, 3,780, issued 30-08-2026. 100% advance, 01 day. **Note LTR/DCTS/226/2026 is
+  the Oscar Prime completion certificate** — same serial, different series, and the two must not
+  be confused when filing.
 - **WO/DCTS/001/2026** — Al Zehrabi work order, 18-08-2026. **Opens a new series**; the log has
   no work-order column yet.
 - **INV-263/2026** — Al Zehrabi, **4,900 in full**, issued 19-08-2026 (redrafted from an 80%
