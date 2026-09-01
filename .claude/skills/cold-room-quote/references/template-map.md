@@ -75,6 +75,18 @@ matched by regex on their opening words:
 
 The other seven bullets are boilerplate and left alone.
 
+## The schematic gap
+
+The master forces a page break before "7. CONTROL PANEL DETAILS". Section 6
+ends with a small refrigeration schematic (2.34 × 1.52 in) and its caption, so
+that break leaves the schematic alone on a page that is otherwise blank — in
+every quotation, not just long ones. `close_schematic_gap()` removes that one
+break so section 7 follows the schematic on the same page, saving a sheet.
+Set `keep_section_breaks` to leave the master's pagination alone.
+
+The breaks before sections 2, 3, 5, 10 and 13 are left in place: those open
+sections that fill their pages.
+
 ## The service banner
 
 image13 sits in a trailing row *inside* the delivery table, not in a paragraph

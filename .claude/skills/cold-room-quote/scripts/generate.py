@@ -833,6 +833,27 @@ def fit_banner(doc, spec):
         return
 
 
+def close_schematic_gap(doc, spec):
+    """Let section 7 follow the refrigeration schematic on the same page.
+
+    The master forces a page break before "7. CONTROL PANEL DETAILS", which
+    leaves the small schematic that closes section 6 alone on a page with its
+    caption and nothing else. Dropping that one break pulls the control panel
+    section up and saves a sheet in every quotation.
+    """
+    if spec.get("keep_section_breaks"):
+        return
+    for p in doc.paragraphs:
+        text = para_text(p).strip()
+        if text.startswith("7.") and "CONTROL PANEL" in text.upper():
+            pPr = p._p.find(qn("w:pPr"))
+            if pPr is not None:
+                brk = pPr.find(qn("w:pageBreakBefore"))
+                if brk is not None:
+                    pPr.remove(brk)
+            return
+
+
 def fill_subject(doc, spec, tot=None):
     subject = spec.get("subject")
     intro = spec.get("intro")
@@ -895,6 +916,7 @@ def generate(spec, output):
     fill_delivery(doc, spec)
     fit_banner(doc, spec)
     replace_door_image(doc, spec)
+    close_schematic_gap(doc, spec)
 
     doc.save(output)
     return output, tot

@@ -32,6 +32,11 @@ a sheet of its own and the quotation ends with a near-empty page. The generator
 scales it to fit (default 4.0 in tall), which drops one page from every
 quotation. Pass `"banner_height_in": 0` to keep the master's original size.
 
+A second layout fix does the same for the refrigeration schematic that closes
+section 6: the master breaks the page before section 7, leaving that small
+image alone on a blank sheet. Dropping that one break pulls the control panel
+section up. Pass `"keep_section_breaks": true` to keep the master's pagination.
+
 ## Workflow
 
 ### Step 1 — collect the inputs
