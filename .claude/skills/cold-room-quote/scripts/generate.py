@@ -490,14 +490,17 @@ def selected_text(entry):
     return (f"{head} — " if head else "") + ", ".join(bits)
 
 
-def joined(entries, fn):
+def joined(entries, fn, force_tag=False):
     """One labelled line per system — collapsed to one line when they agree.
 
     Two rooms sharing a brand should not print that brand twice; two rooms with
     different capacities should print both, each tagged with its room.
+    force_tag keeps the labels even on a single line, for rows that describe
+    only some of the systems — an untagged capacity beside two rooms would
+    leave the reader guessing which room it belongs to.
     """
     texts = [fn(e) for e in entries]
-    if len(set(texts)) == 1:
+    if len(set(texts)) == 1 and not force_tag:
         return texts[0]
     return "\n".join(_tag(e) + t for e, t in zip(entries, texts))
 
@@ -507,9 +510,12 @@ def fill_refrigeration_section(doc, spec):
     if not entries:
         return
     t = find_table(doc, "System Type")
-    sets_ = spec.get("sets") or entries[0].get("sets") or len(entries)
-    set_row(t, "System Type", f"Split-type refrigeration system "
-            f"({sets_} set{'s' if sets_ > 1 else ''})")
+    if spec.get("system_type"):
+        set_row(t, "System Type", spec["system_type"])
+    else:
+        sets_ = spec.get("sets") or entries[0].get("sets") or len(entries)
+        set_row(t, "System Type", f"Split-type refrigeration system "
+                f"({sets_} set{'s' if sets_ > 1 else ''})")
     if all(e.get("condensing_unit_text") for e in entries):
         set_row(t, "Condensing Unit", joined(entries, lambda e: e["condensing_unit_text"]))
     elif all(e.get("condensing_unit") for e in entries):
@@ -546,6 +552,23 @@ def operating_temp(spec):
     return " / ".join(parts)
 
 
+def room_labels(spec):
+    """['Freezer', 'Chiller'], or ['Chiller 01', 'Chiller 02'] when a type repeats.
+
+    Two rooms of the same type both labelled "Chiller" leaves the reader unable
+    to tell which figure belongs to which room.
+    """
+    types = [r["type"].title() for r in spec["rooms"]]
+    out, seen = [], {}
+    for t in types:
+        if types.count(t) == 1:
+            out.append(t)
+        else:
+            seen[t] = seen.get(t, 0) + 1
+            out.append(f"{t} {seen[t]:02d}")
+    return out
+
+
 def thickness_label(spec):
     """'100 mm', or '100 / 150 mm' when rooms use different panels."""
     seen = []
@@ -566,15 +589,17 @@ def fill_capacity_section(doc, spec, tot, qs):
         vol = f"{qs[0]['vol_expr']} = {fmt(tot['volume'])} m³"
     else:
         vol = "\n".join(
-            f"{r['type'].title()}: {q['vol_expr']} = {fmt(q['volume'])} m³"
-            for r, q in zip(spec["rooms"], qs)) + f"\nTotal: {fmt(tot['volume'])} m³"
+            f"{label}: {q['vol_expr']} = {fmt(q['volume'])} m³"
+            for label, q in zip(room_labels(spec), qs)
+        ) + f"\nTotal: {fmt(tot['volume'])} m³"
     set_row(t, "Internal Volume", vol)
     set_row(t, "Design Room Temp.", operating_temp(spec))
 
     rated = [e for e in entries if e.get("capacity_kw") or e.get("capacity_label")]
     if rated:
-        set_row(t, "Estimated Heat Load", joined(rated, capacity_text))
-        set_row(t, "Selected Capacity", joined(rated, selected_text))
+        partial = len(rated) < len(entries)      # some rooms have no new machine
+        set_row(t, "Estimated Heat Load", joined(rated, capacity_text, partial))
+        set_row(t, "Selected Capacity", joined(rated, selected_text, partial))
     if entries:
         ambients = []
         for e in entries:
@@ -607,6 +632,7 @@ def fill_scope(doc, spec, tot):
         if tot["floor"] else
         "Insulated flooring is not included in this offer — the room will be "
         "erected on the client's existing finished floor.")
+    over = spec.get("scope", {})
     rules = [
         (r"^Supply of .* sandwich panels for walls.*$",
          f"Supply of {thickness} PUF sandwich panels for {surfaces} "
@@ -622,6 +648,8 @@ def fill_scope(doc, spec, tot):
          f"Supply and installation of condensing unit and matching evaporator "
          f"({sets_} set{'s' if sets_ > 1 else ''})."),
     ]
+    keys = ["panels", "doors", "floor", "machines"]
+    rules = [(pat, over.get(key, rep)) for (pat, rep), key in zip(rules, keys)]
     for p in doc.paragraphs:
         text = para_text(p).strip()
         for pattern, replacement in rules:
@@ -659,8 +687,8 @@ def default_boq(spec, qs, tot):
                 f"{q['dH']} m (H) ({fmt(q['volume'])} m³)")
     else:
         size = " and ".join(
-            f"{r['type'].lower()} {x['dims']} ({fmt(x['volume'])} m³)"
-            for r, x in zip(spec["rooms"], qs))
+            f"{label.lower()} {x['dims']} ({fmt(x['volume'])} m³)"
+            for label, x in zip(room_labels(spec), qs))
 
     def one_system(e):
         if e.get("condensing_unit_text"):
@@ -872,6 +900,62 @@ def generate(spec, output):
     return output, tot
 
 
+def stranded_page(pdf):
+    """Page numbers whose only text is the running footer.
+
+    A page carrying the service banner and nothing else extracts as just the
+    footer line — that is the signature of a banner that did not fit.
+    """
+    import subprocess
+    out = subprocess.run(["pdfinfo", str(pdf)], capture_output=True, text=True).stdout
+    pages = next((int(l.split()[1]) for l in out.splitlines() if l.startswith("Pages")), 0)
+    stranded = []
+    for n in range(2, pages + 1):                      # page 1 is the cover image
+        text = subprocess.run(["pdftotext", "-f", str(n), "-l", str(n), str(pdf), "-"],
+                              capture_output=True, text=True).stdout
+        # the footer alone runs to about 95 characters; a legitimate image page
+        # carries a caption too and comes in well above this
+        if len("".join(text.split())) < 120:
+            stranded.append(n)
+    return stranded
+
+
+def fit_check(spec, output):
+    """Shrink the banner until the quotation has no near-empty page.
+
+    The space left under section 12 depends on how much text the quote carries,
+    so no single banner height suits every job. Rather than guess, render and
+    look.
+    """
+    import shutil as _shutil, subprocess, tempfile
+    if not _shutil.which("soffice"):
+        print("  ! soffice not found — skipping the fit check", file=sys.stderr)
+        return
+    height = spec.get("banner_height_in", BANNER_HEIGHT_IN)
+    for _ in range(5):
+        with tempfile.TemporaryDirectory() as tmp:
+            subprocess.run(["soffice", "--headless", "--convert-to", "pdf",
+                            "--outdir", tmp, str(output)],
+                           capture_output=True, timeout=600)
+            pdf = Path(tmp) / (Path(output).stem + ".pdf")
+            if not pdf.is_file():
+                print("  ! PDF conversion failed — skipping the fit check",
+                      file=sys.stderr)
+                return
+            bad = stranded_page(pdf)
+        if not bad:
+            return
+        height = round(height - 0.4, 2)
+        if height < 2.0:
+            print("  ! could not fit the banner — check the last pages by hand",
+                  file=sys.stderr)
+            return
+        print(f"  banner did not fit (page {bad[0]} near-empty) — retrying at "
+              f"{height} in")
+        spec["banner_height_in"] = height
+        generate(spec, output)
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -879,10 +963,15 @@ def main():
     ap.add_argument("--output", required=True, help="path for the generated .docx")
     ap.add_argument("--print-summary", action="store_true",
                     help="print computed quantities for cross-checking")
+    ap.add_argument("--fit-check", action="store_true",
+                    help="render to PDF and shrink the service banner until the "
+                         "quotation has no near-empty page (needs soffice)")
     args = ap.parse_args()
 
     spec = json.loads(Path(args.spec).read_text(encoding="utf-8"))
     output, tot = generate(spec, args.output)
+    if args.fit_check:
+        fit_check(spec, output)
 
     print(f"Written: {output}")
     if args.print_summary:

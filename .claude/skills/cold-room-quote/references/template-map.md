@@ -87,8 +87,11 @@ How much room is left there depends on how section 10 breaks — measured at
 5.3 in on a one-room quote but only 4.4 in on a two-room one, whose longer
 machine rows push section 11 further down its page. The banner also needs its
 table cell's padding on top of its own height, so the 4.0 in default leaves
-headroom in the tighter case. Lower `banner_height_in` if a quotation still
-strands it.
+headroom in the tighter case, but no fixed height suits every job — a wordy
+quotation pushes section 11 further down still. `generate.py --fit-check`
+settles it by rendering the document and shrinking the banner until no page
+extracts as footer-only. The footer alone runs to about 95 characters, and a
+legitimate image page carries a caption too, so 120 separates them.
 
 When resizing any image here, set `cx`/`cy` only on the `a:ext` inside `a:xfrm`.
 The `a:ext` in an `a:extLst` takes a `uri` instead and rejects `cx`/`cy` —

@@ -100,6 +100,12 @@ python3 scripts/generate.py \
 `--print-summary` prints the computed panel areas, volume and amount in words.
 **Read it and sanity-check the numbers against the price before sending.**
 
+Add `--fit-check` on a long quotation — several rooms, a replaced BOQ, a wordy
+scope. It renders the document and shrinks the service banner until no page
+comes out near-empty, which the fixed default cannot guarantee because the
+space under section 12 moves with the amount of text above it. It needs
+`soffice` and adds a conversion pass per attempt.
+
 ### Step 4 — check before delivering
 
 ```bash
