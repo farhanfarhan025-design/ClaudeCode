@@ -75,17 +75,19 @@ matched by regex on their opening words:
 
 The other seven bullets are boilerplate and left alone.
 
-## The schematic gap
+## The schematic
 
-The master forces a page break before "7. CONTROL PANEL DETAILS". Section 6
-ends with a small refrigeration schematic (2.34 × 1.52 in) and its caption, so
-that break leaves the schematic alone on a page that is otherwise blank — in
-every quotation, not just long ones. `close_schematic_gap()` removes that one
-break so section 7 follows the schematic on the same page, saving a sheet.
-Set `keep_section_breaks` to leave the master's pagination alone.
+Section 6 closes with a small refrigeration schematic, sized 2.34 × 1.52 in in
+the master. With its caption that is a shade taller than the space left below
+the capacity table, so it flows to the next page — where the master's page
+break before section 7 leaves it alone on an otherwise blank sheet.
 
-The breaks before sections 2, 3, 5, 10 and 13 are left in place: those open
-sections that fill their pages.
+`fit_schematic()` scales it to 1.2 in tall so it stays with section 6, and
+section 7 still opens its own page as the master intended. Set
+`schematic_height_in` to 0 to keep the master's size.
+
+All of the master's page breaks — before sections 2, 3, 5, 7, 10 and 13 — are
+left in place.
 
 ## The service banner
 
@@ -101,9 +103,13 @@ machine rows push section 11 further down its page. The banner also needs its
 table cell's padding on top of its own height, so the 4.0 in default leaves
 headroom in the tighter case, but no fixed height suits every job — a wordy
 quotation pushes section 11 further down still. `generate.py --fit-check`
-settles it by rendering the document and shrinking the banner until no page
-extracts as footer-only. The footer alone runs to about 95 characters, and a
-legitimate image page carries a caption too, so 120 separates them.
+settles it by rendering the document and shrinking the picture at fault until
+no page holds an image and nothing else.
+
+It tells the two apart by what the page extracts to: the footer alone runs to
+about 95 characters, so a banner-only page comes in under 120, while a page
+holding just the schematic adds its caption and lands near 160. They need
+different pictures shrunk, so guessing between them is not an option.
 
 When resizing any image here, set `cx`/`cy` only on the `a:ext` inside `a:xfrm`.
 The `a:ext` in an `a:extLst` takes a `uri` instead and rejects `cx`/`cy` —

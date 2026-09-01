@@ -54,6 +54,10 @@ DEFAULT_AMBIENT = "46°C"
 # banner_height_in if a quotation still strands it on a page of its own.
 BANNER_HEIGHT_IN = 4.0
 
+# Height for the refrigeration schematic that closes section 6. The master's
+# 1.52 in plus its caption just overruns the space below the capacity table.
+SCHEMATIC_HEIGHT_IN = 1.2
+
 
 # --------------------------------------------------------------------------
 # low-level docx helpers — all of these preserve existing run formatting
@@ -833,25 +837,48 @@ def fit_banner(doc, spec):
         return
 
 
-def close_schematic_gap(doc, spec):
-    """Let section 7 follow the refrigeration schematic on the same page.
+def fit_schematic(doc, spec):
+    """Shrink the section 6 schematic so it lands under the capacity table.
 
-    The master forces a page break before "7. CONTROL PANEL DETAILS", which
-    leaves the small schematic that closes section 6 alone on a page with its
-    caption and nothing else. Dropping that one break pulls the control panel
-    section up and saves a sheet in every quotation.
+    The master sizes it 2.34 x 1.52 in, which with its caption is a shade
+    taller than the space left below section 6, so it flows onto the next page
+    — where the master's page break before section 7 leaves it alone on an
+    otherwise blank sheet. Scaling it down keeps it with the section it
+    belongs to and lets section 7 still open its own page.
+    Set schematic_height_in to 0 to keep the master's size.
     """
-    if spec.get("keep_section_breaks"):
+    target_h = spec.get("schematic_height_in", SCHEMATIC_HEIGHT_IN)
+    if not target_h:
         return
-    for p in doc.paragraphs:
-        text = para_text(p).strip()
-        if text.startswith("7.") and "CONTROL PANEL" in text.upper():
-            pPr = p._p.find(qn("w:pPr"))
-            if pPr is not None:
-                brk = pPr.find(qn("w:pageBreakBefore"))
-                if brk is not None:
-                    pPr.remove(brk)
-            return
+    body, seen, target = doc.element.body, False, None
+    for child in body.iterchildren():
+        if child.tag == qn("w:tbl"):
+            texts = "".join(t.text or "" for t in child.iter(qn("w:t")))
+            if "Internal Volume" in texts:
+                seen = True
+            continue
+        if child.tag != qn("w:p"):
+            continue
+        text = "".join(t.text or "" for t in child.iter(qn("w:t")))
+        if "CONTROL PANEL" in text.upper():
+            break
+        if seen and child.find(".//" + qn("wp:extent")) is not None:
+            target = child
+            break
+    if target is None:
+        return
+    extent = target.find(".//" + qn("wp:extent"))
+    cx, cy = int(extent.get("cx")), int(extent.get("cy"))
+    target_cy = int(target_h * 914400)
+    if cy <= target_cy:
+        return
+    target_cx = int(cx * target_cy / cy)
+    extent.set("cx", str(target_cx))
+    extent.set("cy", str(target_cy))
+    for ext in target.iter(qn("a:ext")):
+        if ext.get("cx") is not None:
+            ext.set("cx", str(target_cx))
+            ext.set("cy", str(target_cy))
 
 
 def fill_subject(doc, spec, tot=None):
@@ -916,17 +943,22 @@ def generate(spec, output):
     fill_delivery(doc, spec)
     fit_banner(doc, spec)
     replace_door_image(doc, spec)
-    close_schematic_gap(doc, spec)
+    fit_schematic(doc, spec)
 
     doc.save(output)
     return output, tot
 
 
-def stranded_page(pdf):
-    """Page numbers whose only text is the running footer.
+SCHEMATIC_CAPTION = "schematic"
 
-    A page carrying the service banner and nothing else extracts as just the
-    footer line — that is the signature of a banner that did not fit.
+
+def stranded_page(pdf):
+    """Pages carrying an image and nothing else, as (page, which image).
+
+    The footer alone extracts to about 95 characters. A page holding only the
+    service banner comes in at that; one holding only the schematic adds its
+    caption and reaches about 160. Both are wasted sheets, and they are fixed
+    by shrinking different pictures, so they are told apart here.
     """
     import subprocess
     out = subprocess.run(["pdfinfo", str(pdf)], capture_output=True, text=True).stdout
@@ -935,10 +967,11 @@ def stranded_page(pdf):
     for n in range(2, pages + 1):                      # page 1 is the cover image
         text = subprocess.run(["pdftotext", "-f", str(n), "-l", str(n), str(pdf), "-"],
                               capture_output=True, text=True).stdout
-        # the footer alone runs to about 95 characters; a legitimate image page
-        # carries a caption too and comes in well above this
-        if len("".join(text.split())) < 120:
-            stranded.append(n)
+        packed = "".join(text.split())
+        if len(packed) < 120:
+            stranded.append((n, "banner"))
+        elif len(packed) < 260 and SCHEMATIC_CAPTION in text.lower():
+            stranded.append((n, "schematic"))
     return stranded
 
 
@@ -953,8 +986,10 @@ def fit_check(spec, output):
     if not _shutil.which("soffice"):
         print("  ! soffice not found — skipping the fit check", file=sys.stderr)
         return
-    height = spec.get("banner_height_in", BANNER_HEIGHT_IN)
-    for _ in range(5):
+    heights = {"banner": spec.get("banner_height_in", BANNER_HEIGHT_IN),
+               "schematic": spec.get("schematic_height_in", SCHEMATIC_HEIGHT_IN)}
+    floors = {"banner": 2.0, "schematic": 0.7}
+    for _ in range(6):
         with tempfile.TemporaryDirectory() as tmp:
             subprocess.run(["soffice", "--headless", "--convert-to", "pdf",
                             "--outdir", tmp, str(output)],
@@ -967,14 +1002,16 @@ def fit_check(spec, output):
             bad = stranded_page(pdf)
         if not bad:
             return
-        height = round(height - 0.4, 2)
-        if height < 2.0:
-            print("  ! could not fit the banner — check the last pages by hand",
+        page, which = bad[0]
+        step = 0.4 if which == "banner" else 0.25
+        heights[which] = round(heights[which] - step, 2)
+        if heights[which] < floors[which]:
+            print(f"  ! could not fit the {which} — check the layout by hand",
                   file=sys.stderr)
             return
-        print(f"  banner did not fit (page {bad[0]} near-empty) — retrying at "
-              f"{height} in")
-        spec["banner_height_in"] = height
+        print(f"  {which} did not fit (page {page} near-empty) — retrying at "
+              f"{heights[which]} in")
+        spec[f"{which}_height_in"] = heights[which]
         generate(spec, output)
 
 

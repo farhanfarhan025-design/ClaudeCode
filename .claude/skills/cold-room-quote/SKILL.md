@@ -33,9 +33,10 @@ scales it to fit (default 4.0 in tall), which drops one page from every
 quotation. Pass `"banner_height_in": 0` to keep the master's original size.
 
 A second layout fix does the same for the refrigeration schematic that closes
-section 6: the master breaks the page before section 7, leaving that small
-image alone on a blank sheet. Dropping that one break pulls the control panel
-section up. Pass `"keep_section_breaks": true` to keep the master's pagination.
+section 6: at the master's size it overruns the space under the capacity table
+and lands on a sheet of its own, because section 7 starts a new page. Scaling
+it to 1.2 in keeps it with section 6 and leaves section 7 opening its own page.
+Pass `"schematic_height_in": 0` to keep the master's size.
 
 ## Workflow
 
@@ -106,8 +107,8 @@ python3 scripts/generate.py \
 **Read it and sanity-check the numbers against the price before sending.**
 
 Add `--fit-check` on a long quotation — several rooms, a replaced BOQ, a wordy
-scope. It renders the document and shrinks the service banner until no page
-comes out near-empty, which the fixed default cannot guarantee because the
+scope. It renders the document and shrinks whichever picture is at fault — the
+service banner or the schematic — until no page comes out near-empty, which the fixed default cannot guarantee because the
 space under section 12 moves with the amount of text above it. It needs
 `soffice` and adds a conversion pass per attempt.
 
