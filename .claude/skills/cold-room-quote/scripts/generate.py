@@ -837,6 +837,24 @@ def fit_banner(doc, spec):
         return
 
 
+def tighten_lists(doc, spec):
+    """Set the space after each numbered bullet, in points.
+
+    The master leaves 2 pt after every list item. Across the twenty-odd bullets
+    of the scope and exclusions that is most of an inch, which is enough to
+    push the last exclusions onto a page of their own once a quote carries a
+    longer scope. Setting this to 0 pulls them back without touching type size
+    or the section order.
+    """
+    pts = spec.get("list_spacing_pt")
+    if pts is None:
+        return
+    from docx.shared import Pt
+    for p in doc.paragraphs:
+        if p.style.name == "List Paragraph":
+            p.paragraph_format.space_after = Pt(pts)
+
+
 def fit_schematic(doc, spec):
     """Shrink the section 6 schematic so it lands under the capacity table.
 
@@ -944,6 +962,7 @@ def generate(spec, output):
     fit_banner(doc, spec)
     replace_door_image(doc, spec)
     fit_schematic(doc, spec)
+    tighten_lists(doc, spec)
 
     doc.save(output)
     return output, tot

@@ -89,6 +89,14 @@ section 7 still opens its own page as the master intended. Set
 All of the master's page breaks — before sections 2, 3, 5, 7, 10 and 13 — are
 left in place.
 
+## List spacing
+
+Every numbered bullet carries 2 pt of trailing space. Across the eleven scope
+points and ten exclusions that is roughly 0.6 in, enough that a quote with a
+longer scope pushes its last exclusions onto a page of their own.
+`list_spacing_pt` sets that spacing — 0 pulls them back without touching type
+size, wording or the section order. Left alone, the master's spacing stands.
+
 ## The service banner
 
 image13 sits in a trailing row *inside* the delivery table, not in a paragraph
