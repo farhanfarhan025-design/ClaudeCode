@@ -97,6 +97,14 @@ longer scope pushes its last exclusions onto a page of their own.
 `list_spacing_pt` sets that spacing — 0 pulls them back without touching type
 size, wording or the section order. Left alone, the master's spacing stands.
 
+## Section 7 photographs
+
+The control panel and wiring photographs sit at the head of section 7, which
+shares its page with the scope of work and the exclusions. On a quote whose
+machine descriptions run long, those two lists overflow even with
+`list_spacing_pt` at 0, and the pictures are the only slack left on that page.
+`control_panel_height_in` scales both; 1.1 in reclaims roughly half an inch.
+
 ## The service banner
 
 image13 sits in a trailing row *inside* the delivery table, not in a paragraph

@@ -107,6 +107,7 @@ flooring.
 | `scope` | replace individual scope bullets by key: `panels`, `doors`, `floor`, `machines` |
 | `sets` | number of `refrigeration` entries; set it when one machine type is repeated, e.g. 2 identical systems from one entry |
 | `list_spacing_pt` | space after each numbered bullet, in points; the master leaves 2 pt, and `0` reclaims most of an inch across the scope and exclusions when the last few points spill onto their own page |
+| `control_panel_height_in` | height of the two section 7 photographs, in inches; they share a page with the scope and exclusions, so trimming them pulls spilled bullets back once the lists are already tight |
 | `schematic_height_in` | height of the section 6 refrigeration schematic, default `1.2`; `0` keeps the master's 1.52 in, which pushes it onto a page of its own |
 | `banner_height_in` | height of the service banner under section 12, default `4.0`; `0` keeps the master's 5.45 in, which strands it on a page of its own |
 

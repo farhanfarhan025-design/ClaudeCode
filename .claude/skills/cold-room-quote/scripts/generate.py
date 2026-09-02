@@ -837,6 +837,31 @@ def fit_banner(doc, spec):
         return
 
 
+def fit_control_panel(doc, spec):
+    """Scale the two section 7 photographs to a given height, in inches.
+
+    They share a page with the scope and exclusions, so trimming them is the
+    way to pull spilled bullets back when the lists are already tight.
+    """
+    target_h = spec.get("control_panel_height_in")
+    if not target_h:
+        return
+    t = find_table(doc, "Controller")
+    target_cy = int(target_h * 914400)
+    for extent in t._tbl.iter(qn("wp:extent")):
+        cx, cy = int(extent.get("cx")), int(extent.get("cy"))
+        if cy <= target_cy:
+            continue
+        target_cx = int(cx * target_cy / cy)
+        extent.set("cx", str(target_cx))
+        extent.set("cy", str(target_cy))
+        parent = extent.getparent().getparent()
+        for ext in parent.iter(qn("a:ext")):
+            if ext.get("cx") is not None:
+                ext.set("cx", str(target_cx))
+                ext.set("cy", str(target_cy))
+
+
 def tighten_lists(doc, spec):
     """Set the space after each numbered bullet, in points.
 
@@ -962,6 +987,7 @@ def generate(spec, output):
     fit_banner(doc, spec)
     replace_door_image(doc, spec)
     fit_schematic(doc, spec)
+    fit_control_panel(doc, spec)
     tighten_lists(doc, spec)
 
     doc.save(output)
