@@ -93,6 +93,19 @@ its flooring line entirely, the scope bullet states the room is erected on the
 client's existing floor, and the opening paragraph stops promising insulated
 flooring.
 
+## `flooring`
+
+The build-up laid over the insulated floor panel. Defaults to the house
+specification; both keys are written verbatim wherever the floor is described.
+
+| Field | Default | Example |
+|---|---|---|
+| `plywood` | `"18 mm"` | marine-grade plywood thickness |
+| `plate` | `"3 mm"` | MS chequered plate thickness, e.g. `"1.5 mm"` |
+
+The figures appear in three places — the flooring table, the scope bullet and
+the BOQ line — and this keeps them in step.
+
 ## Optional overrides
 
 | Field | Effect |

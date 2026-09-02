@@ -337,6 +337,16 @@ def fill_door_section(doc, spec):
 
 NO_FLOOR = "Not included in this offer"
 
+# House flooring build-up, overridable per quote through spec["flooring"]
+FLOORING = {"plywood": "18 mm", "plate": "3 mm"}
+
+
+def flooring_spec(spec):
+    """Plywood and chequered-plate thicknesses, as written on the page."""
+    out = dict(FLOORING)
+    out.update(spec.get("flooring") or {})
+    return out
+
 
 def replace_door_image(doc, spec):
     """Swap the section 2 photograph for a picture of the door being quoted.
@@ -409,10 +419,12 @@ def fill_flooring_section(doc, spec, tot):
     thickness = thickness_label({"rooms": floored or spec["rooms"]})
     set_row(t, "Insulated Floor Panel",
             f"{thickness} PUF panel, same specification as wall panels — {area}")
+    fl = flooring_spec(spec)
     set_row(t, "Plywood Layer",
-            f"18 mm Marine-grade plywood laid over the floor panel — {area}")
+            f"{fl['plywood']} Marine-grade plywood laid over the floor panel — {area}")
     set_row(t, "Top Finish",
-            f"3 mm Mild Steel Chequered (Checkered) Plate, slip-resistant — {area}")
+            f"{fl['plate']} Mild Steel Chequered (Checkered) Plate, slip-resistant "
+            f"— {area}")
 
 
 def ref_entries(spec):
@@ -622,6 +634,7 @@ def fill_capacity_section(doc, spec, tot, qs):
 def fill_scope(doc, spec, tot):
     """Rewrite the scope bullets whose wording depends on the quoted sizes."""
     thickness = thickness_label(spec)
+    fl = flooring_spec(spec)
     door = spec.get("door", {})
     entries = ref_entries(spec)
     sets_ = spec.get("sets") or (entries[0].get("sets") if entries else None) \
@@ -629,10 +642,11 @@ def fill_scope(doc, spec, tot):
     n_words = {1: "one (1)", 2: "two (2)", 3: "three (3)", 4: "four (4)"}
     door_qty = door.get("qty", 1)
     kind = door_kind(spec)
+    fl = flooring_spec(spec)
     surfaces = "walls, ceiling and floor" if tot["floor"] else "walls and ceiling"
     floor_bullet = (
         f"Supply and installation of insulated floor system: {thickness} PUF floor "
-        f"panel + 18 mm marine plywood + 3 mm MS chequered plate."
+        f"panel + {fl['plywood']} marine plywood + {fl['plate']} MS chequered plate."
         if tot["floor"] else
         "Insulated flooring is not included in this offer — the room will be "
         "erected on the client's existing finished floor.")
@@ -683,6 +697,7 @@ def fill_boq(doc, spec, qs, tot):
 
 def default_boq(spec, qs, tot):
     thickness = thickness_label(spec)
+    fl = flooring_spec(spec)
     door = spec.get("door", {})
     entries = ref_entries(spec)
     q = qs[0]
@@ -751,7 +766,8 @@ def default_boq(spec, qs, tot):
     if tot["floor"]:
         items.append({"description":
             f"Supply & installation of insulated floor system: {thickness} PUF floor panel "
-            f"+ 18 mm marine plywood + 3 mm MS chequered plate ({fmt(tot['floor'])} sqm)."})
+            f"+ {fl['plywood']} marine plywood + {fl['plate']} MS chequered plate "
+            f"({fmt(tot['floor'])} sqm)."})
     items += [
         {"description": f"Supply & installation of refrigeration system: {fridge}."},
         {"description":
