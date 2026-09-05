@@ -680,6 +680,11 @@ Three documents were produced today and none has been appended to the log in Dri
   without a purchase price recorded, after Convert Engineering and COMO (OL-042 pattern).
   Compressor technical data was written from general knowledge of the model, not from a
   BITZER data sheet on file; it needs checking against the sheet before the quote is sent.
+- **QUT/DCTS/228/2026** — Deiture, refrigeration maintenance: solenoid valve and expansion
+  valve supplied and fitted, gas charging, system check and service, 1,650, issued
+  30-08-2026. 100% payment, 01 day. **Client name spelled as given by Farhan** — "Deiture"
+  is unusual and no address or attention is on file; confirm the legal name before issue.
+  Work completion of 01 day was assumed, not stated.
 - **WO/DCTS/001/2026** — Al Zehrabi work order, 18-08-2026. **Opens a new series**; the log has
   no work-order column yet.
 - **INV-263/2026** — Al Zehrabi, **4,900 in full**, issued 19-08-2026 (redrafted from an 80%
