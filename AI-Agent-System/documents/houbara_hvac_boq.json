@@ -1,0 +1,231 @@
+{
+  "_note": "TNDK budgetary quotation, HVAC package, Houbara Bustards production buildings at Rawdat Al Faras. Content taken from Farhan's existing budgetary quotation TNDK/HVAC/BQ-01/2026 dated 05 September 2026 and re-issued on letterhead. Two wordings changed to comply with DECISIONS.md D-005 (no tax or VAT wording in any client document): the grand total no longer reads 'Excluding Tax', and notes 7 and 9 refer to duties and levies rather than taxes. All arithmetic re-verified — every line, every section total, and the grand total reconcile exactly to the source.",
+
+  "filename": "TNDK-HVAC-BQ-01-2026 Budgetary Quotation - Houbara Rawdat Al Faras",
+  "reference": "TNDK/HVAC/BQ-01/2026",
+  "badge": ["BUDGETARY", "QUOTATION"],
+  "doc_title": "Budgetary Quotation — HVAC Package",
+  "project": "Air Handling Units, Condensing Units, Evaporators, Fresh Air Units, Ducting & Accessories — Establishment of (8) Production Buildings for Houbara Bustards at Rawdat Al Faras",
+
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "subtitle": "Division of Doha Cooling Trading & Solutions W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar",
+    "contact": "Tel 7706 0676 · farhan@dctsqatar.com"
+  },
+
+  "meta_rows": [
+    ["Our Ref.", "TNDK/HVAC/BQ-01/2026", "Date", "05 September 2026"],
+    ["Validity", "15 days from the date above", "Currency", "Qatari Riyals (QAR)"],
+    ["Ref. Drawings", "GETC-MECC-DD-HVAC-01A, 01B, 02 to 12 (Rev.01, dated 11-08-2026)", "Delivery", "To site at Rawdat Al Faras"]
+  ],
+
+  "banner": "BUDGETARY PRICES — INDICATIVE +/- 15%, SUBJECT TO MANUFACTURER CONFIRMATION. NOT A FIRM OFFER.",
+
+  "grand_total_sections": ["A", "B", "C", "D", "E", "F", "H"],
+  "grand_total": 8369710,
+
+  "sections": [
+    {
+      "key": "A",
+      "title": "Primary Air Handling Units (AHU-1 to AHU-8) — Indoor Breeding Buildings C1-C4 & D1-D4",
+      "total": 2940800,
+      "items": [
+        { "no": "1", "unit": "Nos", "qty": 8, "rate": 118500, "amount": 948000,
+          "description": "Supply, installation, testing & commissioning of double-skin Primary Air Handling Unit, draw-through type, complete with DX cooling coil, supply & return/exhaust fan sections (EC/plug fan with VFD), mixing box, pre-filter G4 + fine filter F9 (1220 x 450 modules) on fresh air, G4 on return, 1\" aluminium washable filters (4 nos), motorised dampers on fresh air/return/exhaust, access doors, drain pan & vibration isolators. Supply air 12,350 m3/hr, exhaust air 12,350 m3/hr, fresh air 0-2,500 m3/hr, ESP 500 Pa supply / 500 Pa return, cooling coil 112.5 kW (DX, R-134a or equivalent, evap. -10 deg C), room design 5 deg C min / 25 deg C max +/- 1 deg C. Tags AHU-1 to AHU-8. Ref: HVAC-10, 11, 12." },
+        { "no": "2", "unit": "Nos", "qty": 8, "rate": 204000, "amount": 1632000,
+          "description": "Air-cooled Condensing Unit Rack for AHU (CUR-1 to CUR-8): 3 nos semi-hermetic reciprocating compressors per rack, rack cooling capacity 115 kW, R-134a or equivalent, high ambient 46 deg C, evap. -10 deg C, EER 2.2, complete with air-cooled condenser, oil separator, liquid receiver, suction accumulator, oil vessel, filter drier, sight glass, solenoid valve, HP/LP switches, crankcase heaters, electronic expansion valve & isolation valves. Located on machine roof deck. Ref: HVAC-10, 11, 12." },
+        { "no": "3", "unit": "Nos", "qty": 8, "rate": 20500, "amount": 164000,
+          "description": "Compressor rack controller / control panel (COMPRESSOR CONTROLLER 1200x400) for each CUR rack, with capacity staging, alarms & interface to AHU. Ref: HVAC-10." },
+        { "no": "4", "unit": "Rmtr", "qty": 320, "rate": 240, "amount": 76800,
+          "description": "Refrigerant piping between AHU DX coil and condensing rack: 2-1/8\" suction line (insulated, 19 mm closed-cell) & 1-1/8\" liquid line, refrigeration grade copper, brazed, with supports, pressure test & vacuum. Estimated 20 m run per AHU. Ref: HVAC-10." },
+        { "no": "5", "unit": "kg", "qty": 400, "rate": 80, "amount": 32000,
+          "description": "Refrigerant R-134a (or equivalent) first charge for AHU/CUR circuits." },
+        { "no": "6", "unit": "Set", "qty": 8, "rate": 11000, "amount": 88000,
+          "description": "Temperature & humidity (hygrometry) sensors / controllers per building & zone (cage area, corridors, service rooms) as per room schedule on HVAC-11, incl. duct temperature sensors & wiring to AHU controller." }
+      ]
+    },
+    {
+      "key": "B",
+      "title": "Fresh Air Handling Units (FAHU-1 to FAHU-4)",
+      "total": 376000,
+      "items": [
+        { "no": "1", "unit": "Nos", "qty": 4, "rate": 51500, "amount": 206000,
+          "description": "Supply, installation, testing & commissioning of Fresh Air Handling Unit, double-skin, with DX cooling coil, G4 + F9 filtration, supply & exhaust fans, energy recovery (as applicable), 3,000 m3/hr supply / 3,000 m3/hr exhaust, fresh air 0-3,000 m3/hr, ESP 500 Pa, cooling coil 4 x 16 kW, unit cooling capacity 18.59 kW, R-134a or equivalent, 50 deg C ambient, 12.5 deg C evap., EER 1.5. Ref: HVAC-12." },
+        { "no": "2", "unit": "Nos", "qty": 4, "rate": 27000, "amount": 108000,
+          "description": "Air-cooled condenser / condensing unit for FAHU (CON-1-CD-AHU01 to CON-1-CD-AHU04) with compressor, complete with all standard accessories (receiver, drier, sight glass, solenoid valve, HP/LP, crankcase heater). Ref: HVAC-12." },
+        { "no": "3", "unit": "Nos", "qty": 4, "rate": 11000, "amount": 44000,
+          "description": "FAHU compressor controller panel (800x300), FAHU COMPRESSOR-01 to 04. Ref: HVAC-10." },
+        { "no": "4", "unit": "Rmtr", "qty": 120, "rate": 150, "amount": 18000,
+          "description": "Refrigerant piping FAHU coil to condenser (suction & liquid, insulated), estimated 15 m per unit, incl. refrigerant charge." }
+      ]
+    },
+    {
+      "key": "C",
+      "title": "Secondary Cooling Units — Evaporators & Condensing Units (FRZ-1 to FRZ-32 / KCU-1 to KCU-8)",
+      "total": 1371200,
+      "items": [
+        { "no": "1", "unit": "Nos", "qty": 32, "rate": 17500, "amount": 560000,
+          "description": "Ceiling-suspended dual-discharge evaporator unit (Carrier DUO40 344C 4PH or approved equivalent), cooling capacity 15 kW nominal (12.56 kW duty), 4 x 0.75 kW fans, evap. -5 deg C, with drain pan & drain connection, suspended from existing purlins on 12 mm threaded rods. 4 nos per breeding hall. Tags FRZ-1 to FRZ-32. Ref: HVAC-01A, 01B, 12." },
+        { "no": "2", "unit": "Nos", "qty": 8, "rate": 54500, "amount": 436000,
+          "description": "Air-cooled Condensing Unit KCU (KCU-1 to KCU-8), capacity 35 kW as per equipment schedule, 8 nos compressors, R-134a or equivalent, high ambient, complete with receiver, drier, sight glass, solenoid valve, HP/LP, crankcase heater, accumulator. Quantity subject to confirmation — refer clarification note 4 below. Ref: HVAC-10, 12." },
+        { "no": "3", "unit": "Nos", "qty": 8, "rate": 8150, "amount": 65200,
+          "description": "KCU controller panel (800x300), KCU-01 to KCU-08. Ref: HVAC-10." },
+        { "no": "4", "unit": "Rmtr", "qty": 1000, "rate": 150, "amount": 150000,
+          "description": "Refrigerant suction line 1-3/8\" copper, insulated 19 mm closed-cell with UV-resistant cladding for exposed runs, from KCU to evaporators. Estimated. Ref: HVAC-01A." },
+        { "no": "5", "unit": "Rmtr", "qty": 1000, "rate": 100, "amount": 100000,
+          "description": "Refrigerant liquid line 3/4\" copper with insulation, from KCU to evaporators. Estimated. Ref: HVAC-01A." },
+        { "no": "6", "unit": "kg", "qty": 250, "rate": 80, "amount": 20000,
+          "description": "Refrigerant R-134a (or equivalent) charge for KCU/FRZ circuits." },
+        { "no": "7", "unit": "Rmtr", "qty": 800, "rate": 50, "amount": 40000,
+          "description": "Condensate drain piping uPVC 32 mm / 50 mm with insulation from evaporators to nearest drain, incl. traps & fittings ('AC DRAIN DOWN TYPICAL'). Estimated." }
+      ]
+    },
+    {
+      "key": "D",
+      "title": "GI Ductwork — Supply, Return, Fresh Air & Exhaust",
+      "total": 1476700,
+      "items": [
+        { "no": "1", "unit": "Sqmt", "qty": 5400, "rate": 180, "amount": 972000,
+          "description": "Galvanised steel rectangular ductwork (SMACNA / DW144 gauges) for AHU supply & return air distribution in breeding halls: mains 1000x500 (SAD), 1400x500 (RAD), 850x450, 600x400, 500x350 & branches 250x200, complete with fittings, elbows with turning vanes, reducers, take-offs, hangers & supports from existing purlins/trusses. Quantity estimated from layouts HVAC-02 to 05 (8 halls, 2 supply + 2 return mains per hall, approx. 44 supply & 44 return branch drops per hall). To be verified against shop drawings." },
+        { "no": "2", "unit": "Sqmt", "qty": 700, "rate": 180, "amount": 126000,
+          "description": "GI rectangular ductwork 1000x500 for AHU fresh air intake, exhaust discharge, duct offsets & risers on mezzanine/machine room level incl. guide vanes (HVAC-10), and FAHU supply/exhaust ductwork. Estimated." },
+        { "no": "3", "unit": "Sqmt", "qty": 350, "rate": 190, "amount": 66500,
+          "description": "GI rectangular exhaust ductwork EAD 150x100 (10 & 25 L/s), 200x150 (45 L/s), 250x200 (90 L/s), 300x200 (125 L/s) for service rooms (changing room, garbage, transfer, storage, water/electrical PR, lavatory etc.) in 8 halls, office, sanitization & water tank buildings. Estimated. Ref: HVAC-02 to 08." },
+        { "no": "4", "unit": "Rmtr", "qty": 600, "rate": 120, "amount": 72000,
+          "description": "GI spiral round ducting dia 125, 150, 200, 250, 300 & 315 mm (SFAD/RFAD supply & return for ducted units, extract fan ducts) incl. fittings & supports. Estimated." },
+        { "no": "5", "unit": "Rmtr", "qty": 200, "rate": 50, "amount": 10000,
+          "description": "Flexible insulated aluminium duct dia 100, 200 & 250 mm (max 1.5 m per connection) with clamps." },
+        { "no": "6", "unit": "Sqmt", "qty": 3400, "rate": 50, "amount": 170000,
+          "description": "Thermal insulation to supply air & fresh air ductwork: 25 mm (min.) fibreglass / closed-cell insulation, density as per spec, with aluminium foil facing, vapour sealed; aluminium cladding for external / roof-exposed runs." },
+        { "no": "7", "unit": "Sqmt", "qty": 160, "rate": 120, "amount": 19200,
+          "description": "Acoustic lining 25 mm to first 3 m of supply & return duct at each AHU (alternative to attenuators where not shown)." },
+        { "no": "8", "unit": "Lot", "qty": 1, "rate": 41000, "amount": 41000,
+          "description": "Duct sealant, gaskets, flanges, cleats, supports, threaded rods, anchor bolts, canvas connections & all consumables." }
+      ]
+    },
+    {
+      "key": "E",
+      "title": "Air Distribution & Duct Accessories",
+      "total": 910740,
+      "items": [
+        { "no": "1", "unit": "Nos", "qty": 352, "rate": 200, "amount": 70400,
+          "description": "Ceiling supply air square grille / diffuser (aluminium, powder coated) with opposed blade damper, on 250x200 branch ducts. Approx. 44 nos per hall x 8. Ref: HVAC-01A, 02 to 05." },
+        { "no": "2", "unit": "Nos", "qty": 352, "rate": 200, "amount": 70400,
+          "description": "Ceiling return air square grille (aluminium, powder coated) with OBD on 250x200 return branches. Approx. 44 nos per hall x 8." },
+        { "no": "3", "unit": "Nos", "qty": 16, "rate": 540, "amount": 8640,
+          "description": "Return air grille 1000x400 (aluminium) at sound attenuator / return main. 2 nos per hall." },
+        { "no": "4", "unit": "Nos", "qty": 16, "rate": 5450, "amount": 87200,
+          "description": "Sound attenuator 900(L) x 1000(W) x 400(H) mm, rectangular splitter type, on 1000x500 supply/return mains. 2 nos per hall. Ref: HVAC-02 to 05." },
+        { "no": "5", "unit": "Nos", "qty": 16, "rate": 4100, "amount": 65600,
+          "description": "Sound attenuator 900(L) x 550(W) x 400(H) mm on secondary supply mains. 2 nos per hall." },
+        { "no": "6", "unit": "Nos", "qty": 80, "rate": 820, "amount": 65600,
+          "description": "Volume control damper (galvanised, opposed blade, manual quadrant) for main ducts: 1000x500, 1400x500, 850x450, 600x400, 500x350 (avg 10 nos per hall)." },
+        { "no": "7", "unit": "Nos", "qty": 704, "rate": 340, "amount": 239360,
+          "description": "Volume control damper 250x200 at each supply & return branch." },
+        { "no": "8", "unit": "Nos", "qty": 32, "rate": 3400, "amount": 108800,
+          "description": "Motorised damper (with actuator) on AHU fresh air, return & exhaust connections (3 per AHU) and FAHU fresh air/exhaust (2 per FAHU)." },
+        { "no": "9", "unit": "Nos", "qty": 20, "rate": 2700, "amount": 54000,
+          "description": "Fire damper, 1.5 hr rated, with fusible link & access door, at plant/machine room wall & floor penetrations (2 per AHU + 1 per FAHU)." },
+        { "no": "10", "unit": "Nos", "qty": 80, "rate": 160, "amount": 12800,
+          "description": "Exhaust air grille / disc valve 150 mm dia (EAG 01) and exhaust diffusers EAD 01 / EAD 02 in service rooms. Estimated." },
+        { "no": "11", "unit": "Nos", "qty": 100, "rate": 200, "amount": 20000,
+          "description": "Supply / return flexible-duct air diffusers SFAD 01/02 & RFAD 01/02/03 (round neck, aluminium) for ducted units. Estimated." },
+        { "no": "12", "unit": "Nos", "qty": 24, "rate": 410, "amount": 9840,
+          "description": "Self-balanced (non-return) grilles / pressure relief grilles as per legend, estimated." },
+        { "no": "13", "unit": "Nos", "qty": 80, "rate": 340, "amount": 27200,
+          "description": "Access doors 300x300 / 450x450 in ductwork at dampers, attenuators & coils." },
+        { "no": "14", "unit": "Nos", "qty": 40, "rate": 410, "amount": 16400,
+          "description": "Flexible canvas connections at all AHU / FAHU / fan inlet & outlet." },
+        { "no": "15", "unit": "Lot", "qty": 1, "rate": 54500, "amount": 54500,
+          "description": "Test holes, thermometer wells, balancing & TAB (testing, adjusting & balancing) report for all AHU systems." }
+      ]
+    },
+    {
+      "key": "F",
+      "title": "Exhaust & Extract Fans",
+      "total": 66070,
+      "items": [
+        { "no": "1", "unit": "Nos", "qty": 4, "rate": 3400, "amount": 13600,
+          "description": "Inline exhaust fan 470 m3/hr, 200 W, 240V/1ph/50Hz (EF-1, EF-4, EF-5, EF-8) with backdraught damper, speed controller & mounting. Ref: HVAC-12." },
+        { "no": "2", "unit": "Nos", "qty": 4, "rate": 3250, "amount": 13000,
+          "description": "Inline exhaust fan 420 m3/hr, 200 W, 240V/1ph/50Hz (EF-2, EF-3, EF-6, EF-7). Ref: HVAC-12." },
+        { "no": "3", "unit": "Nos", "qty": 1, "rate": 2050, "amount": 2050,
+          "description": "Inline exhaust fan 180 m3/hr, 100 W, 240V/1ph (EF-9 — sanitization building). Ref: HVAC-06, 12." },
+        { "no": "4", "unit": "Nos", "qty": 2, "rate": 1350, "amount": 2700,
+          "description": "Inline exhaust fan 55 m3/hr, 0.10 kW (EF-10 — office building & water tank building). Ref: HVAC-07, 08." },
+        { "no": "5", "unit": "Nos", "qty": 16, "rate": 820, "amount": 13120,
+          "description": "Wall / ceiling extract fan 150 mm dia with E.A.G. for lavatories & garbage rooms (2 per hall). Ref: HVAC-02 to 05." },
+        { "no": "6", "unit": "Nos", "qty": 8, "rate": 2700, "amount": 21600,
+          "description": "Axial cabinet fan as per legend / fresh-air relief (estimated)." }
+      ]
+    },
+    {
+      "key": "H",
+      "title": "Electrical, Controls & Installation Works",
+      "total": 1228200,
+      "items": [
+        { "no": "1", "unit": "Nos", "qty": 9, "rate": 34000, "amount": 306000,
+          "description": "MCC / control panels for AHU & FAHU (MCC-01-AB to MCC-04-AB 1000x250, MCC-FAHU-AB, MCC-DUAL panels) incl. VFDs, starters, interlocks & BMS interface. Ref: HVAC-10." },
+        { "no": "2", "unit": "Lot", "qty": 1, "rate": 272000, "amount": 272000,
+          "description": "Power & control cabling from MCC to AHU, CUR racks, FAHU, KCU, evaporators & fans, incl. 75x75 cable trunking at high level, earthing & terminations. Estimated." },
+        { "no": "3", "unit": "Nos", "qty": 8, "rate": 13500, "amount": 108000,
+          "description": "Installation, rigging & positioning of AHUs and condensing racks on machine roof deck (incl. crane hire)." },
+        { "no": "4", "unit": "Nos", "qty": 4, "rate": 6800, "amount": 27200,
+          "description": "Installation & commissioning of FAHU with condensers." },
+        { "no": "5", "unit": "Nos", "qty": 8, "rate": 27000, "amount": 216000,
+          "description": "Installation & commissioning of secondary cooling units (KCU + 4 evaporators per hall), incl. pressure test, vacuum & charging." },
+        { "no": "6", "unit": "LS", "qty": 1, "rate": 81500, "amount": 81500,
+          "description": "Site supervision, scaffolding & access equipment for ductwork, insulation & accessories installation across all halls & buildings." },
+        { "no": "7", "unit": "LS", "qty": 1, "rate": 81500, "amount": 81500,
+          "description": "Testing, adjusting & balancing, commissioning, O&M manuals, as-built drawings & training." },
+        { "no": "8", "unit": "LS", "qty": 1, "rate": 136000, "amount": 136000,
+          "description": "Freight, transport, unloading & storage at Rawdat Al Faras site." }
+      ]
+    },
+    {
+      "key": "G",
+      "option": true,
+      "title": "VRV System & Fan Coil Units (Service Rooms, Offices & Corridors)",
+      "total": 1750350,
+      "items": [
+        { "no": "1", "unit": "Nos", "qty": 17, "rate": 30000, "amount": 510000,
+          "description": "VRV outdoor unit (heat pump), cooling capacity 16.7 kW, heating 24.6 kW, R-410A, high ambient 46 deg C, comb. 60%: VRV-1 to VRV-13, VRV-15, 16, 17, 19. Ref: HVAC-10, 12." },
+        { "no": "2", "unit": "Nos", "qty": 3, "rate": 61000, "amount": 183000,
+          "description": "VRV outdoor unit, cooling capacity 39.7 kW, heating 55.7 kW: VRV-18, VRV-20-COR, VRV-21-COR. Ref: HVAC-12." },
+        { "no": "3", "unit": "Nos", "qty": 1, "rate": 75000, "amount": 75000,
+          "description": "VRV outdoor unit, cooling capacity 52.5 kW, heating 73.9 kW: VRV-14 (corridor). Ref: HVAC-12." },
+        { "no": "4", "unit": "Nos", "qty": 61, "rate": 3400, "amount": 207400,
+          "description": "Wall mounted indoor unit 2.2 kW cooling / 2.5 kW heating, 275 cfm, 795x290x238 mm (FXAQ-type) with wired controller. Ref: HVAC-12." },
+        { "no": "5", "unit": "Nos", "qty": 3, "rate": 3800, "amount": 11400,
+          "description": "Wall mounted indoor unit 2.8 kW cooling / 3.2 kW heating, 283 cfm (FCU-49, 93, 107). Ref: HVAC-12." },
+        { "no": "6", "unit": "Nos", "qty": 45, "rate": 5450, "amount": 245250,
+          "description": "Ceiling cassette (round flow) indoor unit 2.8 kW cooling / 3.2 kW heating, 459 cfm, 840x204x840 mm (FXFQ25PV9) with panel & wired controller. Ref: HVAC-12." },
+        { "no": "7", "unit": "Nos", "qty": 7, "rate": 9500, "amount": 66500,
+          "description": "Ceiling cassette indoor unit 8.0 kW cooling / 9.0 kW heating, 671 cfm, 895x165x895 mm (FXUQ71MA / equiv.) — corridor VRV-14. Ref: HVAC-12." },
+        { "no": "8", "unit": "Nos", "qty": 120, "rate": 340, "amount": 40800,
+          "description": "Refnet joints KHRQ22M20T / equivalent branch kits." },
+        { "no": "9", "unit": "Rmtr", "qty": 2500, "rate": 120, "amount": 300000,
+          "description": "VRV refrigerant piping (3/8\"-3/4\", 3/8\"-5/8\", 1/4\"-1/2\") insulated, with communication cabling, estimated." },
+        { "no": "10", "unit": "Nos", "qty": 6, "rate": 11000, "amount": 66000,
+          "description": "VRV MCC / control panels (MCC-VRV-01 to 06, 800x300) & centralised controller. Ref: HVAC-10." },
+        { "no": "11", "unit": "Rmtr", "qty": 900, "rate": 50, "amount": 45000,
+          "description": "Condensate drain piping uPVC 32 mm insulated for FCUs, estimated." }
+      ]
+    }
+  ],
+
+  "notes": [
+    "This is a BUDGETARY quotation issued at the client's request for planning purposes. Prices are indicative within +/- 15% and are subject to final confirmation from our manufacturers. A firm quotation will be issued within 10 working days of receipt of the clarifications at note 4.",
+    "Equipment quantities (AHU, CUR, FAHU, KCU, FRZ, EF, VRV & FCU) are taken from the consultant's Equipment Schedule GETC-MECC-DD-HVAC-12 Rev.01.",
+    "Ductwork areas, grille and damper counts, refrigerant pipe lengths and charges are indicative, assessed from the 1:110 layout drawings, and will be re-measured against approved shop drawings at firm pricing. Final contract value will be adjusted at the unit rates stated.",
+    "Clarification required: KCU condensing unit capacity is shown as 25 kW on the layouts and 35 kW in the equipment schedule; the schedule also notes 'QTY should be 16 UNITS' against 8 nos. This quotation is based on 8 nos at 35 kW. Additional units will be charged at the unit rate in item C.2.",
+    "Section G (VRV / FCU for service rooms, offices & corridors) is offered as a separate option and is excluded from the Grand Total.",
+    "Included: supply, delivery to site, installation, testing, adjusting, balancing and commissioning as itemised above; 12 months warranty from commissioning on equipment against manufacturing defects.",
+    "Excluded: civil, builder's work, openings and making good; electrical mains supply and distribution up to our MCC panels; BMS/SCADA integration beyond volt-free contacts; cranage beyond that stated; site accommodation and utilities; any duties or levies introduced after the quotation date; any item not expressly stated.",
+    "Payment terms: 40% advance with LPO; 40% against delivery of major equipment to site; 20% on completion of commissioning. Delivery: 14-16 weeks for AHUs and condensing racks from receipt of approved technical submittal and advance; balance items to suit site programme.",
+    "Prices are in Qatari Riyals, delivered to site at Rawdat Al Faras. Validity 15 days from the date above."
+  ],
+
+  "signatory": { "name": "Farhan", "role": "Sales Engineer" }
+}
