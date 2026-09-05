@@ -1,0 +1,112 @@
+{
+  "_note": "TNDK budgetary quotation Rev.01, HVAC equipment package, Houbara Bustards at Rawdat Al Faras. Scope reduced to Sections A, B and C; KCU quantity corrected from 8 to 16 nos per equipment schedule HVAC-12. Arithmetic re-verified against the source: all three section totals and the grand total of 5,813,800 reconcile exactly. Two wordings changed for DECISIONS.md D-005 — the grand total no longer reads 'Excluding Tax', and notes 7 and 9 refer to duties and levies rather than taxes.",
+
+  "filename": "TNDK-HVAC-BQ-01-2026 Rev01 Budgetary Quotation - Houbara Rawdat Al Faras",
+  "reference": "TNDK/HVAC/BQ-01/2026 Rev.01",
+  "badge": ["BUDGETARY", "QUOTATION"],
+  "doc_title": "Budgetary Quotation — HVAC Equipment Package",
+  "project": "Air Handling Units, Condensing Racks, Fresh Air Units, Evaporators & Condensing Units — Establishment of (8) Production Buildings for Houbara Bustards at Rawdat Al Faras",
+
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "subtitle": "Division of Doha Cooling Trading & Solutions W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar",
+    "contact": "Tel 7706 0676 · farhan@dctsqatar.com"
+  },
+
+  "meta_rows": [
+    ["Our Ref.", "TNDK/HVAC/BQ-01/2026 Rev.01", "Date", "05 September 2026"],
+    ["Validity", "15 days from the date above", "Currency", "Qatari Riyals (QAR)"],
+    ["Ref. Drawings", "GETC-MECC-DD-HVAC-01A, 01B, 02 to 12 (Rev.01, dated 11-08-2026)", "Delivery", "To site at Rawdat Al Faras"]
+  ],
+
+  "revision_label": "Rev.01 —",
+  "revision": "Scope limited to Sections A, B & C as agreed. KCU quantity corrected to 16 nos per equipment schedule HVAC-12. Installation, commissioning and freight items added within each section.",
+
+  "banner": "BUDGETARY PRICES — INDICATIVE +/- 15%, SUBJECT TO MANUFACTURER CONFIRMATION. NOT A FIRM OFFER.",
+
+  "grand_total_sections": ["A", "B", "C"],
+  "grand_total": 5813800,
+
+  "sections": [
+    {
+      "key": "A",
+      "title": "Primary Air Handling Units (AHU-1 to AHU-8) with Condensing Racks (CUR-1 to CUR-8) — Indoor Breeding Buildings C1-C4 & D1-D4",
+      "total": 3288800,
+      "items": [
+        { "no": "1", "unit": "Nos", "qty": 8, "rate": 118500, "amount": 948000,
+          "description": "Supply, installation, testing & commissioning of double-skin Primary Air Handling Unit, draw-through type, complete with DX cooling coil, supply & return/exhaust fan sections (EC/plug fan with VFD), mixing box, pre-filter G4 + fine filter F9 (1220 x 450 modules) on fresh air, G4 on return, 1\" aluminium washable filters (4 nos), motorised dampers on fresh air/return/exhaust, access doors, drain pan & vibration isolators. Supply air 12,350 m3/hr, exhaust air 12,350 m3/hr, fresh air 0-2,500 m3/hr, ESP 500 Pa supply / 500 Pa return, cooling coil 112.5 kW (DX, R-134a or equivalent, evap. -10 deg C), room design 5 deg C min / 25 deg C max +/- 1 deg C. Tags AHU-1 to AHU-8. Ref: HVAC-10, 11, 12." },
+        { "no": "2", "unit": "Nos", "qty": 8, "rate": 204000, "amount": 1632000,
+          "description": "Air-cooled Condensing Unit Rack for AHU (CUR-1 to CUR-8): 3 nos semi-hermetic reciprocating compressors per rack, rack cooling capacity 115 kW, R-134a or equivalent, high ambient 46 deg C, evap. -10 deg C, EER 2.2, complete with air-cooled condenser, oil separator, liquid receiver, suction accumulator, oil vessel, filter drier, sight glass, solenoid valve, HP/LP switches, crankcase heaters, electronic expansion valve & isolation valves. Located on machine roof deck. Ref: HVAC-10, 11, 12." },
+        { "no": "3", "unit": "Nos", "qty": 8, "rate": 20500, "amount": 164000,
+          "description": "Compressor rack controller / control panel (COMPRESSOR CONTROLLER 1200x400) for each CUR rack, with capacity staging, alarms & interface to AHU. Ref: HVAC-10." },
+        { "no": "4", "unit": "Rmtr", "qty": 320, "rate": 240, "amount": 76800,
+          "description": "Refrigerant piping between AHU DX coil and condensing rack: 2-1/8\" suction line (insulated, 19 mm closed-cell) & 1-1/8\" liquid line, refrigeration grade copper, brazed, with supports, pressure test & vacuum. Estimated 20 m run per AHU. Ref: HVAC-10." },
+        { "no": "5", "unit": "kg", "qty": 400, "rate": 80, "amount": 32000,
+          "description": "Refrigerant R-134a (or equivalent) first charge for AHU/CUR circuits." },
+        { "no": "6", "unit": "Set", "qty": 8, "rate": 11000, "amount": 88000,
+          "description": "Temperature & humidity (hygrometry) sensors / controllers per building & zone (cage area, corridors, service rooms) as per room schedule on HVAC-11, incl. duct temperature sensors & wiring to AHU controller." },
+        { "no": "7", "unit": "Nos", "qty": 8, "rate": 16500, "amount": 132000,
+          "description": "Rigging, positioning & installation of AHU modules on mezzanine and CUR racks on machine roof deck, incl. crane hire, lift plan, anti-vibration mounts, module assembly & levelling. Per hall." },
+        { "no": "8", "unit": "Nos", "qty": 8, "rate": 10000, "amount": 80000,
+          "description": "Refrigeration & air-side commissioning of AHU/CUR systems: pressure test, evacuation, charging, compressor staging, superheat/sub-cooling records, fan duty proving, controls proving and 72-hour performance test. Per hall." },
+        { "no": "9", "unit": "LS", "qty": 1, "rate": 136000, "amount": 136000,
+          "description": "Freight, transport, customs clearance, unloading & site storage for all equipment in Sections A, B & C." }
+      ]
+    },
+    {
+      "key": "B",
+      "title": "Fresh Air Handling Units (FAHU-1 to FAHU-4) with Condensers",
+      "total": 408600,
+      "items": [
+        { "no": "1", "unit": "Nos", "qty": 4, "rate": 51500, "amount": 206000,
+          "description": "Supply, installation, testing & commissioning of Fresh Air Handling Unit, double-skin, with DX cooling coil, G4 + F9 filtration, supply & exhaust fans, energy recovery (as applicable), 3,000 m3/hr supply / 3,000 m3/hr exhaust, fresh air 0-3,000 m3/hr, ESP 500 Pa, cooling coil 4 x 16 kW, unit cooling capacity 18.59 kW, R-134a or equivalent, 50 deg C ambient, 12.5 deg C evap., EER 1.5. Ref: HVAC-12." },
+        { "no": "2", "unit": "Nos", "qty": 4, "rate": 27000, "amount": 108000,
+          "description": "Air-cooled condenser / condensing unit for FAHU (CON-1-CD-AHU01 to CON-1-CD-AHU04) with compressor, complete with all standard accessories (receiver, drier, sight glass, solenoid valve, HP/LP, crankcase heater). Ref: HVAC-12." },
+        { "no": "3", "unit": "Nos", "qty": 4, "rate": 11000, "amount": 44000,
+          "description": "FAHU compressor controller panel (800x300), FAHU COMPRESSOR-01 to 04. Ref: HVAC-10." },
+        { "no": "4", "unit": "Rmtr", "qty": 120, "rate": 150, "amount": 18000,
+          "description": "Refrigerant piping FAHU coil to condenser (suction & liquid, insulated), estimated 15 m per unit, incl. refrigerant charge." },
+        { "no": "5", "unit": "Nos", "qty": 4, "rate": 8150, "amount": 32600,
+          "description": "Installation, refrigerant connection & commissioning of FAHU with condenser and controller." }
+      ]
+    },
+    {
+      "key": "C",
+      "title": "Secondary Cooling Units — Evaporators & Condensing Units (FRZ-1 to FRZ-32 / KCU 16 nos)",
+      "total": 2116400,
+      "items": [
+        { "no": "1", "unit": "Nos", "qty": 32, "rate": 17500, "amount": 560000,
+          "description": "Ceiling-suspended dual-discharge evaporator unit (Carrier DUO40 344C 4PH or approved equivalent), cooling capacity 15 kW nominal (12.56 kW duty), 4 x 0.75 kW fans, evap. -5 deg C, with drain pan & drain connection, suspended from existing purlins on 12 mm threaded rods. 4 nos per breeding hall. Tags FRZ-1 to FRZ-32. Ref: HVAC-01A, 01B, 12." },
+        { "no": "2", "unit": "Nos", "qty": 16, "rate": 54500, "amount": 872000,
+          "description": "Air-cooled Condensing Unit KCU (16 nos — 2 units per breeding hall), unit cooling capacity 35 kW each as per equipment schedule HVAC-12, R-134a or equivalent, high ambient, complete with receiver, drier, sight glass, solenoid valve, HP/LP, crankcase heater, accumulator. Each unit serves 2 nos FRZ evaporators. Ref: HVAC-10, 12." },
+        { "no": "3", "unit": "Nos", "qty": 16, "rate": 8150, "amount": 130400,
+          "description": "KCU controller panel (800x300), one per condensing unit. Ref: HVAC-10." },
+        { "no": "4", "unit": "Rmtr", "qty": 1000, "rate": 150, "amount": 150000,
+          "description": "Refrigerant suction line 1-3/8\" copper, insulated 19 mm closed-cell with UV-resistant cladding for exposed runs, from KCU to evaporators. Estimated. Ref: HVAC-01A." },
+        { "no": "5", "unit": "Rmtr", "qty": 1000, "rate": 100, "amount": 100000,
+          "description": "Refrigerant liquid line 3/4\" copper with insulation, from KCU to evaporators. Estimated. Ref: HVAC-01A." },
+        { "no": "6", "unit": "kg", "qty": 300, "rate": 80, "amount": 24000,
+          "description": "Refrigerant R-134a (or equivalent) charge for KCU/FRZ circuits (16 circuits)." },
+        { "no": "7", "unit": "Rmtr", "qty": 800, "rate": 50, "amount": 40000,
+          "description": "Condensate drain piping uPVC 32 mm / 50 mm with insulation from evaporators to nearest drain, incl. traps & fittings ('AC DRAIN DOWN TYPICAL'). Estimated." },
+        { "no": "8", "unit": "Nos", "qty": 8, "rate": 30000, "amount": 240000,
+          "description": "Installation & commissioning of 2 nos KCU and 4 nos FRZ evaporators per hall: hanging from purlins, piping connection, pressure test, evacuation, charging, defrost setting, performance record. Per hall." }
+      ]
+    }
+  ],
+
+  "notes": [
+    "This is a BUDGETARY quotation issued at the client's request for planning purposes. Prices are indicative within +/- 15% and subject to final confirmation from our manufacturers. A firm quotation will be issued within 10 working days of manufacturer confirmation.",
+    "Scope (Rev.01): Sections A, B and C only — supply, delivery, installation, refrigerant piping, charging and commissioning of the primary AHUs with condensing racks, the fresh air units with condensers, and the secondary cooling evaporators with condensing units. All other HVAC works (ductwork, insulation, grilles, dampers, sound attenuators, exhaust fans, MCC panels, power & control wiring, VRV/FCU) are excluded and may be offered separately on request.",
+    "Equipment quantities are taken from the consultant's Equipment Schedule HVAC-12 Rev.01: 8 AHU, 8 CUR racks, 4 FAHU with 4 condensers, 32 evaporators and 16 KCU condensing units (35 kW each, 2 per hall).",
+    "Refrigerant pipe lengths and charges are indicative from the layout drawings and will be re-measured against approved shop drawings at the unit rates stated.",
+    "Interfaces by others: incoming power supply to each unit/controller; structural supports and steel platforms on the roof deck (TNDK to provide load data); ductwork and flexible connections to AHU/FAHU spigots; condensate drain points within 10 m of each evaporator; openings and penetrations.",
+    "Included: 12 months warranty from commissioning; technical submittals; shop drawings for equipment and refrigerant piping; O&M manuals; two days operator training.",
+    "Excluded: civil and builder's work; electrical mains, SMDB and MCC panels; BMS integration; ductwork and air distribution; any duties or levies introduced after the quotation date; any item not expressly stated.",
+    "Payment terms: 40% advance with LPO; 40% against delivery of major equipment to site; 20% on completion of commissioning. Delivery: 14-16 weeks for AHUs and condensing racks from approved technical submittal and advance; evaporators and KCU 10-12 weeks.",
+    "Prices are in Qatari Riyals, delivered to site at Rawdat Al Faras. Validity 15 days from the date above."
+  ],
+
+  "signatory": { "name": "Farhan", "role": "Sales Engineer" }
+}

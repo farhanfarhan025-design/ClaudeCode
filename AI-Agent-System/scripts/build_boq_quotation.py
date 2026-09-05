@@ -73,6 +73,10 @@ h1 { font-size: 11pt; font-weight: 700; color: #1F3864; margin: 0 0 1.5mm; }
 
 .banner { background: #FFF2CC; border-left: 1.2mm solid #C9A24E; padding: 2.2mm 3mm;
           font-size: 8.4pt; font-weight: 700; color: #7A5A00; margin-bottom: 4mm; }
+/* What changed since the last revision. A client comparing two quotations
+   should not have to find the differences by eye. */
+.revision { background: #D6E4F0; border-left: 1.2mm solid #1F3864; padding: 2.2mm 3mm;
+            font-size: 8.4pt; color: #1F3864; margin-bottom: 2.5mm; }
 
 table.boq { width: 100%; border-collapse: collapse; }
 table.boq thead th { background: #2F5496; color: #fff; font-size: 7.8pt; text-align: left;
@@ -195,6 +199,7 @@ def render(spec: dict) -> str:
 <h1>{esc(spec.get('doc_title',''))}</h1>
 <div class="project">{esc(spec.get('project',''))}</div>
 <table class="meta">{meta}</table>
+{f'<div class="revision"><strong>{esc(spec["revision_label"])}</strong> {esc(spec["revision"])}</div>' if spec.get("revision") else ""}
 <div class="banner">{esc(spec.get('banner',''))}</div>
 
 <table class="boq">
