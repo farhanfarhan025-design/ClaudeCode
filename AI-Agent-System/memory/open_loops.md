@@ -57,9 +57,11 @@ roughly **end of November 2026**. Chase the cheque itself into the office now; a
 not been handed over is not a payment, it is a promise.
 
 **Also unrecorded:** there is no LPO on file for this project, only an approved quotation and the
-advance cheque. And the completion and commissioning date of **30-08-2026 was assumed** by me from
-the date Farhan reported the job finished; if the real dates differ, three documents carry the wrong
-date and the warranty period starts on the wrong day.
+advance cheque.
+
+**Dates settled 06-09-2026.** Farhan ruled the warranty starts today, so completion, commissioning
+and handover are all recorded as **06-09-2026** and the warranty runs to **06-09-2027**. All three
+documents were reissued on that basis; the 30-08-2026 versions are superseded and must not be sent.
 
 
 ### OL-001 — Samoosa contract value — ⚠️ CLOSURE WITHDRAWN, see OL-019
