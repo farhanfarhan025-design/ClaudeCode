@@ -9,6 +9,47 @@ Anything awaiting someone. Every entry has an owner and a date. Closed loops mov
 
 ## 🔴 Blocking — resolve before related work proceeds
 
+### OL-050 — Orient Agro Trading: a 1.1 million contract that was never in the records
+**Owner:** Farhan · **Raised:** 2026-09-06 · **Value:** QAR 1,103,286 · **Outstanding:** 45,286
+
+Statement AS-2026-9454 dated 25-04-2026 shows a completed cold storage project for Orient Agro
+Trading worth **1,103,286**, of which **1,033,000** had been received. A cash receipt of 25,000 on
+voucher 1347 dated 17-05-2026 has since been collected, taking receipts to **1,058,000** and the
+balance to **45,286**. Statement AS-2026-9455 reissued 06-09-2026 on that basis.
+
+**None of it was in this system.** Every receivables total, every concentration percentage and
+every "largest client" statement produced before today was computed on an order book that did not
+contain the biggest completed job. The Mesaieed and CCC concentration figures are wrong as stated.
+
+**Needed:** the contract, the invoices and the receipt vouchers, so the project can be entered
+properly rather than reconstructed from a statement.
+
+### OL-051 — Orient Agro: the client wants invoices and receipts that the statement cannot identify
+**Owner:** Farhan · **Raised:** 2026-09-06
+
+The client has asked for all invoices and receipts. The statement carries **no invoice numbers at
+all** against the 1,103,286, and of the eleven payments only two are identified — cheque 00000110
+(23.04.2026) and cash voucher 1347 (17.05.2026). The other nine are listed as "Cheque Payment" or
+"Cash Receipt" with no number and, for six of them, no date.
+
+Two of the eleven can be evidenced on demand. **Needed:** the voucher numbers and dates for the
+remaining nine, and the invoice numbers behind the project value, before anything is sent to the
+client. A statement the client cannot tie to documents invites the balance being disputed.
+
+### OL-052 — Orient Agro: statement is Doha Cooling, payment instruction is TNDK
+**Owner:** Farhan · **Raised:** 2026-09-06 · **Related:** OL-026, D-011
+
+The statement is issued on **Doha Cooling & Trading Solutions W.L.L** letterhead and signed by
+Doha Cooling, but clause 4 directs all further payments to **"The New Doha Kitchen Equipment
+Services"**. It also drops the *W.L.L.* from that name, which is not how the bank account is held
+(D-011).
+
+I have carried the clause through unchanged so the reissued statement does not contradict the one
+the client already holds. It still needs deciding: which entity is owed the 45,286, and in whose
+name the cheque should be drawn. A client paying the wrong entity, or with the name wrong on the
+cheque, is a bounced cheque and a month lost.
+
+
 ### OL-046 — Stop n Shop: the freezer may be selected below its own heat load
 **Owner:** Farhan · **Raised:** 2026-08-30 · **Source:** QUT/DCTS/SQ076/2026 §5, §6 and BOQ item 4
 

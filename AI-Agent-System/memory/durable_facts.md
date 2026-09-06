@@ -45,6 +45,7 @@ retention clause, so this reads as a retention applied by the client's accounts 
 keying error — see OL-027.
 | Drainage system replacement | Lean N Fit | QUT/DCTS/214/2026 | Cash | 1,200 | 1,200 | 0 — completed & paid 11-08-2026 |
 | Cold room — chiller + freezer | Stop n Shop – Bin Omran | QUT/DCTS/SQ076/2026 | Quote | 45,000 | 25,000 (cheque 00006483, QNB, 26-08-2026) | 20,000 — PDC 90 days |
+| Cold storage project | Orient Agro Trading | SOA AS-2026-9455 | **Doha Cooling** | 1,103,286 | 1,058,000 | 45,286 |
 
 ## Receivables — as at 20 August 2026
 
@@ -55,6 +56,13 @@ keying error — see OL-027.
 | **Total receivable** | **595,400.00** |
 | — invoiced and awaiting payment | 17,950.00 |
 | — contracted, not yet invoiced | 577,450.00 |
+
+**Updated 06-09-2026 — Orient Agro Trading surfaced, and it is the largest completed contract
+on the books.** A cold storage project carried out under **Doha Cooling Trading & Solutions
+W.L.L**, not TNDK: value **1,103,286** (1,045,000 base plus 27,664 additional panel and 30,622
+additional flooring), received **1,058,000** across three cheques and eight cash receipts,
+**balance 45,286**. It had never been recorded here — the order book, the receivables and every
+concentration figure above were computed without it. See OL-050.
 
 **Updated 30-08-2026 — Stop n Shop added.** A new completed contract: Stop n Shop – Bin Omran,
 45,000, of which 25,000 was received by cheque on 26-08-2026. The job is finished, handed over
