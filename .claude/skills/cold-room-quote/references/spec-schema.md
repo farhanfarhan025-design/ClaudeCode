@@ -102,10 +102,13 @@ specification; both keys are written verbatim wherever the floor is described.
 | Field | Default | Example |
 |---|---|---|
 | `plywood` | `"18 mm"` | marine-grade plywood thickness |
-| `plate` | `"3 mm"` | MS chequered plate thickness, e.g. `"1.5 mm"` |
+| `plate` | `"1.5 mm"` | MS chequered plate thickness — 1.5 mm is the house standard |
 
 The figures appear in three places — the flooring table, the scope bullet and
 the BOQ line — and this keeps them in step.
+
+The plate is **1.5 mm as standard**. The reference quotation predates that and
+pins 3 mm in its own spec, so it still reproduces its source document.
 
 ## Optional overrides
 

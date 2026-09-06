@@ -60,6 +60,8 @@ Defaulted if not supplied:
 - Door — 1 No., hinged, 900 × 1900 mm; pass `"type": "sliding"` for a slider
 - Floor — included; `floor_included: false` reworks section 4, the BOQ and the
   scope so nothing promises flooring
+- Flooring build-up — 100 mm PUF panel + 18 mm marine plywood + **1.5 mm** MS
+  chequered plate; override either thickness through `flooring`
 
 Everything else in the document (panel construction, coving, control panel,
 warranty, exclusions, payment terms) is boilerplate that stays as-is.

@@ -343,8 +343,10 @@ def fill_door_section(doc, spec):
 
 NO_FLOOR = "Not included in this offer"
 
-# House flooring build-up, overridable per quote through spec["flooring"]
-FLOORING = {"plywood": "18 mm", "plate": "3 mm"}
+# House flooring build-up, overridable per quote through spec["flooring"].
+# The plate is 1.5 mm as standard; the reference quotation predates that and
+# pins 3 mm in its own spec so it still reproduces its source document.
+FLOORING = {"plywood": "18 mm", "plate": "1.5 mm"}
 
 
 def flooring_spec(spec):
