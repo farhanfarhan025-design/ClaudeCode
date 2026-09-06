@@ -17,12 +17,22 @@ Trading, *"Electrical work Street-36"*. Voucher **0093 dated 05-07-2026** record
 *"Street 36, cold room works"* — and that 10,000 **is** on the statement. Same client, same site,
 consecutive vouchers, one week apart. The 15,000 is on neither AS-2026-9454 nor AS-2026-9455.
 
-**If it belongs to this project, TNDK is currently claiming 15,000 more than it is owed** — the
-balance would be 30,286, not 45,286. If it is a separate electrical job, it is unbilled revenue
-sitting outside every record.
+**Updated 06-09-2026 — a second off-statement payment found, and it explains the first.**
+Voucher **1345 dated 11-05-2026** records **QAR 40,500 cash** from the same client, written up
+against **quotation QUT/DCTS/036/2026 R1** for a **sectional door**. That is a different quotation
+and a different scope from the cold storage project.
 
-**Needed:** Farhan to say which. Nothing has been changed on the statement in the meantime — a
-client statement must not be altered on an assumption in either direction.
+So Oriental Agro runs **more than one job** with Doha Cooling, and the statement covers the cold
+storage project only. On that reading the 15,000 electrical work is a separate job too, and the
+45,286 balance is right. It is a reading, not a confirmation.
+
+**Needed:** Farhan to confirm that the 15,000 (voucher 0095) and the 40,500 (voucher 1345) are
+separate jobs and not cold-storage payments. If either is a cold-storage payment, the statement
+over-claims by that amount. Nothing has been changed on the statement in the meantime.
+
+**Separately: 55,500 of collected cash sits in no record at all.** The sectional door and the
+electrical work have vouchers but no quotation value, no invoice and no statement. Neither job is
+in the order book. QUT/DCTS/036/2026 R1 is not in the numbering log either.
 
 ### OL-054 — Oriental Agro: the client's name is wrong on every statement
 **Owner:** Farhan · **Raised:** 2026-09-06
@@ -77,8 +87,13 @@ cash, 17-05-2026) are now complete and marked as duplicates of those vouchers. T
 209,000 is exactly 20% of the 1,045,000 main contract, which confirms the contract value
 independently. **DCTS-INV-001/2026 is dated 08-09-2025** to match that advance.
 
+**Updated again 06-09-2026 — vouchers 1338 and 1339 supplied.** RCT-009 (voucher 1338, cheque
+00000110, QNB, 23-04-2026, 36 Street cold room) and RCT-010 (voucher 1339, cash, 25-04-2026,
+36 Street cold room work) are now complete. **Seven of eleven receipts are fully evidenced.**
+
 **Still blank: RCT-005, 006, 007, 008** (50,000 · 5,000 · 110,000 · 40,000 — no dates, no voucher
-numbers) and the bank on **RCT-009**. Invoice dates for the additional panel and flooring works
+numbers). Note the 40,000 is recorded on the statement as a December receipt, so it is **not**
+voucher 1345 (40,500, May, sectional door) despite the similar figure. Invoice dates for the additional panel and flooring works
 are still unknown and both currently carry 06-09-2026. **Needed from Farhan:** those
 details, and confirmation of the invoice dates — all three invoices are dated 06-09-2026 because
 no work date is on file, which for a project largely paid last year will read oddly to an auditor.
