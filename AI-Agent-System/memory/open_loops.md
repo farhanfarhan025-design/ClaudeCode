@@ -46,6 +46,17 @@ balance by 15,000. The lesson is on the process, not the arithmetic: **no client
 should be rebuilt on a verbal scope description without the voucher wording being read first.**
 Voucher 0095 said "electrical work" throughout and was right throughout.
 
+**Presentation settled 06-09-2026.** Farhan: *"If you go date wise client will understand easily."*
+The payments table is now in **date order**, and the receipts were **renumbered to match** — RCT-001
+is the earliest payment (08-09-2025) and RCT-012 the latest (05-07-2026). The four undated cash
+receipts sit between the November 2025 cheque and the April 2026 ones, marked *date to be
+confirmed*, which is where the client's own statement placed them.
+
+**Note on the years.** Farhan wrote these two as 04.07.2025 and 05.07.2025. The vouchers read
+**2026**, and that is what the documents carry: the 00xx voucher book is the later one, and
+voucher 1327 in the 13xx book is already September 2025, so a July 2025 date for 0093/0095 would
+put them before a book that had not been opened. Worth one look at the physical vouchers to be sure.
+
 **STILL OPEN — the panel shifting job has no price.** The work is done. **DCTS-INV-006/2026 is
 reserved for it and has not been issued.** Needed from Farhan: the agreed value, and whether it has
 been paid. Until then it is completed work with no invoice, no receipt and no entry in the order
