@@ -26,15 +26,19 @@ So Oriental Agro runs **more than one job** with Doha Cooling, and the statement
 storage project only. On that reading the 15,000 electrical work is a separate job too, and the
 45,286 balance is right. It is a reading, not a confirmation.
 
-**RULED 06-09-2026 by Farhan: the 15,000 goes on the account, with an invoice.** So the electrical
-work at Street 36 is treated as additional scope on this project, not a separate job: it is billed
-under **DCTS-INV-004/2026 at 15,000** and receipted under **DCTS-RCT-012/2026** against voucher
-0095. Project value becomes **1,118,286**, receipts **1,073,000**, and the balance is **unchanged
-at 45,286** because the work was settled in full on the day.
+**RULED 06-09-2026 by Farhan, in two steps.** First: put the 15,000 on the account. Then, on
+seeing it billed as extra scope: *"Don't add electrical work as additional. It is included in the
+cold room price."*
 
-**The invoice value of 15,000 is assumed from the payment.** If the electrical work was worth more
-than the cash paid, the invoice is understated and the balance is understated with it. Farhan to
-confirm the contract value of that work.
+**Settled position.** The electrical work at Street 36 is **inside the 1,103,286 contract**, so it
+is **not separately invoiced**. The 15,000 is a **payment** against that contract, receipted under
+**DCTS-RCT-012/2026** against voucher 0095. DCTS-INV-004/2026 was withdrawn before issue.
+
+- Project value **1,103,286** · received **1,073,000** · **balance 30,286** · 97.3% settled.
+
+**This is the outcome the loop was opened to catch.** Before the vouchers arrived, the statement
+claimed **45,286**. The 15,000 had been collected and never credited, so the client was being
+asked for **15,000 more than they owed** — on a statement already sent to them once.
 
 **The 40,500 sectional door (voucher 1345, quotation QUT/DCTS/036/2026 R1) has NOT been added** —
 Farhan pointed only at the 15,000, and the sectional door is on its own quotation. It remains
