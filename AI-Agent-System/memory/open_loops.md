@@ -26,9 +26,19 @@ So Oriental Agro runs **more than one job** with Doha Cooling, and the statement
 storage project only. On that reading the 15,000 electrical work is a separate job too, and the
 45,286 balance is right. It is a reading, not a confirmation.
 
-**Needed:** Farhan to confirm that the 15,000 (voucher 0095) and the 40,500 (voucher 1345) are
-separate jobs and not cold-storage payments. If either is a cold-storage payment, the statement
-over-claims by that amount. Nothing has been changed on the statement in the meantime.
+**RULED 06-09-2026 by Farhan: the 15,000 goes on the account, with an invoice.** So the electrical
+work at Street 36 is treated as additional scope on this project, not a separate job: it is billed
+under **DCTS-INV-004/2026 at 15,000** and receipted under **DCTS-RCT-012/2026** against voucher
+0095. Project value becomes **1,118,286**, receipts **1,073,000**, and the balance is **unchanged
+at 45,286** because the work was settled in full on the day.
+
+**The invoice value of 15,000 is assumed from the payment.** If the electrical work was worth more
+than the cash paid, the invoice is understated and the balance is understated with it. Farhan to
+confirm the contract value of that work.
+
+**The 40,500 sectional door (voucher 1345, quotation QUT/DCTS/036/2026 R1) has NOT been added** —
+Farhan pointed only at the 15,000, and the sectional door is on its own quotation. It remains
+outside every record.
 
 **Separately: 55,500 of collected cash sits in no record at all.** The sectional door and the
 electrical work have vouchers but no quotation value, no invoice and no statement. Neither job is
