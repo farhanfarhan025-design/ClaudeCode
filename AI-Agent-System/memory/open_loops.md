@@ -40,9 +40,22 @@ is **not separately invoiced**. The 15,000 is a **payment** against that contrac
 claimed **45,286**. The 15,000 had been collected and never credited, so the client was being
 asked for **15,000 more than they owed** — on a statement already sent to them once.
 
-**The 40,500 sectional door (voucher 1345, quotation QUT/DCTS/036/2026 R1) has NOT been added** —
-Farhan pointed only at the 15,000, and the sectional door is on its own quotation. It remains
-outside every record.
+**The sectional doors are now a separate documented job — CLOSED 06-09-2026.** Quotation
+QUT/DCTS/036/2026 dated 21-04-2026 offered four insulated sectional overhead doors (3 nos.
+3000 × 4000 mm and 1 no. 2900 × 4000 mm, Tornado side motor, remotes, photocell) at **86,000**,
+**finalised at 81,000** under revision R1 — a 5,000 reduction, shown on the invoice as a discount.
+
+Settled in full: **40,500 on 29-04-2026** (voucher 1340, 50% advance) and **40,500 on 11-05-2026**
+(voucher 1345, balance). Billed under **DCTS-INV-005/2026** and receipted under **DCTS-RCT-013 and
+014/2026**. Nothing outstanding.
+
+**One caveat:** voucher 1340 states no payment mode — no cheque number, no bank. It is recorded as
+cash on the basis that every other voucher in that book without a cheque number says cash. Confirm
+before the receipt is handed over.
+
+**Still open from this thread:** the 15,000 electrical work at Street 36 has a voucher but no
+quotation and no order record of its own; it is now inside the cold storage contract by Farhan's
+ruling, so nothing is owed, but there is no document showing what was agreed for it.
 
 **Separately: 55,500 of collected cash sits in no record at all.** The sectional door and the
 electrical work have vouchers but no quotation value, no invoice and no statement. Neither job is

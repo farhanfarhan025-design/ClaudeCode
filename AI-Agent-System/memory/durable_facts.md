@@ -46,6 +46,7 @@ keying error — see OL-027.
 | Drainage system replacement | Lean N Fit | QUT/DCTS/214/2026 | Cash | 1,200 | 1,200 | 0 — completed & paid 11-08-2026 |
 | Cold room — chiller + freezer | Stop n Shop – Bin Omran | QUT/DCTS/SQ076/2026 | Quote | 45,000 | 25,000 (cheque 00006483, QNB, 26-08-2026) | 20,000 — PDC 90 days |
 | Cold storage project | Oriental Agro Trading | SOA AS-2026-9455 | **Doha Cooling** | 1,103,286 | 1,073,000 | 30,286 |
+| Insulated sectional overhead doors (4 nos.) | Oriental Agro Trading | QUT/DCTS/036/2026 R1 | **Doha Cooling** | 81,000 | 81,000 | 0 — settled 11-05-2026 |
 
 ## Receivables — as at 20 August 2026
 
@@ -235,8 +236,8 @@ The larger of the two has collected nothing.
 | Invoice | next after INV-266/2026 (Stop n Shop final) — 261 cancelled, 263 Al Zahrawi, 264/265 Oscar Prime, none yet in the log |
 | Receipt | RCT-257/2026 |
 | Quotation | next after QUT/DCTS/228/2026, plus the SQ038 / SQ074 series — see OL-018 |
-| Doha Cooling invoice | **new series opened 06-09-2026** — DCTS-INV-001 to 003/2026 (Oriental Agro). 004 was drafted for electrical works and withdrawn before issue — that work is inside the cold room price. Doha Cooling had no invoice series before this |
-| Doha Cooling receipt | **new series opened 06-09-2026** — DCTS-RCT-001 to 012/2026 (Oriental Agro). Runs alongside the pre-printed voucher book, which reached no. 1347 on 17-05-2026 and a second book at no. 0095 on 04-07-2026 |
+| Doha Cooling invoice | next after **DCTS-INV-005/2026**. 001–003 Oriental Agro cold storage; **004 is VOID** (drafted for electrical works, withdrawn before issue — that work is inside the cold room price, do not reuse the number); 005 Oriental Agro sectional doors. Series opened 06-09-2026; Doha Cooling had none before |
+| Doha Cooling receipt | next after **DCTS-RCT-014/2026**. 001–012 cold storage, 013–014 sectional doors, all Oriental Agro. Runs alongside the pre-printed voucher books, which reached no. 1347 on 17-05-2026 and no. 0095 on 04-07-2026 |
 | Delivery note | DN-252/2026 |
 | LPO | LPO-202/2026 — 195 and 197 cancelled, 196/198/199/201 Oscar Prime, 200 Doha Controls |
 
