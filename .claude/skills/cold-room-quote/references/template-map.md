@@ -114,6 +114,19 @@ machine descriptions run long, those two lists overflow even with
 `list_spacing_pt` at 0, and the pictures are the only slack left on that page.
 `control_panel_height_in` scales both; 1.1 in reclaims roughly half an inch.
 
+## The other two banners
+
+image2 sits below the project table and image12 below the amount in words.
+Both are sized generously in the master, which is fine for a one-room quote
+but not for a six-room one: extra project rows push the first off its page,
+and a long bill of quantities pushes the second off the pricing page. Each
+then lands ahead of the next section, leaving white space behind it.
+
+`project_banner_height_in` and `pricing_banner_height_in` size them. Both are
+unset by default, so a quotation that does not need them is untouched. Shrink
+only as far as the picture still reads — below about 1.2 in these become
+thumbnails, which costs more than the page it saves.
+
 ## The service banner
 
 image13 sits in a trailing row *inside* the delivery table, not in a paragraph

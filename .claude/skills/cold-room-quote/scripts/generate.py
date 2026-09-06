@@ -911,6 +911,73 @@ def tighten_lists(doc, spec):
             p.paragraph_format.space_after = Pt(pts)
 
 
+def _scale_extent(para, target_h):
+    """Scale the picture in `para` to `target_h` inches, keeping its shape."""
+    extent = para.find(".//" + qn("wp:extent"))
+    if extent is None:
+        return False
+    cx, cy = int(extent.get("cx")), int(extent.get("cy"))
+    target_cy = int(target_h * 914400)
+    if cy <= target_cy:
+        return False
+    target_cx = int(cx * target_cy / cy)
+    extent.set("cx", str(target_cx))
+    extent.set("cy", str(target_cy))
+    for ext in para.iter(qn("a:ext")):
+        if ext.get("cx") is not None:
+            ext.set("cx", str(target_cx))
+            ext.set("cy", str(target_cy))
+    return True
+
+
+def _picture_between(doc, after, before):
+    """The first picture paragraph following `after`, stopping at `before`.
+
+    Both are matched on text, so this survives the rows above them changing.
+    """
+    seen = False
+    for child in doc.element.body.iterchildren():
+        text = "".join(t.text or "" for t in child.iter(qn("w:t"))).upper()
+        if not seen:
+            if after in text:
+                seen = True
+            continue
+        if before in text:
+            return None
+        if child.tag == qn("w:p") and child.find(".//" + qn("wp:extent")) is not None:
+            return child
+    return None
+
+
+def fit_project_banner(doc, spec):
+    """Shrink the installation banner so it stays with the project table.
+
+    The master sizes it 7.46 x 2.91 in. A quote listing several rooms pushes
+    the project table down far enough that the banner no longer fits beneath
+    it, and it flows onto the next page ahead of section 1.
+    """
+    target_h = spec.get("project_banner_height_in")
+    if not target_h:
+        return
+    para = _picture_between(doc, "ROOM TYPE", "PANEL DETAILS")
+    if para is not None:
+        _scale_extent(para, target_h)
+
+
+def fit_pricing_banner(doc, spec):
+    """Shrink the pricing banner so it stays with the BOQ.
+
+    The master sizes it 6.62 x 3.83 in, below the amount in words. A long bill
+    of quantities leaves less room and pushes it onto the warranty page.
+    """
+    target_h = spec.get("pricing_banner_height_in")
+    if not target_h:
+        return
+    para = _picture_between(doc, "AMOUNT IN WORDS", "WARRANTY")
+    if para is not None:
+        _scale_extent(para, target_h)
+
+
 def fit_schematic(doc, spec):
     """Shrink the section 6 schematic so it lands under the capacity table.
 
@@ -1018,6 +1085,8 @@ def generate(spec, output):
     fit_banner(doc, spec)
     replace_door_image(doc, spec)
     fit_schematic(doc, spec)
+    fit_project_banner(doc, spec)
+    fit_pricing_banner(doc, spec)
     fit_control_panel(doc, spec)
     tighten_lists(doc, spec)
 
