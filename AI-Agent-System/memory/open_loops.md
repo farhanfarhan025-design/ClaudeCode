@@ -9,6 +9,33 @@ Anything awaiting someone. Every entry has an owner and a date. Closed loops mov
 
 ## 🔴 Blocking — resolve before related work proceeds
 
+### OL-053 — Oriental Agro: a 15,000 receipt that is not on the statement
+**Owner:** Farhan · **Raised:** 2026-09-06 · **Value:** QAR 15,000
+
+Receipt voucher **0095 dated 04-07-2026** records **QAR 15,000 cash** received from Oriental Agro
+Trading, *"Electrical work Street-36"*. Voucher **0093 dated 05-07-2026** records QAR 10,000 for
+*"Street 36, cold room works"* — and that 10,000 **is** on the statement. Same client, same site,
+consecutive vouchers, one week apart. The 15,000 is on neither AS-2026-9454 nor AS-2026-9455.
+
+**If it belongs to this project, TNDK is currently claiming 15,000 more than it is owed** — the
+balance would be 30,286, not 45,286. If it is a separate electrical job, it is unbilled revenue
+sitting outside every record.
+
+**Needed:** Farhan to say which. Nothing has been changed on the statement in the meantime — a
+client statement must not be altered on an assumption in either direction.
+
+### OL-054 — Oriental Agro: the client's name is wrong on every statement
+**Owner:** Farhan · **Raised:** 2026-09-06
+
+All five receipt vouchers say **Oriental Agro Trading** (voucher 1333 says "Oriental Trading").
+Statements AS-2026-9454 and AS-2026-9455 as originally drafted said **Orient Agro Trading**.
+
+The reissued statement, the three invoices and the eleven receipts now all read **Oriental Agro
+Trading**, on the basis that the hand-written vouchers are the primary record. **Needed:** the
+trade licence or CR to confirm the legal name before the pack is handed over. This is the third
+client-name correction in a fortnight — after Al Zahrawi and Deiture.
+
+
 ### OL-050 — Orient Agro Trading: a 1.1 million contract that was never in the records
 **Owner:** Farhan · **Raised:** 2026-09-06 · **Value:** QAR 1,103,286 · **Outstanding:** 45,286
 
@@ -40,8 +67,19 @@ which had none.
 
 **Nothing was invented.** Every cheque number, bank and date the records do not carry is rendered
 as a blank rule on the receipt, and a note on each receipt says it is to be completed from the
-cheque and voucher books before hand-over. **Eight of the eleven receipts still need dates**, and
-three of those also need cheque numbers and the drawn-on bank. **Needed from Farhan:** those
+cheque and voucher books before hand-over.
+
+**Updated 06-09-2026 — five vouchers supplied.** RCT-001 (voucher 1327, cheque 000000067, QNB,
+08-09-2025, 20% advance), RCT-002 (voucher 1330, cheque 000000069, QNB, 18-09-2025, second 20%),
+RCT-003 (voucher 1333, cheque 60000076, QNB, cheque dated 13-11-2025 on a voucher dated 12-11-2025),
+RCT-004 (voucher 0093, cash, 05-07-2026, Street 36 cold room works) and RCT-011 (voucher 1347,
+cash, 17-05-2026) are now complete and marked as duplicates of those vouchers. The 20% advance of
+209,000 is exactly 20% of the 1,045,000 main contract, which confirms the contract value
+independently. **DCTS-INV-001/2026 is dated 08-09-2025** to match that advance.
+
+**Still blank: RCT-005, 006, 007, 008** (50,000 · 5,000 · 110,000 · 40,000 — no dates, no voucher
+numbers) and the bank on **RCT-009**. Invoice dates for the additional panel and flooring works
+are still unknown and both currently carry 06-09-2026. **Needed from Farhan:** those
 details, and confirmation of the invoice dates — all three invoices are dated 06-09-2026 because
 no work date is on file, which for a project largely paid last year will read oddly to an auditor.
 
