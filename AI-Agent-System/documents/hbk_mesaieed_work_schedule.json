@@ -25,19 +25,20 @@
   "basis": [
     "Day 0 is the date on which the 15% advance payment is released by HBK-BWTC-BEIL JV. Every working day below is counted forward from that date.",
     "Working week: Saturday to Thursday, six working days. Fridays and State of Qatar public holidays are excluded from every duration shown.",
-    "Practical completion falls on Working Day 36 — twenty-four working days, or four working weeks, after delivery of materials to site. This is consistent with quotation DCTS/QT/SQ0005/2026, which states completion within 03–04 working weeks from the date of delivery, subject to site clearance. Handover, training and the taking-over certificate follow to Working Day 40.",
-    "Insulated sandwich panel availability is 03–04 working days from release of the advance, per the same quotation: the panel order is released on Day 5 and the material is available ex-works on Day 9."
+    "Materials are procured and delivered in two releases, each matched to a payment stage. The 15% advance releases the insulated sandwich panels only. The 45% payment, due on delivery of those panels on Working Day 12, releases the refrigeration plant, sliding doors, racking and remaining materials, which reach site on Working Day 20. Panel erection proceeds from Working Day 13 while the second release is in production.",
+    "Practical completion falls on Working Day 36 — twenty-four working days, or four working weeks, after delivery of the sandwich panels to site. This is consistent with quotation DCTS/QT/SQ0005/2026, which states completion within 03–04 working weeks from the date of delivery, subject to site clearance. Handover, training and the taking-over certificate follow to Working Day 40.",
+    "Insulated sandwich panel availability is 03–04 working days from release of the advance, per the same quotation: the panel order is placed on Day 5 and the material is available ex-works on Day 9."
   ],
 
   "milestones": [
-    { "day": 4,  "event": "15% advance payment released — HOLD POINT, the programme starts here", "resp": "HBK-BWTC-BEIL JV" },
+    { "day": 4,  "event": "15% advance payment released; sandwich panel order placed — HOLD POINT, the programme starts here", "resp": "HBK-BWTC-BEIL JV" },
     { "day": 9,  "event": "Insulated sandwich panels available ex-works", "resp": "TNDK" },
     { "day": 10, "event": "Site cleared and unobstructed access released to TNDK — HOLD POINT", "resp": "HBK-BWTC-BEIL JV" },
-    { "day": 12, "event": "All materials delivered to Mesaieed site; joint inspection and offloading complete", "resp": "TNDK / Client" },
+    { "day": 12, "event": "Sandwich panels delivered to site and jointly inspected; 45% payment falls due, releasing the refrigeration plant and remaining materials — HOLD POINT", "resp": "HBK-BWTC-BEIL JV" },
     { "day": 15, "event": "Consultant approval of shop drawings, third-party verified design calculations and method statements — HOLD POINT", "resp": "Consultant" },
-    { "day": 20, "event": "Wall panel erection complete", "resp": "TNDK" },
-    { "day": 28, "event": "Refrigeration piping, electrical and control wiring complete", "resp": "TNDK" },
-    { "day": 30, "event": "Installation complete; system ready for testing", "resp": "TNDK" },
+    { "day": 20, "event": "Wall and ceiling panel erection complete; refrigeration plant and remaining materials delivered to site", "resp": "TNDK" },
+    { "day": 24, "event": "Panel erection complete including sliding doors", "resp": "TNDK" },
+    { "day": 30, "event": "Installation complete; system ready for testing; 20% payment falls due", "resp": "TNDK" },
     { "day": 36, "event": "Client-witnessed commissioning; PRACTICAL COMPLETION — HOLD POINT", "resp": "TNDK / Client" },
     { "day": 40, "event": "Handover, taking-over certificate; two-year comprehensive AMC commences", "resp": "TNDK / Client" }
   ],
@@ -58,32 +59,35 @@
     },
     {
       "key": "2",
-      "title": "PROCUREMENT, FABRICATION AND DELIVERY TO SITE",
+      "title": "PROCUREMENT AND STAGED DELIVERY TO SITE",
       "activities": [
-        { "id": "2.1", "description": "Purchase orders released against the advance — panels, doors, refrigeration plant, electrical", "duration": 1, "start": 5, "resp": "TNDK", "pred": "1.2", "critical": true },
+        { "id": "2.1", "description": "FIRST RELEASE — sandwich panel purchase order placed against the 15% advance payment", "duration": 1, "start": 5, "resp": "TNDK", "pred": "1.2", "critical": true },
         { "id": "2.2", "description": "Insulated sandwich panel fabrication and ex-works availability (03–04 working days)", "duration": 4, "start": 6, "resp": "TNDK / Supplier", "pred": "2.1", "critical": true },
-        { "id": "2.3", "description": "Condensing units — 4 nos BITZER 4GE-23Y on N+1 configuration — and evaporator units", "duration": 5, "start": 6, "resp": "TNDK", "pred": "2.1" },
-        { "id": "2.4", "description": "Sliding doors 2 nos 2000 × 2500 mm, racking 11 sets, ionisation units, auto-dialer", "duration": 5, "start": 6, "resp": "TNDK", "pred": "2.1" },
-        { "id": "2.5", "description": "Refrigeration piping, insulation, valves, controls, control panel and electrical materials", "duration": 5, "start": 6, "resp": "TNDK", "pred": "2.1" },
-        { "id": "2.6", "description": "Site clearance, unobstructed access and secure storage area released to TNDK", "duration": 6, "start": 5, "resp": "HBK-BWTC-BEIL JV", "pred": "—", "hold": true },
-        { "id": "2.7", "description": "Delivery of all materials to Mesaieed site; joint inspection and offloading", "duration": 2, "start": 11, "resp": "TNDK / Client", "pred": "2.2, 2.3, 2.4, 2.5", "critical": true }
+        { "id": "2.3", "description": "Site clearance, unobstructed access and secure storage area released to TNDK", "duration": 6, "start": 5, "resp": "HBK-BWTC-BEIL JV", "pred": "—", "hold": true },
+        { "id": "2.4", "description": "Delivery of insulated sandwich panels to Mesaieed site; joint inspection and offloading", "duration": 2, "start": 11, "resp": "TNDK / Client", "pred": "2.2", "critical": true },
+        { "id": "2.5", "description": "Release of the 45% payment on delivery of the sandwich panels", "duration": 1, "start": 12, "resp": "HBK-BWTC-BEIL JV", "pred": "2.4", "overlap": true, "hold": true, "critical": true },
+        { "id": "2.6", "description": "SECOND RELEASE — purchase orders placed for refrigeration plant, doors, racking and remaining materials", "duration": 1, "start": 13, "resp": "TNDK", "pred": "2.5", "critical": true },
+        { "id": "2.7", "description": "Condensing units — 4 nos BITZER 4GE-23Y on N+1 configuration — and evaporator units", "duration": 5, "start": 14, "resp": "TNDK", "pred": "2.6", "critical": true },
+        { "id": "2.8", "description": "Sliding doors 2 nos 2000 × 2500 mm, racking 11 sets, ionisation units, auto-dialer", "duration": 5, "start": 14, "resp": "TNDK", "pred": "2.6" },
+        { "id": "2.9", "description": "Refrigeration piping, insulation, valves, controls, control panel and electrical materials", "duration": 5, "start": 14, "resp": "TNDK", "pred": "2.6" },
+        { "id": "2.10", "description": "Delivery of refrigeration plant and remaining materials to site; joint inspection and offloading", "duration": 2, "start": 19, "resp": "TNDK / Client", "pred": "2.7, 2.8, 2.9", "critical": true }
       ]
     },
     {
       "key": "3",
       "title": "INSTALLATION",
       "activities": [
-        { "id": "3.1", "description": "Setting out; verification of slab level, flatness and vapour barrier before panel work", "duration": 2, "start": 13, "resp": "TNDK", "pred": "2.6, 2.7", "critical": true },
+        { "id": "3.1", "description": "Setting out; verification of slab level, flatness and vapour barrier before panel work", "duration": 2, "start": 13, "resp": "TNDK", "pred": "2.3, 2.4", "critical": true },
         { "id": "3.2", "description": "Base channel fixing and floor panel laying", "duration": 2, "start": 15, "resp": "TNDK", "pred": "3.1", "critical": true },
         { "id": "3.3", "description": "Wall panel erection, corner sections and structural fixing", "duration": 4, "start": 17, "resp": "TNDK", "pred": "3.2, 1.7", "critical": true },
         { "id": "3.4", "description": "Ceiling panel erection and suspension supports", "duration": 3, "start": 20, "resp": "TNDK", "pred": "3.3", "overlap": true, "critical": true },
-        { "id": "3.5", "description": "Sliding doors 2 nos, frames, heaters and hardware", "duration": 2, "start": 23, "resp": "TNDK", "pred": "3.4" },
-        { "id": "3.6", "description": "Condensing unit placement, mounting and vibration isolation (4 nos, N+1)", "duration": 3, "start": 21, "resp": "TNDK", "pred": "3.3" },
-        { "id": "3.7", "description": "Evaporator mounting, supports and condensate drain lines", "duration": 3, "start": 23, "resp": "TNDK", "pred": "3.4" },
+        { "id": "3.5", "description": "Sliding doors 2 nos, frames, heaters and hardware", "duration": 2, "start": 23, "resp": "TNDK", "pred": "3.4, 2.10" },
+        { "id": "3.6", "description": "Condensing unit placement, mounting and vibration isolation (4 nos, N+1)", "duration": 3, "start": 21, "resp": "TNDK", "pred": "3.3, 2.10", "critical": true },
+        { "id": "3.7", "description": "Evaporator mounting, supports and condensate drain lines", "duration": 3, "start": 23, "resp": "TNDK", "pred": "3.4, 2.10" },
         { "id": "3.8", "description": "Refrigeration piping, brazing under nitrogen purge, valves and pipe insulation", "duration": 5, "start": 24, "resp": "TNDK", "pred": "3.6, 3.7", "overlap": true, "critical": true },
-        { "id": "3.9", "description": "Electrical containment, power and control wiring, control panel installation", "duration": 4, "start": 25, "resp": "TNDK", "pred": "3.6" },
+        { "id": "3.9", "description": "Electrical containment, power and control wiring, control panel installation", "duration": 4, "start": 25, "resp": "TNDK", "pred": "3.6, 2.10" },
         { "id": "3.10", "description": "Ionisation units and auto-dialer installation, wiring and configuration", "duration": 2, "start": 27, "resp": "TNDK", "pred": "3.9", "overlap": true },
-        { "id": "3.11", "description": "Racking installation and levelling, 11 sets", "duration": 3, "start": 26, "resp": "TNDK", "pred": "3.5" },
+        { "id": "3.11", "description": "Racking installation and levelling, 11 sets", "duration": 3, "start": 26, "resp": "TNDK", "pred": "3.5, 2.10" },
         { "id": "3.12", "description": "Silicone sealing, flashing, kerbs, floor finishing and making good", "duration": 2, "start": 29, "resp": "TNDK", "pred": "3.3, 3.4, 3.5", "critical": true }
       ]
     },
@@ -112,14 +116,15 @@
   ],
 
   "payments": [
-    { "percent": 15, "trigger": "Advance payment on award", "day": "Day 4" },
-    { "percent": 45, "trigger": "After delivery of materials to site and joint inspection", "day": "Day 12" },
-    { "percent": 20, "trigger": "On completion of installation", "day": "Day 30" },
+    { "percent": 15, "trigger": "Advance payment on award — releases the insulated sandwich panel order", "day": "Day 4" },
+    { "percent": 45, "trigger": "On delivery of the insulated sandwich panels to site — releases the refrigeration plant, doors, racking and remaining materials", "day": "Day 12" },
+    { "percent": 20, "trigger": "On completion of panel erection and mechanical installation", "day": "Day 30" },
     { "percent": 20, "trigger": "After testing, commissioning and handover", "day": "Day 40" }
   ],
 
   "client_obligations": [
-    "Release of the 15% advance payment by Working Day 4. This is the gate on the whole programme: a day lost here is a day added to completion.",
+    "Release of the 15% advance payment by Working Day 4. This is the gate on the whole programme: the sandwich panel order is placed against it, and a day lost here is a day added to completion.",
+    "Release of the 45% payment on delivery of the sandwich panels, Working Day 12. The refrigeration plant, sliding doors, racking and remaining materials are ordered against this payment and are required on site by Working Day 20. A day lost here is a day lost to the plant installation from Working Day 21 onward.",
     "Site clearance, unobstructed access to the cold room area and a secure, weatherproof storage area released to TNDK by Working Day 10.",
     "Concrete slab complete, cured and within ±5 mm over any 3 m, with the vapour barrier in place, before Working Day 13.",
     "Approval of shop drawings, third-party verified design calculations and method statements within five working days of submission — Working Day 15. Panel erection cannot begin ahead of this approval.",
@@ -134,6 +139,7 @@
     "Durations are stated in working days and the finish day of each activity is derived from its start and duration — no finish date is stated independently of the work it represents.",
     "Single shift, normal working hours. Night working, Friday working and public-holiday working are excluded, and are available on written instruction as a variation.",
     "The programme assumes continuous and unobstructed access to the cold room area throughout Phases 3 and 4, with no other trade occupying the space.",
+    "Procurement is staged against the payment schedule. The refrigeration plant and remaining materials are ordered only on release of the 45% payment and are required on site by Working Day 20 to support installation from Working Day 21. There is no float in that link: late release of the 45% payment moves every activity from Working Day 21 onward, day for day.",
     "Delay attributable to any item listed under Client / Main Contractor Obligations entitles TNDK to an extension of time equal to the delay, without cost consequence to TNDK.",
     "Interruption of site access, occupation of the cold room area by other trades, or a site-imposed shutdown operates as a day-for-day extension of the affected activity and of every activity that follows it.",
     "The programme assumes uninterrupted availability of refrigerant and of the specified BITZER compressors. A supply interruption at the manufacturer is outside TNDK's control and is dealt with as an extension of time.",
