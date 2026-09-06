@@ -32,6 +32,7 @@ else has a house default or is left as the master has it.
 | `qty` | no | `1` | number of identical rooms |
 | `panel_thickness` | no | `"100 mm"` | `"150 mm"` for freezers |
 | `floor_included` | no | `true` | `false` prints "Not included in scope" |
+| `panel_included` | no | `true` | `false` for an existing room being cooled — no walls, ceiling or floor counted, and the project table prints "Not applicable" for its thickness |
 | `glass_front` | no | `false` | `true` drops the front face from the wall panel area — for a display chiller closed by a glass door |
 
 **Dimensions should be strings.** JSON cannot hold the trailing zero in `2.40`,

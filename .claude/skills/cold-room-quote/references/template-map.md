@@ -75,6 +75,15 @@ matched by regex on their opening words:
 
 The other seven bullets are boilerplate and left alone.
 
+## Rooms that are cooled but not built
+
+A job may cool existing rooms — a kitchen, a hall — where TNDK supplies only a
+condensing unit and evaporator. `panel_included: false` keeps such a room in
+the project table and in the volume total, so the machine selection reads
+sensibly, while contributing nothing to the panel, ceiling or floor areas.
+When exactly one room in a multi-room quote is panelled, the panel table shows
+that room's arithmetic rather than an "(all rooms)" total.
+
 ## The schematic
 
 Section 6 closes with a small refrigeration schematic, sized 2.34 × 1.52 in in

@@ -192,9 +192,13 @@ def room_quantities(room):
     qty = int(room.get("qty", 1))
     # a glazed front (a display chiller closed by a glass door) is not panel
     glazed = bool(room.get("glass_front"))
-    walls = (2 * (L * H) + 2 * (W * H) - (L * H if glazed else 0)) * qty
-    ceiling = L * W * qty
-    floor = L * W * qty if room.get("floor_included", True) else 0.0
+    # an existing room being cooled carries no panel at all — only its volume
+    # counts, for sizing the machine
+    panelled = room.get("panel_included", True)
+    walls = ((2 * (L * H) + 2 * (W * H) - (L * H if glazed else 0)) * qty
+             if panelled else 0.0)
+    ceiling = L * W * qty if panelled else 0.0
+    floor = (L * W * qty if panelled and room.get("floor_included", True) else 0.0)
     volume = L * W * H * qty
     return {
         "L": L, "W": W, "H": H, "qty": qty,
@@ -202,7 +206,7 @@ def room_quantities(room):
         "walls": walls, "ceiling": ceiling, "floor": floor,
         "total_panel": walls + ceiling + floor,
         "volume": volume,
-        "glazed": glazed,
+        "glazed": glazed, "panelled": panelled,
         "wall_expr": (f"({dL} × {dH}) + 2 × ({dW} × {dH})" if glazed
                       else f"2 × ({dL} × {dH}) + 2 × ({dW} × {dH})"),
         "area_expr": f"{dL} × {dW}",
@@ -263,14 +267,16 @@ def fill_project_table(doc, spec, qs):
         set_cell(cells[1], str(q["qty"]))
         set_cell(cells[2], room["temperature"])
         set_cell(cells[3], q["dims"])
-        set_cell(cells[4], room.get("panel_thickness", "100 mm"))
+        set_cell(cells[4], room.get("panel_thickness", "100 mm")
+                 if room.get("panel_included", True) else "Not applicable")
 
 
 def fill_panel_section(doc, spec, qs, tot):
     t = find_table(doc, "Panel Type", "Wall Coverage")
     set_row(t, "Panel Thickness", thickness_label(spec))
-    if len(qs) == 1:
-        q = qs[0]
+    panelled = [q for q in qs if q["panelled"]]
+    if len(panelled) == 1:
+        q = panelled[0]
         wall_note = " — front face glazed (glass door)" if q["glazed"] else ""
         set_row(t, "Wall Coverage",
                 multiplied(q, q["wall_expr"], q["walls"]) + wall_note)
@@ -558,14 +564,21 @@ def fill_refrigeration_section(doc, spec):
 
 
 def operating_temp(spec):
-    """'0°C to +8°C (Chiller)', or one clause per room when they differ."""
-    parts, seen = [], set()
+    """'0°C to +8°C (Chiller)', grouping rooms that share a temperature.
+
+    Six areas held at one temperature should read as a single clause naming
+    them all, not as six near-identical clauses.
+    """
+    order, groups = [], {}
     for room in spec["rooms"]:
-        clause = f"{room['temperature']} ({room['type'].title()})"
-        if clause not in seen:
-            seen.add(clause)
-            parts.append(clause)
-    return " / ".join(parts)
+        temp = room["temperature"]
+        if temp not in groups:
+            groups[temp] = []
+            order.append(temp)
+        name = room["type"].title()
+        if name not in groups[temp]:
+            groups[temp].append(name)
+    return " / ".join(f"{t} ({', '.join(groups[t])})" for t in order)
 
 
 def room_labels(spec):
@@ -589,6 +602,8 @@ def thickness_label(spec):
     """'100 mm', or '100 / 150 mm' when rooms use different panels."""
     seen = []
     for room in spec["rooms"]:
+        if not room.get("panel_included", True):
+            continue
         t = str(room.get("panel_thickness", "100 mm")).strip()
         if t not in seen:
             seen.append(t)
