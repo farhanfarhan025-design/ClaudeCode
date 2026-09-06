@@ -9,6 +9,59 @@ Anything awaiting someone. Every entry has an owner and a date. Closed loops mov
 
 ## 🔴 Blocking — resolve before related work proceeds
 
+### OL-046 — Stop n Shop: the freezer may be selected below its own heat load
+**Owner:** Farhan · **Raised:** 2026-08-30 · **Source:** QUT/DCTS/SQ076/2026 §5, §6 and BOQ item 4
+
+Section 6 of the quotation states the estimated heat load as **3.90 kW** and the selected capacity
+as **3.17 kW**. The BOQ then prices **3.19 kW**. A selection 18% below the stated load will not
+hold −18 °C to −22 °C at 46 °C ambient; it will run continuously and still drift.
+
+The same section names **Copeland USA** as the selected machine while §5 names **BITZER Germany
+LH64/4FES-3Y**. One document, two manufacturers and three capacity figures.
+
+The room is installed, commissioned and handed over. **Needed:** the actual nameplate of the unit
+fitted, and its capacity at the design condition. If it is genuinely below the load, the callback
+comes in the first hot month and the 12 month warranty is live until 30-08-2027.
+
+### OL-047 — Stop n Shop: the "chiller" is a ventilated room, sold with a temperature
+**Owner:** Farhan · **Raised:** 2026-08-30 · **Source:** QUT/DCTS/SQ076/2026 §5, §6, BOQ item 4
+
+The chiller room carries a stated temperature of **+12 °C to +15 °C**, but it has no refrigeration:
+the scope is one supply fan and one exhaust fan with dampers and ducting. Ventilation cannot hold a
+room below ambient. In Doha the room will sit at or above outside air temperature for most of the
+year, and the quotation reads as a promise that it will not.
+
+The handover certificate and the warranty certificate issued 30-08-2026 both state plainly that the
+chiller room is ventilated, not refrigerated, and that its condition follows the ambient — so the
+record is corrected going forward. **Needed:** confirmation the client understood this before they
+signed, because the quotation they approved says otherwise.
+
+### OL-048 — Stop n Shop: three internal contradictions in SQ076
+**Owner:** Farhan · **Raised:** 2026-08-30
+
+1. **Chequered plate thickness** — §4 flooring details says **3 mm** MS chequered plate; BOQ item 3
+   says **1.5 mm**. The two differ by a factor of two on 23.50 sqm of steel.
+2. **Panel quantity** — §3 lists walls 72.90 + ceiling 23.50 + floor 23.50 sqm and then totals it as
+   **95.1 sqm**. The rows sum to **119.90**, which is what scope item 2 states.
+3. **Validity** — the header says 15 days, §13.5 says 30 days.
+
+None of these changed the price, which is a lump sum. They matter because the client holds a
+document that contradicts itself, and on a warranty claim they will read the half that suits them.
+
+### OL-049 — Stop n Shop: 20,000 balance on a 90-day post-dated cheque
+**Owner:** COLLECT · **Raised:** 2026-08-30 · **Value:** QAR 20,000
+
+Terms are 25,000 advance and 20,000 balance by **PDC 90 days**. The advance is in — cheque 00006483,
+QNB, 26-08-2026. The job is complete, so the balance is earned today but not collectable until
+roughly **end of November 2026**. Chase the cheque itself into the office now; a 90-day PDC that has
+not been handed over is not a payment, it is a promise.
+
+**Also unrecorded:** there is no LPO on file for this project, only an approved quotation and the
+advance cheque. And the completion and commissioning date of **30-08-2026 was assumed** by me from
+the date Farhan reported the job finished; if the real dates differ, three documents carry the wrong
+date and the warranty period starts on the wrong day.
+
+
 ### OL-001 — Samoosa contract value — ⚠️ CLOSURE WITHDRAWN, see OL-019
 **Closed by:** Farhan · **Ruling:** `DECISIONS.md` D-008
 
@@ -685,6 +738,11 @@ Three documents were produced today and none has been appended to the log in Dri
   30-08-2026. 100% payment, 01 day. **Client name spelled as given by Farhan** — "Deiture"
   is unusual and no address or attention is on file; confirm the legal name before issue.
   Work completion of 01 day was assumed, not stated.
+- **QUT/DCTS/SQ076/2026** — Stop n Shop – Bin Omran, chiller + freezer cold room, 45,000,
+  issued 23-08-2026, approved. **SQ series, not the QUT/DCTS/2xx series** — see OL-018.
+- **INV-266/2026** — Stop n Shop final invoice, balance 20,000 of 45,000, issued 30-08-2026.
+- **HO/DCTS/SQ076/2026** — Stop n Shop handover certificate, 30-08-2026.
+- **LTR/DCTS/227/2026** — Stop n Shop warranty certificate, 30-08-2026.
 - **WO/DCTS/001/2026** — Al Zehrabi work order, 18-08-2026. **Opens a new series**; the log has
   no work-order column yet.
 - **INV-263/2026** — Al Zehrabi, **4,900 in full**, issued 19-08-2026 (redrafted from an 80%

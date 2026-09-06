@@ -44,6 +44,7 @@ The shortfall is **exactly 5% of the 46,000 cold room contract**. Neither LPO ca
 retention clause, so this reads as a retention applied by the client's accounts rather than a
 keying error — see OL-027.
 | Drainage system replacement | Lean N Fit | QUT/DCTS/214/2026 | Cash | 1,200 | 1,200 | 0 — completed & paid 11-08-2026 |
+| Cold room — chiller + freezer | Stop n Shop – Bin Omran | QUT/DCTS/SQ076/2026 | Quote | 45,000 | 25,000 (cheque 00006483, QNB, 26-08-2026) | 20,000 — PDC 90 days |
 
 ## Receivables — as at 20 August 2026
 
@@ -54,6 +55,13 @@ keying error — see OL-027.
 | **Total receivable** | **595,400.00** |
 | — invoiced and awaiting payment | 17,950.00 |
 | — contracted, not yet invoiced | 577,450.00 |
+
+**Updated 30-08-2026 — Stop n Shop added.** A new completed contract: Stop n Shop – Bin Omran,
+45,000, of which 25,000 was received by cheque on 26-08-2026. The job is finished, handed over
+and finally invoiced under INV-266/2026; the **20,000 balance is on a 90-day post-dated cheque**
+and is not collectable until roughly end November 2026 (OL-049). Invoiced and unpaid therefore
+becomes **37,950**: Oscar Prime 10,750, Al Zahrawi INV-263 4,900, Sunrise INV-262 2,300, Stop n
+Shop INV-266 20,000.
 
 **Updated 29-08-2026.** Oscar Prime has paid 64,250 of 75,000 and the job is complete; the
 remaining 10,750 is invoiced under INV-265. Invoiced and unpaid: Oscar Prime 10,750, Al Zehrabi
@@ -216,7 +224,7 @@ The larger of the two has collected nothing.
 
 | Series | Next free |
 |---|---|
-| Invoice | INV-266/2026 — 261 cancelled, 264/265 Oscar Prime, none yet in the log |
+| Invoice | next after INV-266/2026 (Stop n Shop final) — 261 cancelled, 263 Al Zahrawi, 264/265 Oscar Prime, none yet in the log |
 | Receipt | RCT-257/2026 |
 | Quotation | next after QUT/DCTS/228/2026, plus the SQ038 / SQ074 series — see OL-018 |
 | Delivery note | DN-252/2026 |
