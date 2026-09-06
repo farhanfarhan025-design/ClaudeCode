@@ -30,21 +30,26 @@ storage project only. On that reading the 15,000 electrical work is a separate j
 seeing it billed as extra scope: *"Don't add electrical work as additional. It is included in the
 cold room price."*
 
-**Settled position, third and final revision 06-09-2026.** Farhan then said the work actually
-done for that 15,000 was **additional shifting of the sandwich panel**, and asked for its own
-invoice and receipt. So it is a **separate job**, not part of the cold storage account:
+**SETTLED 06-09-2026, after four passes.** Farhan's final word: *"Panel shifting work is
+different."* So voucher 0095 is what it says on its face — **electrical work at Street 36** — and
+the panel shifting is a separate job with no voucher and no price yet.
 
-- **DCTS-INV-006/2026** — additional sandwich panel shifting, Street 36, **15,000**, dated
-  04-07-2026, settled in full.
-- **DCTS-RCT-012/2026** — reissued against that invoice, same voucher 0095, same 15,000. The
-  number was reused deliberately: one payment, one receipt, now correctly allocated.
-- Cold storage returns to **1,103,286 · received 1,058,000 · balance 45,286 · 95.9%**.
+**Cold storage account, final:** the 15,000 is a **payment** against the 1,103,286 contract,
+receipted under **DCTS-RCT-012/2026**. The electrical work is inside the cold room price, so it is
+not separately invoiced.
 
-**The 15,000 moved three times in one day** — into the statement as extra scope, then to a payment
-against the contract, then out to its own job. Each move changed the client-facing balance by
-15,000. The voucher says *"Electrical work Street-36"*; the invoice now says panel shifting.
-**Needed:** confirm which description is right before the pack goes to the client, because the
-voucher and the invoice do not agree and the client holds the voucher.
+- Project value **1,103,286** · received **1,073,000** · **balance 30,286** · 97.3% settled.
+
+**The 15,000 was moved four times in one afternoon** — extra scope on the statement, then a payment
+against the contract, then its own job, then back to a payment. Each move changed the client-facing
+balance by 15,000. The lesson is on the process, not the arithmetic: **no client-facing balance
+should be rebuilt on a verbal scope description without the voucher wording being read first.**
+Voucher 0095 said "electrical work" throughout and was right throughout.
+
+**STILL OPEN — the panel shifting job has no price.** The work is done. **DCTS-INV-006/2026 is
+reserved for it and has not been issued.** Needed from Farhan: the agreed value, and whether it has
+been paid. Until then it is completed work with no invoice, no receipt and no entry in the order
+book.
 
 **This is the outcome the loop was opened to catch.** Before the vouchers arrived, the statement
 claimed **45,286**. The 15,000 had been collected and never credited, so the client was being
