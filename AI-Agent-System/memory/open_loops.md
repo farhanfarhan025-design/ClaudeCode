@@ -32,9 +32,22 @@ all** against the 1,103,286, and of the eleven payments only two are identified 
 (23.04.2026) and cash voucher 1347 (17.05.2026). The other nine are listed as "Cheque Payment" or
 "Cash Receipt" with no number and, for six of them, no date.
 
-Two of the eleven can be evidenced on demand. **Needed:** the voucher numbers and dates for the
-remaining nine, and the invoice numbers behind the project value, before anything is sent to the
-client. A statement the client cannot tie to documents invites the balance being disputed.
+Two of the eleven can be evidenced on demand. **Actioned 06-09-2026 — Farhan asked for the full set, so it was built.** Three invoices
+(DCTS-INV-001 to 003/2026) covering the 1,103,286, and eleven receipts (DCTS-RCT-001 to 011/2026)
+covering the 1,058,000, all on Doha Cooling letterhead in house format, plus the statement
+cross-referencing every line to one of them. Two new numbering series were opened for Doha Cooling,
+which had none.
+
+**Nothing was invented.** Every cheque number, bank and date the records do not carry is rendered
+as a blank rule on the receipt, and a note on each receipt says it is to be completed from the
+cheque and voucher books before hand-over. **Eight of the eleven receipts still need dates**, and
+three of those also need cheque numbers and the drawn-on bank. **Needed from Farhan:** those
+details, and confirmation of the invoice dates — all three invoices are dated 06-09-2026 because
+no work date is on file, which for a project largely paid last year will read oddly to an auditor.
+
+**Duplication risk:** DCTS-RCT-011/2026 covers the same 25,000 as pre-printed voucher 1347. The
+receipt cross-references the voucher number, but the client now holds two documents for one
+payment. Same applies to any of the other ten already receipted on that book.
 
 ### OL-052 — Orient Agro: statement is Doha Cooling, payment instruction is TNDK
 **Owner:** Farhan · **Raised:** 2026-09-06 · **Related:** OL-026, D-011

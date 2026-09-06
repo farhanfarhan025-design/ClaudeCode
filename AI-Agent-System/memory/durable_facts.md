@@ -235,6 +235,8 @@ The larger of the two has collected nothing.
 | Invoice | next after INV-266/2026 (Stop n Shop final) — 261 cancelled, 263 Al Zahrawi, 264/265 Oscar Prime, none yet in the log |
 | Receipt | RCT-257/2026 |
 | Quotation | next after QUT/DCTS/228/2026, plus the SQ038 / SQ074 series — see OL-018 |
+| Doha Cooling invoice | **new series opened 06-09-2026** — DCTS-INV-001 to 003/2026 (Orient Agro). Doha Cooling had no invoice series before this |
+| Doha Cooling receipt | **new series opened 06-09-2026** — DCTS-RCT-001 to 011/2026 (Orient Agro). Runs alongside the pre-printed voucher book, which reached no. 1347 on 17-05-2026 |
 | Delivery note | DN-252/2026 |
 | LPO | LPO-202/2026 — 195 and 197 cancelled, 196/198/199/201 Oscar Prime, 200 Doha Controls |
 
