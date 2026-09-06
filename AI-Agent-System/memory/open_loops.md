@@ -30,11 +30,21 @@ storage project only. On that reading the 15,000 electrical work is a separate j
 seeing it billed as extra scope: *"Don't add electrical work as additional. It is included in the
 cold room price."*
 
-**Settled position.** The electrical work at Street 36 is **inside the 1,103,286 contract**, so it
-is **not separately invoiced**. The 15,000 is a **payment** against that contract, receipted under
-**DCTS-RCT-012/2026** against voucher 0095. DCTS-INV-004/2026 was withdrawn before issue.
+**Settled position, third and final revision 06-09-2026.** Farhan then said the work actually
+done for that 15,000 was **additional shifting of the sandwich panel**, and asked for its own
+invoice and receipt. So it is a **separate job**, not part of the cold storage account:
 
-- Project value **1,103,286** · received **1,073,000** · **balance 30,286** · 97.3% settled.
+- **DCTS-INV-006/2026** — additional sandwich panel shifting, Street 36, **15,000**, dated
+  04-07-2026, settled in full.
+- **DCTS-RCT-012/2026** — reissued against that invoice, same voucher 0095, same 15,000. The
+  number was reused deliberately: one payment, one receipt, now correctly allocated.
+- Cold storage returns to **1,103,286 · received 1,058,000 · balance 45,286 · 95.9%**.
+
+**The 15,000 moved three times in one day** — into the statement as extra scope, then to a payment
+against the contract, then out to its own job. Each move changed the client-facing balance by
+15,000. The voucher says *"Electrical work Street-36"*; the invoice now says panel shifting.
+**Needed:** confirm which description is right before the pack goes to the client, because the
+voucher and the invoice do not agree and the client holds the voucher.
 
 **This is the outcome the loop was opened to catch.** Before the vouchers arrived, the statement
 claimed **45,286**. The 15,000 had been collected and never credited, so the client was being
