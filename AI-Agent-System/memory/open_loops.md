@@ -905,6 +905,11 @@ Three documents were produced today and none has been appended to the log in Dri
 - **INV-266/2026** — Stop n Shop final invoice, balance 20,000 of 45,000, issued 30-08-2026.
 - **HO/DCTS/SQ076/2026** — Stop n Shop handover certificate, 30-08-2026.
 - **LTR/DCTS/227/2026** — Stop n Shop warranty certificate, 30-08-2026.
+- **QUT/DCTS/229/2026** — Remote Site Middle East, cold room flooring plus panel replacement,
+  **21,150** (22,000 less an 850 discount), issued 06-09-2026. **Supersedes QUT/DCTS/223/2026**
+  (22,000, 19-08-2026), which supersedes QUT/DCTS/215/2026 (9,650, 08-08-2026). Both earlier
+  offers withdrawn. Scope unchanged from 223 — price only. Third issue of the same job; if it
+  is discounted again, ask what the client is actually pushing back on.
 - **WO/DCTS/001/2026** — Al Zehrabi work order, 18-08-2026. **Opens a new series**; the log has
   no work-order column yet.
 - **INV-263/2026** — Al Zehrabi, **4,900 in full**, issued 19-08-2026 (redrafted from an 80%
