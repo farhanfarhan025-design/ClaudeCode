@@ -1,0 +1,60 @@
+{
+  "_note": "Letter of apology and commitment to HBK-BWTC-BEIL JV following missed calls and late issue of drawings/details. Two dates are commitments Farhan must be able to keep: submittals by Thursday 17 September 2026 and the first weekly report on Sunday 13 September 2026 — change them if they are not achievable, because a second missed date costs more than the first. The recovery undertaking (absorbing the lost days without claiming an extension of time) is a real concession; it is worded to cover the days lost to TNDK's own submittal delay only, not delay from any other cause. Reference opens a project correspondence series; confirm before the numbering log records it.",
+  "filename": "TNDK-COR-HBK-001-2026 Letter of Commitment - Mesaieed Cold Room",
+  "reference": "TNDK/COR/HBK/001/2026",
+  "date": "7 September 2026",
+  "compact": true,
+  "badge": [
+    "PROJECT",
+    "CORRESPONDENCE"
+  ],
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "subtitle": "Division of Doha Cooling Trading & Solutions W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar",
+    "contact": "Tel 7706 0676 · farhan@dctsqatar.com"
+  },
+  "addressee": {
+    "name": "HBK-BWTC-BEIL JOINT VENTURE",
+    "lines": [
+      "Mesaieed Animal Waste Treatment Project",
+      "Mesaieed, State of Qatar"
+    ],
+    "attention": "The Project Manager"
+  },
+  "subject": "Animal Waste Cold Room, Mesaieed — LOA HBB000353-0 — Apology for Delay and Confirmation of Our Commitment",
+  "salutation": "Dear Sir,",
+  "body": [
+    "We write with reference to the above project and to the concerns your team has raised regarding our responsiveness over the past week. We accept those concerns without qualification. Several of your calls went unanswered, and the drawings and technical details we owed you were not issued when they should have been. That is not the standard you are entitled to expect from us, and we apologise sincerely and without excuse — the shortcoming was ours to prevent, and we did not prevent it. We would rather answer it with actions than with assurances, and the following measures are already in place:"
+  ],
+  "details": [
+    {
+      "label": "Single point of contact",
+      "value": "The undersigned, on +974 7706 0676. If unanswered, +974 7742 2762 and +974 3103 4912 reach our office directly during working hours. Every call is returned the same working day."
+    },
+    {
+      "label": "Outstanding submittals",
+      "value": "Shop drawings with fixing details, design calculations with third-party verification and stamping, method statements and material submittals — delivered to your office on or before Thursday, 17 September 2026."
+    },
+    {
+      "label": "Weekly reporting",
+      "value": "From Sunday, 13 September 2026, a written progress report every Sunday: work completed, work planned for the coming week, and anything we require from you."
+    },
+    {
+      "label": "Programme",
+      "value": "Our complete work schedule is enclosed, with every activity, its duration and the hold points on both sides. We are ready to sit with your planning engineer to agree it."
+    }
+  ],
+  "closing": [
+    "As to the time already lost through our late submittals, we will absorb it: we undertake to recover those days within the programme, at our own cost, and will not seek an extension of time on their account.",
+    "Our commitment to this project is total and unreserved. Confidence is repaid by performance rather than by correspondence, and we intend to earn yours back over the coming weeks."
+  ],
+  "enclosures": [
+    "Construction Work Schedule, Ref. WS/DCTS/HBB000353/2026 Rev.00"
+  ],
+  "valediction": "Yours faithfully,",
+  "signatory": {
+    "name": "FARHAN",
+    "role": "Sales Engineer"
+  }
+}

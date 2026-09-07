@@ -72,6 +72,20 @@ h1 { font-size: 13pt; font-weight: 700; color: #1F3864; text-align: center;
      letter-spacing: .14em; text-transform: uppercase; margin: 0 0 3mm; }
 .rule { width: 44mm; height: .9mm; background: #C9A24E; margin: 0 auto 6mm; }
 
+/* Correspondence block: addressee, attention line, subject. Certificates skip
+   all of it and go straight to the centred title. */
+.to { margin-bottom: 5mm; font-size: 10.5pt; }
+.to__label { font-weight: 700; color: #1F3864; }
+.to__name { font-weight: 700; }
+.to__line { color: #444; }
+.attn { margin-top: 1.5mm; }
+.subject { background: #D6E4F0; border-left: 1.4mm solid #1F3864; padding: 2.4mm 3.5mm;
+           margin: 0 0 5mm; font-weight: 700; color: #1F3864; font-size: 10.5pt; }
+.salutation { margin-bottom: 3.5mm; }
+.valediction { margin-top: 5mm; }
+.encl { margin-top: 5mm; font-size: 9.5pt; color: #444; break-inside: avoid; }
+.encl__label { font-weight: 700; color: #1F3864; margin-right: 2mm; }
+
 p { margin: 0 0 3.5mm; text-align: justify; }
 
 .details { width: 100%; border-collapse: collapse; margin: 5mm 0 5mm; }
@@ -81,8 +95,8 @@ p { margin: 0 0 3.5mm; text-align: justify; }
 
 .note { font-size: 9.5pt; color: #555; font-style: italic; margin-top: 4mm; }
 
-.sign { margin-top: 6mm; break-inside: avoid; }
-.sign__for { font-weight: 700; color: #1F3864; margin-bottom: 10mm; }
+.sign { margin-top: 4mm; break-inside: avoid; }
+.sign__for { font-weight: 700; color: #1F3864; margin-bottom: 8mm; }
 .sign__line { border-top: .3mm solid #1F3864; width: 68mm; padding-top: 2mm; }
 .sign__name { font-weight: 700; color: #1F3864; }
 .sign__role { font-size: 10pt; color: #555; }
@@ -108,6 +122,32 @@ def render(spec: dict) -> str:
     note = f'<p class="note">{esc(spec["note"])}</p>' if spec.get("note") else ""
     badge = spec.get("badge", ["", ""])
 
+    # A letter addressed to someone gets a To block, a subject and a salutation;
+    # a certificate addressed to no one gets the centred title alone.
+    to = spec.get("addressee")
+    to_block = ""
+    if to:
+        lines = "".join(f'<div class="to__line">{esc(l)}</div>' for l in to.get("lines", []))
+        attn = (f'<div class="attn"><span class="to__label">Attention:</span> '
+                f'{esc(to["attention"])}</div>') if to.get("attention") else ""
+        to_block = (f'<div class="to"><div class="to__label">To:</div>'
+                    f'<div class="to__name">{esc(to.get("name",""))}</div>'
+                    f'{lines}{attn}</div>')
+    subject = f'<div class="subject">Subject: {esc(spec["subject"])}</div>' if spec.get("subject") else ""
+    salutation = f'<p class="salutation">{esc(spec["salutation"])}</p>' if spec.get("salutation") else ""
+    heading = "" if to else (f'<h1>{esc(spec.get("title","To Whom It May Concern"))}</h1>'
+                             f'<div class="rule"></div>')
+    valediction = (f'<p class="valediction">{esc(spec["valediction"])}</p>'
+                   if spec.get("valediction") else "")
+    # Enclosures are listed under the signature, where a recipient checks them
+    # against what actually arrived in the envelope — not before the sign-off.
+    encl = spec.get("enclosures") or []
+    enclosures = ""
+    if encl:
+        items = "".join(f"<div>{esc(e)}</div>" for e in encl)
+        enclosures = (f'<div class="encl"><span class="encl__label">'
+                      f'{"Enclosures:" if len(encl) > 1 else "Enclosure:"}</span>{items}</div>')
+
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <title>{esc(spec.get('reference',''))}</title><style>{CSS}</style></head><body>
 
@@ -126,13 +166,15 @@ def render(spec: dict) -> str:
   <span>Date: {esc(spec.get('date',''))}</span>
 </div>
 
-<h1>{esc(spec.get('title','To Whom It May Concern'))}</h1>
-<div class="rule"></div>
-
+{to_block}
+{heading}
+{subject}
+{salutation}
 {body}
 {details}
 {closing}
 {note}
+{valediction}
 
 <div class="sign">
   <div class="sign__for">For {esc(c.get('name','THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.'))}</div>
@@ -142,6 +184,7 @@ def render(spec: dict) -> str:
   </div>
   <div class="stamp">Company Stamp</div>
 </div>
+{enclosures}
 
 <div class="foot">{esc(c.get('address','P.O. Box 80247, Doha, State of Qatar'))}
   &nbsp;·&nbsp; Tel 7706 0676 &nbsp;·&nbsp; farhan@dctsqatar.com</div>
@@ -165,6 +208,28 @@ def main() -> int:
 
     spec = json.loads(args.spec.read_text())
     page = render(spec)
+    if spec.get("compact"):
+        # A certificate is half a page of text and can afford 10.5pt/1.5. A real
+        # letter — apology, commitments, sign-off — runs to 330mm at that size
+        # and breaks across two pages with a signature stranded alone on the
+        # second. Compact keeps it on one page without cutting what it says.
+        swaps = [
+            ("font-size: 10.5pt;\n       line-height: 1.5;",
+             "font-size: 10pt;\n       line-height: 1.42;"),
+            ("p { margin: 0 0 3.5mm;", "p { margin: 0 0 3mm;"),
+            (".details td { border: .25mm solid #BFC7D5; padding: 1.5mm 3mm; font-size: 10pt;",
+             ".details td { border: .25mm solid #BFC7D5; padding: 1.2mm 2.6mm; font-size: 9.5pt;"),
+            (".details { width: 100%; border-collapse: collapse; margin: 5mm 0 5mm; }",
+             ".details { width: 100%; border-collapse: collapse; margin: 4mm 0 4mm; }"),
+        ]
+        for old, new in swaps:
+            if old not in page:
+                # Silently skipping a swap would produce the two-page letter
+                # compact exists to prevent, and nothing would say so.
+                print(f"REFUSING TO BUILD: compact swap no longer matches the CSS: "
+                      f"{old.splitlines()[0]!r}", file=sys.stderr)
+                return 2
+            page = page.replace(old, new)
     text = re.sub(r"<[^>]+>", " ", page)
 
     found = {m.group(0).lower() for m in TAX_WORDS.finditer(text)}
