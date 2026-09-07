@@ -1,5 +1,5 @@
 {
-  "_note": "Letter of apology and commitment to HBK-BWTC-BEIL JV following missed calls and late issue of drawings/details. Two dates are commitments Farhan must be able to keep: submittals by Thursday 17 September 2026 and the first weekly report on Sunday 13 September 2026 — change them if they are not achievable, because a second missed date costs more than the first. The recovery undertaking (absorbing the lost days without claiming an extension of time) is a real concession; it is worded to cover the days lost to TNDK's own submittal delay only, not delay from any other cause. Reference opens a project correspondence series; confirm before the numbering log records it.",
+  "_note": "Letter of apology and commitment to HBK-BWTC-BEIL JV following missed calls and late issue of drawings/details. Shop drawings are submitted with this letter; the remaining submittals are promised for Thursday 17 September 2026 — change that date if it is not achievable, because a second missed date costs more than the first. The recovery undertaking (absorbing the lost days without claiming an extension of time) is a real concession; it is worded to cover the days lost to TNDK's own submittal delay only, not delay from any other cause. Office line 2 is +974 3114 7478, which supersedes the +974 3103 4912 recorded earlier. Reference opens a project correspondence series; confirm before the numbering log records it.",
   "filename": "TNDK-COR-HBK-001-2026 Letter of Commitment - Mesaieed Cold Room",
   "reference": "TNDK/COR/HBK/001/2026",
   "date": "7 September 2026",
@@ -30,11 +30,15 @@
   "details": [
     {
       "label": "Single point of contact",
-      "value": "The undersigned, on +974 7706 0676. If unanswered, +974 7742 2762 and +974 3103 4912 reach our office directly during working hours. Every call is returned the same working day."
+      "value": "The undersigned, on +974 7706 0676. If unanswered, +974 7742 2762 and +974 3114 7478 reach our office directly during working hours. Every call is returned the same working day."
     },
     {
-      "label": "Outstanding submittals",
-      "value": "Shop drawings with fixing details, design calculations with third-party verification and stamping, method statements and material submittals — delivered to your office on or before Thursday, 17 September 2026."
+      "label": "Shop drawings",
+      "value": "Submitted today, enclosed with this letter. We are at your engineer's disposal for any comment."
+    },
+    {
+      "label": "Remaining submittals",
+      "value": "Design calculations with third-party verification and stamping, method statements and material submittals — on or before Thursday, 17 September 2026."
     },
     {
       "label": "Weekly reporting",
@@ -50,7 +54,8 @@
     "Our commitment to this project is total and unreserved. Confidence is repaid by performance rather than by correspondence, and we intend to earn yours back over the coming weeks."
   ],
   "enclosures": [
-    "Construction Work Schedule, Ref. WS/DCTS/HBB000353/2026 Rev.00"
+    "1. Shop drawings with fixing details — Animal Waste Cold Room, Mesaieed",
+    "2. Construction Work Schedule, Ref. WS/DCTS/HBB000353/2026 Rev.00"
   ],
   "valediction": "Yours faithfully,",
   "signatory": {

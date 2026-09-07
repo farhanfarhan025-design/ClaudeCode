@@ -221,6 +221,10 @@ def main() -> int:
              ".details td { border: .25mm solid #BFC7D5; padding: 1.2mm 2.6mm; font-size: 9.5pt;"),
             (".details { width: 100%; border-collapse: collapse; margin: 5mm 0 5mm; }",
              ".details { width: 100%; border-collapse: collapse; margin: 4mm 0 4mm; }"),
+            (".encl { margin-top: 5mm;", ".encl { margin-top: 3.5mm;"),
+            (".stamp { font-size: 9pt; color: #6B7280; margin-top: 4mm; }",
+             ".stamp { font-size: 9pt; color: #6B7280; margin-top: 3mm; }"),
+            (".foot { margin-top: 6mm;", ".foot { margin-top: 4mm;"),
         ]
         for old, new in swaps:
             if old not in page:

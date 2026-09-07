@@ -107,7 +107,7 @@ client, so it is the version TNDK is held to.
 | Line | Number |
 |---|---|
 | Maintenance | +974 7742 2762 |
-| Maintenance (second) | +974 3103 4912 |
+| Maintenance (second) | +974 3114 7478 — corrected 7 Sep 2026; supersedes +974 3103 4912, which was issued to Sunrise on the handover report |
 | Sales Engineer | +974 7706 0676 |
 
 Source: Farhan, 10 Aug 2026. The Sales Engineer number is the 7706 0676 already carried on
