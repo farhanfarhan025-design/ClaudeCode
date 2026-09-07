@@ -22,7 +22,7 @@
     ],
     "attention": "The Project Manager"
   },
-  "subject": "Animal Waste Cold Room, Mesaieed — LOA HBB000353-0 — Apology for Delay and Confirmation of Our Commitment",
+  "subject": "Animal Waste Cold Room, Mesaieed — LOA HBB000353-0 — Apology and Confirmation of Commitment",
   "salutation": "Dear Sir,",
   "body": [
     "We write with reference to the above project and to the concerns your team has raised regarding our responsiveness over the past week. We accept those concerns without qualification. Several of your calls went unanswered, and the drawings and technical details we owed you were not issued when they should have been. That is not the standard you are entitled to expect from us, and we apologise sincerely and without excuse — the shortcoming was ours to prevent, and we did not prevent it. We would rather answer it with actions than with assurances, and the following measures are already in place:"
@@ -33,16 +33,12 @@
       "value": "The undersigned, on +974 7706 0676. If unanswered, +974 7742 2762 and +974 3114 7478 reach our office directly during working hours. Every call is returned the same working day."
     },
     {
-      "label": "Shop drawings",
-      "value": "Submitted today, enclosed with this letter. We are at your engineer's disposal for any comment."
-    },
-    {
-      "label": "Remaining submittals",
-      "value": "Design calculations with third-party verification and stamping, method statements and material submittals — on or before Thursday, 17 September 2026."
+      "label": "Submittals — complete",
+      "value": "Shop drawings with fixing details, stamped third-party verified design calculations, method statements and material submittals — all submitted today, as enclosed. Nothing remains outstanding on our side. We await your approval and are at your engineer's disposal for any clarification."
     },
     {
       "label": "Weekly reporting",
-      "value": "From Sunday, 13 September 2026, a written progress report every Sunday: work completed, work planned for the coming week, and anything we require from you."
+      "value": "From Sunday, 13 September 2026, a written progress report every Sunday: work done, the week ahead, and anything we require from you."
     },
     {
       "label": "Programme",
@@ -55,7 +51,8 @@
   ],
   "enclosures": [
     "1. Shop drawings with fixing details — Animal Waste Cold Room, Mesaieed",
-    "2. Construction Work Schedule, Ref. WS/DCTS/HBB000353/2026 Rev.00"
+    "2. Design calculations (third-party verified and stamped), method statements and material submittals",
+    "3. Construction Work Schedule, Ref. WS/DCTS/HBB000353/2026 Rev.00"
   ],
   "valediction": "Yours faithfully,",
   "signatory": {
