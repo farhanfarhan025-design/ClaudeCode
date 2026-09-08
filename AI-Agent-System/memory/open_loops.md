@@ -910,6 +910,12 @@ Three documents were produced today and none has been appended to the log in Dri
   (22,000, 19-08-2026), which supersedes QUT/DCTS/215/2026 (9,650, 08-08-2026). Both earlier
   offers withdrawn. Scope unchanged from 223 — price only. Third issue of the same job; if it
   is discounted again, ask what the client is actually pushing back on.
+- **QUT/DCTS/230/2026** — Punjab Restaurant, refrigeration maintenance: TECUMSEH (France)
+  condensing unit FHT4524ZHR-XC, expansion valve, orifice, gas charging and labour. Value
+  **6,100** less **750 gas charging already paid**, **net payable 5,350**. Issued 06-09-2026,
+  100% advance, 01 day. **The 750 was collected before any document existed** — no receipt is on
+  file for it, and it is not in the order book. Issue one, or the deduction on this quotation is
+  the only record that the money came in.
 - **WO/DCTS/001/2026** — Al Zehrabi work order, 18-08-2026. **Opens a new series**; the log has
   no work-order column yet.
 - **INV-263/2026** — Al Zehrabi, **4,900 in full**, issued 19-08-2026 (redrafted from an 80%
