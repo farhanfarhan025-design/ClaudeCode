@@ -170,7 +170,8 @@
     {
       "after": "Any item not specifically listed in the Scope of Work",
       "path": "/root/.claude/uploads/d0aedece-59e7-568a-b80d-391a8b0f2f9b/cef7882b-image.png",
-      "height_in": 2.8
+      "height_in": 2.8,
+      "space_before_in": 3.15
     }
   ]
 }

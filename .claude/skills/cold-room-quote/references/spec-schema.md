@@ -116,7 +116,7 @@ pins 3 mm in its own spec, so it still reproduces its source document.
 
 | Field | Effect |
 |---|---|
-| `images` | list of `{after, path, caption, height_in}` — inserts a photograph after the paragraph or table containing `after`, with an italic caption beneath |
+| `images` | list of `{after, path, caption, height_in, space_before_in}` — inserts a photograph after the paragraph or table containing `after`, with an italic caption beneath; `space_before_in` pushes it down the page, to sit it in the middle of a short section rather than tight under the last line |
 | `resize` | list of `{after, before, height_in}` — scales a master photograph found between those two pieces of text |
 | `replace` | list of `{after, before, path, height_in}` — swaps a master photograph for a supplied one, when the master's illustration contradicts what is quoted |
 | `remove` | list of `{after, before}` — deletes a master photograph outright, for when it contradicts the offer and there is nothing to swap in |

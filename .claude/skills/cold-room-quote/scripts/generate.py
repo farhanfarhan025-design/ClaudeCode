@@ -427,7 +427,9 @@ def insert_pictures(doc, spec):
 
     Each entry is {after, path, caption, height_in}: `after` is text inside the
     paragraph or table the picture should follow, so it keeps its place when
-    the rows above it change.
+    the rows above it change. `space_before_in` pushes it down the page — a
+    picture closing a short section otherwise sits tight under the last line
+    with the rest of the sheet blank beneath it.
     """
     from docx.shared import Inches, Pt
     from docx.enum.text import WD_ALIGN_PARAGRAPH
@@ -459,6 +461,8 @@ def insert_pictures(doc, spec):
         pic = doc.add_paragraph()
         pic.add_run().add_picture(str(path), height=Inches(item.get("height_in", 2.0)))
         pic.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        if item.get("space_before_in"):
+            pic.paragraph_format.space_before = Inches(item["space_before_in"])
         blocks.append(pic._p)
         # inserted in reverse so they end up in caption-under-picture order
         for block in blocks:
