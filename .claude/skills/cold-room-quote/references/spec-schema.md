@@ -49,6 +49,8 @@ Note the minus sign in freezer temperatures is U+2212 (`−`), matching the mast
 | `image` | — | path to a photo of the door being quoted; replaces the section 2 photograph, resized to the picture's aspect ratio |
 | `glass` | — | wording for a glass door: `thickness`, `frame`, `gasket`, `handle`, `hinges`, `hardware` |
 | `qty` | `1` | spelled out in scope and BOQ ("three (3) No.") |
+| `opening_text` | — | verbatim Clear Opening Size row, for a job with more than one door size |
+| `quantity_text` | — | verbatim Quantity row |
 | `width_mm` | `900` | clear opening |
 | `height_mm` | `1900` | clear opening |
 
@@ -109,6 +111,19 @@ the BOQ line — and this keeps them in step.
 
 The plate is **1.5 mm as standard**. The reference quotation predates that and
 pins 3 mm in its own spec, so it still reproduces its source document.
+
+## Extra pictures and row overrides
+
+| Field | Effect |
+|---|---|
+| `images` | list of `{after, path, caption, height_in}` — inserts a photograph after the paragraph or table containing `after`, with an italic caption beneath |
+| `resize` | list of `{after, before, height_in}` — scales a master photograph found between those two pieces of text |
+| `panel_rows` | `{row label: value}` written verbatim into the section 1 table |
+| `flooring_rows` | `{row label: value}` written verbatim into the section 4 table |
+
+Adding a picture to a section only works if something on that page gives up
+room, and the master's own section photograph is usually the thing with slack —
+so `images` and `resize` are generally used together.
 
 ## Optional overrides
 

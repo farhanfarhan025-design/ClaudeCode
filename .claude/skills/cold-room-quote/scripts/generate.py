@@ -298,16 +298,97 @@ def door_kind(spec):
     return str(spec.get("door", {}).get("type", "hinged")).strip().lower()
 
 
+def apply_row_overrides(doc, spec):
+    """Write verbatim values into named rows of the panel and flooring tables.
+
+    Some jobs describe a build-up the composed wording cannot express — a floor
+    insulated with XPS board rather than PUF panel, say — and the honest fix is
+    to state it rather than bend the calculation around it.
+    """
+    for key, lookup in (("panel_rows", "Panel Type"),
+                        ("flooring_rows", "Insulated Floor Panel")):
+        rows = spec.get(key)
+        if not rows:
+            continue
+        t = find_table(doc, lookup)
+        for label, value in rows.items():
+            try:
+                set_row(t, label, value)
+            except LookupError:
+                print(f"  ! {key}: row {label!r} not in the template — skipped",
+                      file=sys.stderr)
+
+
+def resize_pictures(doc, spec):
+    """Scale a master photograph named by the text around it.
+
+    Entries are {after, before, height_in}. Adding a picture to a section only
+    works if something on that page gives up room, and the master's own section
+    photograph is usually the thing with slack.
+    """
+    for item in spec.get("resize") or []:
+        para = _picture_between(doc, item["after"].upper(), item["before"].upper())
+        if para is None:
+            print(f"  ! resize: no picture between {item['after']!r} and "
+                  f"{item['before']!r} — skipped", file=sys.stderr)
+            continue
+        _scale_extent(para, item["height_in"])
+
+
+def insert_pictures(doc, spec):
+    """Drop extra photographs into the document after a named anchor.
+
+    Each entry is {after, path, caption, height_in}: `after` is text inside the
+    paragraph or table the picture should follow, so it keeps its place when
+    the rows above it change.
+    """
+    from docx.shared import Inches, Pt
+    from docx.enum.text import WD_ALIGN_PARAGRAPH
+    for item in spec.get("images") or []:
+        path = Path(item["path"])
+        if not path.is_file():
+            print(f"  ! image {path} not found — skipped", file=sys.stderr)
+            continue
+        anchor = item["after"].upper()
+        target = None
+        for child in doc.element.body.iterchildren():
+            text = "".join(t.text or "" for t in child.iter(qn("w:t"))).upper()
+            if anchor in text:
+                target = child
+                break
+        if target is None:
+            print(f"  ! anchor {item['after']!r} not found — image skipped",
+                  file=sys.stderr)
+            continue
+
+        blocks = []
+        if item.get("caption"):
+            cap = doc.add_paragraph()
+            run = cap.add_run(item["caption"])
+            run.italic = True
+            run.font.size = Pt(9)
+            cap.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            blocks.append(cap._p)
+        pic = doc.add_paragraph()
+        pic.add_run().add_picture(str(path), height=Inches(item.get("height_in", 2.0)))
+        pic.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        blocks.append(pic._p)
+        # inserted in reverse so they end up in caption-under-picture order
+        for block in blocks:
+            target.addnext(block)
+
+
 def fill_door_section(doc, spec):
     t = find_table(doc, "Door Type")
     door = spec.get("door", {})
     w = door.get("width_mm", 900)
     h = door.get("height_mm", 1900)
     kind = door_kind(spec)
-    set_row(t, "Clear Opening Size", f"{w} mm (W) × {h} mm (H)")
+    set_row(t, "Clear Opening Size",
+            door.get("opening_text") or f"{w} mm (W) × {h} mm (H)")
     if kind != "glass":
         set_row(t, "Door Thickness", f"{thickness_label(spec)} — matching wall panel")
-    set_row(t, "Quantity", str(door.get("qty", 1)))
+    set_row(t, "Quantity", door.get("quantity_text") or str(door.get("qty", 1)))
     if kind == "glass":
         glass = door.get("glass", {})
         set_row(t, "Door Type", "Frameless Glass Cold Room Door")
@@ -1090,6 +1171,9 @@ def generate(spec, output):
     fit_project_banner(doc, spec)
     fit_pricing_banner(doc, spec)
     fit_control_panel(doc, spec)
+    apply_row_overrides(doc, spec)
+    resize_pictures(doc, spec)
+    insert_pictures(doc, spec)
     tighten_lists(doc, spec)
 
     doc.save(output)
