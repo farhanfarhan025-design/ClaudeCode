@@ -299,14 +299,21 @@ def door_kind(spec):
 
 
 def apply_row_overrides(doc, spec):
-    """Write verbatim values into named rows of the panel and flooring tables.
+    """Write verbatim values into named rows of the specification tables.
 
     Some jobs describe a build-up the composed wording cannot express — a floor
     insulated with XPS board rather than PUF panel, say — and the honest fix is
-    to state it rather than bend the calculation around it.
+    to state it rather than bend the calculation around it. Tendered work is
+    the other case: the client's own BOQ dictates the panel core, the door
+    hardware and what the control box must do, and those words have to be
+    answered in the client's terms to be marked compliant.
     """
     for key, lookup in (("panel_rows", "Panel Type"),
-                        ("flooring_rows", "Insulated Floor Panel")):
+                        ("flooring_rows", "Insulated Floor Panel"),
+                        ("door_rows", "Door Type"),
+                        ("control_rows", "Controller"),
+                        ("machine_rows", "Condensing Unit"),
+                        ("capacity_rows", "Internal Volume")):
         rows = spec.get(key)
         if not rows:
             continue
@@ -372,6 +379,24 @@ def resize_pictures(doc, spec):
                   f"{item['before']!r} — skipped", file=sys.stderr)
             continue
         _scale_extent(para, item["height_in"])
+
+
+def remove_pictures(doc, spec):
+    """Delete a master photograph named by the text around it.
+
+    Entries are {after, before}. The master's section photographs carry their
+    own captions burnt into the artwork — the door illustration is labelled
+    "SIZE: 90 x 190 cm" — so on a job quoting a different size the picture
+    contradicts the table beneath it and there is nothing to swap in. Better an
+    empty section than a wrong drawing.
+    """
+    for item in spec.get("remove") or []:
+        para = _picture_between(doc, item["after"].upper(), item["before"].upper())
+        if para is None:
+            print(f"  ! remove: no picture between {item['after']!r} and "
+                  f"{item['before']!r} — skipped", file=sys.stderr)
+            continue
+        para.getparent().remove(para)
 
 
 def insert_pictures(doc, spec):
@@ -1212,6 +1237,7 @@ def generate(spec, output):
     fit_control_panel(doc, spec)
     apply_row_overrides(doc, spec)
     replace_pictures(doc, spec)
+    remove_pictures(doc, spec)
     resize_pictures(doc, spec)
     insert_pictures(doc, spec)
     tighten_lists(doc, spec)

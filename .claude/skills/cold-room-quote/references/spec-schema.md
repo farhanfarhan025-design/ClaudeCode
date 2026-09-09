@@ -119,8 +119,19 @@ pins 3 mm in its own spec, so it still reproduces its source document.
 | `images` | list of `{after, path, caption, height_in}` — inserts a photograph after the paragraph or table containing `after`, with an italic caption beneath |
 | `resize` | list of `{after, before, height_in}` — scales a master photograph found between those two pieces of text |
 | `replace` | list of `{after, before, path, height_in}` — swaps a master photograph for a supplied one, when the master's illustration contradicts what is quoted |
+| `remove` | list of `{after, before}` — deletes a master photograph outright, for when it contradicts the offer and there is nothing to swap in |
 | `panel_rows` | `{row label: value}` written verbatim into the section 1 table |
 | `flooring_rows` | `{row label: value}` written verbatim into the section 4 table |
+| `door_rows` | `{row label: value}` written verbatim into the section 2 table |
+| `control_rows` | `{row label: value}` written verbatim into the section 7 table |
+| `machine_rows` | `{row label: value}` written verbatim into the section 5 table |
+| `capacity_rows` | `{row label: value}` written verbatim into the section 6 table |
+
+The section photographs carry their captions burnt into the artwork — the door
+illustration is labelled `SIZE: 90 x 190 cm`, the panel illustration says
+`PU INSULATED` and lists polyurethane in its spec box. On a job quoting a
+different door size or a PIR core those pictures contradict the table beneath
+them, so `remove` them rather than leave the client two answers.
 
 Adding a picture to a section only works if something on that page gives up
 room, and the master's own section photograph is usually the thing with slack —

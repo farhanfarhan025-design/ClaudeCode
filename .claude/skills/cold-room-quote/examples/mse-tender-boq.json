@@ -1,0 +1,163 @@
+{
+  "reference": "QUT/DCTS/SQ087/2026",
+  "date": "09 September 2026",
+  "validity": "15 Days from quote date",
+  "client": {
+    "name": "M/s. MSE",
+    "address": "Doha, Qatar",
+    "attn": "Mr. Shashi"
+  },
+  "subject": "Supply, Installation, Testing & Commissioning of one (1) chiller room and one (1) freezer room — as per client Unified BOQ",
+  "rooms": [
+    {
+      "type": "CHILLER",
+      "qty": 1,
+      "temperature": "0°C to +8°C",
+      "length": "12.819",
+      "width": "8.769",
+      "height": "2.80",
+      "panel_thickness": "100 mm",
+      "floor_included": false
+    },
+    {
+      "type": "FREEZER",
+      "qty": 1,
+      "temperature": "−18°C to −22°C",
+      "length": "10.341",
+      "width": "5.168",
+      "height": "2.80",
+      "panel_thickness": "150 mm",
+      "floor_included": false
+    }
+  ],
+  "panel_rows": {
+    "Panel Type": "Pre-insulated Polyisocyanurate (PIR) Sandwich Panel",
+    "Panel Thickness": "Chiller — 100 mm  |  Freezer — 150 mm",
+    "Insulation Core": "Injected PIR foam, oxygen index 30, density ≥ 40 kg/m³, compressive strength ≥ 160 kPa",
+    "Skin Material": "Pre-painted galvanized steel both faces, food-grade white — steel thickness ≥ 0.426 mm; external PE coating ≥ 20 µm, back face (PIR contact) PE coating ≥ 8 µm",
+    "Thermal Conductivity (k)": "≤ 0.022 W/m·K",
+    "Fire Rating": "Self-extinguishing — combustion performance to Riyadh Civil Defense fire safety requirements",
+    "Wall Coverage": "Chiller — 120.89 sqm  |  Freezer — 86.85 sqm  (207.74 sqm)",
+    "Ceiling Coverage": "Chiller — 112.41 sqm  |  Freezer — 53.44 sqm  (165.85 sqm)",
+    "Floor Coverage": "Insulated by extruded polystyrene (XPS) board — 165.85 sqm (refer Section 4)",
+    "Total Panel Quantity": "396.00 sqm as per client BOQ — Chiller 264.00 sqm @ 100 mm and Freezer 132.00 sqm @ 150 mm (373.60 sqm derived from the room sizes; the balance is allowed for cutting, wastage and jointing)"
+  },
+  "door": {
+    "type": "hinged",
+    "qty": 3,
+    "width_mm": 1200,
+    "height_mm": 2200,
+    "opening_text": "Chiller room — 1200 mm (W) × 2200 mm (H), 1 No.\nChiller room — 900 mm (W) × 2000 mm (H), 1 No.\nFreezer room — 1200 mm (W) × 2200 mm (H), 1 No.",
+    "quantity_text": "3 Nos. total — Chiller 2 Nos., Freezer 1 No. Air curtains and insulated cotton curtains are not included, the client BOQ quantity for both being nil; they can be offered separately on request."
+  },
+  "door_rows": {
+    "Door Type": "Hinged semi-embedded cold room door — fully enclosed frameless structure, 0.5 mm colour-coated steel panel",
+    "Frame": "Door frame with automatic constant-temperature anti-condensation heating belt (220 V, or 36 V low voltage on request)",
+    "Hinges": "Heavy-duty cold store hinges, 180° maximum opening angle; all door metal parts in high-precision stainless steel",
+    "Gasket": "Low-temperature resistant, oil-resistant, high-elasticity EPDM sealing strip"
+  },
+  "control_rows": {
+    "Display": "Digital LED display showing set point and actual room temperature, with remote temperature monitoring output (RS-485 / Modbus) for remote display or BMS",
+    "Functions": "Compressor ON/OFF, evaporator fan control, electric defrost timer, remote temperature monitoring and alarm output",
+    "Indicators": "Power-ON, Compressor-ON, Defrost and Alarm pilot lamps, plus an audible and visual alarm beacon outside each room",
+    "Internal Light": "Cold store special three-proof LED lighting — 26 Nos., IP65 waterproof / dustproof / corrosion-resistant, Ra > 80, > 110 lm/W, 6000 K, 120° beam, rated −20°C to +25°C, PC low-temperature lens, with ON/OFF switches outside the rooms"
+  },
+  "flooring_rows": {
+    "Insulated Floor Panel": "Two (2) layers of 50 mm extruded polystyrene (XPS) board, density 32 – 35 kg/m³ — 100 mm total insulation, 165.85 sqm (client BOQ 160 sqm)",
+    "Plywood Layer": "Not applicable to this build-up — insulation by XPS board",
+    "Top Finish": "Final floor finish over the insulation by others (not in TNDK scope)",
+    "Edge Sealing": "Continuous vapour barrier and silicone seal at the XPS board joints and at the board–wall panel interface"
+  },
+  "sets": 4,
+  "system_type": "Split-type refrigeration systems (4 sets) — two (2) sets to the chiller room and two (2) sets to the freezer room, each set complete with its own interconnecting piping and control panel. Dorin and Günay are offered as the supplier-recommended equivalent to the Bitzer / Friga-Bohn units named in the client BOQ.",
+  "refrigeration": [
+    {
+      "room": "Chiller",
+      "condensing_unit": "Dorin AU-H505CC",
+      "compressor_brand": "Dorin",
+      "cu_type": "semi-hermetic",
+      "cu_origin": "Italy",
+      "evaporator": "Günay GNE 340.4B",
+      "evap_origin": "Turkey",
+      "refrigerant": "R404A",
+      "capacity_label": "5 HP × 2 sets",
+      "ambient": "46°C",
+      "selection_basis": "Dorin"
+    },
+    {
+      "room": "Freezer",
+      "condensing_unit": "Dorin AU-H405CS",
+      "compressor_brand": "Dorin",
+      "cu_type": "semi-hermetic",
+      "cu_origin": "Italy",
+      "evaporator": "Günay GNE 245.8C",
+      "evap_origin": "Turkey",
+      "refrigerant": "R404A",
+      "capacity_label": "4 HP × 2 sets",
+      "ambient": "46°C",
+      "selection_basis": "Dorin"
+    }
+  ],
+  "scope": {
+    "panels": "Supply of PIR sandwich panels for walls and ceiling — 264.00 sqm at 100 mm to the chiller room and 132.00 sqm at 150 mm to the freezer room, 396.00 sqm in total, to the core, skin and fire performance stated in the client BOQ.",
+    "doors": "Supply and installation of three (3) No. hinged semi-embedded cold room doors — chiller room 1200 × 2200 mm and 900 × 2000 mm, freezer room 1200 × 2200 mm — with stainless steel hardware, 180° heavy-duty hinges, EPDM gasket and automatic thermostatic door frame heating belt.",
+    "floor": "Supply and installation of floor insulation: two (2) layers of 50 mm extruded polystyrene (XPS) board, density 32 – 35 kg/m³, laid to both rooms (165.85 sqm), with continuous vapour barrier and sealed joints.",
+    "machines": "Supply and installation of four (4) No. refrigeration systems — chiller room two (2) sets of Dorin (Italy) AU-H505CC 5 HP condensing unit with Günay (Turkey) GNE 340.4B evaporator; freezer room two (2) sets of Dorin (Italy) AU-H405CS 4 HP condensing unit with Günay (Turkey) GNE 245.8C evaporator. Each set complete with its own piping, auxiliary materials and control panel."
+  },
+  "boq": [
+    {
+      "description": "CHILLER ROOM — supply, fabrication & installation of chiller room, internal size 12.819 m (L) × 8.769 m (W) × 2.80 m (H) (314.75 m³), complete with 100 mm PIR sandwich panels for walls & ceiling — 264.00 sqm as per client BOQ — oxygen index 30, density ≥ 40 kg/m³, compressive strength ≥ 160 kPa, k ≤ 0.022 W/m·K, steel ≥ 0.426 mm with PE coating ≥ 20 µm external and ≥ 8 µm to the core face, including all aluminum coving, corner angles, silicone sealing, fasteners and accessories."
+    },
+    {
+      "description": "FREEZER ROOM — supply, fabrication & installation of freezer room, internal size 10.341 m (L) × 5.168 m (W) × 2.80 m (H) (149.64 m³), complete with 150 mm PIR sandwich panels for walls & ceiling — 132.00 sqm as per client BOQ — to the same core, skin and fire specification, including all aluminum coving, corner angles, silicone sealing, fasteners and accessories."
+    },
+    {
+      "description": "DOORS — supply & installation of three (3) No. hinged semi-embedded cold storage doors, fully enclosed frameless structure with 0.5 mm colour steel panel: chiller room 1200 × 2200 mm (1 No.) and 900 × 2000 mm (1 No.), freezer room 1200 × 2200 mm (1 No.). High-precision stainless steel door metal parts, heavy-duty cold store hinges with 180° opening, low-temperature and oil-resistant EPDM sealing strip, and automatic constant-temperature door frame heating belt (220 V / 36 V)."
+    },
+    {
+      "description": "FLOOR INSULATION — supply & installation of two (2) layers of 50 mm extruded polystyrene (XPS) board, density 32 – 35 kg/m³ (100 mm total), to both rooms — 165.85 sqm against the client BOQ figure of 160 sqm — including vapour barrier and sealed joints. Final floor finish over the insulation is by others."
+    },
+    {
+      "description": "CHILLER REFRIGERATION — supply & installation of two (2) No. Dorin (Italy) AU-H505CC 5 HP semi-hermetic condensing units + two (2) No. Günay (Turkey) GNE 340.4B evaporating units, R404A, offered as equivalent to the Bitzer / Friga-Bohn 3CE-4264-E units named in the client BOQ. Includes one (1) set of installation auxiliary materials (thermostatic expansion valves, solenoid valves, wires, signal cables and refrigerant), 27.5 m refrigeration copper pipe with armaflex insulation, and insulated drain line."
+    },
+    {
+      "description": "FREEZER REFRIGERATION — supply & installation of two (2) No. Dorin (Italy) AU-H405CS 4 HP semi-hermetic condensing units + two (2) No. Günay (Turkey) GNE 245.8C evaporating units, R404A, offered as equivalent to the Bitzer BCUM033Z20J / 4CES-9Y-20D and Friga-Bohn 3CE-4266-E units named in the client BOQ. Includes one (1) set of installation auxiliary materials, 27.5 m refrigeration copper pipe with armaflex insulation, and insulated drain line."
+    },
+    {
+      "description": "CONTROL BOXES & ELECTRICAL — supply & installation of four (4) No. digital control boxes (two per room, one per refrigeration set) with remote temperature monitoring function, all safeties, door frame heater circuits and complete electrical works from each control box onward, including 170 m of electrical cable per room (sizes 6 × 4 mm², 7 × 1.5 mm² and 2.5 × 4 mm²) — 340 m total."
+    },
+    {
+      "description": "COLD STORE LIGHTING — supply & installation of twenty-six (26) No. cold store special three-proof LED light fittings, IP65 waterproof / dustproof / corrosion-resistant, Ra > 80, light efficiency > 110 lm/W, 6000 K colour temperature, 120° beam angle without glare, light decay < 15 % over three years, PC low-temperature resistant lens, rated for −20°C to +25°C, including wiring and all installation auxiliary materials."
+    },
+    {
+      "description": "ALARM SYSTEM — supply & installation of two (2) No. cold room alarm systems, one per room. Each system triggers an alert inside the room and drives an audible and visual alarm outside it; the external audible and visual alarm device is mounted in a prominent position beside the cold room door."
+    },
+    {
+      "description": "Testing, commissioning, transportation, mobilization, lifting at site and handover with operation training."
+    }
+  ],
+  "total": 198500,
+  "list_spacing_pt": 0,
+  "schematic_height_in": 0.5,
+  "control_panel_height_in": 0.7,
+  "replace": [
+    {
+      "after": "FLOORING DETAILS",
+      "before": "Insulated Floor Panel",
+      "path": "/root/.claude/uploads/d0aedece-59e7-568a-b80d-391a8b0f2f9b/f39b21b6-image.png",
+      "height_in": 2.2
+    }
+  ],
+  "pricing_banner_height_in": 1.3,
+  "banner_height_in": 1.1,
+  "remove": [
+    {
+      "after": "PANEL DETAILS",
+      "before": "Panel Type"
+    },
+    {
+      "after": "DOOR DETAILS",
+      "before": "Door Type"
+    }
+  ]
+}
