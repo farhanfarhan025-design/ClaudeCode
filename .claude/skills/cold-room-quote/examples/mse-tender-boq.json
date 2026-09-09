@@ -148,16 +148,10 @@
       "height_in": 2.2
     }
   ],
-  "pricing_banner_height_in": 1.3,
-  "banner_height_in": 1.1,
   "remove": [
     {
-      "after": "PANEL DETAILS",
-      "before": "Panel Type"
-    },
-    {
-      "after": "DOOR DETAILS",
-      "before": "Door Type"
+      "after": "Amount in Words",
+      "before": "WARRANTY"
     }
   ]
 }

@@ -397,6 +397,29 @@ def remove_pictures(doc, spec):
                   f"{item['before']!r} — skipped", file=sys.stderr)
             continue
         para.getparent().remove(para)
+        _collapse_blanks(doc, item["after"].upper(), item["before"].upper())
+
+
+def _collapse_blanks(doc, after, before, keep=1):
+    """Drop the empty paragraphs a deleted picture leaves behind.
+
+    The master pads its photographs with blank paragraphs. Deleting the picture
+    alone leaves the hole where it stood, so the section below does not move up
+    and nothing is gained by removing it.
+    """
+    els = list(doc.element.body.iterchildren())
+    text = [" ".join(t.text or "" for t in e.iter(qn("w:t"))).upper() for e in els]
+    start = next((i for i, s in enumerate(text) if after in s), None)
+    if start is None:
+        return
+    end = next((i for i in range(start + 1, len(text)) if before in text[i]), None)
+    if end is None:
+        return
+    blanks = [els[i] for i in range(start + 1, end)
+              if els[i].tag == qn("w:p") and not text[i].strip()
+              and els[i].find(".//" + qn("a:blip")) is None]
+    for p in blanks[keep:]:
+        p.getparent().remove(p)
 
 
 def insert_pictures(doc, spec):
