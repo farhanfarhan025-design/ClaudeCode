@@ -319,6 +319,45 @@ def apply_row_overrides(doc, spec):
                       file=sys.stderr)
 
 
+def replace_pictures(doc, spec):
+    """Swap a master photograph for a supplied one, in place.
+
+    Entries are {after, before, path, height_in}. Use this when the master's
+    illustration contradicts what is being quoted — a chequered-plate floor
+    photograph on a job whose floor is insulated with XPS board, say.
+    """
+    for item in spec.get("replace") or []:
+        path = Path(item["path"])
+        if not path.is_file():
+            print(f"  ! replace: {path} not found — skipped", file=sys.stderr)
+            continue
+        para = _picture_between(doc, item["after"].upper(), item["before"].upper())
+        if para is None:
+            print(f"  ! replace: no picture between {item['after']!r} and "
+                  f"{item['before']!r} — skipped", file=sys.stderr)
+            continue
+        blip = para.find(".//" + qn("a:blip"))
+        doc.part.related_parts[blip.get(qn("r:embed"))]._blob = path.read_bytes()
+
+        height = item.get("height_in")
+        extent = para.find(".//" + qn("wp:extent"))
+        if extent is not None:
+            try:
+                from PIL import Image
+                with Image.open(path) as im:
+                    ratio = im.size[0] / im.size[1]
+                cy = int((height or int(extent.get("cy")) / 914400) * 914400)
+                cx = int(cy * ratio)
+                extent.set("cx", str(cx))
+                extent.set("cy", str(cy))
+                for ext in para.iter(qn("a:ext")):
+                    if ext.get("cx") is not None:
+                        ext.set("cx", str(cx))
+                        ext.set("cy", str(cy))
+            except Exception:
+                pass                       # keep the master's framing
+
+
 def resize_pictures(doc, spec):
     """Scale a master photograph named by the text around it.
 
@@ -1172,6 +1211,7 @@ def generate(spec, output):
     fit_pricing_banner(doc, spec)
     fit_control_panel(doc, spec)
     apply_row_overrides(doc, spec)
+    replace_pictures(doc, spec)
     resize_pictures(doc, spec)
     insert_pictures(doc, spec)
     tighten_lists(doc, spec)

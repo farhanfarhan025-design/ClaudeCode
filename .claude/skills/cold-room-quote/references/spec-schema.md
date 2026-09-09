@@ -118,6 +118,7 @@ pins 3 mm in its own spec, so it still reproduces its source document.
 |---|---|
 | `images` | list of `{after, path, caption, height_in}` — inserts a photograph after the paragraph or table containing `after`, with an italic caption beneath |
 | `resize` | list of `{after, before, height_in}` — scales a master photograph found between those two pieces of text |
+| `replace` | list of `{after, before, path, height_in}` — swaps a master photograph for a supplied one, when the master's illustration contradicts what is quoted |
 | `panel_rows` | `{row label: value}` written verbatim into the section 1 table |
 | `flooring_rows` | `{row label: value}` written verbatim into the section 4 table |
 

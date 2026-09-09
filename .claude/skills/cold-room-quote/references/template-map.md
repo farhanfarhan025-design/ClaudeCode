@@ -114,6 +114,13 @@ machine descriptions run long, those two lists overflow even with
 `list_spacing_pt` at 0, and the pictures are the only slack left on that page.
 `control_panel_height_in` scales both; 1.1 in reclaims roughly half an inch.
 
+## Where the text area actually ends
+
+The footer rule sits at 10.86 in, but body text stops around 9.9 in. Sizing a
+picture against the rule rather than the text bottom overstates the room
+available by nearly an inch — enough to leave a banner on the following page
+while the arithmetic says it should fit.
+
 ## The other two banners
 
 image2 sits below the project table and image12 below the amount in words.
