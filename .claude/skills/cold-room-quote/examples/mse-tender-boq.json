@@ -59,7 +59,7 @@
   "control_rows": {
     "Display": "Digital LED display showing set point and actual room temperature, with remote temperature monitoring output (RS-485 / Modbus) for remote display or BMS",
     "Functions": "Compressor ON/OFF, evaporator fan control, electric defrost timer, remote temperature monitoring and alarm output",
-    "Indicators": "Power-ON, Compressor-ON, Defrost and Alarm pilot lamps, plus an audible and visual alarm beacon outside each room",
+    "Indicators": "Power-ON, Compressor-ON, Defrost and Alarm pilot lamps, plus an audible alarm sounder outside each room",
     "Internal Light": "Cold store special three-proof LED lighting — 26 Nos., IP65 waterproof / dustproof / corrosion-resistant, Ra > 80, > 110 lm/W, 6000 K, 120° beam, rated −20°C to +25°C, PC low-temperature lens, with ON/OFF switches outside the rooms"
   },
   "flooring_rows": {
@@ -130,7 +130,7 @@
       "description": "COLD STORE LIGHTING — supply & installation of twenty-six (26) No. cold store special three-proof LED light fittings, IP65 waterproof / dustproof / corrosion-resistant, Ra > 80, light efficiency > 110 lm/W, 6000 K colour temperature, 120° beam angle without glare, light decay < 15 % over three years, PC low-temperature resistant lens, rated for −20°C to +25°C, including wiring and all installation auxiliary materials."
     },
     {
-      "description": "ALARM SYSTEM — supply & installation of two (2) No. cold room alarm systems, one per room. Each system triggers an alert inside the room and drives an audible and visual alarm outside it; the external audible and visual alarm device is mounted in a prominent position beside the cold room door."
+      "description": "ALARM SYSTEM — supply & installation of two (2) No. cold room alarm systems, one per room. Each system triggers an alert inside the room and drives an audible alarm outside it; the external audible alarm device is mounted in a prominent position beside the cold room door."
     },
     {
       "description": "Testing, commissioning, transportation, mobilization, lifting at site and handover with operation training."
