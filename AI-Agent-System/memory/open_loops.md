@@ -916,12 +916,15 @@ Three documents were produced today and none has been appended to the log in Dri
   100% advance, 01 day. **The 750 was collected before any document existed** — no receipt is on
   file for it, and it is not in the order book. Issue one, or the deduction on this quotation is
   the only record that the money came in.
-- **QUT/DCTS/231/2026** — Deiture, supply and installation of one 2 HP TECUMSEH (France)
-  condensing unit replacing the existing machine, **5,500**, issued 08-09-2026. 100% advance,
-  01 day. **No model number given** — the quote commits to 2 HP and says the exact model is
-  confirmed against the existing nameplate before ordering. **Second Deiture quote** after
-  QUT/DCTS/228/2026 (valve replacement and gas charging, 1,650, 30-08-2026); the client name
-  and address are still unverified (see the OL on Deiture's legal name).
+- **QUT/DCTS/231/2026** — Deiture, supply and installation of one TECUMSEH (France) hermetic
+  **compressor, model FH2511Z-XC**, replacing the failed compressor. **3,650**, 100% advance,
+  01 day. **Corrected and reissued 09-09-2026 under the same number**: the 08-09-2026 draft said
+  *2 HP condensing unit at 5,500* — wrong equipment and wrong price, corrected by Farhan before
+  issue. If the 08-09 version ever reached the client, this must be renumbered as a superseding
+  quotation instead. **Filter drier deliberately excluded but flagged in note 3** — a compressor
+  change without a drier change usually voids the manufacturer's warranty. **Second Deiture quote**
+  after QUT/DCTS/228/2026 (valve replacement and gas charging, 1,650, 30-08-2026); the client name
+  and address are still unverified.
 - **WO/DCTS/001/2026** — Al Zehrabi work order, 18-08-2026. **Opens a new series**; the log has
   no work-order column yet.
 - **INV-263/2026** — Al Zehrabi, **4,900 in full**, issued 19-08-2026 (redrafted from an 80%
