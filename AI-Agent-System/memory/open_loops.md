@@ -385,6 +385,12 @@ retention applies, which holds under either explanation.
 
 **Needed:** ask their accounts what the 2,300 was, rather than assert what it was.
 
+**Copy reissued 09-09-2026.** Farhan asked for an invoice for the Jollibee balance; INV-262/2026
+already covers it, so a **copy** was produced rather than a second invoice — same number, same
+18-08-2026 date, same 2,300, with a note on its face saying it is a copy and not an additional
+charge. **The balance is now 22 days old** with no payment and no reply from their accounts on
+what the deduction was.
+
 ### OL-028 — Cheque 00990904 was drawn to the superseded payee name
 **Owner:** CASHBOOK · **Raised:** 2026-08-18 · **Value:** QAR 23,100 · **Related:** D-011
 
