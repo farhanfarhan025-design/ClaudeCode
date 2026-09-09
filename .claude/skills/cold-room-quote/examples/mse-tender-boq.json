@@ -106,13 +106,13 @@
   },
   "boq": [
     {
-      "description": "CHILLER ROOM — supply, fabrication & installation of chiller room, internal size 12.819 m (L) × 8.769 m (W) × 2.80 m (H) (314.75 m³), complete with 100 mm PIR sandwich panels for walls & ceiling — 264.00 sqm as per client BOQ — oxygen index 30, density ≥ 40 kg/m³, compressive strength ≥ 160 kPa, k ≤ 0.022 W/m·K, steel ≥ 0.426 mm with PE coating ≥ 20 µm external and ≥ 8 µm to the core face, including all aluminum coving, corner angles, silicone sealing, fasteners and accessories."
+      "description": "CHILLER ROOM — supply, fabrication & installation of chiller room, internal size 12.819 m (L) × 8.769 m (W) × 2.80 m (H) (314.75 m³), complete with 100 mm PIR sandwich panels for walls & ceiling — 264.00 sqm as per client BOQ — to the core, skin and fire specification detailed in Section 1, including all aluminum coving, corner angles, silicone sealing, fasteners and accessories."
     },
     {
-      "description": "FREEZER ROOM — supply, fabrication & installation of freezer room, internal size 10.341 m (L) × 5.168 m (W) × 2.80 m (H) (149.64 m³), complete with 150 mm PIR sandwich panels for walls & ceiling — 132.00 sqm as per client BOQ — to the same core, skin and fire specification, including all aluminum coving, corner angles, silicone sealing, fasteners and accessories."
+      "description": "FREEZER ROOM — supply, fabrication & installation of freezer room, internal size 10.341 m (L) × 5.168 m (W) × 2.80 m (H) (149.64 m³), complete with 150 mm PIR sandwich panels for walls & ceiling — 132.00 sqm as per client BOQ — to the same specification, including all aluminum coving, corner angles, silicone sealing, fasteners and accessories."
     },
     {
-      "description": "DOORS — supply & installation of three (3) No. hinged semi-embedded cold storage doors, fully enclosed frameless structure with 0.5 mm colour steel panel: chiller room 1200 × 2200 mm (1 No.) and 900 × 2000 mm (1 No.), freezer room 1200 × 2200 mm (1 No.). High-precision stainless steel door metal parts, heavy-duty cold store hinges with 180° opening, low-temperature and oil-resistant EPDM sealing strip, and automatic constant-temperature door frame heating belt (220 V / 36 V)."
+      "description": "DOORS — supply & installation of three (3) No. hinged semi-embedded cold storage doors, frameless with 0.5 mm colour steel panel, high-precision stainless steel metal parts, 180° heavy-duty cold store hinges, EPDM sealing strip and automatic constant-temperature door frame heating belt (220 V / 36 V): chiller room 1200 × 2200 mm (1 No.) and 900 × 2000 mm (1 No.), freezer room 1200 × 2200 mm (1 No.)."
     },
     {
       "description": "FLOOR INSULATION — supply & installation of two (2) layers of 50 mm extruded polystyrene (XPS) board, density 32 – 35 kg/m³ (100 mm total), to both rooms — 165.85 sqm against the client BOQ figure of 160 sqm — including vapour barrier and sealed joints. Final floor finish over the insulation is by others."
@@ -127,7 +127,7 @@
       "description": "CONTROL BOXES & ELECTRICAL — supply & installation of four (4) No. digital control boxes (two per room, one per refrigeration set) with remote temperature monitoring function, all safeties, door frame heater circuits and complete electrical works from each control box onward, including 170 m of electrical cable per room (sizes 6 × 4 mm², 7 × 1.5 mm² and 2.5 × 4 mm²) — 340 m total."
     },
     {
-      "description": "COLD STORE LIGHTING — supply & installation of twenty-six (26) No. cold store special three-proof LED light fittings, IP65 waterproof / dustproof / corrosion-resistant, Ra > 80, light efficiency > 110 lm/W, 6000 K colour temperature, 120° beam angle without glare, light decay < 15 % over three years, PC low-temperature resistant lens, rated for −20°C to +25°C, including wiring and all installation auxiliary materials."
+      "description": "COLD STORE LIGHTING — supply & installation of twenty-six (26) No. cold store special three-proof LED light fittings, IP65 waterproof / dustproof / corrosion-resistant, Ra > 80, efficiency > 110 lm/W, 6000 K, 120° beam without glare, light decay < 15 % over three years, PC low-temperature lens, rated −20°C to +25°C, including wiring and installation auxiliary materials."
     },
     {
       "description": "ALARM SYSTEM — supply & installation of two (2) No. cold room alarm systems, one per room. Each system triggers an alert inside the room and drives an audible alarm outside it; the external audible alarm device is mounted in a prominent position beside the cold room door."
@@ -142,6 +142,18 @@
   "control_panel_height_in": 0.7,
   "replace": [
     {
+      "after": "PANEL DETAILS",
+      "before": "Panel Type",
+      "path": "/root/.claude/uploads/d0aedece-59e7-568a-b80d-391a8b0f2f9b/ebad66eb-image.png",
+      "height_in": 4.0
+    },
+    {
+      "after": "DOOR DETAILS",
+      "before": "Door Type",
+      "path": "/tmp/claude-0/-home-user-ClaudeCode/d0aedece-59e7-568a-b80d-391a8b0f2f9b/scratchpad/door-mse.png",
+      "height_in": 4.9
+    },
+    {
       "after": "FLOORING DETAILS",
       "before": "Insulated Floor Panel",
       "path": "/root/.claude/uploads/d0aedece-59e7-568a-b80d-391a8b0f2f9b/f39b21b6-image.png",
@@ -152,6 +164,13 @@
     {
       "after": "Amount in Words",
       "before": "WARRANTY"
+    }
+  ],
+  "images": [
+    {
+      "after": "Any item not specifically listed in the Scope of Work",
+      "path": "/root/.claude/uploads/d0aedece-59e7-568a-b80d-391a8b0f2f9b/cef7882b-image.png",
+      "height_in": 2.8
     }
   ]
 }
