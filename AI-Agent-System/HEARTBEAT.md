@@ -47,6 +47,19 @@ Rule: if nothing needs him, send four lines saying so. Never pad. Never skip bec
 collected, LOA dated 21 May 2026. This gets a dated action every single week until it moves.
 Do not let it become background noise — it is 53% of the book.
 
+## Monday 09:00 — Accounts weekly page  *(ACCOUNTS-LEAD)*
+
+Runs **after** the collections cycle, because it consumes its output. One page to TNDK-OPS,
+who folds it into the commercial brief. Format in `teams/accounts/TEAM.md`.
+
+1. COLLECT's buckets → money in.
+2. PAYABLES: due now / due within 14 days / committed but not yet billed → money out.
+3. CASHBOOK: cleared · in hand uncleared · committed out. Never merged into one figure.
+4. Net position if everything due in 14 days is paid.
+5. Projects where committed vendor spend exceeds collected cash.
+6. **`UNKNOWN` block** — every figure that could not be sourced, and why. Never dropped for
+   tidiness; four of the six headline figures are unknown today and saying so is the report.
+
 ## Thursday 16:00 — Margin review  *(PRICE)*
 
 Trailing 10 quotes: quoted price, computed cost, realised margin, win/loss where known.
@@ -66,6 +79,24 @@ than three small good ones.
 - [ ] Margin column populated where cost is known
 
 Output: variance in QAR. Target zero, or explained.
+
+This audit is **step 1 of the month-end close**, not a standalone task — see below.
+
+## Monthly, 1st — Month-end close  *(ACCOUNTS TEAM)*
+
+Seven steps, in order, owned by ACCOUNTS-LEAD. Full checklist in `teams/accounts/TEAM.md`.
+
+1. LEDGER — register integrity audit (above)
+2. LEDGER — numbering log: no gaps, no collisions, next-free recorded
+3. CASHBOOK — instrument reconciliation; uncleared cheques listed separately, not as cash
+4. PAYABLES — bill register roll-forward; LPO ↔ bill variance in QAR
+5. COLLECT — receivables ageing 0–30 / 31–60 / 61–90 / 90+, each with a dated next action
+6. ACCOUNTS-LEAD — the three-way tie-out:
+   `receipts logged` = `Received in the register` = `instruments recorded`
+7. ACCOUNTS-LEAD — margin column populated where cost is known; count the rows still without one
+
+**A failed step stops the close; it is not skipped.** Status is PASS, PARTIAL or FAILED —
+never "done". Output is a dated close pack in `02 - Registers/close/`, never an overwrite.
 
 ## Monthly, 1st — Warranty & AMC sweep  *(ANNUITY)*
 

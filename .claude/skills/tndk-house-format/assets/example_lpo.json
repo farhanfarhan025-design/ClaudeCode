@@ -1,0 +1,47 @@
+{
+  "type": "lpo",
+  "number": "LPO-194/2026",
+  "date": "14-07-2026",
+  "ref": "ART-QTN-3117-26 dated 09-07-2026",
+  "meta_labels": ["PO NUMBER", "DATE", "REF QUOTE"],
+  "counterparty_label": "VENDOR",
+  "currency": "QAR",
+
+  "party": {
+    "title": "VENDOR INFORMATION",
+    "name": "Airtronics Trading Contracting & Maintenance W.L.L. – Qatar",
+    "fields": [
+      { "label": "Contact Person", "value": "Mr. Gireesh Nath | Sales Manager" },
+      "Mobile: +974 3169 0622 | Email: ac@airtronicsqatar.com",
+      { "label": "Payment Terms", "value": "100% CDC upon collection" },
+      { "label": "Delivery", "value": "Ex-works Doha, subject to prior sale" }
+    ]
+  },
+
+  "lines": [
+    { "description": "Danfoss Chiller Hermetic Unit (MCZC 038 - 2.0HP - 2.6kW)", "unit": "Nos", "qty": 1, "rate": 4300.00 },
+    { "description": "Gunay Freezer Cubic Evaporator (GNE 235.8B - 3.12KW)", "unit": "Nos", "qty": 1, "rate": 2600.00 },
+    { "description": "Danfoss Filter Drier (DCL 163 - 3/8\" 023Z500891)", "unit": "Nos", "qty": 1, "rate": 45.00 },
+    { "description": "Danfoss Sight Glass (SGI 10S - 014-0035)", "unit": "Nos", "qty": 1, "rate": 60.00 },
+    { "description": "Castel Solenoid Valve (1028/3A6 + 220v coil)", "unit": "Nos", "qty": 1, "rate": 140.00 },
+    { "description": "Danfoss Exp. Valve (TES 2 - 068Z3403)", "unit": "Nos", "qty": 2, "rate": 180.00 },
+    { "description": "Danfoss Exp. Valve Orifice - Chiller (T2 # 01 068-2010)", "unit": "Nos", "qty": 1, "rate": 45.00 },
+    { "description": "Danfoss Exp. Valve Orifice R404a - Freezer (TE2 - 04 - 068-2007)", "unit": "Nos", "qty": 1, "rate": 50.00 },
+    { "description": "Subzero Control Panel - 3phase (CRC205200)", "unit": "Nos", "qty": 2, "rate": 975.00 },
+    { "description": "Castel Flare Nut 3/8 (7010/33)", "unit": "Nos", "qty": 4, "rate": 5.00 },
+    { "description": "Castel Flare Nut 1/2 (7010/44)", "unit": "Nos", "qty": 2, "rate": 7.00 },
+    { "description": "Copper P Trap 5/8\" (Chiller Room)", "unit": "Nos", "qty": 1, "rate": 13.00 },
+    { "description": "Copper P Trap 3/4\" (Freezer Room)", "unit": "Nos", "qty": 1, "rate": 20.00 },
+    { "description": "Harris Brazing Rod - Blue (45%)", "unit": "Nos", "qty": 2, "rate": 65.00 },
+    { "description": "Harris Brazing Rod - Copper (0%)", "unit": "Nos", "qty": 1, "rate": 50.00 }
+  ],
+
+  "discount": 297.00,
+  "amount_in_words": "Nine Thousand Five Hundred Qatari Riyals Only (QAR 9,500.00)",
+
+  "notes": [
+    "As per Airtronics quotation Ref: ART-QTN-3117-26 dated 09-07-2026.",
+    "Delivery ex-works Doha; vendor offer validity 03 days subject to stock availability.",
+    "All materials remain vendor property until payment is fully settled."
+  ]
+}
