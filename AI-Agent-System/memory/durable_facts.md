@@ -236,7 +236,7 @@ The larger of the two has collected nothing.
 |---|---|
 | Invoice | next after INV-266/2026 (Stop n Shop final) — 261 cancelled, 263 Al Zahrawi, 264/265 Oscar Prime, none yet in the log |
 | Receipt | RCT-257/2026 |
-| Quotation | next after QUT/DCTS/232/2026, plus the SQ038 / SQ074 series — see OL-018 |
+| Quotation | next after QUT/DCTS/233/2026, plus the SQ038 / SQ074 series — see OL-018 |
 | Doha Cooling invoice | next after **DCTS-INV-006/2026**. 001–003 Oriental Agro cold storage; **004 is VOID** (drafted for electrical works, withdrawn before issue — that work is inside the cold room price, do not reuse the number); 005 Oriental Agro sectional doors; **006 reserved** for Oriental Agro panel shifting, not yet issued (no price). Series opened 06-09-2026; Doha Cooling had none before |
 | Doha Cooling receipt | next after **DCTS-RCT-014/2026**. 001–012 cold storage **in date order** (renumbered 06-09-2026 at Farhan's request so the client can follow the account down the page: 001 08-09-2025 … 012 05-07-2026), 013–014 sectional doors, all Oriental Agro. Runs alongside the pre-printed voucher books, which reached no. 1347 on 17-05-2026 and no. 0095 on 04-07-2026 |
 | Delivery note | DN-252/2026 |

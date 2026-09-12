@@ -937,6 +937,12 @@ Three documents were produced today and none has been appended to the log in Dri
   **Quantity of one assumed** — Farhan gave a unit price with no quantity. **Warranty of 12
   months assumed** — none was stated. **Fourth resale quoted with no cost on file** after
   Convert Engineering 8,800, COMO 5,300 and Almana 35,000.
+- **QUT/DCTS/233/2026** — Continental Trading W.L.L., supply and installation of sandwich panel
+  2.50 × 2.50 m (6.25 sqm) plus two hinged cold room doors 900 × 1900 mm, **7,650**, issued
+  12-09-2026. 100% advance, 03 days. **Panel thickness of 100 mm assumed** — not stated by
+  Farhan; the quote flags it and invites a revision. **Two 900 mm doors in a 2.50 m wide panel
+  leaves only 700 mm of wall** — worth confirming the reading of "2.5 x 2.5" before fabrication.
+  No address on file for this client.
 - **WO/DCTS/001/2026** — Al Zehrabi work order, 18-08-2026. **Opens a new series**; the log has
   no work-order column yet.
 - **INV-263/2026** — Al Zehrabi, **4,900 in full**, issued 19-08-2026 (redrafted from an 80%
