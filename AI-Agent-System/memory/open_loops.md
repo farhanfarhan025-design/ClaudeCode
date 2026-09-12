@@ -931,6 +931,12 @@ Three documents were produced today and none has been appended to the log in Dri
   change without a drier change usually voids the manufacturer's warranty. **Second Deiture quote**
   after QUT/DCTS/228/2026 (valve replacement and gas charging, 1,650, 30-08-2026); the client name
   and address are still unverified.
+- **QUT/DCTS/232/2026** — JKR Trading & Services W.L.L. (Building 59, Zone 57, Street 652,
+  Industrial Area, Doha; tel 4002 9308), supply of one COMPTEK refrigerator compressor QD65H,
+  **485**, issued 12-09-2026. Supply only, ex stock subject to prior sale, 100% payment.
+  **Quantity of one assumed** — Farhan gave a unit price with no quantity. **Warranty of 12
+  months assumed** — none was stated. **Fourth resale quoted with no cost on file** after
+  Convert Engineering 8,800, COMO 5,300 and Almana 35,000.
 - **WO/DCTS/001/2026** — Al Zehrabi work order, 18-08-2026. **Opens a new series**; the log has
   no work-order column yet.
 - **INV-263/2026** — Al Zehrabi, **4,900 in full**, issued 19-08-2026 (redrafted from an 80%
