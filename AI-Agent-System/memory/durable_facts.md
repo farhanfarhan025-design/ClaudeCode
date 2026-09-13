@@ -234,7 +234,8 @@ The larger of the two has collected nothing.
 
 | Series | Next free |
 |---|---|
-| Invoice | next after INV-266/2026 (Stop n Shop final) — 261 cancelled, 263 Al Zahrawi, 264/265 Oscar Prime, none yet in the log |
+| Invoice / Receipt | next after **267** — one running series: 261 cancelled, 263 Al Zahrawi, 264/265 Oscar Prime, 266 Stop n Shop invoice, **267 Stop n Shop receipt**. None yet in the Drive log |
+| Statement of account | next after **SOA/DCTS/001/2026** (Stop n Shop, 13-09-2026) — series opened that day; TNDK had none |
 | Receipt | RCT-257/2026 |
 | Quotation | next after QUT/DCTS/233/2026, plus the SQ038 / SQ074 series — see OL-018 |
 | Doha Cooling invoice | next after **DCTS-INV-006/2026**. 001–003 Oriental Agro cold storage; **004 is VOID** (drafted for electrical works, withdrawn before issue — that work is inside the cold room price, do not reuse the number); 005 Oriental Agro sectional doors; **006 reserved** for Oriental Agro panel shifting, not yet issued (no price). Series opened 06-09-2026; Doha Cooling had none before |

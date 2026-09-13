@@ -911,6 +911,12 @@ Three documents were produced today and none has been appended to the log in Dri
 - **INV-266/2026** — Stop n Shop final invoice, balance 20,000 of 45,000, issued 30-08-2026.
 - **HO/DCTS/SQ076/2026** — Stop n Shop handover certificate, 30-08-2026.
 - **LTR/DCTS/227/2026** — Stop n Shop warranty certificate, 30-08-2026.
+- **RCT-267/2026** — Stop n Shop advance receipt, 25,000, dated 26-08-2026 (cheque 00006483,
+  QNB), **issued 13-09-2026** — the cheque had been in for 18 days with no receipt.
+- **SOA/DCTS/001/2026** — Stop n Shop statement of account, 13-09-2026. **Opens the TNDK
+  statement series**; TNDK had none. 45,000 contract, 25,000 received, 20,000 due.
+  Note INV-266, HO/DCTS/SQ076 and LTR/DCTS/227 were all re-dated to **06-09-2026** on Farhan's
+  instruction that the warranty starts from that day; the 30-08-2026 lines above are superseded.
 - **QUT/DCTS/229/2026** — Remote Site Middle East, cold room flooring plus panel replacement,
   **21,150** (22,000 less an 850 discount), issued 06-09-2026. **Supersedes QUT/DCTS/223/2026**
   (22,000, 19-08-2026), which supersedes QUT/DCTS/215/2026 (9,650, 08-08-2026). Both earlier
