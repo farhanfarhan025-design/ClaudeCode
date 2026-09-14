@@ -26,6 +26,12 @@ Verified: regenerating the Marza Group quote from its spec reproduces the
 original document exactly — same text, same 13 images byte-for-byte, same
 brand colours, same fonts and sizes.
 
+The section 2 photograph is replaced by the house door picture
+(`template/door.png`) in every quotation — the master's own is labelled
+"SIZE: 90 x 190 cm" in the artwork and contradicts any job quoting a different
+size. Pass `"door": {"image": "<path>"}` to show the actual door being quoted,
+or `"image": false` to keep the master's.
+
 One layout fix is applied on top: the master sizes the service banner under
 section 12 slightly too tall for the space left on the page, so it flows onto
 a sheet of its own and the quotation ends with a near-empty page. The generator
@@ -183,7 +189,9 @@ splitting it means adding subtotal rows.
 ```
 cold-room-quote/
 ├── SKILL.md
-├── template/master.docx              frozen master — do not edit
+├── template/
+│   ├── master.docx                   frozen master — do not edit
+│   └── door.png                      house door photograph, section 2
 ├── scripts/
 │   ├── generate.py                   spec JSON -> quotation .docx
 │   └── number_to_words.py            QAR amount -> words

@@ -148,12 +148,6 @@
       "height_in": 4.0
     },
     {
-      "after": "DOOR DETAILS",
-      "before": "Door Type",
-      "path": "/tmp/claude-0/-home-user-ClaudeCode/d0aedece-59e7-568a-b80d-391a8b0f2f9b/scratchpad/door-mse.png",
-      "height_in": 4.9
-    },
-    {
       "after": "FLOORING DETAILS",
       "before": "Insulated Floor Panel",
       "path": "/root/.claude/uploads/d0aedece-59e7-568a-b80d-391a8b0f2f9b/f39b21b6-image.png",

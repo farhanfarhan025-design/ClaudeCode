@@ -32,6 +32,8 @@ except ImportError:
 
 SKILL_DIR = Path(__file__).resolve().parent.parent
 MASTER = SKILL_DIR / "template" / "master.docx"
+# House photograph for section 2, used unless a quote supplies its own door
+HOUSE_DOOR_PHOTO = SKILL_DIR / "template" / "door.png"
 
 # Prose strings as they appear in the frozen master. Editing the master means
 # updating these — nothing else in the script hardcodes document text.
@@ -531,14 +533,16 @@ def flooring_spec(spec):
 def replace_door_image(doc, spec):
     """Swap the section 2 photograph for a picture of the door being quoted.
 
-    The master's door photo shows a hinged panel door; when a glass door is
-    quoted, showing the actual door is the whole point. The image part is
-    rewritten in place and the frame resized to the new picture's aspect ratio.
+    The house door photograph (`template/door.png`) goes into every quotation.
+    It replaces the master's own, which is labelled "SIZE: 90 x 190 cm" in the
+    artwork and so contradicts any job quoting a different size. Pass
+    `"image": <path>` to show the actual door instead — a glass door, say —
+    or `"image": false` to keep whatever the master ships with.
     """
     path = spec.get("door", {}).get("image")
-    if not path:
+    if path is False:
         return
-    path = Path(path)
+    path = Path(path) if path else HOUSE_DOOR_PHOTO
     if not path.is_file():
         print(f"  ! door image {path} not found — keeping the master photo",
               file=sys.stderr)

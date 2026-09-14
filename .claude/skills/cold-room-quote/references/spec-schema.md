@@ -46,7 +46,7 @@ Note the minus sign in freezer temperatures is U+2212 (`−`), matching the mast
 | Field | Default | Notes |
 |---|---|---|
 | `type` | `"hinged"` | `"sliding"` relabels the hinges row as Track & Rollers; `"glass"` describes a frameless glass door and relabels the row Hinge Type. Both reword the scope and BOQ |
-| `image` | — | path to a photo of the door being quoted; replaces the section 2 photograph, resized to the picture's aspect ratio |
+| `image` | `template/door.png` | the house door photograph goes into every quotation; pass a path to show the actual door being quoted instead, or `false` to keep the master's own picture |
 | `glass` | — | wording for a glass door: `thickness`, `frame`, `gasket`, `handle`, `hinges`, `hardware` |
 | `qty` | `1` | spelled out in scope and BOQ ("three (3) No.") |
 | `opening_text` | — | verbatim Clear Opening Size row, for a job with more than one door size |
