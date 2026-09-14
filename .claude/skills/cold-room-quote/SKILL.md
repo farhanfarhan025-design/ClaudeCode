@@ -40,11 +40,16 @@ the section it belongs to rather than stranding itself on a sheet of its own.
 Both width and height are written, so the aspect ratio is deliberately not
 preserved.
 
-The house sizes apply to every quotation. Override one picture through the
-knobs below (`banner_height_in`, `schematic_height_in`, `resize`,
-`table_photos` …) when a particular quote runs long, or pass
-`"house_pictures": false` to keep the master's own sizes — the reference
-quotation does that, so it still reproduces its source document.
+**Each picture belongs to a section and has to stay on that section's page** —
+a banner that flows onto the next sheet reads as belonging to the wrong
+section. How much room is left under a table moves with the number of rooms
+and the length of the text above it, so no fixed size suits every job. After
+writing the document the generator renders it, checks where each picture
+actually landed, and takes 10% off any that drifted — and only that one —
+until every picture is back with its section and no page is left nearly empty.
+That needs `soffice`, `pdfimages` and `pdftotext`; pass `--no-fit-pages` to
+skip it, or `"house_pictures": false` to keep the master's own sizes, as the
+reference quotation does so it still reproduces its source document.
 
 ## Workflow
 
@@ -116,11 +121,9 @@ python3 scripts/generate.py \
 `--print-summary` prints the computed panel areas, volume and amount in words.
 **Read it and sanity-check the numbers against the price before sending.**
 
-Add `--fit-check` on a long quotation — several rooms, a replaced BOQ, a wordy
-scope. It renders the document and shrinks whichever picture is at fault — the
-service banner or the schematic — until no page comes out near-empty, which the fixed default cannot guarantee because the
-space under section 12 moves with the amount of text above it. It needs
-`soffice` and adds a conversion pass per attempt.
+The page fit runs automatically and prints a line for each picture it had to
+shrink. It costs a PDF render per attempt, so a long quotation can take the
+best part of a minute.
 
 ### Step 4 — check before delivering
 

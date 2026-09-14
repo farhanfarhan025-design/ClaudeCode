@@ -157,7 +157,7 @@ so `images` and `resize` are generally used together.
 | `pricing_banner_height_in` | height of the banner under the amount in words; a long bill of quantities pushes it off the pricing page |
 | `schematic_height_in` | height of the section 6 refrigeration schematic; defaults to the house 1.79 in |
 | `banner_height_in` | height of the service banner under section 12; defaults to the house 3.48 in |
-| `house_pictures` | `false` keeps the master's own picture sizes instead of the house layout |
+| `house_pictures` | `false` keeps the master's own picture sizes instead of the house layout, and skips the page fit |
 
 ## Worked example
 

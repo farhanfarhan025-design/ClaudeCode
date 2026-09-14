@@ -1147,7 +1147,7 @@ def _scale_extent(para, target_h):
     return True
 
 
-def apply_house_pictures(doc, spec):
+def apply_house_pictures(doc, spec, scales=None):
     """Set every picture to the house size, in document order.
 
     The master's own proportions strand pictures on pages of their own; these
@@ -1160,8 +1160,10 @@ def apply_house_pictures(doc, spec):
     pictures = []
     for child in doc.element.body.iterchildren():
         pictures.extend(child.iter(qn("wp:extent")))
-    for extent, (w, h) in zip(pictures[1:], HOUSE_PICTURES):   # [0] is the cover
-        cx, cy = int(w * 914400), int(h * 914400)
+    for i, (extent, (w, h)) in enumerate(zip(pictures[1:], HOUSE_PICTURES)):
+        # [0] is the cover, left alone
+        f = (scales or {}).get(i, 1.0)
+        cx, cy = int(w * f * 914400), int(h * f * 914400)
         extent.set("cx", str(cx))
         extent.set("cy", str(cy))
         # the drawing's own frame, two levels up from the extent
@@ -1303,7 +1305,7 @@ def validate(spec):
               f"QUT/DCTS/[SQ]NNN/YYYY — continuing anyway", file=sys.stderr)
 
 
-def generate(spec, output):
+def generate(spec, output, scales=None):
     validate(spec)
     output = Path(output)
     output.parent.mkdir(parents=True, exist_ok=True)
@@ -1326,7 +1328,7 @@ def generate(spec, output):
     fill_total(doc, spec)
     fill_delivery(doc, spec)
     replace_door_image(doc, spec)
-    apply_house_pictures(doc, spec)
+    apply_house_pictures(doc, spec, scales)
     # everything below is an override on top of the house layout
     fit_banner(doc, spec)
     fit_schematic(doc, spec)
@@ -1348,67 +1350,136 @@ def generate(spec, output):
 SCHEMATIC_CAPTION = "schematic"
 
 
-def stranded_page(pdf):
-    """Pages carrying an image and nothing else, as (page, which image).
+# Each picture belongs to a section, and has to stay on that section's page.
+# The anchor is text that only appears where the section starts, matched
+# case-insensitively against each rendered page.
+PICTURE_ANCHORS = [
+    "room type",                        # installation banner
+    "panel details",
+    "door details",
+    "angles, silicone",
+    "flooring details",
+    "refrigeration machine details",    # condensing unit
+    "refrigeration machine details",    # evaporator
+    "machine capacity",                 # schematic
+    "control panel details",            # controller
+    "control panel details",            # wiring schematic
+    "amount in words",                  # pricing banner
+    "delivery & work completion",       # service banner
+]
 
-    The footer alone extracts to about 95 characters. A page holding only the
-    service banner comes in at that; one holding only the schematic adds its
-    caption and reaches about 160. Both are wasted sheets, and they are fixed
-    by shrinking different pictures, so they are told apart here.
-    """
+
+def _picture_pages(pdf):
+    """Page number of each picture, in document order, from `pdfimages -list`."""
     import subprocess
-    out = subprocess.run(["pdfinfo", str(pdf)], capture_output=True, text=True).stdout
-    pages = next((int(l.split()[1]) for l in out.splitlines() if l.startswith("Pages")), 0)
-    stranded = []
-    for n in range(2, pages + 1):                      # page 1 is the cover image
-        text = subprocess.run(["pdftotext", "-f", str(n), "-l", str(n), str(pdf), "-"],
-                              capture_output=True, text=True).stdout
-        packed = "".join(text.split())
-        if len(packed) < 120:
-            stranded.append((n, "banner"))
-        elif len(packed) < 260 and SCHEMATIC_CAPTION in text.lower():
-            stranded.append((n, "schematic"))
-    return stranded
+    out = subprocess.run(["pdfimages", "-list", str(pdf)],
+                         capture_output=True, text=True).stdout.splitlines()
+    return [int(line.split()[0]) for line in out[2:] if line.split()]
 
 
-def fit_check(spec, output):
-    """Shrink the banner until the quotation has no near-empty page.
+def _page_texts(pdf):
+    """The text of each page, lower-cased, 1-indexed."""
+    import subprocess
+    out = subprocess.run(["pdftotext", "-layout", str(pdf), "-"],
+                         capture_output=True, text=True).stdout
+    return [" ".join(page.split()).lower() for page in out.split("\f")]
 
-    The space left under section 12 depends on how much text the quote carries,
-    so no single banner height suits every job. Rather than guess, render and
-    look.
+
+def _render(output, tmp):
+    import subprocess
+    subprocess.run(["soffice", "--headless", "--convert-to", "pdf",
+                    "--outdir", tmp, str(output)], capture_output=True, timeout=600)
+    pdf = Path(tmp) / (Path(output).stem + ".pdf")
+    return pdf if pdf.is_file() else None
+
+
+def drifted_pictures(pdf):
+    """Pictures that did not land on the page of the section they illustrate.
+
+    Returns [(picture index, its page, the section's page)]. The four banners
+    are the ones that drift: they sit under a table whose length moves with the
+    number of rooms and the amount of text above it.
+    """
+    pages, texts = _picture_pages(pdf), _page_texts(pdf)
+    out = []
+    for i, anchor in enumerate(PICTURE_ANCHORS):
+        if i + 1 >= len(pages):                       # [0] is the cover
+            break
+        want = next((n for n, text in enumerate(texts, 1) if anchor in text), None)
+        got = pages[i + 1]
+        if want and got != want:
+            out.append((i, got, want))
+    return out
+
+
+def sparse_page(pdf):
+    """The first page carrying almost nothing, and the pictures before it.
+
+    A page holding only a caption, or the last bullet of a list, means the page
+    before it overflowed by a line or two. Taking that page's pictures down a
+    notch is what pulls the overflow back — all of them, because two sitting
+    side by side in one table row are only as short as the taller of the pair.
+    """
+    pages, texts = _picture_pages(pdf), _page_texts(pdf)
+    for n, text in enumerate(texts, 1):
+        if n == 1 or not text:                      # page 1 is the cover
+            continue
+        if len(text) >= 300:
+            continue
+        before = [i - 1 for i, page in enumerate(pages) if page == n - 1 and i > 0]
+        if before:                                  # [0] is the cover
+            return n, before
+    return None
+
+
+def fit_pages(spec, output, scales=None):
+    """Shrink any picture that slipped off its section's page, and only that one.
+
+    Each photograph is assigned to a section and has to stay with it — a banner
+    that flows onto the next page reads as belonging to the wrong section. How
+    much room is left under a table depends on the number of rooms and the
+    length of the text above it, so no fixed size suits every quotation: render,
+    see which picture drifted, take 10% off that one and look again.
     """
     import shutil as _shutil, subprocess, tempfile
-    if not _shutil.which("soffice"):
-        print("  ! soffice not found — skipping the fit check", file=sys.stderr)
-        return
-    heights = {"banner": spec.get("banner_height_in", BANNER_HEIGHT_IN),
-               "schematic": spec.get("schematic_height_in", SCHEMATIC_HEIGHT_IN)}
-    floors = {"banner": 2.0, "schematic": 0.7}
-    for _ in range(6):
+    if spec.get("house_pictures") is False:
+        return scales or {}         # nothing to scale — the master's own sizes
+    for tool in ("soffice", "pdfimages", "pdftotext"):
+        if not _shutil.which(tool):
+            print(f"  ! {tool} not found — skipping the page fit", file=sys.stderr)
+            return scales or {}
+    scales = dict(scales or {})
+    for _ in range(40):
         with tempfile.TemporaryDirectory() as tmp:
-            subprocess.run(["soffice", "--headless", "--convert-to", "pdf",
-                            "--outdir", tmp, str(output)],
-                           capture_output=True, timeout=600)
-            pdf = Path(tmp) / (Path(output).stem + ".pdf")
-            if not pdf.is_file():
-                print("  ! PDF conversion failed — skipping the fit check",
+            pdf = _render(output, tmp)
+            if pdf is None:
+                print("  ! PDF conversion failed — skipping the page fit",
                       file=sys.stderr)
-                return
-            bad = stranded_page(pdf)
-        if not bad:
-            return
-        page, which = bad[0]
-        step = 0.4 if which == "banner" else 0.25
-        heights[which] = round(heights[which] - step, 2)
-        if heights[which] < floors[which]:
-            print(f"  ! could not fit the {which} — check the layout by hand",
-                  file=sys.stderr)
-            return
-        print(f"  {which} did not fit (page {page} near-empty) — retrying at "
-              f"{heights[which]} in")
-        spec[f"{which}_height_in"] = heights[which]
-        generate(spec, output)
+                return scales
+            bad = drifted_pictures(pdf)
+            thin = None if bad else sparse_page(pdf)
+        if not bad and not thin:
+            return scales
+        if bad:
+            i, got, want = bad[0]
+            why = f"landed on page {got}, belongs on {want}"
+            group = [i]
+        else:
+            page, group = thin
+            why = f"leave page {page} nearly empty"
+        shrink = [i] if bad else group
+        for j in shrink:
+            scales[j] = round(scales.get(j, 1.0) * 0.9, 3)
+        worst = min(scales[j] for j in shrink)
+        names = ", ".join(str(j + 1) for j in shrink)
+        if worst < 0.25:
+            print(f"  ! picture(s) {names} {why} and will not shrink further — "
+                  "check the layout by hand", file=sys.stderr)
+            return scales
+        print(f"  picture(s) {names} {why} — retrying at "
+              f"{int(worst * 100)}% of the house size")
+        generate(spec, output, scales)
+    return scales
 
 
 def main():
@@ -1418,15 +1489,15 @@ def main():
     ap.add_argument("--output", required=True, help="path for the generated .docx")
     ap.add_argument("--print-summary", action="store_true",
                     help="print computed quantities for cross-checking")
-    ap.add_argument("--fit-check", action="store_true",
-                    help="render to PDF and shrink the service banner until the "
-                         "quotation has no near-empty page (needs soffice)")
+    ap.add_argument("--no-fit-pages", action="store_true",
+                    help="skip the page fit — leave every picture at the house "
+                         "size even if one lands on the wrong page")
     args = ap.parse_args()
 
     spec = json.loads(Path(args.spec).read_text(encoding="utf-8"))
     output, tot = generate(spec, args.output)
-    if args.fit_check:
-        fit_check(spec, output)
+    if not args.no_fit_pages:
+        fit_pages(spec, output)
 
     print(f"Written: {output}")
     if args.print_summary:
