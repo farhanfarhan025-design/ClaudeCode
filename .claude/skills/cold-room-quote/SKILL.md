@@ -32,17 +32,19 @@ The section 2 photograph is replaced by the house door picture
 size. Pass `"door": {"image": "<path>"}` to show the actual door being quoted,
 or `"image": false` to keep the master's.
 
-One layout fix is applied on top: the master sizes the service banner under
-section 12 slightly too tall for the space left on the page, so it flows onto
-a sheet of its own and the quotation ends with a near-empty page. The generator
-scales it to fit (default 4.0 in tall), which drops one page from every
-quotation. Pass `"banner_height_in": 0` to keep the master's original size.
+**Every picture is set to the house size**, listed as `HOUSE_PICTURES` in
+`scripts/generate.py`. Those are the sizes Farhan set by hand on
+`QUT/DCTS/SQ088/2026`, and they are not the master's own proportions: the four
+banners keep their full width and give up height instead, so each sits under
+the section it belongs to rather than stranding itself on a sheet of its own.
+Both width and height are written, so the aspect ratio is deliberately not
+preserved.
 
-A second layout fix does the same for the refrigeration schematic that closes
-section 6: at the master's size it overruns the space under the capacity table
-and lands on a sheet of its own, because section 7 starts a new page. Scaling
-it to 1.2 in keeps it with section 6 and leaves section 7 opening its own page.
-Pass `"schematic_height_in": 0` to keep the master's size.
+The house sizes apply to every quotation. Override one picture through the
+knobs below (`banner_height_in`, `schematic_height_in`, `resize`,
+`table_photos` …) when a particular quote runs long, or pass
+`"house_pictures": false` to keep the master's own sizes — the reference
+quotation does that, so it still reproduces its source document.
 
 ## Workflow
 

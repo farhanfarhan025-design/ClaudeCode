@@ -46,5 +46,6 @@
   "flooring": {
     "plywood": "18 mm",
     "plate": "3 mm"
-  }
+  },
+  "house_pictures": false
 }

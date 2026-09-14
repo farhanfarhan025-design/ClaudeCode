@@ -155,8 +155,9 @@ so `images` and `resize` are generally used together.
 | `control_panel_height_in` | height of the two section 7 photographs, in inches; they share a page with the scope and exclusions, so trimming them pulls spilled bullets back once the lists are already tight |
 | `project_banner_height_in` | height of the installation banner under the project table; a quote listing several rooms pushes it off that page |
 | `pricing_banner_height_in` | height of the banner under the amount in words; a long bill of quantities pushes it off the pricing page |
-| `schematic_height_in` | height of the section 6 refrigeration schematic, default `1.2`; `0` keeps the master's 1.52 in, which pushes it onto a page of its own |
-| `banner_height_in` | height of the service banner under section 12, default `4.0`; `0` keeps the master's 5.45 in, which strands it on a page of its own |
+| `schematic_height_in` | height of the section 6 refrigeration schematic; defaults to the house 1.79 in |
+| `banner_height_in` | height of the service banner under section 12; defaults to the house 3.48 in |
+| `house_pictures` | `false` keeps the master's own picture sizes instead of the house layout |
 
 ## Worked example
 

@@ -49,16 +49,34 @@ AMOUNT_PREFIX = "Amount in Words:"
 # Doha design ambient, used when a quote does not state one
 DEFAULT_AMBIENT = "46°C"
 
-# Height for the service banner under section 12. The free space below the
-# delivery table varies with how section 10 breaks — measured at 5.3 in on a
-# one-room quote and 4.4 in on a two-room one — and the banner needs its cell
-# padding on top of its own height. 4.0 in clears the tighter case; lower
-# banner_height_in if a quotation still strands it on a page of its own.
-BANNER_HEIGHT_IN = 4.0
+# The house picture sizes, in inches, as Farhan set them by hand on
+# QUT/DCTS/SQ088/2026 — every quotation is laid out to these. They are
+# width × height in document order, and deliberately not the master's own
+# proportions: the banners keep their full width and give up height instead,
+# which is what makes them sit under the section they belong to.
+#
+# The cover image is left alone; this list starts at the installation banner
+# under the project table and runs to the service banner under section 12.
+HOUSE_PICTURES = [
+    (7.42, 2.92),   # installation banner, under the project table
+    (5.00, 4.00),   # 1. panel details
+    (4.70, 4.69),   # 2. door details
+    (3.33, 2.67),   # 3. angles, silicone & accessories
+    (5.11, 2.80),   # 4. flooring details
+    (1.11, 1.00),   # 5. condensing unit
+    (1.11, 1.00),   # 5. evaporator
+    (4.49, 1.79),   # 6. refrigeration schematic
+    (1.86, 0.77),   # 7. digital temperature controller
+    (1.67, 0.84),   # 7. typical wiring schematic
+    (6.59, 2.26),   # 10. pricing banner, under the amount in words
+    (7.24, 3.48),   # 12. service banner
+]
 
-# Height for the refrigeration schematic that closes section 6. The master's
-# 1.52 in plus its caption just overruns the space below the capacity table.
-SCHEMATIC_HEIGHT_IN = 1.2
+# Heights for the service banner and the section 6 schematic. Both default to
+# the house sizes above; set either to shrink that one picture further on a
+# quotation whose pages run long.
+BANNER_HEIGHT_IN = 0
+SCHEMATIC_HEIGHT_IN = 0
 
 
 # --------------------------------------------------------------------------
@@ -1129,6 +1147,32 @@ def _scale_extent(para, target_h):
     return True
 
 
+def apply_house_pictures(doc, spec):
+    """Set every picture to the house size, in document order.
+
+    The master's own proportions strand pictures on pages of their own; these
+    are the sizes Farhan settled on by hand. Width and height are both written,
+    so a banner keeps its full width and loses height instead of shrinking
+    away from the margins.
+    """
+    if spec.get("house_pictures") is False:
+        return                      # keep the master's own sizes
+    pictures = []
+    for child in doc.element.body.iterchildren():
+        pictures.extend(child.iter(qn("wp:extent")))
+    for extent, (w, h) in zip(pictures[1:], HOUSE_PICTURES):   # [0] is the cover
+        cx, cy = int(w * 914400), int(h * 914400)
+        extent.set("cx", str(cx))
+        extent.set("cy", str(cy))
+        # the drawing's own frame, two levels up from the extent
+        for ext in extent.getparent().getparent().iter(qn("a:ext")):
+            # a:ext also names the extension-list element, which carries a uri
+            # and rejects cx/cy — only the a:xfrm one describes a size
+            if ext.get("cx") is not None:
+                ext.set("cx", str(cx))
+                ext.set("cy", str(cy))
+
+
 def _picture_between(doc, after, before):
     """The first picture paragraph following `after`, stopping at `before`.
 
@@ -1281,8 +1325,10 @@ def generate(spec, output):
     fill_boq(doc, spec, qs, tot)
     fill_total(doc, spec)
     fill_delivery(doc, spec)
-    fit_banner(doc, spec)
     replace_door_image(doc, spec)
+    apply_house_pictures(doc, spec)
+    # everything below is an override on top of the house layout
+    fit_banner(doc, spec)
     fit_schematic(doc, spec)
     fit_project_banner(doc, spec)
     fit_pricing_banner(doc, spec)
