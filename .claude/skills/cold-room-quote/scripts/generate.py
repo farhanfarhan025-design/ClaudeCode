@@ -1049,11 +1049,32 @@ def fit_control_panel(doc, spec):
     way to pull spilled bullets back when the lists are already tight.
     """
     target_h = spec.get("control_panel_height_in")
-    if not target_h:
-        return
-    t = find_table(doc, "Controller")
+    if target_h:
+        _scale_table_pictures(find_table(doc, "Controller"), target_h)
+
+
+def fit_table_photos(doc, spec):
+    """Scale the photographs inside any named specification table.
+
+    Entries are {table, height_in}, `table` being a first-column label of the
+    table to find. The master's section photographs live inside the tables they
+    illustrate, out of reach of `resize`, which only walks body paragraphs — and
+    a quote listing several rooms pushes every table down the page.
+    """
+    for item in spec.get("table_photos") or []:
+        try:
+            t = find_table(doc, item["table"])
+        except LookupError:
+            print(f"  ! table_photos: no table with row {item['table']!r}"
+                  " — skipped", file=sys.stderr)
+            continue
+        _scale_table_pictures(t, item["height_in"])
+
+
+def _scale_table_pictures(table, target_h):
+    """Scale every picture in `table` down to `target_h` inches, keeping ratio."""
     target_cy = int(target_h * 914400)
-    for extent in t._tbl.iter(qn("wp:extent")):
+    for extent in table._tbl.iter(qn("wp:extent")):
         cx, cy = int(extent.get("cx")), int(extent.get("cy"))
         if cy <= target_cy:
             continue
@@ -1262,6 +1283,7 @@ def generate(spec, output):
     fit_project_banner(doc, spec)
     fit_pricing_banner(doc, spec)
     fit_control_panel(doc, spec)
+    fit_table_photos(doc, spec)
     apply_row_overrides(doc, spec)
     replace_pictures(doc, spec)
     remove_pictures(doc, spec)

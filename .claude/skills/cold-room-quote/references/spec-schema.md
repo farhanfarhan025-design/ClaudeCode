@@ -126,6 +126,7 @@ pins 3 mm in its own spec, so it still reproduces its source document.
 | `control_rows` | `{row label: value}` written verbatim into the section 7 table |
 | `machine_rows` | `{row label: value}` written verbatim into the section 5 table |
 | `capacity_rows` | `{row label: value}` written verbatim into the section 6 table |
+| `table_photos` | list of `{table, height_in}` — scales the photographs inside the table carrying that first-column label, e.g. `{"table": "System Type"}` for the section 5 machine photos; `resize` only reaches pictures in body paragraphs |
 
 The section photographs carry their captions burnt into the artwork — the door
 illustration is labelled `SIZE: 90 x 190 cm`, the panel illustration says
