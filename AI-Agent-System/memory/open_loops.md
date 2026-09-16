@@ -1002,7 +1002,9 @@ Three documents were produced today and none has been appended to the log in Dri
   vegetable yard with loaded forklifts and delivery vehicles that area will rut. The note asks
   the client to confirm the 80 sqm is where the heavy traffic runs, and offers the balance at
   the same rate.
-- **INV-268/2026** — Lean N Fit, complete inspection of cold room, **250**, issued 16-09-2026.
+- **INV-268/2026** — Lean N Fit, complete inspection of cold room. Charge **350** less a **100**
+  discount, **net 250**, issued 16-09-2026. Farhan's instruction: show the full rate and the
+  concession rather than a bare 250, so the client sees what the attendance is worth.
   Payment on presentation (terms not stated by Farhan; Lean N Fit's two earlier jobs were cash).
   **Third Lean N Fit job** after the 17,000 freezer unit replacement and the 1,200 drainage
   replacement, both settled. **No quotation preceded this one** — a site attendance billed
