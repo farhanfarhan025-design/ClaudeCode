@@ -976,6 +976,17 @@ Three documents were produced today and none has been appended to the log in Dri
   control panel, electrical works, refrigerant, testing and commissioning, over 02–03 days.
   Worth checking that covers the labour and materials before the client picks the cheaper one.
   Payment terms of 100% were assumed; Farhan gave only the price and ex stock.
+- **QUT/DCTS/237/2026** — Shared Services, Anantara / Tivoli group (attn. Mr. Kenneth Ferran,
+  Purchasing Clerk, +974 3997 2849, P.O. Box 3496), supply of twenty refrigeration items per
+  the supplier material list — DORIN AU-H300CC condensing unit, two FRIGA BOHN 3C-E 3245-R
+  evaporators, both Aeris coated, plus Danfoss and Castel valves, copper, insulation and
+  fittings. **21,700**, ex stock subject to prior sale, 100% payment, **validity 05 days**,
+  issued 16-09-2026.
+  **Quoted as a lump sum for the whole schedule** — the twenty lines are listed with model
+  codes and quantities but not priced individually, because the supplier's unit prices total
+  18,755 and marking each line up to reach 21,700 would mean inventing twenty rates. A note
+  offers unit rates on request; ask Farhan how he wants them split if the client presses.
+  **Margin 2,945 — see the new margin section in `durable_facts.md`.**
 - **WO/DCTS/001/2026** — Al Zehrabi work order, 18-08-2026. **Opens a new series**; the log has
   no work-order column yet.
 - **INV-263/2026** — Al Zehrabi, **4,900 in full**, issued 19-08-2026 (redrafted from an 80%
