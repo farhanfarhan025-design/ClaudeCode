@@ -76,7 +76,27 @@ The larger of the two has collected nothing.
 ## Pricing rate card
 
 Recorded in `tndk-coldroom-quotation/references/pricing-guide.md` and mirrored in
-`scripts/margin.py`. **Last verification date unknown** — flag before pricing large contracts.
+`scripts/margin.py`. **Panel, door, angle and floor rates: last verification date unknown**
+— flag before pricing large contracts.
+
+Spares and plant rates now have a first verification point: two quotations dated
+**16 September 2026**, captured in `pricebook/`. Panel and door rates are still unverified.
+
+## Vendors
+
+| Fact | Value | Source | Confidence |
+|---|---|---|---|
+| Arctic (ACC Qatar) — PO email | arcticparts@accqatar.com | Quotation ATC/AZ/QT/26/07619 Rev1, 16 Sep 2026 | high |
+| Arctic — contacts | Pandian 50372315 · Jeena 59985144 (prepares quotes) | same | high |
+| Arctic — LPO condition | Original LPO with company stamp must be presented at the showroom on collection, or the LPO will not be processed | same | high |
+| Arctic — services | Motor rewinding, PCB repairing, bush bearing, lathe work, compressor overhauling | same | high |
+| Arctic — standard terms | Cash · validity 5 days · ex-stock subject to prior sale | same | high |
+
+> Arctic quotes are addressed to **Doha Cooling Trading & Solutions**, not TNDK. That is the
+> legacy-name case in `RULES.md` C4 — a vendor who knows the old name. LPOs to Arctic on TNDK
+> letterhead may need the DCTS relationship stated.
+
+The supplier who priced the 16 Sep material list by hand is **not identified** — OL-013.
 
 ## Known warranty / AMC position
 

@@ -64,11 +64,21 @@ AI-Agent-System/
 ├── memory/              durable_facts · preferences · open_loops · lessons
 ├── logs/                overrides · actions · failures
 ├── analysis/FINDINGS.md the evidence
+├── pricebook/           vendor quotations as received — PROCURE's rate evidence
+│   ├── items.json       canonical part registry
+│   ├── quotes/          one file per vendor quotation
+│   └── comparisons/     dated comparisons, as issued to Farhan
 └── scripts/
     ├── margin.py        cost build-up + floor check   (verified)
     ├── build_register.py corrected registers          (verified)
+    ├── pricebook.py     vendor price capture + compare (verified)
     └── examples/        suresh.json · awards.json
 ```
+
+The price book is the one piece of *data* kept here rather than in Drive, and it is a
+deliberate exception with a stated reason: vendor quotations are inbound offers with no
+Drive source of truth, and their whole value is version history — what a price was last
+time. Nothing from `02 - Registers/` goes in it. See `pricebook/README.md` and OL-014.
 
 **Instructions live here. Data lives in Google Drive.** Never copy register data into this
 repo — that duplication is what produced three different answers for Samoosa
@@ -87,8 +97,17 @@ python3 scripts/margin.py --config scripts/examples/suresh.json --price 59000
 python3 scripts/build_register.py --data scripts/examples/awards.json --outdir ./out
 ```
 
+```bash
+# Capture, verify and compare vendor quotations
+python3 scripts/pricebook.py --verify      # exit 2 if a quote does not add up
+python3 scripts/pricebook.py --compare
+python3 scripts/pricebook.py --item copper-coil-half-50ft
+```
+
 `margin.py` reproduces the pricing guide's worked example to the riyal (direct 43,448.45,
 cost 51,465.72). `build_register.py` asserts every total against source data before writing.
+`pricebook.py` re-multiplies every quoted line and checks it against the vendor's own stated
+total before any rate from that quote is used.
 
 ## Deployment sequence
 

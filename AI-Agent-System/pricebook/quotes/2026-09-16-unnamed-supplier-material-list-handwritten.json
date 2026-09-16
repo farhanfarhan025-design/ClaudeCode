@@ -1,0 +1,58 @@
+{
+  "quote_id": "2026-09-16-unnamed-supplier-material-list-handwritten",
+  "vendor": {
+    "name": "UNIDENTIFIED - handwritten prices on our own material list",
+    "short": "HANDWRITTEN",
+    "note": "The document names no vendor. Several lines carry an 'LP-' prefix, which appears to be the supplier's own line/stock coding. PROCURE must not name this vendor until Farhan confirms who priced the sheet - see open loop OL-013."
+  },
+  "document": {
+    "ref": "none - untitled 'Material List', 20 items",
+    "revision": null,
+    "date": "2026-09-16",
+    "subject": "Prices handwritten against a TNDK/DCTS material list",
+    "source_file": "material-list-handwritten-photo.jpg",
+    "source_type": "photograph of a marked-up printout"
+  },
+  "terms": {
+    "currency": "QAR",
+    "currency_confidence": "medium",
+    "currency_note": "No currency symbol appears on the sheet. QAR assumed because the enquiry, the competing quotation and the project are all Qatar. Confirm before use on any costing.",
+    "payment": "not stated",
+    "validity_days": 5,
+    "valid_until": "2026-09-21",
+    "delivery": "Ex-stock, subject to prior sale",
+    "handwritten_footer": "\"Ex. stock, subject to prior sale.\"  /  \"Validity: 05 days.\""
+  },
+  "stated_total": null,
+  "stated_total_note": "The sheet carries NO total. The figure in this file's summary is computed from qty x unit price and must be confirmed with the supplier before it is used as a contract figure (RULES A3).",
+  "price_basis": "unit",
+  "price_basis_evidence": "Read as UNIT prices, not line totals. Three independent checks: the orifice at 45.00 matches Arctic's 45.00 each exactly; the TE2 valve at 180.00 sits beside Arctic's 185.00 each; the vibration pad at 20.00 sits beside Arctic's 25.00 each. Reading them as line totals would put this supplier at roughly half of Arctic across the board, which nothing supports. Confidence: medium-high - worth one confirming question.",
+  "lines": [
+    { "sl": 1,  "item": "condensing-unit-dorin-au-h300cc",   "description": "DORIN CONDENSING UNIT WITH AERIS ANTI CORROSIVE COATING - AU-H300CC",          "qty": 1, "unit": "EACH", "unit_price": 9300.00, "line_total": 9300.00 },
+    { "sl": 2,  "item": "evaporator-frigabohn-3c-e-3245",    "description": "FRIGA BOHN EVAPORATOR WITH AERIS ANTI CORROSIVE COATING - 3C-E 3245-R+E1U+240V", "qty": 2, "unit": "EACH", "unit_price": 3475.00, "line_total": 6950.00 },
+    { "sl": 3,  "item": "filter-drier-dcl164-half",          "description": "DANFOSS FILTER DRIER 1/2\" FLARE TYPE - DCL 164, 023Z500991",                 "qty": 1, "unit": "EACH", "unit_price": 50.00,   "line_total": 50.00 },
+    { "sl": 4,  "item": "expansion-valve-te2",               "description": "LP - DANFOSS EXPANSION VALVE TE2, R404A/R507A (068Z3403)",                    "qty": 2, "unit": "EACH", "unit_price": 180.00,  "line_total": 360.00 },
+    { "sl": 5,  "item": "orifice-te2-no02",                  "description": "LP - Danfoss Orifice No 02, 068-2015",                                        "qty": 2, "unit": "EACH", "unit_price": 45.00,   "line_total": 90.00 },
+    { "sl": 6,  "item": "sight-glass-sgi12s",                "description": "DANFOSS SIGHT GLASS SOLDER TYPE - SGI12S, 014-0036",                          "qty": 1, "unit": "EACH", "unit_price": 65.00,   "line_total": 65.00 },
+    { "sl": 7,  "item": "ball-valve-half",                   "description": "DANFOSS BALL VALVE - GBC 12S, 009L7022",                                      "qty": 1, "unit": "EACH", "unit_price": 90.00,   "line_total": 90.00 },
+    { "sl": 8,  "item": "pressure-switch-kp15",              "description": "LP - Danfoss Dual Pressure Switch KP15 + Flexible Hose AUTO",                 "qty": 1, "unit": "EACH", "unit_price": 180.00,  "line_total": 180.00, "note": "Includes a flexible hose." },
+    { "sl": 9,  "item": "flare-nut-half",                    "description": "OLAB FLARE NUT 1/2\"",                                                        "qty": 4, "unit": "EACH", "unit_price": 6.00,    "line_total": 24.00 },
+    { "sl": 10, "item": "flare-nut-three-eighths",           "description": "LP - Castel Flare Nut 3/8\", 7010/33",                                        "qty": 2, "unit": "EACH", "unit_price": 5.00,    "line_total": 10.00 },
+    { "sl": 11, "item": "flexible-connector-1mtr",           "description": "FLEXIBLE HOSE RED/BLUE",                                                      "qty": 2, "unit": "EACH", "unit_price": 35.00,   "line_total": 70.00 },
+    { "sl": 12, "item": "vibration-eliminator-half",         "description": "HARBAX VIBRATION ELIMINATOR 1/2\"",                                           "qty": 1, "unit": "EACH", "unit_price": 50.00,   "line_total": 50.00 },
+    { "sl": 13, "item": "solenoid-valve-1068-4a6",           "description": "CASTEL SOLENOID VALVE 1/2\" + COIL - 1068/4A6",                               "qty": 2, "unit": "EACH", "unit_price": 155.00,  "line_total": 310.00, "note": "Coil explicitly included." },
+    { "sl": 14, "item": "copper-coil-half-50ft",             "description": "COPPER COIL 1/2\" X 50' STANDARD",                                            "qty": 1, "unit": "ROLL", "unit_price": 320.00,  "line_total": 320.00 },
+    { "sl": 15, "item": "copper-coil-seven-eighths-50ft",    "description": "COPPER COIL 7/8\" X 50' STANDARD",                                            "qty": 1, "unit": "ROLL", "unit_price": 700.00,  "line_total": 700.00 },
+    { "sl": 16, "item": "pipe-insulation-seven-eighths",     "description": "LP - Pipe Insulation Rubber 7/8\" X 3/8\" X 1.8Mtrs (70 pcs/box)",             "qty": 8, "unit": "EACH", "unit_price": 13.00,   "line_total": 104.00, "note": "1.8 m length stated." },
+    { "sl": 17, "item": "capillary-tube",                    "description": "COPPER CAPILLARY 0.9 MTR, WITH NUT 1/4\" STRAIGHT",                            "qty": 2, "unit": "EACH", "unit_price": 16.00,   "line_total": 32.00, "note": "Cut-to-length assembly with nut, not bulk tube." },
+    { "sl": 18, "item": "charging-union-quarter-npt",        "description": "CASTEL NPT CONNECTOR - 1/4\" FLARE X 1/8\" NPT, 7140/21",                      "qty": 2, "unit": "EACH", "unit_price": 7.00,    "line_total": 14.00 },
+    { "sl": 19, "item": "p-trap-half",                       "description": "P TRAP 1/2\"",                                                                "qty": 2, "unit": "EACH", "unit_price": 8.00,    "line_total": 16.00 },
+    { "sl": 20, "item": "vibration-pad",                     "description": "VIBRATION PAD",                                                               "qty": 1, "unit": "EACH", "unit_price": 20.00,   "line_total": 20.00 }
+  ],
+  "provenance": {
+    "captured_by": "PROCURE (inventory keeper)",
+    "captured_on": "2026-09-16",
+    "confidence": "medium",
+    "basis": "Transcribed from a photograph of handwriting. Unit prices are as written; line totals are computed (qty x unit) and are NOT on the source document. Re-check against the original sheet before an LPO is raised on these rates."
+  }
+}

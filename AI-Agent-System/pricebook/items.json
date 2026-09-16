@@ -1,0 +1,141 @@
+{
+  "_comment": [
+    "Canonical item registry for the TNDK/DCTS refrigeration spares price book.",
+    "One key per physical thing we buy. Vendors describe the same part five ways;",
+    "this file is what lets two quotations be compared line to line.",
+    "",
+    "Add a key only when a real quotation contains the item. Never invent a part.",
+    "'compare_note' is a warning that two vendors' lines under this key are NOT",
+    "strictly like for like - the comparison script prints it next to the price."
+  ],
+  "items": {
+    "condensing-unit-dorin-au-h300cc": {
+      "description": "Dorin condensing unit, Aeris anti-corrosive coating",
+      "brand": "Dorin",
+      "model": "AU-H300CC",
+      "unit": "EACH",
+      "category": "plant"
+    },
+    "evaporator-frigabohn-3c-e-3245": {
+      "description": "Friga-Bohn evaporator, Aeris anti-corrosive coating",
+      "brand": "Friga-Bohn",
+      "model": "3C-E 3245-R + E1U + 240V",
+      "unit": "EACH",
+      "category": "plant"
+    },
+    "filter-drier-dcl164-half": {
+      "description": "Filter drier 1/2\", flare type",
+      "brand": "Danfoss",
+      "model": "DCL 164 (023Z500991)",
+      "unit": "EACH",
+      "category": "line-component"
+    },
+    "expansion-valve-te2": {
+      "description": "Thermostatic expansion valve TE2 / TES-2, R404A/R507A",
+      "brand": "Danfoss",
+      "model": "TE2 (068Z3403)",
+      "unit": "EACH",
+      "category": "line-component"
+    },
+    "orifice-te2-no02": {
+      "description": "Orifice No. 02 for TE2 valve",
+      "brand": "Danfoss",
+      "model": "068-2015",
+      "unit": "EACH",
+      "category": "line-component"
+    },
+    "sight-glass-sgi12s": {
+      "description": "Sight glass 1/2\" SGI-12S",
+      "brand": "Danfoss",
+      "model": "SGI 12S (014-0036)",
+      "unit": "EACH",
+      "category": "line-component",
+      "compare_note": "Material list specifies SOLDER type; Arctic line does not state connection type. Confirm before treating as identical."
+    },
+    "ball-valve-half": {
+      "description": "Ball valve 1/2\"",
+      "unit": "EACH",
+      "category": "line-component",
+      "compare_note": "Different brands: Danfoss GBC 12S (009L7022) vs Castel 6570/4. Function-equivalent, not identical."
+    },
+    "pressure-switch-kp15": {
+      "description": "Dual pressure switch KP15, auto reset",
+      "brand": "Danfoss",
+      "model": "KP 15",
+      "unit": "EACH",
+      "category": "control",
+      "compare_note": "Material list bundles a flexible hose with the switch; Arctic quotes the switch alone and the hose separately. Compare the bundle, not the headline."
+    },
+    "flare-nut-half": {
+      "description": "Flare nut 1/2\"",
+      "unit": "EACH",
+      "category": "fitting",
+      "compare_note": "Brands differ (Olab vs RW). Commodity fitting."
+    },
+    "flare-nut-three-eighths": {
+      "description": "Flare nut 3/8\"",
+      "unit": "EACH",
+      "category": "fitting",
+      "compare_note": "Brands differ (Castel 7010/33 vs RW). Commodity fitting."
+    },
+    "flexible-connector-1mtr": {
+      "description": "Flexible connector / charging hose with 1/4\" nut, approx 1 m",
+      "unit": "EACH",
+      "category": "fitting",
+      "compare_note": "Material list calls it FLEXIBLE HOSE RED/BLUE; Arctic calls it FLEXIBLE CONNECTOR WITH 1/4 NUT -1MTR. Quantities differ between the two documents (2 vs 3)."
+    },
+    "vibration-eliminator-half": {
+      "description": "Vibration eliminator 1/2\"",
+      "unit": "EACH",
+      "category": "line-component",
+      "compare_note": "Different brands: Harbax vs Castel 7690/4."
+    },
+    "solenoid-valve-1068-4a6": {
+      "description": "Solenoid valve 1/2\" body 1068/4A6",
+      "brand": "Castel",
+      "model": "1068/4A6",
+      "unit": "EACH",
+      "category": "line-component",
+      "compare_note": "Material list price is stated to INCLUDE the coil. Arctic line does not say whether the coil is included - confirm. A coil is a separately priced part, so this is the most material open question in the comparison."
+    },
+    "copper-coil-half-50ft": {
+      "description": "Copper coil / pipe 1/2\" x 50 ft roll",
+      "unit": "ROLL",
+      "category": "pipe"
+    },
+    "copper-coil-seven-eighths-50ft": {
+      "description": "Copper coil / pipe 7/8\" x 50 ft roll",
+      "unit": "ROLL",
+      "category": "pipe"
+    },
+    "pipe-insulation-seven-eighths": {
+      "description": "Rubber pipe insulation 7/8\" x 3/8\"",
+      "unit": "EACH",
+      "category": "insulation",
+      "compare_note": "NOT like for like. Material list = 1.8 m length (70 pcs/box). Arctic line states no length. A 4x unit-price gap is expected if the Arctic piece is shorter - resolve the length before using either rate."
+    },
+    "capillary-tube": {
+      "description": "Copper capillary tube 0.090\"",
+      "unit": "varies",
+      "category": "line-component",
+      "compare_note": "NOT like for like. Material list = 0.9 m cut length WITH 1/4\" straight nut fitted (an assembly). Arctic = bulk tube priced per metre off a 100 ft coil. Do not compare the unit figures directly."
+    },
+    "charging-union-quarter-npt": {
+      "description": "Charging union / NPT connector, 1/4\" flare x 1/8\" NPT",
+      "unit": "EACH",
+      "category": "fitting",
+      "compare_note": "Material list = Castel 7140/21. Arctic quotes both a Castel 9150/R02 connector (10.00) and a charging union w/pin (8.00); the union is the closer match."
+    },
+    "p-trap-half": {
+      "description": "Copper P-trap 1/2\"",
+      "unit": "EACH",
+      "category": "pipe"
+    },
+    "vibration-pad": {
+      "description": "Rubber vibration / anti-vibration pad",
+      "unit": "EACH",
+      "category": "fitting",
+      "compare_note": "Arctic specifies Airtech 18x18x3/8. Material list states no size."
+    }
+  }
+}
