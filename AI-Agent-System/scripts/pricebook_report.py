@@ -90,6 +90,117 @@ footer { position: fixed; bottom: -9mm; left: 0; right: 0; font-size: 6.8pt;
 """ % {"blue": BLUE, "gold": GOLD}
 
 
+CSS_LANDSCAPE = CSS.replace("size: A4 portrait", "size: A4 landscape").replace(
+    "font-size: 8.6pt", "font-size: 8.2pt")
+
+
+def build_price_list(items, quotes):
+    """The unit price comparison on its own — a landscape sheet to carry."""
+    today = datetime.date.today().isoformat()
+    inbound = [q for q in quotes if q["direction"] == "inbound"]
+    idx_in = index_by_item(inbound)
+    idx_all = index_by_item(quotes)
+
+    vendors = []
+    for q in inbound:
+        if q["vendor"]["short"] not in vendors:
+            vendors.append(q["vendor"]["short"])
+
+    rows = []
+    for key, offers in idx_in.items():
+        by_vendor = {}
+        for o in offers:
+            cur = by_vendor.get(o["vendor"])
+            if cur is None or o["unit_price"] < cur["unit_price"]:
+                by_vendor[o["vendor"]] = o
+        prices = [o["unit_price"] for o in by_vendor.values()]
+        sell = [o for o in idx_all.get(key, []) if o["direction"] == "outbound"]
+        rows.append({
+            "key": key, "meta": items.get(key, {}), "by_vendor": by_vendor,
+            "n": len(by_vendor), "best": min(prices),
+            "spread": (max(prices) - min(prices)) / min(prices) * 100.0 if min(prices) else 0.0,
+            "sell": sell[0]["unit_price"] if sell else None,
+        })
+
+    multi = sorted([r for r in rows if r["n"] > 1], key=lambda r: -r["spread"])
+    single = sorted([r for r in rows if r["n"] == 1], key=lambda r: -r["best"])
+
+    o = ['<!DOCTYPE html><html><head><meta charset="utf-8">',
+         "<title>TNDK Unit Price Comparison</title><style>%s</style></head><body>" % CSS_LANDSCAPE]
+    o.append("""
+    <div class="letterhead">
+      <div class="stamp">INTERNAL — NOT FOR CLIENTS</div>
+      <div class="co">THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.</div>
+      <div class="addr">P.O. Box 80247, Doha, State of Qatar &nbsp;|&nbsp; Tel: 7706 0676
+        &nbsp;|&nbsp; farhan@dctsqatar.com</div>
+    </div>
+    <h1>Unit Price Comparison</h1>
+    <div class="sub">Every item we hold a quoted price for, in QAR. %d items from %d
+      documents · %s</div>
+    """ % (len(rows), len(quotes), today))
+
+    def table(rs, show_spread):
+        t = ["<table><tr><th>Item</th><th>Model / part</th>"]
+        for v in vendors:
+            t.append('<th class="num">%s</th>' % esc(v))
+        t.append('<th class="num">Best</th>')
+        if show_spread:
+            t.append('<th class="num">Spread</th>')
+        t.append('<th class="num">We sell</th><th class="num">Markup</th>'
+                 '<th class="mid">Note</th></tr>')
+        for r in rs:
+            t.append("<tr><td><b>%s</b></td>" % esc(r["meta"].get("description", r["key"])))
+            t.append('<td class="note">%s</td>' % esc(r["meta"].get("model", "—")))
+            for v in vendors:
+                x = r["by_vendor"].get(v)
+                if x is None:
+                    t.append('<td class="num dear">—</td>')
+                else:
+                    cls = ("num best" if abs(x["unit_price"] - r["best"]) < 0.005
+                           and r["n"] > 1 else "num")
+                    t.append('<td class="%s">%s</td>' % (cls, money(x["unit_price"])))
+            t.append('<td class="num"><b>%s</b></td>' % money(r["best"]))
+            if show_spread:
+                t.append('<td class="num">%.0f%%</td>' % r["spread"])
+            if r["sell"] is None:
+                t.append('<td class="num dear">—</td><td class="num dear">—</td>')
+            else:
+                mk = (r["sell"] - r["best"]) / r["best"] * 100.0 if r["best"] else 0.0
+                cls = "num warn" if mk < FLOOR_MARGIN_PY * 100 else "num"
+                t.append('<td class="num">%s</td><td class="%s">%.0f%%</td>' % (
+                    money(r["sell"]), cls, mk))
+            t.append('<td class="mid flag">%s</td></tr>' % (
+                "◆" if r["meta"].get("compare_note") else ""))
+        t.append("</table>")
+        return "".join(t)
+
+    o.append("<h2 class='first'>Two or more sources — %d items</h2>" % len(multi))
+    o.append('<p class="small">Sorted by spread, widest first. <b class="best">Green</b> is '
+             'the cheapest source. <span class="warn">Red markup</span> is below the 20%% '
+             'floor. <span class="flag">◆</span> means the sources are not strictly like for '
+             "like — check the note before acting on the gap.</p>")
+    o.append(table(multi, True))
+
+    o.append('<h2 class="newpage">One source only — %d items</h2>' % len(single))
+    o.append('<p class="small">No comparison is possible on these. A second quote on the '
+             "plant items in particular is where the money is.</p>")
+    o.append(table(single, False))
+
+    flagged = [r for r in multi if r["meta"].get("compare_note")]
+    if flagged:
+        o.append("<h2>◆ Why these are not directly comparable</h2><table>")
+        o.append("<tr><th>Item</th><th>Note</th></tr>")
+        for r in flagged:
+            o.append(row([(esc(r["meta"].get("description", r["key"])),),
+                          (esc(r["meta"]["compare_note"]),)]))
+        o.append("</table>")
+
+    o.append('<p class="note">Generated %s from pricebook/ · the record is the JSON, not '
+             "this PDF · vendor costs — not a client document.</p>" % today)
+    o.append("</body></html>")
+    return "\n".join(o)
+
+
 def esc(s):
     return html.escape(str(s))
 
@@ -354,10 +465,13 @@ def build(items, quotes):
 def main():
     ap = argparse.ArgumentParser(description="Render the price book as an A4 report")
     ap.add_argument("--out", default=os.path.join(ROOT, "out", "pricebook.html"))
+    ap.add_argument("--price-list", action="store_true",
+                    help="just the unit price comparison, landscape")
     args = ap.parse_args()
     os.makedirs(os.path.dirname(args.out), exist_ok=True)
+    maker = build_price_list if args.price_list else build
     with open(args.out, "w") as f:
-        f.write(build(load_items(), load_quotes()))
+        f.write(maker(load_items(), load_quotes()))
     print(args.out)
     return 0
 

@@ -109,6 +109,8 @@ To hand Farhan something printable:
 
 ```bash
 python3 scripts/pricebook_report.py                       # -> out/pricebook.html
+python3 scripts/pricebook_report.py --price-list \
+        --out out/pricelist.html                          # just the comparison, landscape
 /opt/pw-browsers/chromium-1194/chrome-linux/chrome --headless --disable-gpu \
   --no-sandbox --no-pdf-header-footer \
   --print-to-pdf=out/TNDK-PriceBook.pdf out/pricebook.html
