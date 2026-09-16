@@ -956,6 +956,18 @@ Three documents were produced today and none has been appended to the log in Dri
   8 × 40 ft at 50,000 each) — note the 40 ft here is **22% above** that price.
   **Make, model and year of manufacture are NOT stated** — the quote says they are confirmed on
   allocation and advised before dispatch. **No supplier cost on record**, exactly as OL-029.
+- **QUT/DCTS/235/2026** — Cocoon (attn. Mr. Rafi), supply and installation of a DORIN (Italy)
+  AU2-H505CS 5 HP air-cooled condensing unit with a matching TECUMSEH evaporator for a −30 °C
+  freezer room 4.00 × 2.20 × 2.20 m, **27,200**, issued 16-09-2026. 100% advance, 02–03 days.
+  Drainage and power provision by the client. **Selection is sourced** — Dorin software print
+  dated 16-09-2026 gives 3,070 W at −37 °C evaporating, 45 °C ambient, R404A, absorbed 3.30 kW.
+  A rough transmission check on a 100 mm panel room gives roughly 740 W, so the selection has
+  real margin for product, infiltration, fans and defrost.
+  **Two things carried into the notes, not assumed away:** Dorin state external head cooling is
+  required for low temperature application and it is an option, not standard, so the unit must
+  be **ordered** configured for it; and the room, its panels, doors and floor are existing and
+  outside scope, so if it will not hold −30 °C on its present insulation that is not TNDK's.
+  **Evaporator model not yet selected** — confirmed before ordering. **No supplier cost on file.**
 - **WO/DCTS/001/2026** — Al Zehrabi work order, 18-08-2026. **Opens a new series**; the log has
   no work-order column yet.
 - **INV-263/2026** — Al Zehrabi, **4,900 in full**, issued 19-08-2026 (redrafted from an 80%
