@@ -105,6 +105,19 @@ A documented discrepancy is acknowledged, never waived: it still prints in full,
 quote still must not be ordered against. Exit 1 exists so the check stays usable while a
 vendor is being chased, not so an error can be buried.
 
+To hand Farhan something printable:
+
+```bash
+python3 scripts/pricebook_report.py                       # -> out/pricebook.html
+/opt/pw-browsers/chromium-1194/chrome-linux/chrome --headless --disable-gpu \
+  --no-sandbox --no-pdf-header-footer \
+  --print-to-pdf=out/TNDK-PriceBook.pdf out/pricebook.html
+```
+
+A4 portrait, house colours, marked INTERNAL on every copy — it carries vendor costs and is
+not a client document. `out/` is gitignored: the report is a **view** of `pricebook/`, never a
+second copy of it. Regenerate it, never edit it.
+
 Where a line has a length or pack size, record `unit_size` and `unit_size_uom`. The script
 then compares per metre instead of per piece — which is how the capillary comparison went
 wrong the first time.
