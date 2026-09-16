@@ -1002,6 +1002,12 @@ Three documents were produced today and none has been appended to the log in Dri
   vegetable yard with loaded forklifts and delivery vehicles that area will rut. The note asks
   the client to confirm the 80 sqm is where the heavy traffic runs, and offers the balance at
   the same rate.
+- **INV-268/2026** — Lean N Fit, complete inspection of cold room, **250**, issued 16-09-2026.
+  Payment on presentation (terms not stated by Farhan; Lean N Fit's two earlier jobs were cash).
+  **Third Lean N Fit job** after the 17,000 freezer unit replacement and the 1,200 drainage
+  replacement, both settled. **No quotation preceded this one** — a site attendance billed
+  directly. **The inspection report itself is not on file**; the invoice says findings were
+  reported to the client, so there should be a written report to match it.
 - **WO/DCTS/001/2026** — Al Zehrabi work order, 18-08-2026. **Opens a new series**; the log has
   no work-order column yet.
 - **INV-263/2026** — Al Zehrabi, **4,900 in full**, issued 19-08-2026 (redrafted from an 80%

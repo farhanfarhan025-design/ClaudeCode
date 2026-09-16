@@ -290,7 +290,7 @@ The larger of the two has collected nothing.
 
 | Series | Next free |
 |---|---|
-| Invoice / Receipt | next after **267** — one running series: 261 cancelled, 263 Al Zahrawi, 264/265 Oscar Prime, 266 Stop n Shop invoice, **267 Stop n Shop receipt**. None yet in the Drive log |
+| Invoice / Receipt | next after **268** — one running series: 261 cancelled, 263 Al Zahrawi, 264/265 Oscar Prime, 266 Stop n Shop invoice, 267 Stop n Shop receipt, **268 Lean N Fit inspection**. None yet in the Drive log |
 | Statement of account | next after **SOA/DCTS/001/2026** (Stop n Shop, 13-09-2026) — series opened that day; TNDK had none |
 | Receipt | RCT-257/2026 |
 | Quotation | next after QUT/DCTS/238/2026, plus the SQ038 / SQ074 series — see OL-018 |
