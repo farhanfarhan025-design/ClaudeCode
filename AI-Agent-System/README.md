@@ -64,14 +64,14 @@ AI-Agent-System/
 ├── memory/              durable_facts · preferences · open_loops · lessons
 ├── logs/                overrides · actions · failures
 ├── analysis/FINDINGS.md the evidence
-├── pricebook/           vendor quotations as received — PROCURE's rate evidence
+├── pricebook/           quotations both ways — what we pay, what we charge
 │   ├── items.json       canonical part registry
-│   ├── quotes/          one file per vendor quotation
+│   ├── quotes/          one file per quotation, inbound and outbound
 │   └── comparisons/     dated comparisons, as issued to Farhan
 └── scripts/
     ├── margin.py        cost build-up + floor check   (verified)
     ├── build_register.py corrected registers          (verified)
-    ├── pricebook.py     vendor price capture + compare (verified)
+    ├── pricebook.py     price capture · compare · margin check (verified)
     └── examples/        suresh.json · awards.json
 ```
 
@@ -101,13 +101,16 @@ python3 scripts/build_register.py --data scripts/examples/awards.json --outdir .
 # Capture, verify and compare vendor quotations
 python3 scripts/pricebook.py --verify      # exit 2 if a quote does not add up
 python3 scripts/pricebook.py --compare
-python3 scripts/pricebook.py --item copper-coil-half-50ft
+python3 scripts/pricebook.py --rates      # real vendor prices vs the margin.py rate card
+python3 scripts/pricebook.py --margin pricebook/quotes/<our quotation>.json
 ```
 
 `margin.py` reproduces the pricing guide's worked example to the riyal (direct 43,448.45,
 cost 51,465.72). `build_register.py` asserts every total against source data before writing.
-`pricebook.py` re-multiplies every quoted line and checks it against the vendor's own stated
-total before any rate from that quote is used.
+`pricebook.py` re-multiplies every quoted line and checks it against the document's own
+stated total before any rate from it is used, and `--margin` sets one of our own quotations
+against the cheapest vendor price on record for each line — the floor check that
+`analysis/FINDINGS.md` says was missing at the moment of quoting.
 
 ## Deployment sequence
 

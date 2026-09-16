@@ -1,0 +1,38 @@
+{
+  "quote_id": "2026-08-29-arctic-ACC-QT-RVD-1508-2026",
+  "direction": "inbound",
+  "vendor": {
+    "name": "Arctic Cooling Company",
+    "short": "ARCTIC",
+    "contacts": [{ "name": "Pandian", "role": "Sales Engineer", "mobile": "50372315" }],
+    "identity_note": "Recorded under the same short name as Arctic (ACC Qatar): Pandian on mobile 50372315 is named as the contact on both this letterhead and quotation ATC/AZ/QT/26/07619, and the ACC quotations use arcticparts@accqatar.com. Treated as one vendor on that evidence - confirm with Farhan (OL-017)."
+  },
+  "document": {
+    "ref": "ACC/QT/RVD/1508/2026",
+    "revision": null,
+    "date": "2026-08-29",
+    "subject": "Quotation for supply of hinged doors",
+    "addressed_to": "M/S The New Doha Kitchen, Doha Qatar",
+    "branch": "ACC/QT/RVD series",
+    "source_file": "THE_NEW_DOHA_KITCHEN.pdf",
+    "source_type": "vendor PDF"
+  },
+  "terms": {
+    "currency": "QAR",
+    "payment": "Cash / CDC",
+    "validity_days": 15,
+    "validity_note": "15 WORKING days - the longest validity of any quotation on record.",
+    "valid_until": "2026-09-19",
+    "delivery": "Ex stock SPS"
+  },
+  "stated_total": 3600.00,
+  "lines": [
+    { "sl": 1, "item": "hinged-door-90x190", "description": "Hinged Door 90 X 190, 4 FRAME, RIGHT", "qty": 2, "unit": "NOS", "unit_price": 1800.00, "line_total": 3600.00 }
+  ],
+  "provenance": {
+    "captured_by": "PROCURE (inventory keeper)",
+    "captured_on": "2026-09-16",
+    "confidence": "high",
+    "basis": "Text extracted from the vendor's own PDF. Addressed to TNDK directly, not to DCTS."
+  }
+}

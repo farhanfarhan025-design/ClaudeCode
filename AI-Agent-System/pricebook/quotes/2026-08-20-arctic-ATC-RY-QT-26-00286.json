@@ -1,0 +1,49 @@
+{
+  "quote_id": "2026-08-20-arctic-ATC-RY-QT-26-00286",
+  "direction": "inbound",
+  "vendor": {
+    "name": "Arctic (ACC Qatar) - Rayyan showroom",
+    "short": "ARCTIC",
+    "po_email": "arcticparts@accqatar.com",
+    "contacts": [{ "name": "Vijay", "role": "prepared by" }]
+  },
+  "document": {
+    "ref": "ATC/RY/QT/26/00286",
+    "revision": null,
+    "date": "2026-08-20",
+    "subject": "Ex-stock - showroom Rayyan branch",
+    "addressed_to": "Doha Cooling Trading & Solutions",
+    "our_enquiry_ref": "As per quotation",
+    "branch": "ATC/RY series (Rayyan)",
+    "source_file": "pandaian.pdf",
+    "source_type": "vendor PDF",
+    "note": "Same reference number 26/00286 as the ATC/NSA quotation of the same date, on a different branch prefix. Not a duplicate - different items."
+  },
+  "terms": {
+    "currency": "QAR",
+    "payment": "CASH",
+    "validity_days": 7,
+    "valid_until": "2026-08-27",
+    "delivery": "Cash",
+    "conditions": "PO to arcticparts@accqatar.com. Original stamped LPO at the showroom on collection."
+  },
+  "stated_total": 5400.00,
+  "stated_total_words": "Five thousand four hundred only",
+  "known_discrepancy": {
+    "kind": "stated_total_below_lines",
+    "lines_sum_to": 5500.00,
+    "document_states": 5400.00,
+    "difference": 100.00,
+    "note": "The document's own lines sum to 5,500.00 but it states 5,400.00 in both figures and words, and shows no discount line. A 100.00 error on the vendor's face. Do not order against this quotation until Arctic reissues or confirms which figure stands - RULES A3, a missing or contradictory figure is a question, not a guess."
+  },
+  "lines": [
+    { "sl": 1, "item": "hinged-door-90x190",              "description": "HINGED DOOR 90 X 190, 3 FRAME, RIGHT OPENING", "qty": 2, "unit": "NOS", "unit_price": 1800.00, "line_total": 3600.00 },
+    { "sl": 2, "item": "control-panel-subzero-crc205200", "description": "SUBZERO CRC205200 PLASTIC BODY",               "qty": 2, "unit": "NOS", "unit_price": 950.00,  "line_total": 1900.00 }
+  ],
+  "provenance": {
+    "captured_by": "PROCURE (inventory keeper)",
+    "captured_on": "2026-09-16",
+    "confidence": "high",
+    "basis": "Text extracted from the vendor's own PDF. The arithmetic discrepancy is the vendor's, not the transcription's - both line figures and the stated total are as printed."
+  }
+}

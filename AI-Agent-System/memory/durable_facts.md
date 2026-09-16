@@ -79,22 +79,37 @@ Recorded in `tndk-coldroom-quotation/references/pricing-guide.md` and mirrored i
 `scripts/margin.py`. **Panel, door, angle and floor rates: last verification date unknown**
 — flag before pricing large contracts.
 
-Spares and plant rates now have a first verification point: two quotations dated
-**16 September 2026**, captured in `pricebook/`. Panel and door rates are still unverified.
+**Verified as at 16 September 2026** against the seven documents in `pricebook/`
+(`python3 scripts/pricebook.py --rates`):
+
+| Rate | Card | Real | Status |
+|---|---|---|---|
+| `door` | 1,800.00 | 1,800.00 | verified 29 Aug 2026, two independent quotes |
+| `control_panel` | 1,200.00 | 950.00 | 21% above real — overstates cost |
+| `unit_freezer` | 6,400.00 | 17,050.00 | **166% below real — OL-019** |
+
+`panel_sqm`, `angle_piece`, `floor_pair`, `unit_chiller`, `pipe_system`, `wiring_system` and
+`lights_per_2_rooms` remain unverified against any vendor quote.
 
 ## Vendors
 
 | Fact | Value | Source | Confidence |
 |---|---|---|---|
 | Arctic (ACC Qatar) — PO email | arcticparts@accqatar.com | Quotation ATC/AZ/QT/26/07619 Rev1, 16 Sep 2026 | high |
-| Arctic — contacts | Pandian 50372315 · Jeena 59985144 (prepares quotes) | same | high |
-| Arctic — LPO condition | Original LPO with company stamp must be presented at the showroom on collection, or the LPO will not be processed | same | high |
+| Arctic — contacts | Pandian 50372315 (Sales Engineer) · Jeena 59985144 · Nikhil · Vijay | ATC/AZ, ATC/NSA, ATC/RY, ACC/QT/RVD quotations | high |
+| Arctic — LPO condition | Original LPO with company stamp must be presented at the showroom on collection, or the LPO will not be processed | ATC quotations | high |
 | Arctic — services | Motor rewinding, PCB repairing, bush bearing, lathe work, compressor overhauling | same | high |
 | Arctic — standard terms | Cash · validity 5 days · ex-stock subject to prior sale | same | high |
+| Arctic — reference series | ATC/AZ · ATC/NSA · ATC/RY (Rayyan showroom) · ACC/QT/RVD | four quotations, Jul–Sep 2026 | high |
+| Arctic — one vendor or several? | Treated as **one**: Pandian / 50372315 named on both the ATC and ACC letterheads; ACC domain shared | inference, not stated | **medium — OL-017** |
+| Airtronics Trading Contracting & Maintenance W.L.L. — contact | Gireesh Nath, Sales Manager, +974 3169 0622 | ART-QTN-3174-26, 28 Jul 2026 | high |
+| Airtronics — terms | 100% CDC upon collection · ex-works Doha · validity 5 days if stock available | same | high |
+| Airtronics — supplies | Dorin semi-hermetic units, Gunay evaporators, Subzero control panels, Danfoss/Castel line components | same | high |
 
-> Arctic quotes are addressed to **Doha Cooling Trading & Solutions**, not TNDK. That is the
-> legacy-name case in `RULES.md` C4 — a vendor who knows the old name. LPOs to Arctic on TNDK
-> letterhead may need the DCTS relationship stated.
+> Arctic's ATC-series quotes are addressed to **Doha Cooling Trading & Solutions**, not TNDK —
+> the legacy-name case in `RULES.md` C4. Its ACC/QT/RVD quotation of 29 Aug 2026 is addressed
+> to **The New Doha Kitchen** directly, as is the Airtronics quotation. Both names are in live
+> use with the same supplier group, so an LPO should state which entity is buying.
 
 The supplier who priced the 16 Sep material list by hand is **not identified** — OL-013.
 
@@ -102,3 +117,18 @@ The supplier who priced the 16 Sep material list by hand is **not identified** �
 
 No warranty expiry dates recorded for any completed project. AMC contracted value: **QAR 0**.
 This is a gap, not a finding of fact — ANNUITY's first task is to establish it.
+
+## Clients — quoted, not yet awarded
+
+| Fact | Value | Source | Confidence |
+|---|---|---|---|
+| Shared Services — contact | Mr. Kenneth Ferran, Purchasing Clerk, +974 3997 2849 | QUT/DCTS/237/2026, 16 Sep 2026 | high |
+| Shared Services — address | P.O. Box 3496, Doha | same | high |
+| Shared Services — properties | Banana Island Resort by Anantara · Souq Waqif Boutique Hotels by Tivoli · Al Najada Doha by Tivoli · Al Najada Apartments by Oaks · Souq Al Wakrah Hotel by Tivoli | same | high |
+| Shared Services — quoted | QAR 21,700.00, supply only, 20-line refrigeration schedule | same | high |
+| Shared Services — award | **NONE.** Quotation only, issued 16 Sep 2026, validity 5 days | same | high |
+
+> This is a five-property hospitality group and a first order for them would be a repeat-work
+> position, not a one-off. That is relevant to OL-018 — a thin price on an entry job can be a
+> deliberate decision, but `RULES.md` B requires it to be a logged one.
+

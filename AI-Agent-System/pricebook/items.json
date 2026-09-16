@@ -1,32 +1,91 @@
 {
   "_comment": [
-    "Canonical item registry for the TNDK/DCTS refrigeration spares price book.",
-    "One key per physical thing we buy. Vendors describe the same part five ways;",
-    "this file is what lets two quotations be compared line to line.",
+    "Canonical item registry for the TNDK/DCTS price book.",
+    "One key per physical thing. Vendors describe the same part five ways; this file",
+    "is what lets two quotations be compared line to line.",
     "",
     "Add a key only when a real quotation contains the item. Never invent a part.",
-    "'compare_note' is a warning that two vendors' lines under this key are NOT",
-    "strictly like for like - the comparison script prints it next to the price."
+    "'compare_note' warns that lines under this key are NOT strictly like for like -",
+    "the comparison script prints it next to the price.",
+    "'rate_card' names the matching rate in scripts/margin.py, so a real vendor price",
+    "can be checked against what we estimate with (PROCURE, OL-009)."
   ],
   "items": {
     "condensing-unit-dorin-au-h300cc": {
-      "description": "Dorin condensing unit, Aeris anti-corrosive coating",
+      "description": "Dorin condensing unit AU-H300CC, Aeris anti-corrosive coating",
       "brand": "Dorin",
       "model": "AU-H300CC",
       "unit": "EACH",
       "category": "plant"
     },
+    "condensing-unit-dorin-au2-h751cs": {
+      "description": "Dorin semi-hermetic unit AU2-H751CS, 7.5 hp / 8.1 kW",
+      "brand": "Dorin",
+      "model": "AU2-H751CS",
+      "unit": "EACH",
+      "category": "plant",
+      "rate_card": "unit_freezer",
+      "compare_note": "Quoted inclusive of TE5 expansion valve, orifice and valve body - a package, not a bare unit.",
+      "rate_card_note": "RATES['unit_freezer'] is meant to cover the condensing unit AND the evaporator for one freezer room. The comparison above is against the condensing unit alone. The like-for-like figure is 12,700.00 + 4,350.00 (Gunay evaporator) = 17,050.00 against a 6,400.00 rate - 166% above, not 98%. The rate is also flat per room and does not scale with duty; this quote is for a 41.6 cbm freezer at -25 Te."
+    },
     "evaporator-frigabohn-3c-e-3245": {
-      "description": "Friga-Bohn evaporator, Aeris anti-corrosive coating",
+      "description": "Friga-Bohn evaporator 3C-E 3245-R + E1U + 240V, Aeris coating",
       "brand": "Friga-Bohn",
       "model": "3C-E 3245-R + E1U + 240V",
       "unit": "EACH",
       "category": "plant"
     },
+    "evaporator-gunay-gne-245-8c": {
+      "description": "Gunay evaporator GNE 245.8C, 7.29 kW @ -25 Te",
+      "brand": "Gunay",
+      "model": "GNE 245.8C",
+      "unit": "EACH",
+      "category": "plant"
+    },
+    "hinged-door-90x190": {
+      "description": "Hinged cold room door 90 x 190, right opening",
+      "unit": "EACH",
+      "category": "enclosure",
+      "rate_card": "door",
+      "compare_note": "Frame count differs between quotations (3 frame vs 4 frame) at the same 1,800.00. Confirm which frame is being priced before treating the rate as settled.",
+      "rate_card_note": "Two independent quotations nine days apart both at 1,800.00. The door rate in margin.py is confirmed against live vendor pricing as at 29 August 2026 - the first rate in the card to have a verification date (OL-009)."
+    },
+    "control-panel-subzero-crc205200": {
+      "description": "Subzero control panel CRC205200",
+      "brand": "Subzero",
+      "model": "CRC205200",
+      "unit": "EACH",
+      "category": "control",
+      "rate_card": "control_panel",
+      "compare_note": "Body material differs: metal body 975.00 (Airtronics) vs plastic body 950.00 (Arctic). Same model number.",
+      "rate_card_note": "The rate is ABOVE the real price here, which is the safe direction - it overstates cost, so realised margin on jobs priced with it is better than computed, not worse."
+    },
     "filter-drier-dcl164-half": {
-      "description": "Filter drier 1/2\", flare type",
+      "description": "Filter drier 1/2\", FLARE type, Danfoss DCL 164",
       "brand": "Danfoss",
       "model": "DCL 164 (023Z500991)",
+      "unit": "EACH",
+      "category": "line-component",
+      "compare_note": "Flare connection. See filter-drier-dcl164s-solder and filter-drier-castel-df308-4s for the solder and Castel alternatives at the same size."
+    },
+    "filter-drier-dcl164s-solder": {
+      "description": "Filter drier 1/2\", SOLDER type, Danfoss DCL 164S",
+      "brand": "Danfoss",
+      "model": "DCL 164S (023Z4815)",
+      "unit": "EACH",
+      "category": "line-component"
+    },
+    "filter-drier-castel-df308-4s": {
+      "description": "Filter drier 1/2\", Castel DF308/4S (084S)",
+      "brand": "Castel",
+      "model": "DF308/4S",
+      "unit": "EACH",
+      "category": "line-component"
+    },
+    "filter-drier-castel-df308-3s": {
+      "description": "Filter drier 3/8\", Castel DF308/3S (083S)",
+      "brand": "Castel",
+      "model": "DF308/3S",
       "unit": "EACH",
       "category": "line-component"
     },
@@ -45,12 +104,26 @@
       "category": "line-component"
     },
     "sight-glass-sgi12s": {
-      "description": "Sight glass 1/2\" SGI-12S",
+      "description": "Sight glass 1/2\" Danfoss SGI 12S",
       "brand": "Danfoss",
       "model": "SGI 12S (014-0036)",
       "unit": "EACH",
       "category": "line-component",
-      "compare_note": "Material list specifies SOLDER type; Arctic line does not state connection type. Confirm before treating as identical."
+      "compare_note": "Two quotations specify SOLDER type at 65.00; one states no connection type at 90.00. Confirm the 90.00 line's type before treating the 38% gap as a saving."
+    },
+    "moisture-indicator-castel-3910-44": {
+      "description": "Moisture indicator / sight glass 1/2\", Castel 3910/44",
+      "brand": "Castel",
+      "model": "3910/44",
+      "unit": "EACH",
+      "category": "line-component"
+    },
+    "moisture-indicator-castel-3910-33": {
+      "description": "Moisture indicator / sight glass 3/8\", Castel 3910/33",
+      "brand": "Castel",
+      "model": "3910/33",
+      "unit": "EACH",
+      "category": "line-component"
     },
     "ball-valve-half": {
       "description": "Ball valve 1/2\"",
@@ -64,7 +137,7 @@
       "model": "KP 15",
       "unit": "EACH",
       "category": "control",
-      "compare_note": "Material list bundles a flexible hose with the switch; Arctic quotes the switch alone and the hose separately. Compare the bundle, not the headline."
+      "compare_note": "One supplier bundles a flexible hose into the 180.00; Arctic quotes the switch alone at 230.00 and the hose separately. Compare the bundle, not the headline."
     },
     "flare-nut-half": {
       "description": "Flare nut 1/2\"",
@@ -82,7 +155,7 @@
       "description": "Flexible connector / charging hose with 1/4\" nut, approx 1 m",
       "unit": "EACH",
       "category": "fitting",
-      "compare_note": "Material list calls it FLEXIBLE HOSE RED/BLUE; Arctic calls it FLEXIBLE CONNECTOR WITH 1/4 NUT -1MTR. Quantities differ between the two documents (2 vs 3)."
+      "compare_note": "Called FLEXIBLE HOSE RED/BLUE on one document and FLEXIBLE CONNECTOR WITH 1/4 NUT -1MTR on the other. Quantities differ between documents (2 vs 3)."
     },
     "vibration-eliminator-half": {
       "description": "Vibration eliminator 1/2\"",
@@ -90,13 +163,35 @@
       "category": "line-component",
       "compare_note": "Different brands: Harbax vs Castel 7690/4."
     },
+    "vibration-eliminator-one-three-eighths": {
+      "description": "Vibration absorber 1 3/8\", Harbax",
+      "brand": "Harbax",
+      "unit": "EACH",
+      "category": "line-component",
+      "compare_note": "Size read as 1-3/8\" from the model column of the Airtronics quotation. Medium confidence - confirm before using as a rate."
+    },
     "solenoid-valve-1068-4a6": {
-      "description": "Solenoid valve 1/2\" body 1068/4A6",
+      "description": "Solenoid valve 1/2\" body, Castel 1068/4A6",
       "brand": "Castel",
       "model": "1068/4A6",
       "unit": "EACH",
       "category": "line-component",
-      "compare_note": "Material list price is stated to INCLUDE the coil. Arctic line does not say whether the coil is included - confirm. A coil is a separately priced part, so this is the most material open question in the comparison."
+      "compare_note": "Two suppliers quote 155.00, one of them stating '+ COIL' explicitly. Arctic quotes 175.00 without saying whether the coil is included - confirm. A coil is a separately priced part."
+    },
+    "solenoid-valve-1078-4a6": {
+      "description": "Solenoid valve 1/2\", Castel 1078/4A6",
+      "brand": "Castel",
+      "model": "1078/4A6",
+      "unit": "EACH",
+      "category": "line-component",
+      "compare_note": "1078 series, NOT the 1068 quoted elsewhere. Do not substitute one for the other on price."
+    },
+    "solenoid-valve-1028-3a6": {
+      "description": "Solenoid valve 3/8\", Castel 1028/3A6",
+      "brand": "Castel",
+      "model": "1028/3A6",
+      "unit": "EACH",
+      "category": "line-component"
     },
     "copper-coil-half-50ft": {
       "description": "Copper coil / pipe 1/2\" x 50 ft roll",
@@ -108,26 +203,73 @@
       "unit": "ROLL",
       "category": "pipe"
     },
-    "pipe-insulation-seven-eighths": {
-      "description": "Rubber pipe insulation 7/8\" x 3/8\"",
+    "copper-coil-five-eighths-50ft": {
+      "description": "Copper coil / pipe 5/8\" x 50 ft roll",
+      "unit": "ROLL",
+      "category": "pipe",
+      "compare_note": "Totaline / Kelvin brand on the only quotation on record."
+    },
+    "copper-coil-three-eighths-50ft": {
+      "description": "Copper coil / pipe 3/8\" x 50 ft roll",
+      "unit": "ROLL",
+      "category": "pipe"
+    },
+    "pipe-insulation-7-8-x-3-8": {
+      "description": "Rubber pipe insulation 7/8\" bore x 3/8\" wall",
       "unit": "EACH",
       "category": "insulation",
-      "compare_note": "NOT like for like. Material list = 1.8 m length (70 pcs/box). Arctic line states no length. A 4x unit-price gap is expected if the Arctic piece is shorter - resolve the length before using either rate."
+      "compare_note": "Lengths differ and drive the price: one supplier quotes a 1.8 m piece, Arctic states no length. Use unit_size to compare per metre, not per piece."
     },
-    "capillary-tube": {
-      "description": "Copper capillary tube 0.090\"",
-      "unit": "varies",
+    "pipe-insulation-7-8-x-3-4": {
+      "description": "Rubber pipe insulation 7/8\" bore x 3/4\" wall, World Flex",
+      "unit": "EACH",
+      "category": "insulation",
+      "compare_note": "3/4\" wall - thicker, and a different product to the 3/8\" wall item. Length not stated."
+    },
+    "pipe-insulation-5-8-x-3-4": {
+      "description": "Rubber pipe insulation 5/8\" bore x 3/4\" wall",
+      "unit": "EACH",
+      "category": "insulation",
+      "compare_note": "Length not stated."
+    },
+    "capillary-tube-bulk": {
+      "description": "Copper capillary tube 0.090\", bulk, priced per metre",
+      "unit": "MTR",
       "category": "line-component",
-      "compare_note": "NOT like for like. Material list = 0.9 m cut length WITH 1/4\" straight nut fitted (an assembly). Arctic = bulk tube priced per metre off a 100 ft coil. Do not compare the unit figures directly."
+      "compare_note": "Bulk tube off a 100 ft coil, no fitting. NOT the same product as capillary-assembly-with-nut - that one is cut to length with a nut fitted."
+    },
+    "capillary-assembly-with-nut": {
+      "description": "Copper capillary, cut length, with 1/4\" nut fitted",
+      "unit": "EACH",
+      "category": "line-component",
+      "compare_note": "Lengths differ across quotations (0.9 m / 1.0 m / 1.5 m). Compare per metre using unit_size, never per piece."
     },
     "charging-union-quarter-npt": {
       "description": "Charging union / NPT connector, 1/4\" flare x 1/8\" NPT",
       "unit": "EACH",
       "category": "fitting",
-      "compare_note": "Material list = Castel 7140/21. Arctic quotes both a Castel 9150/R02 connector (10.00) and a charging union w/pin (8.00); the union is the closer match."
+      "compare_note": "Castel 7140/21 on one document, an unbranded charging union w/pin on the other."
+    },
+    "castel-connector-9150-r02": {
+      "description": "Castel connector 9150/R02",
+      "brand": "Castel",
+      "model": "9150/R02",
+      "unit": "EACH",
+      "category": "fitting",
+      "compare_note": "A different part to the 1/4\" x 1/8\" NPT charging union. Kept separate deliberately - they were conflated in the first comparison and should not be."
     },
     "p-trap-half": {
       "description": "Copper P-trap 1/2\"",
+      "unit": "EACH",
+      "category": "pipe"
+    },
+    "p-trap-five-eighths": {
+      "description": "Copper P-trap 5/8\"",
+      "unit": "EACH",
+      "category": "pipe"
+    },
+    "p-trap-seven-eighths": {
+      "description": "Copper P-trap 7/8\"",
       "unit": "EACH",
       "category": "pipe"
     },
@@ -135,7 +277,19 @@
       "description": "Rubber vibration / anti-vibration pad",
       "unit": "EACH",
       "category": "fitting",
-      "compare_note": "Arctic specifies Airtech 18x18x3/8. Material list states no size."
+      "compare_note": "Arctic specifies Airtech 18x18x3/8. The other documents state no size."
+    },
+    "brazing-rod-45pct": {
+      "description": "Silver brazing rod 45%",
+      "unit": "EACH",
+      "category": "consumable",
+      "compare_note": "Brands differ (Sopor vs Harris) and the pack basis is unclear on both documents ('RED/BLUE', '2PCS'). Confirm what one unit is before comparing 60.00 with 65.00."
+    },
+    "brazing-rod-0pct": {
+      "description": "Copper brazing rod 0%, Harris, 28 per box",
+      "brand": "Harris",
+      "unit": "BOX",
+      "category": "consumable"
     }
   }
 }

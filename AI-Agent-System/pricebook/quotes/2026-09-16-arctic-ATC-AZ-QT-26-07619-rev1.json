@@ -5,8 +5,16 @@
     "short": "ARCTIC",
     "po_email": "arcticparts@accqatar.com",
     "contacts": [
-      { "name": "Jeena", "role": "prepared by", "mobile": "59985144" },
-      { "name": "Pandian", "role": "contact", "mobile": "50372315" }
+      {
+        "name": "Jeena",
+        "role": "prepared by",
+        "mobile": "59985144"
+      },
+      {
+        "name": "Pandian",
+        "role": "contact",
+        "mobile": "50372315"
+      }
     ],
     "services": "Motor rewinding, PCB repairing, bush bearing, lathe work, compressor overhauling"
   },
@@ -19,7 +27,8 @@
     "our_enquiry_ref": "As per email inquiry",
     "form": "REV NO.00, F/AC/TRD/01",
     "source_file": "DOHA_COOLING_TRADING__SOLUTIONS__07619REV1.pdf",
-    "source_type": "vendor PDF"
+    "source_type": "vendor PDF",
+    "branch": "ATC/AZ series"
   },
   "terms": {
     "currency": "QAR",
@@ -30,29 +39,193 @@
     "discount": "none stated",
     "conditions": "PO must be sent to arcticparts@accqatar.com. Original LPO with company stamp must be submitted at the showroom on material collection, or the LPO will not be processed."
   },
-  "stated_total": 2467.50,
+  "stated_total": 2467.5,
   "stated_total_words": "Two thousand four hundred sixty seven & fifty dirhams only",
   "lines": [
-    { "sl": 1,  "item": "filter-drier-dcl164-half",          "description": "FILTER DRIER 1/2\" DCL 164",                   "qty": 1, "unit": "NOS", "unit_price": 35.00,  "line_total": 35.00 },
-    { "sl": 2,  "item": "expansion-valve-te2",               "description": "DANFOSS EXPANSION VALVE TES-2",                "qty": 2, "unit": "NOS", "unit_price": 185.00, "line_total": 370.00 },
-    { "sl": 3,  "item": "orifice-te2-no02",                  "description": "DANFOSS ORIFICE NO2/TE2",                      "qty": 2, "unit": "NOS", "unit_price": 45.00,  "line_total": 90.00 },
-    { "sl": 4,  "item": "sight-glass-sgi12s",                "description": "DANFOSS SIGHT GLASS 1/2\" SGI-12S",            "qty": 1, "unit": "NOS", "unit_price": 90.00,  "line_total": 90.00 },
-    { "sl": 5,  "item": "ball-valve-half",                   "description": "BALL VALVE - 6570/4 - 1/2\" - CASTEL",         "qty": 1, "unit": "NOS", "unit_price": 100.00, "line_total": 100.00 },
-    { "sl": 6,  "item": "pressure-switch-kp15",              "description": "PRESSURE SWITCH KP-15 AUTO",                   "qty": 1, "unit": "NOS", "unit_price": 230.00, "line_total": 230.00 },
-    { "sl": 7,  "item": "flexible-connector-1mtr",           "description": "FLEXIBLE CONNECTOR WITH 1/4 NUT - 1MTR",       "qty": 1, "unit": "NOS", "unit_price": 35.00,  "line_total": 35.00 },
-    { "sl": 8,  "item": "flare-nut-half",                    "description": "1/2\" FLARE NUT - RW",                         "qty": 4, "unit": "NOS", "unit_price": 3.00,   "line_total": 12.00 },
-    { "sl": 9,  "item": "flare-nut-three-eighths",           "description": "3/8\" FLARE NUT - RW",                         "qty": 2, "unit": "NOS", "unit_price": 2.00,   "line_total": 4.00 },
-    { "sl": 10, "item": "flexible-connector-1mtr",           "description": "FLEXIBLE CONNECTOR WITH 1/4 NUT - 1MTR",       "qty": 2, "unit": "NOS", "unit_price": 35.00,  "line_total": 70.00 },
-    { "sl": 11, "item": "vibration-eliminator-half",         "description": "VIBRATION ELIMINATOR 7690/4 1/2\" - CASTEL",   "qty": 1, "unit": "NOS", "unit_price": 65.00,  "line_total": 65.00 },
-    { "sl": 12, "item": "solenoid-valve-1068-4a6",           "description": "CASTEL SOLENOID VALVE 1/2 - 1068/4A6",         "qty": 2, "unit": "NOS", "unit_price": 175.00, "line_total": 350.00, "note": "Coil inclusion not stated on the quotation." },
-    { "sl": 13, "item": "charging-union-quarter-npt",        "description": "CASTEL CONNECTOR 9150/R02",                    "qty": 2, "unit": "NOS", "unit_price": 10.00,  "line_total": 20.00, "note": "Different Castel part number to the material list (7140/21)." },
-    { "sl": 14, "item": "copper-coil-half-50ft",             "description": "COPPER PIPE 1/2\" S",                          "qty": 1, "unit": "ROL", "unit_price": 260.00, "line_total": 260.00 },
-    { "sl": 15, "item": "copper-coil-seven-eighths-50ft",    "description": "COPPER PIPE 7/8\" V",                          "qty": 1, "unit": "ROL", "unit_price": 625.00, "line_total": 625.00 },
-    { "sl": 16, "item": "pipe-insulation-seven-eighths",     "description": "RUBBER INSULATION WORLD FLEX (7/8\" X 3/8\")", "qty": 8, "unit": "NOS", "unit_price": 3.25,   "line_total": 26.00, "note": "Length not stated." },
-    { "sl": 17, "item": "capillary-tube",                    "description": "CAPILLARY TUBE 0.090\" X 100FT",               "qty": 2, "unit": "MTR", "unit_price": 5.25,   "line_total": 10.50, "note": "Priced per metre, bulk tube, no nut." },
-    { "sl": 18, "item": "charging-union-quarter-npt",        "description": "CHARGING UNION 1/4 X 1/8 NPT W/PIN",           "qty": 2, "unit": "NOS", "unit_price": 8.00,   "line_total": 16.00 },
-    { "sl": 19, "item": "p-trap-half",                       "description": "COPPER P TRAP 1/2\"",                          "qty": 2, "unit": "NOS", "unit_price": 17.00,  "line_total": 34.00 },
-    { "sl": 20, "item": "vibration-pad",                     "description": "AIRTECH RUBBER PAD 18X18X3/8",                 "qty": 1, "unit": "NOS", "unit_price": 25.00,  "line_total": 25.00 }
+    {
+      "sl": 1,
+      "item": "filter-drier-dcl164-half",
+      "description": "FILTER DRIER 1/2\" DCL 164",
+      "qty": 1,
+      "unit": "NOS",
+      "unit_price": 35.0,
+      "line_total": 35.0
+    },
+    {
+      "sl": 2,
+      "item": "expansion-valve-te2",
+      "description": "DANFOSS EXPANSION VALVE TES-2",
+      "qty": 2,
+      "unit": "NOS",
+      "unit_price": 185.0,
+      "line_total": 370.0
+    },
+    {
+      "sl": 3,
+      "item": "orifice-te2-no02",
+      "description": "DANFOSS ORIFICE NO2/TE2",
+      "qty": 2,
+      "unit": "NOS",
+      "unit_price": 45.0,
+      "line_total": 90.0
+    },
+    {
+      "sl": 4,
+      "item": "sight-glass-sgi12s",
+      "description": "DANFOSS SIGHT GLASS 1/2\" SGI-12S",
+      "qty": 1,
+      "unit": "NOS",
+      "unit_price": 90.0,
+      "line_total": 90.0
+    },
+    {
+      "sl": 5,
+      "item": "ball-valve-half",
+      "description": "BALL VALVE - 6570/4 - 1/2\" - CASTEL",
+      "qty": 1,
+      "unit": "NOS",
+      "unit_price": 100.0,
+      "line_total": 100.0
+    },
+    {
+      "sl": 6,
+      "item": "pressure-switch-kp15",
+      "description": "PRESSURE SWITCH KP-15 AUTO",
+      "qty": 1,
+      "unit": "NOS",
+      "unit_price": 230.0,
+      "line_total": 230.0
+    },
+    {
+      "sl": 7,
+      "item": "flexible-connector-1mtr",
+      "description": "FLEXIBLE CONNECTOR WITH 1/4 NUT - 1MTR",
+      "qty": 1,
+      "unit": "NOS",
+      "unit_price": 35.0,
+      "line_total": 35.0
+    },
+    {
+      "sl": 8,
+      "item": "flare-nut-half",
+      "description": "1/2\" FLARE NUT - RW",
+      "qty": 4,
+      "unit": "NOS",
+      "unit_price": 3.0,
+      "line_total": 12.0
+    },
+    {
+      "sl": 9,
+      "item": "flare-nut-three-eighths",
+      "description": "3/8\" FLARE NUT - RW",
+      "qty": 2,
+      "unit": "NOS",
+      "unit_price": 2.0,
+      "line_total": 4.0
+    },
+    {
+      "sl": 10,
+      "item": "flexible-connector-1mtr",
+      "description": "FLEXIBLE CONNECTOR WITH 1/4 NUT - 1MTR",
+      "qty": 2,
+      "unit": "NOS",
+      "unit_price": 35.0,
+      "line_total": 70.0
+    },
+    {
+      "sl": 11,
+      "item": "vibration-eliminator-half",
+      "description": "VIBRATION ELIMINATOR 7690/4 1/2\" - CASTEL",
+      "qty": 1,
+      "unit": "NOS",
+      "unit_price": 65.0,
+      "line_total": 65.0
+    },
+    {
+      "sl": 12,
+      "item": "solenoid-valve-1068-4a6",
+      "description": "CASTEL SOLENOID VALVE 1/2 - 1068/4A6",
+      "qty": 2,
+      "unit": "NOS",
+      "unit_price": 175.0,
+      "line_total": 350.0,
+      "note": "Coil inclusion not stated on the quotation."
+    },
+    {
+      "sl": 13,
+      "item": "castel-connector-9150-r02",
+      "description": "CASTEL CONNECTOR 9150/R02",
+      "qty": 2,
+      "unit": "NOS",
+      "unit_price": 10.0,
+      "line_total": 20.0,
+      "note": "Different Castel part number to the material list (7140/21)."
+    },
+    {
+      "sl": 14,
+      "item": "copper-coil-half-50ft",
+      "description": "COPPER PIPE 1/2\" S",
+      "qty": 1,
+      "unit": "ROL",
+      "unit_price": 260.0,
+      "line_total": 260.0
+    },
+    {
+      "sl": 15,
+      "item": "copper-coil-seven-eighths-50ft",
+      "description": "COPPER PIPE 7/8\" V",
+      "qty": 1,
+      "unit": "ROL",
+      "unit_price": 625.0,
+      "line_total": 625.0
+    },
+    {
+      "sl": 16,
+      "item": "pipe-insulation-7-8-x-3-8",
+      "description": "RUBBER INSULATION WORLD FLEX (7/8\" X 3/8\")",
+      "qty": 8,
+      "unit": "NOS",
+      "unit_price": 3.25,
+      "line_total": 26.0,
+      "note": "Length not stated - cannot be normalised per metre."
+    },
+    {
+      "sl": 17,
+      "item": "capillary-tube-bulk",
+      "description": "CAPILLARY TUBE 0.090\" X 100FT",
+      "qty": 2,
+      "unit": "MTR",
+      "unit_price": 5.25,
+      "line_total": 10.5,
+      "note": "Priced per metre, bulk tube, no nut."
+    },
+    {
+      "sl": 18,
+      "item": "charging-union-quarter-npt",
+      "description": "CHARGING UNION 1/4 X 1/8 NPT W/PIN",
+      "qty": 2,
+      "unit": "NOS",
+      "unit_price": 8.0,
+      "line_total": 16.0
+    },
+    {
+      "sl": 19,
+      "item": "p-trap-half",
+      "description": "COPPER P TRAP 1/2\"",
+      "qty": 2,
+      "unit": "NOS",
+      "unit_price": 17.0,
+      "line_total": 34.0
+    },
+    {
+      "sl": 20,
+      "item": "vibration-pad",
+      "description": "AIRTECH RUBBER PAD 18X18X3/8",
+      "qty": 1,
+      "unit": "NOS",
+      "unit_price": 25.0,
+      "line_total": 25.0
+    }
   ],
   "not_quoted": [
     "condensing-unit-dorin-au-h300cc",
@@ -63,5 +236,6 @@
     "captured_on": "2026-09-16",
     "confidence": "high",
     "basis": "Text extracted from the vendor's own PDF. Every figure below is printed on the document; none is derived."
-  }
+  },
+  "direction": "inbound"
 }

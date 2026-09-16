@@ -1,3 +1,15 @@
+> **SUPERSEDED — 16 September 2026, later the same day.**
+> Five further documents arrived after this was written and change two of its conclusions:
+>
+> - The capillary comparison here was wrong. This note said the 0.9 m assembly at 16.00 had
+>   no comparator; Arctic's own ATC/NSA quotation prices a 1 m capillary **with 1/4" nut** at
+>   25.00, and Airtronics a 1.5 m at 20.00. Compared per metre the supplier is the cheapest
+>   of the three, not an outlier.
+> - "Vendor B has no name" still holds, but the **project** is now known: Shared Services,
+>   quoted by us as QUT/DCTS/237/2026.
+>
+> Superseded by `2026-09-16-shared-services-and-rate-card.md`. Kept, not deleted — RULES A6.
+
 # VENDOR COMPARISON — refrigeration spares + plant
 
 **Prepared by:** PROCURE · **Date:** 16 September 2026 · **Status:** DRAFT for Farhan

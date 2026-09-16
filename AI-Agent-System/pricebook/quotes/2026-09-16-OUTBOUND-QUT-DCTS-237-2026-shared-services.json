@@ -1,0 +1,73 @@
+{
+  "quote_id": "2026-09-16-OUTBOUND-QUT-DCTS-237-2026-shared-services",
+  "direction": "outbound",
+  "vendor": {
+    "name": "The New Doha Kitchen Equipment Services W.L.L. (us)",
+    "short": "TNDK-SELL",
+    "note": "This is OUR quotation to a client, not a vendor offer. It is here so that what we charge can be set against what we pay. It must never be used as a cost."
+  },
+  "client": {
+    "name": "Shared Services",
+    "address": "P.O. Box 3496, Doha, State of Qatar",
+    "attention": "Mr. Kenneth Ferran, Purchasing Clerk",
+    "mobile": "+974 3997 2849",
+    "properties": [
+      "Banana Island Resort Doha by Anantara",
+      "Souq Waqif Boutique Hotels by Tivoli",
+      "Al Najada Doha Hotel by Tivoli",
+      "Al Najada Apartments by Oaks",
+      "Souq Al Wakrah Hotel by Tivoli"
+    ]
+  },
+  "document": {
+    "ref": "QUT/DCTS/237/2026",
+    "revision": null,
+    "date": "2026-09-16",
+    "subject": "Refrigeration materials - supply only",
+    "signed_by": "Farhan / Sales Engineer",
+    "letterhead": "TNDK",
+    "source_file": "Quotation_QUT-DCTS-237-2026_SharedServices_RefrigerationMaterials.pdf",
+    "source_type": "our own issued PDF"
+  },
+  "terms": {
+    "currency": "QAR",
+    "payment": "100% payment along with the confirmed order",
+    "validity_days": 5,
+    "valid_until": "2026-09-21",
+    "delivery": "Ex stock - subject to prior sale",
+    "scope": "SUPPLY ONLY. Installation, pipework erection, brazing, refrigerant, electrical works, testing and commissioning excluded.",
+    "warranty": "12 months from delivery against manufacturing defect - manufacturers' warranty on the equipment supplied",
+    "part_orders": "The schedule is offered as a whole; part orders will be re-quoted.",
+    "tax_line": "NONE - the document carries no VAT or tax line. Sub-Total then GRAND TOTAL, which is what RULES A1 requires of an invoice and what DECISIONS D-005 Option A proposes for quotations."
+  },
+  "stated_total": 21700.00,
+  "stated_total_words": "Twenty One Thousand Seven Hundred Qatari Riyals Only",
+  "lines": [
+    { "sl": 1,  "item": "condensing-unit-dorin-au-h300cc",  "description": "DORIN condensing unit with Aeris anti-corrosive coating, AU-H300CC",      "qty": 1, "unit": "No.",  "unit_price": 10800.00, "line_total": 10800.00 },
+    { "sl": 2,  "item": "evaporator-frigabohn-3c-e-3245",   "description": "FRIGA BOHN evaporator with Aeris coating, 3C-E 3245-R + E1U + 240V",     "qty": 2, "unit": "Nos.", "unit_price": 4000.00,  "line_total": 8000.00 },
+    { "sl": 3,  "item": "filter-drier-dcl164-half",         "description": "DANFOSS filter drier 1/2\" flare, DCL 164, 023Z500991",                  "qty": 1, "unit": "No.",  "unit_price": 60.00,    "line_total": 60.00 },
+    { "sl": 4,  "item": "expansion-valve-te2",              "description": "DANFOSS TXV TE2, R404A/R507A, 068Z3403",                                 "qty": 2, "unit": "Nos.", "unit_price": 210.00,   "line_total": 420.00 },
+    { "sl": 5,  "item": "orifice-te2-no02",                 "description": "DANFOSS orifice no. 02, 068-2015",                                       "qty": 2, "unit": "Nos.", "unit_price": 55.00,    "line_total": 110.00 },
+    { "sl": 6,  "item": "sight-glass-sgi12s",               "description": "DANFOSS sight glass, solder type, SGI 12S, 014-0036",                    "qty": 1, "unit": "No.",  "unit_price": 75.00,    "line_total": 75.00 },
+    { "sl": 7,  "item": "ball-valve-half",                  "description": "DANFOSS ball valve GBC 12S, 009L7022",                                   "qty": 1, "unit": "No.",  "unit_price": 105.00,   "line_total": 105.00 },
+    { "sl": 8,  "item": "pressure-switch-kp15",             "description": "DANFOSS dual pressure switch KP15 with flexible hose, auto",             "qty": 1, "unit": "No.",  "unit_price": 210.00,   "line_total": 210.00 },
+    { "sl": 9,  "item": "flare-nut-half",                   "description": "OLAB flare nut 1/2\"",                                                   "qty": 4, "unit": "Nos.", "unit_price": 8.00,     "line_total": 32.00 },
+    { "sl": 10, "item": "flare-nut-three-eighths",          "description": "CASTEL flare nut 3/8\", 7010/33",                                        "qty": 2, "unit": "Nos.", "unit_price": 5.00,     "line_total": 10.00 },
+    { "sl": 11, "item": "flexible-connector-1mtr",          "description": "Flexible hose, red / blue",                                              "qty": 2, "unit": "Nos.", "unit_price": 40.00,    "line_total": 80.00 },
+    { "sl": 12, "item": "vibration-eliminator-half",        "description": "HARBAX vibration eliminator 1/2\"",                                      "qty": 1, "unit": "No.",  "unit_price": 60.00,    "line_total": 60.00 },
+    { "sl": 13, "item": "solenoid-valve-1068-4a6",          "description": "CASTEL solenoid valve 1/2\" with coil, 1068/4A6",                        "qty": 2, "unit": "Nos.", "unit_price": 180.00,   "line_total": 360.00 },
+    { "sl": 14, "item": "copper-coil-half-50ft",            "description": "Copper coil 1/2\" x 50 ft",                                              "qty": 1, "unit": "No.",  "unit_price": 365.00,   "line_total": 365.00 },
+    { "sl": 15, "item": "copper-coil-seven-eighths-50ft",   "description": "Copper coil 7/8\" x 50 ft",                                              "qty": 1, "unit": "No.",  "unit_price": 800.00,   "line_total": 800.00 },
+    { "sl": 16, "item": "pipe-insulation-7-8-x-3-8",        "description": "Pipe insulation, rubber, 7/8\" x 3/8\" x 1.8 m",                          "qty": 8, "unit": "Nos.", "unit_price": 15.00,    "line_total": 120.00, "unit_size": 1.8, "unit_size_uom": "m" },
+    { "sl": 17, "item": "capillary-assembly-with-nut",      "description": "Copper capillary 0.9 m with 1/4\" straight nut",                          "qty": 2, "unit": "Nos.", "unit_price": 20.00,    "line_total": 40.00, "unit_size": 0.9, "unit_size_uom": "m" },
+    { "sl": 18, "item": "charging-union-quarter-npt",       "description": "CASTEL NPT connector 1/4\" flare x 1/8\" NPT, 7140/21",                   "qty": 2, "unit": "Nos.", "unit_price": 7.00,     "line_total": 14.00 },
+    { "sl": 19, "item": "p-trap-half",                      "description": "P-trap 1/2\"",                                                           "qty": 2, "unit": "Nos.", "unit_price": 7.00,     "line_total": 14.00 },
+    { "sl": 20, "item": "vibration-pad",                    "description": "Vibration pad",                                                          "qty": 1, "unit": "No.",  "unit_price": 25.00,    "line_total": 25.00 }
+  ],
+  "provenance": {
+    "captured_by": "PROCURE (inventory keeper)",
+    "captured_on": "2026-09-16",
+    "confidence": "high",
+    "basis": "Text extracted from our own issued PDF. Line schedule matches the 20-item material list exactly."
+  }
+}

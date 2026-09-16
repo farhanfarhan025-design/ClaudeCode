@@ -1,4 +1,4 @@
-# PRICE BOOK — vendor rates as actually quoted
+# PRICE BOOK — what we pay, and what we charge
 
 **Owner:** PROCURE · **Opened:** 16 September 2026
 
@@ -23,9 +23,18 @@ estimating rate has drifted.
 
 ## What may go in here — and what may not
 
-**In:** vendor quotations. Part, brand, model, quantity, unit price, terms, validity,
-and the document reference it came from. These are *inbound offers to TNDK*, not client
-data, and they have no other source of truth — nothing here duplicates a Drive register.
+**In:** quotations, in both directions.
+
+| Direction | What it is | Why it is here |
+|---|---|---|
+| `inbound` | a vendor's offer to us | what we **pay** |
+| `outbound` | our own quotation to a client | what we **charge** |
+
+Part, brand, model, quantity, unit price, terms, validity, and the document reference it came
+from. Inbound quotes are offers to TNDK with no other source of truth. Outbound quotes are
+here for one reason: `--margin` sets the two against each other and checks the result against
+the floor, which `analysis/FINDINGS.md` describes as the thing nobody could see at the moment
+of quoting. An outbound line is never used as a cost — the script refuses it.
 
 **Not in:** anything from `02 - Registers/`. No contract values, no received amounts,
 no balances, no client names against money. That data lives in Drive and is copied
@@ -76,20 +85,55 @@ pricebook/
 3. Verify before trusting:
 
 ```bash
-python3 scripts/pricebook.py --verify      # exit 2 = a quote does not add up
-python3 scripts/pricebook.py --compare
+python3 scripts/pricebook.py --verify      # arithmetic, every document
+python3 scripts/pricebook.py --compare     # cross-vendor unit prices
+python3 scripts/pricebook.py --rates       # real prices vs the margin.py rate card
 python3 scripts/pricebook.py --item copper-coil-half-50ft
-python3 scripts/pricebook.py --basket pricebook/quotes/<file>.json
+python3 scripts/pricebook.py --basket pricebook/quotes/<inbound>.json
+python3 scripts/pricebook.py --margin pricebook/quotes/<outbound>.json
 ```
 
-`--verify` fails loudly if a line does not multiply out or a stated total does not
-match its lines. Run it on every new quote before the rates are used anywhere.
+`--verify` exit codes:
+
+| Code | Meaning |
+|---|---|
+| 0 | every document adds up |
+| 1 | the only failures are ones the quote file documents in `known_discrepancy` |
+| 2 | a document does not add up and nobody has written down why — **do not use it** |
+
+A documented discrepancy is acknowledged, never waived: it still prints in full, and the
+quote still must not be ordered against. Exit 1 exists so the check stays usable while a
+vendor is being chased, not so an error can be buried.
+
+Where a line has a length or pack size, record `unit_size` and `unit_size_uom`. The script
+then compares per metre instead of per piece — which is how the capillary comparison went
+wrong the first time.
 
 ## On record
 
-| Date | Vendor | Ref | Lines | Stated total |
-|---|---|---|---|---|
-| 2026-09-16 | Arctic (ACC Qatar) | ATC/AZ/QT/26/07619 Rev1 | 20 | QAR 2,467.50 ✅ verified |
-| 2026-09-16 | *unidentified* — handwritten on our material list | none | 20 | none on document (computes to 18,755.00) |
+| Date | Direction | Party | Ref | Lines | Stated total |
+|---|---|---|---|---|---|
+| 2026-07-28 | inbound | Airtronics Trading Contracting & Maintenance | ART-QTN-3174-26 | 9 | QAR 18,525.00 ✅ |
+| 2026-08-20 | inbound | Arctic (ACC Qatar) | ATC/NSA/QT/26/00286 | 21 | QAR 3,220.00 ✅ *(after 230.00 discount)* |
+| 2026-08-20 | inbound | Arctic — Rayyan showroom | ATC/RY/QT/26/00286 | 2 | QAR 5,400.00 ⚠️ **lines sum to 5,500.00** |
+| 2026-08-29 | inbound | Arctic Cooling Company | ACC/QT/RVD/1508/2026 | 1 | QAR 3,600.00 ✅ |
+| 2026-09-16 | inbound | Arctic (ACC Qatar) | ATC/AZ/QT/26/07619 Rev1 | 20 | QAR 2,467.50 ✅ |
+| 2026-09-16 | inbound | *unidentified* — handwritten on our material list | none | 20 | none stated *(computes to 18,755.00)* |
+| 2026-09-16 | **outbound** | **Shared Services** *(our quotation)* | QUT/DCTS/237/2026 | 20 | QAR 21,700.00 ✅ |
 
-Both expire **21 September 2026** (5 days from issue, ex-stock subject to prior sale).
+✅ = lines re-multiplied and summed against the document's own stated total.
+
+**Expiring 21 September 2026:** the Shared Services quotation and the two 16 September vendor
+quotes behind it.
+
+## What the record has already caught
+
+- **QUT/DCTS/237/2026 is priced at 17.2% markup** against known cost — below both floors on
+  record, with no override logged. `RULES.md` B and E. See OL-018.
+- **`RATES["unit_freezer"]` is 166% below a real quote** — 6,400.00 in the card against
+  17,050.00 quoted for the Samoosa freezer plant. See OL-019.
+- **The door rate is confirmed** at 1,800.00 by two independent quotations. The first rate in
+  the card with a verification date.
+- **A vendor quotation that does not add up** — ATC/RY/QT/26/00286, out by 100.00.
+- **A capillary comparison that was wrong** in the first comparison note, because lengths were
+  not being normalised. Fixed, and the note is marked superseded rather than deleted.

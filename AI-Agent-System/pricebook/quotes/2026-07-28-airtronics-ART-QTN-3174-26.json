@@ -1,0 +1,47 @@
+{
+  "quote_id": "2026-07-28-airtronics-ART-QTN-3174-26",
+  "direction": "inbound",
+  "vendor": {
+    "name": "Airtronics Trading Contracting & Maintenance W.L.L.",
+    "short": "AIRTRONICS",
+    "contacts": [{ "name": "Gireesh Nath", "role": "Sales Manager", "mobile": "+974 3169 0622" }]
+  },
+  "document": {
+    "ref": "ART-QTN - 3174-26",
+    "revision": null,
+    "date": "2026-07-28",
+    "subject": "Supply of cold room units",
+    "addressed_to": "M/S. The New Doha Kitchen Equip. Services",
+    "attention": "Mr. Joby / Farhan",
+    "project": "Samoosa freezer room - 5.2 x 3.2 x 2.5 m = 41.6 cbm",
+    "source_file": "QUOTATION_-_3174-26_-Dorin_and_Gunay__-_Samosa_Freezer.pdf",
+    "source_type": "vendor PDF"
+  },
+  "terms": {
+    "currency": "QAR",
+    "payment": "100% CDC upon collection",
+    "validity_days": 5,
+    "validity_note": "5 days, if stock is available",
+    "valid_until": "2026-08-02",
+    "delivery": "Ex-works Doha; ex-stock subject to prior sale"
+  },
+  "stated_total": 18525.00,
+  "stated_total_words": "Eighteen thousand five hundred twenty five only",
+  "lines": [
+    { "sl": 1, "item": "condensing-unit-dorin-au2-h751cs",     "description": "Dorin - Italy Semi Hermetic Unit (incl. TE5 expansion + orifice + valve body) AU2-H751CS - 7.5hp - 8.1kW", "qty": 1, "unit": "EACH", "unit_price": 12700.00, "line_total": 12700.00 },
+    { "sl": 2, "item": "evaporator-gunay-gne-245-8c",          "description": "Gunay GNE 245.8C - 7.29 kW @ -25 Te",                 "qty": 1, "unit": "EACH", "unit_price": 4350.00, "line_total": 4350.00 },
+    { "sl": 3, "item": "control-panel-subzero-crc205200",      "description": "Subzero Control Panel - Metal Body CRC205200",        "qty": 1, "unit": "EACH", "unit_price": 975.00,  "line_total": 975.00 },
+    { "sl": 4, "item": "filter-drier-dcl164s-solder",          "description": "Danfoss Filter Drier - solder DCL 164S - 023Z4815",   "qty": 1, "unit": "EACH", "unit_price": 45.00,   "line_total": 45.00 },
+    { "sl": 5, "item": "sight-glass-sgi12s",                   "description": "Danfoss Sight Glass - solder SGI 12s - 014-0036",     "qty": 1, "unit": "EACH", "unit_price": 65.00,   "line_total": 65.00 },
+    { "sl": 6, "item": "solenoid-valve-1068-4a6",              "description": "Castel Solenoid Valve 1/2 - solder 1068/4A6",        "qty": 1, "unit": "EACH", "unit_price": 155.00,  "line_total": 155.00, "note": "Coil inclusion not stated." },
+    { "sl": 7, "item": "capillary-assembly-with-nut",          "description": "Copper Capillary 1.5 mtr",                            "qty": 1, "unit": "EACH", "unit_price": 20.00,   "line_total": 20.00, "unit_size": 1.5, "unit_size_uom": "m", "note": "Nut not stated on this line - length is, so the per-metre figure is sound but the fitting is not confirmed." },
+    { "sl": 8, "item": "vibration-eliminator-one-three-eighths","description": "Vibration Absorber - Harbax 1 3/8\"",                "qty": 1, "unit": "EACH", "unit_price": 85.00,   "line_total": 85.00 },
+    { "sl": 9, "item": "brazing-rod-45pct",                    "description": "Brazing Rod - Harris 45% - 2PCS",                     "qty": 2, "unit": "EACH", "unit_price": 65.00,   "line_total": 130.00 }
+  ],
+  "provenance": {
+    "captured_by": "PROCURE (inventory keeper)",
+    "captured_on": "2026-09-16",
+    "confidence": "high",
+    "basis": "Text extracted from the vendor's own PDF. This is cost evidence against the Samoosa job - see OL-001 and OL-011."
+  }
+}

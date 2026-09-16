@@ -1,0 +1,65 @@
+{
+  "quote_id": "2026-08-20-arctic-ATC-NSA-QT-26-00286",
+  "direction": "inbound",
+  "vendor": {
+    "name": "Arctic (ACC Qatar)",
+    "short": "ARCTIC",
+    "po_email": "arcticparts@accqatar.com",
+    "contacts": [
+      { "name": "Nikhil", "role": "prepared by" },
+      { "name": "ST 10", "role": "contact", "mobile": "+974 51048877" }
+    ]
+  },
+  "document": {
+    "ref": "ATC/NSA/QT/26/00286",
+    "revision": null,
+    "date": "2026-08-20",
+    "subject": "Spare parts quotation",
+    "addressed_to": "Doha Cooling Trading & Solutions",
+    "our_phone_on_doc": "7742 2762",
+    "our_enquiry_ref": "Ex-stock subject to prior sale",
+    "branch": "ATC/NSA series",
+    "source_file": "SalQuo_ATC_NSA_QT_26_00286_DOHA_COOLING_TRADING__SOLUTIONS_475629.pdf",
+    "source_type": "vendor PDF"
+  },
+  "terms": {
+    "currency": "QAR",
+    "payment": "CASH",
+    "validity_days": 5,
+    "valid_until": "2026-08-25",
+    "delivery": "Cash",
+    "conditions": "PO to arcticparts@accqatar.com. Original stamped LPO at the showroom on collection."
+  },
+  "discount": 230.00,
+  "stated_total": 3220.00,
+  "stated_total_words": "Three thousand two hundred twenty only",
+  "lines": [
+    { "sl": 1,  "item": "copper-coil-seven-eighths-50ft", "description": "COPPER PIPE 7/8\" V",                          "qty": 1, "unit": "ROL", "unit_price": 625.00, "line_total": 625.00 },
+    { "sl": 2,  "item": "copper-coil-five-eighths-50ft",  "description": "COPPER PIPE 5/8\" - TOTALINE/KELVIN",          "qty": 1, "unit": "ROL", "unit_price": 355.00, "line_total": 355.00 },
+    { "sl": 3,  "item": "pipe-insulation-7-8-x-3-4",      "description": "RUBBER INSULATION WORLD FLEX (7/8\" X 3/4\")", "qty": 8, "unit": "NOS", "unit_price": 8.50,   "line_total": 68.00 },
+    { "sl": 4,  "item": "pipe-insulation-5-8-x-3-4",      "description": "RUBBER INSULATION (5/8\" X 3/4\")",            "qty": 8, "unit": "NOS", "unit_price": 8.00,   "line_total": 64.00 },
+    { "sl": 5,  "item": "copper-coil-three-eighths-50ft", "description": "COPPER PIPE 3/8\" V",                          "qty": 1, "unit": "ROL", "unit_price": 170.00, "line_total": 170.00 },
+    { "sl": 6,  "item": "copper-coil-half-50ft",          "description": "COPPER PIPE 1/2\" V",                          "qty": 1, "unit": "ROL", "unit_price": 260.00, "line_total": 260.00 },
+    { "sl": 7,  "item": "p-trap-seven-eighths",           "description": "COPPER P TRAP 7/8\"",                          "qty": 1, "unit": "NOS", "unit_price": 30.00,  "line_total": 30.00 },
+    { "sl": 8,  "item": "p-trap-five-eighths",            "description": "COPPER P TRAP 5/8\"",                          "qty": 1, "unit": "NOS", "unit_price": 20.00,  "line_total": 20.00 },
+    { "sl": 9,  "item": "expansion-valve-te2",            "description": "DANFOSS EXPANSION VALVE TES-2",                "qty": 2, "unit": "NOS", "unit_price": 185.00, "line_total": 370.00 },
+    { "sl": 10, "item": "orifice-te2-no02",               "description": "DANFOSS ORIFICE NO2/TE2",                      "qty": 2, "unit": "NOS", "unit_price": 45.00,  "line_total": 90.00 },
+    { "sl": 11, "item": "pressure-switch-kp15",           "description": "PRESSURE SWITCH KP-15 AUTO",                   "qty": 2, "unit": "NOS", "unit_price": 230.00, "line_total": 460.00, "note": "Switch alone - no hose bundled." },
+    { "sl": 12, "item": "filter-drier-castel-df308-4s",   "description": "FILTER DRIER DF308/4S 084S CASTEL (1/2)",      "qty": 1, "unit": "NOS", "unit_price": 35.00,  "line_total": 35.00 },
+    { "sl": 13, "item": "filter-drier-castel-df308-3s",   "description": "FILTER DRIER DF308/3S 083S CASTEL (3/8)",      "qty": 1, "unit": "NOS", "unit_price": 35.00,  "line_total": 35.00 },
+    { "sl": 14, "item": "moisture-indicator-castel-3910-44", "description": "MOISTURE INDICATOR 1/2 - 3910/44 CASTEL",   "qty": 1, "unit": "NOS", "unit_price": 60.00,  "line_total": 60.00 },
+    { "sl": 15, "item": "moisture-indicator-castel-3910-33", "description": "MOISTURE INDICATOR 3/8 - 3910/33 CASTEL",   "qty": 1, "unit": "NOS", "unit_price": 50.00,  "line_total": 50.00 },
+    { "sl": 16, "item": "capillary-assembly-with-nut",    "description": "CAPILLARY WITH 1/4\" NUT 1000MM",              "qty": 6, "unit": "NOS", "unit_price": 25.00,  "line_total": 150.00, "unit_size": 1.0, "unit_size_uom": "m" },
+    { "sl": 17, "item": "brazing-rod-45pct",              "description": "SOPOR BRAZING ROD 45% (RED/BLUE)",             "qty": 3, "unit": "NOS", "unit_price": 60.00,  "line_total": 180.00 },
+    { "sl": 18, "item": "brazing-rod-0pct",               "description": "COPPER BRAZING ROD 0% HARRIS, 28/BOX",         "qty": 1, "unit": "BOX", "unit_price": 58.00,  "line_total": 58.00 },
+    { "sl": 19, "item": "solenoid-valve-1028-3a6",        "description": "CASTEL SOLENOID VALVE 3/8 - 1028/3A6",         "qty": 1, "unit": "NOS", "unit_price": 150.00, "line_total": 150.00 },
+    { "sl": 20, "item": "solenoid-valve-1078-4a6",        "description": "CASTEL SOLENOID VALVE 1/2 - 1078/4A6",         "qty": 1, "unit": "NOS", "unit_price": 200.00, "line_total": 200.00 },
+    { "sl": 21, "item": "castel-connector-9150-r02",      "description": "CASTEL CONNECTOR 9150/R02",                    "qty": 2, "unit": "NOS", "unit_price": 10.00,  "line_total": 20.00 }
+  ],
+  "provenance": {
+    "captured_by": "PROCURE (inventory keeper)",
+    "captured_on": "2026-09-16",
+    "confidence": "high",
+    "basis": "Text extracted from the vendor's own PDF. Lines sum to 3,450.00; the document applies a 230.00 discount to reach its stated 3,220.00."
+  }
+}
