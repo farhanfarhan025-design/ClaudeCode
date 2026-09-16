@@ -123,6 +123,21 @@ material list carries priced lines for all twenty items:
 Two thirds of the cost is in two lines — the DORIN condensing unit at 9,300 and the two FRIGA
 BOHN evaporators at 3,475 each. The eighteen small parts total 2,505.
 
+**Itemised 16-09-2026 at the client's request.** Unit rates were set to reach 21,700 exactly,
+with the uplift loaded onto the equipment and the fittings kept at or near cost:
+
+| Item | Cost | Sell | Uplift |
+|---|---|---|---|
+| DORIN AU-H300CC | 9,300 | **10,800** | 16.1% |
+| FRIGA BOHN 3C-E 3245-R, each | 3,475 | **4,000** | 15.1% |
+| Danfoss / Castel valves and controls | — | — | 15 – 20% |
+| Copper coil 1/2" and 7/8" | 1,020 | 1,165 | 14.2% |
+| Castel flare nut 3/8", NPT connector | at cost | at cost | 0% |
+| P-trap 1/2" | 8 | 7 | **−12.5%** |
+
+The P-trap is sold marginally under cost at a rounded rate — 2 riyals across the order, taken to
+keep the total on the figure Farhan set. Worth knowing it is there rather than discovering it.
+
 **This is the first quotation in the records where both sides of the trade are known.** Four
 earlier resales — Convert Engineering 8,800, COMO 5,300, Almana 35,000, JKR 485 — were quoted
 with no cost on file at all.

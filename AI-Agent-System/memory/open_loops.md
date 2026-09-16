@@ -982,10 +982,11 @@ Three documents were produced today and none has been appended to the log in Dri
   evaporators, both Aeris coated, plus Danfoss and Castel valves, copper, insulation and
   fittings. **21,700**, ex stock subject to prior sale, 100% payment, **validity 05 days**,
   issued 16-09-2026.
-  **Quoted as a lump sum for the whole schedule** — the twenty lines are listed with model
-  codes and quantities but not priced individually, because the supplier's unit prices total
-  18,755 and marking each line up to reach 21,700 would mean inventing twenty rates. A note
-  offers unit rates on request; ask Farhan how he wants them split if the client presses.
+  **Itemised at the client's request, 16-09-2026.** Twenty priced lines, unit rates summing to
+  exactly 21,700 against a material cost of 18,755. The uplift is loaded onto the two machines
+  (Dorin 9,300 to 10,800; Friga Bohn 3,475 to 4,000 each) with the small fittings at or near
+  cost. **The rates are built on the complete schedule**, so a note says part orders are
+  re-quoted — otherwise the client can cherry-pick the machines and leave the fittings.
   **Margin 2,945 — see the new margin section in `durable_facts.md`.**
 - **WO/DCTS/001/2026** — Al Zehrabi work order, 18-08-2026. **Opens a new series**; the log has
   no work-order column yet.
