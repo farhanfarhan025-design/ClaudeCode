@@ -142,6 +142,25 @@ keep the total on the figure Farhan set. Worth knowing it is there rather than d
 earlier resales — Convert Engineering 8,800, COMO 5,300, Almana 35,000, JKR 485 — were quoted
 with no cost on file at all.
 
+**QUT/DCTS/238/2026, Oriental Fruits and Vegetables, civil works, 16-09-2026.** Second job with
+both sides on file. Subcontractor quotation from Shamim Hossain (+974 7708 5225) dated
+16-09-2026, addressed to Doha Cooling:
+
+| Item | Qty | Sub rate | Sub cost | Our rate | Our total |
+|---|---|---|---|---|---|
+| Excavation, 200 mm deep | 200 sqm | 30 | 6,000 | **35** | 7,000 |
+| Concrete 100 mm with steel net | 80 sqm | 80 | 6,400 | **95** | 7,600 |
+| Interlock supply and lay | 200 sqm | 65 | 13,000 | **72** | 14,400 |
+| Edge restraint, making good, clearance | Lot | — | — | **350** | 350 |
+| | | | **25,400** | | **29,350** |
+
+**Margin 3,950 — 13.5% of sale, 15.6% on cost.** Almost identical to QUT/DCTS/237/2026 at 13.6%,
+and again below the unconfirmed 20% floor in D-004.
+
+**The cash profile is better than the margin suggests.** TNDK/Doha Cooling collects **75%
+advance** (22,012.50) while the subcontractor's own terms are 50% advance (12,700), 25% on
+material and alignment, 25% on completion. The job funds itself from the client's advance.
+
 ## Payment terms
 
 | Client | Terms | Source | Notes |
@@ -274,7 +293,7 @@ The larger of the two has collected nothing.
 | Invoice / Receipt | next after **267** — one running series: 261 cancelled, 263 Al Zahrawi, 264/265 Oscar Prime, 266 Stop n Shop invoice, **267 Stop n Shop receipt**. None yet in the Drive log |
 | Statement of account | next after **SOA/DCTS/001/2026** (Stop n Shop, 13-09-2026) — series opened that day; TNDK had none |
 | Receipt | RCT-257/2026 |
-| Quotation | next after QUT/DCTS/237/2026, plus the SQ038 / SQ074 series — see OL-018 |
+| Quotation | next after QUT/DCTS/238/2026, plus the SQ038 / SQ074 series — see OL-018 |
 | Doha Cooling invoice | next after **DCTS-INV-006/2026**. 001–003 Oriental Agro cold storage; **004 is VOID** (drafted for electrical works, withdrawn before issue — that work is inside the cold room price, do not reuse the number); 005 Oriental Agro sectional doors; **006 reserved** for Oriental Agro panel shifting, not yet issued (no price). Series opened 06-09-2026; Doha Cooling had none before |
 | Doha Cooling receipt | next after **DCTS-RCT-014/2026**. 001–012 cold storage **in date order** (renumbered 06-09-2026 at Farhan's request so the client can follow the account down the page: 001 08-09-2025 … 012 05-07-2026), 013–014 sectional doors, all Oriental Agro. Runs alongside the pre-printed voucher books, which reached no. 1347 on 17-05-2026 and no. 0095 on 04-07-2026 |
 | Delivery note | DN-252/2026 |

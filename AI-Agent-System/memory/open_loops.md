@@ -988,6 +988,20 @@ Three documents were produced today and none has been appended to the log in Dri
   cost. **The rates are built on the complete schedule**, so a note says part orders are
   re-quoted — otherwise the client can cherry-pick the machines and leave the fittings.
   **Margin 2,945 — see the new margin section in `durable_facts.md`.**
+- **QUT/DCTS/238/2026** — Oriental Fruits and Vegetables, civil works: excavation 200 sqm at
+  200 mm, 100 mm concrete base with steel mesh over 80 sqm, interlock paving over 200 sqm, plus
+  edge restraint and making good. **29,350**, issued 16-09-2026 **on Doha Cooling letterhead**,
+  75% advance / 25% on handover.
+  **Entity assumed:** the subcontractor addressed his quote to Doha Cooling and the related
+  Oriental Agro work sits there, so this was issued as Doha Cooling. Confirm before it goes out.
+  **Client name assumed** as *Oriental Fruits and Vegetables*; Farhan wrote "Oriental Fruits and
+  Vegtable". Fourth client-name spelling question in a month.
+  **Work completion of 10–14 days assumed** — Farhan gave no duration.
+  **Engineering flag carried into note 3:** the concrete base covers only 80 of the 200 sqm, so
+  120 sqm of interlock sits on compacted formation and bedding sand alone. On a fruit and
+  vegetable yard with loaded forklifts and delivery vehicles that area will rut. The note asks
+  the client to confirm the 80 sqm is where the heavy traffic runs, and offers the balance at
+  the same rate.
 - **WO/DCTS/001/2026** — Al Zehrabi work order, 18-08-2026. **Opens a new series**; the log has
   no work-order column yet.
 - **INV-263/2026** — Al Zehrabi, **4,900 in full**, issued 19-08-2026 (redrafted from an 80%
