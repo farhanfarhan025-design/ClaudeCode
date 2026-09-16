@@ -968,6 +968,14 @@ Three documents were produced today and none has been appended to the log in Dri
   be **ordered** configured for it; and the room, its panels, doors and floor are existing and
   outside scope, so if it will not hold −30 °C on its present insulation that is not TNDK's.
   **Evaporator model not yet selected** — confirmed before ordering. **No supplier cost on file.**
+- **QUT/DCTS/236/2026** — Cocoon (attn. Mr. Rafi), **supply only** of the same DORIN AU2-H505CS
+  and TECUMSEH evaporator, **17,500**, ex stock subject to prior sale, 100% payment, issued
+  16-09-2026. **Alternative to QUT/DCTS/235/2026 (27,200 installed)** — both stand, and each
+  names the other on its face so the client cannot read one as superseding the other.
+  **The installation content is therefore priced at 9,700** — piping, insulation, drain line,
+  control panel, electrical works, refrigerant, testing and commissioning, over 02–03 days.
+  Worth checking that covers the labour and materials before the client picks the cheaper one.
+  Payment terms of 100% were assumed; Farhan gave only the price and ex stock.
 - **WO/DCTS/001/2026** — Al Zehrabi work order, 18-08-2026. **Opens a new series**; the log has
   no work-order column yet.
 - **INV-263/2026** — Al Zehrabi, **4,900 in full**, issued 19-08-2026 (redrafted from an 80%
