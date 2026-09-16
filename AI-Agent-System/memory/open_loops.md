@@ -949,6 +949,13 @@ Three documents were produced today and none has been appended to the log in Dri
   Farhan; the quote flags it and invites a revision. **Two 900 mm doors in a 2.50 m wide panel
   leaves only 700 mm of wall** — worth confirming the reading of "2.5 x 2.5" before fabrication.
   No address on file for this client.
+- **QUT/DCTS/234/2026** — Fold for Cafe Supplies (attn. Mr. Najmudheen, 7757 8678 / 5115 2773),
+  supply of one (1) 40 ft reconditioned reefer container at **61,000** and one (1) 20 ft at
+  **52,000**, total **113,000**, issued 16-09-2026. 100% payment, 05–07 days, 6 month warranty
+  with service backup. **Second container quotation** after QUT/DCTS/221/2026 (Space Al-Arabi,
+  8 × 40 ft at 50,000 each) — note the 40 ft here is **22% above** that price.
+  **Make, model and year of manufacture are NOT stated** — the quote says they are confirmed on
+  allocation and advised before dispatch. **No supplier cost on record**, exactly as OL-029.
 - **WO/DCTS/001/2026** — Al Zehrabi work order, 18-08-2026. **Opens a new series**; the log has
   no work-order column yet.
 - **INV-263/2026** — Al Zehrabi, **4,900 in full**, issued 19-08-2026 (redrafted from an 80%
