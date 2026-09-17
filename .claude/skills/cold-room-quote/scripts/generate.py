@@ -1327,8 +1327,10 @@ def generate(spec, output, scales=None):
     fill_boq(doc, spec, qs, tot)
     fill_total(doc, spec)
     fill_delivery(doc, spec)
-    replace_door_image(doc, spec)
     apply_house_pictures(doc, spec, scales)
+    # after the house sizes, so a door photo supplied with the quote keeps its
+    # own proportions at the house height rather than being squashed to fit
+    replace_door_image(doc, spec)
     # everything below is an override on top of the house layout
     fit_banner(doc, spec)
     fit_schematic(doc, spec)
@@ -1424,7 +1426,7 @@ def sparse_page(pdf):
     for n, text in enumerate(texts, 1):
         if n == 1 or not text:                      # page 1 is the cover
             continue
-        if len(text) >= 300:
+        if len(text) >= 500:          # a full page of this document runs 700+
             continue
         before = [i - 1 for i, page in enumerate(pages) if page == n - 1 and i > 0]
         if before:                                  # [0] is the cover
