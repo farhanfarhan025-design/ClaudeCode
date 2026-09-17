@@ -170,7 +170,7 @@ material and alignment, 25% on completion. The job funds itself from the client'
 | CCC / HIA | 30 / 30 / 30 / 10 | LPO DIAR-L05531 MCR | |
 | Mesaieed / HBK-BWTC-BEIL JV | 15 advance / 45 after delivery / 20 / 20 | LOA HBB000353-0 | Advance bank guarantee + performance cheque required; 10% retention split 5%+5%; delay penalties; AMC clause |
 | Samoosa Shop | 70 / 25 / 5 | QUT/DCTS/066/2026 | No LPO — quotation only |
-| Home-Made by Earth | 75 advance / 20 on material delivery / 5 on handover | LPO HMBE/LPO/2026/001 | LPO and quotation SQ091 agree — unusually |
+| Home-Made by Earth | **70 advance / 25 on material delivery / 5 on handover** | Farhan, 17-09-2026 | LPO and quotation both say 75/20/5; the advance was cut to 70% by agreement and the delivery stage raised to 25%. Handover stage and contract value unchanged |
 
 ## Obligations outstanding
 

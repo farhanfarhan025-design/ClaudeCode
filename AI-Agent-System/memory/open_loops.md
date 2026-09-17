@@ -16,8 +16,14 @@ The revised quotation QUT/DCTS/SQ091/2026 changes the doors from one hinged plus
 100 mm leaf to **two sliding doors with a 160 mm insulated PU / PIR leaf**, and the contract moves
 **45,300 → 46,900**. INV-269/2026 is revised to the 75% advance on the new figure, **35,175**.
 
+**Advance cut to 70% on 17-09-2026** at Farhan's instruction: **32,830** now due, with the
+delivery stage raised to 25% (**11,725**) and the handover stage left at 5% (**2,345**). The 70/25/5
+split is mine — Farhan gave only the 70%, and the quotation and LPO both say 75/20/5, so the
+remaining 30% had to be placed somewhere. 70/20/10 is the alternative if he prefers to hold more
+back to the end.
+
 **LPO HMBE/LPO/2026/001 still reads 45,300.** An invoice above the order value is normally kicked
-back by a client's accounts, and this one is 3.5% over. Note 4 asks in writing for a revised LPO or
+back by a client's accounts, and the contract is 3.5% over. Note 4 asks in writing for a revised LPO or
 an amendment. **Needed:** that amendment before the advance is chased, or the invoice sits unpaid
 while nobody is at fault.
 
