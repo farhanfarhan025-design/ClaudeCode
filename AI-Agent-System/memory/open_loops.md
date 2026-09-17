@@ -1010,6 +1010,18 @@ Three documents were produced today and none has been appended to the log in Dri
   replacement, both settled. **No quotation preceded this one** — a site attendance billed
   directly. **The inspection report itself is not on file**; the invoice says findings were
   reported to the client, so there should be a written report to match it.
+- **QUT/DCTS/SQ091/2026** — Home-Made by Earth (attn. Mr. Murshid), chiller + freezer rooms,
+  **45,300**, issued 17-09-2026. **SQ series.** Approved the same day.
+- **INV-269/2026** — Home-Made by Earth, **75% advance 33,975** of 45,300, issued 17-09-2026
+  against **LPO HMBE/LPO/2026/001** dated 17-09-2026 (attn. Mr. Nitin, 3007 0441). Remaining
+  stages: 20% on material delivery **9,060**, 5% on handover **2,265**.
+  **SQ091 is internally consistent** — wall 45.76 + ceiling 13.20 + floor 13.20 = 72.16 sqm, and
+  the BOQ's 36.08 sqm per room is exactly half. That is the arithmetic SQ076 failed (OL-048).
+  **One contradiction remains:** the header says validity 7 days, §13.6 says 30 days. Moot here
+  because the LPO came the same day, but it is the same defect as SQ076 and will bite eventually.
+  **Client address is OCR'd from a scanned LPO footer** — P.O. Box 201102, Street 990, Zone 52 —
+  and should be checked against their letterhead before the invoice is sent.
+  **No supplier cost on file** for the Tecumseh sets or the panel.
 - **WO/DCTS/001/2026** — Al Zehrabi work order, 18-08-2026. **Opens a new series**; the log has
   no work-order column yet.
 - **INV-263/2026** — Al Zehrabi, **4,900 in full**, issued 19-08-2026 (redrafted from an 80%

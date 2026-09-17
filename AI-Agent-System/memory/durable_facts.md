@@ -45,6 +45,7 @@ retention clause, so this reads as a retention applied by the client's accounts 
 keying error — see OL-027.
 | Drainage system replacement | Lean N Fit | QUT/DCTS/214/2026 | Cash | 1,200 | 1,200 | 0 — completed & paid 11-08-2026 |
 | Cold room — chiller + freezer | Stop n Shop – Bin Omran | QUT/DCTS/SQ076/2026 | Quote | 45,000 | 25,000 (cheque 00006483, QNB, 26-08-2026) | 20,000 — PDC 90 days |
+| Chiller + freezer rooms | Home-Made by Earth | HMBE/LPO/2026/001 | LPO | 45,300 | 0 | 45,300 — 75/20/5 |
 | Cold storage project | Oriental Agro Trading | SOA AS-2026-9455 | **Doha Cooling** | 1,103,286 | 1,073,000 | 30,286 |
 | Additional sandwich panel shifting, Street 36 | Oriental Agro Trading | DCTS-INV-006/2026 reserved | **Doha Cooling** | **price not given** | 0 | **not invoiced — awaiting price** |
 | Insulated sectional overhead doors (4 nos.) | Oriental Agro Trading | QUT/DCTS/036/2026 R1 | **Doha Cooling** | 81,000 | 81,000 | 0 — settled 11-05-2026 |
@@ -169,6 +170,7 @@ material and alignment, 25% on completion. The job funds itself from the client'
 | CCC / HIA | 30 / 30 / 30 / 10 | LPO DIAR-L05531 MCR | |
 | Mesaieed / HBK-BWTC-BEIL JV | 15 advance / 45 after delivery / 20 / 20 | LOA HBB000353-0 | Advance bank guarantee + performance cheque required; 10% retention split 5%+5%; delay penalties; AMC clause |
 | Samoosa Shop | 70 / 25 / 5 | QUT/DCTS/066/2026 | No LPO — quotation only |
+| Home-Made by Earth | 75 advance / 20 on material delivery / 5 on handover | LPO HMBE/LPO/2026/001 | LPO and quotation SQ091 agree — unusually |
 
 ## Obligations outstanding
 
@@ -290,7 +292,7 @@ The larger of the two has collected nothing.
 
 | Series | Next free |
 |---|---|
-| Invoice / Receipt | next after **268** — one running series: 261 cancelled, 263 Al Zahrawi, 264/265 Oscar Prime, 266 Stop n Shop invoice, 267 Stop n Shop receipt, **268 Lean N Fit inspection**. None yet in the Drive log |
+| Invoice / Receipt | next after **269** — one running series: 261 cancelled, 263 Al Zahrawi, 264/265 Oscar Prime, 266 Stop n Shop invoice, 267 Stop n Shop receipt, 268 Lean N Fit inspection, **269 Home-Made by Earth advance**. None yet in the Drive log |
 | Statement of account | next after **SOA/DCTS/001/2026** (Stop n Shop, 13-09-2026) — series opened that day; TNDK had none |
 | Receipt | RCT-257/2026 |
 | Quotation | next after QUT/DCTS/238/2026, plus the SQ038 / SQ074 series — see OL-018 |
