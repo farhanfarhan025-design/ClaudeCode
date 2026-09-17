@@ -45,7 +45,7 @@ retention clause, so this reads as a retention applied by the client's accounts 
 keying error — see OL-027.
 | Drainage system replacement | Lean N Fit | QUT/DCTS/214/2026 | Cash | 1,200 | 1,200 | 0 — completed & paid 11-08-2026 |
 | Cold room — chiller + freezer | Stop n Shop – Bin Omran | QUT/DCTS/SQ076/2026 | Quote | 45,000 | 25,000 (cheque 00006483, QNB, 26-08-2026) | 20,000 — PDC 90 days |
-| Chiller + freezer rooms | Home-Made by Earth | HMBE/LPO/2026/001 | LPO | 45,300 | 0 | 45,300 — 75/20/5 |
+| Chiller + freezer rooms | Home-Made by Earth | HMBE/LPO/2026/001 | LPO | **46,900** (LPO still reads 45,300) | 0 | 46,900 — 75/20/5 |
 | Cold storage project | Oriental Agro Trading | SOA AS-2026-9455 | **Doha Cooling** | 1,103,286 | 1,073,000 | 30,286 |
 | Additional sandwich panel shifting, Street 36 | Oriental Agro Trading | DCTS-INV-006/2026 reserved | **Doha Cooling** | **price not given** | 0 | **not invoiced — awaiting price** |
 | Insulated sectional overhead doors (4 nos.) | Oriental Agro Trading | QUT/DCTS/036/2026 R1 | **Doha Cooling** | 81,000 | 81,000 | 0 — settled 11-05-2026 |

@@ -9,6 +9,41 @@ Anything awaiting someone. Every entry has an owner and a date. Closed loops mov
 
 ## 🔴 Blocking — resolve before related work proceeds
 
+### OL-055 — Home-Made by Earth: the invoice is 1,600 above the purchase order
+**Owner:** Farhan · **Raised:** 2026-09-17 · **Value:** QAR 1,600
+
+The revised quotation QUT/DCTS/SQ091/2026 changes the doors from one hinged plus one sliding at a
+100 mm leaf to **two sliding doors with a 160 mm insulated PU / PIR leaf**, and the contract moves
+**45,300 → 46,900**. INV-269/2026 is revised to the 75% advance on the new figure, **35,175**.
+
+**LPO HMBE/LPO/2026/001 still reads 45,300.** An invoice above the order value is normally kicked
+back by a client's accounts, and this one is 3.5% over. Note 4 asks in writing for a revised LPO or
+an amendment. **Needed:** that amendment before the advance is chased, or the invoice sits unpaid
+while nobody is at fault.
+
+### OL-056 — Two quotations carry the reference SQ091/2026 at different prices
+**Owner:** Farhan · **Raised:** 2026-09-17
+
+The original and the revised quotation are **both numbered QUT/DCTS/SQ091/2026 and both dated
+17 September 2026**. One totals 45,300, the other 46,900; the only distinguishing mark is the word
+*Revised* in the subject line. The client now holds two documents with the same reference and
+different prices, and their LPO cites that reference.
+
+This is the risk flagged on the Remote Site ME job, where a new number was allocated instead
+(215 → 223 → 229). **Needed:** either a revision suffix — SQ091 R1 — or a fresh number, applied
+before the amended LPO is issued, so the order cites one unambiguous document.
+
+### OL-057 — Revised SQ091 contradicts itself on door thickness
+**Owner:** Farhan · **Raised:** 2026-09-17
+
+In the revised §2 Door Details, *Door Type* specifies a **160 mm** insulated leaf while the row
+below, *Door Thickness*, still reads **100 mm — matching wall panel**. §8 scope item 3 and BOQ
+item 3 both say 160 mm, so 160 is the intention and the 100 mm row was left over from the original.
+
+Same class of defect as SQ076's 3 mm / 1.5 mm chequered plate (OL-048) and its 95.1 / 119.90 panel
+total. The invoice states 160 mm. **Needed:** correct the quotation row before it is reissued.
+
+
 ### OL-053 — Oriental Agro: a 15,000 receipt that is not on the statement
 **Owner:** Farhan · **Raised:** 2026-09-06 · **Value:** QAR 15,000
 
@@ -1012,9 +1047,11 @@ Three documents were produced today and none has been appended to the log in Dri
   reported to the client, so there should be a written report to match it.
 - **QUT/DCTS/SQ091/2026** — Home-Made by Earth (attn. Mr. Murshid), chiller + freezer rooms,
   **45,300**, issued 17-09-2026. **SQ series.** Approved the same day.
-- **INV-269/2026** — Home-Made by Earth, **75% advance 33,975** of 45,300, issued 17-09-2026
-  against **LPO HMBE/LPO/2026/001** dated 17-09-2026 (attn. Mr. Nitin, 3007 0441). Remaining
-  stages: 20% on material delivery **9,060**, 5% on handover **2,265**.
+- **INV-269/2026** — Home-Made by Earth. First raised at **33,975** (75% of 45,300), then
+  **revised the same day to 35,175** (75% of **46,900**) when the door specification changed.
+  Same number, marked REVISED on its face and stating that it supersedes rather than adds.
+  Remaining stages on the revised value: 20% on material delivery **9,380**, 5% on handover
+  **2,345**. LPO HMBE/LPO/2026/001 (attn. Mr. Nitin, 3007 0441) still reads 45,300 — see OL-055.
   **SQ091 is internally consistent** — wall 45.76 + ceiling 13.20 + floor 13.20 = 72.16 sqm, and
   the BOQ's 36.08 sqm per room is exactly half. That is the arithmetic SQ076 failed (OL-048).
   **One contradiction remains:** the header says validity 7 days, §13.6 says 30 days. Moot here
