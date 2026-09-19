@@ -1119,6 +1119,20 @@ Three documents were produced today and none has been appended to the log in Dri
   performance because it is the client's own used plant.
   **Work completion of 01–02 days came from Farhan; the 3 month workmanship warranty was
   assumed** — he gave no warranty term.
+- **QUT/DCTS/242/2026** — Green Land Qatar, supply and installation of **3 nos Carrier
+  FM-3515B-L/YS5** air curtains (Residential Series S5, 1500 x 220 x 240) over a 4.5 x 3.0 m
+  door, with a square tube support frame. **7,850** lump sum, issued 19-09-2026. 100% payment,
+  01 day. **First air curtain job on file** and a **new client** — no address, contact name or
+  telephone.
+  **The selection is sound and was checked against the catalogue:** 3 x 1500 mm = 4500 mm
+  across a 4500 mm opening, and the 35 series is rated 2.5 - 3.5 m mounting, so a 3.0 m door
+  sits inside the band (the 40 series starts at 3.5 m). 1900 m3/h high, 220-240 V 1 ph,
+  20.5 kg each.
+  **No supplier cost on file** for the Carrier units — the margin on 7,850 is unknown, and
+  this is the fourth job quoted without one.
+  **Assumed, not given by Farhan:** 12 month manufacturer warranty on the units, 6 months on
+  our workmanship, and 15 day validity. Farhan gave neither warranty nor validity.
+  **Structural capacity above the door is unverified** — 61.5 kg of units plus the frame.
 - **WO/DCTS/001/2026** — Al Zehrabi work order, 18-08-2026. **Opens a new series**; the log has
   no work-order column yet.
 - **INV-263/2026** — Al Zehrabi, **4,900 in full**, issued 19-08-2026 (redrafted from an 80%
