@@ -1105,6 +1105,20 @@ Three documents were produced today and none has been appended to the log in Dri
   Bought from Resgrow Trading on RTQ-000651 at 49,300; uplift 8,000 as instructed by Farhan.
   **Second live job with this client** alongside the 46,900 cold rooms — combined exposure to
   one customer is **104,200**. See OL-058 for the BoQ gaps.
+- **QUT/DCTS/241/2026** — Mr. Siraj, installation of his **own existing** condensing unit,
+  evaporator and control panel box, with copper pipework, wiring, an MS stand and one crane
+  lift to roof. **3,900** lump sum, issued 19-09-2026. 100% advance, 01–02 days.
+  **Labour-and-materials only: no equipment is sold**, so there is no supplier cost and the
+  whole 3,900 less crane hire, copper, wire and the stand is margin. Crane is the one bought-in
+  cost and is not separately priced — check it against the hire rate before accepting.
+  **Refrigerant gas and commissioning are excluded** and said so on the face of the quote;
+  the system is handed over pressure tested and evacuated. Farhan did not mention gas —
+  flagged to him, and it needs a separate figure or the job cannot be made to cool.
+  **No company name, no address, no contact number, no site address** — an individual only.
+  **The equipment's condition is unknown**; note 2 disclaims capacity, suitability and
+  performance because it is the client's own used plant.
+  **Work completion of 01–02 days came from Farhan; the 3 month workmanship warranty was
+  assumed** — he gave no warranty term.
 - **WO/DCTS/001/2026** — Al Zehrabi work order, 18-08-2026. **Opens a new series**; the log has
   no work-order column yet.
 - **INV-263/2026** — Al Zehrabi, **4,900 in full**, issued 19-08-2026 (redrafted from an 80%
