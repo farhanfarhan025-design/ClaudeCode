@@ -1065,6 +1065,11 @@ Three documents were produced today and none has been appended to the log in Dri
   **Client address is OCR'd from a scanned LPO footer** — P.O. Box 201102, Street 990, Zone 52 —
   and should be checked against their letterhead before the invoice is sent.
   **No supplier cost on file** for the Tecumseh sets or the panel.
+- **QUT/DCTS/239/2026** — Al Kazeem Gardens, Villa 35, repair of vertical freezer: two
+  capacitors and the starting relay replaced, **650**, issued 19-09-2026. 100% payment, 01 day.
+  **Work completion of 01 day and a 3 month parts warranty were assumed** — Farhan gave neither.
+  **Capacitor and relay ratings not specified** — the quote says matched to the compressor
+  nameplate. **A domestic address, not a trade client**; no contact name on file.
 - **WO/DCTS/001/2026** — Al Zehrabi work order, 18-08-2026. **Opens a new series**; the log has
   no work-order column yet.
 - **INV-263/2026** — Al Zehrabi, **4,900 in full**, issued 19-08-2026 (redrafted from an 80%
