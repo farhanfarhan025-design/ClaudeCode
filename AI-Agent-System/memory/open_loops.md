@@ -1066,7 +1066,9 @@ Three documents were produced today and none has been appended to the log in Dri
   and should be checked against their letterhead before the invoice is sent.
   **No supplier cost on file** for the Tecumseh sets or the panel.
 - **QUT/DCTS/239/2026** — Al Kazeem Gardens, Villa 35, repair of vertical freezer: two
-  capacitors and the starting relay replaced, **650**, issued 19-09-2026. 100% payment, 01 day.
+  capacitors and the starting relay replaced. Charge **650** less a **50** discount, **net 600**,
+  issued 19-09-2026. 100% payment, 01 day. Reissued the same day under the same number, marked
+  REVISED and stating it supersedes the 650 offer; scope and terms unchanged.
   **Work completion of 01 day and a 3 month parts warranty were assumed** — Farhan gave neither.
   **Capacitor and relay ratings not specified** — the quote says matched to the compressor
   nameplate. **A domestic address, not a trade client**; no contact name on file.
