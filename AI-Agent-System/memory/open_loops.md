@@ -9,6 +9,34 @@ Anything awaiting someone. Every entry has an owner and a date. Closed loops mov
 
 ## 🔴 Blocking — resolve before related work proceeds
 
+### OL-058 — Home-Made by Earth kitchen equipment: the quote answers 8 of 11 BoQ lines
+**Owner:** Farhan · **Raised:** 2026-09-19 · **Value:** QAR 57,300 quoted
+
+The client's BoQ lists **eleven** items. Supplier quotation RTQ-000651 covers **eight**, and two of
+those are not what the chef specified:
+
+- **Not quoted at all:** electric table top donut fryer · rotary oven (Salva) · insect killer glue
+  traps, 3 nos. (Gleecon) · hand wash sink.
+- **Ice cream machine** — BoQ names a **Bravo Trittico 610 Startronic Premium** at 400 V three
+  phase, a combined pasteuriser and batch freezer. Offered is a **table-top RESMZ-5065** at 6,000,
+  220 V single phase. Different class of machine; the power spec alone proves it.
+- **Deck oven** — BoQ asks **(4+4) 60×40 GN**, eight trays. Offered is a **2 deck, 4 tray** oven,
+  and Salva (Spain) has become Chinese-made. Half the baking capacity.
+- **Spiral mixer** — BoQ says **100 KG**. Offered is a 100 **litre** bowl with a **40 kg** flour
+  capacity. If the chef meant 100 kg of dough the machine is less than half the size needed.
+- **3-door freezer** — BoQ wants 2005 × 800 × 950 without splash. The supplier quote gives **no
+  dimensions**; RES-72D3 suggests roughly 1830 mm. Unverified.
+
+QUT/DCTS/240/2026 was issued as instructed, with **note 3 listing the four items not included** and
+**note 4 stating that the specification printed against each line prevails**. That protects the
+offer, but it does not answer the chef. **Needed:** go back to Resgrow for the four missing items
+and for written confirmation on the ice cream machine, the deck oven and the spiral mixer before
+the client places an order against this.
+
+**Also:** RTQ-000651 reads "Sub Total (Tax Inclusive)". Qatar levies no VAT. Ask Resgrow what tax
+is included in the 49,300, or have the quotation restated.
+
+
 ### OL-055 — Home-Made by Earth: the invoice is 1,600 above the purchase order
 **Owner:** Farhan · **Raised:** 2026-09-17 · **Value:** QAR 1,600
 
@@ -1072,6 +1100,11 @@ Three documents were produced today and none has been appended to the log in Dri
   **Work completion of 01 day and a 3 month parts warranty were assumed** — Farhan gave neither.
   **Capacitor and relay ratings not specified** — the quote says matched to the compressor
   nameplate. **A domestic address, not a trade client**; no contact name on file.
+- **QUT/DCTS/240/2026** — Home-Made by Earth, supply of eight kitchen equipment items,
+  **57,300**, issued 19-09-2026. 100% advance, 07 working days, 6 month warranty from delivery.
+  Bought from Resgrow Trading on RTQ-000651 at 49,300; uplift 8,000 as instructed by Farhan.
+  **Second live job with this client** alongside the 46,900 cold rooms — combined exposure to
+  one customer is **104,200**. See OL-058 for the BoQ gaps.
 - **WO/DCTS/001/2026** — Al Zehrabi work order, 18-08-2026. **Opens a new series**; the log has
   no work-order column yet.
 - **INV-263/2026** — Al Zehrabi, **4,900 in full**, issued 19-08-2026 (redrafted from an 80%

@@ -162,6 +162,28 @@ and again below the unconfirmed 20% floor in D-004.
 advance** (22,012.50) while the subcontractor's own terms are 50% advance (12,700), 25% on
 material and alignment, 25% on completion. The job funds itself from the client's advance.
 
+**QUT/DCTS/240/2026, Home-Made by Earth, kitchen equipment, 19-09-2026.** Third job with both
+sides on file. Supplier quotation **RTQ-000651 from Resgrow Trading W.L.L.** dated 19-09-2026,
+billed to New Doha Kitchen, eight items at **49,300**. Quoted on at **57,300**.
+
+| Item | Cost | Sell |
+|---|---|---|
+| Ice cream machine RESMZ-5065 | 6,000 | 7,000 |
+| 2-door UC chiller RES-60D2 | 3,800 | 4,400 |
+| 3-door UC freezer RES-72D3 | 5,500 | 6,400 |
+| 2-deck oven RESK-40DS | 4,200 | 4,900 |
+| Planetary mixer RES-B60C | 11,000 | 12,800 |
+| Spiral mixer RES-100 | 12,000 | 13,900 |
+| Deep fryer FR 10+10LT | 2,300 | 2,700 |
+| Saladette RESTHS900 | 4,500 | 5,200 |
+| | **49,300** | **57,300** |
+
+**Margin 8,000 — 14.0% of sale, 16.2% on cost.** The three jobs where cost is known now read
+13.6%, 13.5% and 14.0% of sale. **That is the house margin in practice**, whatever D-004 says.
+
+Supplier terms are 75% advance / balance on delivery; TNDK sells on **100% advance**, so the
+client funds the purchase in full.
+
 ## Payment terms
 
 | Client | Terms | Source | Notes |
@@ -295,7 +317,7 @@ The larger of the two has collected nothing.
 | Invoice / Receipt | next after **269** — one running series: 261 cancelled, 263 Al Zahrawi, 264/265 Oscar Prime, 266 Stop n Shop invoice, 267 Stop n Shop receipt, 268 Lean N Fit inspection, **269 Home-Made by Earth advance**. None yet in the Drive log |
 | Statement of account | next after **SOA/DCTS/001/2026** (Stop n Shop, 13-09-2026) — series opened that day; TNDK had none |
 | Receipt | RCT-257/2026 |
-| Quotation | next after QUT/DCTS/239/2026, plus the SQ038 / SQ074 series — see OL-018 |
+| Quotation | next after QUT/DCTS/240/2026, plus the SQ038 / SQ074 series — see OL-018 |
 | Doha Cooling invoice | next after **DCTS-INV-006/2026**. 001–003 Oriental Agro cold storage; **004 is VOID** (drafted for electrical works, withdrawn before issue — that work is inside the cold room price, do not reuse the number); 005 Oriental Agro sectional doors; **006 reserved** for Oriental Agro panel shifting, not yet issued (no price). Series opened 06-09-2026; Doha Cooling had none before |
 | Doha Cooling receipt | next after **DCTS-RCT-014/2026**. 001–012 cold storage **in date order** (renumbered 06-09-2026 at Farhan's request so the client can follow the account down the page: 001 08-09-2025 … 012 05-07-2026), 013–014 sectional doors, all Oriental Agro. Runs alongside the pre-printed voucher books, which reached no. 1347 on 17-05-2026 and no. 0095 on 04-07-2026 |
 | Delivery note | DN-252/2026 |
