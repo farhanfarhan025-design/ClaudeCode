@@ -1371,6 +1371,11 @@ PICTURE_ANCHORS = [
 ]
 
 
+# "2.  DOOR DETAILS" opens a section; "8. Lifting equipment / cranes ..." is
+# the tail of a numbered list that overflowed. The capitals tell them apart.
+SECTION_HEADING = re.compile(r"^\d+\.\s+[A-Z][A-Z0-9 &,/()\-.']{3,}")
+
+
 def _picture_pages(pdf):
     """Page number of each picture, in document order, from `pdfimages -list`."""
     import subprocess
@@ -1380,11 +1385,11 @@ def _picture_pages(pdf):
 
 
 def _page_texts(pdf):
-    """The text of each page, lower-cased, 1-indexed."""
+    """The text of each page, whitespace-collapsed, in document order."""
     import subprocess
     out = subprocess.run(["pdftotext", "-layout", str(pdf), "-"],
                          capture_output=True, text=True).stdout
-    return [" ".join(page.split()).lower() for page in out.split("\f")]
+    return [" ".join(page.split()) for page in out.split("\f")]
 
 
 def _render(output, tmp):
@@ -1407,7 +1412,8 @@ def drifted_pictures(pdf):
     for i, anchor in enumerate(PICTURE_ANCHORS):
         if i + 1 >= len(pages):                       # [0] is the cover
             break
-        want = next((n for n, text in enumerate(texts, 1) if anchor in text), None)
+        want = next((n for n, text in enumerate(texts, 1)
+                     if anchor in text.lower()), None)
         got = pages[i + 1]
         if want and got != want:
             out.append((i, got, want))
@@ -1428,6 +1434,8 @@ def sparse_page(pdf):
             continue
         if len(text) >= 500:          # a full page of this document runs 700+
             continue
+        if SECTION_HEADING.match(text):
+            continue                  # a short section, not somebody's overflow
         before = [i - 1 for i, page in enumerate(pages) if page == n - 1 and i > 0]
         if before:                                  # [0] is the cover
             return n, before
