@@ -1133,6 +1133,19 @@ Three documents were produced today and none has been appended to the log in Dri
   **Assumed, not given by Farhan:** 12 month manufacturer warranty on the units, 6 months on
   our workmanship, and 15 day validity. Farhan gave neither warranty nor validity.
   **Structural capacity above the door is unverified** — 61.5 kg of units plus the frame.
+- **QUT/DCTS/243/2026** — Evergreen Qatar, supply only of **1 no axial fan motor YWF4E-350S**
+  (350 mm, 4 pole, external rotor). **630**, issued 21-09-2026. 100% payment, same day
+  delivery ex stock. **New client** — no address, contact name or telephone.
+  **The specification was deliberately not asserted.** The model number gives the diameter and
+  pole count and nothing else reliably, so the quote says voltage, current, speed, airflow and
+  direction of discharge are per the manufacturer's data plate, which governs, and asks the
+  client to confirm direction and voltage against the fan being replaced before ordering. The
+  **S suffix is the direction of discharge** — the wrong one is a non-returnable part.
+  **No supplier cost on file.** Fifth job quoted without one.
+  **Assumed, not given by Farhan:** 6 month warranty against manufacturing defect (shorter
+  than the 12 months given on the JKR compressor, QUT/DCTS/232 — a fan motor is a wear item
+  exposed to weather) and 15 day validity. Also assumed **quantity of one**; Farhan wrote the
+  model in the singular but gave no quantity.
 - **WO/DCTS/001/2026** — Al Zehrabi work order, 18-08-2026. **Opens a new series**; the log has
   no work-order column yet.
 - **INV-263/2026** — Al Zehrabi, **4,900 in full**, issued 19-08-2026 (redrafted from an 80%
