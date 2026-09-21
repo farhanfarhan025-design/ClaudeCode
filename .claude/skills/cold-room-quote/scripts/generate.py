@@ -1147,6 +1147,34 @@ def _scale_extent(para, target_h):
     return True
 
 
+def warranty_new_page(doc, spec):
+    """Start section 11 on a fresh page.
+
+    On a short quotation the bill of quantities leaves room underneath, so the
+    warranty table starts on the pricing page and its last rows spill onto the
+    next one — a table split across two sheets for no reason. Section 11 opens
+    its own page instead, as sections 7 and 10 already do.
+    """
+    if spec.get("warranty_new_page") is False:
+        return
+    for child in doc.element.body.iterchildren():
+        if child.tag != qn("w:p"):
+            continue
+        text = "".join(x.text or "" for x in child.iter(qn("w:t")))
+        if "WARRANTY" not in text.upper() or "EXCLUSIONS" in text.upper():
+            continue
+        pPr = child.find(qn("w:pPr"))
+        if pPr is None:
+            pPr = child.makeelement(qn("w:pPr"), {})
+            child.insert(0, pPr)
+        if pPr.find(qn("w:pageBreakBefore")) is None:
+            pPr.insert(0, pPr.makeelement(qn("w:pageBreakBefore"), {}))
+        # the master pads the pricing banner with blank paragraphs; left alone
+        # they fill the page the break just started and push section 11 again
+        _collapse_blanks(doc, "AMOUNT IN WORDS", "WARRANTY")
+        return
+
+
 def apply_house_pictures(doc, spec, scales=None):
     """Set every picture to the house size, in document order.
 
@@ -1327,6 +1355,7 @@ def generate(spec, output, scales=None):
     fill_boq(doc, spec, qs, tot)
     fill_total(doc, spec)
     fill_delivery(doc, spec)
+    warranty_new_page(doc, spec)
     apply_house_pictures(doc, spec, scales)
     # after the house sizes, so a door photo supplied with the quote keeps its
     # own proportions at the house height rather than being squashed to fit

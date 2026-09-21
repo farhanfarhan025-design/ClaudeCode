@@ -47,5 +47,6 @@
     "plywood": "18 mm",
     "plate": "3 mm"
   },
-  "house_pictures": false
+  "house_pictures": false,
+  "warranty_new_page": false
 }

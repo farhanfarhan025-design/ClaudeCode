@@ -158,6 +158,7 @@ so `images` and `resize` are generally used together.
 | `schematic_height_in` | height of the section 6 refrigeration schematic; defaults to the house 1.79 in |
 | `banner_height_in` | height of the service banner under section 12; defaults to the house 3.48 in |
 | `house_pictures` | `false` keeps the master's own picture sizes instead of the house layout, and skips the page fit |
+| `warranty_new_page` | section 11 starts its own page by default, so the warranty table is never split across two sheets; `false` lets it follow the pricing page |
 
 ## Worked example
 

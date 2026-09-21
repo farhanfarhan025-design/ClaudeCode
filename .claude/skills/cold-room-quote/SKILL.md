@@ -40,6 +40,11 @@ the section it belongs to rather than stranding itself on a sheet of its own.
 Both width and height are written, so the aspect ratio is deliberately not
 preserved.
 
+**Section 11 opens its own page**, as sections 7 and 10 already do — on a
+short quotation the bill of quantities leaves room underneath and the warranty
+table would otherwise start on the pricing page and spill its last rows onto
+the next one. Pass `"warranty_new_page": false` to let it follow on.
+
 **Each picture belongs to a section and has to stay on that section's page** —
 a banner that flows onto the next sheet reads as belonging to the wrong
 section. How much room is left under a table moves with the number of rooms
