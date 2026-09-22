@@ -1184,6 +1184,25 @@ Three documents were produced today and none has been appended to the log in Dri
   **Client legal name unverified** — Farhan wrote "Tem- Ac"; no address, contact or telephone.
   **Letterhead**: quoted on TNDK per the standing default, but IDIF addressed its quotation to
   **Doha Cooling Trading**. Confirm which entity buys and which sells before the invoice.
+- **QUT/DCTS/245/2026** — Capstone Engineering, supply and installation of a **3 HP freezer
+  unit**: Tecumseh France condensing unit, evaporator **Tecumseh or Ice Make as available**,
+  copper pipework, wiring, control panel, drainage and commissioning. **15,800**, issued
+  22-09-2026. 100% advance, 01-02 days. **New client** — no address, contact or telephone.
+  **Stand excluded on Farhan's instruction** and stated twice: in the party block and as
+  note 3, because an excluded stand is the item most likely to be assumed included.
+  **REFRIGERANT AND COMMISSIONING WERE READ IN, NOT STATED.** Farhan said "complete
+  accessories"; for a new system that has to mean gas and commissioning, or the client cannot
+  use it. Clause 7 and note 1 therefore include refrigerant. **If Farhan priced 15,800 without
+  gas, this is a cost he has not covered** — the Punjab job put gas charging alone at 750.
+  **No room size, design temperature, product or loading rate given, and no heat load
+  calculation done.** Note 4 puts the 3 HP selection on the client as their specification.
+  This is the same exposure as the Stop n Shop freezer (OL-049) but disclaimed on the face of
+  the document this time.
+  **Evaporator make is an either/or the client must accept** — note 2 commits us to confirming
+  the make in writing at order, so the client cannot claim a Tecumseh evaporator was sold.
+  **No supplier cost on file.** Sixth job quoted without one.
+  **Assumed, not given by Farhan:** 12 month manufacturer warranty, 6 months on workmanship,
+  15 day validity.
 - **WO/DCTS/001/2026** — Al Zehrabi work order, 18-08-2026. **Opens a new series**; the log has
   no work-order column yet.
 - **INV-263/2026** — Al Zehrabi, **4,900 in full**, issued 19-08-2026 (redrafted from an 80%
