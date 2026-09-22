@@ -1,0 +1,85 @@
+{
+  "_note": "TNDK catalogue data sheet: Sliding Door Freezer. Technical content transcribed from the supplier data sheet (Data_Sheet_Sliding_door841.pdf, Dec 2021); supplier branding removed. Figures page uses the photo supplied by Farhan on 22 Sep 2026. Do not change any figure without checking it against the supplier sheet.",
+  "title": "Sliding Door Freezer — Data Sheet",
+  "folio": "The New Doha Kitchen Equipment Services W.L.L. · Tel 7706 0676 · farhan@dctsqatar.com",
+  "brand": {
+    "ink": "#1F3864",
+    "accent": "#C9A24E",
+    "wash": "#F2F2F2",
+    "tint": "#D6E4F0"
+  },
+  "extra_css": ".contain-hero .feature__image{object-fit:contain;background:#F4F5F7;padding:6mm 0;box-sizing:border-box} .figures .gallery .frame{background:#FFFFFF} .figures .gallery .frame img{object-fit:contain} .datasheet-tag{position:absolute;top:8mm;right:16mm;z-index:2;background:var(--ink);color:#fff;font-size:8pt;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:2mm 4mm;border-bottom:.8mm solid var(--accent)} .combined .table tbody td{padding:1.9mm 2.5mm} .combined .table tbody td:first-child{width:34%} .combined h2.sub{margin-top:7mm;padding-top:5mm;border-top:.25mm solid var(--tint)} .combined .prose--2 p{font-size:9pt;line-height:1.5;margin-bottom:2.6mm;break-inside:avoid} .combined .prose--2 strong{color:var(--ink)} .folio span:first-child{letter-spacing:.04em}",
+  "pages": [
+    {
+      "type": "feature",
+      "class": "contain-hero",
+      "eyebrow": "Product data sheet · Insulated doors",
+      "title": "Sliding Door Freezer",
+      "image": "images/sliding-door-hero.jpg",
+      "image_height": "120mm",
+      "lead": "Sliding door for cold rooms at negative temperature, down to −20 °C, with the patented \"Mirror\" sliding system. 92 mm polyurethane-insulated blade, available in one-blade or two-blade versions.",
+      "bullets_title": "Applications",
+      "bullets": [
+        "Meat processing plants and slaughterhouses",
+        "Cheese factories",
+        "Fruit and vegetable preservation stores",
+        "Food warehouses",
+        "Shops: delicatessens, fish shops, ice cream parlours",
+        "Fish processing plants and the ice cream industry"
+      ],
+      "specs_title": "Key data",
+      "specs": [
+        {
+          "label": "Application",
+          "value": "Freezer rooms, down to −20 °C"
+        },
+        {
+          "label": "Blade thickness",
+          "value": "92 mm"
+        },
+        {
+          "label": "Insulation",
+          "value": "Polyurethane, 40 kg/m³"
+        },
+        {
+          "label": "Versions",
+          "value": "One blade or two blades"
+        },
+        {
+          "label": "Sliding system",
+          "value": "Patented \"Mirror\" model"
+        },
+        {
+          "label": "Steel thickness",
+          "value": "0.5 mm"
+        },
+        {
+          "label": "Finish",
+          "value": "RAL 9010, food-grade plastic-coated sheet"
+        },
+        {
+          "label": "Standard sizes",
+          "value": "Up to 3000 × 4000 mm"
+        }
+      ],
+      "footnote": "Suitable for the preservation, processing and seasoning of foods at negative temperature."
+    },
+    {
+      "type": "html",
+      "class": "combined",
+      "html": "\n<div class=\"well\">\n  <div class=\"eyebrow\">Sliding Door Freezer · Construction</div>\n  <h1>Specification</h1>\n  <div class=\"rule\"></div>\n  <table class=\"table\"><thead><tr><th>Component</th><th>Specification</th></tr></thead><tbody><tr><td>Steel thickness</td><td>0.5 mm</td></tr><tr><td>Blade edge</td><td>Anodized aluminium, 92 mm thickness</td></tr><tr><td>Blade covering</td><td>Plastic-coated metal sheet for food application, RAL 9010, 5/10 mm thickness</td></tr><tr><td>Heater</td><td>Included</td></tr><tr><td>Outside handle</td><td>Lever</td></tr><tr><td>Inside handle</td><td>Lever</td></tr><tr><td>Side gaskets</td><td>EPDM double-density gasket on 3 sides</td></tr><tr><td>Lower gasket</td><td>PVC</td></tr><tr><td>Frame and side-frame</td><td>&quot;L&quot; 110/60 profile in PVC, RAL 9010. Thermo-welded at 45° up to 160 mm thickness; above 160 mm, assembled at 90° with joints</td></tr><tr><td>Counter-frame</td><td>PVC, RAL 9010, thermo-welded at 45°</td></tr><tr><td>Floor threshold</td><td>Flush floor, S/3 model (without threshold)</td></tr></tbody></table>\n  <p class=\"caption\">Standard dimensions up to 3000 × 4000 mm. When both sides exceed 2500 mm, the blade is divided horizontally in two parts: the lower part is made at H = 1250 mm and the upper part takes the difference. In that case the frame is supplied dismounted.</p>\n  <h2 class=\"sub\">Sliding and frame systems</h2>\n  <div class=\"prose--2\"><p><strong>Sliding system.</strong> The patented &quot;Mirror&quot; system is fully symmetrical, so the opening direction can be changed without any adjustment. The sliding profile is anodized extruded aluminium with anti-fall section ramps, or falling bends. These are assembled on the closing side of the door and press the door firmly against the frame, giving the best insulation between the inside and the outside of the cold room.</p><p><strong>Cover (optional).</strong> Extruded anodized aluminium. It opens on hinges along its top edge for inspection and cleaning.</p><p><strong>Pulleys.</strong> Plastic pulleys carry the door along the &quot;Mirror&quot; sliding system, adjustable in both height and depth.</p><p><strong>Rear register.</strong> Adjustable; guides the door along the lower guides.</p><p><strong>Lower closing hook.</strong> Plastic, fixed on the closing side of the frame. As the door closes, it ensures a hermetic contact between the door and the frame.</p><p><strong>Hook striker.</strong> Plastic, fixed on the blade on the handle side. On closing it engages the lower hook to hold the door hermetically against the frame.</p><p><strong>Larger doors.</strong> Above the standard dimensions, the door is built with heavy-duty hardware in place of standard parts, for example stainless-steel pulleys with aluminium wheels and a stainless-steel sliding rail.</p></div>\n</div>"
+    },
+    {
+      "type": "gallery",
+      "class": "figures",
+      "eyebrow": "Sliding Door Freezer · Figures",
+      "title": "Door, accessories and upper rail",
+      "columns": 1,
+      "images": [
+        {
+          "src": "images/sliding-door-figures.png"
+        }
+      ]
+    }
+  ]
+}
