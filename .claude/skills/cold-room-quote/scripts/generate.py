@@ -333,6 +333,7 @@ def apply_row_overrides(doc, spec):
                         ("door_rows", "Door Type"),
                         ("control_rows", "Controller"),
                         ("machine_rows", "Condensing Unit"),
+                        ("warranty_rows", "Workmanship"),
                         ("capacity_rows", "Internal Volume")):
         rows = spec.get(key)
         if not rows:
@@ -992,9 +993,18 @@ def default_boq(spec, qs, tot):
 
 
 def fill_total(doc, spec):
+    from docx.shared import Pt
     t = find_table(doc, "GRAND TOTAL (Lump Sum)")
     total = float(spec["total"])
-    set_cell(row_cells(t.rows[0])[-1], f"QAR {total:,.2f}")
+    amount = f"QAR {total:,.2f}"
+    cell = row_cells(t.rows[0])[-1]
+    set_cell(cell, amount)
+    # the cell is 1.39 in wide; a seven-figure total at the master's 12 pt wraps
+    # mid-number ("1,190,000.0" / "0"), so step the type down to keep it whole
+    if len(amount) > 13:
+        for para in cell.paragraphs:
+            for run in para.runs:
+                run.font.size = Pt(10)
     words = spec.get("total_words") or amount_in_words(total)
     for p in doc.paragraphs:
         if para_text(p).strip().startswith(AMOUNT_PREFIX):
@@ -1145,6 +1155,63 @@ def _scale_extent(para, target_h):
             ext.set("cx", str(target_cx))
             ext.set("cy", str(target_cy))
     return True
+
+
+def set_payment_terms(doc, spec):
+    """Replace the numbered terms under section 13.
+
+    The house terms are 75/20/5, but a staged project is paid against
+    milestones and the client's own schedule governs. Each supplied line
+    becomes one numbered item; the list grows or shrinks to fit.
+    """
+    lines = spec.get("payment_terms")
+    if not lines:
+        return
+    body, seen, items = doc.element.body, False, []
+    for child in body.iterchildren():
+        if child.tag != qn("w:p"):
+            continue
+        text = "".join(x.text or "" for x in child.iter(qn("w:t")))
+        if not seen:
+            if "PAYMENT & COMMERCIAL TERMS" in text.upper():
+                seen = True
+            continue
+        if child.find(".//" + qn("w:numPr")) is None:
+            break
+        items.append(child)
+    if not items:
+        print("  ! payment terms list not found — skipped", file=sys.stderr)
+        return
+    while len(items) < len(lines):
+        clone = copy.deepcopy(items[-1])
+        items[-1].addnext(clone)
+        items.append(clone)
+    for para, line in zip(items, lines):
+        set_para_text(docx.text.paragraph.Paragraph(para, None), line)
+        # the master highlights the payment stages and leaves the general
+        # terms plain; a line opening with a percentage is a stage
+        _highlight(para, bool(re.match(r"\s*\d+\s*%", line)))
+    for para in items[len(lines):]:
+        para.getparent().remove(para)
+
+
+def _highlight(para, on):
+    """Turn the yellow highlight on or off for every run in a paragraph."""
+    for run in para.iter(qn("w:r")):
+        rPr = run.find(qn("w:rPr"))
+        if rPr is None:
+            if not on:
+                continue
+            rPr = run.makeelement(qn("w:rPr"), {})
+            run.insert(0, rPr)
+        existing = rPr.find(qn("w:highlight"))
+        if on:
+            if existing is None:
+                existing = rPr.makeelement(qn("w:highlight"), {})
+                rPr.append(existing)
+            existing.set(qn("w:val"), "yellow")
+        elif existing is not None:
+            rPr.remove(existing)
 
 
 def warranty_new_page(doc, spec):
@@ -1355,6 +1422,7 @@ def generate(spec, output, scales=None):
     fill_boq(doc, spec, qs, tot)
     fill_total(doc, spec)
     fill_delivery(doc, spec)
+    set_payment_terms(doc, spec)
     warranty_new_page(doc, spec)
     apply_house_pictures(doc, spec, scales)
     # after the house sizes, so a door photo supplied with the quote keeps its

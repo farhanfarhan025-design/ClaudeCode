@@ -126,6 +126,7 @@ pins 3 mm in its own spec, so it still reproduces its source document.
 | `control_rows` | `{row label: value}` written verbatim into the section 7 table |
 | `machine_rows` | `{row label: value}` written verbatim into the section 5 table |
 | `capacity_rows` | `{row label: value}` written verbatim into the section 6 table |
+| `warranty_rows` | `{row label: value}` written verbatim into the section 11 table |
 | `table_photos` | list of `{table, height_in}` — scales the photographs inside the table carrying that first-column label, e.g. `{"table": "System Type"}` for the section 5 machine photos; `resize` only reaches pictures in body paragraphs |
 
 The section photographs carry their captions burnt into the artwork — the door
@@ -159,6 +160,7 @@ so `images` and `resize` are generally used together.
 | `banner_height_in` | height of the service banner under section 12; defaults to the house 3.48 in |
 | `house_pictures` | `false` keeps the master's own picture sizes instead of the house layout, and skips the page fit |
 | `warranty_new_page` | section 11 starts its own page by default, so the warranty table is never split across two sheets; `false` lets it follow the pricing page |
+| `payment_terms` | list of strings replacing the numbered terms under section 13, for a staged project paid against milestones; the list grows or shrinks to fit, and a line opening with a percentage is highlighted as a payment stage, matching the master |
 
 ## Worked example
 
