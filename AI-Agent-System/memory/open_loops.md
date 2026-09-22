@@ -1161,6 +1161,29 @@ Three documents were produced today and none has been appended to the log in Dri
   than the 12 months given on the JKR compressor, QUT/DCTS/232 — a fan motor is a wear item
   exposed to weather) and 15 day validity. Also assumed **quantity of one**; Farhan wrote the
   model in the singular but gave no quantity.
+- **QUT/DCTS/244/2026** — Tem-Ac, supply only of **40 cold room doors** (29 hinged at 1,850,
+  11 sliding at 4,200), **99,850**, issued 22-09-2026. 100% payment, 15 days from payment,
+  origin KSA. Itemised across the client's own 11-line schedule.
+  **Bought from IDIF (Eng. Abdulgader Hasrat, +966 536 000 319) on quotation
+  20-0001-10000461 dated 22-09-2026: 82,000 SR plus 7,500 SR delivery to Qatar = 89,500 SR,
+  about 86,875 QAR at the peg. Margin about 12,975 — 13.0% of sale**, in line with the other
+  known-cost jobs at 13.5-14.0%. Fourth job with both sides on file.
+  **THE SUPPLIER QUOTE DOES NOT MATCH THE CLIENT SCHEDULE — 3 doors are the wrong type.**
+  Client needs 6 chiller hinged 3-frame (3 left + 3 right); IDIF quoted 3 (right only).
+  Client needs 1 freezer hinged 3-frame (right); IDIF quoted 4 (3 left + 1 right). IDIF has
+  built the client's **3 left-hand CHILLER 3-frame doors as FREEZER doors**. Totals still
+  reconcile at 29 hinged and 11 sliding, which is why it passes a glance. Over-spec rather
+  than under-spec — freezer doors carry heaters — but it is 3 doors of the wrong type and
+  150 SR of overcharge (1,400 vs 1,350). **Must be corrected with IDIF before the order.**
+  **IDIF's own opening split is internally inconsistent** on the chiller sliding line:
+  quantity 8, but the breakdown reads "2-Left, 2-Right" = 4. And on the freezer sliding line
+  IDIF reads 1 left / 2 right where the client schedule reads 2 LHS-to-RHS / 1 RHS-to-LHS —
+  possibly inverted. The hand convention (from outside or inside the room) is stated nowhere.
+  **Doors are made to order and cannot be returned**, so the hand is the single largest risk
+  on this job — note 4 puts it in writing to the client.
+  **Client legal name unverified** — Farhan wrote "Tem- Ac"; no address, contact or telephone.
+  **Letterhead**: quoted on TNDK per the standing default, but IDIF addressed its quotation to
+  **Doha Cooling Trading**. Confirm which entity buys and which sells before the invoice.
 - **WO/DCTS/001/2026** — Al Zehrabi work order, 18-08-2026. **Opens a new series**; the log has
   no work-order column yet.
 - **INV-263/2026** — Al Zehrabi, **4,900 in full**, issued 19-08-2026 (redrafted from an 80%
