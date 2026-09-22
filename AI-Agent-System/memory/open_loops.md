@@ -939,6 +939,21 @@ Three documents were produced today and none has been appended to the log in Dri
 - **LPO-200/2026** — Doha Controls, 15,000, drafted 24-08-2026 (quoted 15,500, less 500 agreed).
 - **LPO-201/2026** — Al Buhsain, 11,930 for 104.70 m², drafted 26-08-2026. **LPO-197 is
   cancelled**; that number is retired.
+- **LPO-202/2026** — Al Buhsain (JMB), **7,500** for 68.90 m² of cold store panel, drafted
+  22-09-2026 against their quotation SAL-QTN-2026-01446 of 19-09-2026. 31 panels: 100 mm PIR
+  RAL 9003, 19 @ 2.30 m + 6 @ 2.20 m = 56.90 m² at 115.00; 75 mm PIR RAL 9002 **Grade-B
+  ex-stock**, 6 @ 2.00 m = 12.00 m² at 80.00. Their arithmetic was checked line by line and is
+  correct; the 3.50 "discount" is a rounding of 7,503.50 down to 7,500.00.
+  **Skin gauge is 0.50 mm on this quotation** — the defect OL-044 found on SAL-QTN-2026-01334
+  has not recurred, and LPO-202 note 2 states the gauge in capitals so it cannot drift again.
+  **Four things the vendor must confirm and has not:** the quotation is marked **DRAFT**; its
+  **validity is 3 working days from Sat 19-09-2026**, which on a Sun-Thu week expires today,
+  Tue 22-09-2026; the stated delivery date of **23-09-2026 contradicts clause 6** (6-12 working
+  days from the advance); and the **75 mm is Grade-B**, a grading the quotation does not define.
+  **The RAL differs between items** — 9003 on the 100 mm, 9002 on the 75 mm. Two different
+  whites. If they meet in one room they will not match.
+  **The Project field is blank for the third time** (see OL-030, OL-030-OLD). Nothing links
+  7,500 of panel to a job, so it cannot be posted to committed spend.
 - **HO/DCTS/SQ074/2026** — Oscar Prime handover certificate, 21 verification lines, drafted
   29-08-2026. Numbered to the quotation, per Farhan's convention.
 - **LTR/DCTS/226/2026** — Oscar Prime certificate of completion, drafted 29-08-2026.

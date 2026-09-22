@@ -214,6 +214,7 @@ client funds the purchase in full.
 | LPO-199/2026, 20-08-2026 | Arctic Cooling Company (ACC) | **Oscar Prime** cold room | 2,900 | cash | drafted, not issued |
 | LPO-200/2026, 24-08-2026 | Doha Controls Trading W.L.L. | **project not stated** | 15,000 (quoted 15,500 less 500 agreed) | to be confirmed | drafted, not issued |
 | LPO-201/2026, 26-08-2026 | Al Buhsain Steel Industries W.L.L. (JMB) | **Oscar Prime** cold room | 11,930 | 50% advance / 50% before shipment | drafted, not issued |
+| LPO-202/2026, 22-09-2026 | Al Buhsain Steel Industries W.L.L. (JMB) | **project not stated** — vendor quote's Project field blank again | 7,500 (7,503.50 less 3.50 rounding) | 50% advance / 50% before shipment, EXW factory | drafted, not issued |
 
 Ordered **after** the Jollibee advance was received — LPO 6 Jul, cheque 7 Jul, materials 14 Jul.
 Collected 27,600 against committed 9,500, so the project was never funded out of working capital.
