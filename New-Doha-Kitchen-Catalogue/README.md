@@ -8,6 +8,7 @@ They are built with the Designer layout system from a JSON config.
 | Product | PDF | Source |
 |---|---|---|
 | Sliding Door Freezer | `datasheets/sliding-door-freezer/TNDK-Datasheet-Sliding-Door-Freezer.pdf` | Supplier data sheet (Dec 2021), rebranded; figures page uses the photo supplied 22 Sep 2026 |
+| Hinged Door | `datasheets/hinged-door/TNDK-Datasheet-Hinged-Door.pdf` | Supplier data sheet (Jan 2021), rebranded; page 2 figure uses the photo supplied 22 Sep 2026. Strength units copied as printed (kg/m²), to confirm with supplier |
 
 ## Folder layout per data sheet
 
@@ -20,8 +21,8 @@ They are built with the Designer layout system from a JSON config.
 
 ```bash
 python3 <designer-skill>/scripts/build_catalogue.py \
-    --config datasheets/sliding-door-freezer/catalogue.json \
-    --outdir datasheets/sliding-door-freezer/out/
+    --config datasheets/<product>/catalogue.json \
+    --outdir datasheets/<product>/out/
 ```
 
 The PDF lands in `out/catalogue.pdf`. Rename it to the `TNDK-Datasheet-<Product>.pdf` pattern.

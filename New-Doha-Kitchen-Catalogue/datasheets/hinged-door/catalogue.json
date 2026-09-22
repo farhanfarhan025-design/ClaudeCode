@@ -1,0 +1,77 @@
+{
+  "_note": "TNDK catalogue data sheet: Hinged Door (freezer, down to -20 C). Technical content transcribed from the supplier data sheet (Data_sheet_Hinged_door839.pdf, Jan 2021); supplier branding and model code removed. Page 2 figure uses the photo supplied by Farhan on 22 Sep 2026. Tensile and compressive strength units are copied as printed in the source (kg/m²); confirm with the supplier before relying on them.",
+  "title": "Hinged Door — Data Sheet",
+  "folio": "The New Doha Kitchen Equipment Services W.L.L. · Tel 7706 0676 · farhan@dctsqatar.com",
+  "brand": {
+    "ink": "#1F3864",
+    "accent": "#C9A24E",
+    "wash": "#F2F2F2",
+    "tint": "#D6E4F0"
+  },
+  "extra_css": ".contain-hero .feature__image{object-fit:contain;background:#F4F5F7;padding:6mm 0;box-sizing:border-box} .figures .gallery .frame{background:#FFFFFF} .figures .gallery .frame img{object-fit:contain} .combined .table tbody td{padding:2.2mm 2.5mm} .combined .table tbody td:first-child{width:34%} .combined h2.sub{margin-top:8mm;padding-top:5mm;border-top:.25mm solid var(--tint)} .combined .dims{display:grid;grid-template-columns:1fr 1fr;gap:9mm} .combined .dims li{font-size:9pt} .folio span:first-child{letter-spacing:.04em} .combined .table tbody td{padding:1.8mm 2.5mm} .combined h2.sub{margin-top:5mm;padding-top:4mm} .combined .dims li{margin-bottom:1.2mm} .combined .fig{flex:1;min-height:0;margin:4mm 0 0;display:flex;justify-content:center} .combined .fig img{max-width:100%;max-height:100%;object-fit:contain}",
+  "pages": [
+    {
+      "type": "feature",
+      "class": "contain-hero",
+      "eyebrow": "Product data sheet · Insulated doors",
+      "title": "Hinged Door",
+      "image": "images/hinged-door-hero.jpg",
+      "image_height": "120mm",
+      "lead": "Hinged door for negative temperatures down to −20 °C, with a CSI handle certified to EN 179:2008 and a heating cable on the blade. 92 mm polyurethane-insulated blade, available in one-blade or two-blade versions.",
+      "bullets_title": "Applications",
+      "bullets": [
+        "Meat processing plants and slaughterhouses",
+        "Cheese factories",
+        "Fruit and vegetable preservation stores",
+        "Food warehouses",
+        "Shops: delicatessens, fish shops, ice cream parlours",
+        "Fish processing plants and the ice cream industry"
+      ],
+      "specs_title": "Key data",
+      "specs": [
+        {
+          "label": "Application",
+          "value": "Food processing and storage, −18 °C to −20 °C"
+        },
+        {
+          "label": "Blade thickness",
+          "value": "92 mm"
+        },
+        {
+          "label": "Insulation",
+          "value": "Polyurethane, 42 kg/m³"
+        },
+        {
+          "label": "Handle",
+          "value": "CSI, certified EN 179:2008"
+        },
+        {
+          "label": "Heating",
+          "value": "Heating cable on the blade"
+        },
+        {
+          "label": "Versions",
+          "value": "One blade or two blades"
+        },
+        {
+          "label": "Steel thickness",
+          "value": "0.5 mm"
+        },
+        {
+          "label": "Finish",
+          "value": "Polyester, RAL 9003"
+        },
+        {
+          "label": "Max. size, one blade",
+          "value": "1500 × 2500 mm"
+        }
+      ],
+      "footnote": "Suitable for cold rooms used for the processing and preservation of foods at negative temperature."
+    },
+    {
+      "type": "html",
+      "class": "combined",
+      "html": "\n<div class=\"well\">\n  <div class=\"eyebrow\">Hinged Door · Specification</div>\n  <h1>Specification</h1>\n  <div class=\"rule\"></div>\n  <table class=\"table\"><thead><tr><th>Component</th><th>Specification</th></tr></thead><tbody><tr><td>Steel thickness</td><td>0.5 mm</td></tr><tr><td>Heater</td><td>Double heater</td></tr><tr><td>Insulation type</td><td>Polyurethane foam</td></tr><tr><td>Closed cell structure</td><td>95%</td></tr><tr><td>Tensile strength</td><td>3.0 kg/m²</td></tr><tr><td>Compressive strength</td><td>1.62 kg/m²</td></tr><tr><td>Density</td><td>42 kg/m³</td></tr><tr><td>Resistance</td><td>Resistant to fire and rust; waterproof</td></tr><tr><td>Colour</td><td>Polyester, RAL 9003, 25 micron</td></tr></tbody></table>\n  <h2 class=\"sub\">Standard dimensions</h2>\n  <div class=\"dims\">\n    <div><h3>One-blade version</h3><ul class=\"bullets\"><li>Up to 1200 × 2500 mm: blade with the CSI handle only.</li><li>From 1200 × 2500 mm up to 1500 × 2500 mm: blade with CSI handle plus closing latch (additional spring closing system).</li></ul></div>\n    <div><h3>Two-blade version</h3><ul class=\"bullets\"><li>A mobile blade (the right one, unless otherwise specified) and a semi-fixed blade with 2 internal hatches, 1 above and 1 below.</li><li>Total width can be up to double that of the one-blade version.</li><li>The two blades can have different widths. The fixed blade is usually requested narrower.</li></ul></div>\n  </div>\n  <figure class=\"fig\"><img src=\"../images/hinged-door-figure.png\" alt=\"Hinged door\"></figure>\n</div>"
+    }
+  ]
+}
