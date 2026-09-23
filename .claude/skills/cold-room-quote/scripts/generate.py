@@ -367,23 +367,7 @@ def replace_pictures(doc, spec):
         blip = para.find(".//" + qn("a:blip"))
         doc.part.related_parts[blip.get(qn("r:embed"))]._blob = path.read_bytes()
 
-        height = item.get("height_in")
-        extent = para.find(".//" + qn("wp:extent"))
-        if extent is not None:
-            try:
-                from PIL import Image
-                with Image.open(path) as im:
-                    ratio = im.size[0] / im.size[1]
-                cy = int((height or int(extent.get("cy")) / 914400) * 914400)
-                cx = int(cy * ratio)
-                extent.set("cx", str(cx))
-                extent.set("cy", str(cy))
-                for ext in para.iter(qn("a:ext")):
-                    if ext.get("cx") is not None:
-                        ext.set("cx", str(cx))
-                        ext.set("cy", str(cy))
-            except Exception:
-                pass                       # keep the master's framing
+        _fit_new_image(para, path, item.get("height_in"))
 
 
 def resize_pictures(doc, spec):
@@ -1120,6 +1104,72 @@ def _scale_table_pictures(table, target_h):
                 ext.set("cy", str(target_cy))
 
 
+def replace_table_images(doc, spec):
+    """Swap the photographs inside a named specification table.
+
+    Entries are {table, images}, `table` being a first-column label and
+    `images` a list matching the table's pictures in document order — each one
+    a {path, caption, height_in}, or null to leave that picture alone. The
+    master illustrates section 5 with a separate condensing unit and
+    evaporator; a monoblock is one casing doing both jobs, so the pictures and
+    the captions beneath them have to change together.
+    """
+    for item in spec.get("table_images") or []:
+        try:
+            t = find_table(doc, item["table"])
+        except LookupError:
+            print(f"  ! table_images: no table with row {item['table']!r}"
+                  " — skipped", file=sys.stderr)
+            continue
+        shots = [(c, p) for r in t.rows for c in row_cells(r)
+                 for p in c.paragraphs
+                 if p._p.find(".//" + qn("a:blip")) is not None]
+        for (cell, para), entry in zip(shots, item.get("images") or []):
+            if not entry:
+                continue
+            if entry.get("path"):
+                path = Path(entry["path"])
+                if not path.is_file():
+                    print(f"  ! table_images: {path} not found — skipped",
+                          file=sys.stderr)
+                    continue
+                blip = para._p.find(".//" + qn("a:blip"))
+                doc.part.related_parts[blip.get(qn("r:embed"))]._blob = \
+                    path.read_bytes()
+                _fit_new_image(para._p, path, entry.get("height_in"))
+            if entry.get("caption") is not None:
+                below = [p for p in cell.paragraphs
+                         if p._p.find(".//" + qn("a:blip")) is None]
+                if below:
+                    set_para_text(below[0], entry["caption"])
+
+
+def _fit_new_image(el, path, height_in=None):
+    """Size a swapped-in picture, keeping ITS aspect ratio.
+
+    The house geometry writes both cx and cy, so a replacement whose shape
+    differs from the master's comes out stretched unless the width is
+    recomputed from the new file.
+    """
+    extent = el.find(".//" + qn("wp:extent"))
+    if extent is None:
+        return
+    try:
+        from PIL import Image
+        with Image.open(path) as im:
+            ratio = im.size[0] / im.size[1]
+    except Exception:
+        return                             # keep the master's framing
+    cy = int((height_in or int(extent.get("cy")) / 914400) * 914400)
+    cx = int(cy * ratio)
+    extent.set("cx", str(cx))
+    extent.set("cy", str(cy))
+    for ext in el.iter(qn("a:ext")):
+        if ext.get("cx") is not None:
+            ext.set("cx", str(cx))
+            ext.set("cy", str(cy))
+
+
 def tighten_lists(doc, spec):
     """Set the space after each numbered bullet, in points.
 
@@ -1436,6 +1486,7 @@ def generate(spec, output, scales=None):
     fit_control_panel(doc, spec)
     fit_table_photos(doc, spec)
     apply_row_overrides(doc, spec)
+    replace_table_images(doc, spec)
     replace_pictures(doc, spec)
     remove_pictures(doc, spec)
     resize_pictures(doc, spec)

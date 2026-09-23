@@ -40,6 +40,12 @@ the section it belongs to rather than stranding itself on a sheet of its own.
 Both width and height are written, so the aspect ratio is deliberately not
 preserved.
 
+Section 5 is drawn as a condensing unit standing beside an evaporator. A
+monoblock is one casing doing both jobs, so that pair of pictures and the
+captions beneath them contradict the table under them — use `table_images` to
+swap both at once, as `QUT/DCTS/SQ102/2026` does for its ZANOTTI ceiling-mounted
+units.
+
 **Section 11 opens its own page**, as sections 7 and 10 already do — on a
 short quotation the bill of quantities leaves room underneath and the warranty
 table would otherwise start on the pricing page and spill its last rows onto

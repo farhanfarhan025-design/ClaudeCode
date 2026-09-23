@@ -128,6 +128,7 @@ pins 3 mm in its own spec, so it still reproduces its source document.
 | `capacity_rows` | `{row label: value}` written verbatim into the section 6 table |
 | `warranty_rows` | `{row label: value}` written verbatim into the section 11 table |
 | `table_photos` | list of `{table, height_in}` — scales the photographs inside the table carrying that first-column label, e.g. `{"table": "System Type"}` for the section 5 machine photos; `resize` only reaches pictures in body paragraphs |
+| `table_images` | list of `{table, images}` — swaps those photographs. `images` matches the table's pictures in document order, each entry a `{path, caption, height_in}` or `null` to leave that one alone; the caption is written into the paragraph under the picture. Section 5 is drawn as a condensing unit beside an evaporator, so a monoblock job has to change both pictures and both captions together |
 
 The section photographs carry their captions burnt into the artwork — the door
 illustration is labelled `SIZE: 90 x 190 cm`, the panel illustration says
