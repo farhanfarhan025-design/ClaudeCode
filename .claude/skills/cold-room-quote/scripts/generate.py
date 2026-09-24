@@ -980,15 +980,37 @@ def fill_total(doc, spec):
     from docx.shared import Pt
     t = find_table(doc, "GRAND TOTAL (Lump Sum)")
     total = float(spec["total"])
-    amount = f"QAR {total:,.2f}"
-    cell = row_cells(t.rows[0])[-1]
-    set_cell(cell, amount)
-    # the cell is 1.39 in wide; a seven-figure total at the master's 12 pt wraps
-    # mid-number ("1,190,000.0" / "0"), so step the type down to keep it whole
-    if len(amount) > 13:
-        for para in cell.paragraphs:
-            for run in para.runs:
-                run.font.size = Pt(10)
+
+    # A discount has to be shown, not folded into the price — the client is
+    # being told what the work is worth and what he is being let off.
+    lines = [("GRAND TOTAL (Lump Sum)", total)]
+    disc = spec.get("discount")
+    if disc:
+        cut = float(disc["amount"]) if disc.get("amount") is not None \
+            else float(disc["gross"]) - total
+        gross = float(disc["gross"]) if disc.get("gross") is not None \
+            else total + cut
+        lines = [
+            (disc.get("gross_label", "SUB-TOTAL (Lump Sum)"), gross),
+            (disc.get("label", "LESS: SPECIAL DISCOUNT"), cut),
+            (disc.get("net_label", "GRAND TOTAL AFTER DISCOUNT (Lump Sum)"),
+             total),
+        ]
+        while len(t.rows) < len(lines):
+            clone_row(t, 0)
+
+    for row, (label, value) in zip(t.rows, lines):
+        cells = row_cells(row)
+        set_cell(cells[0], label)
+        amount = f"QAR {value:,.2f}"
+        set_cell(cells[-1], amount)
+        # the cell is 1.39 in wide; a seven-figure total at the master's 12 pt
+        # wraps mid-number ("1,190,000.0" / "0"), so step the type down
+        if len(amount) > 13:
+            for para in cells[-1].paragraphs:
+                for run in para.runs:
+                    run.font.size = Pt(10)
+
     words = spec.get("total_words") or amount_in_words(total)
     for p in doc.paragraphs:
         if para_text(p).strip().startswith(AMOUNT_PREFIX):

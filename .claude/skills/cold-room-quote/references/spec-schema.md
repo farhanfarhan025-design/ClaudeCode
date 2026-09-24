@@ -148,6 +148,7 @@ so `images` and `resize` are generally used together.
 | `subject` | replaces the text after `Subject:` |
 | `intro` | replaces the "Dear Sir, ..." paragraph |
 | `total_words` | overrides the auto-generated amount in words |
+| `discount` | `{gross}` or `{amount}` — splits the grand total into sub-total, discount and net, so the client sees what the work is priced at and what he is being let off. `total` stays the **net** payable, and the amount in words follows it. Relabel the three lines with `gross_label`, `label` and `net_label` |
 | `boq` | array of `{"description": "...", "amount": 1234}` replacing the six default lines; `amount` may be omitted for a lump-sum quote |
 | `delivery` | object of `{"<row label>": "<value>"}` patching section 12, e.g. `{"Installation Period": "10 – 14 working days for civil-ready site"}` |
 | `system_type` | replaces the System Type row, for a job that mixes new and re-used plant |
