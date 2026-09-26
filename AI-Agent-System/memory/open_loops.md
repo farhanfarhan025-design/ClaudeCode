@@ -81,6 +81,22 @@ total. The invoice states 160 mm. **Needed:** correct the quotation row before i
 ### OL-053 — Oriental Agro: a 15,000 receipt that is not on the statement
 **Owner:** Farhan · **Raised:** 2026-09-06 · **Value:** QAR 15,000
 
+**Updated 26-09-2026 — a third off-statement voucher, and it names a different store.**
+Voucher **1014 dated 20-04-2026** records **QAR 20,000 cash** from Oriental Agro Trading, written
+up as *"Cold store work — New Store"*. Farhan instructed it onto the account, so it is now line 8
+of **AS-2026-9456** as **DCTS-RCT-008/2026**, taking receipts to **1,093,000** and the balance
+from 30,286 down to **10,286**.
+
+**"New Store" is not a phrase any other voucher on this account uses.** Every other Street 36
+voucher says *36 Street* or *cold room*. If the New Store is a separate site — as the sectional
+door job (voucher 1345) and the Street 36 electrical work (voucher 0095) both turned out to be —
+then this 20,000 belongs to that job and not to the cold storage project, and the balance is
+30,286, not 10,286. **The voucher wording was carried verbatim onto the statement line and onto
+note 2 of the receipt so the assignment can be reversed without reconstructing it.**
+
+This is the fourth time a voucher for this client has had to be placed against a job by reading
+three words on it. The pattern is now established and is a records problem, not a one-off.
+
 Receipt voucher **0095 dated 04-07-2026** records **QAR 15,000 cash** received from Oriental Agro
 Trading, *"Electrical work Street-36"*. Voucher **0093 dated 05-07-2026** records QAR 10,000 for
 *"Street 36, cold room works"* — and that 10,000 **is** on the statement. Same client, same site,
