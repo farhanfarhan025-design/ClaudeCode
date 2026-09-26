@@ -932,7 +932,8 @@ Three documents were produced today and none has been appended to the log in Dri
   Taken as the next free number after QUT/DCTS/218 (Remote Site ME cold store); that is an
   assumption drawn from this session's own drafts, not from the log.
 - **QUT/DCTS/220/2026** — Dana Hypermarket cold room door handle replacement, 700, issued
-  17-08-2026. Same assumption as above.
+  17-08-2026. Same assumption as above. **Superseded 26-09-2026 by INV-270/2026 at 600** on
+  Farhan's instruction; the quotation had sat unconverted for 40 days.
 - **INV-261/2026** — Oscar Prime 75% advance, 58,500, issued 17-08-2026.
 - **LPO-196/2026** — Doha Controls, 24,500, drafted 18-08-2026.
 - **LPO-197/2026** — Al Buhsain Steel Industries, 8,140, drafted 18-08-2026.
@@ -1203,6 +1204,21 @@ Three documents were produced today and none has been appended to the log in Dri
   **No supplier cost on file.** Sixth job quoted without one.
   **Assumed, not given by Farhan:** 12 month manufacturer warranty, 6 months on workmanship,
   15 day validity.
+- **INV-270/2026** — Dana Hypermarket, Al Kheesa, replacement of cold room door handle,
+  **600**, issued 26-09-2026. Supersedes QUT/DCTS/220/2026 at 700 — a **100 reduction**
+  instructed by Farhan, shown on the invoice as being in the client's favour rather than
+  buried. **Moves 600 from quoted-not-won into invoiced-and-unpaid.**
+  **NO EVIDENCE THE WORK WAS DONE.** The records carried this as quoted only: no LPO, no
+  work order, no delivery note, no completion note. The invoice asserts "Work complete —
+  invoiced in full" on Farhan's instruction alone. If the handle has not actually been
+  replaced, this invoice is wrong and must be pulled before it reaches the client.
+  **The scope on file is three words** — "cold room door handle replacement". Which door,
+  which room, which handle make and model, and whether a striker or gasket was touched are
+  all unrecorded, so the invoice describes the work generically. Note 3 limits it to the
+  handle and excludes closer, hinges, gasket, sweep and leaf.
+  **"Al Kheesa" is from Farhan's message, not from any record** — the August entry says only
+  "Dana Hypermarket". No address, contact name, telephone or trade licence name on file.
+  **3 month warranty was assumed**; Farhan gave no term.
 - **WO/DCTS/001/2026** — Al Zehrabi work order, 18-08-2026. **Opens a new series**; the log has
   no work-order column yet.
 - **INV-263/2026** — Al Zehrabi, **4,900 in full**, issued 19-08-2026 (redrafted from an 80%
