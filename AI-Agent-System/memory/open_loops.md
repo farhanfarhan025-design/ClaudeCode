@@ -1235,6 +1235,21 @@ Three documents were produced today and none has been appended to the log in Dri
   **"Al Kheesa" is from Farhan's message, not from any record** — the August entry says only
   "Dana Hypermarket". No address, contact name, telephone or trade licence name on file.
   **3 month warranty was assumed**; Farhan gave no term.
+- **INV-271/2026** — BSI, attn. Mr. Lijo, cold room checkup, gas charging and labour, **750**,
+  issued 27-09-2026. **Repeat client** — second job on file after INV-254/2026 at 450, which
+  was settled in cash.
+  **The gas loss is the point of the document.** Refrigerant is not consumed in service, so a
+  circuit needing a charge has leaked. Note 3 says so plainly and recommends a pressure and
+  leak test, and **note 4 gives no warranty at all on the refrigerant charge** because the
+  leak has not been traced — only one month on workmanship. Without that, a system flat again
+  in three weeks becomes our problem, not the leak's.
+  **A leak test is a live sales lead**, not just a disclaimer. Nothing has been quoted for it.
+  **"BSI" is not expanded anywhere in the records** — no full legal name, address, telephone
+  or trade licence. It has now carried two invoices on an acronym.
+  **Payment terms were not given by Farhan.** The invoice says due on presentation; the last
+  BSI job was cash. If this one is already paid, a receipt is owed and has not been raised.
+  **No refrigerant type or charge weight recorded** — the invoice says charged by weight to the
+  nameplate figure and names no gas, because none was given.
 - **WO/DCTS/001/2026** — Al Zehrabi work order, 18-08-2026. **Opens a new series**; the log has
   no work-order column yet.
 - **INV-263/2026** — Al Zehrabi, **4,900 in full**, issued 19-08-2026 (redrafted from an 80%
