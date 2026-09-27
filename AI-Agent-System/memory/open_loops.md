@@ -1165,6 +1165,14 @@ Three documents were produced today and none has been appended to the log in Dri
   **Assumed, not given by Farhan:** 12 month manufacturer warranty on the units, 6 months on
   our workmanship, and 15 day validity. Farhan gave neither warranty nor validity.
   **Structural capacity above the door is unverified** — 61.5 kg of units plus the frame.
+  **REVISED 27-09-2026 under the same number**, per the convention used on QUT/DCTS/239.
+  Farhan set a final figure of **7,300**, so the 550 is shown as a discount off the original
+  7,850 rather than the rates being rewritten — the client sees a concession, not a new price.
+  **Payment terms changed from 100% to 80% advance (5,840) and 20% on handover (1,460)**,
+  the first air curtain job to carry a retention-style stage. Scope, specification and
+  quantities are untouched.
+  **Two live documents now share QUT/DCTS/242/2026** at 7,850 and 7,300. The older one must be
+  withdrawn, not left in circulation — this is the same defect flagged on SQ091 under OL-055.
 - **QUT/DCTS/243/2026** — Evergreen Qatar, supply only of **1 no axial fan motor YWF4E-350S**
   (350 mm, 4 pole, external rotor). **630**, issued 21-09-2026. 100% payment, same day
   delivery ex stock. **New client** — no address, contact name or telephone.
