@@ -49,7 +49,7 @@ keying error — see OL-027.
 | Drainage system replacement | Lean N Fit | QUT/DCTS/214/2026 | Cash | 1,200 | 1,200 | 0 — completed & paid 11-08-2026 |
 | Cold room — chiller + freezer | Stop n Shop – Bin Omran | QUT/DCTS/SQ076/2026 | Quote | 45,000 | 25,000 (cheque 00006483, QNB, 26-08-2026) | 20,000 — PDC 90 days |
 | Chiller + freezer rooms | Home-Made by Earth | HMBE/LPO/2026/001 | LPO | **46,900** (LPO still reads 45,300) | 0 | 46,900 — 75/20/5 |
-| Chiller + freezer rooms — Capital Grille at ABESQ Hotel | One A Design, Build and Trading W.L.L. | WO/1A/096/26, 27-09-2026 | Work Order | **73,500** | 0 | 73,500 — **30/40/25/5 revised 28-09-2026**; INV-272 reissued at the 30% advance of 22,050 |
+| Chiller + freezer rooms — Capital Grille at ABESQ Hotel | One A Design, Build and Trading W.L.L. | WO/1A/096/26, 27-09-2026 | Work Order | **73,500** | 0 | 73,500 — **35/40/20/5 revised 28-09-2026**; INV-272 reissued at the 35% advance of 25,725 |
 | Cold storage project | Oriental Agro Trading | SOA AS-2026-9456 | **Doha Cooling** | 1,103,286 | 1,093,000 | 10,286 |
 | Additional sandwich panel shifting, Street 36 | Oriental Agro Trading | DCTS-INV-006/2026 reserved | **Doha Cooling** | **price not given** | 0 | **not invoiced — awaiting price** |
 | Insulated sectional overhead doors (4 nos.) | Oriental Agro Trading | QUT/DCTS/036/2026 R1 | **Doha Cooling** | 81,000 | 81,000 | 0 — settled 11-05-2026 |
@@ -198,7 +198,7 @@ client funds the purchase in full.
 |---|---|---|---|
 | Jollibee / Sunrise | 60 / 40 | LPO PO-2026-0000248 | LPO overrode the quotation |
 | CCC / HIA | 30 / 30 / 30 / 10 | LPO DIAR-L05531 MCR | |
-| One A Design + Build | **30 advance / 40 on panel delivery / 25 on completion / 5 on handover** | WO/1A/096/26, revised by LTR/DCTS/248/2026 28-09-2026 at the client's request | Work order said 75/20/5. **Delay penalty QAR 2,000 per calendar day**, deductible from sums due — not in our quotation. 30 day project period. The 25/5 tail is mine; Farhan relayed only the first two stages |
+| One A Design + Build | **35 advance / 40 on panel delivery / 20 on completion / 5 on handover** | WO/1A/096/26, revised by LTR/DCTS/248/2026 28-09-2026 | Work order said 75/20/5; client asked 30%, Farhan settled at **35%**. **Delay penalty QAR 2,000 per calendar day**, deductible from sums due — not in our quotation. 30 day project period. The 20/5 tail is mine |
 | Mesaieed / HBK-BWTC-BEIL JV | 15 advance / 45 after delivery / 20 / 20 | LOA HBB000353-0 | Advance bank guarantee + performance cheque required; 10% retention split 5%+5%; delay penalties; AMC clause |
 | Samoosa Shop | 70 / 25 / 5 | QUT/DCTS/066/2026 | No LPO — quotation only |
 | Home-Made by Earth | **30 advance / 40 on panel delivery / 25 on completion of installation / 5 on handover** | Farhan, 28-09-2026 — client request | Third revision. Quotation and LPO say 75/20/5; cut to 70/25/5 on 17-09-2026; the client then asked for **30% advance and 40% at delivery of sandwich panel** citing trust. The 25/5 tail is mine — Farhan gave only the first two stages. Contract value 46,900 unchanged. Amended by LTR/DCTS/247/2026 |

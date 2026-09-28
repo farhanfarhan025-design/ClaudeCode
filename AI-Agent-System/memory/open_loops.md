@@ -1574,20 +1574,24 @@ new schedule before the advance is chased.
 ### OL-066 — One A cuts the advance from 75% to 30% on a contract with a 2,000/day penalty
 **Owner:** Farhan · **Raised:** 2026-09-28 · **Value:** QAR 73,500 · **HEADLINE**
 
-One A has asked for **30% advance and 40% on delivery of the sandwich panel** in place of the
-75/20/5 written into work order WO/1A/096/26, which they signed on 27-09-2026. Contract value
-unchanged. Confirmed under **LTR/DCTS/248/2026**, and **INV-272/2026 reissued the same day at the
-30% advance of 22,050**, superseding the 55,125 invoice raised earlier that day. The 25% on
-completion and 5% on handover are mine; Farhan relayed only the first two stages.
+One A asked for **30% advance and 40% on delivery of the sandwich panel** in place of the
+75/20/5 written into work order WO/1A/096/26, which they signed on 27-09-2026. **Farhan settled
+at 35%**, not 30. Contract value unchanged. Confirmed under **LTR/DCTS/248/2026**, and
+**INV-272/2026 reissued at the 35% advance of 25,725**, superseding the 55,125 invoice raised
+earlier the same day. The 20% on completion and 5% on handover are mine; Farhan set only the
+first two stages.
 
-**The advance falls by 33,075, from 55,125 to 22,050.**
+**The advance falls by 29,400, from 55,125 to 25,725.**
 
 | | QAR |
 |---|---|
 | Estimated cost at the house margin of 13.5% | ~63,578 |
-| Advance received | (22,050) |
-| **Funded from working capital until the panel is delivered** | **~41,528** |
-| Still short after the 40% lands | ~12,128 |
+| Advance received | (25,725) |
+| **Funded from working capital until the panel is delivered** | **~37,853** |
+| Still short after the 40% lands | ~8,453 |
+
+The extra 5% Farhan held out for is worth **3,675** and takes roughly 3,700 off the peak funding
+requirement. It does not change the shape of the problem — the job still does not fund itself.
 
 **This is a far worse exposure than the Home-Made by Earth case it was first confused with**, both
 in size and because of what sits alongside it.
