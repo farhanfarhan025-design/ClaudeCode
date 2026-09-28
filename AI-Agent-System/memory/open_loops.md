@@ -1273,6 +1273,25 @@ Three documents were produced today and none has been appended to the log in Dri
   **No project stated**, again. 39,140 of committed spend with no job to post it to.
   **Ex-factory Mesaieed** — collection and transport are ours, roughly 45 km each way, and not
   priced anywhere.
+- **QUT/DCTS/246/2026** — Copa Cabana, refrigeration maintenance: Tecumseh France 2 HP
+  condensing unit, new control panel box, complete re-pipe and re-wire, cold room door
+  re-arrangement, evaporator service, testing and handover. **7,850**, issued 28-09-2026.
+  **80% advance (6,280) / 20% on completion (1,570)** — Farhan gave the split when asked.
+  **New client** — no address, contact name or telephone.
+  **REFRIGERANT WAS READ IN, NOT STATED.** The condensing unit is replaced and the pipework
+  completely re-run, so the circuit must be evacuated and recharged or nothing cools. Clause 7
+  and note 1 include it. Same judgement as QUT/DCTS/245; **if Farhan priced 7,850 without gas
+  it is an uncovered cost**, and Punjab put gas charging alone at 750.
+  **"Door re arrangement" was three words** and is written up as the door taken off,
+  re-positioned and re-hung with the frame squared and the seal proved. **Note 3 excludes
+  hinges, lock, gasket, closer and the leaf** if found unserviceable on removal — the real risk
+  on any door job, since nobody knows what is behind it until it is off.
+  **The evaporator is serviced, not replaced**, and note 3 says so; a blocked or leaking coil
+  found on cleaning is a separate quote.
+  **No room size, temperature or load given; no heat load calculation.** Note 2 records the
+  2 HP as matching the existing installation on the client's advice, not our selection.
+  **Work completion of 02-03 days, 15 day validity and the warranty terms were assumed** —
+  Farhan gave none of them. **No supplier cost on file.** Seventh job quoted without one.
 - **WO/DCTS/001/2026** — Al Zehrabi work order, 18-08-2026. **Opens a new series**; the log has
   no work-order column yet.
 - **INV-263/2026** — Al Zehrabi, **4,900 in full**, issued 19-08-2026 (redrafted from an 80%
