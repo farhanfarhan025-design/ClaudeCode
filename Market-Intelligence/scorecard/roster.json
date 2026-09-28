@@ -1,0 +1,40 @@
+{
+  "chief": "Chief Market Intelligence Officer",
+  "leads": {
+    "Market News Research Lead": [
+      "Research Analyst",
+      "Sentiment Analyst",
+      "Stock Movement Analyst",
+      "News Credibility Analyst",
+      "Market Impact Analyst"
+    ],
+    "Equity Research Lead": [
+      "Fundamental Research Analyst",
+      "Financial Forensics Analyst",
+      "Pre-Earnings Intelligence Analyst"
+    ],
+    "Head of Industry & Geopolitical Research": [
+      "Industry Research Analyst",
+      "Geopolitical Risk Analyst"
+    ],
+    "Head of Market Activity & Ownership Research": [
+      "Market Volume Intelligence Analyst",
+      "Insider Activity Analyst",
+      "Fund Holdings Research Analyst",
+      "Short-Seller Research Analyst"
+    ],
+    "Independent Research Review Lead": [
+      "Bull Case Analyst",
+      "Bear Case Analyst",
+      "Research Validation Analyst"
+    ]
+  },
+  "aliases": {
+    "CMIO": "Chief Market Intelligence Officer",
+    "MNRL": "Market News Research Lead",
+    "ERL": "Equity Research Lead",
+    "HIGR": "Head of Industry & Geopolitical Research",
+    "MAO": "Head of Market Activity & Ownership Research",
+    "IRRL": "Independent Research Review Lead"
+  }
+}
