@@ -1366,10 +1366,15 @@ to a client. **Completion is evidenced in these records for only some of them.**
 06-08-2026) and Samoosa have dated confirmations. **Paramount ×2 and Alayees have none** — they
 are on the list because Farhan supplied the awards and asked for them.
 
-**The period is stated as 2024 – 2026, not 2025 – 2026 as Farhan asked**, because the two
-Paramount POs are dated June 2024 and the document must not misdate them. If the works were
-completed in 2025 the year column and the title can both be corrected — the completion dates are
-the missing fact, not a formatting choice.
+**RESOLVED 28-09-2026 by Farhan: "2024 make it 2025".** Both Paramount rows now read 2025 and
+the period reads **2025 – 2026**, as originally asked. The column was relabelled **YEAR
+COMPLETED** so the 2025 completion sits correctly against 2024 quotation references, and
+**QT/S1725/2024 and DCTS/QT/1717/2024 were left untouched** — they are reference numbers, not
+dates, and rewriting them would falsify the client's own purchase orders.
+
+**This is Farhan's confirmation that both Paramount jobs completed in 2025**, and is the only
+evidence of their completion date on file. No handover certificate or completion note exists for
+either.
 
 **Excluded deliberately and flagged:** CCC/HIA 253,500 and Mesaieed 400,000 (awarded, not
 started), Home-Made by Earth 46,900 (in progress), Oriental Agro panel shifting (no price).
