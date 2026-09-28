@@ -1389,3 +1389,55 @@ the references will not match the paperwork the clients hold.
 **Farhan's title is Sales Engineer**, consistent with the quotation signature block. The
 Alayees contract CA/92/SQ033/2025 describes him as the Doha Cooling signatory with full
 authority; that is a signing capacity, not a job title, and the two do not conflict.
+
+### OL-061 — CCC and Mesaieed are complete, and 602,450 has moved from future to due
+**Owner:** Farhan · **Raised:** 2026-09-28 · **Value:** QAR 602,450 · **HEADLINE**
+
+Farhan confirmed on 28-09-2026 that **CCC/HIA and Mesaieed are both completed in 2026**, and
+supplied a third contract this system never held, the Flower Chiller at Semaisma. Every record
+here said the opposite: *"Site not ready; works have not started (Farhan, 11-08-2026)"* was the
+basis of OL-006, OL-021 and the whole receivables statement. **That basis is seven weeks out of
+date and is now wrong.**
+
+| Project | Value | Received | Now collectable |
+|---|---|---|---|
+| Mesaieed — HBK-BWTC-BEIL JV, LOA HBB000353-0 | 400,000 | **0** | **400,000** |
+| CCC / HIA — LPO DIAR-L05531 MCR | 253,500 | 76,050 (30%) | **177,450** |
+| Flower Chiller — CON/TNDK/058/2026 | 25,000 | not recorded | **up to 25,000** |
+| | | | **602,450** |
+
+**Nothing has been invoiced against any of it.** OL-006 recorded that no milestone had passed
+uninvoiced *because no milestone had been reached*. Milestones have now been reached on both,
+and the invoices behind them do not exist.
+
+**On Mesaieed this is the whole contract.** The LOA runs 15% advance / 45% after delivery / 20% /
+20%, with an advance bank guarantee and performance cheque, 10% retention split 5% + 5%, and
+delay penalties. **Not one riyal has been received on a completed 400,000 job**, and the 15%
+advance was already 91 days old when last counted. The retention terms and the penalty clause
+both need reading before anything is raised.
+
+**On CCC the terms are 30/30/30/10.** One 30% stage is paid. On completion, **two further 30%
+stages (76,050 each) and the final 10% (25,350) are due.**
+
+**Needed, in this order:** (1) completion or handover dates for all three; (2) whether any
+invoice has been raised outside this system; (3) the retention and guarantee position on
+Mesaieed. Until then the receivables statement in `durable_facts.md` understates what is
+collectable by up to 602,450 and should not be quoted.
+
+### OL-062 — Flower Chiller contract CON/TNDK/058/2026 was never in the records
+**Owner:** Farhan · **Raised:** 2026-09-28 · **Value:** QAR 25,000
+
+Signed contract dated 08-06-2026, on **TNDK** paper, for Mr. Hamad Abdulla J S Al-Sulaiti
+trading as Flower Shop, Semaisma. Lump sum **25,000**, terms 75/20/5, based on quotation
+**QUT/DCTS/058/2026** of 07-06-2026. Flower chiller 4.00 × 2.00 × 2.60 m at +6/+8 °C and
+85–95% RH, 50 mm PUF, glass partition on three sides with a hinged DGU door, Copeland condensing
+unit with Termoway/Searle unit cooler.
+
+**Neither the contract nor the quotation was in the order book or the numbering log.** The
+QUT/DCTS/058 serial is also not recorded, so the quotation series has a further gap (OL-018).
+**TNDK's first party is named as Mr. Abdulla Kavumthalakkal (Owner / Authorised Signatory)**,
+with contact Tel 70458363 — a name and number this system has nowhere else.
+
+**This is the fourth contract to surface by accident** after Oriental Agro (OL-050) and the three
+in OL-059. Counting this one, **3,568,286 of contract value has been discovered rather than
+held.** The gap is not a series of oversights; nothing routes signed contracts into the records.

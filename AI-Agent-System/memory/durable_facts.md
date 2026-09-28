@@ -32,8 +32,8 @@ A fact without a source is not a fact.
 | Cold room checkup + gas charging | BSI (Mr. Lijo) | INV-271/2026 | Invoice | 750 | 0 | 750 — invoiced 27-09-2026 |
 | Refrigeration maintenance | Ruwais Farm | INV-014/2026 | Invoice | 1,850 | 1,850 | 0 |
 | Jollibee Rasaboud cold room | Sunrise Trading & Food Stuff Co. | PO-2026-0000248 | LPO | 46,000 | 27,600 + part of 23,100 (18-08-2026) | see below |
-| HIA Airport cold rooms (5) | Consolidated Contractors (CCC) | DIAR-L05531 MCR | LPO | 253,500 | 76,050 | 177,450 |
-| Mesaieed animal waste cold room | HBK-BWTC-BEIL JV | HBB000353-0 | LOA | 400,000 | 0 | 400,000 |
+| HIA Airport cold rooms (5) | Consolidated Contractors (CCC) | DIAR-L05531 MCR | LPO | 253,500 | 76,050 | **177,450 — COMPLETED 2026 per Farhan 28-09-2026; balance now DUE, not future** |
+| Mesaieed animal waste cold room | HBK-BWTC-BEIL JV | HBB000353-0 | LOA | 400,000 | 0 | **400,000 — COMPLETED 2026 per Farhan 28-09-2026; nothing received, nothing invoiced** |
 | Samoosa cold room (freezer) | Samoosa Shop | QUT/DCTS/066/2026 | Quote | 38,500 | 38,500 | 0 — settled, confirmed by Farhan 11-08-2026 |
 | Jollibee condensing unit relocation | Sunrise Trading | PO-2026-0000310 | LPO | 7,000 | part of 23,100 (18-08-2026) | see below |
 
@@ -52,6 +52,7 @@ keying error — see OL-027.
 | Cold storage project | Oriental Agro Trading | SOA AS-2026-9456 | **Doha Cooling** | 1,103,286 | 1,093,000 | 10,286 |
 | Additional sandwich panel shifting, Street 36 | Oriental Agro Trading | DCTS-INV-006/2026 reserved | **Doha Cooling** | **price not given** | 0 | **not invoiced — awaiting price** |
 | Insulated sectional overhead doors (4 nos.) | Oriental Agro Trading | QUT/DCTS/036/2026 R1 | **Doha Cooling** | 81,000 | 81,000 | 0 — settled 11-05-2026 |
+| Flower chiller cold room, Semaisma | Mr. Hamad Abdulla J S Al-Sulaiti (Flower Shop) | CON/TNDK/058/2026, 08-06-2026 | Contract | 25,000 | not recorded | **not recorded — completed 2026 per Farhan** |
 | Cold storage facility — 3 chiller rooms + epoxy, racking, dock leveller, sectional doors | Alayees General Trading | CA/92/SQ033/2025, 02-08-2025 | **Doha Cooling** | 595,000 | not recorded | **not recorded** |
 | 10 nos 40 ft container cold rooms (5 chiller + 5 freezer), Ras Laffan | Paramount Trading Co. W.L.L. | PO30-06088-1, 27-06-2024 | **Doha Cooling** | 635,000 | not recorded | **not recorded** |
 | 7 nos walk-in chiller rooms (4 + 3 laboratory) | Paramount Trading Co. W.L.L. | PO30-06075-1, 25-06-2024 | **Doha Cooling** | 210,000 | not recorded | **not recorded** |
