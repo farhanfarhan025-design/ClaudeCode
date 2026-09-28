@@ -50,6 +50,9 @@ keying error — see OL-027.
 | Cold storage project | Oriental Agro Trading | SOA AS-2026-9456 | **Doha Cooling** | 1,103,286 | 1,093,000 | 10,286 |
 | Additional sandwich panel shifting, Street 36 | Oriental Agro Trading | DCTS-INV-006/2026 reserved | **Doha Cooling** | **price not given** | 0 | **not invoiced — awaiting price** |
 | Insulated sectional overhead doors (4 nos.) | Oriental Agro Trading | QUT/DCTS/036/2026 R1 | **Doha Cooling** | 81,000 | 81,000 | 0 — settled 11-05-2026 |
+| Cold storage facility — 3 chiller rooms + epoxy, racking, dock leveller, sectional doors | Alayees General Trading | CA/92/SQ033/2025, 02-08-2025 | **Doha Cooling** | 595,000 | not recorded | **not recorded** |
+| 10 nos 40 ft container cold rooms (5 chiller + 5 freezer), Ras Laffan | Paramount Trading Co. W.L.L. | PO30-06088-1, 27-06-2024 | **Doha Cooling** | 635,000 | not recorded | **not recorded** |
+| 7 nos walk-in chiller rooms (4 + 3 laboratory) | Paramount Trading Co. W.L.L. | PO30-06075-1, 25-06-2024 | **Doha Cooling** | 210,000 | not recorded | **not recorded** |
 
 ## Receivables — as at 20 August 2026
 

@@ -1327,3 +1327,49 @@ opening cash position — CASHBOOK cannot establish that itself and must not est
 `DECISIONS.md` D-007 proposes the team, the two new lanes and their trust stages.
 
 **Needed:** confirm the structure, and which register is built first. Recommended: payables.
+
+### OL-059 — Three more contracts surfaced, worth 1,440,000, none of them in the records
+**Owner:** Farhan · **Raised:** 2026-09-28 · **Value:** QAR 1,440,000
+
+Building the completed-projects list turned up **three awards this system has never held**:
+
+| Award | Client | Date | Value |
+|---|---|---|---|
+| PO30-06088-1 | Paramount Trading Co. W.L.L. | 27-06-2024 | 635,000 |
+| CA/92/SQ033/2025 | Alayees General Trading | 02-08-2025 | 595,000 |
+| PO30-06075-1 | Paramount Trading Co. W.L.L. | 25-06-2024 | 210,000 |
+
+All three are **Doha Cooling**, all three name Mr. Farhan as contact, and **not one appears in the
+order book, the receivables statement or any concentration figure**. This is the same failure as
+OL-050, which found the 1,103,286 Oriental Agro contract missing. **That is now 2,543,286 of
+contract value discovered by accident rather than held.** The receivables and concentration
+numbers in `durable_facts.md` remain wrong until these are entered properly.
+
+**Nothing is recorded about payment on any of them.** No receipts, no cheques, no vouchers, no
+completion dates. They are entered in the order book with received and balance marked *not
+recorded* rather than assumed settled — **it is not known whether money is still owed on them.**
+On the Paramount POs, both carry **10% retention for 2 years** (06088 also 20% after delivery
+and 20% after commissioning), so retention of **63,500 and 21,000** may be collectable or may
+already be released. Alayees carries **two PDCs of 97,500** at 90 and 120 days after handover.
+**That is up to 279,500 of potentially uncollected money with no evidence either way.**
+
+**Needed:** for each of the three — the completion date, what has been received, and whether any
+retention or PDC is outstanding. Until then they are listed as completed works on Farhan's
+knowledge, not on this system's evidence.
+
+### OL-060 — Completed-projects list issued without documented completion
+**Owner:** Farhan · **Raised:** 2026-09-28
+
+`DCTS/PROJ/2026-0928` lists 17 completed works totalling **2,862,736** and is written to be sent
+to a client. **Completion is evidenced in these records for only some of them.** Oscar Prime
+(commissioned 27-08-2026), Stop n Shop (handed over 06-09-2026), Jollibee (commissioned
+06-08-2026) and Samoosa have dated confirmations. **Paramount ×2 and Alayees have none** — they
+are on the list because Farhan supplied the awards and asked for them.
+
+**The period is stated as 2024 – 2026, not 2025 – 2026 as Farhan asked**, because the two
+Paramount POs are dated June 2024 and the document must not misdate them. If the works were
+completed in 2025 the year column and the title can both be corrected — the completion dates are
+the missing fact, not a formatting choice.
+
+**Excluded deliberately and flagged:** CCC/HIA 253,500 and Mesaieed 400,000 (awarded, not
+started), Home-Made by Earth 46,900 (in progress), Oriental Agro panel shifting (no price).
