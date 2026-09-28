@@ -1258,6 +1258,21 @@ Three documents were produced today and none has been appended to the log in Dri
   BSI job was cash. If this one is already paid, a receipt is owed and has not been raised.
   **No refrigerant type or charge weight recorded** — the invoice says charged by weight to the
   nameplate figure and names no gas, because none was given.
+- **LPO-203/2026** — Geo Panel, **39,140** for 412.00 sqm of 100 mm cold room panel at 95.00,
+  drafted 28-09-2026 against their quotation GEO/Q3451 of the same day. Their arithmetic is
+  correct. **New vendor** — Zone 92, Street 354, Mesaieed Industrial City; Mr. Shad, 5542 6386.
+  **THE SKINS ARE 0.40 MM, AND THIS IS THE THIRD TIME THE GAUGE HAS SLIPPED.** OL-044 caught
+  Al Buhsain quoting 0.45 mm against the 0.50 mm sold to Oscar Prime on SQ074. Geo Panel is
+  thinner still, and the substrate is **pre-painted Aluzinc, not PPGI**. If this panel is going
+  into any room sold on 0.5 mm PPGI, it is a specification shortfall on our own quotation.
+  **Clause 8 lets them reprice after confirmation**, and their shop-drawing note gives a second
+  route to the same thing — on **100% advance**, money is gone before either bites. LPO-203
+  note 3 states the rate and the total are firm and not subject to increase after payment.
+  **Their quotation's subject line reads "Roofing Sheet, Flashings & accessories"** while the
+  item is cold room panel. Note 4 asks them to confirm that in writing before production.
+  **No project stated**, again. 39,140 of committed spend with no job to post it to.
+  **Ex-factory Mesaieed** — collection and transport are ours, roughly 45 km each way, and not
+  priced anywhere.
 - **WO/DCTS/001/2026** — Al Zehrabi work order, 18-08-2026. **Opens a new series**; the log has
   no work-order column yet.
 - **INV-263/2026** — Al Zehrabi, **4,900 in full**, issued 19-08-2026 (redrafted from an 80%
