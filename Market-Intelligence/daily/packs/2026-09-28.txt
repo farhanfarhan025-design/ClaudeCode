@@ -1,0 +1,91 @@
+TEAM PACK — Monday 28 Sep 2026 · pack TEAM-20260928 · written 29 Sep 02:10 IST
+Source: daily/briefs/2026-09-28.md only. Analysis only — not investment advice.
+
+=== STAGE 1 · DESKS ===
+
+--- Market News Research Lead desk ---
+Research Analyst: A broad risk-off day. Nifty fell 1.56% to 22,780.25 as crude rose above $106 on the US–Iran Hormuz stalemate, with US 10-year yields at 5.2%, foreign selling and a weaker rupee. The only stock-specific disclosure with a clear cause is RSYSTEMS' ₹8 second interim dividend.
+  Gaps: FII/DII figures; exchange filings behind the small-cap gainers.
+Sentiment Analyst: Coverage tone is uniformly negative ("crash", "rout", ₹7.5 lakh crore wiped). The few gainers are framed as exceptions, not a rotation.
+  Gaps: no social or options sentiment data.
+Stock Movement Analyst: The Nifty gainers were small and defensive (DRREDDY +1.67%, INFY +0.30%). RSYSTEMS' spike has a stated cause, a dividend. The other small-cap gainers (+12–15%) have no cause in the brief.
+  Gaps: no cause for Dam Capital, SMC Global, Bharat Parenterals, Repro India.
+News Credibility Analyst: RSYSTEMS dividend is a board decision reported by several outlets (HIGH). But the size of its move is inconsistent across sources (+14%, +17.78%, intraday +17.93%). POWERGRID's order and loan news comes only via a search summary (LOW until the filing is seen).
+Market Impact Analyst: An ₹8 dividend on a ~₹280 share is about 2.9%, far smaller than the 14–18% move. The rally looks driven by flows around the record date, and the price mechanically drops by the dividend when the stock goes ex-dividend. TMPV's −3% fits crude and auto-sector pressure.
+  CALL: TMPV DOWN 0.55
+LEAD (Market News Research Lead): Macro drove the day, not company news. The desk backs TMPV DOWN while crude stays above $100. It does not call RSYSTEMS: the move is dividend-driven and unadjusted prices would distort any grade.
+  CALL: TMPV DOWN 0.55
+
+--- Equity Research Lead desk ---
+Fundamental Research Analyst: The brief carries no earnings, balance-sheet or valuation data for any named stock. No call.
+  Gaps: all fundamentals.
+Financial Forensics Analyst: Nothing in the brief to assess. Not a red flag: an ₹8 dividend is 800% of face value, which is a large payout relative to face value. Whether cash flow covers it can't be judged from the brief.
+  Gaps: RSYSTEMS cash flow and payout history.
+Pre-Earnings Intelligence Analyst: No result dates in the brief. Q2 results season usually starts in October, but no specific dates were found. No call.
+LEAD (Equity Research Lead): The desk has nothing to add from this brief and makes no calls. It needs results calendars and financials in future briefs.
+
+--- Head of Industry & Geopolitical Research desk ---
+Industry Research Analyst: Pharma (DRREDDY) rose on a day the rupee weakened. Exporters earning in dollars are the usual beneficiaries, though the brief doesn't state the cause for DRREDDY. Banks (PSU −2.5–3%) and autos took the most damage.
+  CALL: DRREDDY UP 0.55
+Geopolitical Risk Analyst: The US rejected Iran's proposal to reopen Hormuz, so no near-term de-escalation is in the brief. Crude above $106 feeds directly into auto input and demand costs.
+  CALL: TMPV DOWN 0.58
+LEAD (Head of Industry & Geopolitical Research): Oil is the transmission channel. The desk backs TMPV DOWN 0.58, and backs DRREDDY UP at low conviction (0.55) because its cause is unstated.
+  CALL: TMPV DOWN 0.58
+  CALL: DRREDDY UP 0.55
+
+--- Head of Market Activity & Ownership Research desk ---
+Market Volume Intelligence Analyst: RSYSTEMS led volume gainers. DRREDDY traded 33.3 lakh shares, but there's no baseline to call that unusual.
+  Gaps: volume ratios, delivery %.
+Insider Activity Analyst: No promoter or insider trades in the brief. No call.
+Fund Holdings Research Analyst: Foreign selling is stated, with no figures. No bulk or block deals in the brief. No call.
+Short-Seller Research Analyst: No short-interest data. No call.
+LEAD (Head of Market Activity & Ownership Research): The desk is blind today: no activity data reached the brief. No calls. This desk needs NSE access more than any other.
+
+=== STAGE 2 · REVIEW DESK ===
+
+Bull Case Analyst: DRREDDY closed higher on a −1.56% day with meaningful volume. Relative strength in a sell-off plus rupee weakness is a real, if thin, case.
+  CALL: DRREDDY UP 0.55
+Bear Case Analyst: TMPV has three headwinds in the brief: crude, auto-sector selling and no de-escalation. On RSYSTEMS the bear case is strong once the record date passes, but a DOWN call would be graded on unadjusted prices and get credit for a mechanical ₹8 drop, so no call.
+  CALL: TMPV DOWN 0.60
+Research Validation Analyst: Checked every desk claim against the brief.
+  - Market Impact "₹8 on ~₹280 ≈ 2.9%": supported (₹279.75 intraday high in brief). OK.
+  - Industry Research "exporters benefit from a weak rupee": general reasoning, not a sourced fact about DRREDDY. Keep it labelled as interpretation.
+  - Pre-Earnings "results season usually starts in October": not in the brief. Unsupported; drop it.
+  - POWERGRID: correctly treated as unverified by everyone; nobody called it. OK.
+LEAD (Independent Research Review Lead): TMPV DOWN survives: three desks independently reached it from sourced facts. DRREDDY UP survives only at 0.55: its cause is unstated. RSYSTEMS is correctly uncalled.
+
+=== STAGE 3 · CHIEF ===
+
+Close-of-day — 28 Sep 2026
+Chief: CMIO · pack TEAM-20260928
+Analysis only — not investment advice.
+
+Holds (facts):
+• Nifty 22,780.25 (−1.56%), Sensex 72,771.72 (−1.52%); 47/50 Nifty stocks down. HIGH
+• Crude above $106 after the US rejected Iran's Hormuz proposal; US 10-yr at 5.2%; foreign selling; rupee weaker. HIGH on direction, MED on exact figures ($106 vs $108)
+• PSU Bank index −2.5–3%, led the fall. HIGH
+• RSYSTEMS second interim dividend ₹8/share, record date 1 Oct. HIGH. Size of its move: sources disagree (14% to 17.9%). MED
+• DRREDDY +1.67% to ₹1,221.00, top Nifty gainer. HIGH
+
+Read:
+• A macro sell-off driven by oil (News, Industry & Geopolitical desks). Autos are most exposed through crude.
+• RSYSTEMS' jump is about 5× its dividend yield, likely record-date flows; expect a mechanical drop on the ex-date (Market Impact).
+
+Contested:
+• DRREDDY: Bull and Industry see relative strength; no desk has its cause. Low conviction.
+
+Gaps:
+• No official NSE closes, volumes or deals; the Activity and Equity desks were blind.
+• POWERGRID news unverified.
+
+Calls:
+CALL | agent=Market Impact Analyst | ticker=TMPV | dir=DOWN | conf=0.55 | as_of=2026-09-29T02:10:00+05:30 | pack=TEAM-20260928 | thesis=crude above $106 and auto-sector selling
+CALL | agent=Market News Research Lead | ticker=TMPV | dir=DOWN | conf=0.55 | as_of=2026-09-29T02:10:00+05:30 | pack=TEAM-20260928 | thesis=macro-driven day; autos most exposed to crude
+CALL | agent=Industry Research Analyst | ticker=DRREDDY | dir=UP | conf=0.55 | as_of=2026-09-29T02:10:00+05:30 | pack=TEAM-20260928 | thesis=defensive strength on a weak-rupee sell-off
+CALL | agent=Geopolitical Risk Analyst | ticker=TMPV | dir=DOWN | conf=0.58 | as_of=2026-09-29T02:10:00+05:30 | pack=TEAM-20260928 | thesis=no Hormuz de-escalation; crude feeds auto costs
+CALL | agent=Head of Industry & Geopolitical Research | ticker=TMPV | dir=DOWN | conf=0.58 | as_of=2026-09-29T02:10:00+05:30 | pack=TEAM-20260928 | thesis=oil is the transmission channel
+CALL | agent=Head of Industry & Geopolitical Research | ticker=DRREDDY | dir=UP | conf=0.55 | as_of=2026-09-29T02:10:00+05:30 | pack=TEAM-20260928 | thesis=relative strength; cause unstated
+CALL | agent=Bull Case Analyst | ticker=DRREDDY | dir=UP | conf=0.55 | as_of=2026-09-29T02:10:00+05:30 | pack=TEAM-20260928 | thesis=up with volume on a -1.56% day
+CALL | agent=Bear Case Analyst | ticker=TMPV | dir=DOWN | conf=0.60 | as_of=2026-09-29T02:10:00+05:30 | pack=TEAM-20260928 | thesis=crude, sector selling, no de-escalation
+CALL | agent=Independent Research Review Lead | ticker=TMPV | dir=DOWN | conf=0.58 | as_of=2026-09-29T02:10:00+05:30 | pack=TEAM-20260928 | thesis=three desks reached it independently from sourced facts
+CALL | agent=CMIO | ticker=TMPV | dir=DOWN | conf=0.55 | as_of=2026-09-29T02:10:00+05:30 | pack=TEAM-20260928 | thesis=oil-led sell-off hits autos hardest; no de-escalation in sight
