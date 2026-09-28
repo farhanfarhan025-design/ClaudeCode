@@ -885,10 +885,10 @@ def fill_boq(doc, spec, qs, tot):
         set_cell(cells[1], item["description"] if isinstance(item, dict) else str(item))
         amount = item.get("amount") if isinstance(item, dict) else None
         set_cell(cells[2], f"{float(amount):,.2f}" if amount else "")
-    # blank any rows the master had beyond what this quote needs
-    for r in t.rows[len(items) + 1:]:
-        for c in row_cells(r):
-            set_cell(c, "")
+    # drop any rows the master had beyond what this quote needs — blanking
+    # them leaves banded empty rows hanging under the last item
+    for r in list(t.rows[len(items) + 1:]):
+        r._tr.getparent().remove(r._tr)
 
 
 def default_boq(spec, qs, tot):
