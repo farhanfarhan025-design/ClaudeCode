@@ -1519,3 +1519,43 @@ else's water circuit is live, and commissioning is what releases the final 5%. W
 penalty running (OL-063), **a delay caused by the water circuit is a delay TNDK pays for unless
 it is documented as an owner's delay at the time.** Record the date the water connection is
 offered, in writing, and notify One A the moment it is late.
+
+### OL-065 — Home-Made by Earth cuts the advance to 30% and the job stops funding itself
+**Owner:** Farhan · **Raised:** 2026-09-28 · **Value:** QAR 46,900 · **HEADLINE**
+
+The client has asked for **30% advance and 40% on delivery of the sandwich panel**, citing trust,
+in place of the 70% advance agreed on 17-09-2026. Contract value is unchanged at 46,900. Confirmed
+to the client under **LTR/DCTS/247/2026** with the tail placed at 25% on completion of installation
+and 5% on handover. **Those last two stages are mine — Farhan gave only the first two.**
+
+**This is the third payment schedule on one contract:** 75/20/5 on the quotation and the LPO,
+70/25/5 on 17-09-2026, now 30/40/25/5. The LPO still reads 45,300 (OL-055) and two quotations
+still share the SQ091 reference (OL-056), so the paperwork behind this job now disagrees with
+itself in three separate ways.
+
+**The cash consequence is the point.** The advance falls from **32,830 to 14,070 — 18,760 less
+money before anything is bought.**
+
+| | QAR |
+|---|---|
+| Estimated cost at the house margin of 13.5% | ~40,570 |
+| Advance received | (14,070) |
+| **Funded from working capital until the 40% lands** | **~26,500** |
+
+**And the panel has to be paid for before it can be delivered.** Every panel supplier on file
+wants money up front — Al Buhsain 50% advance and 50% *before shipment* (LPO-202), Geo Panel
+**100% in advance** (LPO-203). So TNDK pays the panel supplier in full, ships the panel, and only
+then invoices the 40%. **The 40% stage is structurally after the cost, not against it.**
+
+**Every job on file until now was written so the client funded the purchase** — that is recorded
+in `durable_facts.md` as the reason the Jollibee and Oscar Prime jobs never touched working
+capital. This one breaks that pattern, and it is the first time it has been broken.
+
+**Options put to Farhan, none yet chosen:** (a) accept as it stands and fund ~26,500; (b) ask for
+the 40% **against the supplier's notice that panel is ready**, not against delivery to site,
+which closes the gap since the supplier must be paid before shipment anyway; (c) take a security
+cheque or PDC for the balance, as Paramount required of TNDK on their own orders; (d) retain
+title until the 40% is paid — already written into LTR/DCTS/247 as drafted.
+
+**Needed:** Farhan's decision, and an amended LPO from the client carrying both 46,900 and the
+new schedule before the advance is chased.

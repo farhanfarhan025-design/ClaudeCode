@@ -201,7 +201,7 @@ client funds the purchase in full.
 | One A Design + Build | 75 / 20 / 5 | WO/1A/096/26 | **Delay penalty QAR 2,000 per calendar day**, deductible from sums due — not in our quotation. 30 day project period |
 | Mesaieed / HBK-BWTC-BEIL JV | 15 advance / 45 after delivery / 20 / 20 | LOA HBB000353-0 | Advance bank guarantee + performance cheque required; 10% retention split 5%+5%; delay penalties; AMC clause |
 | Samoosa Shop | 70 / 25 / 5 | QUT/DCTS/066/2026 | No LPO — quotation only |
-| Home-Made by Earth | **70 advance / 25 on material delivery / 5 on handover** | Farhan, 17-09-2026 | LPO and quotation both say 75/20/5; the advance was cut to 70% by agreement and the delivery stage raised to 25%. Handover stage and contract value unchanged |
+| Home-Made by Earth | **30 advance / 40 on panel delivery / 25 on completion of installation / 5 on handover** | Farhan, 28-09-2026 — client request | Third revision. Quotation and LPO say 75/20/5; cut to 70/25/5 on 17-09-2026; the client then asked for **30% advance and 40% at delivery of sandwich panel** citing trust. The 25/5 tail is mine — Farhan gave only the first two stages. Contract value 46,900 unchanged. Amended by LTR/DCTS/247/2026 |
 
 ## Obligations outstanding
 
