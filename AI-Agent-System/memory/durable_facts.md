@@ -49,6 +49,7 @@ keying error — see OL-027.
 | Drainage system replacement | Lean N Fit | QUT/DCTS/214/2026 | Cash | 1,200 | 1,200 | 0 — completed & paid 11-08-2026 |
 | Cold room — chiller + freezer | Stop n Shop – Bin Omran | QUT/DCTS/SQ076/2026 | Quote | 45,000 | 25,000 (cheque 00006483, QNB, 26-08-2026) | 20,000 — PDC 90 days |
 | Chiller + freezer rooms | Home-Made by Earth | HMBE/LPO/2026/001 | LPO | **46,900** (LPO still reads 45,300) | 0 | 46,900 — 75/20/5 |
+| Chiller + freezer rooms — Capital Grille at ABESQ Hotel | One A Design, Build and Trading W.L.L. | WO/1A/096/26, 27-09-2026 | Work Order | **73,500** | 0 | 73,500 — 75/20/5, INV-272 raised for the 75% |
 | Cold storage project | Oriental Agro Trading | SOA AS-2026-9456 | **Doha Cooling** | 1,103,286 | 1,093,000 | 10,286 |
 | Additional sandwich panel shifting, Street 36 | Oriental Agro Trading | DCTS-INV-006/2026 reserved | **Doha Cooling** | **price not given** | 0 | **not invoiced — awaiting price** |
 | Insulated sectional overhead doors (4 nos.) | Oriental Agro Trading | QUT/DCTS/036/2026 R1 | **Doha Cooling** | 81,000 | 81,000 | 0 — settled 11-05-2026 |
@@ -197,6 +198,7 @@ client funds the purchase in full.
 |---|---|---|---|
 | Jollibee / Sunrise | 60 / 40 | LPO PO-2026-0000248 | LPO overrode the quotation |
 | CCC / HIA | 30 / 30 / 30 / 10 | LPO DIAR-L05531 MCR | |
+| One A Design + Build | 75 / 20 / 5 | WO/1A/096/26 | **Delay penalty QAR 2,000 per calendar day**, deductible from sums due — not in our quotation. 30 day project period |
 | Mesaieed / HBK-BWTC-BEIL JV | 15 advance / 45 after delivery / 20 / 20 | LOA HBB000353-0 | Advance bank guarantee + performance cheque required; 10% retention split 5%+5%; delay penalties; AMC clause |
 | Samoosa Shop | 70 / 25 / 5 | QUT/DCTS/066/2026 | No LPO — quotation only |
 | Home-Made by Earth | **70 advance / 25 on material delivery / 5 on handover** | Farhan, 17-09-2026 | LPO and quotation both say 75/20/5; the advance was cut to 70% by agreement and the delivery stage raised to 25%. Handover stage and contract value unchanged |
@@ -323,7 +325,7 @@ The larger of the two has collected nothing.
 
 | Series | Next free |
 |---|---|
-| Invoice / Receipt | next after **271** — one running series: 261 cancelled, 263 Al Zahrawi, 264/265 Oscar Prime, 266 Stop n Shop invoice, 267 Stop n Shop receipt, 268 Lean N Fit inspection, 269 Home-Made by Earth advance, 270 Dana Hypermarket door handle, **271 BSI cold room checkup**. None yet in the Drive log |
+| Invoice / Receipt | next after **272** — one running series: 261 cancelled, 263 Al Zahrawi, 264/265 Oscar Prime, 266 Stop n Shop invoice, 267 Stop n Shop receipt, 268 Lean N Fit inspection, 269 Home-Made by Earth advance, 270 Dana Hypermarket door handle, 271 BSI cold room checkup, **272 One A Design + Build 75% advance**. None yet in the Drive log |
 | Statement of account | next after **SOA/DCTS/001/2026** (Stop n Shop, 13-09-2026) — series opened that day; TNDK had none. Doha Cooling uses the client AS- series: **AS-2026-9456** (Oriental Agro, 26-09-2026) supersedes AS-2026-9455 |
 | Receipt | RCT-257/2026 |
 | Quotation | next after QUT/DCTS/246/2026, plus the SQ038 / SQ074 series — see OL-018 |

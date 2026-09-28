@@ -1475,3 +1475,47 @@ with contact Tel 70458363 — a name and number this system has nowhere else.
 **This is the fourth contract to surface by accident** after Oriental Agro (OL-050) and the three
 in OL-059. Counting this one, **3,568,286 of contract value has been discovered rather than
 held.** The gap is not a series of oversights; nothing routes signed contracts into the records.
+
+### OL-063 — One A work order carries a 2,000/day delay penalty that our quotation does not
+**Owner:** Farhan · **Raised:** 2026-09-28 · **Value:** QAR 73,500 contract · **HEADLINE**
+
+Work Order **WO/1A/096/26** dated 27-09-2026 awards TNDK the Capital Grille cold rooms at ABESQ
+Hotel for **73,500** against revised quotation QUT/DCTS/SQ101/2026. Value, scope and the 75/20/5
+payment terms all match our offer exactly. **Three things in it do not come from our quotation.**
+
+**1. Clause 6 — delay penalty of QAR 2,000 per calendar day**, until complete delivery,
+*"deduct such penalties from any amounts due to the Supplier."* Our quotation carries no penalty
+clause. On a 73,500 contract this is severe: **the 5% retention stage of 3,675 is gone in two
+days, the 20% stage of 14,700 in eight, and the whole contract in 37.** If the true margin is the
+house 13–14%, roughly 10,000, **five days of delay erases the entire profit on the job.**
+
+**2. Clause 3 — 30 days from order confirmation.** More generous than our own 18–22 days, so no
+conflict, but note the clock starts at **order confirmation**, not at receipt of the advance.
+Our quotation runs material delivery from *"LPO and approved advance payment"*. **If the advance
+is slow, the penalty clock has already been running.** That gap is where the 2,000/day bites.
+
+**3. Clause 5, fourth bullet — a submittal obligation.** Final verified dimensions, equipment
+data, layout and connection requirements are to be submitted *for coordination and approval
+before fabrication*. Panel cannot be cut until One A approves. Nothing has been submitted.
+
+**Also: clause 5 names ARTWOOD**, not TNDK, as the party liable to repair defective work. Their
+work order is templated from another subcontractor's. It is in TNDK's favour as written, but it
+shows the document was not read before issue and should be queried in writing.
+
+**Needed:** (a) Farhan's decision on the penalty — accept, or write to One A before signing;
+(b) the signed and stamped work order returned to info@oneaqatar.com and m.khalifa@oneaqatar.com
+— **they asked for it within 48 hours of 27-09-2026**; (c) the submittal package.
+
+### OL-064 — Capital Grille: water-cooled condensing units depend on a circuit by others
+**Owner:** Farhan · **Raised:** 2026-09-28
+
+Both units are **Bitzer water-cooled** — K073/2GES-2Y to the chiller, K123/2DES-2Y to the
+freezer. The cooling water supply, tower or chilled water circuit, circulation pump and the
+water piping and valves up to the condensers are **by others**, stated in our quotation and
+repeated as clause 5 of the work order, so the exclusion is agreed on both sides.
+
+**The exposure is programme, not scope.** These units cannot be commissioned until somebody
+else's water circuit is live, and commissioning is what releases the final 5%. With a 2,000/day
+penalty running (OL-063), **a delay caused by the water circuit is a delay TNDK pays for unless
+it is documented as an owner's delay at the time.** Record the date the water connection is
+offered, in writing, and notify One A the moment it is late.
