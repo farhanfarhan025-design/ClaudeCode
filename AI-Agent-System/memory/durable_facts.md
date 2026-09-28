@@ -15,6 +15,8 @@ A fact without a source is not a fact.
 | Legal name | The New Doha Kitchen Equipment Services W.L.L. | conventions.md | high |
 | Short name | TNDK | conventions.md | high |
 | Associated entity | Doha Cooling Trading & Solutions W.L.L. (DCTS) | conventions.md | high |
+| **C.R. number (TNDK)** | **199351** | company seal supplied by Farhan 28-09-2026 | high |
+| C.R. number (Doha Cooling) | 93354 | Doha Cooling letterhead | high |
 | Address | P.O. Box 80247, Doha, State of Qatar | conventions.md | high |
 | Tel | 7706 0676 | conventions.md | high |
 | Email | farhan@dctsqatar.com | conventions.md | high |

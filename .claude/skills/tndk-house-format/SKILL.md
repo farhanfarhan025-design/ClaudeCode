@@ -150,6 +150,11 @@ inverts the whole point of having it.
   a separate step, with `scripts/stamp.py in.pdf out.pdf`. It anchors on the signatory name,
   drops the block in the clear space to its left, and obscures no printed text. Keep the
   unsigned PDF as well; the signed one is the copy that leaves the office.
+  `assets/seal_sign.png` is the seal **with** Farhan's signature, for invoices and receipts.
+  `assets/tndk_seal_only.png` is the clean company seal on its own, transparent, for documents
+  that carry a printed stamp box rather than a signature — Farhan supplied it on 28 September
+  2026. It reads **THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L. · C.R. NO. 199351 · DOHA –
+  QATAR**, which is where TNDK's C.R. number comes from.
 - **Footer on every page**, pinned to the page edge however short the document is — and on
   every page of a document that runs to two or three, which is where it is easiest to lose.
 - **Pages after the first open with a top margin.** Page 1 is full bleed so the navy header

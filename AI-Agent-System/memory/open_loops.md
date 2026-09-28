@@ -1378,3 +1378,14 @@ either.
 
 **Excluded deliberately and flagged:** CCC/HIA 253,500 and Mesaieed 400,000 (awarded, not
 started), Home-Made by Earth 46,900 (in progress), Oriental Agro panel shifting (no price).
+
+**Reissued 28-09-2026 on Farhan's instruction** as `TNDK/PROJ/2026-0928`, on **The New Doha
+Kitchen Equipment Services W.L.L.** letterhead rather than Doha Cooling, signed **Sales
+Engineer** (not Managing Partner), and carrying the TNDK company seal in the stamp box.
+The intro and note 1 were reversed to name TNDK first with Doha Cooling as the associated
+company — **the list still contains Doha Cooling contracts** (Oriental Agro, Alayees, both
+Paramount orders), which is 2,624,286 of the 2,862,736, so both entities must stay named or
+the references will not match the paperwork the clients hold.
+**Farhan's title is Sales Engineer**, consistent with the quotation signature block. The
+Alayees contract CA/92/SQ033/2025 describes him as the Doha Cooling signatory with full
+authority; that is a signing capacity, not a job title, and the two do not conflict.
