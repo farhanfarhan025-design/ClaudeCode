@@ -1520,7 +1520,18 @@ penalty running (OL-063), **a delay caused by the water circuit is a delay TNDK 
 it is documented as an owner's delay at the time.** Record the date the water connection is
 offered, in writing, and notify One A the moment it is late.
 
-### OL-065 — Home-Made by Earth cuts the advance to 30% and the job stops funding itself
+### OL-065-A — CORRECTION: the 30/40 request is One A, not Home-Made by Earth
+**Raised:** 2026-09-28
+
+Farhan's "client is having a trust issue in giving 70% advance" was read here as Home-Made by
+Earth, whose advance had been cut to 70% on 17-09-2026. He then supplied the One A work order and
+said *"I'm talking about this project not earth."* **The request belongs to One A Design + Build,
+the Capital Grille job at 73,500 — see OL-066. Home-Made by Earth's terms are unchanged at
+70/25/5**, and LTR/DCTS/247/2026 was drafted against the wrong client. It has not been sent and
+must not be; the entry below is retained only for the cash analysis, which was sound but applied
+to the wrong contract.
+
+### OL-065 — Home-Made by Earth cuts the advance to 30% — WITHDRAWN, see OL-065-A
 **Owner:** Farhan · **Raised:** 2026-09-28 · **Value:** QAR 46,900 · **HEADLINE**
 
 The client has asked for **30% advance and 40% on delivery of the sandwich panel**, citing trust,
@@ -1559,3 +1570,46 @@ title until the 40% is paid — already written into LTR/DCTS/247 as drafted.
 
 **Needed:** Farhan's decision, and an amended LPO from the client carrying both 46,900 and the
 new schedule before the advance is chased.
+
+### OL-066 — One A cuts the advance from 75% to 30% on a contract with a 2,000/day penalty
+**Owner:** Farhan · **Raised:** 2026-09-28 · **Value:** QAR 73,500 · **HEADLINE**
+
+One A has asked for **30% advance and 40% on delivery of the sandwich panel** in place of the
+75/20/5 written into work order WO/1A/096/26, which they signed on 27-09-2026. Contract value
+unchanged. Confirmed under **LTR/DCTS/248/2026**, and **INV-272/2026 reissued the same day at the
+30% advance of 22,050**, superseding the 55,125 invoice raised earlier that day. The 25% on
+completion and 5% on handover are mine; Farhan relayed only the first two stages.
+
+**The advance falls by 33,075, from 55,125 to 22,050.**
+
+| | QAR |
+|---|---|
+| Estimated cost at the house margin of 13.5% | ~63,578 |
+| Advance received | (22,050) |
+| **Funded from working capital until the panel is delivered** | **~41,528** |
+| Still short after the 40% lands | ~12,128 |
+
+**This is a far worse exposure than the Home-Made by Earth case it was first confused with**, both
+in size and because of what sits alongside it.
+
+**The penalty is the reason this matters.** Clause 6 charges **QAR 2,000 per calendar day**,
+deductible from sums due. At the house margin of about 9,900 on this job, **five days of delay
+erases the profit** — and the delay most likely to occur is one TNDK does not control: the
+water-cooled units cannot be commissioned until a cooling-water circuit by others is live
+(OL-064).
+
+**The trade is obvious and has not been made.** One A has asked TNDK to carry 45% of the contract
+value that their own signed work order does not require them to give up. **That concession is
+worth something, and the thing to ask for is the deletion or capping of the 2,000/day penalty.**
+Nothing has been offered in exchange so far.
+
+**Drafted into LTR/DCTS/248 and available to strike if Farhan prefers:** that the 30 day period
+and the clause 6 delay provisions run **from receipt of the advance**, not from order
+confirmation — otherwise the penalty clock runs while TNDK waits to be paid enough to order
+material. Also drafted: title retained until the 40% is paid, the 40% payable against a delivery
+note signed at site, and delays in the water circuit, the electrical supply or site readiness
+recorded as owner's delays.
+
+**Note the signature position.** One A asked for the signed and stamped work order back within 48
+hours of 27-09-2026. **It carries 75/20/5. Do not return it signed while asking to be paid on
+different terms** — the amendment should be agreed first, or signed and returned together with it.
