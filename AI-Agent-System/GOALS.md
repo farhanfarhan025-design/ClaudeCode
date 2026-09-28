@@ -94,3 +94,29 @@ negotiation. Document production and tracking do not need him.
 Farhan makes **decisions** (scope, price, approve-to-send) and touches **no document production**.
 
 **Metric.** Owner-touches per completed job. **Direction: down.**
+
+## G7 — Know what we owe and what we hold  *(owner: ACCOUNTS TEAM)*
+
+**Problem.** Receivables are tracked to the riyal — **614,350** across eight clients, with terms
+and milestones. Payables are tracked nowhere: no bill register, no due dates, no payment run.
+The cash position is equally unrecorded — the register's "Received" column does not distinguish
+cleared money from a cheque that has not yet cleared, and no instrument register exists.
+
+TNDK can answer *what are we owed*. It cannot answer *what do we owe* or *what have we got*.
+Two of the three questions a finance function exists to answer have no owner.
+
+**Outcome.** All three answerable at any moment, each with a source and an "as of" date.
+
+**Definition of Done.**
+- A payables register covering every open LPO, with due dates and a three-way match
+  (LPO ↔ delivery ↔ invoice). Zero bills paid without an LPO behind them.
+- An instrument register: every logged receipt has a cheque/transfer/cash record and a status.
+- The cash position always reported as three separate figures — cleared, in hand uncleared,
+  committed out — never merged into one.
+- A month-end close that ties out three ways: receipts logged = Received = instruments.
+
+**Metric.** Month-end tie-out variance in QAR. **Target: 0, or explained.**
+**Baseline: not measurable — two of the three registers do not exist yet.**
+
+> This goal's baseline is deliberately not a number. Writing one would require inventing the
+> payables figure, which `RULES.md` A3 forbids. The first month's close establishes it.
