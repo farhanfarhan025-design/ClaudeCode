@@ -1,0 +1,91 @@
+TEAM PACK — Tuesday 29 Sep 2026 · pack TEAM-20260929 · written 29 Sep 18:55 IST
+Source: daily/briefs/2026-09-29.md only. Analysis only — not investment advice.
+
+=== STAGE 1 · DESKS ===
+
+--- Market News Research Lead desk ---
+Research Analyst: Second risk-off day, milder (Nifty −0.28%), with broader markets weaker (MidCap −0.99%). The one company-specific catalyst is the Adani group's SEBI settlement (₹1.48 Cr), which lifted ADANIENT +5.01% and ADANIPORTS +4.49%.
+Sentiment Analyst: Tone is still defensive (crude, Fed hike, FII selling). The Adani news reads as relief: an old regulatory overhang closed for a small fee.
+Stock Movement Analyst: Gainers split into a catalyst group (Adani, SEBI settlement) and defensives with no stated cause (DRREDDY +2.53%, NTPC). IT fell despite a weaker rupee, which fits the Nasdaq's tech sell-off.
+  Gaps: causes for TITAN, WIPRO, HCLTECH.
+News Credibility Analyst: The SEBI settlement is a regulatory outcome reported by several outlets (HIGH). Brent varies from $105.31 to "near $110" across sources (MED). The TMPV price source contradicts itself (price below its own stated 52-week low); LOW.
+Market Impact Analyst: A ₹1.48 Cr settlement is trivial for the group; the move prices removal of uncertainty, not new earnings. Much of that is likely done in one day.
+  CALL: ADANIENT NEUTRAL 0.55
+LEAD (Market News Research Lead): Macro still dominates. On Adani the desk sees the relief as largely priced (NEUTRAL). It keeps its TMPV DOWN view from yesterday: crude is no lower.
+  CALL: ADANIENT NEUTRAL 0.55
+  CALL: TMPV DOWN 0.55
+
+--- Equity Research Lead desk ---
+Fundamental Research Analyst: No earnings, valuation or balance-sheet data in the brief. No call.
+Financial Forensics Analyst: The settlement closes a governance matter (minimum public shareholding) without admission detail in the brief. That's a reduced red flag, but not a financial one. No call.
+Pre-Earnings Intelligence Analyst: No results dates in the brief. No call.
+LEAD (Equity Research Lead): The desk still has no fundamentals to work with. No calls.
+
+--- Head of Industry & Geopolitical Research desk ---
+Industry Research Analyst: DRREDDY rose for a second day (+1.67%, then +2.53%) as the rupee hit 96.13/$. Pharma exporters hold up; IT did not, because the Nasdaq tech sell-off outweighed the rupee.
+  CALL: DRREDDY UP 0.56
+Geopolitical Risk Analyst: No US–Iran de-escalation in the brief. Crude is $105–110 by every source. The Fed hike adds pressure on emerging-market flows.
+  CALL: TMPV DOWN 0.57
+LEAD (Head of Industry & Geopolitical Research): The oil channel is unchanged. The desk holds TMPV DOWN and DRREDDY UP.
+  CALL: TMPV DOWN 0.57
+  CALL: DRREDDY UP 0.56
+
+--- Head of Market Activity & Ownership Research desk ---
+Market Volume Intelligence Analyst: No volume data in the brief. No call.
+Insider Activity Analyst: No insider trades. The Adani settlement involves promoters, but it's a regulatory settlement, not a trade. No call.
+Fund Holdings Research Analyst: FIIs sold ₹5,353.22 Cr on Monday and $3.7 bn in September. That's persistent selling, but it tells us nothing stock-specific. The ₹2,498 Cr ADANIENT block deal (25 Sep) shows large holders were active before the settlement.
+  Gaps: who bought and sold in the block deal.
+Short-Seller Research Analyst: No short-interest data. No call.
+LEAD (Head of Market Activity & Ownership Research): Flows are a market-wide headwind. No stock calls without NSE deal data.
+
+=== STAGE 2 · REVIEW DESK ===
+
+Bull Case Analyst: ADANIENT removed a regulatory overhang, and big holders were active days before. If flows follow, the relief rally can extend.
+  CALL: ADANIENT UP 0.55
+Bear Case Analyst: A +5% rise on a ₹1.48 Cr fine is mostly sentiment, in a market where FIIs are selling. TMPV's headwinds (crude, Fed) are unchanged.
+  CALL: TMPV DOWN 0.58
+Research Validation Analyst: Checked every desk claim against the brief.
+  - "IT fell because of the Nasdaq tech sell-off": the brief has Nasdaq −0.9% on tech weakness but no source linking it to Indian IT. Keep it labelled as interpretation.
+  - "Large holders were active before the settlement": the block deal is sourced, but its buyers and sellers are unknown. Don't call them "large holders" beyond the deal size. Soften it.
+  - TMPV price data unreliable (source conflict). The TMPV calls rest on crude and the Fed, not on its price. OK.
+  - Yesterday's calls, checked informally against today's news prices: TMPV DOWN and DRREDDY UP both look right after one day. That's one day only, unofficial; the real grades wait on NSE closes.
+LEAD (Independent Research Review Lead): TMPV DOWN survives again. DRREDDY UP survives at low conviction. ADANIENT is contested: Bull says UP, the News desk says NEUTRAL. The review sides with NEUTRAL, because the brief can't separate a durable rerating from a one-day relief move.
+  CALL: TMPV DOWN 0.57
+
+=== STAGE 3 · CHIEF ===
+
+Close-of-day — 29 Sep 2026
+Chief: CMIO · pack TEAM-20260929
+Analysis only — not investment advice.
+
+Holds (facts):
+• Nifty 22,716.20 (−0.28%), second day down; MidCap −0.99%, SmallCap −0.81%. HIGH
+• Rupee 96.13/$; FIIs sold ₹5,353.22 Cr Monday, $3.7 bn in September. HIGH
+• Brent $105–110 depending on source. MED on level, HIGH on direction
+• Adani group settled SEBI proceedings for ₹1.48 Cr; ADANIENT +5.01%, ADANIPORTS +4.49%. HIGH
+• DRREDDY +2.53% (second up day); TITAN, WIPRO about −3%. HIGH
+
+Read:
+• Oil, rupee and FII selling keep the market heavy (Industry & Geopolitical, Activity desks).
+• Adani's jump is relief from a closed regulatory matter, not new earnings (News desk).
+
+Contested:
+• ADANIENT: Bull UP vs News desk NEUTRAL. The Chief sides with NEUTRAL.
+
+Gaps:
+• Still no official NSE data; Equity and Activity desks mostly blind.
+• Early feedback: yesterday's TMPV DOWN and DRREDDY UP look right on news-site prices. That's one day only and unofficial.
+
+Calls:
+CALL | agent=Market Impact Analyst | ticker=ADANIENT | dir=NEUTRAL | conf=0.55 | as_of=2026-09-29T18:55:00+05:30 | pack=TEAM-20260929 | thesis=relief from a ₹1.48 Cr settlement largely priced in one day
+CALL | agent=Market News Research Lead | ticker=ADANIENT | dir=NEUTRAL | conf=0.55 | as_of=2026-09-29T18:55:00+05:30 | pack=TEAM-20260929 | thesis=overhang removal priced
+CALL | agent=Market News Research Lead | ticker=TMPV | dir=DOWN | conf=0.55 | as_of=2026-09-29T18:55:00+05:30 | pack=TEAM-20260929 | thesis=crude no lower
+CALL | agent=Industry Research Analyst | ticker=DRREDDY | dir=UP | conf=0.56 | as_of=2026-09-29T18:55:00+05:30 | pack=TEAM-20260929 | thesis=second up day as rupee hits 96
+CALL | agent=Geopolitical Risk Analyst | ticker=TMPV | dir=DOWN | conf=0.57 | as_of=2026-09-29T18:55:00+05:30 | pack=TEAM-20260929 | thesis=no de-escalation; crude 105-110; Fed hike
+CALL | agent=Head of Industry & Geopolitical Research | ticker=TMPV | dir=DOWN | conf=0.57 | as_of=2026-09-29T18:55:00+05:30 | pack=TEAM-20260929 | thesis=oil channel unchanged
+CALL | agent=Head of Industry & Geopolitical Research | ticker=DRREDDY | dir=UP | conf=0.56 | as_of=2026-09-29T18:55:00+05:30 | pack=TEAM-20260929 | thesis=exporter holding up on weak rupee
+CALL | agent=Bull Case Analyst | ticker=ADANIENT | dir=UP | conf=0.55 | as_of=2026-09-29T18:55:00+05:30 | pack=TEAM-20260929 | thesis=regulatory overhang removed
+CALL | agent=Bear Case Analyst | ticker=TMPV | dir=DOWN | conf=0.58 | as_of=2026-09-29T18:55:00+05:30 | pack=TEAM-20260929 | thesis=crude and Fed headwinds unchanged
+CALL | agent=Independent Research Review Lead | ticker=TMPV | dir=DOWN | conf=0.57 | as_of=2026-09-29T18:55:00+05:30 | pack=TEAM-20260929 | thesis=survives review second day
+CALL | agent=CMIO | ticker=TMPV | dir=DOWN | conf=0.55 | as_of=2026-09-29T18:55:00+05:30 | pack=TEAM-20260929 | thesis=oil, rupee and FII selling keep autos under pressure
+CALL | agent=CMIO | ticker=ADANIENT | dir=NEUTRAL | conf=0.55 | as_of=2026-09-29T18:55:00+05:30 | pack=TEAM-20260929 | thesis=one-day relief; no earnings change
