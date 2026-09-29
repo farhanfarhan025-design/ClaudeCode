@@ -225,6 +225,7 @@ client funds the purchase in full.
 | LPO-201/2026, 26-08-2026 | Al Buhsain Steel Industries W.L.L. (JMB) | **Oscar Prime** cold room | 11,930 | 50% advance / 50% before shipment | drafted, not issued |
 | LPO-202/2026, 22-09-2026 | Al Buhsain Steel Industries W.L.L. (JMB) | **project not stated** — vendor quote's Project field blank again | 7,500 (7,503.50 less 3.50 rounding) | 50% advance / 50% before shipment, EXW factory | drafted, not issued |
 | LPO-203/2026, 28-09-2026 | Geo Panel (Mesaieed Industrial City) | **project not stated** | 39,140 (412 sqm @ 95.00) | **100% advance**, ex-factory Mesaieed | drafted, not issued |
+| LPO-204/2026, 29-09-2026 | Geo Panel (Mesaieed Industrial City) | **project not stated** — cut lengths suggest Capital Grille | 11,891 (125.17 sqm @ 95.00, less 0.15 rounding) | **100% advance**, ex-factory Mesaieed | drafted, not issued |
 
 Ordered **after** the Jollibee advance was received — LPO 6 Jul, cheque 7 Jul, materials 14 Jul.
 Collected 27,600 against committed 9,500, so the project was never funded out of working capital.

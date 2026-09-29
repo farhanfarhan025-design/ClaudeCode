@@ -1617,3 +1617,42 @@ recorded as owner's delays.
 **Note the signature position.** One A asked for the signed and stamped work order back within 48
 hours of 27-09-2026. **It carries 75/20/5. Do not return it signed while asking to be paid on
 different terms** — the amendment should be agreed first, or signed and returned together with it.
+
+### OL-067 — Geo Panel is 0.40 mm Aluzinc; SQ101 sold Capital Grille 0.5 mm PPGI
+**Owner:** Farhan · **Raised:** 2026-09-29 · **HEADLINE**
+
+**LPO-204/2026**, Geo Panel, **11,891** for **125.17 sqm** of 100 mm panel at 95.00, drafted
+29-09-2026 against quotation GEO/Q3455. Their cut schedule reconciles exactly — 2.60 m × 29 +
+2.70 m × 10 + 2.53 m × 9 = 125.17 sqm across 48 panels — and 125.17 × 95 = 11,891.15, rounded to
+11,891.00 on their own quotation.
+
+**The quantity points at the Capital Grille job.** SQ101 sells 117.17 sqm of panel; this order is
+**8.00 sqm more, exactly**, which reads as a cutting allowance of about 6.8%. The quotation's
+Project field is blank, so that is an inference, not a fact — but it is the only live job on file
+with a panel figure this close.
+
+**If it is Capital Grille, the specification does not match what was sold:**
+
+| | SQ101 sold to One A | Geo Panel supplies |
+|---|---|---|
+| Skin gauge | **0.5 mm** | **0.40 mm** |
+| Substrate | pre-painted galvanised steel (PPGI) | pre-painted **Aluzinc** |
+| Colour | food-grade **white** | **RAL 9002** (grey white) |
+
+**One A's work order closes this off explicitly.** Clause 5 requires TNDK to *"install the works in
+accordance with the accepted quotation"* and *"do not alter the quoted scope, equipment or
+materials without written approval."* **Fitting 0.40 mm Aluzinc RAL 9002 against a quotation
+selling 0.5 mm PPGI food-grade white is a variation of materials, and needs One A's written
+approval before the panel is cut — not at handover.**
+
+This is the third time the gauge has moved: OL-044 caught 0.45 mm at Al Buhsain against 0.5 mm
+sold on SQ074, LPO-203 was the same 0.40 mm Aluzinc, and now it is tied to a named contract with
+a materials-variation clause.
+
+**Two Geo Panel orders in two days total 51,031** (LPO-203 412 sqm, LPO-204 125.17 sqm), both on
+**100% advance**, both with the Project field blank. That is 51,031 of cash out with nothing
+posted to a job.
+
+**Needed:** (a) confirm which job each order is for; (b) if Capital Grille, either get One A's
+written approval of the 0.40 mm Aluzinc or buy 0.5 mm PPGI to the quotation; (c) confirm the
+8.00 sqm is a cutting allowance and not a quantity error.
