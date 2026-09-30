@@ -1570,7 +1570,27 @@ def _render(output, tmp):
     return pdf if pdf.is_file() else None
 
 
-def drifted_pictures(pdf):
+def surviving_pictures(spec):
+    """The anchors, and the HOUSE_PICTURES positions, this quote still has.
+
+    `remove` deletes a master photograph outright, so every picture after it
+    shifts up one in the rendered document. Both the anchor list and the
+    `scales` keys — which are positions in HOUSE_PICTURES — have to skip the
+    gap, or the page fit shrinks the wrong photograph.
+    """
+    anchors = list(PICTURE_ANCHORS)
+    keep = list(range(len(PICTURE_ANCHORS)))
+    for item in spec.get("remove") or []:
+        after = (item.get("after") or "").lower()
+        for i, anchor in enumerate(anchors):
+            if anchor in after or after in anchor:
+                del anchors[i]
+                del keep[i]
+                break
+    return anchors, keep
+
+
+def drifted_pictures(pdf, anchors=None):
     """Pictures that did not land on the page of the section they illustrate.
 
     Returns [(picture index, its page, the section's page)]. The four banners
@@ -1579,7 +1599,7 @@ def drifted_pictures(pdf):
     """
     pages, texts = _picture_pages(pdf), _page_texts(pdf)
     out = []
-    for i, anchor in enumerate(PICTURE_ANCHORS):
+    for i, anchor in enumerate(anchors or PICTURE_ANCHORS):
         if i + 1 >= len(pages):                       # [0] is the cover
             break
         want = next((n for n, text in enumerate(texts, 1)
@@ -1629,6 +1649,7 @@ def fit_pages(spec, output, scales=None):
             print(f"  ! {tool} not found — skipping the page fit", file=sys.stderr)
             return scales or {}
     scales = dict(scales or {})
+    anchors, keep = surviving_pictures(spec)
     for _ in range(40):
         with tempfile.TemporaryDirectory() as tmp:
             pdf = _render(output, tmp)
@@ -1636,7 +1657,7 @@ def fit_pages(spec, output, scales=None):
                 print("  ! PDF conversion failed — skipping the page fit",
                       file=sys.stderr)
                 return scales
-            bad = drifted_pictures(pdf)
+            bad = drifted_pictures(pdf, anchors)
             thin = None if bad else sparse_page(pdf)
         if not bad and not thin:
             return scales
@@ -1647,7 +1668,11 @@ def fit_pages(spec, output, scales=None):
         else:
             page, group = thin
             why = f"leave page {page} nearly empty"
-        shrink = [i] if bad else group
+        # the page fit counts pictures as rendered; `scales` is keyed on the
+        # house layout, which still numbers the ones this quote removed
+        shrink = [keep[j] for j in group if j < len(keep)]
+        if not shrink:
+            return scales
         for j in shrink:
             scales[j] = round(scales.get(j, 1.0) * 0.9, 3)
         worst = min(scales[j] for j in shrink)
