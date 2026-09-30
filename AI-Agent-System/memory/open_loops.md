@@ -1292,6 +1292,22 @@ Three documents were produced today and none has been appended to the log in Dri
   2 HP as matching the existing installation on the client's advice, not our selection.
   **Work completion of 02-03 days, 15 day validity and the warranty terms were assumed** —
   Farhan gave none of them. **No supplier cost on file.** Seventh job quoted without one.
+- **QUT/DCTS/249/2026** — Mr. Junaid, supply and installation of a PVC strip curtain to a
+  1.10 x 2.10 m opening with a stainless steel rail and hooks. **485**, issued 30-09-2026.
+  **New client** — no address, contact number or site address.
+  **NUMBERED 249, NOT 247.** The letter series shares the quotation serial, and LTR/DCTS/247
+  and 248 were issued on 28-09-2026 to Home-Made by Earth and One A. Taking 247 here would
+  have collided with a letter already out.
+  **FARHAN WROTE "20 mm width"; THE QUOTE SAYS 200 mm.** A 20 mm strip is a ribbon — at 50%
+  overlap a 1.10 m opening would need about 110 of them, which is not a 485 job. 200 mm is the
+  standard strip and needs about 11 or 12. **Read as 200 mm and flagged to Farhan**; if he
+  meant 2 mm thickness as well, the quote needs a thickness line it does not have.
+  **Strip thickness is not stated anywhere** — not by Farhan and not on the quotation.
+  **Note 2 makes the opening size subject to site measurement** before cutting, because cut
+  strips cannot be re-used on another opening.
+  **Warranty excludes clouding, discolouration and stiffening of the PVC** — it is a wearing
+  item and this is the complaint such a job attracts a year later.
+  **Payment terms, completion time and warranty were all assumed** — Farhan gave a price only.
 - **WO/DCTS/001/2026** — Al Zehrabi work order, 18-08-2026. **Opens a new series**; the log has
   no work-order column yet.
 - **INV-263/2026** — Al Zehrabi, **4,900 in full**, issued 19-08-2026 (redrafted from an 80%
