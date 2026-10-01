@@ -1713,3 +1713,39 @@ cheque fails.
 **This is the second name defect from this client**: their receipt voucher 0684 allocated the
 earlier cheque to cold room work when it covered two orders. Worth stating the exact payee name
 in the covering email on every future invoice to Sunrise.
+
+### OL-069 — Capital Grille advance received; the programme and the penalty clock are running
+**Owner:** Farhan · **Raised:** 2026-10-01 · **Value:** QAR 47,775 outstanding · **TIME-CRITICAL**
+
+**25,725 received by bank transfer** from One A — transaction reference MS1A03383663, reference
+MB260930957255, debit account 0251-054777-001, credited to the Commercial Bank IBAN. Receipted
+under **RCT-274/2026**. That is the 35% advance on INV-272/2026 to the riyal, so **One A has
+accepted the revised 35/40/20/5 schedule by performance**, whether or not LTR/DCTS/248 has come
+back countersigned.
+
+**Balance 47,775**: 29,400 on panel delivery, 14,700 on completion of installation, 3,675 at
+handover.
+
+**The clock has started and it carries a 2,000/day penalty (OL-063).** On LTR/DCTS/248 as drafted
+the 30 day period runs from receipt of the advance, giving completion around **31-10-2026**. If
+One A has not accepted that amendment, their clause 3 runs from order confirmation of 27-09-2026,
+giving **27-10-2026** — four days earlier. **Work to the earlier date until the countersigned
+amendment is on file.**
+
+**Three things are now on the critical path:**
+1. **Order the material today.** LPO-204/2026 (Geo Panel, 125.17 sqm, 11,891, **100% advance**) is
+   drafted and unissued, and the quantity matches this job. Geo Panel quote GEO/Q3455 expires
+   **7 days from 29-09-2026**.
+2. **Resolve the panel specification first — OL-067.** Geo Panel is 0.40 mm Aluzinc RAL 9002;
+   SQ101 sold One A 0.5 mm PPGI food-grade white, and clause 5 of their work order forbids
+   altering quoted materials without written approval. **Panel cut before that approval is panel
+   bought twice.**
+3. **The Bitzer water-cooled units are the long-lead item** — K073/2GES-2Y and K123/2DES-2Y — and
+   no LPO exists for them. Nothing is on order for the largest cost line on this contract.
+
+**Also outstanding:** the submittal One A requires before fabrication (final dimensions, equipment
+data, layout, connection requirements — clause 5), and the signed work order they asked for within
+48 hours of 27-09-2026, now overdue.
+
+**Note the contrast with OL-068.** This transfer reached the right account because it went by IBAN;
+the Sunrise cheque the same week is made out to a name the account is not in.
