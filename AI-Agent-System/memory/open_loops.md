@@ -1749,3 +1749,28 @@ data, layout, connection requirements — clause 5), and the signed work order t
 
 **Note the contrast with OL-068.** This transfer reached the right account because it went by IBAN;
 the Sunrise cheque the same week is made out to a name the account is not in.
+
+### OL-070 — Capital Grille: the plywood order is about three sheets short
+**Owner:** Farhan · **Raised:** 2026-10-01 · **Value:** ~QAR 345
+
+Al Andalus invoice R26/SA/S1136654 supplies **5 sheets** of 18 mm marine plywood, 8' × 4'.
+
+An 8' × 4' sheet is **2.9729 sqm**, so 5 sheets is **14.86 sqm**. **SQ101 sells an insulated floor
+of 22.11 sqm** to both rooms — 100 mm PUF panel, 18 mm marine plywood and 1.5 mm MS chequered
+plate. The plywood is therefore **7.25 sqm short, about 2.4 sheets**; **8 sheets are needed**
+before any cutting waste.
+
+At 115 a sheet the shortfall is about **345** — trivial money, but the floor cannot be finished
+without it and a second trip to Al Andalus costs more in time than the plywood. **Check whether
+3 more sheets are coming before the floor is laid.**
+
+Two smaller points on the same purchases:
+
+- **The Quest voucher carries no detail at all.** Voucher 3869, 2,390 cash, 01-10-2026, with
+  "chequered plate" written on it and **no quantity, no thickness and no rate**. SQ101 sells
+  **1.5 mm** MS chequered plate over 22.11 sqm. There is nothing on this document to show what
+  thickness or area was bought, and nothing to check a delivery against. **Ask Quest for a proper
+  invoice.** It is also made out to **Doha Cooling** on a job that is TNDK's throughout.
+- **No coving has been bought.** 20 pcs of 40 × 40 aluminium angle covers the external corners;
+  SQ101 also sells **aluminium sanitary coving at all wall–floor and wall–ceiling joints**, which
+  is a different section and is not on either invoice.

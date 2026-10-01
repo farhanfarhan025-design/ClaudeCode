@@ -227,7 +227,7 @@ client funds the purchase in full.
 | LPO-201/2026, 26-08-2026 | Al Buhsain Steel Industries W.L.L. (JMB) | **Oscar Prime** cold room | 11,930 | 50% advance / 50% before shipment | drafted, not issued |
 | LPO-202/2026, 22-09-2026 | Al Buhsain Steel Industries W.L.L. (JMB) | **project not stated** — vendor quote's Project field blank again | 7,500 (7,503.50 less 3.50 rounding) | 50% advance / 50% before shipment, EXW factory | drafted, not issued |
 | LPO-203/2026, 28-09-2026 | Geo Panel (Mesaieed Industrial City) | **project not stated** | 39,140 (412 sqm @ 95.00) | **100% advance**, ex-factory Mesaieed | drafted, not issued |
-| LPO-204/2026, 29-09-2026 | Geo Panel (Mesaieed Industrial City) | **project not stated** — cut lengths suggest Capital Grille | 11,891 (125.17 sqm @ 95.00, less 0.15 rounding) | **100% advance**, ex-factory Mesaieed | drafted, not issued |
+| LPO-204/2026, 29-09-2026 | **Geopanel Factory W.L.L.** (C.R. 181603) | **Capital Grille / One A** — confirmed by their PI | 11,891 (125.17 sqm @ 95.00, less 0.15 rounding) | **100% advance**, ex-factory Mesaieed | **ISSUED** — their proforma PI/26-0103 of 30-09-2026 cites LPO-204 |
 
 Ordered **after** the Jollibee advance was received — LPO 6 Jul, cheque 7 Jul, materials 14 Jul.
 Collected 27,600 against committed 9,500, so the project was never funded out of working capital.
@@ -346,3 +346,29 @@ Recorded in `tndk-coldroom-quotation/references/pricing-guide.md` and mirrored i
 
 No warranty expiry dates recorded for any completed project. AMC contracted value: **QAR 0**.
 This is a gap, not a finding of fact — ANNUITY's first task is to establish it.
+
+## Capital Grille (One A Design + Build) — live job cost, as at 1 October 2026
+
+**The first job on file being costed as it runs.** Contract **73,500**, advance received
+**25,725** (RCT-274).
+
+| Supplier | Item | Evidence | QAR |
+|---|---|---|---|
+| Geopanel Factory W.L.L. | 100 mm panel, 125.17 sqm / 48 pcs | PI/26-0103, 30-09-2026, against LPO-204 | 11,891.00 |
+| Quest International | Chequered plate | Cash voucher **3869**, 01-10-2026, cash | 2,390.00 |
+| Al Andalus International | Marine plywood 18 mm, 5 sheets @ 115 | Invoice R26/SA/S1136654, 01-10-2026 | 575.00 |
+| Al Andalus International | Alum. angle 40×40×1 mm white, 20 pcs @ 25 | same invoice | 500.00 |
+| | | **Spent to date** | **15,356.00** |
+
+Al Andalus 1,075.00 paid by **QIB debit Mastercard** (auth 368664, 01-10-2026 14:54). Quest 2,390
+paid **cash** — and the voucher reads *"Received from Doha Cooling"* although the contract,
+the Geopanel PI and the work order are all TNDK.
+
+**Cash on the job: 25,725 − 15,356 = 10,369 still in hand.**
+
+**Still to buy, none of it ordered:** 2 × Bitzer water-cooled condensing units (K073/2GES-2Y,
+K123/2DES-2Y), 2 × Tecumseh evaporators, 2 × hinged cold room doors 900 × 1900 with heated
+frames, 2 × control panels, copper pipe, armaflex, drain lines, coving, trims, silicone, and
+labour. At the house margin of 13.5–14%, total cost lands near **63,200–63,600**, so roughly
+**48,000 is still to be spent against 10,369 in hand** — the 40% panel-delivery stage of 29,400
+is what funds it.
