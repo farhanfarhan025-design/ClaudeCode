@@ -37,6 +37,8 @@ A fact without a source is not a fact.
 | Samoosa cold room (freezer) | Samoosa Shop | QUT/DCTS/066/2026 | Quote | 38,500 | 38,500 | 0 — settled, confirmed by Farhan 11-08-2026 |
 | Jollibee condensing unit relocation | Sunrise Trading | PO-2026-0000310 | LPO | 7,000 | part of 23,100 (18-08-2026) | see below |
 
+**SETTLED IN FULL 01-10-2026.** The final 2,300 arrived on cheque no. 00991134, Dukhan Bank, dated 30-09-2026, receipted under RCT-273/2026. Contracted 53,000, received 53,000, balance nil. The position recorded below is superseded.
+
 **Sunrise, combined position as at 18-08-2026.** The two orders are settled together: 18,400 +
 7,000 = 25,400 invoiced and outstanding, against which cheque no. 00990904 (Dukhan Bank,
 dated 16-08-2026) brought in **23,100**. **Balance outstanding: QAR 2,300**, invoiced under
@@ -326,7 +328,7 @@ The larger of the two has collected nothing.
 
 | Series | Next free |
 |---|---|
-| Invoice / Receipt | next after **272** — one running series: 261 cancelled, 263 Al Zahrawi, 264/265 Oscar Prime, 266 Stop n Shop invoice, 267 Stop n Shop receipt, 268 Lean N Fit inspection, 269 Home-Made by Earth advance, 270 Dana Hypermarket door handle, 271 BSI cold room checkup, **272 One A Design + Build 75% advance**. None yet in the Drive log |
+| Invoice / Receipt | next after **273** — one running series: 261 cancelled, 263 Al Zahrawi, 264/265 Oscar Prime, 266 Stop n Shop invoice, 267 Stop n Shop receipt, 268 Lean N Fit inspection, 269 Home-Made by Earth advance, 270 Dana Hypermarket door handle, 271 BSI cold room checkup, 272 One A Design + Build advance, **273 Sunrise final receipt**. None yet in the Drive log |
 | Statement of account | next after **SOA/DCTS/001/2026** (Stop n Shop, 13-09-2026) — series opened that day; TNDK had none. Doha Cooling uses the client AS- series: **AS-2026-9456** (Oriental Agro, 26-09-2026) supersedes AS-2026-9455 |
 | Receipt | RCT-257/2026 |
 | Quotation | next after QUT/DCTS/249/2026, plus the SQ038 / SQ074 series — see OL-018. **247 and 248 were consumed by the letter series** (LTR/DCTS/247 Home-Made by Earth, LTR/DCTS/248 One A) — letters share the quotation serial, so 249 was the next free number |

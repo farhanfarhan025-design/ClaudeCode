@@ -363,8 +363,11 @@ Site not ready; works have not started (Farhan, 11-08-2026). That answers the st
 **no milestone has passed uninvoiced**, because no milestone has been reached. Nothing is overdue
 from the client. The exposure is programme, not collection — see OL-021.
 
-### OL-007 — Jollibee balance — largely collected 18-08-2026
-**Owner:** COLLECT · **Value:** QAR 2,300 remaining of 25,400 (see OL-027)
+### OL-007 — Jollibee balance — CLOSED 2026-10-01, collected in full
+**Owner:** COLLECT · **Closed:** 2026-10-01 · **Value:** nil remaining of 25,400
+
+Final 2,300 received by cheque 00991134 dated 30-09-2026 and receipted under RCT-273/2026.
+Both Sunrise orders are settled: 46,000 + 7,000 = 53,000 contracted, 53,000 received.
 Commissioning confirmed by Farhan 6 Aug 2026 — the milestone has been reached and the balance
 is now due. Invoice raised the same day; see OL-017.
 
@@ -451,8 +454,20 @@ accounts show the whole picture — which is the same reason `OL-011` matters. T
 error to correct after the fact; it is a choice to make deliberately and then apply
 consistently. Until it is made, no P&L for this job will be complete.
 
-### OL-027 — Sunrise short-paid by 2,300, which is exactly 5% of the cold room contract
-**Owner:** Farhan · **Raised:** 2026-08-18 · **Value:** QAR 2,300
+### OL-027 — Sunrise short-paid by 2,300 — CLOSED 2026-10-01, PAID IN FULL
+**Owner:** Farhan · **Raised:** 2026-08-18 · **Closed:** 2026-10-01 · **Value:** QAR 2,300
+
+**Paid.** Cheque no. **00991134**, Dukhan Bank Main Branch, dated **30-09-2026**, drawn by Sun
+Rise Trading and Food Stuff for **2,300.00**, receipted under **RCT-273/2026**. Jollibee is
+settled in full: 53,000 contracted across the two orders, 53,000 received.
+
+**It was not a retention.** The 2,300 was held for 44 days and then paid in full without
+argument, which settles the question this loop was opened on — had their accounts applied a 5%
+retention, it would not have been released on an unretained contract before handover plus a
+retention period. INV-262 stating the reconciliation and recording that no retention applies
+appears to have done its work. The original analysis follows.
+
+### OL-027-OLD — original entry
 
 25,400 was due across INV-259 and INV-260; cheque 00990904 brought 23,100. INV-262/2026 raised
 for the 2,300.
@@ -1672,3 +1687,29 @@ posted to a job.
 **Needed:** (a) confirm which job each order is for; (b) if Capital Grille, either get One A's
 written approval of the 0.40 mm Aluzinc or buy 0.5 mm PPGI to the quotation; (c) confirm the
 8.00 sqm is a cutting allowance and not a quantity error.
+
+### OL-068 — The Sunrise cheque is made out to a name the bank account is not in
+**Owner:** Farhan · **Raised:** 2026-10-01 · **Value:** QAR 2,300 · **ACT BEFORE DEPOSIT**
+
+Cheque **00991134**, Dukhan Bank, 30-09-2026, is crossed **"A/C payee only"** and made payable to:
+
+> **THE NEW DOHA KITCHEN EQUIPMENT AND SERVICES**
+
+The account name on the Commercial Bank IBAN certificate is **"The New Doha Kitchen Equipment
+Services W.L.L."** The cheque therefore carries an **"AND" the account name does not have**, and
+**omits "W.L.L."** entirely. This is the exact discrepancy `SKILL.md` records under the payee
+line: invoices used to carry the "and", and the account is not in that name.
+
+On an ordinary crossed cheque this usually passes. On one marked **A/C payee only** it is a known
+rejection ground, because the collecting bank is instructed to credit the named payee's account
+and no other. A rejection here costs nothing but time — the money is good — **but it restarts a
+balance that has already taken 44 days.**
+
+**Needed:** deposit promptly and watch for it. If the bank queries or returns it, ask Sunrise for
+a replacement drawn exactly as **The New Doha Kitchen Equipment Services W.L.L.** RCT-273/2026 is
+already issued subject to realization, so no correction to the receipt is needed unless the
+cheque fails.
+
+**This is the second name defect from this client**: their receipt voucher 0684 allocated the
+earlier cheque to cold room work when it covered two orders. Worth stating the exact payee name
+in the covering email on every future invoice to Sunrise.
