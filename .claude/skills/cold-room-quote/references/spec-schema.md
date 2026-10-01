@@ -149,7 +149,7 @@ so `images` and `resize` are generally used together.
 | `intro` | replaces the "Dear Sir, ..." paragraph |
 | `total_words` | overrides the auto-generated amount in words |
 | `discount` | `{gross}` or `{amount}` — splits the grand total into sub-total, discount and net, so the client sees what the work is priced at and what he is being let off. `total` stays the **net** payable, and the amount in words follows it. Relabel the three lines with `gross_label`, `label` and `net_label` |
-| `boq` | array of `{"description": "...", "amount": 1234}` replacing the six default lines; `amount` may be omitted for a lump-sum quote |
+| `boq` | array of `{"description": "...", "amount": 1234}` replacing the six default lines; `amount` may be omitted for a lump-sum quote. A line may instead carry `qty` and `rate`, and the table then grows **Qty** and **Unit Price (QAR)** columns — for a client buying several identical rooms, who wants the rate and the count behind the figure. `amount` is then `qty × rate` unless given. One priced line turns the columns on for the whole table |
 | `delivery` | object of `{"<row label>": "<value>"}` patching section 12, e.g. `{"Installation Period": "10 – 14 working days for civil-ready site"}` |
 | `system_type` | replaces the System Type row, for a job that mixes new and re-used plant |
 | `scope` | replace individual scope bullets by key: `panels`, `doors`, `floor`, `machines` |

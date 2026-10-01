@@ -877,18 +877,71 @@ def fill_boq(doc, spec, qs, tot):
     items = spec.get("boq")
     if not items:
         items = default_boq(spec, qs, tot)
+
+    # A client buying several identical rooms wants to see the rate and the
+    # count behind the figure, not just the figure
+    priced = any(isinstance(it, dict) and it.get("rate") for it in items)
+    if priced:
+        add_boq_rate_columns(t)
+        header = row_cells(t.rows[0])
+        set_cell(header[2], "Qty")
+        set_cell(header[3], "Unit Price (QAR)")
+
     while len(t.rows) - 1 < len(items):
         clone_row(t)
     for i, item in enumerate(items, start=1):
         cells = row_cells(t.rows[i])
+        item = item if isinstance(item, dict) else {"description": str(item)}
         set_cell(cells[0], str(i))
-        set_cell(cells[1], item["description"] if isinstance(item, dict) else str(item))
-        amount = item.get("amount") if isinstance(item, dict) else None
-        set_cell(cells[2], f"{float(amount):,.2f}" if amount else "")
+        set_cell(cells[1], item["description"])
+        qty, rate = item.get("qty"), item.get("rate")
+        amount = item.get("amount")
+        if amount is None and rate:
+            amount = float(rate) * float(qty or 1)
+        if priced:
+            set_cell(cells[2], f"{float(qty):g}" if qty else ("1" if rate else ""))
+            set_cell(cells[3], f"{float(rate):,.2f}" if rate else "")
+        set_cell(cells[-1], f"{float(amount):,.2f}" if amount else "")
     # drop any rows the master had beyond what this quote needs — blanking
     # them leaves banded empty rows hanging under the last item
     for r in list(t.rows[len(items) + 1:]):
         r._tr.getparent().remove(r._tr)
+
+
+def add_boq_rate_columns(t):
+    """Give the bill of quantities a Qty and a Unit Price column.
+
+    The master prices a job as a lump sum — one amount per line. The two new
+    columns are cloned from the Amount column so they carry its alignment and
+    shading, and their width comes out of the description.
+    """
+    QTY_W, RATE_W = 700, 1500
+    grid = t._tbl.find(qn("w:tblGrid"))
+    cols = list(grid)
+    desc_w = int(cols[1].get(qn("w:w"))) - QTY_W - RATE_W
+    cols[1].set(qn("w:w"), str(desc_w))
+    for n, w in enumerate((QTY_W, RATE_W)):
+        col = copy.deepcopy(cols[-1])
+        col.set(qn("w:w"), str(w))
+        grid.insert(2 + n, col)
+    for row in t.rows:
+        cells = row_cells(row)
+        _set_cell_width(cells[1], desc_w)
+        last = cells[-1]._tc
+        for w in (QTY_W, RATE_W):
+            new = copy.deepcopy(last)
+            _set_cell_width(new, w)
+            last.addprevious(new)
+
+
+def _set_cell_width(cell, w):
+    tc = cell if hasattr(cell, "find") else cell._tc
+    pr = tc.find(qn("w:tcPr"))
+    if pr is None:
+        return
+    tcw = pr.find(qn("w:tcW"))
+    if tcw is not None:
+        tcw.set(qn("w:w"), str(w))
 
 
 def default_boq(spec, qs, tot):
