@@ -357,8 +357,10 @@ This is a gap, not a finding of fact — ANNUITY's first task is to establish it
 | Geopanel Factory W.L.L. | 100 mm panel, 125.17 sqm / 48 pcs | PI/26-0103, 30-09-2026, against LPO-204 | 11,891.00 |
 | Quest International | Chequered plate | Cash voucher **3869**, 01-10-2026, cash | 2,390.00 |
 | Al Andalus International | Marine plywood 18 mm, 5 sheets @ 115 | Invoice R26/SA/S1136654, 01-10-2026 | 575.00 |
+| **unrecorded** | Marine plywood 18 mm, **3 further sheets** — 8 delivered, 5 invoiced | **no document on file** | **~345.00** |
 | Al Andalus International | Alum. angle 40×40×1 mm white, 20 pcs @ 25 | same invoice | 500.00 |
-| | | **Spent to date** | **15,356.00** |
+| | | **Spent to date (documented)** | **15,356.00** |
+| | | **Spent to date (including the undocumented plywood)** | **~15,701.00** |
 
 Al Andalus 1,075.00 paid by **QIB debit Mastercard** (auth 368664, 01-10-2026 14:54). Quest 2,390
 paid **cash** — and the voucher reads *"Received from Doha Cooling"* although the contract,

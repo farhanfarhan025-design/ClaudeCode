@@ -1750,7 +1750,26 @@ data, layout, connection requirements — clause 5), and the signed work order t
 **Note the contrast with OL-068.** This transfer reached the right account because it went by IBAN;
 the Sunrise cheque the same week is made out to a name the account is not in.
 
-### OL-070 — Capital Grille: the plywood order is about three sheets short
+### OL-070 — Capital Grille plywood shortfall — RESOLVED 2026-10-02, but 3 sheets have no invoice
+**Owner:** Farhan · **Raised:** 2026-10-01 · **Closed:** 2026-10-02
+
+**Farhan confirms 8 sheets of plywood and 8 sheets of chequered plate were delivered.** At
+2.9729 sqm a sheet that is 23.78 sqm against the 22.11 sqm floor — a 7.6% allowance, which is
+right. DN-253 and INV-275 updated to 8 and 8; the blank rule is gone.
+
+**The chequered plate now reconciles to the money**: 2,390 / 8 = **298.75 a sheet**, a sensible
+rate for 1.5 mm MS chequered 8 × 4. That is good corroboration that 8 is the right count, and
+it is the only evidence of quantity that exists for that purchase.
+
+**But the plywood does not. Al Andalus invoiced 5 sheets at 115 — 575. Three sheets, about
+345, were bought somewhere with no invoice on file.** Either a second Al Andalus purchase was
+not photographed, or they came from stock, or from another supplier. **The job cost of 15,356
+recorded in `durable_facts.md` is therefore understated by roughly 345** and should be
+corrected when the document turns up.
+
+The original entry follows.
+
+### OL-070-OLD — original entry
 **Owner:** Farhan · **Raised:** 2026-10-01 · **Value:** ~QAR 345
 
 Al Andalus invoice R26/SA/S1136654 supplies **5 sheets** of 18 mm marine plywood, 8' × 4'.
@@ -1783,16 +1802,10 @@ Two smaller points on the same purchases:
 the 40% stage of **29,400** against it. The invoice is written to be payable against the signed
 delivery note, per LTR/DCTS/248.
 
-**The chequered plate line carries a blank rule for quantity**, to be counted and entered at site.
-Nothing on file says how much was bought: the Quest International voucher 3869 shows 2,390 in cash
-and the words "chequered plate", with **no quantity, no thickness and no rate** (OL-070). A figure
-was not invented. **Farhan should enter the measured quantity before the note is signed**, or tell
-me and it will be reissued under the same number.
-
-**The plywood is shown as 5 sheets because 5 sheets is what the invoice evidences** — 14.86 sqm
-against the 22.11 sqm floor SQ101 sells. If more was delivered than Al Andalus invoiced, the note
-is wrong and must be corrected before signature. If only 5 went, the note is right and the balance
-follows on a second delivery note, which is the cleaner record anyway.
+**Both flooring quantities confirmed by Farhan on 02-10-2026 as 8 sheets each**, and the note was
+reissued under the same number with the blank rule removed. 8 sheets is 23.78 sqm against the
+22.11 sqm floor — a 7.6% cutting allowance. The quantities now exceed what the invoices on file
+evidence for the plywood by three sheets; see OL-070.
 
 **The 40% trigger is satisfied either way.** The amendment ties the stage to *delivery of the
 sandwich panel*, and the panel is delivered in full — the flooring shortfall does not hold up the
