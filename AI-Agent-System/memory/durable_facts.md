@@ -51,7 +51,7 @@ keying error — see OL-027.
 | Drainage system replacement | Lean N Fit | QUT/DCTS/214/2026 | Cash | 1,200 | 1,200 | 0 — completed & paid 11-08-2026 |
 | Cold room — chiller + freezer | Stop n Shop – Bin Omran | QUT/DCTS/SQ076/2026 | Quote | 45,000 | 25,000 (cheque 00006483, QNB, 26-08-2026) | 20,000 — PDC 90 days |
 | Chiller + freezer rooms | Home-Made by Earth | HMBE/LPO/2026/001 | LPO | **46,900** (LPO still reads 45,300) | 0 | 46,900 — 75/20/5 |
-| Chiller + freezer rooms — Capital Grille at ABESQ Hotel | One A Design, Build and Trading W.L.L. | WO/1A/096/26, 27-09-2026 | Work Order | **73,500** | **25,725** (transfer MS1A03383663, received 01-10-2026, RCT-274) | **47,775** — 35/40/20/5; 40% on panel delivery 29,400, 20% on completion 14,700, 5% handover 3,675 |
+| Chiller + freezer rooms — Capital Grille at ABESQ Hotel | One A Design, Build and Trading W.L.L. | WO/1A/096/26, 27-09-2026 | Work Order | **73,500** | **25,725** (transfer MS1A03383663, 01-10-2026, RCT-274) | **47,775** — of which **29,400 now invoiced** under INV-275 against DN-253 (02-10-2026); then 20% completion 14,700 and 5% handover 3,675 |
 | Cold storage project | Oriental Agro Trading | SOA AS-2026-9456 | **Doha Cooling** | 1,103,286 | 1,093,000 | 10,286 |
 | Additional sandwich panel shifting, Street 36 | Oriental Agro Trading | DCTS-INV-006/2026 reserved | **Doha Cooling** | **price not given** | 0 | **not invoiced — awaiting price** |
 | Insulated sectional overhead doors (4 nos.) | Oriental Agro Trading | QUT/DCTS/036/2026 R1 | **Doha Cooling** | 81,000 | 81,000 | 0 — settled 11-05-2026 |
@@ -328,13 +328,13 @@ The larger of the two has collected nothing.
 
 | Series | Next free |
 |---|---|
-| Invoice / Receipt | next after **274** — one running series: 261 cancelled, 263 Al Zahrawi, 264/265 Oscar Prime, 266 Stop n Shop invoice, 267 Stop n Shop receipt, 268 Lean N Fit inspection, 269 Home-Made by Earth advance, 270 Dana Hypermarket door handle, 271 BSI cold room checkup, 272 One A Design + Build advance, 273 Sunrise final receipt, **274 One A advance receipt**. None yet in the Drive log |
+| Invoice / Receipt | next after **275** — one running series: 261 cancelled, 263 Al Zahrawi, 264/265 Oscar Prime, 266 Stop n Shop invoice, 267 Stop n Shop receipt, 268 Lean N Fit inspection, 269 Home-Made by Earth advance, 270 Dana Hypermarket door handle, 271 BSI cold room checkup, 272 One A Design + Build advance, 273 Sunrise final receipt, 274 One A advance receipt, **275 One A second invoice**. None yet in the Drive log |
 | Statement of account | next after **SOA/DCTS/001/2026** (Stop n Shop, 13-09-2026) — series opened that day; TNDK had none. Doha Cooling uses the client AS- series: **AS-2026-9456** (Oriental Agro, 26-09-2026) supersedes AS-2026-9455 |
 | Receipt | RCT-257/2026 |
 | Quotation | next after QUT/DCTS/249/2026, plus the SQ038 / SQ074 series — see OL-018. **247 and 248 were consumed by the letter series** (LTR/DCTS/247 Home-Made by Earth, LTR/DCTS/248 One A) — letters share the quotation serial, so 249 was the next free number |
 | Doha Cooling invoice | next after **DCTS-INV-006/2026**. 001–003 Oriental Agro cold storage; **004 is VOID** (drafted for electrical works, withdrawn before issue — that work is inside the cold room price, do not reuse the number); 005 Oriental Agro sectional doors; **006 reserved** for Oriental Agro panel shifting, not yet issued (no price). Series opened 06-09-2026; Doha Cooling had none before |
 | Doha Cooling receipt | next after **DCTS-RCT-014/2026**. 001–012 cold storage **in date order** (renumbered 06-09-2026 at Farhan's request so the client can follow the account down the page: 001 08-09-2025 … 012 05-07-2026), 013–014 sectional doors, all Oriental Agro. Runs alongside the pre-printed voucher books, which reached no. 1347 on 17-05-2026 and no. 0095 on 04-07-2026 |
-| Delivery note | DN-252/2026 |
+| Delivery note | DN-253/2026 (One A, Capital Grille — panel and flooring, 02-10-2026) |
 | LPO | LPO-202/2026 — 195 and 197 cancelled, 196/198/199/201 Oscar Prime, 200 Doha Controls |
 
 ## Pricing rate card

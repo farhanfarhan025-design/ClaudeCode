@@ -1774,3 +1774,31 @@ Two smaller points on the same purchases:
 - **No coving has been bought.** 20 pcs of 40 × 40 aluminium angle covers the external corners;
   SQ101 also sells **aluminium sanitary coving at all wall–floor and wall–ceiling joints**, which
   is a different section and is not on either invoice.
+
+### OL-071 — DN-253 leaves the chequered plate quantity blank, and the plywood is as bought
+**Owner:** Farhan · **Raised:** 2026-10-02
+
+**DN-253/2026** records the first consignment to the Capital Grille site — 48 panels / 125.17 sqm,
+20 nos aluminium angle, 5 sheets of 18 mm plywood, and MS chequered plate. **INV-275/2026** bills
+the 40% stage of **29,400** against it. The invoice is written to be payable against the signed
+delivery note, per LTR/DCTS/248.
+
+**The chequered plate line carries a blank rule for quantity**, to be counted and entered at site.
+Nothing on file says how much was bought: the Quest International voucher 3869 shows 2,390 in cash
+and the words "chequered plate", with **no quantity, no thickness and no rate** (OL-070). A figure
+was not invented. **Farhan should enter the measured quantity before the note is signed**, or tell
+me and it will be reissued under the same number.
+
+**The plywood is shown as 5 sheets because 5 sheets is what the invoice evidences** — 14.86 sqm
+against the 22.11 sqm floor SQ101 sells. If more was delivered than Al Andalus invoiced, the note
+is wrong and must be corrected before signature. If only 5 went, the note is right and the balance
+follows on a second delivery note, which is the cleaner record anyway.
+
+**The 40% trigger is satisfied either way.** The amendment ties the stage to *delivery of the
+sandwich panel*, and the panel is delivered in full — the flooring shortfall does not hold up the
+invoice.
+
+**Still not delivered and still not ordered:** the two Bitzer water-cooled units, the two Tecumseh
+evaporators, the two cold room doors and the two control panels. Note 4 of the delivery note and
+note 4 of the invoice both say these follow separately, so the client cannot read this delivery as
+complete.
