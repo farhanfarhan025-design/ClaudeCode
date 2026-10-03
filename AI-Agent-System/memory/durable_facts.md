@@ -228,6 +228,7 @@ client funds the purchase in full.
 | LPO-202/2026, 22-09-2026 | Al Buhsain Steel Industries W.L.L. (JMB) | **project not stated** — vendor quote's Project field blank again | 7,500 (7,503.50 less 3.50 rounding) | 50% advance / 50% before shipment, EXW factory | drafted, not issued |
 | LPO-203/2026, 28-09-2026 | Geo Panel (Mesaieed Industrial City) | **project not stated** | 39,140 (412 sqm @ 95.00) | **100% advance**, ex-factory Mesaieed | drafted, not issued |
 | LPO-204/2026, 29-09-2026 | **Geopanel Factory W.L.L.** (C.R. 181603) | **Capital Grille / One A** — confirmed by their PI | 11,891 (125.17 sqm @ 95.00, less 0.15 rounding) | **100% advance**, ex-factory Mesaieed | **ISSUED** — their proforma PI/26-0103 of 30-09-2026 cites LPO-204 |
+| LPO-205/2026, 03-10-2026 | Airtronics Trading Contracting & Maintenance W.L.L. | **Capital Grille / One A** | 23,480 | **100% CDC on collection**, ex-works Doha; outdoor units 10 days | drafted — **do not issue before OL-072 is settled** |
 
 Ordered **after** the Jollibee advance was received — LPO 6 Jul, cheque 7 Jul, materials 14 Jul.
 Collected 27,600 against committed 9,500, so the project was never funded out of working capital.
@@ -361,6 +362,8 @@ This is a gap, not a finding of fact — ANNUITY's first task is to establish it
 | Al Andalus International | Alum. angle 40×40×1 mm white, 20 pcs @ 25 | same invoice | 500.00 |
 | | | **Spent to date (documented)** | **15,356.00** |
 | | | **Spent to date (including the undocumented plywood)** | **~15,701.00** |
+| Airtronics Trading | 2 × Bitzer water-cooled units, 2 × Gunay evaporators, 2 × Subzero panels, controls and fittings | Quotation ART-QTN-3409-26, LPO-205 | 23,480.00 |
+| | | **Committed once LPO-205 is issued** | **~39,181.00** |
 
 Al Andalus 1,075.00 paid by **QIB debit Mastercard** (auth 368664, 01-10-2026 14:54). Quest 2,390
 paid **cash** — and the voucher reads *"Received from Doha Cooling"* although the contract,

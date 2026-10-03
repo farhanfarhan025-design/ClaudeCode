@@ -1815,3 +1815,40 @@ invoice.
 evaporators, the two cold room doors and the two control panels. Note 4 of the delivery note and
 note 4 of the invoice both say these follow separately, so the client cannot read this delivery as
 complete.
+
+### OL-072 — The Bitzer quotation does not match the equipment sold to One A
+**Owner:** Farhan · **Raised:** 2026-10-03 · **Value:** QAR 23,480 · **SETTLE BEFORE ISSUING LPO-205**
+
+Airtronics quotation **ART-QTN-3409-26** of 03-10-2026 totals **23,480.00** and its arithmetic is
+correct to the riyal. **Three things on it differ from SQ101, the quotation One A accepted.**
+
+| | SQ101, sold to One A | Airtronics offers |
+|---|---|---|
+| Chiller unit | Bitzer **K073**, compressor **2GES-2Y**, 2 HP | Bitzer **K073H/2JES07Y**, 4.17 kW @ TE −5 °C |
+| Freezer unit | Bitzer **K123**, compressor **2DES-2Y** | Bitzer **K073H/2GES2Y**, 2.5 kW @ TE −25 °C |
+| Evaporators | **Tecumseh (France)**, one per room | **Gunay** — GYE 230-6C2 and GNE 235.8B |
+| Control panel | Eliwell / Dixell / Carel controller in a **metallic IP54 enclosure** | **Subzero CRC205200, plastic body** |
+
+**The compressors have moved rooms.** SQ101 put 2GES-2Y on the chiller; Airtronics puts it on the
+freezer and offers 2JES-07Y for the chiller. **The K123/2DES-2Y that was sold for the freezer is
+not quoted at all** — the freezer is now served by a K073 frame.
+
+**Clause 5 of work order WO/1A/096/26 forbids altering quoted equipment or materials without
+written approval.** This is the same exposure as the panel gauge (OL-067) but on named brands and
+model numbers in the contract document, which is harder to defend. **Either obtain One A's written
+approval of this equipment, or buy to SQ101.**
+
+**LPO-205 is drafted and protects what it can.** Note 2 puts the selection on Airtronics against
+the room volumes printed on their own quotation — chiller 33 cbm at 0/+8 °C, freezer 24.2 cbm at
+−18/−22 °C, Doha ambient, 16 hours a day — and says material supplied against a selection that
+will not hold the duty will be returned. Note 3 refuses substitutions on collection.
+
+**One technical point to put to Airtronics regardless:** the chiller evaporator GYE 230-6C2 is
+rated **3.657 kW** against a condensing unit of **4.17 kW**. Ratings are taken at different
+conditions so this is not necessarily wrong, but an evaporator below the unit's capacity is worth
+confirming before collection.
+
+**Programme.** Outdoor units are **10 days from order confirmation**, indoor ex-stock subject to
+prior sale, and the quotation is valid **5 days**. Ordered 03-10 the units land about **13-10**,
+against a completion of 27-10 or 31-10 (OL-069) with **2,000 a day** behind it. **Every day this
+order waits on the specification question is a day off the installation window.**
