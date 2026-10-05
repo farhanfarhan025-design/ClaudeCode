@@ -128,6 +128,7 @@ pins 3 mm in its own spec, so it still reproduces its source document.
 | `capacity_rows` | `{row label: value}` written verbatim into the section 6 table |
 | `warranty_rows` | `{row label: value}` written verbatim into the section 11 table |
 | `table_photos` | list of `{table, height_in}` — scales the photographs inside the table carrying that first-column label, e.g. `{"table": "System Type"}` for the section 5 machine photos; `resize` only reaches pictures in body paragraphs |
+| `row_labels` | list of `{from, to}` — rewrites a table row's **label**, matched exactly on the text it currently carries. Section 5 is written around a remote condensing unit; a job selling the compressor alone has to relabel the row, not merely restate its value. It runs last, so `machine_rows` and the rest still key on the master's own labels |
 | `table_images` | list of `{table, images}` — swaps those photographs. `images` matches the table's pictures in document order, each entry a `{path, caption, height_in}` or `null` to leave that one alone; the caption is written into the paragraph under the picture. Section 5 is drawn as a condensing unit beside an evaporator, so a monoblock job has to change both pictures and both captions together |
 
 The section photographs carry their captions burnt into the artwork — the door

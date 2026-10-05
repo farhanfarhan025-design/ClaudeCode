@@ -318,6 +318,38 @@ def door_kind(spec):
     return str(spec.get("door", {}).get("type", "hinged")).strip().lower()
 
 
+def rename_row_labels(doc, spec):
+    """Rewrite the label in the first column of any row carrying `from`.
+
+    The master's section 5 is written around a remote condensing unit. A job
+    that sells the compressor alone has to relabel the row, not merely restate
+    its value, or the document contradicts itself in the left-hand column.
+
+    Entries are {from, to}, matched on the label exactly. This runs last, so
+    `machine_rows` and the rest still key on the master's own labels.
+    """
+    for item in spec.get("row_labels") or []:
+        old, new = item["from"], item["to"]
+        for t in doc.tables:
+            for r in t.rows:
+                cell = row_cells(r)[0]
+                if cell.text.strip() == old:
+                    _set_label(cell, new)
+
+
+def _set_label(cell, text):
+    """Write `text` into a cell without disturbing a picture it may hold.
+
+    The section 5 header cells carry the photograph in their first paragraph
+    and the caption in the second, so the caption is the first paragraph that
+    is not a picture.
+    """
+    for para in cell.paragraphs:
+        if para._p.find(".//" + qn("a:blip")) is None:
+            set_para_text(para, text)
+            return
+
+
 def apply_row_overrides(doc, spec):
     """Write verbatim values into named rows of the specification tables.
 
@@ -1567,6 +1599,7 @@ def generate(spec, output, scales=None):
     resize_pictures(doc, spec)
     insert_pictures(doc, spec)
     tighten_lists(doc, spec)
+    rename_row_labels(doc, spec)
 
     doc.save(output)
     return output, tot
