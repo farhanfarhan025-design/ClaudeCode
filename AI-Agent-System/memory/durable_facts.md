@@ -15,6 +15,8 @@ A fact without a source is not a fact.
 | Legal name | The New Doha Kitchen Equipment Services W.L.L. | conventions.md | high |
 | Short name | TNDK | conventions.md | high |
 | Associated entity | Doha Cooling Trading & Solutions W.L.L. (DCTS) | conventions.md | high |
+| **C.R. number (TNDK)** | **199351** | company seal supplied by Farhan 28-09-2026 | high |
+| C.R. number (Doha Cooling) | 93354 | Doha Cooling letterhead | high |
 | Address | P.O. Box 80247, Doha, State of Qatar | conventions.md | high |
 | Tel | 7706 0676 | conventions.md | high |
 | Email | farhan@dctsqatar.com | conventions.md | high |
@@ -27,19 +29,170 @@ A fact without a source is not a fact.
 | Freezer unit replacement | Lean N Fit | LPO 26060001 | LPO | 17,000 | 17,000 | 0 |
 | Refrigeration maintenance | Al Noor Bakery | verbal | Cash | 800 | 800 | 0 |
 | Cold room maintenance | BSI (Mr. Lijo) | INV-254/2026 | Cash | 450 | 450 | 0 |
+| Cold room checkup + gas charging | BSI (Mr. Lijo) | INV-271/2026 | Invoice | 750 | 0 | 750 — invoiced 27-09-2026 |
 | Refrigeration maintenance | Ruwais Farm | INV-014/2026 | Invoice | 1,850 | 1,850 | 0 |
-| Jollibee Rasaboud cold room | Sunrise Trading & Food Stuff Co. | PO-2026-0000248 | LPO | 46,000 | 27,600 | 18,400 |
-| HIA Airport cold rooms (5) | Consolidated Contractors (CCC) | DIAR-L05531 MCR | LPO | 253,500 | 76,050 | 177,450 |
-| Mesaieed animal waste cold room | HBK-BWTC-BEIL JV | HBB000353-0 | LOA | 400,000 | 0 | 400,000 |
-| Samoosa cold room (freezer) | Samoosa Shop | QUT/DCTS/066/2026 | Quote | ⚠️ 38,500 *or* 39,375 | ⚠️ 20,000 *or* 31,500 | ⚠️ unresolved |
+| Jollibee Rasaboud cold room | Sunrise Trading & Food Stuff Co. | PO-2026-0000248 | LPO | 46,000 | 27,600 + part of 23,100 (18-08-2026) | see below |
+| HIA Airport cold rooms (5) | Consolidated Contractors (CCC) | DIAR-L05531 MCR | LPO | 253,500 | 76,050 | **177,450 — COMPLETED 2026 per Farhan 28-09-2026; balance now DUE, not future** |
+| Mesaieed animal waste cold room | HBK-BWTC-BEIL JV | HBB000353-0 | LOA | 400,000 | 0 | **400,000 — COMPLETED 2026 per Farhan; 60,000 15% advance invoiced 05-10-2026 under INV-276; 340,000 still uninvoiced** |
+| Samoosa cold room (freezer) | Samoosa Shop | QUT/DCTS/066/2026 | Quote | 38,500 | 38,500 | 0 — settled, confirmed by Farhan 11-08-2026 |
+| Jollibee condensing unit relocation | Sunrise Trading | PO-2026-0000310 | LPO | 7,000 | part of 23,100 (18-08-2026) | see below |
 
-**Totals (using live register figures):** contract **758,100** · received **143,750** ·
-outstanding **614,350**.
+**SETTLED IN FULL 01-10-2026.** The final 2,300 arrived on cheque no. 00991134, Dukhan Bank, dated 30-09-2026, receipted under RCT-273/2026. Contracted 53,000, received 53,000, balance nil. The position recorded below is superseded.
+
+**Sunrise, combined position as at 18-08-2026.** The two orders are settled together: 18,400 +
+7,000 = 25,400 invoiced and outstanding, against which cheque no. 00990904 (Dukhan Bank,
+dated 16-08-2026) brought in **23,100**. **Balance outstanding: QAR 2,300**, invoiced under
+INV-262/2026. The client's own receipt voucher 0684 allocates the cheque to cold room work; the
+split between the two orders does not change the 2,300.
+
+The shortfall is **exactly 5% of the 46,000 cold room contract**. Neither LPO carries a
+retention clause, so this reads as a retention applied by the client's accounts rather than a
+keying error — see OL-027.
+| Drainage system replacement | Lean N Fit | QUT/DCTS/214/2026 | Cash | 1,200 | 1,200 | 0 — completed & paid 11-08-2026 |
+| Cold room — chiller + freezer | Stop n Shop – Bin Omran | QUT/DCTS/SQ076/2026 | Quote | 45,000 | 25,000 (cheque 00006483, QNB, 26-08-2026) | 20,000 — PDC 90 days |
+| Chiller + freezer rooms | Home-Made by Earth | HMBE/LPO/2026/001 | LPO | **46,900** (LPO still reads 45,300) | 0 | 46,900 — 75/20/5 |
+| Chiller + freezer rooms — Capital Grille at ABESQ Hotel | One A Design, Build and Trading W.L.L. | WO/1A/096/26, 27-09-2026 | Work Order | **73,500** | **25,725** (transfer MS1A03383663, 01-10-2026, RCT-274) | **47,775** — of which **29,400 now invoiced** under INV-275 against DN-253 (02-10-2026); then 20% completion 14,700 and 5% handover 3,675 |
+| Cold storage project | Oriental Agro Trading | SOA AS-2026-9456 | **Doha Cooling** | 1,103,286 | 1,093,000 | 10,286 |
+| Additional sandwich panel shifting, Street 36 | Oriental Agro Trading | DCTS-INV-006/2026 reserved | **Doha Cooling** | **price not given** | 0 | **not invoiced — awaiting price** |
+| Insulated sectional overhead doors (4 nos.) | Oriental Agro Trading | QUT/DCTS/036/2026 R1 | **Doha Cooling** | 81,000 | 81,000 | 0 — settled 11-05-2026 |
+| Flower chiller cold room, Semaisma | Mr. Hamad Abdulla J S Al-Sulaiti (Flower Shop) | CON/TNDK/058/2026, 08-06-2026 | Contract | 25,000 | not recorded | **not recorded — completed 2026 per Farhan** |
+| Cold storage facility — 3 chiller rooms + epoxy, racking, dock leveller, sectional doors | Alayees General Trading | CA/92/SQ033/2025, 02-08-2025 | **Doha Cooling** | 595,000 | not recorded | **not recorded** |
+| 10 nos 40 ft container cold rooms (5 chiller + 5 freezer), Ras Laffan | Paramount Trading Co. W.L.L. | PO30-06088-1, 27-06-2024 | **Doha Cooling** | 635,000 | not recorded | **not recorded** |
+| 7 nos walk-in chiller rooms (4 + 3 laboratory) | Paramount Trading Co. W.L.L. | PO30-06075-1, 25-06-2024 | **Doha Cooling** | 210,000 | not recorded | **not recorded** |
+
+## Receivables — as at 20 August 2026
+
+| | QAR |
+|---|---|
+| Live contract value | 786,400.00 |
+| Collected to date | (191,000.00) |
+| **Total receivable** | **595,400.00** |
+| — invoiced and awaiting payment | 17,950.00 |
+| — contracted, not yet invoiced | 577,450.00 |
+
+**Updated 06-09-2026 — Orient Agro Trading surfaced, and it is the largest completed contract
+on the books.** A cold storage project carried out under **Doha Cooling Trading & Solutions
+W.L.L**, not TNDK: value **1,103,286** (1,045,000 base plus 27,664 additional panel and 30,622
+additional flooring), received **1,058,000** across three cheques and eight cash receipts,
+**balance 45,286**. It had never been recorded here — the order book, the receivables and every
+concentration figure above were computed without it. See OL-050.
+
+**Updated 30-08-2026 — Stop n Shop added.** A new completed contract: Stop n Shop – Bin Omran,
+45,000, of which 25,000 was received by cheque on 26-08-2026. The job is finished, handed over
+and finally invoiced under INV-266/2026; the **20,000 balance is on a 90-day post-dated cheque**
+and is not collectable until roughly end November 2026 (OL-049). Invoiced and unpaid therefore
+becomes **37,950**: Oscar Prime 10,750, Al Zahrawi INV-263 4,900, Sunrise INV-262 2,300, Stop n
+Shop INV-266 20,000.
+
+**Updated 29-08-2026.** Oscar Prime has paid 64,250 of 75,000 and the job is complete; the
+remaining 10,750 is invoiced under INV-265. Invoiced and unpaid: Oscar Prime 10,750, Al Zehrabi
+INV-263 4,900, Sunrise INV-262 2,300 — **17,950 in total**. Not yet invoiceable: Mesaieed 400,000
+and CCC/HIA 177,450, neither of which has started on site.
+
+**Mesaieed and CCC now hold 97.0% of everything owed, and neither has started on site.** Of the whole
+659,650, the sum that could be collected today on the paperwork as it stands is the Mesaieed 15%
+advance of 60,000, now 91 days old. Full statement: `reports/receivables_2026-08-20.html`.
+
+**Totals as at 11 August 2026:** contract **766,300** · received **163,450** ·
+outstanding **602,850**.
+
+Live (money still to collect): four projects, 706,500 contracted, 103,650 received,
+**602,850 outstanding**. Completed and fully paid: 59,800 across six jobs.
+
+Outstanding concentration: **Mesaieed 66.4%**, Mesaieed + CCC together **95.8%**.
+
+Outstanding now sits in exactly three projects: Mesaieed 400,000 (67.1%), CCC 177,450 (29.8%),
+Jollibee 18,400 (3.1%). Two clients hold **96.9% of the outstanding money**.
 
 > These totals are computed here, not read from the register — the register's own total row
 > reads 18,250 and its summary block reads zero. See `analysis/FINDINGS.md`.
 
-**Status:** current, except Samoosa — see `DECISIONS.md` D-006.
+**Status:** current. Samoosa settled at 38,500 — Farhan confirmed the payment cleared on
+11 August 2026. Two records items remain open and are bookkeeping only, not money owed:
+the 875 chequered-floor variation was never separately collected, and INV-258 (7,875) still
+over-bills the final stage by 5,075 against the invoice trail. See `DECISIONS.md` D-009.
+
+**Pending evidence:** the Samoosa final payment of 18,500 is confirmed by Farhan (6 Aug 2026)
+but has **no instrument recorded yet**, so no receipt has been issued and the Drive register has
+not been updated. Confidence: high on the amount, absent on the instrument.
+
+## Margin — the first job with both a cost and a sale price on file
+
+**QUT/DCTS/237/2026, Shared Services (Anantara / Tivoli group), 16-09-2026.** The supplier
+material list carries priced lines for all twenty items:
+
+| | QAR |
+|---|---|
+| Material cost, 20 items as listed | 18,755.00 |
+| Quoted to client | 21,700.00 |
+| **Margin** | **2,945.00** |
+
+**13.6% of the sale price, 15.7% on cost.** That is below the 20% markup floor proposed in
+`DECISIONS.md` D-004 and still unconfirmed under OL-004. At 20% on cost the quote would be
+22,506; at a 20% margin on sale, 23,444.
+
+Two thirds of the cost is in two lines — the DORIN condensing unit at 9,300 and the two FRIGA
+BOHN evaporators at 3,475 each. The eighteen small parts total 2,505.
+
+**Itemised 16-09-2026 at the client's request.** Unit rates were set to reach 21,700 exactly,
+with the uplift loaded onto the equipment and the fittings kept at or near cost:
+
+| Item | Cost | Sell | Uplift |
+|---|---|---|---|
+| DORIN AU-H300CC | 9,300 | **10,800** | 16.1% |
+| FRIGA BOHN 3C-E 3245-R, each | 3,475 | **4,000** | 15.1% |
+| Danfoss / Castel valves and controls | — | — | 15 – 20% |
+| Copper coil 1/2" and 7/8" | 1,020 | 1,165 | 14.2% |
+| Castel flare nut 3/8", NPT connector | at cost | at cost | 0% |
+| P-trap 1/2" | 8 | 7 | **−12.5%** |
+
+The P-trap is sold marginally under cost at a rounded rate — 2 riyals across the order, taken to
+keep the total on the figure Farhan set. Worth knowing it is there rather than discovering it.
+
+**This is the first quotation in the records where both sides of the trade are known.** Four
+earlier resales — Convert Engineering 8,800, COMO 5,300, Almana 35,000, JKR 485 — were quoted
+with no cost on file at all.
+
+**QUT/DCTS/238/2026, Oriental Fruits and Vegetables, civil works, 16-09-2026.** Second job with
+both sides on file. Subcontractor quotation from Shamim Hossain (+974 7708 5225) dated
+16-09-2026, addressed to Doha Cooling:
+
+| Item | Qty | Sub rate | Sub cost | Our rate | Our total |
+|---|---|---|---|---|---|
+| Excavation, 200 mm deep | 200 sqm | 30 | 6,000 | **35** | 7,000 |
+| Concrete 100 mm with steel net | 80 sqm | 80 | 6,400 | **95** | 7,600 |
+| Interlock supply and lay | 200 sqm | 65 | 13,000 | **72** | 14,400 |
+| Edge restraint, making good, clearance | Lot | — | — | **350** | 350 |
+| | | | **25,400** | | **29,350** |
+
+**Margin 3,950 — 13.5% of sale, 15.6% on cost.** Almost identical to QUT/DCTS/237/2026 at 13.6%,
+and again below the unconfirmed 20% floor in D-004.
+
+**The cash profile is better than the margin suggests.** TNDK/Doha Cooling collects **75%
+advance** (22,012.50) while the subcontractor's own terms are 50% advance (12,700), 25% on
+material and alignment, 25% on completion. The job funds itself from the client's advance.
+
+**QUT/DCTS/240/2026, Home-Made by Earth, kitchen equipment, 19-09-2026.** Third job with both
+sides on file. Supplier quotation **RTQ-000651 from Resgrow Trading W.L.L.** dated 19-09-2026,
+billed to New Doha Kitchen, eight items at **49,300**. Quoted on at **57,300**.
+
+| Item | Cost | Sell |
+|---|---|---|
+| Ice cream machine RESMZ-5065 | 6,000 | 7,000 |
+| 2-door UC chiller RES-60D2 | 3,800 | 4,400 |
+| 3-door UC freezer RES-72D3 | 5,500 | 6,400 |
+| 2-deck oven RESK-40DS | 4,200 | 4,900 |
+| Planetary mixer RES-B60C | 11,000 | 12,800 |
+| Spiral mixer RES-100 | 12,000 | 13,900 |
+| Deep fryer FR 10+10LT | 2,300 | 2,700 |
+| Saladette RESTHS900 | 4,500 | 5,200 |
+| | **49,300** | **57,300** |
+
+**Margin 8,000 — 14.0% of sale, 16.2% on cost.** The three jobs where cost is known now read
+13.6%, 13.5% and 14.0% of sale. **That is the house margin in practice**, whatever D-004 says.
+
+Supplier terms are 75% advance / balance on delivery; TNDK sells on **100% advance**, so the
+client funds the purchase in full.
 
 ## Payment terms
 
@@ -47,8 +200,10 @@ outstanding **614,350**.
 |---|---|---|---|
 | Jollibee / Sunrise | 60 / 40 | LPO PO-2026-0000248 | LPO overrode the quotation |
 | CCC / HIA | 30 / 30 / 30 / 10 | LPO DIAR-L05531 MCR | |
+| One A Design + Build | **35 advance / 40 on panel delivery / 20 on completion / 5 on handover** | WO/1A/096/26, revised by LTR/DCTS/248/2026 28-09-2026 | Work order said 75/20/5; client asked 30%, Farhan settled at **35%**. **Delay penalty QAR 2,000 per calendar day**, deductible from sums due — not in our quotation. 30 day project period. The 20/5 tail is mine |
 | Mesaieed / HBK-BWTC-BEIL JV | 15 advance / 45 after delivery / 20 / 20 | LOA HBB000353-0 | Advance bank guarantee + performance cheque required; 10% retention split 5%+5%; delay penalties; AMC clause |
 | Samoosa Shop | 70 / 25 / 5 | QUT/DCTS/066/2026 | No LPO — quotation only |
+| Home-Made by Earth | **30 advance / 40 on panel delivery / 25 on completion of installation / 5 on handover** | Farhan, 28-09-2026 — client request | Third revision. Quotation and LPO say 75/20/5; cut to 70/25/5 on 17-09-2026; the client then asked for **30% advance and 40% at delivery of sandwich panel** citing trust. The 25/5 tail is mine — Farhan gave only the first two stages. Contract value 46,900 unchanged. Amended by LTR/DCTS/247/2026 |
 
 ## Obligations outstanding
 
@@ -57,6 +212,113 @@ outstanding **614,350**.
 | Advance bank guarantee | Mesaieed | **Not posted** — blocking 60,000 advance | LOA dated 21 May 2026 |
 | Performance security cheque | Mesaieed | Required before advance release | 21 May 2026 |
 | Retention 10% (5% + 5%) | Mesaieed | Applies through the contract | 21 May 2026 |
+
+## Vendor commitments
+
+| LPO | Vendor | Project | Value | Terms | Status |
+|---|---|---|---|---|---|
+| LPO-194/2026, 14-07-2026 | Airtronics Trading Contracting & Maintenance | **Jollibee Rasaboud** (confirmed by Farhan 11-08-2026) | 9,500 | 100% CDC upon collection | ordered |
+| ~~LPO-195/2026, 17-08-2026~~ | Doha Controls Trading W.L.L. | **Oscar Prime** cold room | 14,750 | CDC | **CANCELLED** 18-08-2026, replaced by LPO-196 |
+| LPO-196/2026, 18-08-2026 | Doha Controls Trading W.L.L. | **Oscar Prime** cold room | 24,500 | CDC | drafted, not issued |
+| ~~LPO-197/2026, 18-08-2026~~ | Al Buhsain Steel Industries W.L.L. (JMB) | **Oscar Prime** cold room | 8,140 | 50/50 | **CANCELLED** 26-08-2026, replaced by LPO-201 |
+| LPO-198/2026, 20-08-2026 | Arctic Cooling Company (ACC) | **Oscar Prime** cold room | 5,400 | cash | drafted, not issued |
+| LPO-199/2026, 20-08-2026 | Arctic Cooling Company (ACC) | **Oscar Prime** cold room | 2,900 | cash | drafted, not issued |
+| LPO-200/2026, 24-08-2026 | Doha Controls Trading W.L.L. | **project not stated** | 15,000 (quoted 15,500 less 500 agreed) | to be confirmed | drafted, not issued |
+| LPO-201/2026, 26-08-2026 | Al Buhsain Steel Industries W.L.L. (JMB) | **Oscar Prime** cold room | 11,930 | 50% advance / 50% before shipment | drafted, not issued |
+| LPO-202/2026, 22-09-2026 | Al Buhsain Steel Industries W.L.L. (JMB) | **project not stated** — vendor quote's Project field blank again | 7,500 (7,503.50 less 3.50 rounding) | 50% advance / 50% before shipment, EXW factory | drafted, not issued |
+| LPO-203/2026, 28-09-2026 | Geo Panel (Mesaieed Industrial City) | **project not stated** | 39,140 (412 sqm @ 95.00) | **100% advance**, ex-factory Mesaieed | drafted, not issued |
+| LPO-204/2026, 29-09-2026 | **Geopanel Factory W.L.L.** (C.R. 181603) | **Capital Grille / One A** — confirmed by their PI | 11,891 (125.17 sqm @ 95.00, less 0.15 rounding) | **100% advance**, ex-factory Mesaieed | **ISSUED** — their proforma PI/26-0103 of 30-09-2026 cites LPO-204 |
+| LPO-205/2026, 03-10-2026 | Airtronics Trading Contracting & Maintenance W.L.L. | **Capital Grille / One A** | 23,480 | **100% CDC on collection**, ex-works Doha; outdoor units 10 days | drafted — **do not issue before OL-072 is settled** |
+
+Ordered **after** the Jollibee advance was received — LPO 6 Jul, cheque 7 Jul, materials 14 Jul.
+Collected 27,600 against committed 9,500, so the project was never funded out of working capital.
+
+This is the first real cost line the system holds. Jollibee refrigeration material is **20.7%**
+of the 46,000 contract — one input toward the margin column the register still lacks (OL-011).
+
+No vendor spend is committed against Mesaieed or CCC/HIA.
+
+### Oscar Prime — committed vendor spend as at 20 August 2026
+
+| LPO | Vendor | Content | QAR |
+|---|---|---|---|
+| LPO-196 | Doha Controls | 2 condensing units + 2 evaporators | 24,500 |
+| LPO-201 | Al Buhsain (JMB) | 37 panels, 104.70 m² of 100 mm PIR (replaces LPO-197's 71.78 m²) | 11,930 |
+| LPO-198 | Arctic Cooling | 2 hinged cold room doors + 2 Subzero CRC205200 | 5,400 |
+| LPO-199 | Arctic Cooling | piping, insulation, valves, driers, brazing consumables | 2,900 |
+| | | **Committed** | **44,730** |
+
+**Against the revised 75,000 the committed spend is 59.6%, leaving 30,270** for the control panel, electrical works, transport, lifting and labour, and for the profit.
+
+**59.6% of the revised 75,000 contract, and the job is not fully bought.** Still to come: the control
+panel with safeties, the internal light and door frame heater, the electrical works from the
+panel onward, transport, lifting and labour — all of which SQ074 sells. What is left to cover
+them and to be the profit is **30,270**.
+
+None of the four orders has been issued. All four should follow the **56,250** advance in, not
+precede it — and the advance is transferred but not yet confirmed credited (OL-037).
+
+LPO-196 is the refrigeration equipment: **24,500**, or **31.4%** on its own. It replaces LPO-195 (14,750, 18.9%) after the vendor's revised offer -R1 added a
+second condensing unit — a 3 HP LH64/2DES-3Y — so the job is now two complete sets, matching
+the scope of work sold. **The equipment cost rose 9,750** while the contract has since fallen to 75,000. That is the price
+of resolving OL-025 correctly, and it is cheaper than resolving it at commissioning.
+
+Still drafted, not issued, and should stay that way until the 58,500 advance is in — the same
+order Jollibee ran in.
+
+**Note the entity.** The vendor quoted Doha Cooling Trading and Solutions W.L.L., so LPO-195 is
+issued by Doha Cooling, while the contract and INV-261 are TNDK's. Revenue in one company,
+cost in another. The Jollibee P&L raised the same split on two supplier invoices; it is now a
+pattern rather than a one-off.
+
+## New order — Oscar Prime, 17 August 2026
+
+| Item | Value |
+|---|---|
+| Client | Oscar Prime Trading Contracting and Services W.L.L. (attn. Mr. Shameem) |
+| Scope | 2 chiller rooms — **Room 01: 2.59 × 1.80 × 3.20 m  ·  Room 02: 3.94 × 2.31 × 3.20 m** (revised) |
+| Quotation | QUT/DCTS/SQ074/2026, 16-08-2026 |
+| LPO | **OTTS/LPO/19082026-02/2026**, 17-08-2026, signed 18-08-2026 — cancels their -01 |
+| Contract value | **QAR 75,000.00** lump sum (revised 17-08-2026, was 78,000) |
+| Terms | 75% advance on confirmed LPO · 20% on delivery of material · 5% after testing, commissioning and handover |
+| **Completed / commissioned** | **27-08-2026** (Farhan, 29-08-2026). Handover HO/DCTS/SQ074/2026 and completion certificate LTR/DCTS/226/2026 issued on that basis; warranty runs from this date |
+| **Received** | **QAR 64,250.00** — 56,250 value date 19-08-2026 and 8,000 value date 24-08-2026, both Commercial Bank transfers from Oscar Prime, reference *Kitchen Fabrication*. Receipt confirmed by Farhan 29-08-2026 |
+| **Balance due** | **QAR 10,750.00** — invoiced under INV-265/2026, final invoice |
+| Invoiced to date | INV-264/2026 advance 56,250 · **INV-265/2026 final 10,750** (20% + 5% milestones less the 8,000 on account). INV-261/2026 cancelled |
+| Duration | 05 – 07 days from LPO, subject to site readiness |
+
+The LPO is signed and dated, so the 75% advance falls due now, not on delivery. No vendor spend
+is committed against this order yet — the BITZER unit and the Guntner evaporator have to be
+ordered, and the terms are written so the advance lands before that commitment is made. Keep it
+that way: this is the same sequence that kept Jollibee off working capital.
+
+## Quoted, not yet won — as at 18 August 2026
+
+| Client | Reference | Value | Note |
+|---|---|---|---|
+| Space Al-Arabi | QUT/DCTS/221/2026 | 400,000 | 8 reefer containers, 100% advance |
+| Al Waha Agriculture | QUT/DCTS/222/2026 | 246,675 | cold room 138,000 + air conditioning 108,675 |
+
+**CLIENT NAME — the correct legal name is Al Zahrawi Medical LLC.** Farhan corrected it on
+30-08-2026; everything issued up to that point carries the misspelling "Al Zehrabi Medical
+L.L.C." INV-263/2026 has been reissued under the correct name at the same number and date.
+QUT/DCTS/219/2026, WO/DCTS/001/2026 and the two GWC HSE submissions still carry the old
+spelling and have not been reissued. Earlier records below keep the old spelling as written.
+
+**Al Zahrawi Medical (recorded below as Al Zehrabi), QUT/DCTS/219/2026 — 4,900 — APPROVED 18-08-2026.** Cold room maintenance:
+two units water service, one room leak test and re-gas, silicone, door gaps, 25 m pipe insulation
+and an outdoor sunshade. Terms 80% advance / 20% on completion, 02 – 03 days. Work order
+WO/DCTS/001/2026 issued to the site team the same day. **INV-263/2026 was first drafted for the
+80% advance of 3,920, then redrafted at the full 4,900 on Farhan's instruction** before either
+version left the office — one number, one document, the 80/20 schedule replaced by a single
+payment. Drafted, not sent. An approved quotation is not a payment; confirm the money is in
+before the team consumes materials.
+
+The Al Waha air conditioning is bought in from Cool and Rest at 94,500 and sold at 108,675 — a
+**15% markup on cost, 13.0% of the section's price**, applied on Farhan's instruction. It is the
+first bought-in-and-resold line the system holds with both sides of the number recorded. Two
+open questions sit on it: OL-031 on whether 94,500 is six units or seven, and OL-032 on the
+missing lead time.
 
 ## Concentration
 
@@ -67,11 +329,14 @@ The larger of the two has collected nothing.
 
 | Series | Next free |
 |---|---|
-| Invoice | INV-259/2026 |
+| Invoice / Receipt | next after **276** — one running series: 261 cancelled, 263 Al Zahrawi, 264/265 Oscar Prime, 266 Stop n Shop invoice, 267 Stop n Shop receipt, 268 Lean N Fit inspection, 269 Home-Made by Earth advance, 270 Dana Hypermarket door handle, 271 BSI cold room checkup, 272 One A Design + Build advance, 273 Sunrise final receipt, 274 One A advance receipt, 275 One A second invoice, **276 HBK Mesaieed advance**. None yet in the Drive log |
+| Statement of account | next after **SOA/DCTS/001/2026** (Stop n Shop, 13-09-2026) — series opened that day; TNDK had none. Doha Cooling uses the client AS- series: **AS-2026-9456** (Oriental Agro, 26-09-2026) supersedes AS-2026-9455 |
 | Receipt | RCT-257/2026 |
-| Quotation | next after QUT/DCTS/066/2026 |
-| Delivery note | DN-252/2026 |
-| LPO | next after LPO-189/2026 |
+| Quotation | next after QUT/DCTS/250/2026, plus the SQ038 / SQ074 series — see OL-018. **247 and 248 were consumed by the letter series** (LTR/DCTS/247 Home-Made by Earth, LTR/DCTS/248 One A) — letters share the quotation serial, so 249 was the next free number |
+| Doha Cooling invoice | next after **DCTS-INV-006/2026**. 001–003 Oriental Agro cold storage; **004 is VOID** (drafted for electrical works, withdrawn before issue — that work is inside the cold room price, do not reuse the number); 005 Oriental Agro sectional doors; **006 reserved** for Oriental Agro panel shifting, not yet issued (no price). Series opened 06-09-2026; Doha Cooling had none before |
+| Doha Cooling receipt | next after **DCTS-RCT-014/2026**. 001–012 cold storage **in date order** (renumbered 06-09-2026 at Farhan's request so the client can follow the account down the page: 001 08-09-2025 … 012 05-07-2026), 013–014 sectional doors, all Oriental Agro. Runs alongside the pre-printed voucher books, which reached no. 1347 on 17-05-2026 and no. 0095 on 04-07-2026 |
+| Delivery note | DN-253/2026 (One A, Capital Grille — panel and flooring, 02-10-2026) |
+| LPO | LPO-202/2026 — 195 and 197 cancelled, 196/198/199/201 Oscar Prime, 200 Doha Controls |
 
 ## Pricing rate card
 
@@ -82,3 +347,33 @@ Recorded in `tndk-coldroom-quotation/references/pricing-guide.md` and mirrored i
 
 No warranty expiry dates recorded for any completed project. AMC contracted value: **QAR 0**.
 This is a gap, not a finding of fact — ANNUITY's first task is to establish it.
+
+## Capital Grille (One A Design + Build) — live job cost, as at 1 October 2026
+
+**The first job on file being costed as it runs.** Contract **73,500**, advance received
+**25,725** (RCT-274).
+
+| Supplier | Item | Evidence | QAR |
+|---|---|---|---|
+| Geopanel Factory W.L.L. | 100 mm panel, 125.17 sqm / 48 pcs | PI/26-0103, 30-09-2026, against LPO-204 | 11,891.00 |
+| Quest International | Chequered plate | Cash voucher **3869**, 01-10-2026, cash | 2,390.00 |
+| Al Andalus International | Marine plywood 18 mm, 5 sheets @ 115 | Invoice R26/SA/S1136654, 01-10-2026 | 575.00 |
+| **unrecorded** | Marine plywood 18 mm, **3 further sheets** — 8 delivered, 5 invoiced | **no document on file** | **~345.00** |
+| Al Andalus International | Alum. angle 40×40×1 mm white, 20 pcs @ 25 | same invoice | 500.00 |
+| | | **Spent to date (documented)** | **15,356.00** |
+| | | **Spent to date (including the undocumented plywood)** | **~15,701.00** |
+| Airtronics Trading | 2 × Bitzer water-cooled units, 2 × Gunay evaporators, 2 × Subzero panels, controls and fittings | Quotation ART-QTN-3409-26, LPO-205 | 23,480.00 |
+| | | **Committed once LPO-205 is issued** | **~39,181.00** |
+
+Al Andalus 1,075.00 paid by **QIB debit Mastercard** (auth 368664, 01-10-2026 14:54). Quest 2,390
+paid **cash** — and the voucher reads *"Received from Doha Cooling"* although the contract,
+the Geopanel PI and the work order are all TNDK.
+
+**Cash on the job: 25,725 − 15,356 = 10,369 still in hand.**
+
+**Still to buy, none of it ordered:** 2 × Bitzer water-cooled condensing units (K073/2GES-2Y,
+K123/2DES-2Y), 2 × Tecumseh evaporators, 2 × hinged cold room doors 900 × 1900 with heated
+frames, 2 × control panels, copper pipe, armaflex, drain lines, coving, trims, silicone, and
+labour. At the house margin of 13.5–14%, total cost lands near **63,200–63,600**, so roughly
+**48,000 is still to be spent against 10,369 in hand** — the 40% panel-delivery stage of 29,400
+is what funds it.
