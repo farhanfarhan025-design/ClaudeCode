@@ -1333,7 +1333,12 @@ Three documents were produced today and none has been appended to the log in Dri
   Rodriguez, Procurement Officer, P.O. Box 20494.
   **"HEATED G/D B/S" was reproduced, not decoded.** Heated glass door is certain; B/S is not, so
   the model line repeats Farhan's wording verbatim and the body describes only what is certain.
-  The data sheet is made to govern, as on the Evergreen fan motor.
+  The data sheet is made to govern the rest, as on the Evergreen fan motor.
+  **Dimensions added 05-10-2026 on Farhan's instruction — 635 x (710 + 50) x 2060 mm (W x D x H)**,
+  shown both in the header block and on the line, and the data-sheet clause narrowed so it no
+  longer claims dimensions are only on the data sheet. The **(710 + 50)** is carried exactly as
+  given; it reads as 710 body depth plus 50 for the handle or door projection, which matters for
+  the client's clearance check, but that reading was not asserted on the document.
   **No supplier cost on file**, so the margin on 22,500 is unknown. Eighth job quoted blind.
   **A bakery group buying three display freezers is a repeat-order customer** — Village and
   Wooden Bakery are retail chains. Worth asking what else is on their replacement list.
