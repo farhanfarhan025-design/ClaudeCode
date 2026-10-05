@@ -1852,3 +1852,35 @@ confirming before collection.
 prior sale, and the quotation is valid **5 days**. Ordered 03-10 the units land about **13-10**,
 against a completion of 27-10 or 31-10 (OL-069) with **2,000 a day** behind it. **Every day this
 order waits on the specification question is a day off the installation window.**
+
+### OL-073 — HBK: the first payment is invoiced, but it is an advance on a finished job
+**Owner:** Farhan · **Raised:** 2026-10-05 · **Value:** QAR 60,000 invoiced, 340,000 not
+
+**INV-276/2026** raises the **15% first payment of 60,000** against LOA HBB000353-0 of 21-05-2026.
+It is the first invoice ever issued on this contract. OL-005 has carried the uncollected advance
+as a standing item since May; it now at least exists as a demand.
+
+**Three things about it need Farhan's decision.**
+
+**1. The job is reportedly complete, so only 15% of it is being asked for.** Farhan confirmed on
+28-09-2026 that Mesaieed completed in 2026. If that is right, the 45% delivery stage of **180,000**
+and the two 20% stages of **80,000** each have also fallen due, and **340,000 is sitting
+uninvoiced on a finished contract.** Invoicing an advance alone on completed work is the slow
+route. **Confirm the completion and handover dates and the remaining stages can be billed now.**
+
+**2. The advance bank guarantee is the reason this has not been paid since May, and completion may
+have killed the requirement.** An advance payment guarantee exists to secure money paid *before*
+work is done. **On a job already finished there is nothing left to secure.** Note 3 of the invoice
+asks HBK for the format, wording, validity and acceptable issuing bank — but the stronger line,
+once completion is confirmed, is to ask them to **waive the guarantee as spent**, or to release
+the 60,000 against a performance cheque alone. An ABG on 60,000 also costs bank charges and ties
+up facility that this job no longer needs.
+
+**3. Retention and the AMC clause are untouched.** The award carries **10% retention in two parts
+of 5%**, which is **40,000** on 400,000, plus delay penalties and an AMC obligation. None of it has
+been quantified. Before the later stages are billed, read the LOA on when each 5% is released and
+whether the AMC runs from handover.
+
+**Also unverified:** the JV's full legal name. The records carry only "HBK-BWTC-BEIL JV", and the
+invoice reads "HBK – BWTC – BEIL Joint Venture". Check it against the LOA letterhead before
+sending; a joint venture billed under the wrong style is an easy reason for accounts to park it.

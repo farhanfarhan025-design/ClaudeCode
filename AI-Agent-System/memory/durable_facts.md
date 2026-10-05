@@ -33,7 +33,7 @@ A fact without a source is not a fact.
 | Refrigeration maintenance | Ruwais Farm | INV-014/2026 | Invoice | 1,850 | 1,850 | 0 |
 | Jollibee Rasaboud cold room | Sunrise Trading & Food Stuff Co. | PO-2026-0000248 | LPO | 46,000 | 27,600 + part of 23,100 (18-08-2026) | see below |
 | HIA Airport cold rooms (5) | Consolidated Contractors (CCC) | DIAR-L05531 MCR | LPO | 253,500 | 76,050 | **177,450 — COMPLETED 2026 per Farhan 28-09-2026; balance now DUE, not future** |
-| Mesaieed animal waste cold room | HBK-BWTC-BEIL JV | HBB000353-0 | LOA | 400,000 | 0 | **400,000 — COMPLETED 2026 per Farhan 28-09-2026; nothing received, nothing invoiced** |
+| Mesaieed animal waste cold room | HBK-BWTC-BEIL JV | HBB000353-0 | LOA | 400,000 | 0 | **400,000 — COMPLETED 2026 per Farhan; 60,000 15% advance invoiced 05-10-2026 under INV-276; 340,000 still uninvoiced** |
 | Samoosa cold room (freezer) | Samoosa Shop | QUT/DCTS/066/2026 | Quote | 38,500 | 38,500 | 0 — settled, confirmed by Farhan 11-08-2026 |
 | Jollibee condensing unit relocation | Sunrise Trading | PO-2026-0000310 | LPO | 7,000 | part of 23,100 (18-08-2026) | see below |
 
@@ -329,7 +329,7 @@ The larger of the two has collected nothing.
 
 | Series | Next free |
 |---|---|
-| Invoice / Receipt | next after **275** — one running series: 261 cancelled, 263 Al Zahrawi, 264/265 Oscar Prime, 266 Stop n Shop invoice, 267 Stop n Shop receipt, 268 Lean N Fit inspection, 269 Home-Made by Earth advance, 270 Dana Hypermarket door handle, 271 BSI cold room checkup, 272 One A Design + Build advance, 273 Sunrise final receipt, 274 One A advance receipt, **275 One A second invoice**. None yet in the Drive log |
+| Invoice / Receipt | next after **276** — one running series: 261 cancelled, 263 Al Zahrawi, 264/265 Oscar Prime, 266 Stop n Shop invoice, 267 Stop n Shop receipt, 268 Lean N Fit inspection, 269 Home-Made by Earth advance, 270 Dana Hypermarket door handle, 271 BSI cold room checkup, 272 One A Design + Build advance, 273 Sunrise final receipt, 274 One A advance receipt, 275 One A second invoice, **276 HBK Mesaieed advance**. None yet in the Drive log |
 | Statement of account | next after **SOA/DCTS/001/2026** (Stop n Shop, 13-09-2026) — series opened that day; TNDK had none. Doha Cooling uses the client AS- series: **AS-2026-9456** (Oriental Agro, 26-09-2026) supersedes AS-2026-9455 |
 | Receipt | RCT-257/2026 |
 | Quotation | next after QUT/DCTS/249/2026, plus the SQ038 / SQ074 series — see OL-018. **247 and 248 were consumed by the letter series** (LTR/DCTS/247 Home-Made by Earth, LTR/DCTS/248 One A) — letters share the quotation serial, so 249 was the next free number |
