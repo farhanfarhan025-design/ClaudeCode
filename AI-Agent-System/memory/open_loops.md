@@ -1323,6 +1323,20 @@ Three documents were produced today and none has been appended to the log in Dri
   **Warranty excludes clouding, discolouration and stiffening of the PVC** — it is a wearing
   item and this is the complaint such a job attracts a year later.
   **Payment terms, completion time and warranty were all assumed** — Farhan gave a price only.
+- **QUT/DCTS/250/2026** — Al Nawras Factory, supply only of **3 nos BERJAYA-1D/DF-SM-EV**
+  one-door display freezers at 7,500 each, **22,500**, issued 05-10-2026. 100% payment, ex stock,
+  6 month warranty — all three given by Farhan, so only the 15 day validity is assumed.
+  **New client, and a group one.** Business card carries three brands — Al Nawras Factory,
+  Village and Wooden Bakery — with the email on **woodenbakery-qatar.com**. The quotation is
+  addressed to **Al Nawras Factory**, which is the name on the card; **the legal entity for the
+  invoice is unverified** and may be the Wooden Bakery company. Contact: Mr. Principe Mario A.
+  Rodriguez, Procurement Officer, P.O. Box 20494.
+  **"HEATED G/D B/S" was reproduced, not decoded.** Heated glass door is certain; B/S is not, so
+  the model line repeats Farhan's wording verbatim and the body describes only what is certain.
+  The data sheet is made to govern, as on the Evergreen fan motor.
+  **No supplier cost on file**, so the margin on 22,500 is unknown. Eighth job quoted blind.
+  **A bakery group buying three display freezers is a repeat-order customer** — Village and
+  Wooden Bakery are retail chains. Worth asking what else is on their replacement list.
 - **WO/DCTS/001/2026** — Al Zehrabi work order, 18-08-2026. **Opens a new series**; the log has
   no work-order column yet.
 - **INV-263/2026** — Al Zehrabi, **4,900 in full**, issued 19-08-2026 (redrafted from an 80%
