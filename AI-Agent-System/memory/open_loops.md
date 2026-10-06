@@ -1963,9 +1963,15 @@ ever stated.
 - **Delivery to Qatar is free.** Their September quotation charged **7,500 SR** to deliver a larger
   order. Note 4 asks them to confirm it, and to say who clears customs — **cross-border delivery
   with no stated Incoterm and 100% paid in advance is the exposure here.**
-- **Issued on Doha Cooling letterhead**, because IDIF address their quotation to *Doha Cooling
-  Trading*. The Tem-Ac quotation for IDIF-supplied doors went out on TNDK paper and that mismatch
-  was flagged then and never resolved. **Confirm which entity buys and which sells.**
+- **RULED 06-10-2026 by Farhan: "Make it under TNDK Only."** Reissued on **The New Doha Kitchen
+  Equipment Services W.L.L.** letterhead under the same number. This resolves the entity question
+  left open on the Tem-Ac doors (QUT/DCTS/244), which also went out on TNDK paper against an IDIF
+  quotation addressed to Doha Cooling. **IDIF is a TNDK supplier.**
+  Because their quotation is still addressed to *Doha Cooling Trading*, **note 4 now names the
+  buyer in full with the C.R. number and instructs them to make the proforma, invoice, delivery
+  documents and all correspondence out to TNDK.** On a 100%-advance cross-border order, an invoice
+  in the wrong company's name is how a payment or a customs clearance gets stuck — the same class
+  of defect as the Sunrise cheque under OL-068.
 - **No project stated**, for the third IDIF/panel supplier order running. 13 freezer doors is a
   substantial job and nothing links them to one.
 - **Their reference 20-0001-10000461 is the same number as their September quotation** for the
