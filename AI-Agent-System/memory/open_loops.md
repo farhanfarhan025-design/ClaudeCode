@@ -1933,8 +1933,19 @@ advance is spent.**
 Order"; Farhan said approved and supplied no LPO number, so INV-277 cites the approved quotation
 instead. Add the LPO reference when it arrives.
 
-**No contact name, telephone or address for Everbloom** beyond "Doha, Qatar" — on a 17,000
-contract with an advance to collect.
+**Everbloom's C.R. is 150356**, learned 06-10-2026 from the transfer advice — the first hard
+identifier on file for this client. Still no legal name, contact name, telephone or address.
+
+**PAID 06-10-2026.** 12,750 received by **transfer addressed to Commercial Registration alias**,
+reference MB261006530403, from account 0260-067656-001, **credited by beneficiary C.R. 199351**.
+Receipted under RCT-280/2026; balance 4,250.
+
+**Note how it was addressed.** The advice shows the beneficiary name truncated to *"THE NEW DOHA
+KITCHEN EQUIPMENT SERV"*, and it did not matter — **the transfer routed on the C.R. number, not on
+the name.** That is the clean counter-example to OL-068 (the Sunrise cheque made out to a name the
+account is not in) and to the Oscar Prime LPO naming defect in OL-076. **Where a client can pay by
+C.R. alias, the name question disappears.** Worth asking for on the Oscar Prime balances, which
+are 51,000 and carry the wrong name on their order.
 
 ### OL-075 — IDIF: 12 hinged doors ordered with no hand specified at all
 **Owner:** Farhan · **Raised:** 2026-10-06 · **Value:** SAR 19,600 (~QAR 19,025) · **BLOCKING**
