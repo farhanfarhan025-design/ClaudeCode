@@ -2076,3 +2076,46 @@ come off the quotation rather than off the margin.**
    auditor, and cannot be deducted as a cost.**
 
 **Standing item until the payee, the capacity and the document are on file.**
+
+### OL-079 — Oscar Prime refrigeration ordered; three model points unanswered
+**Owner:** Farhan · **Raised:** 2026-10-06 · **Value:** QAR 61,500
+
+**LPO-207/2026** places the refrigeration package with Airtronics against **ART-QTN-3415-26 REV 1**
+of 06-10-2026: five Danfoss condensing units, five Gunay evaporators, five Subzero panels and the
+valves, driers, sight glasses, brazing rod and fittings. **Sub-total 62,859 less a 1,359 discount,
+net 61,500**; their arithmetic reconciles exactly. 100% CDC on collection, ex-stock, validity
+5 days. **Farhan confirmed this is the Oscar Prime material purchase.**
+
+**Three points are put to Airtronics before collection, and each is a real gap on their document:**
+
+1. **The freezer unit is quoted as "LGQE 215 / LGQE 271" — two models for two rooms.** Nobody can
+   tell from that which unit arrives at which room. **Oscar Prime's own LPO specifies LGHD 271**,
+   a different series again.
+2. **Evaporators do not match the client's order.** Oscar's LPO calls for **GNE 240.4B** on the
+   thawing chiller and **GNE 240.4B2** on the chillers; Airtronics quotes **GNE 235.4C** and
+   **GNE 240.4B / 4C2**. The freezer GNE 245.8C does match.
+3. **Only two HP/LP pressure switches against five systems.** Three units would be left without
+   separate high and low pressure protection unless the Danfoss units carry it integrally. Their
+   previous quotation supplied one switch per system.
+
+**The capacity figure also differs.** Oscar's LPO states the MGZD 121 at **7.4 kW**; Airtronics
+quotes **7.2 kW at -5 TE / 43 °C**. Small, but it is a number printed on the client's order.
+
+**This is the same exposure as OL-072 on Capital Grille** — equipment ordered that does not match
+what the client's order names. **On five rooms it is larger.** Oscar's LPO does not carry a
+materials-variation clause as strict as One A's clause 5, but their order names models and
+TNDK will be held to them. **Settle the model list with Airtronics and, where it differs from
+Oscar's LPO, get Oscar's written acceptance before collection.**
+
+**Job cost now visible for the first time on this contract:**
+
+| | QAR |
+|---|---|
+| Panel — Geo Panel LPO-203 (OL-076) | 39,140 |
+| Refrigeration — Airtronics LPO-207 | 61,500 |
+| Commission (OL-078) | 15,000 |
+| **Committed of a 170,000 contract** | **115,640** |
+
+**Still to buy: five doors at 900 × 1900, coving, angles, silicone, fixings, labour and
+transport.** Note that IDIF LPO-206 carries ten hinged freezer doors at 900 × 1900 with no project
+stated — **check whether five of them are these.**

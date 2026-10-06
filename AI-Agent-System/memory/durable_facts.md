@@ -234,6 +234,7 @@ client funds the purchase in full.
 | LPO-204/2026, 29-09-2026 | **Geopanel Factory W.L.L.** (C.R. 181603) | **Capital Grille / One A** — confirmed by their PI | 11,891 (125.17 sqm @ 95.00, less 0.15 rounding) | **100% advance**, ex-factory Mesaieed | **ISSUED** — their proforma PI/26-0103 of 30-09-2026 cites LPO-204 |
 | LPO-205/2026, 03-10-2026 | Airtronics Trading Contracting & Maintenance W.L.L. | **Capital Grille / One A** | 23,480 | **100% CDC on collection**, ex-works Doha; outdoor units 10 days | drafted — **do not issue before OL-072 is settled** |
 | LPO-206/2026, 06-10-2026 | IDIF (Kingdom of Saudi Arabia) — Eng. Abdulgader Hasrat | **project not stated** | **SAR 19,600** (~QAR 19,025) — 13 freezer doors | **100% advance**, delivered to Qatar free, 1 week | drafted on **TNDK** letterhead (Farhan, 06-10-2026) — **hand schedule must be issued before production** |
+| LPO-207/2026, 06-10-2026 | Airtronics Trading Contracting & Maintenance W.L.L. | **Oscar Prime** — confirmed by Farhan | 61,500 (62,859 less 1,359 discount) | **100% CDC on collection**, ex-works Doha, ex-stock | drafted, not issued |
 
 Ordered **after** the Jollibee advance was received — LPO 6 Jul, cheque 7 Jul, materials 14 Jul.
 Collected 27,600 against committed 9,500, so the project was never funded out of working capital.
@@ -391,8 +392,9 @@ first was 75,000 on SQ074, completed 27-08-2026 and settled.
 | Item | Evidence | QAR |
 |---|---|---|
 | Geo Panel — 412 sqm of 100 mm panel | LPO-203, if this is the job it serves (OL-076) | 39,140.00 |
+| Airtronics — 5 Danfoss condensing units, 5 Gunay evaporators, 5 control panels, valves and fittings | LPO-207, quotation ART-QTN-3415-26 REV 1 | 61,500.00 |
 | **Commission — project manager** | **Farhan, 06-10-2026. No document.** | **15,000.00** |
-| Condensing units, evaporators, doors, panels, controls, labour | not yet ordered or recorded | — |
+| Five (5) cold room doors 900 x 1900, coving, angles, silicone, fixings, labour and transport | not yet ordered or recorded | — |
 
 **The commission is 8.8% of the contract and it comes out of the margin, not out of the cost.**
 
