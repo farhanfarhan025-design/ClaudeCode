@@ -1977,3 +1977,40 @@ ever stated.
 - **Their reference 20-0001-10000461 is the same number as their September quotation** for the
   Tem-Ac doors. IDIF reuse the reference, so it does not identify a document — always cite the
   date with it.
+
+### OL-076 — Oscar Prime's second job: 170,000, and the advance was cut by hand
+**Owner:** Farhan · **Raised:** 2026-10-06 · **Value:** QAR 170,000
+
+**LPO OTTS/LPO/05102026-01/2026** of 05-10-2026 awards five cold rooms at **170,000** against our
+quotation **QUT/DCTS/SQ117/2026**: one thawing chiller at 32,000, two chiller rooms at 33,000 each
+and two freezer rooms at 36,000 each. Arithmetic correct. **INV-278/2026 raises the advance.**
+
+**This is Oscar Prime's second job** — the first was 75,000 on SQ074, commissioned 27-08-2026 and
+settled. **The repeat is 2.3 times the size of the original**, and it is now the largest live TNDK
+contract on the books.
+
+**THE ADVANCE WAS AMENDED IN MANUSCRIPT ON THEIR OWN LPO.** The printed terms read 75/20/5; the
+acceptance panel is endorsed *"170000 / 119000.00 — 70% — Release advance 70%"*, signed and dated
+**06-10-2026**. 70% is **119,000**, which is **8,500 less than the printed 75%**.
+
+**70/20/5 only totals 95%.** Their endorsement changed the advance and nothing else. INV-278 shows
+**25% on delivery (42,500)** so the three stages reconcile to 170,000, and note 2 asks them to
+confirm that split in writing. **This is the same gap as Home-Made by Earth**, where Farhan cut
+75 to 70 and the delivery stage was raised to 25 — the precedent is followed here. **Get it
+confirmed; a 5% difference on this contract is 8,500.**
+
+**LPO-203 is almost certainly this job.** Panel required: 73.24 + (2 × 76.68) + (2 × 75.26) =
+**377.12 sqm**. LPO-203 ordered **412 sqm** from Geo Panel at 39,140 with the project field blank —
+**34.88 sqm over, a 9.2% cutting allowance.** That is the right shape. It would also mean the
+0.40 mm Aluzinc question (OL-067) attaches to Oscar Prime, not to Capital Grille. **Confirm which
+job LPO-203 serves before the panel is cut.**
+
+**THE LPO IS MADE OUT TO THE WRONG NAME.** It reads *"THE DOHA KITCHEN EQUIPMENT AND SERVICES"*,
+with **"New" inserted by hand** and the **"and"** still there and no **W.L.L.** Our bank account is
+*The New Doha Kitchen Equipment Services W.L.L.* Note 4 of the invoice states the account name and
+the absence of "and" in terms. **On a 119,000 advance this is worth getting right before the
+cheque is drawn** — it is the Sunrise defect (OL-068) on twenty times the money.
+
+**Also: insulated flooring is excluded** — all five rooms sit on the client's existing floor, which
+the LPO states and the invoice repeats. And **QUT/DCTS/SQ117/2026 is not in the numbering log**,
+another SQ-series document issued outside it (OL-018).

@@ -57,6 +57,7 @@ keying error — see OL-027.
 | Insulated sectional overhead doors (4 nos.) | Oriental Agro Trading | QUT/DCTS/036/2026 R1 | **Doha Cooling** | 81,000 | 81,000 | 0 — settled 11-05-2026 |
 | Flower chiller cold room, Semaisma | Mr. Hamad Abdulla J S Al-Sulaiti (Flower Shop) | CON/TNDK/058/2026, 08-06-2026 | Contract | 25,000 | not recorded | **not recorded — completed 2026 per Farhan** |
 | Flower display chiller, frameless glass front | Everbloom | QUT/DCTS/SQ112/2026, 06-10-2026 | Quote — approved | **17,000** | 0 | 17,000 — 75/20/5; INV-277 raised for the 12,750 advance |
+| Five (5) cold rooms — thawing chiller, 2 chillers, 2 freezers | Oscar Prime Trading Contracting and Services W.L.L. | OTTS/LPO/05102026-01/2026, 05-10-2026 | LPO | **170,000** | 0 | 170,000 — **70**/25/5; INV-278 raised for the 119,000 advance |
 | Cold storage facility — 3 chiller rooms + epoxy, racking, dock leveller, sectional doors | Alayees General Trading | CA/92/SQ033/2025, 02-08-2025 | **Doha Cooling** | 595,000 | not recorded | **not recorded** |
 | 10 nos 40 ft container cold rooms (5 chiller + 5 freezer), Ras Laffan | Paramount Trading Co. W.L.L. | PO30-06088-1, 27-06-2024 | **Doha Cooling** | 635,000 | not recorded | **not recorded** |
 | 7 nos walk-in chiller rooms (4 + 3 laboratory) | Paramount Trading Co. W.L.L. | PO30-06075-1, 25-06-2024 | **Doha Cooling** | 210,000 | not recorded | **not recorded** |
@@ -204,6 +205,7 @@ client funds the purchase in full.
 | One A Design + Build | **35 advance / 40 on panel delivery / 20 on completion / 5 on handover** | WO/1A/096/26, revised by LTR/DCTS/248/2026 28-09-2026 | Work order said 75/20/5; client asked 30%, Farhan settled at **35%**. **Delay penalty QAR 2,000 per calendar day**, deductible from sums due — not in our quotation. 30 day project period. The 20/5 tail is mine |
 | Mesaieed / HBK-BWTC-BEIL JV | 15 advance / 45 after delivery / 20 / 20 | LOA HBB000353-0 | Advance bank guarantee + performance cheque required; 10% retention split 5%+5%; delay penalties; AMC clause |
 | Samoosa Shop | 70 / 25 / 5 | QUT/DCTS/066/2026 | No LPO — quotation only |
+| Oscar Prime (2nd job) | **70 advance / 25 on delivery / 5 on handover** | LPO OTTS/LPO/05102026-01/2026 | Printed 75/20/5; **advance cut to 70% in manuscript on the LPO, signed and dated 06-10-2026**. The 25% delivery stage is mine — their endorsement changed the advance only and 70/20/5 leaves 5% unplaced. Insulated flooring excluded |
 | Everbloom | 75 advance / 20 on delivery of materials / 5 on testing, commissioning and handover | QUT/DCTS/SQ112/2026 | Existing machine re-used and carries no TNDK warranty; 12-15 day programme |
 | Home-Made by Earth | **30 advance / 40 on panel delivery / 25 on completion of installation / 5 on handover** | Farhan, 28-09-2026 — client request | Third revision. Quotation and LPO say 75/20/5; cut to 70/25/5 on 17-09-2026; the client then asked for **30% advance and 40% at delivery of sandwich panel** citing trust. The 25/5 tail is mine — Farhan gave only the first two stages. Contract value 46,900 unchanged. Amended by LTR/DCTS/247/2026 |
 
@@ -332,7 +334,7 @@ The larger of the two has collected nothing.
 
 | Series | Next free |
 |---|---|
-| Invoice / Receipt | next after **277** — one running series: 261 cancelled, 263 Al Zahrawi, 264/265 Oscar Prime, 266 Stop n Shop invoice, 267 Stop n Shop receipt, 268 Lean N Fit inspection, 269 Home-Made by Earth advance, 270 Dana Hypermarket door handle, 271 BSI cold room checkup, 272 One A Design + Build advance, 273 Sunrise final receipt, 274 One A advance receipt, 275 One A second invoice, 276 HBK Mesaieed advance, **277 Everbloom advance**. None yet in the Drive log |
+| Invoice / Receipt | next after **278** — one running series: 261 cancelled, 263 Al Zahrawi, 264/265 Oscar Prime, 266 Stop n Shop invoice, 267 Stop n Shop receipt, 268 Lean N Fit inspection, 269 Home-Made by Earth advance, 270 Dana Hypermarket door handle, 271 BSI cold room checkup, 272 One A Design + Build advance, 273 Sunrise final receipt, 274 One A advance receipt, 275 One A second invoice, 276 HBK Mesaieed advance, 277 Everbloom advance, **278 Oscar Prime advance**. None yet in the Drive log |
 | Statement of account | next after **SOA/DCTS/001/2026** (Stop n Shop, 13-09-2026) — series opened that day; TNDK had none. Doha Cooling uses the client AS- series: **AS-2026-9456** (Oriental Agro, 26-09-2026) supersedes AS-2026-9455 |
 | Receipt | RCT-257/2026 |
 | Quotation | next after QUT/DCTS/250/2026, plus the SQ038 / SQ074 series — see OL-018. **247 and 248 were consumed by the letter series** (LTR/DCTS/247 Home-Made by Earth, LTR/DCTS/248 One A) — letters share the quotation serial, so 249 was the next free number |
