@@ -1903,3 +1903,35 @@ whether the AMC runs from handover.
 **Also unverified:** the JV's full legal name. The records carry only "HBK-BWTC-BEIL JV", and the
 invoice reads "HBK – BWTC – BEIL Joint Venture". Check it against the LOA letterhead before
 sending; a joint venture billed under the wrong style is an easy reason for accounts to park it.
+
+### OL-074 — Everbloom approved at 17,000; the risk is a machine TNDK does not own
+**Owner:** Farhan · **Raised:** 2026-10-06 · **Value:** QAR 17,000
+
+Quotation **QUT/DCTS/SQ112/2026** (Revised) of 06-10-2026 approved by Everbloom. One flower
+display chiller, 2.91 × 1.00 × 2.50 m at +2 to +8 °C: 50 mm PUF to two sides, ceiling and floor
+(15.60 sqm), **12 mm frameless tempered glass to the other two sides**, a two-leaf frameless
+sliding glass door at 1400 × 2500 mm clear, insulated floor, new piping and wiring. **INV-277/2026
+raises the 75% advance of 12,750**; then 20% on delivery 3,400 and 5% at handover 850.
+
+**THE DEFINING RISK: the refrigeration machine is the client's and is re-used as it stands.**
+Existing condensing unit, existing evaporator, existing control box. TNDK supplies only new pipe,
+insulation, drain, wiring and the re-commissioning. **Note 4 of the invoice restates this in
+capitals and withholds all warranty on that equipment**, because the invoice is the document a
+client keeps, and the quotation's clause will not be the one they reach for when the old
+compressor fails a month after handover.
+
+**No heat load calculation exists, and the duty has changed.** The existing machine was sized for
+whatever it served before; it is now being asked to hold +2/+8 °C in a box with **two sides and a
+door in 12 mm single-glazed tempered glass**, which is a far heavier load than an insulated panel
+of the same area. **If that machine is undersized, the room will not hold temperature and it will
+look like our failure.** The quotation reserves the position — unserviceable or insufficient
+capacity is re-quoted separately — but the conversation is far easier before commissioning than
+after. **Worth checking the existing unit's nameplate capacity against the glazed load before the
+advance is spent.**
+
+**No LPO reference.** The quotation calls for the 75% advance "along with confirmed Local Purchase
+Order"; Farhan said approved and supplied no LPO number, so INV-277 cites the approved quotation
+instead. Add the LPO reference when it arrives.
+
+**No contact name, telephone or address for Everbloom** beyond "Doha, Qatar" — on a 17,000
+contract with an advance to collect.
