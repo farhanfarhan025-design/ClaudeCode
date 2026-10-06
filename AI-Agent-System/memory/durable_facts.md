@@ -231,6 +231,7 @@ client funds the purchase in full.
 | LPO-203/2026, 28-09-2026 | Geo Panel (Mesaieed Industrial City) | **project not stated** | 39,140 (412 sqm @ 95.00) | **100% advance**, ex-factory Mesaieed | drafted, not issued |
 | LPO-204/2026, 29-09-2026 | **Geopanel Factory W.L.L.** (C.R. 181603) | **Capital Grille / One A** — confirmed by their PI | 11,891 (125.17 sqm @ 95.00, less 0.15 rounding) | **100% advance**, ex-factory Mesaieed | **ISSUED** — their proforma PI/26-0103 of 30-09-2026 cites LPO-204 |
 | LPO-205/2026, 03-10-2026 | Airtronics Trading Contracting & Maintenance W.L.L. | **Capital Grille / One A** | 23,480 | **100% CDC on collection**, ex-works Doha; outdoor units 10 days | drafted — **do not issue before OL-072 is settled** |
+| LPO-206/2026, 06-10-2026 | IDIF (Kingdom of Saudi Arabia) — Eng. Abdulgader Hasrat | **project not stated** | **SAR 19,600** (~QAR 19,025) — 13 freezer doors | **100% advance**, delivered to Qatar free, 1 week | drafted — **hand schedule must be issued before production** |
 
 Ordered **after** the Jollibee advance was received — LPO 6 Jul, cheque 7 Jul, materials 14 Jul.
 Collected 27,600 against committed 9,500, so the project was never funded out of working capital.

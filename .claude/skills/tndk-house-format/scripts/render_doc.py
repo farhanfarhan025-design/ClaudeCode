@@ -183,7 +183,12 @@ def words(n):
 
 def amount_in_words(total, currency="QAR"):
     """'Nine Thousand Five Hundred Qatari Riyals Only (QAR 9,500.00)'"""
-    unit = {"QAR": ("Qatari Riyals", "Halalas")}.get(currency, (currency, "Cents"))
+    # IDIF and other Saudi suppliers quote in riyals of their own; a document that says
+    # "SAR Only" where it should say "Saudi Riyals Only" reads as a template error.
+    unit = {"QAR": ("Qatari Riyals", "Halalas"),
+            "SAR": ("Saudi Riyals", "Halalas"),
+            "AED": ("UAE Dirhams", "Fils"),
+            "USD": ("US Dollars", "Cents")}.get(currency, (currency, "Cents"))
     riyals = int(round(total * 100)) // 100
     sub = int(round(total * 100)) % 100
     text = words(riyals) or "Zero"

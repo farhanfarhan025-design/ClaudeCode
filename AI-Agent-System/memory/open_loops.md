@@ -1935,3 +1935,39 @@ instead. Add the LPO reference when it arrives.
 
 **No contact name, telephone or address for Everbloom** beyond "Doha, Qatar" — on a 17,000
 contract with an advance to collect.
+
+### OL-075 — IDIF: 12 hinged doors ordered with no hand specified at all
+**Owner:** Farhan · **Raised:** 2026-10-06 · **Value:** SAR 19,600 (~QAR 19,025) · **BLOCKING**
+
+**LPO-206/2026** places 13 freezer doors with IDIF against quotation 20-0001-10000461 of
+06-10-2026: 10 × hinged 900 × 1900 at 1,250, 2 × hinged 800 × 1800 at 1,200, and 1 × sliding
+1500 × 2000 at 4,700. Arithmetic correct at **SAR 19,600**. All 0.5 mm PPGI, 92 mm leaf, 100 mm
+PVC frame, heated, MTH Italy hardware.
+
+**NOT ONE OF THE TWELVE HINGED DOORS HAS A HAND.** The quotation states no left or right for any
+of them, and the sliding door has no direction of travel. On the Tem-Ac order (OL-... QUT/DCTS/244)
+the hand was identified as the single largest risk on a door job and IDIF's own breakdown there
+was internally inconsistent. **Here the information is simply absent.** Doors are made to order
+and a door of the wrong hand cannot be fitted or returned.
+
+**LPO-206 note 2 therefore forbids production outright** until a written hand schedule is issued
+and acknowledged — the order is placed so the price and the 15-day validity are secured, but the
+factory is instructed not to cut. **Farhan must issue that schedule, and it must state whether the
+hand is read from outside or inside the room**, which no document between these two companies has
+ever stated.
+
+**Other points on the same order:**
+
+- **Priced in Saudi Riyals**, not QAR — the first SAR document in the system. The renderer's
+  amount-in-words map now carries SAR, AED and USD so it no longer prints "SAR Only".
+- **Delivery to Qatar is free.** Their September quotation charged **7,500 SR** to deliver a larger
+  order. Note 4 asks them to confirm it, and to say who clears customs — **cross-border delivery
+  with no stated Incoterm and 100% paid in advance is the exposure here.**
+- **Issued on Doha Cooling letterhead**, because IDIF address their quotation to *Doha Cooling
+  Trading*. The Tem-Ac quotation for IDIF-supplied doors went out on TNDK paper and that mismatch
+  was flagged then and never resolved. **Confirm which entity buys and which sells.**
+- **No project stated**, for the third IDIF/panel supplier order running. 13 freezer doors is a
+  substantial job and nothing links them to one.
+- **Their reference 20-0001-10000461 is the same number as their September quotation** for the
+  Tem-Ac doors. IDIF reuse the reference, so it does not identify a document — always cite the
+  date with it.
