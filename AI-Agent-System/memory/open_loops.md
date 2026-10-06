@@ -2014,3 +2014,35 @@ cheque is drawn** — it is the Sunrise defect (OL-068) on twenty times the mone
 **Also: insulated flooring is excluded** — all five rooms sit on the client's existing floor, which
 the LPO states and the invoice repeats. And **QUT/DCTS/SQ117/2026 is not in the numbering log**,
 another SQ-series document issued outside it (OL-018).
+
+### OL-077 — The largest advance TNDK has taken, and its instrument is unrecorded
+**Owner:** Farhan · **Raised:** 2026-10-06 · **Value:** QAR 119,000 · **COMPLETE THE RECEIPT**
+
+**119,000 received from Oscar Prime** against INV-278/2026, receipted under **RCT-279/2026** on
+06-10-2026. Balance 51,000 — 42,500 on delivery, 8,500 at handover.
+
+**It is the largest single payment in the records**, larger than any Oriental Agro receipt, and
+**nothing is recorded about how it arrived.** No cheque number, no bank, no transfer reference, no
+payment mode. The instrument block carries blank rules rather than invented detail. **Farhan to
+supply the cheque or transfer details and the receipt will be reissued printed under the same
+number.** This is OL-014 — no instrument register — showing up on the biggest payment yet.
+
+**If it is a cheque, it is not yet money.** The receipt as issued does not carry the "subject to
+realization" line, because the renderer only prints it when the instrument is declared a cheque.
+**If a cheque was received, say so and the receipt must be reissued** — a 119,000 receipt that
+does not reserve against an uncleared cheque is a receipt given for money that may not arrive.
+
+**What the payment unblocks, and what it does not:**
+
+- **The programme now runs.** Note 2 of the receipt says material is on order and the installation
+  programme runs from this date.
+- **LPO-203 (Geo Panel, 412 sqm, 39,140, 100% advance) can now be funded** — and OL-076 reasons
+  that 412 sqm against a 377.12 sqm requirement makes this the job it was always for. **But the
+  0.40 mm Aluzinc question (OL-067) is unresolved, and five rooms is a larger exposure than one.
+  Settle the gauge before that panel is cut.**
+- **Cash on the job: 119,000 against an estimated cost near 147,000** at the house margin. The
+  25% delivery stage of 42,500 covers the gap, so this job funds itself — unlike Capital Grille.
+
+**The name on their LPO is still wrong** (OL-076): *"THE DOHA KITCHEN EQUIPMENT AND SERVICES"*.
+The money has arrived, so it did not block this payment — but the same name will appear on their
+remaining two payments.
