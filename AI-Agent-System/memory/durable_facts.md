@@ -382,3 +382,29 @@ frames, 2 × control panels, copper pipe, armaflex, drain lines, coving, trims, 
 labour. At the house margin of 13.5–14%, total cost lands near **63,200–63,600**, so roughly
 **48,000 is still to be spent against 10,369 in hand** — the 40% panel-delivery stage of 29,400
 is what funds it.
+
+## Oscar Prime, five cold rooms (170,000) — job cost, as at 6 October 2026
+
+Contract **170,000**, advance received **119,000** (RCT-279). Second job for this client; the
+first was 75,000 on SQ074, completed 27-08-2026 and settled.
+
+| Item | Evidence | QAR |
+|---|---|---|
+| Geo Panel — 412 sqm of 100 mm panel | LPO-203, if this is the job it serves (OL-076) | 39,140.00 |
+| **Commission — project manager** | **Farhan, 06-10-2026. No document.** | **15,000.00** |
+| Condensing units, evaporators, doors, panels, controls, labour | not yet ordered or recorded | — |
+
+**The commission is 8.8% of the contract and it comes out of the margin, not out of the cost.**
+
+| | QAR |
+|---|---|
+| Contract | 170,000 |
+| Cost at the house margin of 13.5% | (147,050) |
+| Gross profit before commission | 22,950 |
+| Commission | (15,000) |
+| **Gross profit after commission** | **7,950 — 4.7% of contract** |
+
+**That is two thirds of the profit on the largest live TNDK contract.** Every other costed job on
+file returns 13.5–14.0%; this one returns under 5% once the commission is paid. The figure needs
+to be known before the next job for this client is priced, because a 170,000 job earning 7,950 is
+a different business from one earning 22,950.

@@ -2046,3 +2046,33 @@ does not reserve against an uncleared cheque is a receipt given for money that m
 **The name on their LPO is still wrong** (OL-076): *"THE DOHA KITCHEN EQUIPMENT AND SERVICES"*.
 The money has arrived, so it did not block this payment — but the same name will appear on their
 remaining two payments.
+
+### OL-078 — 15,000 commission on Oscar Prime: no document, and it takes two thirds of the margin
+**Owner:** Farhan · **Raised:** 2026-10-06 · **Value:** QAR 15,000
+
+Farhan has instructed that **15,000 of the Oscar Prime job is payable as commission to the project
+manager**. Recorded in the job cost in `durable_facts.md`. It is an internal cost and appears on no
+client-facing document.
+
+**Commercially this is the largest single fact about the job.** 15,000 is **8.8% of the 170,000
+contract**, and it is paid out of profit, not out of cost. At the house margin of 13.5% the job
+earns 22,950 before it and **7,950 after it — 4.7% of contract value.** Every other costed job on
+file returns 13.5–14.0%. **Price the next Oscar Prime job knowing this, or the commission has to
+come off the quotation rather than off the margin.**
+
+**Two things are needed to make it a clean cost.**
+
+1. **Who is being paid, and in what capacity.** If the recipient is a consultant or agent engaged
+   by TNDK, or TNDK's own staff on an incentive, it is an ordinary expense. **If the recipient is
+   employed by Oscar Prime, a payment from a supplier to their employee needs to be an arrangement
+   Oscar Prime knows about and has agreed** — otherwise it is commercial bribery, which is an
+   offence in Qatar, and it would also put the 170,000 contract and the client relationship at
+   risk if it surfaced. That is a question of fact Farhan can answer in a sentence; it is not an
+   assumption being made here either way.
+2. **A document.** An invoice, an agency or consultancy agreement, or a signed voucher naming the
+   payee and the service. At present there is nothing — the same gap as the Quest chequered plate
+   (OL-070) and the unrecorded plywood, but at forty times the value, and on a cash payment that
+   will leave the bank. **Without a document it cannot be posted, cannot be evidenced to an
+   auditor, and cannot be deducted as a cost.**
+
+**Standing item until the payee, the capacity and the document are on file.**
