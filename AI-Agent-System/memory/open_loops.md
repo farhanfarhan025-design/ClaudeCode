@@ -2130,3 +2130,46 @@ Oscar's LPO, get Oscar's written acceptance before collection.**
 **Still to buy: five doors at 900 × 1900, coving, angles, silicone, fixings, labour and
 transport.** Note that IDIF LPO-206 carries ten hinged freezer doors at 900 × 1900 with no project
 stated — **check whether five of them are these.**
+
+### OL-080 — Al Buhsain quote PROJECT-1 is Oscar Prime; PROJECT-2 duplicates LPO-203
+**Owner:** Farhan · **Raised:** 2026-10-07 · **Value:** QAR 81,300 · **CHECK BEFORE ISSUING**
+
+**LPO-208/2026** covers Al Buhsain quotation **SAL-QTN-2026-01562** of 07-10-2026 — 797.20 sqm in
+264 panels at 102.00, less a 14.40 rounding, **81,300.00**. Their arithmetic reconciles exactly.
+The quotation carries **two projects**, and the order keeps them apart and requires separate
+bundling, tagging and packing lists.
+
+**PROJECT-1 (385.20 sqm, 130 panels) IS OSCAR PRIME — the schedule reconciles panel by panel:**
+
+| Cut | Pcs | Reconciles to |
+|---|---|---|
+| 2.60 m | 60 | walls of the thawing chiller (20) and the two freezer rooms (40) — perimeters 19.40 m and 19.80 m each |
+| 2.70 m | 40 | walls of the two chiller rooms — perimeter 19.70 m each |
+| 4.10 m | 12 | ceilings of the two freezer rooms, 4.10 m wide |
+| 4.00 m | 18 | ceilings of the thawing chiller (6) and the two chiller rooms (12) |
+
+385.20 against the 377.12 sqm the five rooms need — a 2.1% allowance. **This corrects OL-076,
+which inferred LPO-203 was Oscar Prime from its 412 sqm. It is not.** Oscar Prime's panel is this
+order, and the job cost moves from 39,140 to **39,290.40**.
+
+**PROJECT-2 IS 412.00 SQM — EXACTLY THE QUANTITY ON LPO-203 TO GEO PANEL.**
+
+| | Qty | Rate | Total | Skin |
+|---|---|---|---|---|
+| Geo Panel, LPO-203 (drafted, not issued) | 412 sqm | 95.00 | **39,140.00** | 0.40 mm **Aluzinc** |
+| Al Buhsain, LPO-208 PROJECT-2 | 412.00 sqm | 102.00 | **42,024.00** | 0.43 mm **PPGI** |
+
+**Either these are competing quotations for the same job, or issuing both buys 824 sqm of panel
+for a 412 sqm requirement.** LPO-203 is recorded as drafted and not issued, so nothing is lost
+yet. **Confirm which supplier is taking PROJECT-2 before LPO-208 goes out, and cancel the other.**
+Al Buhsain is **2,884 dearer** but thicker-skinned and PPGI rather than Aluzinc.
+
+**THE SHEET GAUGE HAS DROPPED AGAIN — 0.43 MM.** The run on this supplier is now 0.50 (01302),
+0.45 (01334, OL-044), 0.50 (01446, LPO-202), **0.43 (01562)**. TNDK's own quotations sell **0.5 mm
+PPGI** — SQ074, SQ101 and SQ112 all say so. **Oscar Prime's rooms would be built in 0.43 mm against
+0.5 mm sold**, and the price moved with it: 102.00 here against 115.00 for 0.50 mm on LPO-202.
+**This is now the fourth gauge flag and the first on a job where the client's own LPO is signed.**
+
+**Also, as on LPO-202:** the quotation is marked **DRAFT**, validity **3 working days**, and its
+stated delivery date of 15-10-2026 contradicts clause 6 (6-12 working days from the advance).
+All three are put back to them in notes 4 and 5.

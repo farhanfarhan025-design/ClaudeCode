@@ -235,6 +235,7 @@ client funds the purchase in full.
 | LPO-205/2026, 03-10-2026 | Airtronics Trading Contracting & Maintenance W.L.L. | **Capital Grille / One A** | 23,480 | **100% CDC on collection**, ex-works Doha; outdoor units 10 days | drafted — **do not issue before OL-072 is settled** |
 | LPO-206/2026, 06-10-2026 | IDIF (Kingdom of Saudi Arabia) — Eng. Abdulgader Hasrat | **project not stated** | **SAR 19,600** (~QAR 19,025) — 13 freezer doors | **100% advance**, delivered to Qatar free, 1 week | drafted on **TNDK** letterhead (Farhan, 06-10-2026) — **hand schedule must be issued before production** |
 | LPO-207/2026, 06-10-2026 | Airtronics Trading Contracting & Maintenance W.L.L. | **Oscar Prime** — confirmed by Farhan | 61,500 (62,859 less 1,359 discount) | **100% CDC on collection**, ex-works Doha, ex-stock | drafted, not issued |
+| LPO-208/2026, 07-10-2026 | Al Buhsain Steel Industries W.L.L. (JMB) | **PROJECT-1 = Oscar Prime** (schedule reconciles); **PROJECT-2 unidentified** | 81,300 (797.20 sqm @ 102.00 less 14.40) — P1 39,290.40, P2 42,024.00 | 50% advance / 50% before shipment, EXW factory | drafted — **see OL-080 before issuing** |
 
 Ordered **after** the Jollibee advance was received — LPO 6 Jul, cheque 7 Jul, materials 14 Jul.
 Collected 27,600 against committed 9,500, so the project was never funded out of working capital.
@@ -391,7 +392,7 @@ first was 75,000 on SQ074, completed 27-08-2026 and settled.
 
 | Item | Evidence | QAR |
 |---|---|---|
-| Geo Panel — 412 sqm of 100 mm panel | LPO-203, if this is the job it serves (OL-076) | 39,140.00 |
+| Al Buhsain (JMB) — 385.20 sqm of 100 mm panel, PROJECT-1 | LPO-208, schedule reconciles to the five rooms (OL-080) | 39,290.40 |
 | Airtronics — 5 Danfoss condensing units, 5 Gunay evaporators, 5 control panels, valves and fittings | LPO-207, quotation ART-QTN-3415-26 REV 1 | 61,500.00 |
 | **Commission — project manager** | **Farhan, 06-10-2026. No document.** | **15,000.00** |
 | Five (5) cold room doors 900 x 1900, coving, angles, silicone, fixings, labour and transport | not yet ordered or recorded | — |
