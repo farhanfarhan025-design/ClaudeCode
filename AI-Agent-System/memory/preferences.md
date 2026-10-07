@@ -58,6 +58,7 @@ header/footer styling, the 13-section quotation structure and its numbering.
 | **Never guess a financial figure.** A clarifying question beats a wrong contract total. | Explicit: "a balance invoice with the wrong contract total is worse than a one-line clarifying question" |
 | **Be the second pair of eyes on money.** Flag shortfalls, LPO/quote discrepancies, cheque allocation mismatches. | Explicit standing instruction |
 | **Verify before delivering.** `pdftotext | grep` checks, totals reconciled. | Built into his own workflow |
+| **Price lookups: answer with the price alone.** When Farhan asks what something costs, reply with the figure and nothing else — no comparison table, no related items, no caveats, no alternatives. If there is no price on record, say "I don't have it" and stop. | Farhan, 2026-10-07, explicit |
 | Deliver both PDF and editable source | Standing convention |
 | File into the standard Drive tree, named clearly | Standing convention |
 
