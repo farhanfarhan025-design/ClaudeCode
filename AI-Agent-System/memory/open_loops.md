@@ -2159,10 +2159,21 @@ order, and the job cost moves from 39,140 to **39,290.40**.
 | Geo Panel, LPO-203 (drafted, not issued) | 412 sqm | 95.00 | **39,140.00** | 0.40 mm **Aluzinc** |
 | Al Buhsain, LPO-208 PROJECT-2 | 412.00 sqm | 102.00 | **42,024.00** | 0.43 mm **PPGI** |
 
-**Either these are competing quotations for the same job, or issuing both buys 824 sqm of panel
-for a 412 sqm requirement.** LPO-203 is recorded as drafted and not issued, so nothing is lost
-yet. **Confirm which supplier is taking PROJECT-2 before LPO-208 goes out, and cancel the other.**
-Al Buhsain is **2,884 dearer** but thicker-skinned and PPGI rather than Aluzinc.
+**RESOLVED 07-10-2026 — LPO-203 is cancelled.** Farhan has taken PROJECT-2 to Al Buhsain under
+LPO-208 and cancelled the Geo Panel order. **LTR/DCTS/251/2026** issued to Geopanel Factory
+W.L.L.: production to stop, written confirmation that nothing has been cut, and notice that
+**no payment has been released** — with a request to advise immediately if their records differ.
+LPO-203 is struck from the vendor register and that number is retired, as LPO-195 and LPO-197 were.
+
+**The letter is explicit that LPO-204 is unaffected.** That order — 125.17 sqm, 11,891, against
+GEO/Q3455 and acknowledged by proforma PI/26-0103 — is live for the Capital Grille job, and a
+cancellation letter naming the same supplier is exactly how a live order gets stopped by mistake.
+
+**Two things to watch:** TNDK's record carried LPO-203 as *drafted, not issued*, yet a cancellation
+is being sent — so **it was issued and the register was wrong**, which is the sort of gap that
+makes the committed-spend figure unreliable. And **the letter asserts no payment was released**;
+on a 100%-advance supplier that should be verified against the bank before it goes, because the
+statement is being made to the supplier in writing.
 
 **THE SHEET GAUGE HAS DROPPED AGAIN — 0.43 MM.** The run on this supplier is now 0.50 (01302),
 0.45 (01334, OL-044), 0.50 (01446, LPO-202), **0.43 (01562)**. TNDK's own quotations sell **0.5 mm
