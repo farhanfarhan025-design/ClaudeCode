@@ -135,6 +135,8 @@ wrong the first time.
 | 2026-09-16 | inbound | Arctic (ACC Qatar) | ATC/AZ/QT/26/07619 Rev1 | 20 | QAR 2,467.50 ✅ |
 | 2026-09-16 | inbound | *unidentified* — handwritten on our material list | none | 20 | none stated *(computes to 18,755.00)* |
 | 2026-09-16 | **outbound** | **Shared Services** *(our quotation)* | QUT/DCTS/237/2026 | 20 | QAR 21,700.00 ✅ |
+| 2026-10-06 | inbound | Airtronics | ART-QTN-3415-26 Rev 1 | 21 | QAR 61,500.00 ✅ *(after 1,359.00 discount)* |
+| 2026-10-07 | inbound | Airtronics | ART-QTN-3033-26 Rev 2 | 27 | QAR 65,000.00 ⚠️ **67,919.00 less 2,819.00 is 65,100.00** |
 
 ✅ = lines re-multiplied and summed against the document's own stated total.
 

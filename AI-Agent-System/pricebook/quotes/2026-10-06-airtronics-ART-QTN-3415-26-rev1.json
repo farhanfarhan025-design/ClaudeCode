@@ -1,0 +1,61 @@
+{
+  "quote_id": "2026-10-06-airtronics-ART-QTN-3415-26-rev1",
+  "direction": "inbound",
+  "vendor": {
+    "name": "Airtronics Trading Contracting & Maintenance W.L.L.",
+    "short": "AIRTRONICS",
+    "contacts": [{ "name": "Gireesh Nath", "role": "Sales Manager", "mobile": "+974 3169 0622" }]
+  },
+  "document": {
+    "ref": "ART-QTN - 3415-26 - REV 1",
+    "revision": "Rev 1",
+    "date": "2026-10-06",
+    "subject": "Supply of cold room units",
+    "addressed_to": "M/S. The New Doha Kitchen Equip. Services",
+    "attention": "Mr. Joby / Farhan",
+    "project": "Three rooms, project not named — Freezer 5.8 x 4.08 x 2.6 (61.83 cbm) · Tawing Chiller 5.7 x 4.0 x 2.6 (59.28 cbm) · Chiller 5.8 x 4.08 x 2.7 (63.42 cbm)",
+    "source_file": "QUOTATION_-_3415-26_-_REV_1_-__Danfoss_and_Gunay_Units.pdf",
+    "source_type": "vendor PDF",
+    "note": "The SL column repeats 3 and 4 — there are 21 priced lines, not 19. Renumbered sequentially here; the vendor's own numbering is kept in the description order."
+  },
+  "terms": {
+    "currency": "QAR",
+    "payment": "100% CDC upon collection",
+    "validity_days": 5,
+    "validity_note": "5 days, if stock is available",
+    "valid_until": "2026-10-11",
+    "delivery": "Ex-works Doha; ex-stock subject to prior sale"
+  },
+  "discount": 1359.00,
+  "stated_total": 61500.00,
+  "stated_total_words": "Sixty One Thousand Five Hundred Only",
+  "lines": [
+    { "sl": 1,  "item": "condensing-unit-danfoss-mgzd121",     "description": "Danfoss Hermetic Unit MGZD 121 - 6HP - R404A - 7.2KW @ -5Te/43AMB", "qty": 1, "unit": "EACH", "unit_price": 7000.00, "line_total": 7000.00 },
+    { "sl": 2,  "item": "evaporator-gunay-gne-235-4c",         "description": "Gunay Cubic Type Evaporator GNE 235.4C",                            "qty": 1, "unit": "EACH", "unit_price": 2600.00, "line_total": 2600.00 },
+    { "sl": 3,  "item": "condensing-unit-danfoss-mgzd121",     "description": "Danfoss Hermetic Unit MGZD 121 - 6HP - R404A - 7.2KW @ -5Te/43AMB", "qty": 2, "unit": "EACH", "unit_price": 7000.00, "line_total": 14000.00 },
+    { "sl": 4,  "item": "evaporator-gunay-gne-240-4b",         "description": "Gunay Cubic Type Evaporator GNE 240.4B / 4C2",                      "qty": 2, "unit": "EACH", "unit_price": 2600.00, "line_total": 5200.00 },
+    { "sl": 5,  "item": "condensing-unit-danfoss-lgqe215-271", "description": "Danfoss Hermetic Unit LGQE 215 / LGQE 271",                          "qty": 2, "unit": "EACH", "unit_price": 8300.00, "line_total": 16600.00 },
+    { "sl": 6,  "item": "evaporator-gunay-gne-245-8c",         "description": "Gunay Cubic Type Evaporator GNE 245.8C",                            "qty": 2, "unit": "EACH", "unit_price": 4300.00, "line_total": 8600.00 },
+    { "sl": 7,  "item": "control-panel-subzero-crc205200",     "description": "Subzero Control Panel - Plastic Body CRC205200",                    "qty": 5, "unit": "EACH", "unit_price": 975.00,  "line_total": 4875.00 },
+    { "sl": 8,  "item": "filter-drier-dcl164-half",            "description": "Danfoss Filter Drier - Flare DCL 164-1/2\" - 023Z500991",            "qty": 5, "unit": "EACH", "unit_price": 45.00,   "line_total": 225.00 },
+    { "sl": 9,  "item": "sight-glass-sgi12s",                  "description": "Danfoss Sight Glass - solder SGI 12s - 014-0036",                   "qty": 5, "unit": "EACH", "unit_price": 65.00,   "line_total": 325.00 },
+    { "sl": 10, "item": "expansion-valve-te2",                 "description": "Danfoss Exp. Valve R404A TE 2 - 068Z3403",                           "qty": 4, "unit": "EACH", "unit_price": 180.00,  "line_total": 720.00 },
+    { "sl": 11, "item": "orifice-te2-chr04-fzr05",             "description": "Danfoss Exp. Valve orifice CHR-04 (068-2007) + fzr-05 (068-2008)",   "qty": 4, "unit": "EACH", "unit_price": 50.00,   "line_total": 200.00 },
+    { "sl": 12, "item": "solenoid-valve-1068-4a6",             "description": "Castel Solenoid Valve 1/2 - solder 1068-4A6 + coil",                 "qty": 5, "unit": "EACH", "unit_price": 150.00,  "line_total": 750.00, "note": "Coil included." },
+    { "sl": 13, "item": "pressure-switch-kp15",                "description": "Danfoss HP/LP switch - AUTO KP15 - 060-124166",                      "qty": 2, "unit": "EACH", "unit_price": 180.00,  "line_total": 360.00, "note": "Switch alone — no hose on this line." },
+    { "sl": 14, "item": "vibration-eliminator-half",           "description": "Vibration Absorber - Harbax 1/2\"",                                  "qty": 5, "unit": "EACH", "unit_price": 40.00,   "line_total": 200.00 },
+    { "sl": 15, "item": "p-trap-five-eighths",                 "description": "Copper P Trap 5/8\"",                                                "qty": 5, "unit": "EACH", "unit_price": 10.00,   "line_total": 50.00 },
+    { "sl": 16, "item": "flexible-connector-1mtr",             "description": "Flexible Hose 1 mtr Red - Blue",                                     "qty": 4, "unit": "EACH", "unit_price": 35.00,   "line_total": 140.00 },
+    { "sl": 17, "item": "brazing-rod-45pct",                   "description": "Copper Blue Rod 45% / pcs",                                          "qty": 4, "unit": "EACH", "unit_price": 65.00,   "line_total": 260.00 },
+    { "sl": 18, "item": "brazing-rod-0pct-tube",               "description": "Copper Rod 0% / tube",                                               "qty": 2, "unit": "TUBE", "unit_price": 60.00,   "line_total": 120.00 },
+    { "sl": 19, "item": "flare-nut-three-eighths",             "description": "Castel flare nut 3/8 - 7010/33",                                     "qty": 4, "unit": "EACH", "unit_price": 5.00,    "line_total": 20.00 },
+    { "sl": 20, "item": "flare-nut-half",                      "description": "Olab flare nut 1/2",                                                 "qty": 19, "unit": "EACH", "unit_price": 6.00,   "line_total": 114.00 },
+    { "sl": 21, "item": "expansion-valve-te5-r404a",           "description": "Danfoss Exp. Valve R404A - TE 5 - 067B3342 + 067B2789 + vlv body 1/2 x 7/8", "qty": 1, "unit": "EACH", "unit_price": 500.00, "line_total": 500.00 }
+  ],
+  "provenance": {
+    "captured_by": "PROCURE (inventory keeper)",
+    "captured_on": "2026-10-07",
+    "confidence": "high",
+    "basis": "Text extracted from the vendor's own PDF. All 21 lines multiply out, sum to the printed 62,859.00 sub-total, and 62,859.00 less the 1,359.00 discount gives the stated 61,500.00 exactly."
+  }
+}

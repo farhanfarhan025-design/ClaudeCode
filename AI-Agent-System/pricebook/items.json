@@ -40,7 +40,8 @@
       "brand": "Gunay",
       "model": "GNE 245.8C",
       "unit": "EACH",
-      "category": "plant"
+      "category": "plant",
+      "compare_note": "Airtronics quoted this model at three prices in ten weeks: 4,350.00 (28 Jul), 4,300.00 (6 Oct) and 3,950.00 (7 Oct) - the last two one day apart. Ask which stands before ordering."
     },
     "hinged-door-90x190": {
       "description": "Hinged cold room door 90 x 190, right opening",
@@ -57,7 +58,7 @@
       "unit": "EACH",
       "category": "control",
       "rate_card": "control_panel",
-      "compare_note": "Body material differs: metal body 975.00 (Airtronics) vs plastic body 950.00 (Arctic). Same model number.",
+      "compare_note": "Body material and vendor both move the price: Arctic plastic body 950.00 (20 Aug), Airtronics metal body 975.00 (28 Jul), Airtronics plastic body 975.00 (6-7 Oct). Arctic is the cheaper source for the same plastic body.",
       "rate_card_note": "The rate is ABOVE the real price here, which is the safe direction - it overstates cost, so realised margin on jobs priced with it is better than computed, not worse."
     },
     "filter-drier-dcl164-half": {
@@ -137,7 +138,7 @@
       "model": "KP 15",
       "unit": "EACH",
       "category": "control",
-      "compare_note": "One supplier bundles a flexible hose into the 180.00; Arctic quotes the switch alone at 230.00 and the hose separately. Compare the bundle, not the headline."
+      "compare_note": "Bundling differs: 180.00 bare (Airtronics 6 Oct, unnamed 16 Sep), 185.00 with flexible hose (Airtronics 7 Oct), 230.00 switch only (Arctic 16 Sep). Arctic is the outlier on an otherwise settled 180-185 rate."
     },
     "flare-nut-half": {
       "description": "Flare nut 1/2\"",
@@ -161,7 +162,7 @@
       "description": "Vibration eliminator 1/2\"",
       "unit": "EACH",
       "category": "line-component",
-      "compare_note": "Different brands: Harbax vs Castel 7690/4."
+      "compare_note": "Brands differ (Harbax vs Castel 7690/4). Harbax has been quoted at 40.00, 50.00 and 60.00 - the 40.00 is the current Airtronics rate."
     },
     "vibration-eliminator-one-three-eighths": {
       "description": "Vibration absorber 1 3/8\", Harbax",
@@ -290,6 +291,156 @@
       "brand": "Harris",
       "unit": "BOX",
       "category": "consumable"
+    },
+    "condensing-unit-dorin-au2-h1601cs": {
+      "description": "Dorin semi-hermetic unit AU2-H1601CS, 16 hp / 20 kW, R134a",
+      "brand": "Dorin",
+      "model": "AU2-H1601CS",
+      "unit": "EACH",
+      "category": "plant"
+    },
+    "condensing-unit-dorin-au-h505cs": {
+      "description": "Dorin semi-hermetic unit AU-H505CS, 5 hp / 6.23 kW, R404a",
+      "brand": "Dorin",
+      "model": "AU-H505CS",
+      "unit": "EACH",
+      "category": "plant",
+      "rate_card": "unit_freezer",
+      "rate_card_note": "Freezer duty. Paired with a Gunay GNE 245.8C at 3,950.00, a freezer package is 14,550.00 against a 6,400.00 card rate - 127% above. Second independent confirmation that the flat rate is wrong (OL-019)."
+    },
+    "condensing-unit-dorin-au-h405cs": {
+      "description": "Dorin semi-hermetic unit AU-H405CS, 4 hp / 7.2 kW, R134a",
+      "brand": "Dorin",
+      "model": "AU-H405CS",
+      "unit": "EACH",
+      "category": "plant",
+      "rate_card": "unit_chiller",
+      "rate_card_note": "Chiller duty. With a GNE 240.4B evaporator at 2,600.00 the package is 11,350.00 against an 8,800.00 card rate - 29% above."
+    },
+    "condensing-unit-dorin-au-h181": {
+      "description": "Dorin semi-hermetic unit AU-H181, 1.8 hp / 2.36 kW, R134a",
+      "brand": "Dorin",
+      "model": "AU-H181",
+      "unit": "EACH",
+      "category": "plant"
+    },
+    "condensing-unit-danfoss-mgzd121": {
+      "description": "Danfoss hermetic unit MGZD 121, 6 hp / 7.2 kW @ -5 Te / 43 amb, R404A",
+      "brand": "Danfoss",
+      "model": "MGZD 121",
+      "unit": "EACH",
+      "category": "plant"
+    },
+    "condensing-unit-danfoss-lgqe215-271": {
+      "description": "Danfoss hermetic unit LGQE 215 / LGQE 271",
+      "brand": "Danfoss",
+      "model": "LGQE 215 / LGQE 271",
+      "unit": "EACH",
+      "category": "plant",
+      "compare_note": "Quoted as one line covering two model numbers. Confirm which unit is actually supplied before an LPO."
+    },
+    "evaporator-gunay-gne-340-4b": {
+      "description": "Gunay cubic evaporator GNE 340.4B, 10 kW",
+      "brand": "Gunay",
+      "model": "GNE 340.4B",
+      "unit": "EACH",
+      "category": "plant"
+    },
+    "evaporator-gunay-gne-240-4b": {
+      "description": "Gunay cubic evaporator GNE 240.4B, 10 kW",
+      "brand": "Gunay",
+      "model": "GNE 240.4B",
+      "unit": "EACH",
+      "category": "plant",
+      "compare_note": "Quoted at 2,600.00 against 4,000.00 for the GNE 340.4B, both described as 10 kW. The duty on one of the two lines is probably wrong - confirm before sizing anything on it."
+    },
+    "evaporator-gunay-gne-235-4c": {
+      "description": "Gunay cubic evaporator GNE 235.4C",
+      "brand": "Gunay",
+      "model": "GNE 235.4C",
+      "unit": "EACH",
+      "category": "plant"
+    },
+    "evaporator-gunay-gne-130-4a": {
+      "description": "Gunay cubic evaporator GNE 130.4A, 2 kW",
+      "brand": "Gunay",
+      "model": "GNE 130.4A",
+      "unit": "EACH",
+      "category": "plant"
+    },
+    "filter-drier-dcl165-five-eighths": {
+      "description": "Filter drier 5/8\", flare, Danfoss DCL 165",
+      "brand": "Danfoss",
+      "model": "DCL 165",
+      "unit": "EACH",
+      "category": "line-component"
+    },
+    "sight-glass-sgp16s": {
+      "description": "Sight glass 5/8\" solder, Danfoss SGP-16S",
+      "brand": "Danfoss",
+      "model": "SGP-16S",
+      "unit": "EACH",
+      "category": "line-component"
+    },
+    "expansion-valve-te5-r134a": {
+      "description": "Expansion valve TE5 R134a, with orifice 01 and valve body",
+      "brand": "Danfoss",
+      "model": "TE5 (067B3297)",
+      "unit": "EACH",
+      "category": "line-component"
+    },
+    "expansion-valve-te5-r404a": {
+      "description": "Expansion valve TE5 R404A, with 067B2789 and 1/2 x 7/8 valve body",
+      "brand": "Danfoss",
+      "model": "TE5 (067B3342)",
+      "unit": "EACH",
+      "category": "line-component"
+    },
+    "expansion-valve-te2-r134a": {
+      "description": "Expansion valve TE2 R134a, chiller duty",
+      "brand": "Danfoss",
+      "model": "TE2 (068Z3348)",
+      "unit": "EACH",
+      "category": "line-component",
+      "compare_note": "R134a chiller valve. NOT the 068Z3403 R404A valve quoted elsewhere, though both price at 180.00."
+    },
+    "orifice-te2-chr04-fzr05": {
+      "description": "TE2 orifice, chiller no. 04 (068-2007) / freezer no. 05 (068-2008)",
+      "brand": "Danfoss",
+      "unit": "EACH",
+      "category": "line-component",
+      "compare_note": "Orifice 04/05, not the No. 02 quoted elsewhere. Quoted by the same vendor at 40.00 and 50.00 one day apart - ask which stands."
+    },
+    "solenoid-valve-1078-5a6": {
+      "description": "Solenoid valve 5/8\" solder, Castel 1078/5A6, with coil and connector",
+      "brand": "Castel",
+      "model": "1078/5A6",
+      "unit": "EACH",
+      "category": "line-component"
+    },
+    "vibration-eliminator-one-one-eighth": {
+      "description": "Vibration eliminator Harbax HAV 1 1/8\"",
+      "brand": "Harbax",
+      "model": "HAV 1 1/8\"",
+      "unit": "EACH",
+      "category": "line-component"
+    },
+    "vibration-eliminator-seven-eighths": {
+      "description": "Vibration absorber 7/8\", Harbax",
+      "brand": "Harbax",
+      "unit": "EACH",
+      "category": "line-component"
+    },
+    "p-trap-three-quarters": {
+      "description": "Copper P-trap 3/4\"",
+      "unit": "EACH",
+      "category": "pipe"
+    },
+    "brazing-rod-0pct-tube": {
+      "description": "Copper brazing rod 0%, per tube",
+      "unit": "TUBE",
+      "category": "consumable",
+      "compare_note": "Priced per tube. Arctic's 0% rod is priced per box of 28 at 58.00 - not the same basis, do not compare the two figures."
     }
   }
 }

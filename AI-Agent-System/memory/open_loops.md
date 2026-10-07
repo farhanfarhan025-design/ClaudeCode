@@ -86,6 +86,40 @@ in the process to say which you are in.
 **Needed:** duty-banded unit rates, or a "confirm against a live quote above X cbm" trigger.
 PROCURE may only propose; the change is Farhan's (`agents/procure/IDENTITY.md`).
 
+**Second and third confirmations, 2026-10-07** (ART-QTN-3033-26 Rev 2):
+
+| Package | Real | Card | Over |
+|---|---|---|---|
+| Freezer 63 cbm — Dorin AU-H505CS + Gunay GNE 245.8C | 14,550.00 | `unit_freezer` 6,400.00 | **127%** |
+| Chiller 76.5 cbm — Dorin AU-H405CS + Gunay GNE 240.4B | 11,350.00 | `unit_chiller` 8,800.00 | **29%** |
+| Chiller 330 cbm — Dorin AU2-H1601CS + 2 × GNE 340.4B | 25,800.00 | `unit_chiller` 8,800.00 | **193%** |
+
+Three rooms, three different overruns, rising with volume — which is the proof that the fault
+is the flat rate rather than a price movement. `unit_chiller` is wrong too, not just
+`unit_freezer`.
+
+### OL-023 — Airtronics ART-QTN-3033-26 Rev 2 does not add up
+**Owner:** PROCURE → Airtronics · **Raised:** 2026-10-07 · **Blocks:** ordering against it
+**Expires 2026-10-10 — three days' validity**
+
+Sub-total 67,919.00 is correct; every line multiplies out and sums to it. But 67,919.00 less
+the stated 2,819.00 discount is **65,100.00**, not the **65,000.00** printed. Either the
+discount should read 2,919.00 or the total should read 65,100.00.
+
+Second document on record out by **exactly 100.00** — see OL-020 (Arctic ATC/RY). Worth
+noticing as a pattern in how these totals are being typed, not just as one slip.
+
+**Needed:** Airtronics to confirm which figure stands. One call; the quote dies on 10 Oct.
+
+### OL-024 — Gunay GNE 245.8C quoted at three prices in ten weeks
+**Owner:** PROCURE · **Raised:** 2026-10-07
+
+Same model, same vendor: **4,350.00** (28 Jul) → **4,300.00** (6 Oct) → **3,950.00** (7 Oct).
+The last two are one day apart on quotations to the same company.
+
+**Needed:** ask which rate stands. If 3,950.00 is live it should be the one used, and the
+350.00 gap on a one-day-old quote is worth understanding before the next freezer is priced.
+
 ## 🟠 Cash — active
 
 ### OL-005 — Mesaieed advance bank guarantee

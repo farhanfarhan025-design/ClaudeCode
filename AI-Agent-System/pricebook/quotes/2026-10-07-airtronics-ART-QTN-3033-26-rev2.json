@@ -1,0 +1,77 @@
+{
+  "quote_id": "2026-10-07-airtronics-ART-QTN-3033-26-rev2",
+  "direction": "inbound",
+  "vendor": {
+    "name": "Airtronics Trading Contracting & Maintenance W.L.L.",
+    "short": "AIRTRONICS",
+    "contacts": [
+      { "name": "Gireesh Nath", "role": "Sales Manager", "mobile": "+974 3169 0622" },
+      { "name": "Basil Joseph", "role": "contact", "mobile": "+974 6675 9913" }
+    ]
+  },
+  "document": {
+    "ref": "ART-QTN-3033-26 - REV 2",
+    "revision": "Rev 2",
+    "date": "2026-10-07",
+    "subject": "Supply of cold room units",
+    "addressed_to": "M/S. The New Doha Kitchen Equip. Services",
+    "attention": "Mr. Joby / Farhan",
+    "project": "Five rooms, project not named — Chiller 11 x 10 x 3 (330.3 cbm) · Egg Chiller 2.0 x 1.9 x 3 (11.4 cbm) · Marination Chiller 8.5 x 3 x 3 (76.5 cbm) · Freezer 7 x 3 x 3 (63.0 cbm) · Garbage Chiller 2 x 2 x 3 (12 cbm)",
+    "source_file": "QUOTATION_-_3033-26_-_REV_2_-_Dorin_and_Gunay_Units.pdf",
+    "source_type": "vendor PDF"
+  },
+  "terms": {
+    "currency": "QAR",
+    "payment": "100% upon collection",
+    "validity_days": 3,
+    "validity_note": "3 days, if stock is available — the shortest validity on record",
+    "valid_until": "2026-10-10",
+    "delivery": "Ex-works Doha; ex-stock subject to prior sale"
+  },
+  "discount": 2819.00,
+  "stated_total": 65000.00,
+  "known_discrepancy": {
+    "kind": "stated_total_below_lines_after_discount",
+    "lines_sum_to": 67919.00,
+    "discount_stated": 2819.00,
+    "computes_to": 65100.00,
+    "document_states": 65000.00,
+    "difference": 100.00,
+    "note": "The sub-total of 67,919.00 is correct — every line multiplies out and they sum to it exactly. But 67,919.00 less the stated 2,819.00 discount is 65,100.00, not the 65,000.00 printed. Either the discount should read 2,919.00 or the total should read 65,100.00. Ask before raising an LPO: this is the second Airtronics/Arctic document out by exactly 100.00 (see also ATC/RY/QT/26/00286). RULES A3."
+  },
+  "lines": [
+    { "sl": 1,  "item": "condensing-unit-dorin-au2-h1601cs", "description": "Dorin - Italy Semi Hermetic Unit AU2-H1601CS - 16HP - R134a - 20kW", "qty": 1, "unit": "EACH", "unit_price": 17800.00, "line_total": 17800.00, "room": "Chiller 330.3 cbm" },
+    { "sl": 2,  "item": "evaporator-gunay-gne-340-4b",       "description": "Gunay Cubic Type Evaporator GNE 340.4B - 10KW",                     "qty": 2, "unit": "EACH", "unit_price": 4000.00,  "line_total": 8000.00, "room": "Chiller 330.3 cbm" },
+    { "sl": 3,  "item": "evaporator-gunay-gne-130-4a",       "description": "Gunay Cubic Type Evaporator GNE 130.4A - 2kW",                      "qty": 1, "unit": "EACH", "unit_price": 1300.00,  "line_total": 1300.00, "room": "Egg Chiller 11.4 cbm" },
+    { "sl": 4,  "item": "condensing-unit-dorin-au-h405cs",   "description": "Dorin - Italy Semi Hermetic Unit AU-H405CS - 4HP - R134a - 7.2kW",  "qty": 1, "unit": "EACH", "unit_price": 8750.00,  "line_total": 8750.00, "room": "Marination Chiller 76.5 cbm" },
+    { "sl": 5,  "item": "evaporator-gunay-gne-240-4b",       "description": "Gunay Cubic Type Evaporator GNE 240.4B - 10KW",                     "qty": 1, "unit": "EACH", "unit_price": 2600.00,  "line_total": 2600.00, "room": "Marination Chiller 76.5 cbm" },
+    { "sl": 6,  "item": "condensing-unit-dorin-au-h505cs",   "description": "Dorin - Italy Semi Hermetic Unit AU-H505CS - 5HP - R404a - 6.23kW", "qty": 1, "unit": "EACH", "unit_price": 10600.00, "line_total": 10600.00, "room": "Freezer 63.0 cbm" },
+    { "sl": 7,  "item": "evaporator-gunay-gne-245-8c",       "description": "Gunay Cubic Type Evaporator GNE 245.8C - 7.29KW",                   "qty": 1, "unit": "EACH", "unit_price": 3950.00,  "line_total": 3950.00, "room": "Freezer 63.0 cbm" },
+    { "sl": 8,  "item": "condensing-unit-dorin-au-h181",     "description": "Dorin - Italy Semi Hermetic Unit AU-H181 - 1.8HP - R134a - 2.36kW", "qty": 1, "unit": "EACH", "unit_price": 4300.00,  "line_total": 4300.00, "room": "Garbage Chiller 12 cbm" },
+    { "sl": 9,  "item": "evaporator-gunay-gne-130-4a",       "description": "Gunay Cubic Type Evaporator GNE 130.4A - 2kW",                      "qty": 1, "unit": "EACH", "unit_price": 1300.00,  "line_total": 1300.00, "room": "Garbage Chiller 12 cbm" },
+    { "sl": 10, "item": "control-panel-subzero-crc205200",   "description": "Subzero Control Panel - Plastic Body CRC205200",                    "qty": 5, "unit": "EACH", "unit_price": 975.00,   "line_total": 4875.00 },
+    { "sl": 11, "item": "pressure-switch-kp15",              "description": "Danfoss Dual Pressure Switch KP 15 AUTO - 060-124166 + flexible hose", "qty": 5, "unit": "EACH", "unit_price": 185.00, "line_total": 925.00, "note": "Includes a flexible hose." },
+    { "sl": 12, "item": "flexible-connector-1mtr",           "description": "Flexible Hose Red & Blue",                                          "qty": 10, "unit": "EACH", "unit_price": 35.00,   "line_total": 350.00 },
+    { "sl": 13, "item": "p-trap-three-quarters",             "description": "Copper P-Trap 3/4\"",                                               "qty": 5, "unit": "EACH", "unit_price": 20.00,   "line_total": 100.00 },
+    { "sl": 14, "item": "filter-drier-dcl165-five-eighths",  "description": "Danfoss Filter Drier - Flare DCL 165 - 5/8\"",                       "qty": 1, "unit": "EACH", "unit_price": 45.00,   "line_total": 45.00 },
+    { "sl": 15, "item": "sight-glass-sgp16s",                "description": "Danfoss Sight Glass - solder SGP-16S",                              "qty": 1, "unit": "EACH", "unit_price": 70.00,   "line_total": 70.00 },
+    { "sl": 16, "item": "expansion-valve-te5-r134a",         "description": "Danfoss Expansion Valve R134a TE 5 - 067B3297 + 01 + vlv body",      "qty": 1, "unit": "EACH", "unit_price": 500.00,  "line_total": 500.00 },
+    { "sl": 17, "item": "vibration-eliminator-one-one-eighth","description": "Harbax Vibration Eliminator HAV 1 1/8\"",                           "qty": 1, "unit": "EACH", "unit_price": 75.00,   "line_total": 75.00 },
+    { "sl": 18, "item": "solenoid-valve-1078-5a6",           "description": "Castel Solenoid Valve 5/8\" solder 1078/5A6 + coil + connector",     "qty": 1, "unit": "EACH", "unit_price": 250.00,  "line_total": 250.00 },
+    { "sl": 19, "item": "filter-drier-dcl164-half",          "description": "Danfoss Filter Drier - Flare DCL 164 - 1/2\"",                       "qty": 4, "unit": "EACH", "unit_price": 45.00,   "line_total": 180.00 },
+    { "sl": 20, "item": "expansion-valve-te2",               "description": "Danfoss Exp. Valve R404A - freezer TE 2 - 068Z3403",                 "qty": 1, "unit": "EACH", "unit_price": 180.00,  "line_total": 180.00 },
+    { "sl": 21, "item": "expansion-valve-te2-r134a",         "description": "Danfoss Exp. Valve R134A - chiller TE2 - 068Z3348",                  "qty": 3, "unit": "EACH", "unit_price": 180.00,  "line_total": 540.00 },
+    { "sl": 22, "item": "orifice-te2-chr04-fzr05",           "description": "Danfoss Exp. Valve orifice CHR-04 (068-2007) + fzr-05 (068-2008)",   "qty": 4, "unit": "EACH", "unit_price": 40.00,   "line_total": 160.00 },
+    { "sl": 23, "item": "vibration-eliminator-seven-eighths","description": "Vibration Absorber - Harbax 7/8",                                    "qty": 4, "unit": "EACH", "unit_price": 65.00,   "line_total": 260.00 },
+    { "sl": 24, "item": "brazing-rod-45pct",                 "description": "Copper Blue Rod 45% / pcs",                                          "qty": 9, "unit": "EACH", "unit_price": 65.00,   "line_total": 585.00 },
+    { "sl": 25, "item": "brazing-rod-0pct-tube",             "description": "Copper Rod 0% / tube",                                               "qty": 3, "unit": "TUBE", "unit_price": 60.00,   "line_total": 180.00 },
+    { "sl": 26, "item": "flare-nut-three-eighths",           "description": "Castel flare nut 3/8 - 7010/33",                                     "qty": 4, "unit": "EACH", "unit_price": 5.00,    "line_total": 20.00 },
+    { "sl": 27, "item": "flare-nut-half",                    "description": "Olab flare nut 1/2 - OL/44",                                         "qty": 4, "unit": "EACH", "unit_price": 6.00,    "line_total": 24.00 }
+  ],
+  "provenance": {
+    "captured_by": "PROCURE (inventory keeper)",
+    "captured_on": "2026-10-07",
+    "confidence": "high",
+    "basis": "Text extracted from the vendor's own PDF. Lines verified: all 27 multiply out and sum to the printed 67,919.00 sub-total. The stated grand total does not follow from the stated discount — see known_discrepancy."
+  }
+}
