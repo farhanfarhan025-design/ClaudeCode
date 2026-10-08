@@ -433,8 +433,29 @@ def remove_pictures(doc, spec):
             print(f"  ! remove: no picture between {item['after']!r} and "
                   f"{item['before']!r} — skipped", file=sys.stderr)
             continue
+        _drop_caption(para)
         para.getparent().remove(para)
         _collapse_blanks(doc, item["after"].upper(), item["before"].upper())
+
+
+def _drop_caption(para):
+    """Remove the italic line sitting under a picture, before the picture goes.
+
+    The master captions its photographs in a paragraph of their own. Deleting
+    the picture alone leaves the caption describing nothing.
+    """
+    nxt = para.getnext()
+    if nxt is None or nxt.tag != qn("w:p"):
+        return
+    runs = nxt.findall(".//" + qn("w:r"))
+    text = "".join(t.text or "" for t in nxt.iter(qn("w:t"))).strip()
+    if not runs or not text or len(text) > 150:
+        return
+    if nxt.find(".//" + qn("a:blip")) is not None:
+        return
+    if all(r.find(qn("w:rPr")) is not None
+           and r.find(qn("w:rPr")).find(qn("w:i")) is not None for r in runs):
+        nxt.getparent().remove(nxt)
 
 
 def _collapse_blanks(doc, after, before, keep=1):
@@ -794,13 +815,23 @@ def operating_temp(spec):
     return " / ".join(f"{t} ({', '.join(groups[t])})" for t in order)
 
 
+def _title(text):
+    """Title-case a room type, leaving its drawing reference alone.
+
+    "CHILLER" should read "Chiller", but a room tagged "RD.05" off the client's
+    equipment schedule must keep its capitals — `str.title` writes "Rd.05".
+    """
+    return " ".join(w if any(c.isdigit() or c == "." for c in w) else w.title()
+                    for w in text.split())
+
+
 def room_labels(spec):
     """['Freezer', 'Chiller'], or ['Chiller 01', 'Chiller 02'] when a type repeats.
 
     Two rooms of the same type both labelled "Chiller" leaves the reader unable
     to tell which figure belongs to which room.
     """
-    types = [r["type"].title() for r in spec["rooms"]]
+    types = [_title(r["type"]) for r in spec["rooms"]]
     out, seen = [], {}
     for t in types:
         if types.count(t) == 1:
