@@ -283,3 +283,23 @@ figure that exists for that job and it bears directly on OL-011.
 **Needed:** PRICE to build the full Samoosa cost against this, once OL-001 settles which
 contract value is real.
 
+### OL-025 — Two Dorin units carry a freezer suffix on chiller rooms
+**Owner:** PROCURE → Airtronics · **Raised:** 2026-10-08 · **Blocks:** ordering either unit
+**Quote expires 2026-10-10**
+
+In Dorin naming, **CS = freezer, CC = chiller** (Farhan, 8 Oct 2026). On ART-QTN-3033-26 Rev 2:
+
+| Model | Suffix | Quoted for | Refrigerant | Price |
+|---|---|---|---|---|
+| AU2-H1601CS | freezer | Chiller room, 330.3 cbm | R134a | 17,800.00 |
+| AU-H405CS | freezer | Marination chiller, 76.5 cbm | R134a | 8,750.00 |
+
+R134a is medium-temperature, which matches the chiller application, not the suffix. So either
+the model numbers are wrong or the room assignments are. Together these are **26,550.00** —
+the two largest chiller lines on the quotation.
+
+The other Dorin units are consistent: AU-H505CS (CS, freezer room, R404a), AU2-H751CS (CS,
+Samoosa freezer), AU-H300CC (CC, chiller).
+
+**Needed:** Airtronics to confirm the model numbers against the room duties before any LPO.
+

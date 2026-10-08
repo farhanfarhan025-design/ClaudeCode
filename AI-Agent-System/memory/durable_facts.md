@@ -118,6 +118,25 @@ The supplier who priced the 16 Sep material list by hand is **not identified** �
 No warranty expiry dates recorded for any completed project. AMC contracted value: **QAR 0**.
 This is a gap, not a finding of fact — ANNUITY's first task is to establish it.
 
+## Technical — model naming
+
+| Fact | Value | Source | Confidence |
+|---|---|---|---|
+| Dorin suffix **CS** | **Freezer** duty (low temperature) | Farhan, 2026-10-08 | high |
+| Dorin suffix **CC** | **Chiller** duty (medium temperature) | Farhan, 2026-10-08 | high |
+
+Read the suffix before accepting a vendor's room assignment. Two units on record carry CS but
+are quoted against chiller rooms on R134a — see `pricebook/items.json` `suffix_note`:
+
+| Model | Suffix says | Quoted for | Refrigerant |
+|---|---|---|---|
+| AU2-H1601CS | freezer | Chiller room, 330.3 cbm | R134a |
+| AU-H405CS | freezer | Marination chiller, 76.5 cbm | R134a |
+
+R134a is a medium-temperature refrigerant, which fits the chiller application and not the
+suffix. Either the model numbers or the room assignments on ART-QTN-3033-26 Rev 2 are wrong.
+**OL-025.**
+
 ## Clients — quoted, not yet awarded
 
 | Fact | Value | Source | Confidence |

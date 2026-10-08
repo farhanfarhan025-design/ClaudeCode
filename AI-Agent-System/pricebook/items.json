@@ -16,7 +16,10 @@
       "brand": "Dorin",
       "model": "AU-H300CC",
       "unit": "EACH",
-      "category": "plant"
+      "category": "plant",
+      "duty_from_suffix": "chiller",
+      "dorin_suffix": "CC",
+      "refrigerant_quoted": "R?"
     },
     "condensing-unit-dorin-au2-h751cs": {
       "description": "Dorin semi-hermetic unit AU2-H751CS, 7.5 hp / 8.1 kW",
@@ -26,7 +29,11 @@
       "category": "plant",
       "rate_card": "unit_freezer",
       "compare_note": "Quoted inclusive of TE5 expansion valve, orifice and valve body - a package, not a bare unit.",
-      "rate_card_note": "RATES['unit_freezer'] is meant to cover the condensing unit AND the evaporator for one freezer room. The comparison above is against the condensing unit alone. The like-for-like figure is 12,700.00 + 4,350.00 (Gunay evaporator) = 17,050.00 against a 6,400.00 rate - 166% above, not 98%. The rate is also flat per room and does not scale with duty; this quote is for a 41.6 cbm freezer at -25 Te."
+      "rate_card_note": "RATES['unit_freezer'] is meant to cover the condensing unit AND the evaporator for one freezer room. The comparison above is against the condensing unit alone. The like-for-like figure is 12,700.00 + 4,350.00 (Gunay evaporator) = 17,050.00 against a 6,400.00 rate - 166% above, not 98%. The rate is also flat per room and does not scale with duty; this quote is for a 41.6 cbm freezer at -25 Te.",
+      "duty_from_suffix": "freezer",
+      "dorin_suffix": "CS",
+      "refrigerant_quoted": "—",
+      "suffix_note": "Quoted for the Samoosa freezer room. Suffix and application agree."
     },
     "evaporator-frigabohn-3c-e-3245": {
       "description": "Friga-Bohn evaporator 3C-E 3245-R + E1U + 240V, Aeris coating",
@@ -297,7 +304,12 @@
       "brand": "Dorin",
       "model": "AU2-H1601CS",
       "unit": "EACH",
-      "category": "plant"
+      "category": "plant",
+      "duty_from_suffix": "freezer",
+      "dorin_suffix": "CS",
+      "refrigerant_quoted": "R134a",
+      "suffix_note": "CONFLICT: the CS suffix says freezer, but Airtronics quotes it for a 330.3 cbm CHILLER room on R134a, a medium-temperature refrigerant. Confirm the model before ordering - 17,800.00 is the largest single line in the price book.",
+      "compare_note": "CONFLICT: the CS suffix says freezer, but Airtronics quotes it for a 330.3 cbm CHILLER room on R134a, a medium-temperature refrigerant. Confirm the model before ordering - 17,800.00 is the largest single line in the price book."
     },
     "condensing-unit-dorin-au-h505cs": {
       "description": "Dorin semi-hermetic unit AU-H505CS, 5 hp / 6.23 kW, R404a",
@@ -306,7 +318,11 @@
       "unit": "EACH",
       "category": "plant",
       "rate_card": "unit_freezer",
-      "rate_card_note": "Freezer duty. Paired with a Gunay GNE 245.8C at 3,950.00, a freezer package is 14,550.00 against a 6,400.00 card rate - 127% above. Second independent confirmation that the flat rate is wrong (OL-019)."
+      "rate_card_note": "Freezer duty. Paired with a Gunay GNE 245.8C at 3,950.00, a freezer package is 14,550.00 against a 6,400.00 card rate - 127% above. Second independent confirmation that the flat rate is wrong (OL-019).",
+      "duty_from_suffix": "freezer",
+      "dorin_suffix": "CS",
+      "refrigerant_quoted": "R404a",
+      "suffix_note": "Quoted for a freezer room on R404a. Suffix, refrigerant and application all agree."
     },
     "condensing-unit-dorin-au-h405cs": {
       "description": "Dorin semi-hermetic unit AU-H405CS, 4 hp / 7.2 kW, R134a",
@@ -315,14 +331,22 @@
       "unit": "EACH",
       "category": "plant",
       "rate_card": "unit_chiller",
-      "rate_card_note": "Chiller duty. With a GNE 240.4B evaporator at 2,600.00 the package is 11,350.00 against an 8,800.00 card rate - 29% above."
+      "rate_card_note": "Chiller duty. With a GNE 240.4B evaporator at 2,600.00 the package is 11,350.00 against an 8,800.00 card rate - 29% above.",
+      "duty_from_suffix": "freezer",
+      "dorin_suffix": "CS",
+      "refrigerant_quoted": "R134a",
+      "suffix_note": "CONFLICT: the CS suffix says freezer, but Airtronics quotes it for the 76.5 cbm marination CHILLER on R134a. Confirm the model.",
+      "compare_note": "CONFLICT: the CS suffix says freezer, but Airtronics quotes it for the 76.5 cbm marination CHILLER on R134a. Confirm the model."
     },
     "condensing-unit-dorin-au-h181": {
       "description": "Dorin semi-hermetic unit AU-H181, 1.8 hp / 2.36 kW, R134a",
       "brand": "Dorin",
       "model": "AU-H181",
       "unit": "EACH",
-      "category": "plant"
+      "category": "plant",
+      "dorin_suffix": "—",
+      "refrigerant_quoted": "R134a",
+      "suffix_note": "No CS/CC suffix on this model. Quoted for a 12 cbm garbage chiller on R134a."
     },
     "condensing-unit-danfoss-mgzd121": {
       "description": "Danfoss hermetic unit MGZD 121, 6 hp / 7.2 kW @ -5 Te / 43 amb, R404A",
