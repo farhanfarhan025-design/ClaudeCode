@@ -34,6 +34,10 @@ SKILL_DIR = Path(__file__).resolve().parent.parent
 MASTER = SKILL_DIR / "template" / "master.docx"
 # House photograph for section 2, used unless a quote supplies its own door
 HOUSE_DOOR_PHOTO = SKILL_DIR / "template" / "door.png"
+# The sliding-door artwork carries "SIZE: 2000 mm (W) x 2500 mm (H)" in the
+# picture, so it only goes in on a job quoting that opening
+HOUSE_SLIDING_DOOR_PHOTO = SKILL_DIR / "template" / "door-sliding.png"
+HOUSE_SLIDING_DOOR_SIZE = (2000, 2500)
 
 # Prose strings as they appear in the frozen master. Editing the master means
 # updating these — nothing else in the script hardcodes document text.
@@ -594,10 +598,24 @@ def replace_door_image(doc, spec):
     artwork and so contradicts any job quoting a different size. Pass
     `"image": <path>` to show the actual door instead — a glass door, say —
     or `"image": false` to keep whatever the master ships with.
+
+    A sliding door gets the sliding artwork, but only at the 2000 x 2500 mm
+    opening printed in it. At any other size neither house photograph tells the
+    truth, so none goes in and the quote has to supply one or `remove` it.
     """
-    path = spec.get("door", {}).get("image")
+    door = spec.get("door", {})
+    path = door.get("image")
     if path is False:
         return
+    if not path and door_kind(spec) == "sliding":
+        size = (door.get("width_mm"), door.get("height_mm"))
+        if size != HOUSE_SLIDING_DOOR_SIZE:
+            print(f"  ! sliding door {size[0]} x {size[1]} mm — the house "
+                  "artwork is drawn at 2000 x 2500, so no door photo was "
+                  "placed; supply `door.image` or `remove` the picture",
+                  file=sys.stderr)
+            return
+        path = HOUSE_SLIDING_DOOR_PHOTO
     path = Path(path) if path else HOUSE_DOOR_PHOTO
     if not path.is_file():
         print(f"  ! door image {path} not found — keeping the master photo",
