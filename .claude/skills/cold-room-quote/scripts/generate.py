@@ -34,10 +34,12 @@ SKILL_DIR = Path(__file__).resolve().parent.parent
 MASTER = SKILL_DIR / "template" / "master.docx"
 # House photograph for section 2, used unless a quote supplies its own door
 HOUSE_DOOR_PHOTO = SKILL_DIR / "template" / "door.png"
-# The sliding-door artwork carries "SIZE: 2000 mm (W) x 2500 mm (H)" in the
-# picture, so it only goes in on a job quoting that opening
-HOUSE_SLIDING_DOOR_PHOTO = SKILL_DIR / "template" / "door-sliding.png"
-HOUSE_SLIDING_DOOR_SIZE = (2000, 2500)
+# The sliding-door sheets carry their opening in the artwork — "SIZE: 2000 mm
+# (W) x 2500 mm (H)" — so each one goes in only on a job quoting that size
+HOUSE_SLIDING_DOORS = {
+    (2000, 2500): SKILL_DIR / "template" / "door-sliding.png",
+    (3000, 3000): SKILL_DIR / "template" / "door-sliding-3000.png",
+}
 
 # Prose strings as they appear in the frozen master. Editing the master means
 # updating these — nothing else in the script hardcodes document text.
@@ -322,6 +324,27 @@ def door_kind(spec):
     return str(spec.get("door", {}).get("type", "hinged")).strip().lower()
 
 
+def replace_body_text(doc, spec):
+    """Literal text replacements across the body, section headings included.
+
+    `row_labels` reaches a table's left-hand column, but a section heading is
+    an ordinary paragraph. A job that puts something else where the master
+    expects flooring — a ceiling suspension schedule, say — has to retitle the
+    section or the page argues with itself.
+
+    Entries are {from, to}, replaced wherever they occur.
+    """
+    for item in spec.get("text") or []:
+        old, new = item["from"], item["to"]
+        hit = False
+        for p in doc.paragraphs:
+            if old in para_text(p):
+                replace_in_para(p, old, new)
+                hit = True
+        if not hit:
+            print(f"  ! text {old!r} not found — skipped", file=sys.stderr)
+
+
 def rename_row_labels(doc, spec):
     """Rewrite the label in the first column of any row carrying `from`.
 
@@ -599,9 +622,10 @@ def replace_door_image(doc, spec):
     `"image": <path>` to show the actual door instead — a glass door, say —
     or `"image": false` to keep whatever the master ships with.
 
-    A sliding door gets the sliding artwork, but only at the 2000 x 2500 mm
-    opening printed in it. At any other size neither house photograph tells the
-    truth, so none goes in and the quote has to supply one or `remove` it.
+    A sliding door gets the sliding artwork for its opening. Each sheet has
+    its size printed in the picture, so there is one per size quoted; at any
+    other size neither house photograph tells the truth, so none goes in and
+    the quote has to supply one or `remove` it.
     """
     door = spec.get("door", {})
     path = door.get("image")
@@ -609,13 +633,13 @@ def replace_door_image(doc, spec):
         return
     if not path and door_kind(spec) == "sliding":
         size = (door.get("width_mm"), door.get("height_mm"))
-        if size != HOUSE_SLIDING_DOOR_SIZE:
-            print(f"  ! sliding door {size[0]} x {size[1]} mm — the house "
-                  "artwork is drawn at 2000 x 2500, so no door photo was "
+        path = HOUSE_SLIDING_DOORS.get(size)
+        if path is None:
+            print(f"  ! sliding door {size[0]} x {size[1]} mm — no house "
+                  "artwork is drawn at that size, so no door photo was "
                   "placed; supply `door.image` or `remove` the picture",
                   file=sys.stderr)
             return
-        path = HOUSE_SLIDING_DOOR_PHOTO
     path = Path(path) if path else HOUSE_DOOR_PHOTO
     if not path.is_file():
         print(f"  ! door image {path} not found — keeping the master photo",
@@ -1649,6 +1673,7 @@ def generate(spec, output, scales=None):
     insert_pictures(doc, spec)
     tighten_lists(doc, spec)
     rename_row_labels(doc, spec)
+    replace_body_text(doc, spec)
 
     doc.save(output)
     return output, tot
