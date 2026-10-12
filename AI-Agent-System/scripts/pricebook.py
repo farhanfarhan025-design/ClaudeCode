@@ -101,7 +101,7 @@ def _clip(s, n):
 
 
 def lines_sum(q):
-    return round(sum(l["line_total"] for l in q["lines"]), 2)
+    return round(sum(l["line_total"] or 0.0 for l in q["lines"]), 2)
 
 
 # --- verification ----------------------------------------------------------
@@ -119,6 +119,13 @@ def verify(quotes):
         tag = "OUTBOUND" if q["direction"] == "outbound" else q["vendor"]["short"]
         print("\n{}  [{}]".format(tag, q["quote_id"]))
         failed = False
+
+        if q.get("kind") == "stock price list":
+            mapped = sum(1 for l in q["lines"] if l.get("item"))
+            print("  stock list — {} lines, no totals to verify · {} mapped to a "
+                  "canonical item, the rest searchable only".format(len(q["lines"]), mapped))
+            clean.append(q["quote_id"])
+            continue
 
         for line in q["lines"]:
             expect = round(line["qty"] * line["unit_price"], 2)
@@ -172,6 +179,8 @@ def index_by_item(quotes):
     idx = defaultdict(list)
     for q in quotes:
         for line in q["lines"]:
+            if not line.get("item"):
+                continue            # stock-list line with no canonical match
             size = line.get("unit_size")
             idx[line["item"]].append({
                 "vendor": q["vendor"]["short"],
@@ -493,6 +502,32 @@ def print_rates(items, quotes):
     return 0
 
 
+def print_find(items, quotes, needle):
+    """Free-text search across every line on record, mapped or not."""
+    terms = [t for t in needle.lower().split() if t]
+    hits = []
+    for q in quotes:
+        for line in q["lines"]:
+            hay = (line["description"] + " " + (line.get("item") or "")).lower()
+            if all(t in hay for t in terms):
+                hits.append((q, line))
+    if not hits:
+        print("Nothing on record matching '{}'.".format(needle))
+        return 1
+    hits.sort(key=lambda h: h[0]["document"]["date"])
+    print("\n{} line(s) matching '{}':\n".format(len(hits), needle))
+    for q, line in hits:
+        tag = "SELL" if q["direction"] == "outbound" else q["vendor"]["short"]
+        qty = "" if line.get("qty") is None else "  qty {}".format(line["qty"])
+        print("  {:>10}  {:<11} {:<66}{}".format(
+            money(line["unit_price"]), tag, _clip(line["description"], 66), qty))
+        print("  {:<12} {} · {}".format(
+            "", q["document"]["date"], _clip(q["document"].get("ref") or q["quote_id"], 52)))
+        if line.get("item") and items.get(line["item"], {}).get("compare_note"):
+            print("  {:<12} ⚠ {}".format("", items[line["item"]]["compare_note"]))
+    return 0
+
+
 # --- main ------------------------------------------------------------------
 
 def main():
@@ -503,6 +538,7 @@ def main():
     ap.add_argument("--basket", help="price one document's quantities across all vendors")
     ap.add_argument("--margin", help="set one of OUR quotations against vendor cost")
     ap.add_argument("--rates", action="store_true", help="vendor prices vs margin.py rate card")
+    ap.add_argument("--find", help="free-text search across every line on record")
     ap.add_argument("--list", action="store_true", help="list documents on record")
     ap.add_argument("--json", action="store_true", help="machine-readable price index")
     args = ap.parse_args()
@@ -524,7 +560,7 @@ def main():
         return 0
 
     any_action = any([args.verify, args.compare, args.item, args.basket,
-                      args.margin, args.rates])
+                      args.margin, args.rates, args.find])
 
     if args.list or not any_action:
         print("\nDocuments on record ({}):\n".format(len(quotes)))
@@ -539,7 +575,7 @@ def main():
             print("      {}".format(q["_path"]))
         if not any_action:
             print("\nTry --compare, --verify, --rates, --item <key>, --basket <file>, "
-                  "--margin <our quote>.")
+                  "--margin <our quote>, --find <text>.")
             return 0
 
     rc = 0
@@ -553,6 +589,9 @@ def main():
 
     if args.rates:
         print_rates(items, quotes)
+
+    if args.find:
+        return print_find(items, quotes, args.find)
 
     if args.item:
         return print_item(items, quotes, args.item)

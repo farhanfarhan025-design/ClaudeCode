@@ -256,6 +256,9 @@ def build(items, quotes):
             kd = q["known_discrepancy"]
             verdict = '<span class="warn">Lines sum to %s — out by %s</span>' % (
                 money(kd["lines_sum_to"]), money(kd["difference"]))
+        elif q.get("kind") == "stock price list":
+            verdict = '<span class="flag">Stock list — no total; %d of %d lines matched</span>' % (
+                sum(1 for l in q["lines"] if l.get("item")), len(q["lines"]))
         elif stated is None:
             verdict = '<span class="flag">No total on the document</span>'
         else:
@@ -443,12 +446,12 @@ def build(items, quotes):
                "<th>Delivery</th><th>Expires</th></tr>")
     for q in sorted(quotes, key=lambda q: q["document"]["date"]):
         t = q["terms"]
-        exp = t.get("valid_until", "—")
+        exp = t.get("valid_until") or "—"
         expired = exp != "—" and exp < today
         out.append(row([
             (esc(q["document"].get("ref") or q["vendor"]["short"]),),
             (esc(t.get("payment", "—")),),
-            (esc("%s days" % t["validity_days"] if t.get("validity_days") else "—"),),
+            (esc("%s days" % t["validity_days"] if t.get("validity_days") else "not stated"),),
             (esc(t.get("delivery", "—")),),
             ('<span class="%s">%s</span>' % ("warn" if expired else "", exp)
              + (" (expired)" if expired else ""),),

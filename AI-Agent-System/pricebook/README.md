@@ -93,6 +93,13 @@ python3 scripts/pricebook.py --basket pricebook/quotes/<inbound>.json
 python3 scripts/pricebook.py --margin pricebook/quotes/<outbound>.json
 ```
 
+A **stock price list** (`kind: "stock price list"`) is a different animal from a quotation:
+no total, no validity, and a Quantity column that is stock on hand rather than an offered
+quantity. Only lines that genuinely match a canonical item carry an `item` key; the rest are
+kept verbatim with `item: null`, searchable through `--find` but excluded from every
+comparison. That is deliberate — 396 lines of AC spares and hand tools must not drift into a
+cold room costing.
+
 `--verify` exit codes:
 
 | Code | Meaning |
@@ -129,6 +136,7 @@ wrong the first time.
 | Date | Direction | Party | Ref | Lines | Stated total |
 |---|---|---|---|---|---|
 | 2026-07-28 | inbound | Airtronics Trading Contracting & Maintenance | ART-QTN-3174-26 | 9 | QAR 18,525.00 ✅ |
+| 2026-08 *(day unknown)* | inbound | **Alfateyer** — discounted stock list | SPARE PARTS - DISCOUNTED PRICE AUG 2026 | 396 | no total — a stock list |
 | 2026-08-20 | inbound | Arctic (ACC Qatar) | ATC/NSA/QT/26/00286 | 21 | QAR 3,220.00 ✅ *(after 230.00 discount)* |
 | 2026-08-20 | inbound | Arctic — Rayyan showroom | ATC/RY/QT/26/00286 | 2 | QAR 5,400.00 ⚠️ **lines sum to 5,500.00** |
 | 2026-08-29 | inbound | Arctic Cooling Company | ACC/QT/RVD/1508/2026 | 1 | QAR 3,600.00 ✅ |

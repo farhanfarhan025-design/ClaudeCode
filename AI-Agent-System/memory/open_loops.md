@@ -303,3 +303,23 @@ Samoosa freezer), AU-H300CC (CC, chiller).
 
 **Needed:** Airtronics to confirm the model numbers against the room duties before any LPO.
 
+### OL-026 — Alfateyer stock list: currency and date not stated
+**Owner:** Farhan / PROCURE · **Raised:** 2026-10-12 · **Blocks:** using these rates in a costing
+
+396 discounted spare-parts lines, captured in `pricebook/`. Three things the sheet does not say:
+
+- **Currency.** The column is headed only "Price". QAR assumed because the supplier is in
+  Qatar. Nothing on the sheet confirms it (`RULES.md` A3).
+- **Date.** Only "AUG 2026", from the filename. Roughly two months old.
+- **Validity, payment and delivery terms.** None stated at all.
+
+The vendor's name came from Farhan, not the document — the spreadsheet carries no letterhead
+and no contact.
+
+It also matters that this is a **clearance list**: the Quantity column is stock on hand, and
+the interesting lines are thin (4 rolls of 7/8" copper, 1 roll of 3/4"). These are prices only
+while the stock lasts.
+
+**Needed:** confirm currency, issue date and whether the prices still stand. Four items beat
+every other source on record by 35-62%, so it is worth the call.
+

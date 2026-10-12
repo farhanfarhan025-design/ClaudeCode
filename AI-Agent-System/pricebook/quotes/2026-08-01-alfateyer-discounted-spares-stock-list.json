@@ -1,0 +1,3615 @@
+{
+  "quote_id": "2026-08-01-alfateyer-discounted-spares-stock-list",
+  "direction": "inbound",
+  "kind": "stock price list",
+  "vendor": {
+    "name": "Alfateyer",
+    "short": "ALFATEYER",
+    "note": "Named by Farhan, 12 Oct 2026. The spreadsheet itself carries no letterhead, no contact and no company name."
+  },
+  "document": {
+    "ref": "SPARE PARTS - DISCOUNTED PRICE AUG 2026",
+    "revision": null,
+    "date": "2026-08-01",
+    "date_confidence": "low — only 'AUG 2026' appears, in the filename. Treated as 1 Aug for ordering; the real issue date is unknown.",
+    "subject": "Discounted spare parts stock list",
+    "source_file": "SPARE_PARTS_-_DISCOUNTED_PRICE_AUG_2026.xlsx",
+    "source_type": "vendor spreadsheet"
+  },
+  "terms": {
+    "currency": "QAR",
+    "currency_confidence": "medium — the column is headed only 'Price', with no currency anywhere on the sheet. QAR assumed because the supplier is in Qatar. Confirm before any of it is used in a costing (RULES A3).",
+    "payment": "not stated",
+    "validity_days": null,
+    "valid_until": null,
+    "validity_note": "No validity on the sheet. Dated Aug 2026, so roughly two months old.",
+    "delivery": "not stated",
+    "stock_note": "The Quantity column is stock on hand, not a quoted quantity. Several of the interesting lines are thin — 4 rolls of 7/8\" copper, 1 roll of 3/4\". A discounted clearance list is only a price while the stock lasts."
+  },
+  "stated_total": null,
+  "stated_total_note": "A stock list, not a priced offer. There is no total and none is computed.",
+  "price_basis": "unit",
+  "price_basis_note": "Figures carry four and five decimal places (7.119999, 1.4375), which is what a percentage discount applied to a base price looks like. These are already-discounted unit prices.",
+  "lines": [
+    {
+      "sl": 1,
+      "item": null,
+      "description": "[ANTI-VIBRATION EQUIPMENT] [1\"] [VIBRATION ELIMINATOR]",
+      "qty": 6,
+      "unit": "EACH",
+      "unit_price": 45.0,
+      "line_total": null
+    },
+    {
+      "sl": 2,
+      "item": null,
+      "description": "[ANTI-VIBRATION EQUIPMENT] [2-1/8\"] [VIBRATION ELIMINATOR]",
+      "qty": 10,
+      "unit": "EACH",
+      "unit_price": 125.0,
+      "line_total": null
+    },
+    {
+      "sl": 3,
+      "item": null,
+      "description": "[ANTI-VIBRATION EQUIPMENT] [2-5/8\"] [VIBRATION ELIMINATOR]",
+      "qty": 13,
+      "unit": "EACH",
+      "unit_price": 275.0,
+      "line_total": null
+    },
+    {
+      "sl": 4,
+      "item": null,
+      "description": "[ANTI-VIBRATION EQUIPMENT] [5/8\"] [VIBRATION ELIMINATOR]",
+      "qty": 2,
+      "unit": "EACH",
+      "unit_price": 25.0,
+      "line_total": null
+    },
+    {
+      "sl": 5,
+      "item": "vibration-eliminator-seven-eighths",
+      "description": "[ANTI-VIBRATION EQUIPMENT] [7/8\"] [VIBRATION ELIMINATOR]",
+      "qty": 4,
+      "unit": "EACH",
+      "unit_price": 35.0,
+      "line_total": null,
+      "note": "Brand not stated on the sheet; ours is Harbax."
+    },
+    {
+      "sl": 6,
+      "item": null,
+      "description": "[AXIAL FAN] [FAN MOTOR WITH GUARD] [220V] [1PH] [250MM] [BLOWING]",
+      "qty": 3,
+      "unit": "EACH",
+      "unit_price": 80.0,
+      "line_total": null
+    },
+    {
+      "sl": 7,
+      "item": null,
+      "description": "[AXIAL FAN] [FAN MOTOR WITH GUARD] [220V] [1PH] [350MM] [BLOWING]",
+      "qty": 3,
+      "unit": "EACH",
+      "unit_price": 105.0,
+      "line_total": null
+    },
+    {
+      "sl": 8,
+      "item": null,
+      "description": "[AXIAL FAN] [FAN MOTOR WITH GUARD] [220V] [1PH] [450MM] [BLOWING]",
+      "qty": 2,
+      "unit": "EACH",
+      "unit_price": 130.0,
+      "line_total": null
+    },
+    {
+      "sl": 9,
+      "item": null,
+      "description": "[AXIAL FAN] [FAN MOTOR WITH GUARD] [220V] [1PH] [500MM] [BLOWING]",
+      "qty": 3,
+      "unit": "EACH",
+      "unit_price": 170.0,
+      "line_total": null
+    },
+    {
+      "sl": 10,
+      "item": null,
+      "description": "[AXIAL FAN] [FAN MOTOR WITH GUARD] [220V] [1PH] [550MM] [BLOWING]",
+      "qty": 3,
+      "unit": "EACH",
+      "unit_price": 200.0,
+      "line_total": null
+    },
+    {
+      "sl": 11,
+      "item": null,
+      "description": "[AXIAL FAN] [FAN MOTOR WITH GUARD] [380-420V] [3PH] [250MM] [BLOWING]",
+      "qty": 2,
+      "unit": "EACH",
+      "unit_price": 80.0,
+      "line_total": null
+    },
+    {
+      "sl": 12,
+      "item": null,
+      "description": "[AXIAL FAN] [FAN MOTOR WITH GUARD] [380-420V] [3PH] [300MM] [BLOWING]",
+      "qty": 2,
+      "unit": "EACH",
+      "unit_price": 85.0,
+      "line_total": null
+    },
+    {
+      "sl": 13,
+      "item": null,
+      "description": "[AXIAL FAN] [FAN MOTOR WITH GUARD] [380-420V] [3PH] [350MM] [BLOWING]",
+      "qty": 2,
+      "unit": "EACH",
+      "unit_price": 105.0,
+      "line_total": null
+    },
+    {
+      "sl": 14,
+      "item": null,
+      "description": "[AXIAL FAN] [FAN MOTOR WITH GUARD] [380-420V] [3PH] [400MM] [BLOWING]",
+      "qty": 3,
+      "unit": "EACH",
+      "unit_price": 125.0,
+      "line_total": null
+    },
+    {
+      "sl": 15,
+      "item": null,
+      "description": "[AXIAL FAN] [FAN MOTOR WITH GUARD] [380-420V] [3PH] [450MM] [BLOWING]",
+      "qty": 5,
+      "unit": "EACH",
+      "unit_price": 145.0,
+      "line_total": null
+    },
+    {
+      "sl": 16,
+      "item": null,
+      "description": "[AXIAL FAN] [FAN MOTOR WITH GUARD] [380-420V] [3PH] [500MM] [BLOWING]",
+      "qty": 2,
+      "unit": "EACH",
+      "unit_price": 200.0,
+      "line_total": null
+    },
+    {
+      "sl": 17,
+      "item": null,
+      "description": "[AXIAL FAN] [FAN MOTOR WITH GUARD] [380-420V] [3PH] [550MM] [BLOWING]",
+      "qty": 3,
+      "unit": "EACH",
+      "unit_price": 210.0,
+      "line_total": null
+    },
+    {
+      "sl": 18,
+      "item": null,
+      "description": "[AXIAL FAN] [SUNON MOTORS] [12V] [120MM X 120MM x 38MM]",
+      "qty": 15,
+      "unit": "EACH",
+      "unit_price": 10.5,
+      "line_total": null
+    },
+    {
+      "sl": 19,
+      "item": null,
+      "description": "[AXIAL FAN] [SUNON MOTORS] [220V] [120MM X 120MM X 25MM]",
+      "qty": 6,
+      "unit": "EACH",
+      "unit_price": 23.0,
+      "line_total": null
+    },
+    {
+      "sl": 20,
+      "item": null,
+      "description": "[AXIAL FAN] [SUNON MOTORS] [220V] [120MM X 120MM X 38MM]",
+      "qty": 31,
+      "unit": "EACH",
+      "unit_price": 23.0,
+      "line_total": null
+    },
+    {
+      "sl": 21,
+      "item": null,
+      "description": "[AXIAL FAN] [SUNON MOTORS] [220V] [150MM X 150MM X 50MM]",
+      "qty": 4,
+      "unit": "EACH",
+      "unit_price": 55.0,
+      "line_total": null
+    },
+    {
+      "sl": 22,
+      "item": null,
+      "description": "[AXIAL FAN] [SUNON MOTORS] [220V] [172MM X 150MM X 50MM]",
+      "qty": 9,
+      "unit": "EACH",
+      "unit_price": 65.0,
+      "line_total": null
+    },
+    {
+      "sl": 23,
+      "item": null,
+      "description": "[AXIAL FAN] [SUNON MOTORS] [220V] [92MM X 92MM X 25MM]",
+      "qty": 3,
+      "unit": "EACH",
+      "unit_price": 23.0,
+      "line_total": null
+    },
+    {
+      "sl": 24,
+      "item": null,
+      "description": "[AXIAL FAN] [SUNON MOTORS] [24V] [120MM X 120MM X 38MM]",
+      "qty": 15,
+      "unit": "EACH",
+      "unit_price": 11.0,
+      "line_total": null
+    },
+    {
+      "sl": 25,
+      "item": null,
+      "description": "[Adaptor / Quick Coupler] [TRENDZ] [R410a] [HP] [INDIA]",
+      "qty": 1,
+      "unit": "EACH",
+      "unit_price": 2.75,
+      "line_total": null
+    },
+    {
+      "sl": 26,
+      "item": null,
+      "description": "[BALL VALVE] [1-1/8\"] [BRAZING] [HONGSEN] [QFT-28V, WITH CHARGING PORT]",
+      "qty": 10,
+      "unit": "EACH",
+      "unit_price": 120.0,
+      "line_total": null
+    },
+    {
+      "sl": 27,
+      "item": null,
+      "description": "[BALL VALVE] [1-3/8\"] [BRAZING] [HONGSEN] [HBC-35]",
+      "qty": 3,
+      "unit": "EACH",
+      "unit_price": 120.0,
+      "line_total": null
+    },
+    {
+      "sl": 28,
+      "item": null,
+      "description": "[BALL VALVE] [1-5/8\"] [BRAZING] [HONGSEN] [HBC-42]",
+      "qty": 4,
+      "unit": "EACH",
+      "unit_price": 180.0,
+      "line_total": null
+    },
+    {
+      "sl": 29,
+      "item": null,
+      "description": "[BALL VALVE] [1-5/8\"] [BRAZING] [HONGSEN] [QFT-42V, WITH CHARGING PORT]",
+      "qty": 10,
+      "unit": "EACH",
+      "unit_price": 160.0,
+      "line_total": null
+    },
+    {
+      "sl": 30,
+      "item": "ball-valve-half-hongsen",
+      "description": "[BALL VALVE] [1/2\"] [BRAZING] [HONGSEN] [HBC-12]",
+      "qty": 3,
+      "unit": "EACH",
+      "unit_price": 30.0,
+      "line_total": null
+    },
+    {
+      "sl": 31,
+      "item": null,
+      "description": "[BALL VALVE] [2-1/8\"] [BRAZING] [HONGSEN] [HBC-54]",
+      "qty": 8,
+      "unit": "EACH",
+      "unit_price": 275.0,
+      "line_total": null
+    },
+    {
+      "sl": 32,
+      "item": null,
+      "description": "[BALL VALVE] [2-5/8\"] [BRAZING] [HONGSEN] [HBC-67]",
+      "qty": 9,
+      "unit": "EACH",
+      "unit_price": 290.0,
+      "line_total": null
+    },
+    {
+      "sl": 33,
+      "item": null,
+      "description": "[BALL VALVE] [3/4\"] [BRAZING] [HONGSEN] [HBC-19]",
+      "qty": 5,
+      "unit": "EACH",
+      "unit_price": 42.0,
+      "line_total": null
+    },
+    {
+      "sl": 34,
+      "item": null,
+      "description": "[BALL VALVE] [5/8\"] [BRAZING] [HONGSEN] [HBC-16]",
+      "qty": 5,
+      "unit": "EACH",
+      "unit_price": 35.0,
+      "line_total": null
+    },
+    {
+      "sl": 35,
+      "item": null,
+      "description": "[BALL VALVE] [7/8\"] [BRAZING] [HONGSEN] [HBC-22]",
+      "qty": 6,
+      "unit": "EACH",
+      "unit_price": 50.0,
+      "line_total": null
+    },
+    {
+      "sl": 36,
+      "item": null,
+      "description": "[BEARING] [NSK] [UC204D1] [POLAND]",
+      "qty": 5,
+      "unit": "EACH",
+      "unit_price": 26.0,
+      "line_total": null
+    },
+    {
+      "sl": 37,
+      "item": null,
+      "description": "[BEARING] [NSK] [UC205D1] [POLAND]",
+      "qty": 1,
+      "unit": "EACH",
+      "unit_price": 30.0,
+      "line_total": null
+    },
+    {
+      "sl": 38,
+      "item": null,
+      "description": "[BEARING] [NSK] [UC206D1] [POLAND]",
+      "qty": 3,
+      "unit": "EACH",
+      "unit_price": 37.14,
+      "line_total": null
+    },
+    {
+      "sl": 39,
+      "item": null,
+      "description": "[BEARING] [NSK] [UC208] [POLAND]",
+      "qty": 2,
+      "unit": "EACH",
+      "unit_price": 68.0,
+      "line_total": null
+    },
+    {
+      "sl": 40,
+      "item": null,
+      "description": "[BELT] [A] [44]",
+      "qty": 1,
+      "unit": "EACH",
+      "unit_price": 8.0,
+      "line_total": null
+    },
+    {
+      "sl": 41,
+      "item": null,
+      "description": "[BELT] [A] [52]",
+      "qty": 2,
+      "unit": "EACH",
+      "unit_price": 10.0,
+      "line_total": null
+    },
+    {
+      "sl": 42,
+      "item": null,
+      "description": "[BELT] [B] [100]",
+      "qty": 11,
+      "unit": "EACH",
+      "unit_price": 32.25,
+      "line_total": null
+    },
+    {
+      "sl": 43,
+      "item": null,
+      "description": "[BELT] [B] [58]",
+      "qty": 5,
+      "unit": "EACH",
+      "unit_price": 14.47,
+      "line_total": null
+    },
+    {
+      "sl": 44,
+      "item": null,
+      "description": "[BELT] [B] [77]",
+      "qty": 8,
+      "unit": "EACH",
+      "unit_price": 20.0,
+      "line_total": null
+    },
+    {
+      "sl": 45,
+      "item": null,
+      "description": "[BELT] [B] [84]",
+      "qty": 3,
+      "unit": "EACH",
+      "unit_price": 22.0,
+      "line_total": null
+    },
+    {
+      "sl": 46,
+      "item": null,
+      "description": "[BRACKET] [INDOOR] [CLAMP] [CHINA]",
+      "qty": 9,
+      "unit": "EACH",
+      "unit_price": 2.65,
+      "line_total": null
+    },
+    {
+      "sl": 47,
+      "item": null,
+      "description": "[BRACKET] [OUTDOOR] [550MM X 550MM X 2MM] [CHINA]",
+      "qty": 2,
+      "unit": "EACH",
+      "unit_price": 25.0,
+      "line_total": null
+    },
+    {
+      "sl": 48,
+      "item": null,
+      "description": "[BRACKET] [OUTDOOR] [600MM X 600MM X 2MM] [CHINA]",
+      "qty": 17,
+      "unit": "EACH",
+      "unit_price": 27.0,
+      "line_total": null
+    },
+    {
+      "sl": 49,
+      "item": null,
+      "description": "[BRACKET] [OUTDOOR] [610MM X 450MM X 2MM] [CHINA]",
+      "qty": 2,
+      "unit": "EACH",
+      "unit_price": 24.0,
+      "line_total": null
+    },
+    {
+      "sl": 50,
+      "item": null,
+      "description": "[BRAZING ALLOY] [Silver Rod] [MexFlow] [India] [2% Silver]",
+      "qty": 297,
+      "unit": "EACH",
+      "unit_price": 0.17,
+      "line_total": null
+    },
+    {
+      "sl": 51,
+      "item": null,
+      "description": "[Brass Fitting] [BRASS UNION ] [3/4’’]",
+      "qty": 26,
+      "unit": "EACH",
+      "unit_price": 4.7,
+      "line_total": null
+    },
+    {
+      "sl": 52,
+      "item": null,
+      "description": "[CAPACITORS] [FAN CAPACITORS ] [BOX TYPE-SQUARE] [SYSCAP] [India] [3 UF]",
+      "qty": 4,
+      "unit": "EACH",
+      "unit_price": 1.4387,
+      "line_total": null
+    },
+    {
+      "sl": 53,
+      "item": null,
+      "description": "[CAPACITORS] [FAN CAPACITORS ] [BOX TYPE-SQUARE] [SYSCAP] [India] [3.5 UF]",
+      "qty": 70,
+      "unit": "EACH",
+      "unit_price": 1.52,
+      "line_total": null
+    },
+    {
+      "sl": 54,
+      "item": null,
+      "description": "[CAPACITORS] [FAN CAPACITORS ] [BOX TYPE-SQUARE] [TIBCON] [India] [1 UF]",
+      "qty": 387,
+      "unit": "EACH",
+      "unit_price": 1.65,
+      "line_total": null
+    },
+    {
+      "sl": 55,
+      "item": null,
+      "description": "[CAPACITORS] [FAN CAPACITORS ] [BOX TYPE-SQUARE] [TIBCON] [India] [1.5 UF]",
+      "qty": 375,
+      "unit": "EACH",
+      "unit_price": 1.565,
+      "line_total": null
+    },
+    {
+      "sl": 56,
+      "item": null,
+      "description": "[CAPACITORS] [RUNNING CAPACITORS ] [ ROUND METAL] [SYSCAP] [India] [25 UF]",
+      "qty": 43,
+      "unit": "EACH",
+      "unit_price": 6.4375,
+      "line_total": null
+    },
+    {
+      "sl": 57,
+      "item": null,
+      "description": "[CAPACITORS] [RUNNING CAPACITORS ] [ ROUND METAL] [SYSCAP] [India] [60 UF]",
+      "qty": 201,
+      "unit": "EACH",
+      "unit_price": 11.125,
+      "line_total": null
+    },
+    {
+      "sl": 58,
+      "item": null,
+      "description": "[CAPACITORS] [RUNNING CAPACITORS ] [ ROUND METAL] [SYSCAP] [India] [65 UF]",
+      "qty": 50,
+      "unit": "EACH",
+      "unit_price": 11.05,
+      "line_total": null
+    },
+    {
+      "sl": 59,
+      "item": null,
+      "description": "[CAPACITORS] [RUNNING CAPACITORS ] [ ROUND METAL] [TIBCON] [India] [12.5 UF]",
+      "qty": 82,
+      "unit": "EACH",
+      "unit_price": 5.15,
+      "line_total": null
+    },
+    {
+      "sl": 60,
+      "item": null,
+      "description": "[CAPACITORS] [RUNNING CAPACITORS ] [ ROUND METAL] [TIBCON] [India] [20 UF]",
+      "qty": 47,
+      "unit": "EACH",
+      "unit_price": 5.5563,
+      "line_total": null
+    },
+    {
+      "sl": 61,
+      "item": null,
+      "description": "[CAPACITORS] [RUNNING CAPACITORS ] [ ROUND METAL] [TIBCON] [India] [30 UF]",
+      "qty": 150,
+      "unit": "EACH",
+      "unit_price": 7.3375,
+      "line_total": null
+    },
+    {
+      "sl": 62,
+      "item": null,
+      "description": "[CAPACITORS] [RUNNING CAPACITORS ] [ ROUND METAL] [TIBCON] [India] [30+5 UF]",
+      "qty": 100,
+      "unit": "EACH",
+      "unit_price": 7.9387,
+      "line_total": null
+    },
+    {
+      "sl": 63,
+      "item": null,
+      "description": "[CAPACITORS] [RUNNING CAPACITORS ] [ ROUND METAL] [TIBCON] [India] [35+5 UF]",
+      "qty": 20,
+      "unit": "EACH",
+      "unit_price": 9.8,
+      "line_total": null
+    },
+    {
+      "sl": 64,
+      "item": null,
+      "description": "[CAPACITORS] [RUNNING CAPACITORS ] [ ROUND METAL] [TIBCON] [India] [4 UF]",
+      "qty": 152,
+      "unit": "EACH",
+      "unit_price": 3.9125,
+      "line_total": null
+    },
+    {
+      "sl": 65,
+      "item": null,
+      "description": "[CAPACITORS] [RUNNING CAPACITORS ] [ ROUND METAL] [TIBCON] [India] [40+5 UF]",
+      "qty": 206,
+      "unit": "EACH",
+      "unit_price": 10.0675,
+      "line_total": null
+    },
+    {
+      "sl": 66,
+      "item": null,
+      "description": "[CAPACITORS] [RUNNING CAPACITORS ] [ ROUND METAL] [TIBCON] [India] [40+7.5 UF]",
+      "qty": 39,
+      "unit": "EACH",
+      "unit_price": 10.15,
+      "line_total": null
+    },
+    {
+      "sl": 67,
+      "item": null,
+      "description": "[CAPACITORS] [RUNNING CAPACITORS ] [ ROUND METAL] [TIBCON] [India] [45+5 UF]",
+      "qty": 16,
+      "unit": "EACH",
+      "unit_price": 14.375,
+      "line_total": null
+    },
+    {
+      "sl": 68,
+      "item": null,
+      "description": "[CAPACITORS] [RUNNING CAPACITORS ] [ ROUND METAL] [TIBCON] [India] [55 UF]",
+      "qty": 215,
+      "unit": "EACH",
+      "unit_price": 8.9387,
+      "line_total": null
+    },
+    {
+      "sl": 69,
+      "item": null,
+      "description": "[CAPACITORS] [RUNNING CAPACITORS ] [ ROUND METAL] [TIBCON] [India] [60 UF]",
+      "qty": 265,
+      "unit": "EACH",
+      "unit_price": 9.6963,
+      "line_total": null
+    },
+    {
+      "sl": 70,
+      "item": null,
+      "description": "[CAPACITORS] [RUNNING CAPACITORS ] [ ROUND METAL] [TIBCON] [India] [65 UF]",
+      "qty": 512,
+      "unit": "EACH",
+      "unit_price": 13.9625,
+      "line_total": null
+    },
+    {
+      "sl": 71,
+      "item": null,
+      "description": "[CAPACITORS] [RUNNING CAPACITORS ] [ ROUND METAL] [TIBCON] [India] [65+5 UF]",
+      "qty": 229,
+      "unit": "EACH",
+      "unit_price": 11.2112,
+      "line_total": null
+    },
+    {
+      "sl": 72,
+      "item": null,
+      "description": "[CAPACITORS] [RUNNING CAPACITORS ] [ ROUND METAL] [TIBCON] [India] [7.5 UF]",
+      "qty": 37,
+      "unit": "EACH",
+      "unit_price": 4.525,
+      "line_total": null
+    },
+    {
+      "sl": 73,
+      "item": null,
+      "description": "[CAPACITORS] [RUNNING CAPACITORS ] [ROUND METAL] [TIBCON] [India] [35 UF]",
+      "qty": 70,
+      "unit": "EACH",
+      "unit_price": 7.5913,
+      "line_total": null
+    },
+    {
+      "sl": 74,
+      "item": null,
+      "description": "[CAPACITOR] [RUNNING CAPACITOR] [ROUND METAL] [EMPIRE] [CHINA] [45+5MFD]",
+      "qty": 27,
+      "unit": "EACH",
+      "unit_price": 8.5,
+      "line_total": null
+    },
+    {
+      "sl": 75,
+      "item": null,
+      "description": "[CAPACITOR] [RUNNING CAPACITOR] [ROUND METAL] [EMPIRE] [CHINA] [50+5MFD]",
+      "qty": 58,
+      "unit": "EACH",
+      "unit_price": 10.977,
+      "line_total": null
+    },
+    {
+      "sl": 76,
+      "item": null,
+      "description": "[CAPACITOR] [RUNNING CAPACITOR] [ROUND METAL] [EMPIRE] [CHINA] [60+5MFD]",
+      "qty": 13,
+      "unit": "EACH",
+      "unit_price": 8.8,
+      "line_total": null
+    },
+    {
+      "sl": 77,
+      "item": null,
+      "description": "[CAPACITOR] [RUNNING CAPACITOR] [ROUND METAL] [MASTER] [USA] [45+5MFD]",
+      "qty": 55,
+      "unit": "EACH",
+      "unit_price": 10.5,
+      "line_total": null
+    },
+    {
+      "sl": 78,
+      "item": null,
+      "description": "[CAPACITOR] [RUNNING CAPACITOR] [ROUND METAL] [MASTER] [USA] [50+5MFD]",
+      "qty": 36,
+      "unit": "EACH",
+      "unit_price": 11.0,
+      "line_total": null
+    },
+    {
+      "sl": 79,
+      "item": null,
+      "description": "[CAPACITOR] [RUNNING CAPACITOR] [ROUND METAL] [TIBCON] [INDIA] [40 UF]",
+      "qty": 109,
+      "unit": "EACH",
+      "unit_price": 7.12,
+      "line_total": null
+    },
+    {
+      "sl": 80,
+      "item": "capillary-assembly-with-nut",
+      "description": "[CAPILLARY] [WITH NUT 1/4\"] [1.5MTRS]",
+      "qty": 26,
+      "unit": "EACH",
+      "unit_price": 9.4375,
+      "line_total": null,
+      "unit_size": 1.5,
+      "unit_size_uom": "m"
+    },
+    {
+      "sl": 81,
+      "item": "capillary-assembly-with-nut",
+      "description": "[CAPILLARY] [WITH NUT 1/4\"] [1MTRS]",
+      "qty": 1,
+      "unit": "EACH",
+      "unit_price": 6.675,
+      "line_total": null,
+      "unit_size": 1.0,
+      "unit_size_uom": "m"
+    },
+    {
+      "sl": 82,
+      "item": null,
+      "description": "[CAPPED VALVE] [SHUT OFF] [1/2\"] [BRAZING] [CASTEL-ITALY]",
+      "qty": 3,
+      "unit": "EACH",
+      "unit_price": 85.0,
+      "line_total": null
+    },
+    {
+      "sl": 83,
+      "item": null,
+      "description": "[CAPPED VALVE] [SHUT OFF] [3/4\"] [BRAZING] [CASTEL-ITALY]",
+      "qty": 5,
+      "unit": "EACH",
+      "unit_price": 130.0,
+      "line_total": null
+    },
+    {
+      "sl": 84,
+      "item": null,
+      "description": "[CAPPED VALVE] [SHUT OFF] [5/8\"] [BRAZING] [CASTEL-ITALY]",
+      "qty": 15,
+      "unit": "EACH",
+      "unit_price": 90.0,
+      "line_total": null
+    },
+    {
+      "sl": 85,
+      "item": null,
+      "description": "[CAPPED VALVE] [SHUT OFF] [7/8\"] [BRAZING] [CASTEL-ITALY]",
+      "qty": 3,
+      "unit": "EACH",
+      "unit_price": 135.0,
+      "line_total": null
+    },
+    {
+      "sl": 86,
+      "item": null,
+      "description": "[CLAMP METER] [DIGITAL] [BERENT] [BT9176]",
+      "qty": 3,
+      "unit": "EACH",
+      "unit_price": 70.0,
+      "line_total": null
+    },
+    {
+      "sl": 87,
+      "item": null,
+      "description": "[CLAMP METER] [LEAD WIRE]",
+      "qty": 5,
+      "unit": "EACH",
+      "unit_price": 4.0,
+      "line_total": null
+    },
+    {
+      "sl": 88,
+      "item": null,
+      "description": "[CONTACTOR] [2POLE] [20A] [24V] [NEUTRAL]",
+      "qty": 176,
+      "unit": "EACH",
+      "unit_price": 12.55,
+      "line_total": null
+    },
+    {
+      "sl": 89,
+      "item": null,
+      "description": "[CONTACTOR] [2POLE] [25A] [24V] [NEUTRAL]",
+      "qty": 182,
+      "unit": "EACH",
+      "unit_price": 12.55,
+      "line_total": null
+    },
+    {
+      "sl": 90,
+      "item": null,
+      "description": "[CONTACTOR] [2POLE] [30A] [24V] [NEUTRAL]",
+      "qty": 6,
+      "unit": "EACH",
+      "unit_price": 12.975,
+      "line_total": null
+    },
+    {
+      "sl": 91,
+      "item": null,
+      "description": "[CONTACTOR] [3POLE] [30A] [220V] [NEUTRAL]",
+      "qty": 179,
+      "unit": "EACH",
+      "unit_price": 20.9212,
+      "line_total": null
+    },
+    {
+      "sl": 92,
+      "item": null,
+      "description": "[CONTACTOR] [3POLE] [30A] [24V] [NEUTRAL]",
+      "qty": 51,
+      "unit": "EACH",
+      "unit_price": 20.975,
+      "line_total": null
+    },
+    {
+      "sl": 93,
+      "item": null,
+      "description": "[CONTACTOR] [3POLE] [40A] [220V] [NEUTRAL]",
+      "qty": 64,
+      "unit": "EACH",
+      "unit_price": 21.5625,
+      "line_total": null
+    },
+    {
+      "sl": 94,
+      "item": null,
+      "description": "[CONTACTOR] [3POLE] [40A] [24V] [NEUTRAL]",
+      "qty": 147,
+      "unit": "EACH",
+      "unit_price": 21.5625,
+      "line_total": null
+    },
+    {
+      "sl": 95,
+      "item": null,
+      "description": "[CONTACTOR] [3POLE] [70A] [690V] [AF40-30-00 1SBL347001R1300] [ABB] [FRANCE]",
+      "qty": 2,
+      "unit": "EACH",
+      "unit_price": 270.0,
+      "line_total": null
+    },
+    {
+      "sl": 96,
+      "item": null,
+      "description": "[COPPER FITTINGS] [COPPER COUPLINGS] [1\"] [Mexflow] [India]",
+      "qty": 57,
+      "unit": "EACH",
+      "unit_price": 1.4375,
+      "line_total": null
+    },
+    {
+      "sl": 97,
+      "item": null,
+      "description": "[COPPER FITTINGS] [COPPER COUPLINGS] [1-1/2\"] [Mexflow] [India]",
+      "qty": 50,
+      "unit": "EACH",
+      "unit_price": 3.7625,
+      "line_total": null
+    },
+    {
+      "sl": 98,
+      "item": null,
+      "description": "[COPPER FITTINGS] [COPPER COUPLINGS] [1-1/4\"] [Mexflow] [India]",
+      "qty": 50,
+      "unit": "EACH",
+      "unit_price": 2.65,
+      "line_total": null
+    },
+    {
+      "sl": 99,
+      "item": null,
+      "description": "[COPPER FITTINGS] [COPPER ELBOW 45*] [1\"] [Mexflow] [India]",
+      "qty": 100,
+      "unit": "EACH",
+      "unit_price": 6.9625,
+      "line_total": null
+    },
+    {
+      "sl": 100,
+      "item": null,
+      "description": "[COPPER FITTINGS] [COPPER ELBOW 45*] [1-1/2\"] [Mexflow] [India]",
+      "qty": 100,
+      "unit": "EACH",
+      "unit_price": 13.9375,
+      "line_total": null
+    },
+    {
+      "sl": 101,
+      "item": null,
+      "description": "[COPPER FITTINGS] [COPPER ELBOW 45*] [2-1/8\"] [Mexflow] [India]",
+      "qty": 3,
+      "unit": "EACH",
+      "unit_price": 20.025,
+      "line_total": null
+    },
+    {
+      "sl": 102,
+      "item": null,
+      "description": "[COPPER FITTINGS] [COPPER ELBOW 90*] [1\"] [Mexflow] [India]",
+      "qty": 73,
+      "unit": "EACH",
+      "unit_price": 2.65,
+      "line_total": null
+    },
+    {
+      "sl": 103,
+      "item": null,
+      "description": "[COPPER FITTINGS] [COPPER ELBOW 90*] [1-1/2\"] [Mexflow] [India]",
+      "qty": 50,
+      "unit": "EACH",
+      "unit_price": 7.25,
+      "line_total": null
+    },
+    {
+      "sl": 104,
+      "item": null,
+      "description": "[COPPER FITTINGS] [COPPER REDUCER] [1-1/8\" x 1/2\"] [BITTO]",
+      "qty": 13,
+      "unit": "EACH",
+      "unit_price": 2.505,
+      "line_total": null
+    },
+    {
+      "sl": 105,
+      "item": null,
+      "description": "[COPPER FITTINGS] [COPPER REDUCER] [1-1/8\" x 3/4\"] [BITTO]",
+      "qty": 15,
+      "unit": "EACH",
+      "unit_price": 3.2563,
+      "line_total": null
+    },
+    {
+      "sl": 106,
+      "item": null,
+      "description": "[COPPER FITTINGS] [COPPER REDUCER] [1-1/8\" x 7/8\"] [BITTO]",
+      "qty": 16,
+      "unit": "EACH",
+      "unit_price": 3.7512,
+      "line_total": null
+    },
+    {
+      "sl": 107,
+      "item": null,
+      "description": "[COPPER FITTINGS] [COPPER REDUCER] [1-3/8\" x 1/2\"] [BITTO]",
+      "qty": 15,
+      "unit": "EACH",
+      "unit_price": 4.4062,
+      "line_total": null
+    },
+    {
+      "sl": 108,
+      "item": null,
+      "description": "[COPPER FITTINGS] [COPPER REDUCER] [1-3/8\" x 3/4\"] [BITTO]",
+      "qty": 9,
+      "unit": "EACH",
+      "unit_price": 5.85,
+      "line_total": null
+    },
+    {
+      "sl": 109,
+      "item": null,
+      "description": "[COPPER FITTINGS] [COPPER REDUCER] [1-3/8\" x 5/8\"] [BITTO]",
+      "qty": 14,
+      "unit": "EACH",
+      "unit_price": 4.4062,
+      "line_total": null
+    },
+    {
+      "sl": 110,
+      "item": null,
+      "description": "[COPPER FITTINGS] [COPPER REDUCER] [1-5/8\" x 1-3/8'] [BITTO]",
+      "qty": 10,
+      "unit": "EACH",
+      "unit_price": 6.2513,
+      "line_total": null
+    },
+    {
+      "sl": 111,
+      "item": null,
+      "description": "[COPPER FITTINGS] [COPPER REDUCER] [1-5/8\" x 1/2''] [BITTO]",
+      "qty": 15,
+      "unit": "EACH",
+      "unit_price": 6.2587,
+      "line_total": null
+    },
+    {
+      "sl": 112,
+      "item": null,
+      "description": "[COPPER FITTINGS] [COPPER REDUCER] [1-5/8\" x 3/4''] [BITTO]",
+      "qty": 20,
+      "unit": "EACH",
+      "unit_price": 5.3838,
+      "line_total": null
+    },
+    {
+      "sl": 113,
+      "item": null,
+      "description": "[COPPER FITTINGS] [COPPER REDUCER] [1-5/8\" x 5/8''] [BITTO]",
+      "qty": 15,
+      "unit": "EACH",
+      "unit_price": 6.6087,
+      "line_total": null
+    },
+    {
+      "sl": 114,
+      "item": null,
+      "description": "[COPPER FITTINGS] [COPPER REDUCER] [1-5/8\" x 7/8''] [BITTO]",
+      "qty": 15,
+      "unit": "EACH",
+      "unit_price": 6.71,
+      "line_total": null
+    },
+    {
+      "sl": 115,
+      "item": null,
+      "description": "[COPPER FITTINGS] [COPPER REDUCER] [2-1/8\" x 1-1/8\"] [BITTO]",
+      "qty": 10,
+      "unit": "EACH",
+      "unit_price": 18.0375,
+      "line_total": null
+    },
+    {
+      "sl": 116,
+      "item": null,
+      "description": "[COPPER FITTINGS] [COPPER REDUCER] [2-1/8\" x 1-3/8\"] [BITTO]",
+      "qty": 18,
+      "unit": "EACH",
+      "unit_price": 19.325,
+      "line_total": null
+    },
+    {
+      "sl": 117,
+      "item": null,
+      "description": "[COPPER FITTINGS] [COPPER REDUCER] [2-1/8\" x 1-5/8\"] [BITTO]",
+      "qty": 11,
+      "unit": "EACH",
+      "unit_price": 10.4937,
+      "line_total": null
+    },
+    {
+      "sl": 118,
+      "item": null,
+      "description": "[COPPER FITTINGS] [COPPER REDUCER] [2-5/8\" x 1-1/8\"] [BITTO]",
+      "qty": 20,
+      "unit": "EACH",
+      "unit_price": 20.075,
+      "line_total": null
+    },
+    {
+      "sl": 119,
+      "item": null,
+      "description": "[COPPER FITTINGS] [COPPER REDUCER] [2-5/8\" x 1-3/8\"] [BITTO]",
+      "qty": 25,
+      "unit": "EACH",
+      "unit_price": 22.8125,
+      "line_total": null
+    },
+    {
+      "sl": 120,
+      "item": null,
+      "description": "[COPPER FITTINGS] [COPPER REDUCER] [2-5/8\" x 1-5/8\"] [BITTO]",
+      "qty": 14,
+      "unit": "EACH",
+      "unit_price": 7.8438,
+      "line_total": null
+    },
+    {
+      "sl": 121,
+      "item": null,
+      "description": "[COPPER FITTINGS] [COPPER TEE JOINT] [1\"] [Mexflow] [India]",
+      "qty": 19,
+      "unit": "EACH",
+      "unit_price": 8.55,
+      "line_total": null
+    },
+    {
+      "sl": 122,
+      "item": null,
+      "description": "[COPPER FITTINGS] [COPPER TEE JOINT] [1-1/2\"] [Mexflow] [India]",
+      "qty": 8,
+      "unit": "EACH",
+      "unit_price": 25.5875,
+      "line_total": null
+    },
+    {
+      "sl": 123,
+      "item": null,
+      "description": "[COPPER FITTINGS] [COPPER TEE JOINT] [1-1/4\"] [Mexflow] [India]",
+      "qty": 10,
+      "unit": "EACH",
+      "unit_price": 14.9125,
+      "line_total": null
+    },
+    {
+      "sl": 124,
+      "item": null,
+      "description": "[COPPER FITTINGS] [COPPER TEE JOINT] [1-1/8\"] [Mexflow] [India]",
+      "qty": 6,
+      "unit": "EACH",
+      "unit_price": 10.6375,
+      "line_total": null
+    },
+    {
+      "sl": 125,
+      "item": null,
+      "description": "[COPPER FITTINGS] [COPPER TEE JOINT] [1-5/8\"] [Mexflow] [India]",
+      "qty": 4,
+      "unit": "EACH",
+      "unit_price": 25.7875,
+      "line_total": null
+    },
+    {
+      "sl": 126,
+      "item": null,
+      "description": "[COPPER FITTINGS] [COPPER TEE JOINT] [1/2\"] [Mexflow] [India]",
+      "qty": 13,
+      "unit": "EACH",
+      "unit_price": 1.5975,
+      "line_total": null
+    },
+    {
+      "sl": 127,
+      "item": null,
+      "description": "[COPPER FITTINGS] [COPPER TEE JOINT] [3/4\"] [Mexflow] [India]",
+      "qty": 19,
+      "unit": "EACH",
+      "unit_price": 4.275,
+      "line_total": null
+    },
+    {
+      "sl": 128,
+      "item": null,
+      "description": "[COPPER FITTINGS] [COPPER TEE JOINT] [5/8\"] [Mexflow] [India]",
+      "qty": 10,
+      "unit": "EACH",
+      "unit_price": 2.05,
+      "line_total": null
+    },
+    {
+      "sl": 129,
+      "item": null,
+      "description": "[COPPER FITTINGS] [COPPER TEE JOINT] [7/8\"] [Mexflow] [India]",
+      "qty": 2,
+      "unit": "EACH",
+      "unit_price": 4.5625,
+      "line_total": null
+    },
+    {
+      "sl": 130,
+      "item": null,
+      "description": "[COPPER FITTING] [U-BEND] [1-1/8\"] [UW-28]",
+      "qty": 6,
+      "unit": "EACH",
+      "unit_price": 9.125,
+      "line_total": null
+    },
+    {
+      "sl": 131,
+      "item": null,
+      "description": "[COPPER FITTING] [U-BEND] [1-3/8\"] [UW-35]",
+      "qty": 13,
+      "unit": "EACH",
+      "unit_price": 19.6187,
+      "line_total": null
+    },
+    {
+      "sl": 132,
+      "item": null,
+      "description": "[COPPER FITTING] [U-BEND] [1-5/8\"] [UW-42]",
+      "qty": 15,
+      "unit": "EACH",
+      "unit_price": 39.2375,
+      "line_total": null
+    },
+    {
+      "sl": 133,
+      "item": null,
+      "description": "[COPPER FITTING] [U-BEND] [1/2\"] [UW-12]",
+      "qty": 20,
+      "unit": "EACH",
+      "unit_price": 1.3237,
+      "line_total": null
+    },
+    {
+      "sl": 134,
+      "item": null,
+      "description": "[COPPER FITTING] [U-BEND] [2-1/8\"] [UW-54]",
+      "qty": 15,
+      "unit": "EACH",
+      "unit_price": 52.4688,
+      "line_total": null
+    },
+    {
+      "sl": 135,
+      "item": null,
+      "description": "[COPPER FITTING] [U-BEND] [3/4\"] [UW-19]",
+      "qty": 17,
+      "unit": "EACH",
+      "unit_price": 4.335,
+      "line_total": null
+    },
+    {
+      "sl": 136,
+      "item": null,
+      "description": "[COPPER FITTING] [U-BEND] [3/8\"] [UW-10]",
+      "qty": 20,
+      "unit": "EACH",
+      "unit_price": 1.1863,
+      "line_total": null
+    },
+    {
+      "sl": 137,
+      "item": null,
+      "description": "[COPPER FITTING] [U-BEND] [5/8\"] [UW-16]",
+      "qty": 20,
+      "unit": "EACH",
+      "unit_price": 2.7375,
+      "line_total": null
+    },
+    {
+      "sl": 138,
+      "item": null,
+      "description": "[COPPER FITTING] [U-BEND] [7/8\"] [UW-22]",
+      "qty": 2,
+      "unit": "EACH",
+      "unit_price": 5.11,
+      "line_total": null
+    },
+    {
+      "sl": 139,
+      "item": "copper-coil-seven-eighths-50ft",
+      "description": "[COPPER SOFT COIL] [ECONOMY] [HEIDELBERG] [7/8\"] [X] [15 MTR ROLL] [VIETNAM]",
+      "qty": 4,
+      "unit": "EACH",
+      "unit_price": 360.0,
+      "line_total": null,
+      "note": "ECONOMY grade, Heidelberg Vietnam, 15 m roll. A 50 ft roll is 15.24 m, so the lengths are within 1.6% — but the grade is not stated on the Arctic lines and 'economy' may not be the same wall thickness. Only 4 rolls in stock."
+    },
+    {
+      "sl": 140,
+      "item": null,
+      "description": "[COPPER SOFT COIL] [ECONOMY] [INDIGO] [3/4\"] [X] [15 MTR ROLL] [INDIA]",
+      "qty": 1,
+      "unit": "EACH",
+      "unit_price": 330.0,
+      "line_total": null
+    },
+    {
+      "sl": 141,
+      "item": null,
+      "description": "[DRAINAGE HOSE] [1.2 MTRS] [FOR AC]",
+      "qty": 16,
+      "unit": "EACH",
+      "unit_price": 3.0,
+      "line_total": null
+    },
+    {
+      "sl": 142,
+      "item": null,
+      "description": "[DRAINAGE HOSE] [1.5MTR] [FOR WASHING MACHINE]",
+      "qty": 16,
+      "unit": "EACH",
+      "unit_price": 8.0,
+      "line_total": null
+    },
+    {
+      "sl": 143,
+      "item": null,
+      "description": "[DUCT MATERIAL] [FIX BOLT] [M8]",
+      "qty": 149,
+      "unit": "EACH",
+      "unit_price": 0.6,
+      "line_total": null
+    },
+    {
+      "sl": 144,
+      "item": null,
+      "description": "[EXPANSION VALVE] [DANFOSS] [ELEMENT FOR TE-12] [R134A] [067B3232]",
+      "qty": 5,
+      "unit": "EACH",
+      "unit_price": 308.5462,
+      "line_total": null
+    },
+    {
+      "sl": 145,
+      "item": null,
+      "description": "[EXPANSION VALVE] [DANFOSS] [ELEMENT FOR TE-12] [R22,R407C] [067B3209]",
+      "qty": 4,
+      "unit": "EACH",
+      "unit_price": 383.6906,
+      "line_total": null
+    },
+    {
+      "sl": 146,
+      "item": null,
+      "description": "[EXPANSION VALVE] [DANFOSS] [ELEMENT FOR TE-12] [R22,R407C] [067B3210]",
+      "qty": 6,
+      "unit": "EACH",
+      "unit_price": 323.2075,
+      "line_total": null
+    },
+    {
+      "sl": 147,
+      "item": null,
+      "description": "[EXPANSION VALVE] [DANFOSS] [ELEMENT FOR TE-20] [R22/R407C] [067B3274]",
+      "qty": 3,
+      "unit": "EACH",
+      "unit_price": 559.7682,
+      "line_total": null
+    },
+    {
+      "sl": 148,
+      "item": null,
+      "description": "[EXPANSION VALVE] [DANFOSS] [ELEMENT FOR TE-20] [R404A/R507A] [067B3352]",
+      "qty": 4,
+      "unit": "EACH",
+      "unit_price": 544.0489,
+      "line_total": null
+    },
+    {
+      "sl": 149,
+      "item": "expansion-valve-element-tes5-067b3342",
+      "description": "[EXPANSION VALVE] [DANFOSS] [ELEMENT FOR TES-5] [R404A,R507] [067B3342]",
+      "qty": 6,
+      "unit": "EACH",
+      "unit_price": 260.245,
+      "line_total": null
+    },
+    {
+      "sl": 150,
+      "item": null,
+      "description": "[EXPANSION VALVE] [DANFOSS] [ELEMENT FOR TES-5] [R404A,R507] [067B3343]",
+      "qty": 10,
+      "unit": "EACH",
+      "unit_price": 373.5775,
+      "line_total": null
+    },
+    {
+      "sl": 151,
+      "item": null,
+      "description": "[EXPANSION VALVE] [DANFOSS] [ELEMENT FOR TEX-5] [R22, R407C] [067B3250]",
+      "qty": 3,
+      "unit": "EACH",
+      "unit_price": 260.245,
+      "line_total": null
+    },
+    {
+      "sl": 152,
+      "item": "expansion-valve-te2-r134a",
+      "description": "[EXPANSION VALVE] [DANFOSS] [TEN-2] [R134A] [068Z3348]",
+      "qty": 7,
+      "unit": "EACH",
+      "unit_price": 116.104,
+      "line_total": null,
+      "note": "Same Danfoss code 068Z3348. The sheet calls it TEN-2, Airtronics calls it TE2."
+    },
+    {
+      "sl": 153,
+      "item": null,
+      "description": "[EXPANSION VALVE] [DANFOSS] [TGE 46TR] [R410A] [067N3169]",
+      "qty": 3,
+      "unit": "EACH",
+      "unit_price": 415.5525,
+      "line_total": null
+    },
+    {
+      "sl": 154,
+      "item": null,
+      "description": "[EXPANSION VALVE] [DANFOSS] [TS-2] [R404A/R507A] [068Z3400]",
+      "qty": 10,
+      "unit": "EACH",
+      "unit_price": 46.1725,
+      "line_total": null
+    },
+    {
+      "sl": 155,
+      "item": null,
+      "description": "[EXPANSION VALVE] [EMERSON] [NBE 5 ZAA 5TR] [R410A]",
+      "qty": 1,
+      "unit": "EACH",
+      "unit_price": 280.0,
+      "line_total": null
+    },
+    {
+      "sl": 156,
+      "item": null,
+      "description": "[FAN BLADES & BLOWERS] [GENERAL BLOWER] [955 X 108]",
+      "qty": 4,
+      "unit": "EACH",
+      "unit_price": 53.29,
+      "line_total": null
+    },
+    {
+      "sl": 157,
+      "item": null,
+      "description": "[FAN BLADES & BLOWERS] [GREE/SAMSUNG BLOWER] [800 X 100]",
+      "qty": 4,
+      "unit": "EACH",
+      "unit_price": 53.29,
+      "line_total": null
+    },
+    {
+      "sl": 158,
+      "item": null,
+      "description": "[FAN BLADES & BLOWERS] [LG BLOWER] [848 X 100]",
+      "qty": 5,
+      "unit": "EACH",
+      "unit_price": 53.29,
+      "line_total": null
+    },
+    {
+      "sl": 159,
+      "item": null,
+      "description": "[FAN BLADES & BLOWERS] [LG BLOWER] [850 X 100]",
+      "qty": 4,
+      "unit": "EACH",
+      "unit_price": 53.29,
+      "line_total": null
+    },
+    {
+      "sl": 160,
+      "item": null,
+      "description": "[FAN BLADES & BLOWERS] [LG FAN BLADE PLASTIC]",
+      "qty": 1,
+      "unit": "EACH",
+      "unit_price": 44.47,
+      "line_total": null
+    },
+    {
+      "sl": 161,
+      "item": null,
+      "description": "[FAN BLADES & BLOWERS] [RUBBER BUSH]",
+      "qty": 40,
+      "unit": "EACH",
+      "unit_price": 5.0,
+      "line_total": null
+    },
+    {
+      "sl": 162,
+      "item": null,
+      "description": "[FAN MOTOR] [34WATTS] [ELCO] [Italy]",
+      "qty": 11,
+      "unit": "EACH",
+      "unit_price": 48.0,
+      "line_total": null
+    },
+    {
+      "sl": 163,
+      "item": null,
+      "description": "[FAN MOTOR] [4681A20126A] [LG]",
+      "qty": 28,
+      "unit": "EACH",
+      "unit_price": 54.04,
+      "line_total": null
+    },
+    {
+      "sl": 164,
+      "item": null,
+      "description": "[FAN MOTOR] [5KCP39PGN 1/2HP] [GENTEQ]",
+      "qty": 9,
+      "unit": "EACH",
+      "unit_price": 115.0,
+      "line_total": null
+    },
+    {
+      "sl": 165,
+      "item": null,
+      "description": "[FAN MOTOR] [5WATTS] [ELCO] [Italy]",
+      "qty": 157,
+      "unit": "EACH",
+      "unit_price": 22.0,
+      "line_total": null
+    },
+    {
+      "sl": 166,
+      "item": null,
+      "description": "[FAN MOTOR] [OUTDOOR YDK35-6K CCW 35WATTS]",
+      "qty": 10,
+      "unit": "EACH",
+      "unit_price": 40.0,
+      "line_total": null
+    },
+    {
+      "sl": 167,
+      "item": null,
+      "description": "[FAN MOTOR] [OUTDOOR YDK36-6 CW 36WATTS]",
+      "qty": 38,
+      "unit": "EACH",
+      "unit_price": 40.0,
+      "line_total": null
+    },
+    {
+      "sl": 168,
+      "item": null,
+      "description": "[FAN MOTOR] [OUTDOOR YDK40-6 CCW 40WATTS]",
+      "qty": 30,
+      "unit": "EACH",
+      "unit_price": 40.0,
+      "line_total": null
+    },
+    {
+      "sl": 169,
+      "item": null,
+      "description": "[FAN MOTOR] [OUTDOOR YDK42-6P CW 42WATTS]",
+      "qty": 13,
+      "unit": "EACH",
+      "unit_price": 50.0,
+      "line_total": null
+    },
+    {
+      "sl": 170,
+      "item": null,
+      "description": "[FAN MOTOR] [OUTDOOR YDK45-6M CCW 45WATTS BLACK]",
+      "qty": 4,
+      "unit": "EACH",
+      "unit_price": 50.0,
+      "line_total": null
+    },
+    {
+      "sl": 171,
+      "item": null,
+      "description": "[FAN MOTOR] [OUTDOOR YDK60-6D CCW 60WATTS]",
+      "qty": 2,
+      "unit": "EACH",
+      "unit_price": 50.0,
+      "line_total": null
+    },
+    {
+      "sl": 172,
+      "item": null,
+      "description": "[FAN MOTOR] [OUTDOOR YDK75-6D CCW 75WATTS]",
+      "qty": 1,
+      "unit": "EACH",
+      "unit_price": 70.0,
+      "line_total": null
+    },
+    {
+      "sl": 173,
+      "item": null,
+      "description": "[FAN MOTOR] [YDK 100-6 ROUND]",
+      "qty": 1,
+      "unit": "EACH",
+      "unit_price": 295.0,
+      "line_total": null
+    },
+    {
+      "sl": 174,
+      "item": null,
+      "description": "[FAN MOTOR] [YDK 15W] [INDOOR MOTOR]",
+      "qty": 20,
+      "unit": "EACH",
+      "unit_price": 25.39,
+      "line_total": null
+    },
+    {
+      "sl": 175,
+      "item": null,
+      "description": "[FAN MOTOR] [YDK 16W] [INDOOR MOTOR]",
+      "qty": 20,
+      "unit": "EACH",
+      "unit_price": 25.42,
+      "line_total": null
+    },
+    {
+      "sl": 176,
+      "item": null,
+      "description": "[FAN MOTOR] [YDK 18W] [INDOOR MOTOR]",
+      "qty": 6,
+      "unit": "EACH",
+      "unit_price": 26.27,
+      "line_total": null
+    },
+    {
+      "sl": 177,
+      "item": null,
+      "description": "[FAN MOTOR] [YDK 20W] [INDOOR MOTOR]",
+      "qty": 5,
+      "unit": "EACH",
+      "unit_price": 29.66,
+      "line_total": null
+    },
+    {
+      "sl": 178,
+      "item": null,
+      "description": "[FAN MOTOR] [YDK 25W] [INDOOR MOTOR]",
+      "qty": 10,
+      "unit": "EACH",
+      "unit_price": 30.72,
+      "line_total": null
+    },
+    {
+      "sl": 179,
+      "item": null,
+      "description": "[FAN MOTOR] [YDK 30W] [INDOOR MOTOR]",
+      "qty": 3,
+      "unit": "EACH",
+      "unit_price": 31.78,
+      "line_total": null
+    },
+    {
+      "sl": 180,
+      "item": null,
+      "description": "[FAN MOTOR] [YDK120-65-6A2]",
+      "qty": 5,
+      "unit": "EACH",
+      "unit_price": 215.0,
+      "line_total": null
+    },
+    {
+      "sl": 181,
+      "item": null,
+      "description": "[FAN MOTOR] [YSK 140/35-185-1] [UNIVERSAL]",
+      "qty": 3,
+      "unit": "EACH",
+      "unit_price": 80.0,
+      "line_total": null
+    },
+    {
+      "sl": 182,
+      "item": null,
+      "description": "[FAN MOTOR] [YSK 140/35-185-2] [UNIVERSAL]",
+      "qty": 3,
+      "unit": "EACH",
+      "unit_price": 80.0,
+      "line_total": null
+    },
+    {
+      "sl": 183,
+      "item": null,
+      "description": "[FILTER STRAINER] [FOR AC] [3 WAY, ACF-03]",
+      "qty": 13,
+      "unit": "EACH",
+      "unit_price": 4.5625,
+      "line_total": null
+    },
+    {
+      "sl": 184,
+      "item": null,
+      "description": "[FILTER STRAINER] [FOR FRIDGE] [15GM ITALY]",
+      "qty": 2,
+      "unit": "EACH",
+      "unit_price": 2.3013,
+      "line_total": null
+    },
+    {
+      "sl": 185,
+      "item": null,
+      "description": "[FLARING TOOL] [CT-195A] [3/16 TO 5/8\"]",
+      "qty": 18,
+      "unit": "EACH",
+      "unit_price": 25.0,
+      "line_total": null
+    },
+    {
+      "sl": 186,
+      "item": null,
+      "description": "[FLARING TOOL] [CT-275L] [UPTO 3/4\"]",
+      "qty": 2,
+      "unit": "EACH",
+      "unit_price": 40.0,
+      "line_total": null
+    },
+    {
+      "sl": 187,
+      "item": null,
+      "description": "[FLARING TOOL] [CT-278L] [UPTO 3/4\"]",
+      "qty": 1,
+      "unit": "EACH",
+      "unit_price": 58.0,
+      "line_total": null
+    },
+    {
+      "sl": 188,
+      "item": null,
+      "description": "[FLARING TOOL] [WK-E806AM-L] [ELECTRIC CORDLESS FLARING TOOL] [1/4\" TO 3/4\"] [DSZH]",
+      "qty": 2,
+      "unit": "EACH",
+      "unit_price": 480.0,
+      "line_total": null
+    },
+    {
+      "sl": 189,
+      "item": null,
+      "description": "[GAUGE] [OIL FILLED GAUGE] [ASIAN FIRST TAIWAN] [LP (0-350PSI)] [BACK MOUNT]",
+      "qty": 1,
+      "unit": "EACH",
+      "unit_price": 75.0,
+      "line_total": null
+    },
+    {
+      "sl": 190,
+      "item": null,
+      "description": "[GAUGE] [OIL FILLED PRESSURE GAUGE] [BOTTOM MOUNTING] [HP]",
+      "qty": 25,
+      "unit": "EACH",
+      "unit_price": 12.0,
+      "line_total": null
+    },
+    {
+      "sl": 191,
+      "item": null,
+      "description": "[GAUGE] [OIL FILLED PRESSURE GAUGE] [BOTTOM MOUNTING] [LP]",
+      "qty": 24,
+      "unit": "EACH",
+      "unit_price": 12.0,
+      "line_total": null
+    },
+    {
+      "sl": 192,
+      "item": null,
+      "description": "[GAUGE] [REPLACEMENT GAUGE FOR MANIOFLD] [UNIVERSAL] [HP]",
+      "qty": 10,
+      "unit": "EACH",
+      "unit_price": 50.0,
+      "line_total": null
+    },
+    {
+      "sl": 193,
+      "item": null,
+      "description": "[GAUGE] [REPLACEMENT GAUGE FOR MANIOFLD] [UNIVERSAL] [LP]",
+      "qty": 9,
+      "unit": "EACH",
+      "unit_price": 50.0,
+      "line_total": null
+    },
+    {
+      "sl": 194,
+      "item": null,
+      "description": "[GAUGE] [SINGLE GAUGE WITH KNOB] [UNIVERSAL] [HS-466AH HIGH]",
+      "qty": 20,
+      "unit": "EACH",
+      "unit_price": 15.0,
+      "line_total": null
+    },
+    {
+      "sl": 195,
+      "item": null,
+      "description": "[GAUGE] [SINGLE GAUGE WITH KNOB] [UNIVERSAL] [HS-466AL LOW]",
+      "qty": 20,
+      "unit": "EACH",
+      "unit_price": 15.0,
+      "line_total": null
+    },
+    {
+      "sl": 196,
+      "item": null,
+      "description": "[HYGROMETER] [THERMO-HYGROMETER 3-IN-1]",
+      "qty": 1,
+      "unit": "EACH",
+      "unit_price": 30.0,
+      "line_total": null
+    },
+    {
+      "sl": 198,
+      "item": null,
+      "description": "[INSULATION MATERIAL] [RUBBER ] [1-1/8\" X 5/8\" THK]",
+      "qty": 250,
+      "unit": "EACH",
+      "unit_price": 1.4688,
+      "line_total": null
+    },
+    {
+      "sl": 200,
+      "item": null,
+      "description": "[INSULATION MATERIAL] [RUBBER ] [1-5/8\" X 3/8\" THK]",
+      "qty": 200,
+      "unit": "EACH",
+      "unit_price": 1.405,
+      "line_total": null
+    },
+    {
+      "sl": 201,
+      "item": null,
+      "description": "[INSULATION MATERIAL] [RUBBER ] [1/2\" X 1/2\" THK]",
+      "qty": 438,
+      "unit": "EACH",
+      "unit_price": 1.4525,
+      "line_total": null
+    },
+    {
+      "sl": 202,
+      "item": null,
+      "description": "[INSULATION MATERIAL] [RUBBER ] [3/4\" X 1/2\" THK]",
+      "qty": 425,
+      "unit": "EACH",
+      "unit_price": 1.8787,
+      "line_total": null
+    },
+    {
+      "sl": 204,
+      "item": null,
+      "description": "[INSULATION MATERIAL] [RUBBER ] [3/8\" X 1/2\" THK]",
+      "qty": 420,
+      "unit": "EACH",
+      "unit_price": 1.2012,
+      "line_total": null
+    },
+    {
+      "sl": 205,
+      "item": null,
+      "description": "[INSULATION MATERIAL] [RUBBER ] [3/8\" X 3/8\" THK]",
+      "qty": 512,
+      "unit": "EACH",
+      "unit_price": 0.4838,
+      "line_total": null
+    },
+    {
+      "sl": 206,
+      "item": null,
+      "description": "[INSULATION MATERIAL] [RUBBER ] [5/8\" X 1/2\" THK]",
+      "qty": 247,
+      "unit": "EACH",
+      "unit_price": 1.68,
+      "line_total": null
+    },
+    {
+      "sl": 207,
+      "item": null,
+      "description": "[INSULATION MATERIAL] [RUBBER ] [7/8\" X 1/2\" THK]",
+      "qty": 350,
+      "unit": "EACH",
+      "unit_price": 1.665,
+      "line_total": null
+    },
+    {
+      "sl": 208,
+      "item": null,
+      "description": "[LUBRICANTS & CONTACT CLEANERS] [CONTACT CLEANER 400ML] [EXWELL]",
+      "qty": 10,
+      "unit": "EACH",
+      "unit_price": 11.0,
+      "line_total": null
+    },
+    {
+      "sl": 209,
+      "item": null,
+      "description": "[MANIFOLD GAUGE] [UNIVERSAL] [R22,R134A,R404C,R410A] [HS-536A] [HONGSEN]",
+      "qty": 3,
+      "unit": "EACH",
+      "unit_price": 145.0,
+      "line_total": null
+    },
+    {
+      "sl": 210,
+      "item": null,
+      "description": "[MANIFOLD GAUGE] [UNIVERSAL] [R22/R12/R502] [CHINA]",
+      "qty": 15,
+      "unit": "EACH",
+      "unit_price": 35.0,
+      "line_total": null
+    },
+    {
+      "sl": 211,
+      "item": null,
+      "description": "[MANIFOLD GAUGE] [VALUE] [R134A] [VMG2-R134A]",
+      "qty": 10,
+      "unit": "EACH",
+      "unit_price": 145.0,
+      "line_total": null
+    },
+    {
+      "sl": 212,
+      "item": null,
+      "description": "[MANIFOLD GAUGE] [VALUE] [R22, R134A, R407C, R410A] [SINGLE HP]",
+      "qty": 23,
+      "unit": "EACH",
+      "unit_price": 50.0,
+      "line_total": null
+    },
+    {
+      "sl": 213,
+      "item": null,
+      "description": "[MANIFOLD GAUGE] [VALUE] [R22, R134A, R407C, R410A] [SINGLE LP]",
+      "qty": 23,
+      "unit": "EACH",
+      "unit_price": 50.0,
+      "line_total": null
+    },
+    {
+      "sl": 214,
+      "item": null,
+      "description": "[MANIFOLD GAUGE] [VALUE] [R22,R134A,R404A,R407C] [VRM2-B-0501]",
+      "qty": 7,
+      "unit": "EACH",
+      "unit_price": 150.0,
+      "line_total": null
+    },
+    {
+      "sl": 215,
+      "item": null,
+      "description": "[MAPP GAS & TORCHES] [HAND TORCH JH-1S] [MASTER]",
+      "qty": 8,
+      "unit": "EACH",
+      "unit_price": 65.0,
+      "line_total": null
+    },
+    {
+      "sl": 216,
+      "item": null,
+      "description": "[MAPP GAS & TORCHES] [HAND TORCH T-C QX3W WITH HOSE] [UNIVERSAL]",
+      "qty": 2,
+      "unit": "EACH",
+      "unit_price": 75.0,
+      "line_total": null
+    },
+    {
+      "sl": 217,
+      "item": null,
+      "description": "[MAPP GAS & TORCHES] [HAND TORCH] [HT-1S]",
+      "qty": 9,
+      "unit": "EACH",
+      "unit_price": 40.0,
+      "line_total": null
+    },
+    {
+      "sl": 218,
+      "item": null,
+      "description": "[MAPP GAS & TORCHES] [PENCIL FLAME TORCH PCV25] [UNIWELD ]",
+      "qty": 1,
+      "unit": "EACH",
+      "unit_price": 75.0,
+      "line_total": null
+    },
+    {
+      "sl": 219,
+      "item": null,
+      "description": "[MULTIMETER] [VALUE] [VDM-132C]",
+      "qty": 8,
+      "unit": "EACH",
+      "unit_price": 60.0,
+      "line_total": null
+    },
+    {
+      "sl": 220,
+      "item": null,
+      "description": "[OIL SEPARATOR] [1-1/8\" ODS] [PLWANG] [CHINA]",
+      "qty": 3,
+      "unit": "EACH",
+      "unit_price": 80.0,
+      "line_total": null
+    },
+    {
+      "sl": 221,
+      "item": null,
+      "description": "[OIL SEPARATOR] [1-3/8\" ODS] [PLWANG] [CHINA]",
+      "qty": 20,
+      "unit": "EACH",
+      "unit_price": 86.0,
+      "line_total": null
+    },
+    {
+      "sl": 222,
+      "item": null,
+      "description": "[OIL SEPARATOR] [3/4\" ODS] [PLWANG] [CHINA]",
+      "qty": 3,
+      "unit": "EACH",
+      "unit_price": 70.0,
+      "line_total": null
+    },
+    {
+      "sl": 223,
+      "item": null,
+      "description": "[OIL SEPARATOR] [5/8\" ODS] [PLWANG] [CHINA]",
+      "qty": 2,
+      "unit": "EACH",
+      "unit_price": 75.0,
+      "line_total": null
+    },
+    {
+      "sl": 224,
+      "item": null,
+      "description": "[OIL SEPARATOR] [7/8\" ODS] [PLWANG] [CHINA]",
+      "qty": 3,
+      "unit": "EACH",
+      "unit_price": 75.0,
+      "line_total": null
+    },
+    {
+      "sl": 225,
+      "item": null,
+      "description": "[ORIFICE] [TE-2] [00] [DANFOSS] [068-2003]",
+      "qty": 36,
+      "unit": "EACH",
+      "unit_price": 38.005,
+      "line_total": null
+    },
+    {
+      "sl": 226,
+      "item": null,
+      "description": "[ORIFICE] [TE-2] [01] [DANFOSS] [068-2010]",
+      "qty": 27,
+      "unit": "EACH",
+      "unit_price": 38.005,
+      "line_total": null
+    },
+    {
+      "sl": 227,
+      "item": "orifice-te2-no04",
+      "description": "[ORIFICE] [TE-2] [04] [DANFOSS] [068-2007]",
+      "qty": 32,
+      "unit": "EACH",
+      "unit_price": 31.02,
+      "line_total": null
+    },
+    {
+      "sl": 228,
+      "item": "orifice-te2-no05",
+      "description": "[ORIFICE] [TE-2] [05] [DANFOSS] [ 068-2008]",
+      "qty": 38,
+      "unit": "EACH",
+      "unit_price": 49.874,
+      "line_total": null
+    },
+    {
+      "sl": 229,
+      "item": null,
+      "description": "[ORIFICE] [TE-2] [06] [DANFOSS] [068-2009]",
+      "qty": 39,
+      "unit": "EACH",
+      "unit_price": 49.874,
+      "line_total": null
+    },
+    {
+      "sl": 230,
+      "item": "orifice-te5-no01",
+      "description": "[ORIFICE] [TE-5] [01] [DANFOSS] [067B2789]",
+      "qty": 19,
+      "unit": "EACH",
+      "unit_price": 103.026,
+      "line_total": null
+    },
+    {
+      "sl": 231,
+      "item": null,
+      "description": "[ORIFICE] [TE-5] [02] [DANFOSS] [067B2790]",
+      "qty": 10,
+      "unit": "EACH",
+      "unit_price": 96.36,
+      "line_total": null
+    },
+    {
+      "sl": 232,
+      "item": null,
+      "description": "[ORIFICE] [TE-5] [03] [DANFOSS] [067B2791]",
+      "qty": 3,
+      "unit": "EACH",
+      "unit_price": 96.36,
+      "line_total": null
+    },
+    {
+      "sl": 233,
+      "item": null,
+      "description": "[ORIFICE] [TE-5] [04] [DANFOSS] [067B2792]",
+      "qty": 9,
+      "unit": "EACH",
+      "unit_price": 96.36,
+      "line_total": null
+    },
+    {
+      "sl": 234,
+      "item": null,
+      "description": "[PRESSURE SWITCH] [350-250PSI] [HP SWITCH WITH WIRE] [KAMTECH]",
+      "qty": 77,
+      "unit": "EACH",
+      "unit_price": 12.716,
+      "line_total": null
+    },
+    {
+      "sl": 235,
+      "item": null,
+      "description": "[PRESSURE SWITCH] [425-325PSI] [HP SWITCH WITH WIRE] [KAMTECH]",
+      "qty": 43,
+      "unit": "EACH",
+      "unit_price": 12.958,
+      "line_total": null
+    },
+    {
+      "sl": 236,
+      "item": null,
+      "description": "[PRESSURE SWITCH] [65-25PSI] [LP SWITCH WITH WIRE] [KAMTECH]",
+      "qty": 38,
+      "unit": "EACH",
+      "unit_price": 10.714,
+      "line_total": null
+    },
+    {
+      "sl": 237,
+      "item": null,
+      "description": "[REFRIGERANT RECOVERY] [VALUE] [DIGITAL SCALE] [50KG VES-50B]",
+      "qty": 2,
+      "unit": "EACH",
+      "unit_price": 520.0,
+      "line_total": null
+    },
+    {
+      "sl": 238,
+      "item": null,
+      "description": "[REFRIGERATION OIL] [5G] [SUNISO] [BELGIUM] [GALLON]",
+      "qty": 3,
+      "unit": "EACH",
+      "unit_price": 65.0,
+      "line_total": null
+    },
+    {
+      "sl": 239,
+      "item": null,
+      "description": "[REFRIGERATION OIL] [SL-100] [SUNISO] [BELGIUM] [GALLON]",
+      "qty": 18,
+      "unit": "EACH",
+      "unit_price": 215.0,
+      "line_total": null
+    },
+    {
+      "sl": 240,
+      "item": null,
+      "description": "[REFRIGERATION OIL] [SL-32] [SUNISO] [BELGIUM] [GALLON]",
+      "qty": 3,
+      "unit": "EACH",
+      "unit_price": 215.0,
+      "line_total": null
+    },
+    {
+      "sl": 241,
+      "item": null,
+      "description": "[REFRIGERATION OIL] [VACUUM PUMP OIL] [PETRONAS] [BELGIUM] [1 LITRE]",
+      "qty": 1,
+      "unit": "EACH",
+      "unit_price": 25.0,
+      "line_total": null
+    },
+    {
+      "sl": 242,
+      "item": null,
+      "description": "[REGULATOR] [ACETYLENE] [EXPLORER EDGE SERIES] [KITWELD-CHINA]",
+      "qty": 3,
+      "unit": "EACH",
+      "unit_price": 175.0,
+      "line_total": null
+    },
+    {
+      "sl": 243,
+      "item": null,
+      "description": "[REGULATOR] [OXYGEN] [EXPLORER EDGE SERIES] [KITWELD-CHINA]",
+      "qty": 3,
+      "unit": "EACH",
+      "unit_price": 175.0,
+      "line_total": null
+    },
+    {
+      "sl": 244,
+      "item": null,
+      "description": "[RELAYS & OVERLOADS] [CDFL00] [FUSE20A]",
+      "qty": 1,
+      "unit": "EACH",
+      "unit_price": 35.0,
+      "line_total": null
+    },
+    {
+      "sl": 245,
+      "item": null,
+      "description": "[RELAYS & OVERLOADS] [OVERLOAD BLACK/WHITE] [FOR FRIDGE] [DAEWOO]",
+      "qty": 11,
+      "unit": "EACH",
+      "unit_price": 2.4955,
+      "line_total": null
+    },
+    {
+      "sl": 246,
+      "item": null,
+      "description": "[RELAYS & OVERLOADS] [RELAY 2 PIN] [FOR FRIDGE]",
+      "qty": 2,
+      "unit": "EACH",
+      "unit_price": 2.3575,
+      "line_total": null
+    },
+    {
+      "sl": 247,
+      "item": null,
+      "description": "[RELAYS & OVERLOADS] [RELAY 4 PIN ] [FOR FRIDGE]",
+      "qty": 1,
+      "unit": "EACH",
+      "unit_price": 2.3575,
+      "line_total": null
+    },
+    {
+      "sl": 248,
+      "item": null,
+      "description": "[RELAYS & OVERLOADS] [STARTER RELAY DANFOSS R7-A] [117U6000]",
+      "qty": 68,
+      "unit": "EACH",
+      "unit_price": 3.358,
+      "line_total": null
+    },
+    {
+      "sl": 249,
+      "item": null,
+      "description": "[RELAYS & OVERLOADS] [STARTER RELAY R6-B] [1/2HP]",
+      "qty": 48,
+      "unit": "EACH",
+      "unit_price": 2.9808,
+      "line_total": null
+    },
+    {
+      "sl": 250,
+      "item": null,
+      "description": "[RELAYS & OVERLOADS] [STARTER RELAY R6-B] [1/3HP]",
+      "qty": 20,
+      "unit": "EACH",
+      "unit_price": 2.9808,
+      "line_total": null
+    },
+    {
+      "sl": 251,
+      "item": null,
+      "description": "[RELAYS & OVERLOADS] [STARTER RELAY R6-B] [1/5HP]",
+      "qty": 80,
+      "unit": "EACH",
+      "unit_price": 2.9808,
+      "line_total": null
+    },
+    {
+      "sl": 252,
+      "item": null,
+      "description": "[RELAYS & OVERLOADS] [STARTER RELAY R6-B] [1/6HP]",
+      "qty": 100,
+      "unit": "EACH",
+      "unit_price": 2.9808,
+      "line_total": null
+    },
+    {
+      "sl": 253,
+      "item": null,
+      "description": "[RELAYS & OVERLOADS] [STARTER RELAY R6-B] [1/8HP]",
+      "qty": 70,
+      "unit": "EACH",
+      "unit_price": 2.9797,
+      "line_total": null
+    },
+    {
+      "sl": 254,
+      "item": null,
+      "description": "[RELAYS & OVERLOADS] [STARTER RELAY RP-A] [1/2HP]",
+      "qty": 90,
+      "unit": "EACH",
+      "unit_price": 2.9797,
+      "line_total": null
+    },
+    {
+      "sl": 255,
+      "item": null,
+      "description": "[RELAYS & OVERLOADS] [STARTER RELAY RP-A] [1/3HP]",
+      "qty": 59,
+      "unit": "EACH",
+      "unit_price": 2.9808,
+      "line_total": null
+    },
+    {
+      "sl": 256,
+      "item": null,
+      "description": "[RELAYS & OVERLOADS] [STARTER RELAY RP-A] [1/4HP]",
+      "qty": 100,
+      "unit": "EACH",
+      "unit_price": 2.9808,
+      "line_total": null
+    },
+    {
+      "sl": 257,
+      "item": null,
+      "description": "[RELAYS & OVERLOADS] [STARTER RELAY RP-A] [1/5HP]",
+      "qty": 100,
+      "unit": "EACH",
+      "unit_price": 2.9808,
+      "line_total": null
+    },
+    {
+      "sl": 258,
+      "item": null,
+      "description": "[REMOTE CONTROLS & PCB] [UNIVERSAL AC CONTROL SYSTEM WITH LCD BACKLIGHT DISPLAY PANEL] [QD-U12A]",
+      "qty": 16,
+      "unit": "EACH",
+      "unit_price": 80.0,
+      "line_total": null
+    },
+    {
+      "sl": 259,
+      "item": null,
+      "description": "[REMOTE CONTROLS & PCB] [UNIVERSAL PCB SET] [QD-U02B+ (M)]",
+      "qty": 17,
+      "unit": "EACH",
+      "unit_price": 25.0,
+      "line_total": null
+    },
+    {
+      "sl": 260,
+      "item": null,
+      "description": "[REMOTE CONTROLS & PCB] [UNIVERSAL PCB SET] [QD-U03C+ (2-W)]",
+      "qty": 32,
+      "unit": "EACH",
+      "unit_price": 30.0,
+      "line_total": null
+    },
+    {
+      "sl": 261,
+      "item": null,
+      "description": "[REMOTE CONTROLS & PCB] [UNIVERSAL REMOTE CONTROL] [KT-B03]",
+      "qty": 46,
+      "unit": "EACH",
+      "unit_price": 9.0,
+      "line_total": null
+    },
+    {
+      "sl": 262,
+      "item": null,
+      "description": "[REMOTE CONTROLS & PCB] [UNIVERSAL REMOTE CONTROL] [QUNDA 1000 IN 1]",
+      "qty": 82,
+      "unit": "EACH",
+      "unit_price": 7.0,
+      "line_total": null
+    },
+    {
+      "sl": 263,
+      "item": null,
+      "description": "[REMOTE CONTROLS & PCB] [UNIVERSAL REMOTE] [FOR NEW GENERAL AC]",
+      "qty": 30,
+      "unit": "EACH",
+      "unit_price": 20.0,
+      "line_total": null
+    },
+    {
+      "sl": 264,
+      "item": null,
+      "description": "[SELECTOR SWITCH] [O-GENERAL] [WINDOW AC]",
+      "qty": 35,
+      "unit": "EACH",
+      "unit_price": 25.0,
+      "line_total": null
+    },
+    {
+      "sl": 265,
+      "item": "sight-glass-half-hongsen",
+      "description": "[SIGHT GLASS] [1/2\"] [BRAZING] [HONGSEN]",
+      "qty": 12,
+      "unit": "EACH",
+      "unit_price": 17.484,
+      "line_total": null,
+      "note": "Brazing connection."
+    },
+    {
+      "sl": 266,
+      "item": "sight-glass-half-hongsen",
+      "description": "[SIGHT GLASS] [1/2\"] [FLARING] [HONGSEN]",
+      "qty": 9,
+      "unit": "EACH",
+      "unit_price": 19.212,
+      "line_total": null,
+      "note": "Flaring connection."
+    },
+    {
+      "sl": 267,
+      "item": null,
+      "description": "[SIGHT GLASS] [3/8\"] [BRAZING] [HONGSEN]",
+      "qty": 14,
+      "unit": "EACH",
+      "unit_price": 13.116,
+      "line_total": null
+    },
+    {
+      "sl": 268,
+      "item": null,
+      "description": "[SIGHT GLASS] [3/8\"] [FLARING] [HONGSEN]",
+      "qty": 8,
+      "unit": "EACH",
+      "unit_price": 14.856,
+      "line_total": null
+    },
+    {
+      "sl": 269,
+      "item": null,
+      "description": "[SIGHT GLASS] [5/8\"] [BRAZING] [HONGSEN]",
+      "qty": 10,
+      "unit": "EACH",
+      "unit_price": 19.71,
+      "line_total": null
+    },
+    {
+      "sl": 270,
+      "item": null,
+      "description": "[SIGHT GLASS] [5/8\"] [FLARING] [HONGSEN]",
+      "qty": 7,
+      "unit": "EACH",
+      "unit_price": 25.356,
+      "line_total": null
+    },
+    {
+      "sl": 271,
+      "item": null,
+      "description": "[SIGHT GLASS] [7/8\"] [BRAZING] [HONGSEN]",
+      "qty": 6,
+      "unit": "EACH",
+      "unit_price": 30.66,
+      "line_total": null
+    },
+    {
+      "sl": 272,
+      "item": null,
+      "description": "[SOLENOID VALVES & COILS] [1/2\" FLARE] [WITH COIL] [220/230V] [1064-4] [HONGSEN]",
+      "qty": 35,
+      "unit": "EACH",
+      "unit_price": 50.975,
+      "line_total": null
+    },
+    {
+      "sl": 273,
+      "item": "solenoid-valve-evr6-half",
+      "description": "[SOLENOID VALVES & COILS] [1/2\" SOLDER] [032F1209] [WITHOUT COIL] [EVR6] [DANFOSS]",
+      "qty": 16,
+      "unit": "EACH",
+      "unit_price": 81.4413,
+      "line_total": null,
+      "note": "Without coil — see solenoid-coil-be230as."
+    },
+    {
+      "sl": 274,
+      "item": null,
+      "description": "[SOLENOID VALVES & COILS] [3/8\" FLARE] [WITH COIL] [220/230V] [1064-3] [HONGSEN]",
+      "qty": 43,
+      "unit": "EACH",
+      "unit_price": 53.6375,
+      "line_total": null
+    },
+    {
+      "sl": 275,
+      "item": null,
+      "description": "[SOLENOID VALVES & COILS] [3/8\" SOLDER] [032F1204] [WITHOUT COIL] [EVR3] [DANFOSS]",
+      "qty": 8,
+      "unit": "EACH",
+      "unit_price": 68.4375,
+      "line_total": null
+    },
+    {
+      "sl": 276,
+      "item": null,
+      "description": "[SOLENOID VALVES & COILS] [5/8\" FLARE] [WITH COIL] [220/230V] [1070-5] [HONGSEN]",
+      "qty": 23,
+      "unit": "EACH",
+      "unit_price": 72.75,
+      "line_total": null
+    },
+    {
+      "sl": 277,
+      "item": null,
+      "description": "[SOLENOID VALVES & COILS] [5/8\" SOLDER] [032F1214] [WITHOUT COIL] [EVR10] [DANFOSS]",
+      "qty": 22,
+      "unit": "EACH",
+      "unit_price": 94.4438,
+      "line_total": null
+    },
+    {
+      "sl": 278,
+      "item": null,
+      "description": "[SOLENOID VALVES & COILS] [SOLENOID COIL CABLE CONNECTION] [BF024AS, 12W, 24V, 50HZ] [018F6257] [DANFOSS]",
+      "qty": 9,
+      "unit": "EACH",
+      "unit_price": 92.025,
+      "line_total": null
+    },
+    {
+      "sl": 279,
+      "item": null,
+      "description": "[SOLENOID VALVES & COILS] [SOLENOID COIL CABLE CONNECTION] [BF230AS, 12W, 220-230V, 50HZ] [018F6251] [DANFOSS]",
+      "qty": 5,
+      "unit": "EACH",
+      "unit_price": 92.025,
+      "line_total": null
+    },
+    {
+      "sl": 280,
+      "item": null,
+      "description": "[SOLENOID VALVES & COILS] [SOLENOID COIL CABLE CONNECTION] [BF230CS, 16W, 230V, 50/60HZ] [018F6282] [DANFOSS]",
+      "qty": 1,
+      "unit": "EACH",
+      "unit_price": 78.5938,
+      "line_total": null
+    },
+    {
+      "sl": 281,
+      "item": "solenoid-coil-be230as",
+      "description": "[SOLENOID VALVES & COILS] [SOLENOID COIL TERMINAL BOX CONNECTION] [BE230AS, 10W, 220/230V, 50HZ] [018F6701] [DANFOSS]",
+      "qty": 163,
+      "unit": "EACH",
+      "unit_price": 20.0,
+      "line_total": null
+    },
+    {
+      "sl": 282,
+      "item": null,
+      "description": "[SOLENOID VALVES & COILS] [SOLENOID VALVE W/O COIL, EVR15, SOLDER, ODF, 7/8\"] [032F1225] [DANFOSS]",
+      "qty": 4,
+      "unit": "EACH",
+      "unit_price": 126.8375,
+      "line_total": null
+    },
+    {
+      "sl": 283,
+      "item": null,
+      "description": "[SOLENOID VALVES & COILS] [SOLENOID VALVE W/O COIL, EVR20, SOLDER, ODF, 1-1/8\"] [032F1244] [DANFOSS]",
+      "qty": 16,
+      "unit": "EACH",
+      "unit_price": 169.2687,
+      "line_total": null
+    },
+    {
+      "sl": 284,
+      "item": null,
+      "description": "[TAPES] [1\"] [FOAM TAPE] [POLYFIX]",
+      "qty": 15,
+      "unit": "EACH",
+      "unit_price": 3.0,
+      "line_total": null
+    },
+    {
+      "sl": 285,
+      "item": null,
+      "description": "[TAPES] [3\"] [ALUMINIUM TAPE] [INSULATION FOIL TAPE ALU GLASS]",
+      "qty": 4,
+      "unit": "EACH",
+      "unit_price": 7.0,
+      "line_total": null
+    },
+    {
+      "sl": 286,
+      "item": null,
+      "description": "[TAPE] [1\"] [ELECTRICAL TAPE]",
+      "qty": 20,
+      "unit": "EACH",
+      "unit_price": 0.75,
+      "line_total": null
+    },
+    {
+      "sl": 287,
+      "item": null,
+      "description": "[TAPE] [2\"] [ALUMINIUM TAPE] [AIRMASTER] [INDIA]",
+      "qty": 69,
+      "unit": "EACH",
+      "unit_price": 3.75,
+      "line_total": null
+    },
+    {
+      "sl": 288,
+      "item": null,
+      "description": "[TAPE] [30801720] [INSULATED ELECTRICIAN TAPE(MIXED COLOURS)] [BERRYLION] [CHINA]",
+      "qty": 196,
+      "unit": "EACH",
+      "unit_price": 0.8,
+      "line_total": null
+    },
+    {
+      "sl": 289,
+      "item": null,
+      "description": "[THERMOCOUPLE] [120CM]",
+      "qty": 9,
+      "unit": "EACH",
+      "unit_price": 25.0,
+      "line_total": null
+    },
+    {
+      "sl": 290,
+      "item": null,
+      "description": "[THERMOCOUPLE] [90CM]",
+      "qty": 9,
+      "unit": "EACH",
+      "unit_price": 25.0,
+      "line_total": null
+    },
+    {
+      "sl": 291,
+      "item": null,
+      "description": "[THERMOMETER] [FOR FREEZER/COLDROOM] [-20°F to +80°F (-30°C to +30°C)]",
+      "qty": 9,
+      "unit": "EACH",
+      "unit_price": 10.0,
+      "line_total": null
+    },
+    {
+      "sl": 292,
+      "item": null,
+      "description": "[THERMOMETER] [ROUND DIAL ANALOG] [-40°C to +40°C] [F87R-100] [CHINA]",
+      "qty": 10,
+      "unit": "EACH",
+      "unit_price": 28.0,
+      "line_total": null
+    },
+    {
+      "sl": 293,
+      "item": null,
+      "description": "[THERMOSTAT] [AKO] [D-14123] [SINGLE SENSOR] [230VAC] [DIGITAL]",
+      "qty": 40,
+      "unit": "EACH",
+      "unit_price": 90.0,
+      "line_total": null
+    },
+    {
+      "sl": 294,
+      "item": null,
+      "description": "[THERMOSTAT] [AKO] [D-14323] [DOUBLE SENSOR] [230VAC] [DIGITAL]",
+      "qty": 29,
+      "unit": "EACH",
+      "unit_price": 185.0,
+      "line_total": null
+    },
+    {
+      "sl": 295,
+      "item": null,
+      "description": "[THERMOSTAT] [HONEYWELL] [T6373A1108] [220-240V] [ANALOG]",
+      "qty": 8,
+      "unit": "EACH",
+      "unit_price": 57.585,
+      "line_total": null
+    },
+    {
+      "sl": 296,
+      "item": null,
+      "description": "[THERMOSTAT] [HONEYWELL] [T6800H2WN] [DIGITAL]",
+      "qty": 27,
+      "unit": "EACH",
+      "unit_price": 121.528,
+      "line_total": null
+    },
+    {
+      "sl": 297,
+      "item": null,
+      "description": "[THERMOSTAT] [HONEYWELL] [T6861V2WG] [220V] [DIGITAL]",
+      "qty": 9,
+      "unit": "EACH",
+      "unit_price": 179.762,
+      "line_total": null
+    },
+    {
+      "sl": 298,
+      "item": null,
+      "description": "[THERMOSTAT] [HONEYWELL] [T6865H2WG] [24V] [DIGITAL]",
+      "qty": 45,
+      "unit": "EACH",
+      "unit_price": 210.232,
+      "line_total": null
+    },
+    {
+      "sl": 299,
+      "item": null,
+      "description": "[THERMOSTAT] [HONEYWELL] [TF228WN] [DIGITAL]",
+      "qty": 15,
+      "unit": "EACH",
+      "unit_price": 101.266,
+      "line_total": null
+    },
+    {
+      "sl": 300,
+      "item": null,
+      "description": "[THERMOSTAT] [HONEYWELL] [TH5110D1006] [DIGITAL]",
+      "qty": 4,
+      "unit": "EACH",
+      "unit_price": 138.314,
+      "line_total": null
+    },
+    {
+      "sl": 301,
+      "item": null,
+      "description": "[THERMOSTAT] [HONEYWELL] [TH5110D1022] [1-STAGE] [DIGITAL]",
+      "qty": 13,
+      "unit": "EACH",
+      "unit_price": 142.516,
+      "line_total": null
+    },
+    {
+      "sl": 302,
+      "item": null,
+      "description": "[THERMOSTAT] [RANCO] [K-50]",
+      "qty": 27,
+      "unit": "EACH",
+      "unit_price": 27.313,
+      "line_total": null
+    },
+    {
+      "sl": 303,
+      "item": null,
+      "description": "[THERMOSTAT] [RANCO] [VB-7]",
+      "qty": 27,
+      "unit": "EACH",
+      "unit_price": 7.491,
+      "line_total": null
+    },
+    {
+      "sl": 304,
+      "item": null,
+      "description": "[THERMOSTAT] [RANCO] [VC-1]",
+      "qty": 11,
+      "unit": "EACH",
+      "unit_price": 26.125,
+      "line_total": null
+    },
+    {
+      "sl": 305,
+      "item": null,
+      "description": "[THERMOSTAT] [SUBZERO] [SZ-7524T] [DOUBLE SENSOR] [230VAC] [DIGITAL/TOUCH SENSITIVE]",
+      "qty": 5,
+      "unit": "EACH",
+      "unit_price": 149.732,
+      "line_total": null
+    },
+    {
+      "sl": 306,
+      "item": null,
+      "description": "[THERMOSTAT] [UNIVERSAL] [2 WIRE BI-METAL]",
+      "qty": 17,
+      "unit": "EACH",
+      "unit_price": 2.376,
+      "line_total": null
+    },
+    {
+      "sl": 307,
+      "item": null,
+      "description": "[THERMOSTAT] [UNIVERSAL] [2 WIRE FUSE]",
+      "qty": 41,
+      "unit": "EACH",
+      "unit_price": 2.376,
+      "line_total": null
+    },
+    {
+      "sl": 308,
+      "item": null,
+      "description": "[THERMOSTAT] [UNIVERSAL] [3 WIRE BI-METAL]",
+      "qty": 23,
+      "unit": "EACH",
+      "unit_price": 3.564,
+      "line_total": null
+    },
+    {
+      "sl": 309,
+      "item": null,
+      "description": "[THERMOSTAT] [UNIVERSAL] [F2000] [-30*C TO +30*C] [ANALOG]",
+      "qty": 55,
+      "unit": "EACH",
+      "unit_price": 7.0257,
+      "line_total": null
+    },
+    {
+      "sl": 310,
+      "item": null,
+      "description": "[THERMOSTAT] [UNIVERSAL] [PFN-124G] [FOR FRIDGE] [125-250VAC] [8(5)FLA]",
+      "qty": 4,
+      "unit": "EACH",
+      "unit_price": 10.45,
+      "line_total": null
+    },
+    {
+      "sl": 311,
+      "item": null,
+      "description": "[THERMOSTAT] [UNIVERSAL] [PTS] [PIPE TEMPARATURE SENSOR]",
+      "qty": 26,
+      "unit": "EACH",
+      "unit_price": 2.134,
+      "line_total": null
+    },
+    {
+      "sl": 312,
+      "item": null,
+      "description": "[THERMOSTAT] [UNIVERSAL] [SS10K] [PIPE TEMP.SENSOR]",
+      "qty": 81,
+      "unit": "EACH",
+      "unit_price": 1.6863,
+      "line_total": null
+    },
+    {
+      "sl": 313,
+      "item": null,
+      "description": "[TIMER] [TMDE 706SC] [INDIA]",
+      "qty": 4,
+      "unit": "EACH",
+      "unit_price": 13.299,
+      "line_total": null
+    },
+    {
+      "sl": 314,
+      "item": null,
+      "description": "[TIMER] [TMDE TD20C] [220V]",
+      "qty": 21,
+      "unit": "EACH",
+      "unit_price": 13.123,
+      "line_total": null
+    },
+    {
+      "sl": 315,
+      "item": null,
+      "description": "[TIMER] [TMDE-802-ZC1] [SANKYO INDIA]",
+      "qty": 3,
+      "unit": "EACH",
+      "unit_price": 13.299,
+      "line_total": null
+    },
+    {
+      "sl": 316,
+      "item": null,
+      "description": "[TOOL & EQUIPMENT] [7 IN 1 PROFFESSIONAL WIRE STRIPPER] [31002517] [BL-517] [BERRYLION] [CHINA]",
+      "qty": 1,
+      "unit": "EACH",
+      "unit_price": 4.6981,
+      "line_total": null
+    },
+    {
+      "sl": 317,
+      "item": null,
+      "description": "[TOOL & EQUIPMENT] [AIR FLOW DEFLECTOR NETTED] [90CM] [CHINA]",
+      "qty": 2,
+      "unit": "EACH",
+      "unit_price": 120.0,
+      "line_total": null
+    },
+    {
+      "sl": 318,
+      "item": null,
+      "description": "[TOOL & EQUIPMENT] [AIR FLOW DEFLECTOR PLAIN] [90CM] [CHINA]",
+      "qty": 4,
+      "unit": "EACH",
+      "unit_price": 60.0,
+      "line_total": null
+    },
+    {
+      "sl": 319,
+      "item": null,
+      "description": "[TOOL & EQUIPMENT] [H.D PIPE WRENCH] [16202010] [10\"/250mm] [BERRYLION] [CHINA]",
+      "qty": 12,
+      "unit": "EACH",
+      "unit_price": 8.1432,
+      "line_total": null
+    },
+    {
+      "sl": 320,
+      "item": null,
+      "description": "[TOOL & EQUIPMENT] [H.D PIPE WRENCH] [16202012] [12\"/300mm] [BERRYLION] [CHINA]",
+      "qty": 12,
+      "unit": "EACH",
+      "unit_price": 10.4512,
+      "line_total": null
+    },
+    {
+      "sl": 321,
+      "item": null,
+      "description": "[TOOL & EQUIPMENT] [LONG NOSE PLIERS] [011203175] [E037] [BERRYLION] [CHINA]",
+      "qty": 8,
+      "unit": "EACH",
+      "unit_price": 5.2889,
+      "line_total": null
+    },
+    {
+      "sl": 322,
+      "item": null,
+      "description": "[TOOL & EQUIPMENT] [MANUAL TUBE EDGE EXPANDER KIT] [1/4\" TO 1-5/8\"] [CT-100AL] [UNIVERSAL]",
+      "qty": 2,
+      "unit": "EACH",
+      "unit_price": 425.0,
+      "line_total": null
+    },
+    {
+      "sl": 323,
+      "item": null,
+      "description": "[TOOL & EQUIPMENT] [METRIC COMBINATION SPANNER SET] [12PCS (6-32MM)] [BT-2123] [BERENT] [CHINA]",
+      "qty": 1,
+      "unit": "EACH",
+      "unit_price": 105.9725,
+      "line_total": null
+    },
+    {
+      "sl": 324,
+      "item": null,
+      "description": "[TOOL & EQUIPMENT] [MULTI-FUNCTIONAL ADJUSTABLE WRENCH] [80405200] [8\"/200mm] [BERRYLION] [CHINA]",
+      "qty": 8,
+      "unit": "EACH",
+      "unit_price": 9.9072,
+      "line_total": null
+    },
+    {
+      "sl": 325,
+      "item": null,
+      "description": "[TOOL & EQUIPMENT] [MULTI-FUNCTIONAL ADJUSTABLE WRENCH] [80405250] [10\"/250mm] [BERRYLION] [CHINA]",
+      "qty": 6,
+      "unit": "EACH",
+      "unit_price": 11.753,
+      "line_total": null
+    },
+    {
+      "sl": 326,
+      "item": null,
+      "description": "[TOOL & EQUIPMENT] [MULTI-FUNCTIONAL ADJUSTABLE WRENCH] [80405300] [12\"/300mm] [BERRYLION] [CHINA]",
+      "qty": 1,
+      "unit": "EACH",
+      "unit_price": 17.8825,
+      "line_total": null
+    },
+    {
+      "sl": 327,
+      "item": null,
+      "description": "[TOOL & EQUIPMENT] [MULTIFUNCTION COMBINATION PLIERS] [011301008] [A108] [BERRYLION] [CHINA]",
+      "qty": 7,
+      "unit": "EACH",
+      "unit_price": 9.4013,
+      "line_total": null
+    },
+    {
+      "sl": 328,
+      "item": null,
+      "description": "[TOOL & EQUIPMENT] [MULTIFUNCTION COMBINATION PLIERS] [011301009] [A109] [BERRYLION] [CHINA]",
+      "qty": 10,
+      "unit": "EACH",
+      "unit_price": 20.7356,
+      "line_total": null
+    },
+    {
+      "sl": 329,
+      "item": null,
+      "description": "[TOOL & EQUIPMENT] [NEEDLE NOSE PLIERS] [11404125] [F245] [BERRYLION] [CHINA]",
+      "qty": 11,
+      "unit": "EACH",
+      "unit_price": 3.8617,
+      "line_total": null
+    },
+    {
+      "sl": 330,
+      "item": null,
+      "description": "[TOOL & EQUIPMENT] [SCREWDRIVER] [BT-5180] [BERENT] [CHINA]",
+      "qty": 2,
+      "unit": "EACH",
+      "unit_price": 3.3465,
+      "line_total": null
+    },
+    {
+      "sl": 331,
+      "item": null,
+      "description": "[TOOL & EQUIPMENT] [SCREWDRIVER] [] [BT-5174] [BERENT] [CHINA]",
+      "qty": 2,
+      "unit": "EACH",
+      "unit_price": 3.3465,
+      "line_total": null
+    },
+    {
+      "sl": 332,
+      "item": null,
+      "description": "[TOOL & EQUIPMENT] [SCREWDRIVER] [] [BT-5175] [BERENT] [CHINA]",
+      "qty": 12,
+      "unit": "EACH",
+      "unit_price": 3.3465,
+      "line_total": null
+    },
+    {
+      "sl": 333,
+      "item": null,
+      "description": "[TOOL & EQUIPMENT] [SCREWDRIVER] [] [BT-5181] [BERENT] [CHINA]",
+      "qty": 12,
+      "unit": "EACH",
+      "unit_price": 3.3465,
+      "line_total": null
+    },
+    {
+      "sl": 334,
+      "item": null,
+      "description": "[TOOL & EQUIPMENT] [SCREWDRIVER] [] [BT-5198] [BERENT] [CHINA]",
+      "qty": 5,
+      "unit": "EACH",
+      "unit_price": 6.417,
+      "line_total": null
+    },
+    {
+      "sl": 335,
+      "item": null,
+      "description": "[TOOL & EQUIPMENT] [SCREWDRIVER] [] [BT-5199] [BERENT] [CHINA]",
+      "qty": 11,
+      "unit": "EACH",
+      "unit_price": 6.417,
+      "line_total": null
+    },
+    {
+      "sl": 336,
+      "item": null,
+      "description": "[TOOL & EQUIPMENT] [SINGLE GEAR BATTERY DRILL] [60704001] [LY707-1] [BERRYLION] [CHINA]",
+      "qty": 5,
+      "unit": "EACH",
+      "unit_price": 184.6486,
+      "line_total": null
+    },
+    {
+      "sl": 337,
+      "item": null,
+      "description": "[TOOL & EQUIPMENT] [SPIRIT LEVEL] [120CM] [] [] [CHINA]",
+      "qty": 5,
+      "unit": "EACH",
+      "unit_price": 25.6565,
+      "line_total": null
+    },
+    {
+      "sl": 338,
+      "item": null,
+      "description": "[TOOL & EQUIPMENT] [TUBE EXPANDER TOOL] [1/4\" TO 7/8\"] [VST-22B] [VALUE]",
+      "qty": 1,
+      "unit": "EACH",
+      "unit_price": 75.0,
+      "line_total": null
+    },
+    {
+      "sl": 339,
+      "item": null,
+      "description": "[TOOL & EQUIPMENT] [TWIST STYLE UTILITY KNIFE] [040605223] [223A] [BERRYLION] [CHINA]",
+      "qty": 26,
+      "unit": "EACH",
+      "unit_price": 1.0569,
+      "line_total": null
+    },
+    {
+      "sl": 340,
+      "item": null,
+      "description": "[TOOLS & EQUIPMENTS] [AC CLEANING COVER] [BAG TYPE Q-537]",
+      "qty": 1,
+      "unit": "EACH",
+      "unit_price": 19.642,
+      "line_total": null
+    },
+    {
+      "sl": 341,
+      "item": null,
+      "description": "[TOOLS & EQUIPMENTS] [AC CONDENSATE LIFT SILENT PUMP - AUTOMATIC DRAINAGE] [12M HEAD, 240V] [M1] [VALUE]",
+      "qty": 17,
+      "unit": "EACH",
+      "unit_price": 90.6913,
+      "line_total": null
+    },
+    {
+      "sl": 342,
+      "item": null,
+      "description": "[TOOLS & EQUIPMENTS] [AUTOMATIC REFRIGERANT LEAK DETECTOR] [LEAKCHECK-CHINA]",
+      "qty": 5,
+      "unit": "EACH",
+      "unit_price": 106.03,
+      "line_total": null
+    },
+    {
+      "sl": 343,
+      "item": null,
+      "description": "[TOOLS & EQUIPMENTS] [COMBINATION WRENCH] [15MM] [BT-2779] [BERENT]",
+      "qty": 1,
+      "unit": "EACH",
+      "unit_price": 5.175,
+      "line_total": null
+    },
+    {
+      "sl": 344,
+      "item": null,
+      "description": "[TOOLS & EQUIPMENTS] [CRIMPING TOOL] [4-6-8P] [BT-1503] [BERENT]",
+      "qty": 1,
+      "unit": "EACH",
+      "unit_price": 17.25,
+      "line_total": null
+    },
+    {
+      "sl": 345,
+      "item": null,
+      "description": "[TOOLS & EQUIPMENTS] [EXTERNAL HEATING ELECTRIC SOLDER] [40 WATTS] [BT-9010] [BERENT]",
+      "qty": 3,
+      "unit": "EACH",
+      "unit_price": 13.8,
+      "line_total": null
+    },
+    {
+      "sl": 346,
+      "item": null,
+      "description": "[TOOLS & EQUIPMENTS] [FIN COMB STRAIGHT METAL CT-352]",
+      "qty": 2,
+      "unit": "EACH",
+      "unit_price": 6.2963,
+      "line_total": null
+    },
+    {
+      "sl": 347,
+      "item": null,
+      "description": "[TOOLS & EQUIPMENTS] [FLAT SCREW DRIVER] [6 X 100MM] [BT-5002] [BERENT]",
+      "qty": 2,
+      "unit": "EACH",
+      "unit_price": 4.6,
+      "line_total": null
+    },
+    {
+      "sl": 348,
+      "item": null,
+      "description": "[TOOLS & EQUIPMENTS] [FLAT SCREW DRIVER] [6 X 200MM] [BT-5006] [BERENT]",
+      "qty": 2,
+      "unit": "EACH",
+      "unit_price": 5.75,
+      "line_total": null
+    },
+    {
+      "sl": 349,
+      "item": null,
+      "description": "[TOOLS & EQUIPMENTS] [G-CLAMP] [4\"] [BT-9165] [BERENT]",
+      "qty": 3,
+      "unit": "EACH",
+      "unit_price": 18.4,
+      "line_total": null
+    },
+    {
+      "sl": 350,
+      "item": null,
+      "description": "[TOOLS & EQUIPMENTS] [GAS MASK] [BT-9301] [BERENT]",
+      "qty": 1,
+      "unit": "EACH",
+      "unit_price": 10.925,
+      "line_total": null
+    },
+    {
+      "sl": 351,
+      "item": null,
+      "description": "[TOOLS & EQUIPMENTS] [HACKSAW WITH BLADE] [300MM] [BT-3062] [BERENT]",
+      "qty": 3,
+      "unit": "EACH",
+      "unit_price": 13.386,
+      "line_total": null
+    },
+    {
+      "sl": 352,
+      "item": null,
+      "description": "[TOOLS & EQUIPMENTS] [HSS DRILL BIT] [10MM] [BT-7380] [BERENT]",
+      "qty": 3,
+      "unit": "EACH",
+      "unit_price": 5.75,
+      "line_total": null
+    },
+    {
+      "sl": 353,
+      "item": null,
+      "description": "[TOOLS & EQUIPMENTS] [HSS DRILL BIT] [11MM] [BT-7381] [BERENT]",
+      "qty": 5,
+      "unit": "EACH",
+      "unit_price": 6.9,
+      "line_total": null
+    },
+    {
+      "sl": 354,
+      "item": null,
+      "description": "[TOOLS & EQUIPMENTS] [HSS DRILL BIT] [12MM] [BT-7382] [BERENT]",
+      "qty": 4,
+      "unit": "EACH",
+      "unit_price": 8.625,
+      "line_total": null
+    },
+    {
+      "sl": 355,
+      "item": null,
+      "description": "[TOOLS & EQUIPMENTS] [HSS DRILL BIT] [13MM] [BT-7383] [BERENT]",
+      "qty": 5,
+      "unit": "EACH",
+      "unit_price": 10.35,
+      "line_total": null
+    },
+    {
+      "sl": 356,
+      "item": null,
+      "description": "[TOOLS & EQUIPMENTS] [HSS DRILL BIT] [3MM] [BT-7373] [BERENT]",
+      "qty": 9,
+      "unit": "EACH",
+      "unit_price": 0.805,
+      "line_total": null
+    },
+    {
+      "sl": 357,
+      "item": null,
+      "description": "[TOOLS & EQUIPMENTS] [HSS DRILL BIT] [4MM] [BT-7374] [BERENT]",
+      "qty": 3,
+      "unit": "EACH",
+      "unit_price": 0.92,
+      "line_total": null
+    },
+    {
+      "sl": 358,
+      "item": null,
+      "description": "[TOOLS & EQUIPMENTS] [HSS DRILL BIT] [6MM] [BT-7376] [BERENT]",
+      "qty": 6,
+      "unit": "EACH",
+      "unit_price": 2.185,
+      "line_total": null
+    },
+    {
+      "sl": 359,
+      "item": null,
+      "description": "[TOOLS & EQUIPMENTS] [HSS DRILL BIT] [7MM] [BT-7377] [BERENT]",
+      "qty": 5,
+      "unit": "EACH",
+      "unit_price": 2.875,
+      "line_total": null
+    },
+    {
+      "sl": 360,
+      "item": null,
+      "description": "[TOOLS & EQUIPMENTS] [MANUAL OIL CHARGING PUMP] [R1] [WIPCOOL] [CHINA]",
+      "qty": 3,
+      "unit": "EACH",
+      "unit_price": 159.505,
+      "line_total": null
+    },
+    {
+      "sl": 361,
+      "item": null,
+      "description": "[TOOLS & EQUIPMENTS] [MEASURING TAPE] [10 MTRS X 19MM] [BERENT]",
+      "qty": 3,
+      "unit": "EACH",
+      "unit_price": 10.35,
+      "line_total": null
+    },
+    {
+      "sl": 362,
+      "item": null,
+      "description": "[TOOLS & EQUIPMENTS] [MEASURING TAPE] [5 MTRS X 19MM] [BT-4127] [BERENT]",
+      "qty": 20,
+      "unit": "EACH",
+      "unit_price": 4.3125,
+      "line_total": null
+    },
+    {
+      "sl": 363,
+      "item": null,
+      "description": "[TOOLS & EQUIPMENTS] [PINCH OFF/SEALING PLIER] [1/8\" TO 3/8\", VRT-102]",
+      "qty": 7,
+      "unit": "EACH",
+      "unit_price": 23.0862,
+      "line_total": null
+    },
+    {
+      "sl": 364,
+      "item": null,
+      "description": "[TOOLS & EQUIPMENTS] [PRESSURE WASHER LONG GUN]",
+      "qty": 2,
+      "unit": "EACH",
+      "unit_price": 144.8195,
+      "line_total": null
+    },
+    {
+      "sl": 365,
+      "item": null,
+      "description": "[TOOLS & EQUIPMENTS] [RATCHET] [1/4\", 1/2\", 3/16\", 9/16\"] [DSZH CT-123]",
+      "qty": 23,
+      "unit": "EACH",
+      "unit_price": 10.1579,
+      "line_total": null
+    },
+    {
+      "sl": 366,
+      "item": null,
+      "description": "[TOOLS & EQUIPMENTS] [RATCHET] [1/4\", 3/8\", 3/16\", 5/16\"] [DSZH CT-122]",
+      "qty": 13,
+      "unit": "EACH",
+      "unit_price": 9.6542,
+      "line_total": null
+    },
+    {
+      "sl": 367,
+      "item": null,
+      "description": "[TOOLS & EQUIPMENTS] [SWAGING PUNCH] [UNIWELD]",
+      "qty": 3,
+      "unit": "EACH",
+      "unit_price": 29.7965,
+      "line_total": null
+    },
+    {
+      "sl": 368,
+      "item": null,
+      "description": "[TOOLS & EQUIPMENTS] [WIRE BRUSH] [BT-3166] [BERENT]",
+      "qty": 8,
+      "unit": "EACH",
+      "unit_price": 4.6,
+      "line_total": null
+    },
+    {
+      "sl": 369,
+      "item": null,
+      "description": "[TRANSFORMER] [40VAC] [50/60HZ]",
+      "qty": 4,
+      "unit": "EACH",
+      "unit_price": 25.714,
+      "line_total": null
+    },
+    {
+      "sl": 370,
+      "item": null,
+      "description": "[TRANSFORMER] [75VAC] [50/60HZ]",
+      "qty": 5,
+      "unit": "EACH",
+      "unit_price": 59.2595,
+      "line_total": null
+    },
+    {
+      "sl": 371,
+      "item": null,
+      "description": "[TUBE BENDER] [LEVER] [1/2\"]",
+      "qty": 4,
+      "unit": "EACH",
+      "unit_price": 55.867,
+      "line_total": null
+    },
+    {
+      "sl": 372,
+      "item": null,
+      "description": "[TUBE BENDER] [LEVER] [3 IN 1]",
+      "qty": 3,
+      "unit": "EACH",
+      "unit_price": 39.7325,
+      "line_total": null
+    },
+    {
+      "sl": 373,
+      "item": null,
+      "description": "[TUBE BENDER] [LEVER] [3/4\"]",
+      "qty": 1,
+      "unit": "EACH",
+      "unit_price": 93.1155,
+      "line_total": null
+    },
+    {
+      "sl": 374,
+      "item": null,
+      "description": "[TUBE BENDER] [LEVER] [5/8\"]",
+      "qty": 2,
+      "unit": "EACH",
+      "unit_price": 80.707,
+      "line_total": null
+    },
+    {
+      "sl": 375,
+      "item": null,
+      "description": "[TUBE BENDER] [LEVER] [7/8\"]",
+      "qty": 2,
+      "unit": "EACH",
+      "unit_price": 124.154,
+      "line_total": null
+    },
+    {
+      "sl": 376,
+      "item": null,
+      "description": "[TUBE BENDER] [SPRING] [1/2\"]",
+      "qty": 10,
+      "unit": "EACH",
+      "unit_price": 7.4175,
+      "line_total": null
+    },
+    {
+      "sl": 377,
+      "item": null,
+      "description": "[TUBE BENDER] [SPRING] [1/4\"]",
+      "qty": 8,
+      "unit": "EACH",
+      "unit_price": 4.6,
+      "line_total": null
+    },
+    {
+      "sl": 378,
+      "item": null,
+      "description": "[TUBE BENDER] [SPRING] [3/8\"]",
+      "qty": 6,
+      "unit": "EACH",
+      "unit_price": 5.75,
+      "line_total": null
+    },
+    {
+      "sl": 379,
+      "item": null,
+      "description": "[TUBE BENDER] [SPRING] [7/8\"]",
+      "qty": 10,
+      "unit": "EACH",
+      "unit_price": 10.2235,
+      "line_total": null
+    },
+    {
+      "sl": 380,
+      "item": null,
+      "description": "[TUBE CUTTER] [BIG] [1/4\" TO 1-5/8\"] [CT-312]",
+      "qty": 11,
+      "unit": "EACH",
+      "unit_price": 16.9222,
+      "line_total": null
+    },
+    {
+      "sl": 381,
+      "item": null,
+      "description": "[TUBE CUTTER] [BIG] [1/8\" TO 1-1/8'] [CT-274]",
+      "qty": 1,
+      "unit": "EACH",
+      "unit_price": 11.293,
+      "line_total": null
+    },
+    {
+      "sl": 382,
+      "item": null,
+      "description": "[TUBE CUTTER] [DSZH] [CAPILLARY CUTTER] [PTC-02]",
+      "qty": 8,
+      "unit": "EACH",
+      "unit_price": 9.6542,
+      "line_total": null
+    },
+    {
+      "sl": 383,
+      "item": null,
+      "description": "[TUBE CUTTER] [MINI-WK-128-DSZH] [UPTO 7/8\"]",
+      "qty": 29,
+      "unit": "EACH",
+      "unit_price": 6.3491,
+      "line_total": null
+    },
+    {
+      "sl": 384,
+      "item": null,
+      "description": "[TUBE CUTTER] [MINI] [1/8\" TO 1-1/8\"] [WK-174]",
+      "qty": 8,
+      "unit": "EACH",
+      "unit_price": 7.6463,
+      "line_total": null
+    },
+    {
+      "sl": 385,
+      "item": null,
+      "description": "[VACUUM PUMP] [1 STAGE 3 CFM VP-125] [YANGYI] [CHINA]",
+      "qty": 3,
+      "unit": "EACH",
+      "unit_price": 180.0,
+      "line_total": null
+    },
+    {
+      "sl": 386,
+      "item": null,
+      "description": "[VACUUM PUMP] [1 STAGE 4 CFM VP-135] [YANGYI] [CHINA]",
+      "qty": 4,
+      "unit": "EACH",
+      "unit_price": 270.0,
+      "line_total": null
+    },
+    {
+      "sl": 387,
+      "item": null,
+      "description": "[VALVES/CAN TAPS] [1/2\"] [DJG-04 BRASS CONNECTOR WITH TUBE]",
+      "qty": 8,
+      "unit": "EACH",
+      "unit_price": 5.037,
+      "line_total": null
+    },
+    {
+      "sl": 388,
+      "item": null,
+      "description": "[VALVES/CAN TAPS] [1/2''] [SERVICE VALVE]",
+      "qty": 11,
+      "unit": "EACH",
+      "unit_price": 12.259,
+      "line_total": null
+    },
+    {
+      "sl": 389,
+      "item": null,
+      "description": "[VALVES/CAN TAPS] [1/4\"] [DJG-02 BRASS CONNECTOR WITH TUBE]",
+      "qty": 6,
+      "unit": "EACH",
+      "unit_price": 2.729,
+      "line_total": null
+    },
+    {
+      "sl": 390,
+      "item": null,
+      "description": "[VALVES/CAN TAPS] [1/4\"] [SERVICE VALVE]",
+      "qty": 11,
+      "unit": "EACH",
+      "unit_price": 15.0535,
+      "line_total": null
+    },
+    {
+      "sl": 391,
+      "item": null,
+      "description": "[VALVES/CAN TAPS] [3/4\"] [DJG-06 BRASS CONNECTOR WITH TUBE]",
+      "qty": 10,
+      "unit": "EACH",
+      "unit_price": 3.4845,
+      "line_total": null
+    },
+    {
+      "sl": 392,
+      "item": null,
+      "description": "[VALVES/CAN TAPS] [3/4\"] [SERVICE VALVE]",
+      "qty": 1,
+      "unit": "EACH",
+      "unit_price": 32.7405,
+      "line_total": null
+    },
+    {
+      "sl": 393,
+      "item": null,
+      "description": "[VALVES/CAN TAPS] [3/8\"] [DJG-03 BRASS CONNECTOR WITH TUBE]",
+      "qty": 10,
+      "unit": "EACH",
+      "unit_price": 3.7778,
+      "line_total": null
+    },
+    {
+      "sl": 394,
+      "item": null,
+      "description": "[VALVES/CAN TAPS] [3/8\"] [SERVICE VALVE]",
+      "qty": 13,
+      "unit": "EACH",
+      "unit_price": 15.0535,
+      "line_total": null
+    },
+    {
+      "sl": 395,
+      "item": null,
+      "description": "[VALVES/CAN TAPS] [5/8\"] [DJG-05 BRASS CONNECTOR WITH TUBE]",
+      "qty": 8,
+      "unit": "EACH",
+      "unit_price": 5.8765,
+      "line_total": null
+    },
+    {
+      "sl": 396,
+      "item": null,
+      "description": "[VALVES/CAN TAPS] [5/8\"] [SERVICE VALVE]",
+      "qty": 6,
+      "unit": "EACH",
+      "unit_price": 16.1621,
+      "line_total": null
+    },
+    {
+      "sl": 397,
+      "item": null,
+      "description": "[VALVES/CAN TAPS] [CAN TAP VALVE]",
+      "qty": 20,
+      "unit": "EACH",
+      "unit_price": 6.233,
+      "line_total": null
+    },
+    {
+      "sl": 398,
+      "item": null,
+      "description": "[VALVES/CAN TAPS] [CT-340 CAN OPENER FOR R134A]",
+      "qty": 10,
+      "unit": "EACH",
+      "unit_price": 17.25,
+      "line_total": null
+    },
+    {
+      "sl": 399,
+      "item": null,
+      "description": "[VALVES/CAN TAPS] [R410A (RED)] [REFRIGERANT RETENTION CONTROL VALVE]",
+      "qty": 3,
+      "unit": "EACH",
+      "unit_price": 20.47,
+      "line_total": null
+    }
+  ],
+  "provenance": {
+    "captured_by": "PROCURE (inventory keeper)",
+    "captured_on": "2026-10-12",
+    "confidence": "medium",
+    "basis": "Read straight from the supplier's spreadsheet. Prices are as given. Only 14 of 396 lines are mapped to a canonical item; the rest are recorded verbatim with item: null and are searchable but excluded from every comparison."
+  }
+}

@@ -184,7 +184,7 @@
       "model": "1068/4A6",
       "unit": "EACH",
       "category": "line-component",
-      "compare_note": "Two suppliers quote 155.00, one of them stating '+ COIL' explicitly. Arctic quotes 175.00 without saying whether the coil is included - confirm. A coil is a separately priced part."
+      "compare_note": "Two suppliers quote 155.00 and Airtronics now 150.00, coil included; Arctic 175.00 without saying. A Danfoss EVR6 body (81.44) plus a BE230AS coil (20.00) is 101.44 for the equivalent build — the coil question is now answered and the gap is real."
     },
     "solenoid-valve-1078-4a6": {
       "description": "Solenoid valve 1/2\", Castel 1078/4A6",
@@ -209,7 +209,8 @@
     "copper-coil-seven-eighths-50ft": {
       "description": "Copper coil / pipe 7/8\" x 50 ft roll",
       "unit": "ROLL",
-      "category": "pipe"
+      "category": "pipe",
+      "compare_note": "Arctic and the unnamed supplier quote a 50 ft (15.24 m) roll. Alfateyer's is a 15 m ECONOMY roll — 1.6% shorter, but the grade is unstated on the other quotes and may not match. Confirm wall thickness before treating 360.00 as the same product as 625.00."
     },
     "copper-coil-five-eighths-50ft": {
       "description": "Copper coil / pipe 5/8\" x 50 ft roll",
@@ -250,7 +251,7 @@
       "description": "Copper capillary, cut length, with 1/4\" nut fitted",
       "unit": "EACH",
       "category": "line-component",
-      "compare_note": "Lengths differ across quotations (0.9 m / 1.0 m / 1.5 m). Compare per metre using unit_size, never per piece."
+      "compare_note": "Lengths differ (0.9 / 1.0 / 1.5 m) — always compare per metre using unit_size. Alfateyer is far below everyone: 6.29/m against Airtronics 13.33/m, our own sell price 22.22/m and Arctic 25.00/m."
     },
     "charging-union-quarter-npt": {
       "description": "Charging union / NPT connector, 1/4\" flare x 1/8\" NPT",
@@ -433,7 +434,7 @@
       "brand": "Danfoss",
       "unit": "EACH",
       "category": "line-component",
-      "compare_note": "Orifice 04/05, not the No. 02 quoted elsewhere. Quoted by the same vendor at 40.00 and 50.00 one day apart - ask which stands."
+      "compare_note": "Airtronics prices orifice 04 and 05 on one line, at 40.00 (7 Oct) and 50.00 (6 Oct). Alfateyer prices them separately: no. 04 at 31.02, no. 05 at 49.87. So Airtronics is ~29% over on the 04 and level on the 05. Ask Airtronics which orifice each line actually supplies."
     },
     "solenoid-valve-1078-5a6": {
       "description": "Solenoid valve 5/8\" solder, Castel 1078/5A6, with coil and connector",
@@ -465,6 +466,66 @@
       "unit": "TUBE",
       "category": "consumable",
       "compare_note": "Priced per tube. Arctic's 0% rod is priced per box of 28 at 58.00 - not the same basis, do not compare the two figures."
+    },
+    "ball-valve-half-hongsen": {
+      "description": "Ball valve 1/2\" brazing, Hongsen HBC-12",
+      "brand": "Hongsen",
+      "model": "HBC-12",
+      "unit": "EACH",
+      "category": "line-component",
+      "compare_note": "Chinese brand. Against ball-valve-half (Danfoss GBC 12S 90.00, Castel 6570/4 100.00) this is 30.00 — a third of the price and a different quality tier. Not a substitute without Farhan's call."
+    },
+    "sight-glass-half-hongsen": {
+      "description": "Sight glass 1/2\", Hongsen",
+      "brand": "Hongsen",
+      "unit": "EACH",
+      "category": "line-component",
+      "compare_note": "Chinese brand, 17.48 brazing / 19.21 flaring, against the Danfoss SGI 12S at 65.00. Same function, different tier — not a like-for-like saving."
+    },
+    "solenoid-valve-evr6-half": {
+      "description": "Solenoid valve 1/2\" solder, Danfoss EVR6, without coil",
+      "brand": "Danfoss",
+      "model": "EVR6 (032F1209)",
+      "unit": "EACH",
+      "category": "line-component",
+      "compare_note": "Body only. With a Danfoss BE230AS coil at 20.00 the pair is 101.44, against the Castel 1068/4A6 with coil at 150.00 (Airtronics, 6 Oct). Both are tier-1 European brands, so this one IS a real comparison."
+    },
+    "solenoid-coil-be230as": {
+      "description": "Solenoid coil BE230AS, 10W, 220/230V, terminal box",
+      "brand": "Danfoss",
+      "model": "BE230AS (018F6701)",
+      "unit": "EACH",
+      "category": "line-component",
+      "compare_note": "Answers the standing question on the Castel 1068/4A6: a coil is a separately priced part, and this is what one costs."
+    },
+    "orifice-te2-no04": {
+      "description": "TE2 orifice no. 04",
+      "brand": "Danfoss",
+      "model": "068-2007",
+      "unit": "EACH",
+      "category": "line-component"
+    },
+    "orifice-te2-no05": {
+      "description": "TE2 orifice no. 05",
+      "brand": "Danfoss",
+      "model": "068-2008",
+      "unit": "EACH",
+      "category": "line-component"
+    },
+    "orifice-te5-no01": {
+      "description": "TE5 orifice no. 01",
+      "brand": "Danfoss",
+      "model": "067B2789",
+      "unit": "EACH",
+      "category": "line-component"
+    },
+    "expansion-valve-element-tes5-067b3342": {
+      "description": "Expansion valve element TES-5, R404A/R507",
+      "brand": "Danfoss",
+      "model": "067B3342",
+      "unit": "EACH",
+      "category": "line-component",
+      "compare_note": "The element only. Airtronics quotes 067B3342 + 067B2789 orifice + 1/2 x 7/8 valve body as one line at 500.00; element 260.25 plus orifice 103.03 is 363.27 of that, leaving ~137.00 for the body."
     }
   }
 }
