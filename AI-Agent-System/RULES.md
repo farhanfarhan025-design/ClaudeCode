@@ -52,6 +52,8 @@ These exist because he has corrected them repeatedly. Treat a violation as a def
 8. **Currency:** QAR default, comma-separated, 2 decimals (`QAR 59,000.00`). Vendor POs may be
    SR / AED / USD as appropriate.
 9. **No physical signature block on LPOs** — the "computer generated document" callout replaces it.
+10. **Every quotation is delivered as both Word (.docx) and PDF.** Generate both, save them side by
+    side in `Quotations/` as `QUT-DCTS-NNN-YYYY <Client> <Job>.docx/.pdf`, and hand Farhan both files.
 
 ## D. Open contradiction — resolve, do not paper over
 
