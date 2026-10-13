@@ -37,6 +37,7 @@ HOUSE_DOOR_PHOTO = SKILL_DIR / "template" / "door.png"
 # The sliding-door sheets carry their opening in the artwork — "SIZE: 2000 mm
 # (W) x 2500 mm (H)" — so each one goes in only on a job quoting that size
 HOUSE_SLIDING_DOORS = {
+    (1500, 2000): SKILL_DIR / "template" / "door-sliding-1500x2000.png",
     (2000, 2500): SKILL_DIR / "template" / "door-sliding.png",
     (3000, 3000): SKILL_DIR / "template" / "door-sliding-3000.png",
 }
