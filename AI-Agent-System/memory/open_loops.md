@@ -1342,6 +1342,21 @@ Three documents were produced today and none has been appended to the log in Dri
   **No supplier cost on file**, so the margin on 22,500 is unknown. Eighth job quoted blind.
   **A bakery group buying three display freezers is a repeat-order customer** — Village and
   Wooden Bakery are retail chains. Worth asking what else is on their replacement list.
+- **INV-281/2026** — Ruwais Farm, replacement of thermostatic expansion valve and complete system
+  gas charging, **1,750**, issued 13-10-2026. **Repeat client** — second job after INV-014/2026 at
+  1,850, which was settled.
+  **The filter drier is the real point of note 3.** A sealed circuit was opened to change the
+  valve, and the old drier will have taken up moisture; left in, it is the commonest cause of a
+  repeat expansion valve failure. **It is not known whether the drier was changed on this visit** —
+  Farhan's instruction did not mention one and nothing on file says. Note 3 is therefore written as
+  a recommendation rather than an assertion, and it is also a follow-on sale.
+  **The gas charge here is explained by the work**, unlike BSI (INV-271) where a charge implied a
+  leak. The circuit was opened deliberately, so no leak warning is given.
+  **Refrigerant type and charge weight are not recorded** — the invoice says charged by weight to
+  the nameplate figure and names no gas, because none was given.
+  **Payment terms, completion and warranty were all assumed** — Farhan gave a price only. 6 months
+  on the valve and workmanship; due on presentation.
+  **No address, contact name or telephone for Ruwais Farm** on a second invoice to this client.
 - **WO/DCTS/001/2026** — Al Zehrabi work order, 18-08-2026. **Opens a new series**; the log has
   no work-order column yet.
 - **INV-263/2026** — Al Zehrabi, **4,900 in full**, issued 19-08-2026 (redrafted from an 80%
