@@ -2256,3 +2256,45 @@ the right gauge when asked for it.
 
 **As on every Al Buhsain quotation:** marked DRAFT, validity 3 working days, and the stated
 delivery date of 17-10-2026 contradicts clause 6's 6-12 working days from the advance.
+
+### OL-082 — Bank receipts register built; 280,000 arrived with no instrument on file
+**Owner:** Farhan · **Raised:** 2026-10-14 · **Value:** QAR 280,000 unevidenced · **HEADLINE**
+
+First complete register of money received through the bank, both entities, compiled from the
+receipt and voucher records: `reports/bank_receipts_register_2026-10-14.html`.
+
+| | Instruments | QAR |
+|---|---|---|
+| TNDK — cheques and transfers, fully evidenced | 7 | 153,125.00 |
+| Doha Cooling — Oriental Agro cheques, fully evidenced | 4 | 718,000.00 |
+| **Fully evidenced** | **11** | **871,125.00** |
+| **Received, no instrument on record** | 6 | **280,000.00** |
+| **Total through the bank** | 17 | **1,151,125.00** |
+
+**Fully evidenced (cheque or transfer reference, bank and date all held):** Sunrise 00990904
+Dukhan 16-08-2026 (23,100) and 00991134 Dukhan 30-09-2026 (2,300); Stop n Shop 00006483 QNB
+26-08-2026 (25,000); Oscar Prime two Commercial Bank transfers ref *Kitchen Fabrication*, value
+dates 19-08-2026 (56,250) and 24-08-2026 (8,000); One A transfer MS1A03383663 / MB260930957255
+01-10-2026 (25,725); Everbloom C.R.-alias transfer 20261006QNBAQAQAXXXH02184180 / MB261006530403
+06-10-2026 (12,750). Oriental Agro QNB cheques 000000067 (209,000), 000000069 (209,000), 60000076
+(200,000) and 00000110 (100,000).
+
+**The 280,000 gap, and why it matters:**
+
+- **Oscar Prime 119,000, 06-10-2026 — mode not recorded at all.** The largest single payment the
+  company has taken, and nothing says whether it was a cheque or a transfer. **Until it does, it is
+  not known whether that money has cleared** (OL-077).
+- **CCC 76,050**, **Sunrise 27,600**, **Lean N Fit 17,000**, **Ruwais Farm 1,850** — no instrument
+  and no date.
+- **Samoosa 38,500** — clearance confirmed verbally by Farhan on 11-08-2026 and nothing else.
+
+**Receipts were never issued on five of the six.** Only RCT-279 exists. The Oscar Prime 64,250 of
+August, CCC 76,050, Sunrise 27,600, Samoosa 38,500, Lean N Fit 17,000 and Ruwais Farm 1,850 were
+all taken without a receipt leaving the office.
+
+**This is OL-014 quantified.** The missing instrument register is worth **280,000 of unevidenced
+receipts and 24.3% of everything banked.** Cash is excluded and sits separately: Oriental Agro
+375,000 across nine vouchers, four of them unnumbered and undated, plus 2,450 of TNDK cash.
+
+**Needed:** the cheque numbers, banks and dates for the six, from the bank statements — and
+receipts raised for the five that have none.
