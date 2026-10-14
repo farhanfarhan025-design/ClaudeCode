@@ -2270,7 +2270,16 @@ delivery date of 17-10-2026 contradicts clause 6's 6-12 working days from the ad
 ### OL-082 — Bank receipts register complete: every riyal through the bank is now evidenced
 **Owner:** Farhan · **Raised:** 2026-10-14 · **Revised:** 2026-10-14 (R1) · **Value:** QAR 1,145,455.00
 
-First complete register of money received through the bank, both entities:
+First complete register of money received through the bank, both entities.
+
+**R2 is the issued version** — Farhan asked on 14-10-2026 for it **on the Doha Cooling letterhead
+with both entities in one list, Oriental Agro included**:
+`reports/bank_receipts_register_dohacooling_2026-10-14.html` →
+`BankReceiptsRegister_DohaCooling_2026-10-14.pdf`. Single date order, 08-09-2025 to 06-10-2026,
+with an **ENTITY column** (DCTS / TNDK) carrying the split instead of two sections. Two pages,
+header repeats. The entity sub-totals survive in the note beneath the table.
+
+R1, two sections on the TNDK letterhead, is kept at
 `reports/bank_receipts_register_2026-10-14.html` → `BankReceiptsRegister_2026-10-14_R1.pdf`.
 
 **R1 closes the gap.** The original build carried a third section of six receipts totalling 280,000

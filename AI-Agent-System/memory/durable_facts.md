@@ -417,7 +417,11 @@ a different business from one earning 22,950.
 
 ## Bank receipts — complete register as at 14 October 2026
 
-`reports/bank_receipts_register_2026-10-14.html` → `BankReceiptsRegister_2026-10-14_R1.pdf`.
+**Issued version — R2, Doha Cooling letterhead, both entities in one date-ordered list:**
+`reports/bank_receipts_register_dohacooling_2026-10-14.html` →
+`BankReceiptsRegister_DohaCooling_2026-10-14.pdf`, at Farhan's instruction 14-10-2026. An ENTITY
+column (DCTS / TNDK) carries the split. R1, two sections on the TNDK letterhead, is kept at
+`reports/bank_receipts_register_2026-10-14.html`.
 **Every riyal received through the bank, both entities, with its instrument. No gaps.**
 
 | | Instruments | QAR |
