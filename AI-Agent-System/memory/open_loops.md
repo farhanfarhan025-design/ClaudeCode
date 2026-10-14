@@ -1309,7 +1309,11 @@ Three documents were produced today and none has been appended to the log in Dri
   Farhan gave none of them. **No supplier cost on file.** Seventh job quoted without one.
 - **QUT/DCTS/249/2026** — Mr. Junaid, supply and installation of a PVC strip curtain to a
   1.10 x 2.10 m opening with a stainless steel rail and hooks. **485**, issued 30-09-2026.
-  **New client** — no address, contact number or site address.
+  **Client identified 14-10-2026 from a business card:** the legal name is **Evergreen
+  Refrigeration Trading & Services L.L.C.**, contact **Mr. Anish Bernanth, Sales & Service
+  Operations, +974 6659 0555, info@evergreen-qatar.com**. Still no address. **They are a
+  refrigeration trading and service company — a trade customer, not an end user**, which is why
+  they buy single components. Worth pricing and chasing as a reseller account.
   **NUMBERED 249, NOT 247.** The letter series shares the quotation serial, and LTR/DCTS/247
   and 248 were issued on 28-09-2026 to Home-Made by Earth and One A. Taking 247 here would
   have collided with a letter already out.
@@ -1357,6 +1361,23 @@ Three documents were produced today and none has been appended to the log in Dri
   **Payment terms, completion and warranty were all assumed** — Farhan gave a price only. 6 months
   on the valve and workmanship; due on presentation.
   **No address, contact name or telephone for Ruwais Farm** on a second invoice to this client.
+- **QUT/DCTS/252/2026** — Evergreen Refrigeration Trading & Services L.L.C., supply only of
+  **two (2) sliding cold room doors, right-hand opening** — 1.80 x 2.20 m at 6,400 and 2.00 x
+  2.20 m at 6,800. **13,200**, issued 14-10-2026. 100% cash, 07-10 days. **Second job for this
+  client** after the YWF4E-350S fan motor on QUT/DCTS/243.
+  **NO SPECIFICATION WAS GIVEN AND NONE WAS INVENTED.** Farhan supplied sizes, hand and price
+  only. The lines describe leaf, frame, track, rollers, guide, handle and hardware — nothing
+  about leaf thickness, skin gauge, insulation or heater. **Note 3 asks the client to confirm
+  chiller or freezer duty and the panel thickness the frame must suit**, because a freezer door
+  carries a frame heater and a different build, and the answer may move the price and the lead
+  time. **Do not order from any supplier until that is answered.**
+  **Note 2 fences the hand** — made to order, not alterable, exchangeable or returnable, and asks
+  whether the hand is read from outside or inside the room. That convention has never been stated
+  on any TNDK or IDIF door document (OL-075, QUT/DCTS/244) and it is the defect most likely to
+  write off a door.
+  **No supplier cost on file**, so the margin on 13,200 is unknown. **IDIF quote sliding freezer
+  doors at SAR 4,700 for 1500 x 2000** (LPO-206), which is the nearest comparator on file.
+  **12 month warranty and 15 day validity were assumed**; Farhan gave payment and delivery only.
 - **WO/DCTS/001/2026** — Al Zehrabi work order, 18-08-2026. **Opens a new series**; the log has
   no work-order column yet.
 - **INV-263/2026** — Al Zehrabi, **4,900 in full**, issued 19-08-2026 (redrafted from an 80%
