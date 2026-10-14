@@ -2199,3 +2199,39 @@ PPGI** — SQ074, SQ101 and SQ112 all say so. **Oscar Prime's rooms would be bui
 **Also, as on LPO-202:** the quotation is marked **DRAFT**, validity **3 working days**, and its
 stated delivery date of 15-10-2026 contradicts clause 6 (6-12 working days from the advance).
 All three are put back to them in notes 4 and 5.
+
+### OL-081 — Al Buhsain has TNDK filed under another company's contact details
+**Owner:** Farhan · **Raised:** 2026-10-14 · **Value:** QAR 730 on this order, but a records defect
+
+**LPO-209/2026** orders 10.80 sqm of **50 mm JMBWHS hidden screw wall panel** at 68.00, net
+**730.00** against quotation SAL-QTN-2026-01603. Arithmetic correct. Six panels: 3 at 2.60 m and
+3 at 1.00 m.
+
+**THE CUSTOMER BLOCK ON THEIR QUOTATION IS NOT OURS.** It reads:
+
+> Customer: **Doha Kitchen Equipment** · Email: **info@alraifutrading.com** · Mobile: **41422999**
+
+Their three previous quotations to us (01446, 01562, 01603's predecessors) carry
+**qatardcts@gmail.com / 77060676**. **Al Raifu Trading is a different company.** Either Al Buhsain
+have merged two customer records, or this quotation was prepared for someone else and reissued to
+us. Note 2 of the order states the buyer in full with the C.R. number and requires their customer
+master to be corrected, and refuses documents addressed to another party.
+
+**This is not cosmetic on a 100%-advance supplier.** Money leaves before goods do, and a proforma,
+invoice or delivery note issued against another company's account is how a payment is credited to
+the wrong customer or goods are released to the wrong collector. **Get the record corrected before
+the advance is paid.**
+
+**The specification points at Everbloom, but the quantity does not cover it.** 50 mm PIR, 0.50 mm
+PPGI RAL 9003, cut 2.60 m — consistent with SQ112's flower display chiller, 2.91 x 1.00 x 2.50 m,
+sold on 50 mm PUF with 0.5 mm PPGI. **But SQ112 sells 15.60 sqm of 50 mm panel** (walls 9.78,
+ceiling 2.91, floor 2.91) **and this order is 10.80 — short by 4.80 sqm**, roughly the 1.00 m end
+wall and the floor panel. **Confirm the job and whether a second order follows**, before the
+chiller is found short on site.
+
+**The gauge is correct on this one — 0.50 mm.** After 0.43 mm on SAL-QTN-2026-01562 (OL-080), this
+quotation is back to the gauge TNDK's own quotations sell. Worth noting that the supplier quotes
+the right gauge when asked for it.
+
+**As on every Al Buhsain quotation:** marked DRAFT, validity 3 working days, and the stated
+delivery date of 17-10-2026 contradicts clause 6's 6-12 working days from the advance.

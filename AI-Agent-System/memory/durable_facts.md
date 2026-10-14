@@ -237,6 +237,7 @@ client funds the purchase in full.
 | LPO-206/2026, 06-10-2026 | IDIF (Kingdom of Saudi Arabia) — Eng. Abdulgader Hasrat | **project not stated** | **SAR 19,600** (~QAR 19,025) — 13 freezer doors | **100% advance**, delivered to Qatar free, 1 week | drafted on **TNDK** letterhead (Farhan, 06-10-2026) — **hand schedule must be issued before production** |
 | LPO-207/2026, 06-10-2026 | Airtronics Trading Contracting & Maintenance W.L.L. | **Oscar Prime** — confirmed by Farhan | 61,500 (62,859 less 1,359 discount) | **100% CDC on collection**, ex-works Doha, ex-stock | drafted, not issued |
 | LPO-208/2026, 07-10-2026 | Al Buhsain Steel Industries W.L.L. (JMB) | **PROJECT-1 = Oscar Prime** (schedule reconciles); **PROJECT-2 unidentified** | 81,300 (797.20 sqm @ 102.00 less 14.40) — P1 39,290.40, P2 42,024.00 | 50% advance / 50% before shipment, EXW factory | drafted — **see OL-080 before issuing** |
+| LPO-209/2026, 14-10-2026 | Al Buhsain Steel Industries W.L.L. (JMB) | **project not stated** — spec points at Everbloom | 730 (10.80 sqm @ 68.00 less 4.40) — 50 mm hidden screw panel | **100% advance before shipment**, EXW factory | drafted, not issued |
 
 Ordered **after** the Jollibee advance was received — LPO 6 Jul, cheque 7 Jul, materials 14 Jul.
 Collected 27,600 against committed 9,500, so the project was never funded out of working capital.
