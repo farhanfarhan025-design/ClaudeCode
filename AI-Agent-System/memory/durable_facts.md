@@ -51,7 +51,7 @@ retention clause, so this reads as a retention applied by the client's accounts 
 keying error — see OL-027.
 | Drainage system replacement | Lean N Fit | QUT/DCTS/214/2026 | Cash | 1,200 | 1,200 | 0 — completed & paid 11-08-2026 |
 | Cold room — chiller + freezer | Stop n Shop – Bin Omran | QUT/DCTS/SQ076/2026 | Quote | 45,000 | 25,000 (cheque 00006483, QNB, 26-08-2026) | 20,000 — PDC 90 days |
-| Chiller + freezer rooms | Home-Made by Earth | HMBE/LPO/2026/001 | LPO | **46,900** (LPO still reads 45,300) | 0 | 46,900 — 75/20/5 |
+| Chiller + freezer rooms | Home-Made by Earth | HMBE/LPO/2026/001 **ver.2, 17-09-2026** | LPO | **46,900** (figures now correct; **words still read 45,300** — OL-084) | **32,830** (cheque **00000001**, QNB, 21-09-2026 — drawn 65,830, of which 33,000 is kitchen fabrication) | **14,070** — 25% on delivery 11,725, 5% handover 2,345 |
 | Chiller + freezer rooms — Capital Grille at ABESQ Hotel | One A Design, Build and Trading W.L.L. | WO/1A/096/26, 27-09-2026 | Work Order | **73,500** | **25,725** (transfer MS1A03383663, 01-10-2026, RCT-274) | **47,775** — of which **29,400 now invoiced** under INV-275 against DN-253 (02-10-2026); then 20% completion 14,700 and 5% handover 3,675 |
 | Cold storage project | Oriental Agro Trading | SOA AS-2026-9456 | **Doha Cooling** | 1,103,286 | 1,093,000 | 10,286 |
 | Additional sandwich panel shifting, Street 36 | Oriental Agro Trading | DCTS-INV-006/2026 reserved | **Doha Cooling** | **price not given** | 0 | **not invoiced — awaiting price** |
@@ -413,3 +413,54 @@ first was 75,000 on SQ074, completed 27-08-2026 and settled.
 file returns 13.5–14.0%; this one returns under 5% once the commission is paid. The figure needs
 to be known before the next job for this client is priced, because a 170,000 job earning 7,950 is
 a different business from one earning 22,950.
+
+
+## Bank receipts — complete register as at 14 October 2026
+
+`reports/bank_receipts_register_2026-10-14.html` → `BankReceiptsRegister_2026-10-14_R1.pdf`.
+**Every riyal received through the bank, both entities, with its instrument. No gaps.**
+
+| | Instruments | QAR |
+|---|---|---|
+| TNDK — cheques and transfers | 13 | 427,455.00 |
+| Doha Cooling — Oriental Agro cheques | 4 | 718,000.00 |
+| **Total banked** | **17** | **1,145,455.00** |
+
+**Instruments on file — TNDK:**
+
+| Payer | Instrument | Bank | Date | QAR |
+|---|---|---|---|---|
+| Lean and Fit Popular Kitchen | cheque 00000951 | QNB | 23-06-2026 | 17,000.00 |
+| CCC | cheque 00000245, A/C payee only | QIB | 04-07-2026 | 76,050.00 |
+| Sunrise | cheque 00990717 | Dukhan | 07-07-2026 | 27,600.00 |
+| Ruwais Farm | Fawran FT261947R2WS | QIB | 13-07-2026 | 1,850.00 |
+| Sunrise | cheque 00990904 | Dukhan | 16-08-2026 | 23,100.00 |
+| Oscar Prime | transfer, ref *Kitchen Fabrication* | Commercial Bank | 19-08-2026 | 56,250.00 |
+| Oscar Prime | transfer, ref *Kitchen Fabrication* | Commercial Bank | 24-08-2026 | 8,000.00 |
+| Stop n Shop | cheque 00006483 | QNB | 26-08-2026 | 25,000.00 |
+| Homemade by Earth Eatery | cheque 00000001 | QNB | 21-09-2026 | 32,830.00 |
+| Sunrise | cheque 00991134 | Dukhan | 30-09-2026 | 2,300.00 |
+| One A Design, Build and Trading | MS1A03383663 / MB260930957255 | — | 01-10-2026 | 25,725.00 |
+| Everbloom | 20261006QNBAQAQAXXXH02184180 / MB261006530403 | QNB | 06-10-2026 | 12,750.00 |
+| Oscar Prime | transfer ref **061026A7317** | Commercial Bank | 06-10-2026 | 119,000.00 |
+
+**Doha Cooling — Oriental Agro, QNB cheques:** 000000067 (209,000), 000000069 (209,000), 60000076
+(200,000), 00000110 (100,000) = **718,000.00**.
+
+**Three presentation rules Farhan set, which bind any rebuild of this register:**
+
+1. **HMBE cheque 00000001 is drawn for 65,830.** Only **32,830** is TNDK's cold-room money; the
+   33,000 balance is kitchen fabrication and appears **only in a bracketed note**, never in a total.
+2. **The Oscar Prime 06-10-2026 transfer is taken for its reference only.** 119,000 is the figure;
+   the instruction's own total and balance are kitchen fabrication and are **not mentioned at all**.
+3. **Samoosa 38,500 is not on the register** — received in cash.
+
+**Not banked, held separately:** Oriental Agro cash 375,000 across nine vouchers (four unnumbered
+and undated), Samoosa 38,500, TNDK cash 2,450.
+
+**The Oscar Prime 119,000 is evidenced as an instruction, not as a credit** — the bank report reads
+*Pending Approval*, processed date blank (OL-083).
+
+**Five of these came in without a receipt ever being raised:** Oscar Prime 64,250 (August), CCC
+76,050, Sunrise 27,600, Lean N Fit 17,000, Ruwais Farm 1,850. The instruments are now known, so
+the receipts can and should be issued.

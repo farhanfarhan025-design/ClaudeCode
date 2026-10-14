@@ -50,7 +50,12 @@ split is mine — Farhan gave only the 70%, and the quotation and LPO both say 7
 remaining 30% had to be placed somewhere. 70/20/10 is the alternative if he prefers to hold more
 back to the end.
 
-**LPO HMBE/LPO/2026/001 still reads 45,300.** An invoice above the order value is normally kicked
+**Resolved in part on 14-10-2026:** the signed **LPO ver.2 of 17-09-2026** reads **46,900.00**
+against **SQ091 (Ver.3)**, so the order value and the contract now agree. **The amount in words
+was not corrected and still says Forty-Five Thousand Three Hundred** — see **OL-084**. The 70%
+advance of **32,830 was received** by QNB cheque 00000001 on 21-09-2026; **balance 14,070.**
+
+*Original entry:* **LPO HMBE/LPO/2026/001 still reads 45,300.** An invoice above the order value is normally kicked
 back by a client's accounts, and the contract is 3.5% over. Note 4 asks in writing for a revised LPO or
 an amendment. **Needed:** that amendment before the advance is chased, or the invoice sits unpaid
 while nobody is at fault.
@@ -2062,14 +2067,19 @@ cheque is drawn** — it is the Sunrise defect (OL-068) on twenty times the mone
 the LPO states and the invoice repeats. And **QUT/DCTS/SQ117/2026 is not in the numbering log**,
 another SQ-series document issued outside it (OL-018).
 
-### OL-077 — The largest advance TNDK has taken, and its instrument is unrecorded
-**Owner:** Farhan · **Raised:** 2026-10-06 · **Value:** QAR 119,000 · **COMPLETE THE RECEIPT**
+### OL-077 — The largest advance TNDK has taken, and its instrument is unrecorded — CLOSED 2026-10-14
+**Owner:** Farhan · **Raised:** 2026-10-06 · **Closed:** 2026-10-14 · **Value:** QAR 119,000
+
+**CLOSED.** Farhan supplied the Commercial Bank report on 14-10-2026: **transfer, ref 061026A7317,
+value date 06-10-2026.** Not a cheque, so the "subject to realization" question falls away and
+RCT-279/2026 needs no reissue on that ground. **One thing carries forward:** the report's status
+reads *Pending Approval* with no processed date — see **OL-083**, which replaces this loop.
 
 **119,000 received from Oscar Prime** against INV-278/2026, receipted under **RCT-279/2026** on
 06-10-2026. Balance 51,000 — 42,500 on delivery, 8,500 at handover.
 
-**It is the largest single payment in the records**, larger than any Oriental Agro receipt, and
-**nothing is recorded about how it arrived.** No cheque number, no bank, no transfer reference, no
+*Original entry follows.* **It is the largest single payment in the records**, larger than any
+Oriental Agro receipt, and **nothing is recorded about how it arrived.** No cheque number, no bank, no transfer reference, no
 payment mode. The instrument block carries blank rules rather than invented detail. **Farhan to
 supply the cheque or transfer details and the receipt will be reissued printed under the same
 number.** This is OL-014 — no instrument register — showing up on the biggest payment yet.
@@ -2257,44 +2267,76 @@ the right gauge when asked for it.
 **As on every Al Buhsain quotation:** marked DRAFT, validity 3 working days, and the stated
 delivery date of 17-10-2026 contradicts clause 6's 6-12 working days from the advance.
 
-### OL-082 — Bank receipts register built; 280,000 arrived with no instrument on file
-**Owner:** Farhan · **Raised:** 2026-10-14 · **Value:** QAR 280,000 unevidenced · **HEADLINE**
+### OL-082 — Bank receipts register complete: every riyal through the bank is now evidenced
+**Owner:** Farhan · **Raised:** 2026-10-14 · **Revised:** 2026-10-14 (R1) · **Value:** QAR 1,145,455.00
 
-First complete register of money received through the bank, both entities, compiled from the
-receipt and voucher records: `reports/bank_receipts_register_2026-10-14.html`.
+First complete register of money received through the bank, both entities:
+`reports/bank_receipts_register_2026-10-14.html` → `BankReceiptsRegister_2026-10-14_R1.pdf`.
+
+**R1 closes the gap.** The original build carried a third section of six receipts totalling 280,000
+with no instrument on file. Farhan supplied the bank reports and cheque images on 14-10-2026 and
+**that section no longer exists.**
 
 | | Instruments | QAR |
 |---|---|---|
-| TNDK — cheques and transfers, fully evidenced | 7 | 153,125.00 |
-| Doha Cooling — Oriental Agro cheques, fully evidenced | 4 | 718,000.00 |
-| **Fully evidenced** | **11** | **871,125.00** |
-| **Received, no instrument on record** | 6 | **280,000.00** |
-| **Total through the bank** | 17 | **1,151,125.00** |
+| Section 1 — TNDK, cheques and transfers | 13 | 427,455.00 |
+| Section 2 — Doha Cooling, Oriental Agro cheques | 4 | 718,000.00 |
+| **Total through the bank, all evidenced** | **17** | **1,145,455.00** |
 
-**Fully evidenced (cheque or transfer reference, bank and date all held):** Sunrise 00990904
-Dukhan 16-08-2026 (23,100) and 00991134 Dukhan 30-09-2026 (2,300); Stop n Shop 00006483 QNB
-26-08-2026 (25,000); Oscar Prime two Commercial Bank transfers ref *Kitchen Fabrication*, value
-dates 19-08-2026 (56,250) and 24-08-2026 (8,000); One A transfer MS1A03383663 / MB260930957255
-01-10-2026 (25,725); Everbloom C.R.-alias transfer 20261006QNBAQAQAXXXH02184180 / MB261006530403
-06-10-2026 (12,750). Oriental Agro QNB cheques 000000067 (209,000), 000000069 (209,000), 60000076
-(200,000) and 00000110 (100,000).
+**Added at R1:** Lean and Fit Popular Kitchen cheque **00000951** QNB 23-06-2026 (17,000); CCC
+cheque **00000245** QIB 04-07-2026, A/C payee only (76,050); Sunrise cheque **00990717** Dukhan
+07-07-2026 (27,600); Ruwais Farm Fawran transfer **FT261947R2WS** QIB 13-07-2026 (1,850); Homemade
+by Earth Eatery cheque **00000001** QNB 21-09-2026 (**32,830**); Oscar Prime Commercial Bank
+transfer ref **061026A7317** 06-10-2026 (**119,000**).
 
-**The 280,000 gap, and why it matters:**
+**Two instructions from Farhan are carried in the presentation and must survive any rebuild:**
 
-- **Oscar Prime 119,000, 06-10-2026 — mode not recorded at all.** The largest single payment the
-  company has taken, and nothing says whether it was a cheque or a transfer. **Until it does, it is
-  not known whether that money has cleared** (OL-077).
-- **CCC 76,050**, **Sunrise 27,600**, **Lean N Fit 17,000**, **Ruwais Farm 1,850** — no instrument
-  and no date.
-- **Samoosa 38,500** — clearance confirmed verbally by Farhan on 11-08-2026 and nothing else.
+1. **The HMBE cheque is drawn for 65,830.** Only **32,830 is TNDK's cold-room money**; the balance
+   of 33,000 is kitchen fabrication. The register shows 32,830 in the money column and the
+   fabrication split in a bracketed note beneath it, never in the total.
+2. **The Oscar Prime transfer is taken for its reference only.** 119,000 is the cold-room figure;
+   the transfer instruction's own total and its balance are kitchen fabrication and are **not
+   mentioned anywhere on the register.**
+3. **Samoosa 38,500 is off the register entirely** — received in cash, so it does not belong in a
+   bank receipts document. It stays in the cash record.
 
-**Receipts were never issued on five of the six.** Only RCT-279 exists. The Oscar Prime 64,250 of
-August, CCC 76,050, Sunrise 27,600, Samoosa 38,500, Lean N Fit 17,000 and Ruwais Farm 1,850 were
-all taken without a receipt leaving the office.
+**Still true after R1:** receipts were never issued on five of these — the Oscar Prime 64,250 of
+August, CCC 76,050, Sunrise 27,600, Lean N Fit 17,000 and Ruwais Farm 1,850 all came in without a
+receipt leaving the office. The instruments are now known, so **those five receipts can be raised
+and should be** (OL-014).
 
-**This is OL-014 quantified.** The missing instrument register is worth **280,000 of unevidenced
-receipts and 24.3% of everything banked.** Cash is excluded and sits separately: Oriental Agro
-375,000 across nine vouchers, four of them unnumbered and undated, plus 2,450 of TNDK cash.
+**Cash remains separate and is not in this register:** Oriental Agro 375,000 across nine vouchers,
+four of them unnumbered and undated, plus Samoosa 38,500 and 2,450 of TNDK cash.
 
-**Needed:** the cheque numbers, banks and dates for the six, from the bank statements — and
-receipts raised for the five that have none.
+
+### OL-083 — The Oscar Prime 119,000 transfer reads "Pending Approval", not paid
+**Owner:** Farhan · **Raised:** 2026-10-14 · **Value:** QAR 119,000 · **VERIFY THE CREDIT**
+
+The Commercial Bank report Farhan supplied for ref **061026A7317** carries **Transaction Status
+"Pending Approval"** and **Processed Date "-"**. On that evidence the client has *raised* the
+instruction; a second signatory had not released it at the time the report was taken.
+
+**This evidences the instruction, not the credit.** RCT-279/2026 has already been issued for
+119,000, and the Oscar Prime programme has been told it runs from 06-10-2026 on the strength of
+that money. **Check the TNDK account for the credit before any further material is released
+against it.** If the transfer has landed, nothing more is needed and this closes; if it is still
+sitting unapproved, it needs chasing with Oscar Prime's accounts, not with the project manager.
+
+The register shows the reference as given. It does not claim the money cleared.
+
+
+### OL-084 — HMBE's signed LPO says 46,900 in figures and 45,300 in words
+**Owner:** Farhan · **Raised:** 2026-10-14 · **Value:** QAR 1,600 · **AMENDMENT STILL NEEDED**
+
+The signed Home-Made by Earth LPO **ver.2 dated 17-09-2026** resolves the figure defect in OL-055:
+it now reads **46,900.00** and references **SQ091 (Ver.3)**. **But the amount in words was not
+updated — it still reads "Qatari Riyals Forty-Five Thousand Three Hundred Only."**
+
+**Words govern figures** in the ordinary reading of a payment instrument, and a client's accounts
+can hold the last 1,600 on exactly that point. The advance was paid on the figure — 32,830 is
+precisely 70% of 46,900 — so the client is behaving as though 46,900 is the contract. **Ask for a
+one-line amendment correcting the words before the balance of 14,070 is invoiced**, not after.
+
+**Also on the same LPO:** the payment terms still print **75/20/5** although 70% was taken. The
+stage amounts TNDK will invoice (25% at delivery = 11,725, 5% at handover = 2,345) do not match
+the order's own schedule. Same amendment should carry both corrections.
