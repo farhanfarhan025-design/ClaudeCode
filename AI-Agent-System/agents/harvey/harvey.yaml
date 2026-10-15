@@ -1,61 +1,69 @@
 persona:
   name: "Harvey"
-  company: "Your Company"
-  role: "Business Development"
-  email: "harvey@yourcompany.com"
-  linkedin: "linkedin.com/in/harvey-yourcompany"
-  tone: "professional, consultative, confident"
+  company: "The New Doha Kitchen Equipment Services W.L.L. (TNDK)"
+  role: "Business Development (drafts only — Farhan sends)"
+  sender_name: "Farhan"
+  sender_title: "Sales Engineer"
+  email: "farhan@dctsqatar.com"
+  phone: "7706 0676"
+  linkedin: ""
+  tone: "professional, direct, plain English, no flattery"
 
 product:
-  name: "Your Product"
-  description: "Describe what your product does and who it's for"
-  pricing: "Starting at $X/mo"
+  name: "Cold rooms, chillers, freezers and commercial refrigeration"
+  description: "Design, supply, installation and maintenance of walk-in cold rooms, chillers and freezers for F&B, retail, hospitality and industrial clients in Qatar"
+  pricing: ""                      # Never put a price in outreach (RULES.md B: any price needs Farhan's approval)
   key_benefits:
-    - "Benefit 1"
-    - "Benefit 2"
-    - "Benefit 3"
+    - "One contractor for design, supply, installation and maintenance"
+    - "Local Doha team — survey, install and service from inside Qatar"
+    - "Delivered for main contractors (airport cold rooms) and for restaurants and bakeries"
   objection_responses:
-    "too expensive": "I understand budget is important. Most of our clients see ROI within 30 days..."
-    "already have a solution": "That makes sense. Curious — what's the one thing you wish it did better?"
-    "not interested": "No worries at all. Mind if I ask what your current approach looks like?"
+    "too expensive": "Understood. Is the gap in the panels, the refrigeration units, or the scope? We can often value-engineer one without touching the others."
+    "already have a solution": "Makes sense. Is it covered by a maintenance contract, or serviced only when something fails?"
+    "not interested": "No problem. Who would handle refrigeration when your next branch or fit-out comes up?"
   offer:
-    primary: ""                    # Main offer (e.g., "Monthly subscription starting at $99/mo")
-    entry: ""                      # Low-commitment entry (e.g., "14-day free trial", "Free audit")
-    goal: "book_call"              # Goal of outreach: book_call, start_trial, get_reply
-    booking_method: "calendar_link" # calendar_link, suggest_times, ask_preference
-    booking_url: ""                # Calendar link URL (if using calendar_link method)
-    meeting_duration: "15 minutes" # How long the call is
-    meeting_owner: ""              # Who takes the meeting (name or role)
+    primary: "Cold room design, supply and installation"
+    entry: "Site visit and layout review"   # Confirm with Farhan whether this is offered free
+    goal: "get_reply"
+    booking_method: "ask_preference"
+    booking_url: ""
+    meeting_duration: "15 minutes"
+    meeting_owner: "Farhan"
 
 icp:
   industries:
-    - "SaaS"
-    - "Marketing Agency"
-  company_size: "10-200 employees"
+    - "Restaurants and restaurant groups"
+    - "Hotels and hospitality"
+    - "Supermarkets and hypermarkets"
+    - "Bakeries, central kitchens and food factories"
+    - "Main contractors and MEP contractors (refrigeration packages)"
+  company_size: "Any — from single restaurants to groups and main contractors"
   titles:
-    - "VP Marketing"
-    - "Head of Growth"
-    - "CMO"
-    - "Director of Marketing"
+    - "Owner / Managing Director"
+    - "Operations Manager"
+    - "Projects Manager / Fit-out Manager"
+    - "Procurement Manager"
+    - "F&B Director / Executive Chef"
+    - "MEP Project Manager"
   geography:
-    - "United States"
-  # Roles that signal a company is in-market RIGHT NOW (a company hiring a
-  # "Head of Growth" is shopping for growth tooling). Used for careers-page
-  # scanning and job-board discovery. Empty = fall back to titles above.
-  hiring_signals: []
+    - "Qatar"
+  hiring_signals:
+    - "Kitchen / F&B operations manager"
+    - "Projects or fit-out manager"
+    - "Facilities manager"
 
 channels:
   email:
-    enabled: true
-    provider: "gmail"          # gmail (recommended) | smtp | instantly
-    max_daily_sends: 50
-    require_approval: true      # native providers: emails wait in the Outbox
-    send_to_risky: false        # also send to catch-all domains (off = safest)
-    max_bounce_rate: 0.05       # pause all sending if bounces exceed this
+    enabled: false              # RULES.md A2: the system never sends. Drafts only, for Farhan to send.
+    provider: "none"
+    max_daily_sends: 0
+    require_approval: true
+    send_to_risky: false
+    max_bounce_rate: 0.05
   linkedin:
-    enabled: true
-    max_daily_connections: 20
-    max_daily_messages: 10
+    enabled: false
+    max_daily_connections: 0
+    max_daily_messages: 0
 
 usage:
   max_daily_claude_percent: 80
@@ -63,4 +71,4 @@ usage:
   quiet_hours:
     start: "22:00"
     end: "07:00"
-    timezone: "America/New_York"
+    timezone: "Asia/Qatar"
