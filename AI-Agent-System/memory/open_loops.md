@@ -2318,6 +2318,38 @@ and should be** (OL-014).
 four of them unnumbered and undated, plus Samoosa 38,500 and 2,450 of TNDK cash.
 
 
+### OL-085 — Evergreen's third job, and the first one invoiced with no quotation and no order
+**Owner:** Farhan · **Raised:** 2026-10-15 · **Value:** QAR 480
+
+**INV-282/2026** — Evergreen Refrigeration Trading & Services L.L.C., **two (2) cold room freezer
+evaporator defrost heaters, 1,000 W U-shaped tubular elements, at 240 each = 480.** Issued
+15-10-2026, supply only, ex stock. Attn. Mr. Anish Bernanth, +974 6659 0555.
+
+**Third job for this client** after the YWF4E-350S fan motor (QUT/DCTS/243, 630) and the two
+sliding doors (QUT/DCTS/252, 13,200). **The reseller account is forming on its own** — three
+component orders in under a month, from a refrigeration trading and service company that buys
+parts rather than rooms. **Worth a trade price list and a credit decision before it grows**, not
+after; three small invoices is the moment to set terms, not the fourth.
+
+**No quotation and no purchase order sit behind this one.** The first two jobs were quoted; this
+went straight to an invoice on Farhan's instruction. For 480 that is a sensible counter sale.
+**It stops being sensible the moment a part is ordered in for them** — a trade customer with no
+written order and no agreed terms is an unfunded purchase if they change their mind.
+
+**No supplier cost on file.** Third Evergreen job with no cost, so the margin on all three is
+unknown. **Defrost elements are a stocked consumable with a known trade price** — this is the
+easiest line in the business to check and the easiest to be underpricing.
+
+**The electrical figures Farhan gave are derived, not measured, and they are consistent:**
+1,000 W at 230 V gives 4.35 A and 52.9 ohms exactly. They are nominal and the invoice says so.
+**Qatar's supply is 240 V nominal**, at which the element draws nearer 1,090 W and 4.54 A — note
+3 carries that, and note 4 asks them to confirm the defrost contactor and cabling suit the 2 kW
+the pair adds.
+
+**Assumed, not given by Farhan:** payment due on presentation, 6 month warranty against
+manufacturing defect, and the supply-only / not-returnable-once-energised fencing. He gave
+quantity, price and the specification only.
+
 ### OL-083 — The Oscar Prime 119,000 transfer reads "Pending Approval", not paid
 **Owner:** Farhan · **Raised:** 2026-10-14 · **Value:** QAR 119,000 · **VERIFY THE CREDIT**
 
