@@ -13,10 +13,11 @@ product:
   name: "Cold rooms, chillers, freezers and commercial refrigeration"
   description: "Design, supply, installation and maintenance of walk-in cold rooms, chillers and freezers for F&B, retail, hospitality and industrial clients in Qatar"
   pricing: ""                      # Never put a price in outreach (RULES.md B: any price needs Farhan's approval)
+  knowledge_file: "skills/product_knowledge.md"   # source of truth for every claim
   key_benefits:
-    - "One contractor for design, supply, installation and maintenance"
-    - "Local Doha team — survey, install and service from inside Qatar"
-    - "Delivered for main contractors (airport cold rooms) and for restaurants and bakeries"
+    - "Designed for Doha summers: sized at +45°C ambient with at least 20% capacity margin"
+    - "One contractor end to end: survey, design, supply, install, commission, maintain"
+    - "About 4-5 weeks from LPO to handover on a ready site"
   objection_responses:
     "too expensive": "Understood. Is the gap in the panels, the refrigeration units, or the scope? We can often value-engineer one without touching the others."
     "already have a solution": "Makes sense. Is it covered by a maintenance contract, or serviced only when something fails?"
