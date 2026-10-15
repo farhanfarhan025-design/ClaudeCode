@@ -1,0 +1,44 @@
+{
+  "reference": "QUT/DCTS/SQ072/2026",
+  "date": "05 August 2026",
+  "validity": "15 Days from quote date",
+  "client": {
+    "name": "M/s. Marza Group of Companies",
+    "address": "Doha, Qatar",
+    "attn": "Mr. Ashik"
+  },
+  "rooms": [
+    {
+      "type": "CHILLER",
+      "qty": 1,
+      "temperature": "0°C to +8°C",
+      "length": "6.0",
+      "width": "2.40",
+      "height": "2.90",
+      "panel_thickness": "100 mm",
+      "floor_included": true
+    }
+  ],
+  "door": {
+    "qty": 1,
+    "width_mm": 900,
+    "height_mm": 1900
+  },
+  "refrigeration": {
+    "sets": 1,
+    "condensing_unit": "BITZER LH64/2DES-3Y",
+    "compressor_brand": "BITZER",
+    "cu_origin": "Germany",
+    "evaporator": "HSE302-1DWEO",
+    "evap_origin": "South Africa",
+    "refrigerant": "R404A",
+    "capacity_kw": 5.60,
+    "power_input_kw": 3.25,
+    "current_a": 6.05,
+    "power_supply": "400V-3-50Hz",
+    "sst": "−8°C",
+    "ambient": "43°C",
+    "selection_basis": "BITZER"
+  },
+  "total": 46800
+}

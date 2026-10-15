@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Local Purchase Order — {{PO_NUMBER}}</title>
+<style>
+  @page {
+    size: A4;
+    margin: 0;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #222;
+    font-size: 10.5pt;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  /* Force every styled block to keep its background when printing — playwright's
+     PDF engine sometimes drops backgrounds without this on the element itself. */
+  .top-band, .gold-stripe, .meta-block, .section-strip,
+  table.items thead th, table.items tr.grand td,
+  table.items tr.delivery td, .amount-words,
+  .cg-callout, .footer, .lpo-badge {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* === HEADER BAND === */
+  .top-band {
+    background: #1F3864;
+    padding: 18px 36px 14px 36px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .company-block {
+    flex: 1;
+    min-width: 0;
+  }
+  .company-name {
+    font-size: 17pt;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    line-height: 1.15;
+    white-space: nowrap;
+  }
+  .company-subtitle {
+    font-size: 10pt;
+    margin-top: 6px;
+    opacity: 0.92;
+  }
+  .company-address {
+    font-size: 9pt;
+    margin-top: 4px;
+    opacity: 0.85;
+  }
+
+  .lpo-badge {
+    background: #C9A24E;
+    color: #1F3864;
+    padding: 11px 18px;
+    text-align: center;
+    border-radius: 2px;
+    min-width: 145px;
+    margin-top: 2px;
+    flex-shrink: 0;
+  }
+  .lpo-badge .small {
+    font-size: 10pt;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+  }
+  .lpo-badge .big {
+    font-size: 14pt;
+    font-weight: 700;
+    margin-top: 3px;
+    letter-spacing: 1px;
+  }
+
+  /* gold separator stripe */
+  .gold-stripe {
+    height: 5px;
+    background: #C9A24E;
+    width: 100%;
+  }
+
+  /* === META BLOCK (PO #, Date, Ref, Vendor) === */
+  .meta-block {
+    background: #EEF2F8;
+    padding: 11px 36px;
+    font-size: 10pt;
+  }
+  .meta-row {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 3px;
+  }
+  .meta-row:last-child { margin-bottom: 0; }
+  .meta-row .lbl {
+    font-weight: 700;
+    color: #1F3864;
+    margin-right: 6px;
+  }
+  .meta-row .val { color: #222; }
+  .meta-vendor { display: block; }
+
+  /* === SECTION HEADER STRIP === */
+  .section-strip {
+    background: #1F3864;
+    color: #fff;
+    padding: 7px 16px;
+    font-size: 10.5pt;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin: 16px 36px 0 36px;
+  }
+  .section-body {
+    margin: 0 36px;
+    padding: 8px 16px 2px 16px;
+    font-size: 10pt;
+    line-height: 1.45;
+  }
+  .section-body .line {
+    margin-bottom: 3px;
+  }
+  .section-body .lbl {
+    font-weight: 600;
+    color: #1F3864;
+  }
+
+  /* === LINE ITEMS TABLE === */
+  table.items {
+    width: calc(100% - 72px);
+    margin: 16px 36px 0 36px;
+    border-collapse: collapse;
+    font-size: 9.5pt;
+  }
+  table.items thead th {
+    background: #1F3864;
+    color: #fff;
+    padding: 7px 5px;
+    font-weight: 700;
+    text-align: center;
+    border: 1px solid #1F3864;
+    letter-spacing: 0.3px;
+  }
+  table.items tbody td {
+    padding: 7px 7px;
+    border: 1px solid #C9CDD6;
+    vertical-align: top;
+  }
+  table.items td.sn { text-align: center; width: 32px; }
+  table.items td.unit { text-align: center; width: 50px; }
+  table.items td.qty { text-align: center; width: 50px; }
+  table.items td.price { text-align: right; width: 95px; }
+  table.items td.total { text-align: right; width: 95px; }
+  table.items td.desc {
+    line-height: 1.45;
+  }
+  table.items td.desc .title {
+    font-weight: 600;
+    margin-bottom: 3px;
+  }
+  table.items td.desc .specs {
+    font-size: 9.5pt;
+    color: #444;
+  }
+  table.items td.desc .specs div {
+    margin-left: 8px;
+    margin-top: 1px;
+  }
+  table.items td.desc .variant {
+    margin-top: 5px;
+    font-style: italic;
+    color: #555;
+  }
+
+  /* delivery row (italic) */
+  table.items tr.delivery td {
+    background: #FBFBFB;
+    font-style: italic;
+    color: #444;
+  }
+  table.items tr.delivery td.total { font-style: italic; }
+
+  /* totals rows */
+  table.items tr.totals td {
+    border: none;
+    padding: 6px 8px;
+  }
+  table.items tr.totals td.label-cell {
+    text-align: right;
+    font-weight: 600;
+    color: #222;
+    white-space: nowrap;
+  }
+  table.items tr.totals td.value-cell {
+    text-align: right;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  table.items tr.grand td {
+    background: #EEF2F8;
+    color: #1F3864;
+    font-weight: 700;
+    font-size: 11pt;
+    padding: 10px 8px;
+  }
+  table.items tr.totals td.label-cell.grand-lbl {
+    background: transparent;
+    color: #222;
+  }
+
+  /* === Amount in words === */
+  .amount-words {
+    background: #EEF2F8;
+    margin: 11px 36px 0 36px;
+    padding: 8px 16px;
+    font-size: 10pt;
+  }
+  .amount-words .lbl {
+    font-weight: 700;
+    color: #1F3864;
+    margin-right: 8px;
+  }
+
+  /* === Notes === */
+  .notes {
+    margin: 14px 36px 0 36px;
+    font-size: 9pt;
+    color: #333;
+  }
+  .notes .title {
+    font-weight: 700;
+    font-style: italic;
+    color: #1F3864;
+    margin-bottom: 4px;
+  }
+  .notes ol {
+    margin: 0;
+    padding-left: 22px;
+    line-height: 1.45;
+  }
+  .notes ol li {
+    font-style: italic;
+    margin-bottom: 1px;
+  }
+
+  /* === Computer-generated callout === */
+  .cg-callout {
+    margin: 14px 36px 0 36px;
+    border: 1.5px solid #C9A24E;
+    background: #EEF2F8;
+    padding: 10px 14px;
+    text-align: center;
+  }
+  .cg-callout .head {
+    font-weight: 700;
+    color: #1F3864;
+    font-size: 10.5pt;
+    letter-spacing: 0.4px;
+  }
+  .cg-callout .sub {
+    font-size: 9pt;
+    color: #333;
+    margin-top: 3px;
+  }
+
+  /* === FOOTER === */
+  .footer {
+    background: #1F3864;
+    color: #fff;
+    padding: 11px 36px;
+    text-align: center;
+    font-size: 8.5pt;
+    margin-top: 22px;
+  }
+  .footer .line1 { font-weight: 600; }
+  .footer .line2 {
+    font-style: italic;
+    opacity: 0.85;
+    margin-top: 3px;
+  }
+</style>
+</head>
+<body>
+
+<!-- ===== HEADER BAND ===== -->
+<div class="top-band">
+  <div class="company-block">
+    <div class="company-name">{{COMPANY_NAME}}</div>
+    {{#COMPANY_SUBTITLE}}<div class="company-subtitle">{{COMPANY_SUBTITLE}}</div>{{/COMPANY_SUBTITLE}}
+    <div class="company-address">{{COMPANY_ADDRESS}}</div>
+  </div>
+  <div class="lpo-badge">
+    <div class="small">LOCAL PURCHASE</div>
+    <div class="big">ORDER</div>
+  </div>
+</div>
+<div class="gold-stripe"></div>
+
+<!-- ===== META BLOCK ===== -->
+<div class="meta-block">
+  <div class="meta-row">
+    <div><span class="lbl">PO NUMBER:</span><span class="val">{{PO_NUMBER}}</span></div>
+    <div><span class="lbl">DATE:</span><span class="val">{{PO_DATE}}</span></div>
+    <div><span class="lbl">REF QUOTE:</span><span class="val">{{REF_QUOTE}}</span></div>
+  </div>
+  <div class="meta-row meta-vendor">
+    <div><span class="lbl">VENDOR:</span><span class="val">{{VENDOR_NAME}}</span></div>
+  </div>
+</div>
+
+<!-- ===== VENDOR INFORMATION ===== -->
+<div class="section-strip">VENDOR INFORMATION</div>
+<div class="section-body">
+  {{#CONTACT_PERSON}}<div class="line"><span class="lbl">Contact Person:</span> {{CONTACT_PERSON}}</div>{{/CONTACT_PERSON}}
+  {{#CONTACT_LINE}}<div class="line">{{CONTACT_LINE}}</div>{{/CONTACT_LINE}}
+  {{#PAYMENT_TERMS}}<div class="line"><span class="lbl">Payment Terms:</span> {{PAYMENT_TERMS}}</div>{{/PAYMENT_TERMS}}
+  {{#DELIVERY_TERMS}}<div class="line"><span class="lbl">Delivery:</span> {{DELIVERY_TERMS}}</div>{{/DELIVERY_TERMS}}
+</div>
+
+<!-- ===== LINE ITEMS ===== -->
+<table class="items">
+  <thead>
+    <tr>
+      <th>S/N</th>
+      <th>DESCRIPTION</th>
+      <th>UNIT</th>
+      <th>QTY</th>
+      <th>UNIT&nbsp;PRICE<br>({{CURRENCY}})</th>
+      <th>TOTAL<br>({{CURRENCY}})</th>
+    </tr>
+  </thead>
+  <tbody>
+{{LINE_ITEMS_HTML}}
+{{#DELIVERY_ROW}}
+    <tr class="delivery">
+      <td class="sn"></td>
+      <td class="desc">{{DELIVERY_LABEL}}</td>
+      <td class="unit"></td>
+      <td class="qty"></td>
+      <td class="price"></td>
+      <td class="total">{{DELIVERY_AMOUNT}}</td>
+    </tr>
+{{/DELIVERY_ROW}}
+    <tr class="totals">
+      <td colspan="4"></td>
+      <td class="label-cell">Sub-Total:</td>
+      <td class="value-cell">{{SUBTOTAL}}</td>
+    </tr>
+{{#DISCOUNT_ROW}}
+    <tr class="totals">
+      <td colspan="4"></td>
+      <td class="label-cell">Discount:</td>
+      <td class="value-cell">({{DISCOUNT}})</td>
+    </tr>
+{{/DISCOUNT_ROW}}
+    <tr class="totals grand">
+      <td colspan="4"></td>
+      <td class="label-cell grand-lbl">GRAND TOTAL:</td>
+      <td class="value-cell">{{GRAND_TOTAL}}</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- ===== Amount in words ===== -->
+<div class="amount-words">
+  <span class="lbl">Amount in Words:</span>{{AMOUNT_WORDS}}
+</div>
+
+<!-- ===== Notes ===== -->
+{{#NOTES_BLOCK}}
+<div class="notes">
+  <div class="title">Notes:</div>
+  <ol>
+{{NOTES_HTML}}
+  </ol>
+</div>
+{{/NOTES_BLOCK}}
+
+<!-- ===== Computer-generated callout ===== -->
+<div class="cg-callout">
+  <div class="head">*** COMPUTER GENERATED DOCUMENT ***</div>
+  <div class="sub">This Purchase Order is system-generated and is valid without a physical signature.</div>
+</div>
+
+<!-- ===== FOOTER ===== -->
+<div class="gold-stripe" style="margin-top: 22px;"></div>
+<div class="footer" style="margin-top: 0;">
+  <div class="line1">{{FOOTER_COMPANY}} &nbsp;|&nbsp; {{COMPANY_ADDRESS}}</div>
+  <div class="line2">This is a computer-generated document and does not require a physical signature.</div>
+</div>
+
+</body>
+</html>

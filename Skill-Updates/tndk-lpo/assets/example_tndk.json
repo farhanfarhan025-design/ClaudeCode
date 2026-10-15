@@ -1,0 +1,52 @@
+{
+  "profile": "tndk",
+  "po_number": "LPO-190/2026",
+  "po_date": "27-04-2026",
+  "ref_quote": "QUT-2026-AC-0073",
+  "vendor": "Al Watania Trading & Contracting W.L.L. – Qatar",
+  "contact_person": "Mr. Salman Khan | Sales Manager",
+  "mobile": "+974 5512 4477",
+  "email": "sales@alwataniaqa.com",
+  "payment_terms": "30% advance, 70% on delivery",
+  "delivery_terms": "Within 10 working days from receipt of PO and advance",
+  "currency": "QAR",
+  "items": [
+    {
+      "description": "Sandwich PUF Insulated Panel — 100mm thick",
+      "specs": [
+        "PPGI both sides, 0.5mm",
+        "Density 40 kg/m³",
+        "Length 4000mm × Width 1150mm",
+        "Cam-lock joint system"
+      ],
+      "unit": "Sqm",
+      "qty": 96,
+      "unit_price": 115.00
+    },
+    {
+      "description": "Cold Room Hinged Door 900W × 1900H",
+      "specs": [
+        "100mm panel thickness",
+        "Heavy-duty SS hinges",
+        "Door closer with key lock"
+      ],
+      "unit": "Nos",
+      "qty": 2,
+      "unit_price": 1800.00
+    },
+    {
+      "description": "Aluminium Coving Angles — 6m length",
+      "unit": "Nos",
+      "qty": 24,
+      "unit_price": 55.00
+    }
+  ],
+  "delivery_amount": 800.00,
+  "delivery_label": "Delivery to site (Industrial Area, Doha)",
+  "notes": [
+    "Prices are inclusive of all materials, transportation, and unloading at site.",
+    "5% VAT (if applicable) is excluded and will be charged at prevailing rate.",
+    "Material to be tested and accepted by site engineer before unloading.",
+    "All materials remain vendor property until payment is fully settled."
+  ]
+}
