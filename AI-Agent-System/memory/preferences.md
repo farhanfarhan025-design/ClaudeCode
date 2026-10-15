@@ -17,6 +17,7 @@ made repeatedly." Treat a violation as a defect, not a style difference.
 | Invoice / receipt signature | `Ronaldo / Accountant` | high |
 | Quotation signature | `Farhan / Sales Engineer` + both company names | high |
 | Header email | `farhan@dctsqatar.com` regardless of signatory | high |
+| **Email address, everywhere** | Use only `farhan@dctsqatar.com` — outreach, signatures, replies. Never `info@dkeqatar.com`. | high — Farhan, 15 Oct 2026 |
 | LPO signature | None — "computer generated document" callout instead | high |
 | Default letterhead | TNDK. DCTS only for legacy match | high |
 

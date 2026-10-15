@@ -24,8 +24,8 @@ Each section is marked:
   freezers and commercial refrigeration**.
 - Contact: Farhan, Sales Engineer · farhan@dctsqatar.com · 7706 0676 · P.O. Box 80247, Doha.
 
-> ⚠ Quotation footers say `info@dkeqatar.com`. Outreach uses `farhan@dctsqatar.com`
-> (USER.md). Farhan to confirm which address prospects should reply to.
+> **Email: use only `farhan@dctsqatar.com`** (Farhan's ruling, 15 Oct 2026). Never use
+> `info@dkeqatar.com` or any other address in outreach, signatures or replies.
 
 ## 2. What we sell
 
@@ -148,7 +148,6 @@ Booking: ask their preference; Farhan takes every meeting. No calendar link.
 
 ## 10. Questions for Farhan (open)
 
-1. Reply-to address: `farhan@dctsqatar.com` or `info@dkeqatar.com`?
-2. Is the site survey free?
-3. Which clients can be named, and to whom?
-4. Do you want to offer a maintenance plan to new clients now, before ANNUITY prices it?
+1. Is the site survey free?
+2. Which clients can be named, and to whom?
+3. Do you want to offer a maintenance plan to new clients now, before ANNUITY prices it?
