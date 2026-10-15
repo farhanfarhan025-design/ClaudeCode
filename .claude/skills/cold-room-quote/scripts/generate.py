@@ -519,6 +519,7 @@ def insert_pictures(doc, spec):
     """
     from docx.shared import Inches, Pt
     from docx.enum.text import WD_ALIGN_PARAGRAPH
+    added = []
     for item in spec.get("images") or []:
         path = Path(item["path"])
         if not path.is_file():
@@ -550,9 +551,11 @@ def insert_pictures(doc, spec):
         if item.get("space_before_in"):
             pic.paragraph_format.space_before = Inches(item["space_before_in"])
         blocks.append(pic._p)
+        added.append(pic._p)
         # inserted in reverse so they end up in caption-under-picture order
         for block in blocks:
             target.addnext(block)
+    return added
 
 
 def fill_door_section(doc, spec):
@@ -1671,8 +1674,9 @@ def generate(spec, output, scales=None):
     replace_pictures(doc, spec)
     remove_pictures(doc, spec)
     resize_pictures(doc, spec)
-    insert_pictures(doc, spec)
+    inserted = insert_pictures(doc, spec)
     tighten_lists(doc, spec)
+    spec["_picture_map"] = picture_map(doc, spec, inserted)
     rename_row_labels(doc, spec)
     replace_body_text(doc, spec)
 
@@ -1731,6 +1735,33 @@ def _render(output, tmp):
     return pdf if pdf.is_file() else None
 
 
+def picture_map(doc, spec, inserted=()):
+    """Which HOUSE_PICTURES position each picture in the finished document is.
+
+    The page fit reads the rendered document, but its scales are keyed on the
+    house layout. `remove` deletes house pictures and `images` adds ones that
+    were never in the layout, so after either the two numberings diverge and a
+    check made on position alone shrinks the wrong photograph. Walking the
+    finished body gives the honest mapping: a house index, or None for a
+    picture the house layout does not know about.
+    """
+    survivors = surviving_pictures(spec)[1]
+    added = {id(el) for el in inserted}
+    out, nxt = [], 0
+    for el in doc.element.body.iter(qn("w:p")):
+        if el.find(".//" + qn("a:blip")) is None:
+            continue
+        if id(el) in added:
+            out.append(None)
+            continue
+        if not out:                        # the cover, which has no section
+            out.append(None)
+            continue
+        out.append(survivors[nxt] if nxt < len(survivors) else None)
+        nxt += 1
+    return out
+
+
 def surviving_pictures(spec):
     """The anchors, and the HOUSE_PICTURES positions, this quote still has.
 
@@ -1751,27 +1782,28 @@ def surviving_pictures(spec):
     return anchors, keep
 
 
-def drifted_pictures(pdf, anchors=None):
+def drifted_pictures(pdf, pmap):
     """Pictures that did not land on the page of the section they illustrate.
 
-    Returns [(picture index, its page, the section's page)]. The four banners
-    are the ones that drift: they sit under a table whose length moves with the
-    number of rooms and the amount of text above it.
+    Returns [(house picture index, its page, the section's page)]. The four
+    banners are the ones that drift: they sit under a table whose length moves
+    with the number of rooms and the amount of text above it.
     """
     pages, texts = _picture_pages(pdf), _page_texts(pdf)
     out = []
-    for i, anchor in enumerate(anchors or PICTURE_ANCHORS):
-        if i + 1 >= len(pages):                       # [0] is the cover
-            break
+    for i, house in enumerate(pmap):
+        if house is None or i >= len(pages):
+            continue
+        anchor = PICTURE_ANCHORS[house]
         want = next((n for n, text in enumerate(texts, 1)
                      if anchor in text.lower()), None)
-        got = pages[i + 1]
+        got = pages[i]
         if want and got != want:
-            out.append((i, got, want))
+            out.append((house, got, want))
     return out
 
 
-def sparse_page(pdf):
+def sparse_page(pdf, pmap):
     """The first page carrying almost nothing, and the pictures before it.
 
     A page holding only a caption, or the last bullet of a list, means the page
@@ -1787,8 +1819,9 @@ def sparse_page(pdf):
             continue
         if SECTION_HEADING.match(text):
             continue                  # a short section, not somebody's overflow
-        before = [i - 1 for i, page in enumerate(pages) if page == n - 1 and i > 0]
-        if before:                                  # [0] is the cover
+        before = [pmap[i] for i, page in enumerate(pages)
+                  if page == n - 1 and i < len(pmap) and pmap[i] is not None]
+        if before:
             return n, before
     return None
 
@@ -1810,7 +1843,6 @@ def fit_pages(spec, output, scales=None):
             print(f"  ! {tool} not found — skipping the page fit", file=sys.stderr)
             return scales or {}
     scales = dict(scales or {})
-    anchors, keep = surviving_pictures(spec)
     for _ in range(40):
         with tempfile.TemporaryDirectory() as tmp:
             pdf = _render(output, tmp)
@@ -1818,20 +1850,19 @@ def fit_pages(spec, output, scales=None):
                 print("  ! PDF conversion failed — skipping the page fit",
                       file=sys.stderr)
                 return scales
-            bad = drifted_pictures(pdf, anchors)
-            thin = None if bad else sparse_page(pdf)
+            pmap = spec.get("_picture_map") or (
+                [None] + list(range(len(PICTURE_ANCHORS))))
+            bad = drifted_pictures(pdf, pmap)
+            thin = None if bad else sparse_page(pdf, pmap)
         if not bad and not thin:
             return scales
         if bad:
             i, got, want = bad[0]
             why = f"landed on page {got}, belongs on {want}"
-            group = [i]
+            shrink = [i]
         else:
-            page, group = thin
+            page, shrink = thin
             why = f"leave page {page} nearly empty"
-        # the page fit counts pictures as rendered; `scales` is keyed on the
-        # house layout, which still numbers the ones this quote removed
-        shrink = [keep[j] for j in group if j < len(keep)]
         if not shrink:
             return scales
         for j in shrink:
