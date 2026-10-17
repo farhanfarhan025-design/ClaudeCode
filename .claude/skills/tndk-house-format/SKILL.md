@@ -151,6 +151,10 @@ inverts the whole point of having it.
   drops the block in the clear space to its left, and obscures no printed text. Keep the
   unsigned PDF as well; the signed one is the copy that leaves the office.
   `assets/seal_sign.png` is the seal **with** Farhan's signature, for invoices and receipts.
+  `assets/abdulla_seal_sign.png` is the seal **with Mr. Abdulla Kavumthalakkal's signature**, for
+  contracts and anything else executed by the owner rather than by Farhan or the accountant —
+  supplied 17 October 2026 and first used on CON/TNDK/SQ118/2026. Place it above the signature
+  rule, not across the printed name.
   `assets/tndk_seal_only.png` is the clean company seal on its own, transparent, for documents
   that carry a printed stamp box rather than a signature — Farhan supplied it on 28 September
   2026. It reads **THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L. · C.R. NO. 199351 · DOHA –

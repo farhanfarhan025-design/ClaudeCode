@@ -57,6 +57,7 @@ keying error — see OL-027.
 | Additional sandwich panel shifting, Street 36 | Oriental Agro Trading | DCTS-INV-006/2026 reserved | **Doha Cooling** | **price not given** | 0 | **not invoiced — awaiting price** |
 | Insulated sectional overhead doors (4 nos.) | Oriental Agro Trading | QUT/DCTS/036/2026 R1 | **Doha Cooling** | 81,000 | 81,000 | 0 — settled 11-05-2026 |
 | Flower chiller cold room, Semaisma | Mr. Hamad Abdulla J S Al-Sulaiti (Flower Shop) | CON/TNDK/058/2026, 08-06-2026 | Contract | 25,000 | not recorded | **not recorded — completed 2026 per Farhan** |
+| Freezer room + preparation room, epoxy floor | **Bismi Group International W.L.L.** (C.R. 178652) | **CON/TNDK/SQ118/2026**, 17-10-2026, on QUT/DCTS/SQ118/2026 Rev. | **Contract** | **110,000** | 0 | **110,000** — 75% on signature 82,500, 20% on material delivery 22,000, 5% on handover 5,500 |
 | Flower display chiller, frameless glass front | Everbloom (C.R. 150356) | QUT/DCTS/SQ112/2026, 06-10-2026 | Quote — approved | **17,000** | **12,750** (CR-alias transfer MB261006530403, 06-10-2026, RCT-280) | **4,250** — 20% on delivery 3,400, 5% handover 850 |
 | Five (5) cold rooms — thawing chiller, 2 chillers, 2 freezers | Oscar Prime Trading Contracting and Services W.L.L. | OTTS/LPO/05102026-01/2026, 05-10-2026 | LPO | **170,000** | **119,000** (06-10-2026, RCT-279 — **instrument not recorded**) | **51,000** — 25% on delivery 42,500, 5% handover 8,500 |
 | Cold storage facility — 3 chiller rooms + epoxy, racking, dock leveller, sectional doors | Alayees General Trading | CA/92/SQ033/2025, 02-08-2025 | **Doha Cooling** | 595,000 | not recorded | **not recorded** |
@@ -345,6 +346,7 @@ The larger of the two has collected nothing.
 | Doha Cooling invoice | next after **DCTS-INV-006/2026**. 001–003 Oriental Agro cold storage; **004 is VOID** (drafted for electrical works, withdrawn before issue — that work is inside the cold room price, do not reuse the number); 005 Oriental Agro sectional doors; **006 reserved** for Oriental Agro panel shifting, not yet issued (no price). Series opened 06-09-2026; Doha Cooling had none before |
 | Doha Cooling receipt | next after **DCTS-RCT-014/2026**. 001–012 cold storage **in date order** (renumbered 06-09-2026 at Farhan's request so the client can follow the account down the page: 001 08-09-2025 … 012 05-07-2026), 013–014 sectional doors, all Oriental Agro. Runs alongside the pre-printed voucher books, which reached no. 1347 on 17-05-2026 and no. 0095 on 04-07-2026 |
 | Delivery note | DN-253/2026 (One A, Capital Grille — panel and flooring, 02-10-2026) |
+| **Contract** | **CON/TNDK/SQ118/2026** (Bismi Group International, 17-10-2026). Contracts take the quotation's serial — CON/TNDK/058/2026 followed QUT/DCTS/058/2026. Only two contracts are on file and there was no series row until now (OL-090) |
 | LPO | LPO-202/2026 — 195 and 197 cancelled, 196/198/199/201 Oscar Prime, 200 Doha Controls |
 
 ## Pricing rate card

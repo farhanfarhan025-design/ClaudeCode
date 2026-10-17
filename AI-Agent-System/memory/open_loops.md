@@ -2350,6 +2350,101 @@ the pair adds.
 manufacturing defect, and the supply-only / not-returnable-once-energised fencing. He gave
 quantity, price and the specification only.
 
+### OL-086 — Bismi contract signed on an expired Qatar ID
+**Owner:** Farhan · **Raised:** 2026-10-17 · **Value:** QAR 110,000 contract · **ACT BEFORE SENDING**
+
+**CON/TNDK/SQ118/2026** is executed for TNDK by **Mr. Abdulla Kavumthalakkal**, Owner and
+Authorised Signatory, whose residency permit Farhan supplied: QID **26335619530**, DOB
+01-01-1963, India. **It expired 06-05-2025 — almost eighteen months ago.**
+
+**Two things follow and neither is cosmetic.**
+
+1. **The ID recorded on the contract is not current.** A counterparty, a bank or a court that
+   checks it finds a lapsed document. Put the renewed QID number on the contract before it is
+   sent, or omit the ID line entirely and let the C.R. carry the identification.
+2. **The occupation on that permit reads فني — technician.** TNDK's own commercial registration
+   has never been put into this system, so **nothing on file proves who holds signing authority
+   for C.R. 199351.** Bismi's authority is proved to the letter — their C.R. names Mr. Nizar as
+   Manager with full and absolute authority. **Ours is asserted and unevidenced.**
+
+**Needed:** TNDK's C.R. extract on file, and the current QID. Bismi gave us theirs; we are the
+only party to this contract whose signatory cannot be checked.
+
+### OL-087 — Bismi: the quotation excludes work above 3 m on a 5 m room
+**Owner:** Farhan · **Raised:** 2026-10-17 · **Value:** QAR 110,000 · **RESOLVED IN THE CONTRACT**
+
+Quotation SQ118 exclusion 9 reads *"Working at heights above 3 m (additional scaffolding cost
+shall apply)."* **The freezer room is 5.00 m high.** Erecting it is, by definition, work above
+3 m, so the exclusion as drafted either (a) entitles TNDK to a variation the client will refuse
+because the height was always in the offer, or (b) is a bluff that collapses the moment it is
+tested — and the panel area at that height is 290 sqm.
+
+**Clause 9.1 of the contract settles it in TNDK's favour commercially and the client's favour
+legally:** access and scaffolding to erect the rooms to the Schedule 1 heights is **included**,
+and the general exclusion is expressly disapplied to the Works themselves. Schedule 3 repeats it.
+**Clause 9.2 keeps the crane exclusion alive** for the 22 HP Dorin, which is the lift that
+actually costs money, and makes TNDK flag it at the site survey rather than after.
+
+**The same exclusion sits in the standard quotation template and will do this again.** Any room
+over 3 m quoted on it carries the contradiction. **Fix the template.**
+
+### OL-088 — Bismi: a −18 °C freezer with no insulated floor, 95 sqm, epoxy only
+**Owner:** Farhan · **Raised:** 2026-10-17 · **Value:** QAR 110,000 · **TECHNICAL — HEADLINE**
+
+The freezer room runs at **−18 °C to −22 °C over 475 m³** and is **erected on the client's
+existing concrete slab with no insulated floor** — the only floor treatment is a 95 sqm food-grade
+epoxy coating at 75/sqm.
+
+**A continuously-run freezer over an uninsulated slab freezes the ground beneath it.** The
+consequences are frost heave, slab cracking and movement, condensation at the slab edges, and
+loss of adhesion of a surface coating applied at ambient and then taken to −22 °C. None of it
+shows up in month one; it shows up in year one or two, by which time the room is full of product.
+
+**Clause 10 of the contract puts that risk on the Employer in terms** — it records the advice
+given, excludes TNDK's liability for heave, ground freezing, cracking, condensation and epoxy
+debonding arising from the absent insulated floor, disapplies the warranty to it, requires TNDK
+to report on the slab at the site survey, and offers to quote an insulated floor separately.
+
+**That is protection, not a solution.** **Offer the insulated floor properly and in writing
+before fabrication starts.** 95 sqm of insulated floor construction is a real addition to the
+contract and a real reduction in the risk of being called back to a 110,000 room that has lifted.
+**No under-floor heating or ventilation is in the scope either**, which is the other way this is
+normally solved.
+
+### OL-089 — Bismi quotation: client named wrongly, two validity periods, and a VAT line
+**Owner:** Farhan · **Raised:** 2026-10-17 · **Value:** QAR 110,000
+
+Three defects in QUT/DCTS/SQ118/2026 as issued, all corrected in the contract:
+
+1. **The quotation is addressed to "M/s. Bismi Trading".** The C.R. extract gives the legal name
+   as **BISMI GROUP INTERNATIONAL W.L.L., C.R. 178652**. The contract uses the registered name.
+   **A contract in the wrong name is the first thing a defaulting client's lawyer reaches for.**
+2. **Two validity periods.** The header says *15 days from quote date*; clause 6 of the commercial
+   terms says *valid for 30 days*. Moot now it is approved, **but it is in the template.**
+3. **Clause 5 says prices are "exclusive of VAT, if applicable".** Qatar levies no VAT and no
+   TNDK document carries one — the house renderer refuses the word. **Clause 3.5 of the contract
+   states the position properly** and allocates any future tax to the Employer. **Strip the VAT
+   line out of the quotation template.**
+
+**Also noted and not yet resolved:** page 2 of the quotation calls 10.00 × 9.50 × 5.00 the
+**external** dimensions, while section 6 and the BOQ treat the same figures as **internal** and
+compute 475.00 m³ from them. For 100 mm panel the internal volume is nearer 446 m³. The contract
+states the dimensions as agreed and makes them subject to the clause 2.3 site survey, with any
+change a variation — **but confirm which they are before fabrication.** The panel quantity of
+290 sqm was computed from the stated figures taken as the panel face.
+
+### OL-090 — Bismi contract numbering: a contract series exists in name only
+**Owner:** Farhan · **Raised:** 2026-10-17
+
+**CON/TNDK/SQ118/2026** takes the quotation's serial, the convention used on the only other
+contract on file (CON/TNDK/058/2026, Flower Shop — which surfaced by accident, OL-062). **There
+is still no contract series in the numbering log and no register of signed contracts.** Two
+contracts are now known to exist; **3,568,286 of contract value has been discovered rather than
+held** (OL-062), and this is the first contract this system has issued rather than found.
+
+**Needed:** a Contract row in the numbering log and every signed contract filed into it on
+signature, not on discovery.
+
 ### OL-083 — The Oscar Prime 119,000 transfer reads "Pending Approval", not paid
 **Owner:** Farhan · **Raised:** 2026-10-14 · **Value:** QAR 119,000 · **VERIFY THE CREDIT**
 
