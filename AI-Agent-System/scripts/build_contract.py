@@ -136,8 +136,8 @@ table.exec__t td { padding: 0; vertical-align: top; }
 .sigbox__h { font-weight: 700; font-size: 8.6pt; letter-spacing: .07em;
              text-transform: uppercase; border-bottom: .25mm solid #111;
              padding-bottom: 1.6mm; margin-bottom: 3mm; }
-.sigbox__art { height: 32mm; position: relative; }
-.sigbox__art img { max-height: 32mm; max-width: 64mm; position: absolute;
+.sigbox__art { height: 36mm; position: relative; }
+.sigbox__art img { max-height: 36mm; max-width: 72mm; position: absolute;
                    left: 0; bottom: 0; }
 .sigbox__line { border-top: .25mm solid #111; margin-bottom: 2.2mm; }
 .sigbox__name { font-weight: 700; font-size: 10pt; }
@@ -194,8 +194,13 @@ def r_clause(b, spec):
 def r_list(b, spec):
     lis = "".join(f"<li>{rich(i)}</li>" for i in b["items"])
     cls = ' class="lower-alpha"' if b.get("alpha") else ""
+    # `start` matters: where a clause opens with a lead sentence, that sentence
+    # is sub-clause 1 and the list continues from 2. Restarting at 1 silently
+    # renumbers every sub-clause and breaks the cross-references that point at
+    # them — clause 14.3 cites clause 4.4 by number.
+    start = f' start="{int(b["start"])}"' if b.get("start") else ""
     lead = f"<p>{rich(b['lead'])}</p>" if b.get("lead") else ""
-    return f"{lead}<ol{cls}>{lis}</ol>"
+    return f"{lead}<ol{cls}{start}>{lis}</ol>"
 
 
 def _cells(row, aligns, tag="td"):

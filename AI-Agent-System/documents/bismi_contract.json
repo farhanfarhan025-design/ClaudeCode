@@ -1,5 +1,5 @@
 {
-  "_note": "Contract CON/TNDK/SQ118/2026 between TNDK (Contractor) and Bismi Group International W.L.L. (Employer), rebuilt as a neutral bilateral instrument rather than on TNDK letterhead. Clause text, schedules, figures and the execution block are carried over unchanged from the original; only the presentation changed. The seal is the one extracted from the signed original. The payment stage percentages, the BOQ lines, the discount and the contract price are checked by the builder on every run.",
+  "_note": "Contract CON/TNDK/SQ118/2026 between TNDK (Contractor) and Bismi Group International W.L.L. (Employer), rebuilt as a neutral bilateral instrument rather than on TNDK letterhead. Clause text, schedules and figures are carried over unchanged from the original except the payment schedule, revised on Farhan's instruction to 50/30/10/10 with the stages tied to the work sequence; clause 4.6 is new and makes the 'before delivery' and 'before epoxy' wording operative. Clause 4's list starts at 2 because the lead sentence is clause 4.1 — clause 14.3 cites clause 4.4 by number, so renumbering it would break the cross-reference. The seal and signature are composited from the clean artwork Farhan supplied, not from the scan of the earlier signed copy. The BOQ lines, the discount, the contract price and the payment stages are checked by the builder on every run.",
 
   "reference": "CON/TNDK/SQ118/2026",
   "filename": "Contract CON-TNDK-SQ118-2026 Bismi Group International",
@@ -8,7 +8,7 @@
   "cover_has_no_footer": true,
 
   "check_money": { "lines": [96500, 7125, 14875], "subtotal": 118500, "discount": 8500, "price": 110000 },
-  "check_stages": [[75, 82500], [20, 22000], [5, 5500]],
+  "check_stages": [[50, 55000], [30, 33000], [10, 11000], [10, 11000]],
 
   "cover": {
     "kicker": "State of Qatar",
@@ -55,7 +55,7 @@
     "signatories": [
       {
         "heading": "For and on behalf of the Contractor",
-        "image": "seal.png",
+        "image": "seal_signature.png",
         "name": "Mr. Abdulla Kavumthalakkal",
         "details": [
           "Owner / Authorised Signatory",
@@ -123,17 +123,19 @@
       "widths": ["16mm", "", "16mm", "32mm"],
       "align": ["ctr", "", "ctr", "num"],
       "rows": [
-        ["1", "**Advance** — payable upon signature of this Contract. The advance is a condition precedent to the Contractor's obligation to commence; the programme in clause 5 runs from the date this instalment is received in cleared funds.", "75%", "82,500.00"],
-        ["2", "**Delivery of materials to site** — payable upon delivery to site of the sandwich panels, doors, condensing unit and unit cooler, against the Contractor's delivery note signed by the Employer.", "20%", "22,000.00"],
-        ["3", "**Retention — testing, commissioning and handover** — payable upon successful testing and commissioning and signature of the Handover Certificate under clause 11.", "5%", "5,500.00"]
+        ["1", "**Advance** — payable upon signature of this Contract. The advance is a condition precedent to the Contractor's obligation to commence; the programme in clause 5 runs from the date this instalment is received in cleared funds.", "50%", "55,000.00"],
+        ["2", "**Completion of the sandwich panel work** — payable upon completion of the sandwich panel erection to both rooms, and before the delivery to site of the condensing unit and the evaporator.", "30%", "33,000.00"],
+        ["3", "**Installation of the condensing unit and evaporator** — payable upon the installation of the condensing unit and the evaporator, and before the epoxy flooring work is begun.", "10%", "11,000.00"],
+        ["4", "**Testing, commissioning and handover** — payable upon successful testing and commissioning and signature of the Handover Certificate under clause 11.", "10%", "11,000.00"]
       ],
       "total_rows": [["", "CONTRACT PRICE", "100%", "110,000.00"]]
     },
-    { "type": "list", "items": [
+    { "type": "list", "start": 2, "items": [
       "Each instalment shall be paid within **seven (7) days** of the Contractor's invoice for the relevant stage. Payment shall be made in Qatari Riyals by cash, crossed cheque or bank transfer drawn strictly in favour of **The New Doha Kitchen Equipment Services W.L.L.**",
       "Where payment is made by cheque, the relevant instalment is treated as paid only upon realisation of that cheque, and the Contractor's receipt shall be issued subject to realisation.",
       "If any instalment properly due remains unpaid for fourteen (14) days after its due date, the Contractor may, on seven (7) days' written notice, suspend the Works until payment is made. Any period of such suspension shall be added to the time for completion, and the Contractor shall not be liable for delay during it.",
-      "The Employer shall not set off, withhold or deduct any sum from any instalment, save for a sum which the Employer is entitled to deduct under clause 14 and of which written notice specifying the ground and the amount has been given not less than seven (7) days before the due date."
+      "The Employer shall not set off, withhold or deduct any sum from any instalment, save for a sum which the Employer is entitled to deduct under clause 14 and of which written notice specifying the ground and the amount has been given not less than seven (7) days before the due date.",
+      "Instalments 2 and 3 fall due before the activity named in the stage which follows them. Accordingly the Contractor shall not be obliged to deliver the condensing unit or the evaporator to site until instalment 2 has been received, nor to commence the epoxy flooring work until instalment 3 has been received, and any period during which either remains unreceived shall be added to the time for completion."
     ]},
 
     { "type": "clause", "no": "5", "title": "Programme, completion and site readiness", "items": [
