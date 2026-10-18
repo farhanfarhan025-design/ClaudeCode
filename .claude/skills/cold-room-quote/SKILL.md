@@ -82,8 +82,9 @@ Defaulted if not supplied:
 - Validity — `15 Days from quote date`
 - Panel thickness — `100 mm` (use `150 mm` for freezers)
 - Door — 1 No., hinged, 900 × 1900 mm; pass `"type": "sliding"` for a slider
-- Floor — included; `floor_included: false` reworks section 4, the BOQ and the
-  scope so nothing promises flooring
+- Floor — included; `floor_included: false` reworks the BOQ and the scope so
+  nothing promises flooring. With **no** floored room the flooring section is
+  deleted outright and the sections after it renumber — see the house rules
 - Flooring build-up — 100 mm PUF panel + 18 mm marine plywood + **1.5 mm** MS
   chequered plate; override either thickness through `flooring`
 
@@ -182,6 +183,15 @@ photographs cannot be reproduced from code.
 (dark blue `#1F3864`, panel blue `#D9E2F3`), the 13 sections or their order, or
 the signature block (Farhan / Sales Engineer / The New Doha Kitchen Equipment
 Services W.L.L & Doha Cooling Trading & Solutions W.L.L).
+
+**No flooring means no flooring section.** When not one room in the quote has
+an insulated floor, section 4 is deleted — heading, table and photograph — and
+the sections after it renumber, 5 to 13 becoming 4 to 12. The Floor Coverage
+row and the scope bullet go with it, and nothing written by hand should put
+flooring back: no "not included" note in the BOQ, no "erected on the client's
+existing floor". A section of "Not included" rows reads to the client as
+something missing from the offer. A quote where only some rooms are floored
+keeps the section and describes what is floored.
 
 **Reference numbers** run `QUT/DCTS/SQNNN/YYYY`. The last issued was
 `QUT/DCTS/SQ072/2026`. Check the register before assuming the next number —

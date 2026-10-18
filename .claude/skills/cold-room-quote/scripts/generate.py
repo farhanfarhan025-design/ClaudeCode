@@ -690,6 +690,77 @@ def replace_door_image(doc, spec):
             pass                                       # keep the master framing
 
 
+def floorless(spec, tot):
+    """True when no room in the quote has an insulated floor.
+
+    A whole section headed FLOORING DETAILS whose every row reads "Not
+    included" reads to the client as something missing from the offer, so on
+    such a job the section comes out of the document altogether and the
+    sections after it renumber. Pass `"flooring_section": true` to keep it.
+    """
+    return not tot["floor"] and spec.get("flooring_section") is not True
+
+
+def drop_flooring_section(doc):
+    """Delete the flooring section — heading, table and anything between.
+
+    Its photograph goes out ahead of this, through the same `remove` path as
+    any other deleted master picture, so the page fit keeps its indices
+    aligned. What is left here is the heading, the table and the blank
+    paragraphs the picture left behind.
+    """
+    tbl = find_table(doc, "Insulated Floor Panel")._tbl
+    head = next((p._p for p in doc.paragraphs
+                 if re.match(r"^\d+\.\s+FLOORING DETAILS",
+                             para_text(p).strip(), re.I)), None)
+    if head is None:
+        print("  ! flooring section: heading not found — left as it is",
+              file=sys.stderr)
+        return
+    el = head
+    while el is not None:
+        nxt = el.getnext()
+        el.getparent().remove(el)
+        if el is tbl:
+            break
+        el = nxt
+    renumber_sections(doc)
+    drop_row(find_table(doc, "Panel Type", "Wall Coverage"), "Floor Coverage")
+
+
+def renumber_sections(doc):
+    """Close the gap a dropped section leaves in the numbering.
+
+    The thirteen headings run in order down the body, so their position is
+    their number — no need to parse what each one says.
+    """
+    n = 0
+    for p in doc.paragraphs:
+        text = para_text(p).strip()
+        if not SECTION_HEADING.match(text):
+            continue
+        n += 1
+        if int(text.split(".", 1)[0]) != n:
+            _renumber(p, n)
+
+
+def _renumber(para, n):
+    for run in para.runs:
+        if re.match(r"^\s*\d+\.", run.text):
+            run.text = re.sub(r"^(\s*)\d+\.", rf"\g<1>{n}.", run.text, count=1)
+            return
+    set_para_text(para, re.sub(r"^\d+\.", f"{n}.",
+                               para_text(para).strip(), count=1))
+
+
+def drop_row(table, label):
+    """Remove the row carrying that first-column label, if it is there."""
+    for row in table.rows:
+        if row_cells(row)[0].text.strip().lower().startswith(label.lower()):
+            row._tr.getparent().remove(row._tr)
+            return
+
+
 def fill_flooring_section(doc, spec, tot):
     t = find_table(doc, "Insulated Floor Panel")
     if not tot["floor"]:
@@ -973,11 +1044,18 @@ def fill_scope(doc, spec, tot):
     ]
     keys = ["panels", "doors", "floor", "machines"]
     rules = [(pat, over.get(key, rep)) for (pat, rep), key in zip(rules, keys)]
-    for p in doc.paragraphs:
+    # nothing is floored and the flooring section is going — then the bullet
+    # saying so goes too, rather than leaving the one mention of flooring in
+    # the document sitting in the scope of work
+    drop = floorless(spec, tot) and "floor" not in over
+    for p in list(doc.paragraphs):
         text = para_text(p).strip()
-        for pattern, replacement in rules:
+        for key, (pattern, replacement) in zip(keys, rules):
             if re.match(pattern, text):
-                set_para_text(p, replacement)
+                if drop and key == "floor":
+                    p._p.getparent().remove(p._p)
+                else:
+                    set_para_text(p, replacement)
                 break
 
 
@@ -1649,7 +1727,16 @@ def generate(spec, output, scales=None):
     fill_project_table(doc, spec, qs)
     fill_panel_section(doc, spec, qs, tot)
     fill_door_section(doc, spec)
-    fill_flooring_section(doc, spec, tot)
+    no_floor = floorless(spec, tot)
+    if no_floor:
+        # the section photograph leaves through the ordinary `remove` path, so
+        # surviving_pictures() and the page fit stay in step
+        removals = spec.setdefault("remove", [])
+        if not any("flooring" in (r.get("after") or "").lower() for r in removals):
+            removals.append({"after": "FLOORING DETAILS",
+                             "before": "Insulated Floor Panel"})
+    else:
+        fill_flooring_section(doc, spec, tot)
     fill_refrigeration_section(doc, spec)
     fill_capacity_section(doc, spec, tot, qs)
     fill_scope(doc, spec, tot)
@@ -1673,6 +1760,8 @@ def generate(spec, output, scales=None):
     replace_table_images(doc, spec)
     replace_pictures(doc, spec)
     remove_pictures(doc, spec)
+    if no_floor:
+        drop_flooring_section(doc)
     resize_pictures(doc, spec)
     inserted = insert_pictures(doc, spec)
     tighten_lists(doc, spec)

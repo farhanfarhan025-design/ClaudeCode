@@ -90,11 +90,26 @@ once without labels; rows that differ print one labelled line per system.
 
 ## Rooms without a floor
 
-Set `floor_included: false` and the quote adjusts throughout: the panel table
-reports "Not included in scope", section 4 says so on every row, the BOQ drops
-its flooring line entirely, the scope bullet states the room is erected on the
-client's existing floor, and the opening paragraph stops promising insulated
+Set `floor_included: false` and the quote adjusts throughout: the BOQ drops its
+flooring line entirely and the opening paragraph stops promising insulated
 flooring.
+
+**When no room in the quote has a floor, the flooring section comes out
+altogether** — heading, table and photograph — and sections 5 to 13 renumber
+to 4 to 12. The Floor Coverage row leaves the panel table and the flooring
+bullet leaves the scope of work, so the document does not mention flooring at
+all. A section headed FLOORING DETAILS whose every row reads "Not included"
+tells the client something is missing from the offer; saying nothing is the
+house rule. Pass `"flooring_section": true` to keep the section and have it
+state that no flooring is included.
+
+A job where **some** rooms are floored keeps the section — it has real content
+— and reports the floored area. Write the rows yourself through
+`flooring_rows` if the unfloored rooms are not to be named.
+
+Nothing written by hand should contradict this: on a floorless quote, keep
+"erected on the client's existing floor" out of the `boq` lines and the `scope`
+overrides too.
 
 ## `flooring`
 
