@@ -1,0 +1,53 @@
+{
+  "type": "invoice",
+  "badge": ["ADVANCE INVOICE"],
+  "number": "INV-284/2026",
+  "date": "18-10-2026",
+  "ref": "Contract CON/TNDK/SQ118/2026 dated 17-10-2026",
+  "currency": "QAR",
+  "filename": "Invoice_INV-284-2026_BismiGroupInternational_FreezerRoom_75pct_Advance",
+  "payee_name": "The New Doha Kitchen Equipment Services W.L.L.",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "BILL TO",
+    "name": "Bismi Group International W.L.L.",
+    "fields": [
+      "C.R. 178652  |  Doha, State of Qatar",
+      {"label": "Attention", "value": "Mr. Nizar Pulikkalakath Abdulkareem — Manager"},
+      {"label": "Project", "value": "One (1) freezer room with epoxy floor coating and one (1) preparation room"},
+      {"label": "Our quotation", "value": "QUT/DCTS/SQ118/2026 (Revised) dated 17-10-2026 — approved"},
+      {"label": "Stage", "value": "First instalment — 75% advance on signature of contract"}
+    ]
+  },
+  "lines": [
+    {
+      "description": "ADVANCE PAYMENT — 75% OF THE CONTRACT VALUE\nFirst instalment under Contract CON/TNDK/SQ118/2026 for the supply, installation, testing and commissioning of:\n1. FREEZER ROOM — 10.00 m (L) x 9.50 m (W) x 5.00 m (H), 475.00 m3, operating at -18 C to -22 C, in 100 mm PUF sandwich panel to walls and ceiling (290.00 sqm) with ceiling suspension steel; one (1) No. sliding door 2000 x 2500 mm with heated frame and gasket; one (1) No. Dorin (Italy) AU2-H2201CS 22 HP air-cooled condensing unit with a Gunay (Turkey) GNE 350.6C2 unit cooler on R404A; copper piping, Armaflex insulation, electric defrost and insulated drain line with heating tape; digital control panel with all safeties; internal vapour-proof LED lighting, door frame heater and complete electrical works; and all coving, angles, sealing, fasteners and accessories.\n2. EPOXY FLOOR COATING — food-grade epoxy coating to the freezer room floor, 95.00 sqm, including cleaning, grinding, priming, coving at the panel-to-floor junction and silicone sealing.\n3. PREPARATION ROOM — 9.50 m (L) x 5.00 m (W) x 3.00 m (H), 142.50 m3, unrefrigerated, in 50 mm PU sandwich panel to walls and ceiling (134.50 sqm) with ceiling support steel; one (1) No. aluminium door 900 x 1900 mm complete with hardware; and all aluminium coving, corner angles, silicone sealing, fasteners and accessories.\nContract value QAR 110,000.00 — this invoice covers 75% thereof.",
+      "unit": "Lot",
+      "qty": 1,
+      "rate": 82500.00
+    }
+  ],
+  "grand_total_label": "ADVANCE NOW DUE",
+  "bank": {
+    "Bank": "The Commercial Bank (P.S.Q.C.), Grand Hamad Branch – 4010",
+    "Account Name": "The New Doha Kitchen Equipment Services W.L.L.",
+    "Account Number": "4010-777739-001",
+    "IBAN": "QA06 CBQA 0000 0000 4010 7777 3900 1",
+    "SWIFT / BIC": "CBQAQAQA",
+    "Currency": "Qatari Riyal (QAR)"
+  },
+  "notes": [
+    "PAYMENT SCHEDULE. Contract value QAR 110,000.00 — 75% advance on signature of contract QAR 82,500.00 (this invoice); 20% on delivery of materials to site QAR 22,000.00; 5% on successful testing, commissioning and handover QAR 5,500.00.",
+    "Payment due on presentation of this invoice. Payment may be made in cash, or by cheque or bank transfer to the account shown above; cheques to be crossed and drawn strictly in favour of the account name given. Kindly quote invoice INV-284/2026 as the reference.",
+    "PROGRAMME. Under clause 5.1 of the Contract, time runs from the later of the date of signature and receipt of this advance in cleared funds. Material delivery is 3 to 4 weeks from that date, with a total project duration of 45 to 55 days subject to site readiness. Material will be ordered on receipt of this payment.",
+    "SITE SURVEY. Under clause 2.3 of the Contract, a site survey will be carried out and the final room dimensions confirmed in writing before any fabrication is put in hand. Any change arising from that survey will be dealt with as a Variation under clause 8.",
+    "INSULATED FLOORING IS NOT INCLUDED to either room. Both rooms are erected on the existing concrete floor, and the epoxy specified is a surface coating and not an insulating layer. Clause 10 of the Contract records the advice given on operating a freezer room over an uninsulated slab and the risks that follow. We will be pleased to quote separately for an insulated floor construction, and recommend that this is considered before fabrication begins.",
+    "BY OTHERS, as set out in Schedule 3 of the Contract: civil works, foundations and structural support, including the structure from which the ceiling panels are hung; the main power supply and the cable run from the main distribution board to the cold room control panel; the drainage point within 3 m of the evaporator drain outlet; and all permits and approvals.",
+    "WARRANTY: twelve (12) months on the cold room panels, doors and our workmanship from the date of handover, and twelve (12) months on the compressor, coils, electrical components and controls from the date of commissioning, as set out in clause 12 of the Contract."
+  ]
+}

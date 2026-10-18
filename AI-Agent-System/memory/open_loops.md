@@ -2506,6 +2506,38 @@ both**, and makes the warranty conditional on the balance being settled. That is
 of labour liability on an installation whose 61.5 kg of units hang on a structure that was never
 verified (note 4 of the quotation). **Priced at nothing.**
 
+### OL-093 — Bismi: 82,500 invoiced, and the clock does not start until it clears
+**Owner:** Farhan · **Raised:** 2026-10-18 · **Value:** QAR 82,500 · **LARGEST ADVANCE ON FILE**
+
+**INV-284/2026** raised against contract CON/TNDK/SQ118/2026 for the **75% advance of 82,500**.
+Balance 22,000 on material delivery and 5,500 at handover.
+
+**It is the second largest single receivable the company has ever raised**, behind Oscar Prime's
+119,000, and it is due on presentation. **Nothing has been ordered and nothing should be** —
+note 3 tells the client material is ordered on receipt of this payment, and clause 5.1 of the
+contract runs the 45–55 day programme from cleared funds, not from signature. **Hold the Al
+Buhsain and Airtronics orders until the money lands.**
+
+**The quotation Farhan re-sent on 18-10-2026 is byte-identical to the 17-10-2026 upload** —
+same MD5, same ten pages. There is no second revision; the approval was repeated, not changed.
+Confirmed by hash before anything was built on it.
+
+**Three things ride on this invoice that are not about money:**
+
+1. **The contract is not yet countersigned.** TNDK has sealed and signed it; Mr. Nizar has not.
+   **An advance invoice is going out against a contract only one party has executed.** Get the
+   countersigned copy back with the payment, not after it.
+2. **Note 5 repeats the insulated flooring position on the face of the invoice** and offers the
+   separate quote again (OL-088). That is the third time it has been put in writing. **If Bismi
+   pay this advance without taking the insulated floor, the decision is made and the room is
+   built on the existing slab.** Raise it on the phone before the advance clears, not after.
+3. **The site survey under clause 2.3 is still outstanding** and must happen before fabrication —
+   it is also where the internal-versus-external dimension question (OL-089) gets settled, and
+   where the crane requirement for the 22 HP Dorin is identified (OL-087).
+
+**No supplier cost is on file for this job either.** A 110,000 contract with no costed bill is
+the largest unpriced margin in the book.
+
 ### OL-083 — The Oscar Prime 119,000 transfer reads "Pending Approval", not paid
 **Owner:** Farhan · **Raised:** 2026-10-14 · **Value:** QAR 119,000 · **VERIFY THE CREDIT**
 
