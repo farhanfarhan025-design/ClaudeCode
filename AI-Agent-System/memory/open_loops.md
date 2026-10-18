@@ -2623,6 +2623,42 @@ the refrigeration cost is unknown.**
 **One evaporator for a 10.00 x 9.50 m room.** A single cubic cooler throwing across 10 m is a
 distribution question worth asking Airtronics while the selection is still open.
 
+### OL-096 — Bismi paid 30,000 of a 55,000 advance, and the machine is already ordered
+**Owner:** Farhan · **Raised:** 2026-10-18 · **Value:** QAR 25,000 outstanding · **DO NOT START**
+
+**30,000 received 18-10-2026** against INV-284/2026 Rev. — **22,000 in cash** and **QNB cheque
+00000221 dated 19-10-2026 for 8,000**, A/C payee only, drawn on Bismi's a/c 0250-057166-001,
+signed. Receipted under **RCT-285/2026**. **Balance of the advance 25,000**, which Farhan has
+told the client is due before starting.
+
+**The sequence is now out of order and it needs holding.** **LPO-210 for 31,175 went to Airtronics
+today**; 30,000 has come in, of which **8,000 is a cheque that cannot even be presented until
+tomorrow**. Cleared cash in hand against this job is **22,000**. **Do not collect from Airtronics
+and do not pay them** — their terms are 100% CDC on collection, so the moment the goods move
+TNDK is 31,175 out of pocket against 22,000 cleared. **Clause 4.2 of the contract and note 1 of
+the receipt both say the programme starts on the cleared advance. Hold to it.**
+
+**The cheque is drawn in the wrong name.** It reads *"The new doha kitchen Equipment and services
+w.L.L"* — **with "and"**, which TNDK's Commercial Bank account is not in; the account is
+**THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.**, no "and" (the standing rule in the house
+format, from the IBAN certificate). On an **A/C payee only** cheque a name that does not match
+the account is a reason for the bank to return it. **It may well pass at 8,000; it will be looked
+at harder at 25,000 or 33,000.** Note 3 of the receipt asks Bismi, politely, to draw future
+cheques in the exact account name. **Raise it with Mr. Nizar before he writes the next one** —
+and if the 8,000 bounces on the name, ask for a replacement rather than re-presenting.
+
+**Where the money has to reach before each step:**
+
+| Needed for | QAR | Position |
+|---|---|---|
+| Balance of advance, before commencement | 25,000 | **outstanding** |
+| Panel order (Al Buhsain, ~424.50 sqm) | ~38,700 est. | not yet ordered, no quote on file |
+| Machine collection (LPO-210, Airtronics) | 31,175 | **ordered — hold collection** |
+| Funded by stage 2, due before machine delivery | 33,000 | not yet due |
+
+**Still no supplier quote for the panel**, which is the largest single buy on the job and the one
+the 55,000 advance is supposed to cover.
+
 ### OL-083 — The Oscar Prime 119,000 transfer reads "Pending Approval", not paid
 **Owner:** Farhan · **Raised:** 2026-10-14 · **Value:** QAR 119,000 · **VERIFY THE CREDIT**
 
