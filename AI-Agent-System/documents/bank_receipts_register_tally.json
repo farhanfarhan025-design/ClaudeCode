@@ -1,0 +1,123 @@
+{
+  "_note": "Bank receipts register REG/DCTS/2026-1014 R2 rebuilt in Tally ERP 9 printed-register style: monochrome, no letterhead, boxed grid with vertical rules only, Tally date format, ruled Grand Total. Every line, both company subtotals and the voucher count are recomputed by the builder from the rows. The eight instruments taken without a receipt leaving the office are shown as 'not issued' in the Vch No. column; the source marked seven that way and one with a dash, which meant the same thing.",
+
+  "reference": "REG/DCTS/2026-1014 R2",
+  "filename": "Bank Receipts Register REG-DCTS-2026-1014 R2 (Tally style)",
+  "footer_left": "REG/DCTS/2026-1014 R2 — Bank Receipts Register",
+
+  "heading": {
+    "company": "DOHA COOLING TRADING & SOLUTIONS W.L.L.",
+    "company2": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar",
+    "title": "Bank Receipts Register",
+    "period": "8-Sep-2025 to 14-Oct-2026",
+    "subtitle": "Voucher Type: Receipt  ·  All bank instruments — cheques and transfers — both companies, in date order"
+  },
+
+  "bar_left": "Ref: REG/DCTS/2026-1014 R2",
+  "bar_right": "Currency: QAR  ·  14-Oct-2026",
+
+  "columns": [
+    { "key": "date",         "label": "Date",        "w": "21mm" },
+    { "key": "entity",       "label": "Co.",         "w": "13mm", "align": "c" },
+    { "key": "particulars",  "label": "Particulars" },
+    { "key": "vch_type",     "label": "Vch Type",    "w": "15mm" },
+    { "key": "vch_no",       "label": "Vch No.",     "w": "24mm" },
+    { "key": "inst_no",      "label": "Inst. No.",   "w": "25mm", "brk": true },
+    { "key": "bank",         "label": "Bank",        "w": "19mm" },
+    { "key": "amount",       "label": "Amount",      "w": "23mm", "align": "r" }
+  ],
+
+  "total_label": "Grand Total — 17 instruments",
+  "grand_total": 1145455.00,
+  "count": 17,
+
+  "subtotals": [
+    { "key": "entity", "value": "DCTS", "label": "Doha Cooling Trading & Solutions W.L.L.", "count": 4, "amount": 718000.00 },
+    { "key": "entity", "value": "TNDK", "label": "The New Doha Kitchen Equipment Services W.L.L.", "count": 13, "amount": 427455.00 }
+  ],
+
+  "rows": [
+    { "date": "08-09-2025", "entity": "DCTS", "party": "Oriental Agro Trading",
+      "narration": ["Cold storage project — 20% advance · voucher 1327"],
+      "vch_type": "Receipt", "vch_no": "DCTS-RCT-001", "inst_no": "Chq 000000067", "bank": "QNB", "amount": 209000.00 },
+
+    { "date": "18-09-2025", "entity": "DCTS", "party": "Oriental Agro Trading",
+      "narration": ["Cold storage project — second 20% · voucher 1330"],
+      "vch_type": "Receipt", "vch_no": "DCTS-RCT-002", "inst_no": "Chq 000000069", "bank": "QNB", "amount": 209000.00 },
+
+    { "date": "13-11-2025", "entity": "DCTS", "party": "Oriental Agro Trading",
+      "narration": ["Cold storage project · voucher 1333 dated 12-11-2025"],
+      "vch_type": "Receipt", "vch_no": "DCTS-RCT-003", "inst_no": "Chq 60000076", "bank": "QNB", "amount": 200000.00 },
+
+    { "date": "23-04-2026", "entity": "DCTS", "party": "Oriental Agro Trading",
+      "narration": ["Street 36, cold room · voucher 1338"],
+      "vch_type": "Receipt", "vch_no": "DCTS-RCT-009", "inst_no": "Chq 00000110", "bank": "QNB", "amount": 100000.00 },
+
+    { "date": "23-06-2026", "entity": "TNDK", "party": "Lean and Fit Popular Kitchen",
+      "narration": ["Freezer unit replacement — LPO 26060001", "Drawn on a/c 0250-068381-001"],
+      "vch_type": "Receipt", "vch_no": "not issued", "inst_no": "Chq 00000951", "bank": "QNB", "amount": 17000.00 },
+
+    { "date": "04-07-2026", "entity": "TNDK", "party": "Consolidated Contractors Group S.A.L. (Offshore) — CCC",
+      "narration": ["HIA Airport cold rooms — 30% advance · EPIC for NGL-5 Plant", "A/C payee only · drawn on a/c 0111-262600-275"],
+      "vch_type": "Receipt", "vch_no": "not issued", "inst_no": "Chq 00000245", "bank": "QIB", "amount": 76050.00 },
+
+    { "date": "07-07-2026", "entity": "TNDK", "party": "Sunrise Trading and Food Stuff Co.",
+      "narration": ["Jollibee Rasaboud — first payment", "A/C payee only · Main Branch · a/c 1000-01766-120"],
+      "vch_type": "Receipt", "vch_no": "not issued", "inst_no": "Chq 00990717", "bank": "Dukhan Bank", "amount": 27600.00 },
+
+    { "date": "13-07-2026", "entity": "TNDK", "party": "Ruwais Farm",
+      "narration": ["Refrigeration maintenance — INV-014/2026", "Fawran transfer · beneficiary alias C.R.-199351"],
+      "vch_type": "Receipt", "vch_no": "not issued", "inst_no": "FT261947R2WS", "bank": "QIB", "amount": 1850.00 },
+
+    { "date": "16-08-2026", "entity": "TNDK", "party": "Sunrise Trading and Food Stuff Co.",
+      "narration": ["Jollibee — cold room and condensing unit relocation"],
+      "vch_type": "Receipt", "vch_no": "not issued", "inst_no": "Chq 00990904", "bank": "Dukhan Bank", "amount": 23100.00 },
+
+    { "date": "19-08-2026", "entity": "TNDK", "party": "Oscar Prime Trading Contracting & Services",
+      "narration": ["Two chiller rooms — 75% advance", "Bank transfer ref Kitchen Fabrication (value date)"],
+      "vch_type": "Receipt", "vch_no": "not issued", "inst_no": "Kitchen Fabrication", "bank": "Commercial Bank", "amount": 56250.00 },
+
+    { "date": "24-08-2026", "entity": "TNDK", "party": "Oscar Prime Trading Contracting & Services",
+      "narration": ["Two chiller rooms — on account", "Bank transfer ref Kitchen Fabrication (value date)"],
+      "vch_type": "Receipt", "vch_no": "not issued", "inst_no": "Kitchen Fabrication", "bank": "Commercial Bank", "amount": 8000.00 },
+
+    { "date": "26-08-2026", "entity": "TNDK", "party": "Stop n Shop – Bin Omran",
+      "narration": ["Cold room — chiller and freezer, advance"],
+      "vch_type": "Receipt", "vch_no": "RCT-267/2026", "inst_no": "Chq 00006483", "bank": "QNB", "amount": 25000.00 },
+
+    { "date": "21-09-2026", "entity": "TNDK", "party": "Homemade by Earth Eatery",
+      "narration": ["Chiller and freezer rooms — 70% advance", "Chq 00000001 (634-001/091) drawn on a/c 0260460123001", "Cheque drawn for 65,830.00; the balance of 33,000.00 relates to kitchen fabrication works and is accounted for separately"],
+      "vch_type": "Receipt", "vch_no": "not issued", "inst_no": "Chq 00000001", "bank": "QNB", "amount": 32830.00 },
+
+    { "date": "30-09-2026", "entity": "TNDK", "party": "Sunrise Trading and Food Stuff Co.",
+      "narration": ["Jollibee — final balance, account settled", "A/C payee only · Main Branch · a/c 1000-01766-120"],
+      "vch_type": "Receipt", "vch_no": "RCT-273/2026", "inst_no": "Chq 00991134", "bank": "Dukhan Bank", "amount": 2300.00 },
+
+    { "date": "01-10-2026", "entity": "TNDK", "party": "One A Design, Build and Trading W.L.L.",
+      "narration": ["Capital Grille at ABESQ — 35% advance", "Payment ref MB260930957255 · debit a/c 0251-054777-001"],
+      "vch_type": "Receipt", "vch_no": "RCT-274/2026", "inst_no": "MS1A03383663", "bank": "—", "amount": 25725.00 },
+
+    { "date": "06-10-2026", "entity": "TNDK", "party": "Oscar Prime Trading Cont. & Services",
+      "narration": ["Five cold rooms — 70% advance", "Transfer within bank · debit a/c QA14CBQA000000004090710332001"],
+      "vch_type": "Receipt", "vch_no": "RCT-279/2026", "inst_no": "061026A7317", "bank": "Commercial Bank", "amount": 119000.00 },
+
+    { "date": "06-10-2026", "entity": "TNDK", "party": "Everbloom (C.R. 150356)",
+      "narration": ["Flower display chiller — 75% advance", "Transfer by C.R. alias · payment ref MB261006530403"],
+      "vch_type": "Receipt", "vch_no": "RCT-280/2026", "inst_no": "20261006QNBAQAQAXXXH02184180", "bank": "QNB", "amount": 12750.00 }
+  ],
+
+  "notes_heading": "Notes",
+  "notes": [
+    "One consolidated register, both companies. This supersedes REG/DCTS/2026-1014 R1, which separated the two companies. The money is the same; it is set out here in a single date order with the receiving company shown against each line — DCTS for Doha Cooling Trading & Solutions W.L.L. and TNDK for The New Doha Kitchen Equipment Services W.L.L.",
+    "Every instrument is fully evidenced — eleven cheques and six transfers, each carrying its number or reference, the drawer's account, the bank and the date, and each producible to a client, an auditor or a bank on demand.",
+    "Cash is not in this register. Oriental Agro paid a further QAR 375,000.00 in cash against nine vouchers, Samoosa Shop settled QAR 38,500.00 in cash, and TNDK took QAR 2,450.00 in cash from Al Noor Bakery, BSI and Lean N Fit. Those sit in the cash records.",
+    "Receipts. Eight of the seventeen instruments were taken without a receipt leaving the office; those lines carry 'not issued' in the Vch No. column and can now be raised, the instruments being known.",
+    "Internal record — compiled from the cheques, transfer advices and vouchers held, as at the date shown above."
+  ],
+
+  "signatory": {
+    "name": "Farhan",
+    "lines": ["Sales Engineer", "For and on behalf of Doha Cooling Trading & Solutions W.L.L."]
+  }
+}
