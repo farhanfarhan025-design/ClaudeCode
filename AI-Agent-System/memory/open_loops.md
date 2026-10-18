@@ -1193,6 +1193,12 @@ Three documents were produced today and none has been appended to the log in Dri
   quantities are untouched.
   **Two live documents now share QUT/DCTS/242/2026** at 7,850 and 7,300. The older one must be
   withdrawn, not left in circulation — this is the same defect flagged on SQ091 under OL-055.
+  **REBUILT 18-10-2026.** Farhan asked for the quotation again; the PDF and its JSON had been
+  lost with the scratchpad in a container rebuild and were never in the repository. Rebuilt from
+  this record and reissued under the same number and the same 27-09-2026 date, with note 1 stating
+  in terms that it supersedes the 19-09-2026 document. **Its JSON is now committed at
+  `documents/greenland_aircurtain_rev.json`** so it can be regenerated rather than reconstructed.
+  **No reply from Green Land is recorded three weeks after the revision** — chase it or close it.
 - **QUT/DCTS/243/2026** — Evergreen Qatar, supply only of **1 no axial fan motor YWF4E-350S**
   (350 mm, 4 pole, external rotor). **630**, issued 21-09-2026. 100% payment, same day
   delivery ex stock. **New client** — no address, contact name or telephone.
@@ -2444,6 +2450,27 @@ held** (OL-062), and this is the first contract this system has issued rather th
 
 **Needed:** a Contract row in the numbering log and every signed contract filed into it on
 signature, not on discovery.
+
+### OL-091 — Issued documents live only in the scratchpad, and the scratchpad does not survive
+**Owner:** Farhan · **Raised:** 2026-10-18 · **HOUSEKEEPING, WITH TEETH**
+
+Farhan asked for the Green Land quotation on 18-10-2026. **It was gone.** The PDF and the JSON
+that produces it sat in the session scratchpad, which the container rebuild wiped; neither was
+ever committed. The document had to be reconstructed from the open-loop entry describing it.
+
+**The reconstruction was possible only because the record was detailed.** It held the model, the
+dimensions, both prices, the discount treatment, the revised payment split and the assumptions.
+**Had the entry been one line, a document already in a client's hands could not have been
+reproduced.** That is the risk, and it applies to every quotation, invoice, receipt and LPO this
+system has issued: the house format's own checklist says *deliver both the PDF and its JSON*, and
+until now the JSON has been delivered to Farhan and then left to expire.
+
+**Started on 18-10-2026:** `documents/` in the repository, holding the source JSON of issued
+documents. Green Land 242 (revised), Evergreen 252 and INV-282 are in it.
+
+**Needed:** every document built from here on gets its JSON committed at the time of issue, not
+afterwards. **The back catalogue is not recoverable** — what is in the scratchpad now is all that
+survives of everything issued before today.
 
 ### OL-083 — The Oscar Prime 119,000 transfer reads "Pending Approval", not paid
 **Owner:** Farhan · **Raised:** 2026-10-14 · **Value:** QAR 119,000 · **VERIFY THE CREDIT**
