@@ -1198,7 +1198,7 @@ Three documents were produced today and none has been appended to the log in Dri
   this record and reissued under the same number and the same 27-09-2026 date, with note 1 stating
   in terms that it supersedes the 19-09-2026 document. **Its JSON is now committed at
   `documents/greenland_aircurtain_rev.json`** so it can be regenerated rather than reconstructed.
-  **No reply from Green Land is recorded three weeks after the revision** — chase it or close it.
+  **APPROVED 18-10-2026, work complete.** See OL-092.
 - **QUT/DCTS/243/2026** — Evergreen Qatar, supply only of **1 no axial fan motor YWF4E-350S**
   (350 mm, 4 pole, external rotor). **630**, issued 21-09-2026. 100% payment, same day
   delivery ex stock. **New client** — no address, contact name or telephone.
@@ -2471,6 +2471,40 @@ documents. Green Land 242 (revised), Evergreen 252 and INV-282 are in it.
 **Needed:** every document built from here on gets its JSON committed at the time of issue, not
 afterwards. **The back catalogue is not recoverable** — what is in the scratchpad now is all that
 survives of everything issued before today.
+
+### OL-092 — Green Land delivered on 48% of the price, with the 80% advance never collected
+**Owner:** Farhan · **Raised:** 2026-10-18 · **Value:** QAR 3,800 outstanding
+
+**QUT/DCTS/242/2026 (Revised) approved**, three Carrier FM-3515B-L/YS5 air curtains at **7,300**.
+**3,500 received, the work is finished and handed over, and 3,800 is outstanding** —
+**INV-283/2026** raised 18-10-2026, due on presentation. First air curtain job on file, now
+closed out technically and open financially.
+
+**The terms were not followed and the exposure is total.** The revised quotation required **80%
+(5,840) in advance** and 20% on handover. **48% was taken and the job was completed anyway.**
+The units are installed in the client's doorway; there is nothing left to withhold, no retention
+and no leverage. **The whole 3,800 is unsecured against a client with no address, no contact
+name and no telephone on file** — the detail gap flagged when this was first quoted a month ago
+and still not closed.
+
+**The 550 discount now costs more than it looked.** At 7,850 the balance would have been 4,350;
+the concession was given to win the order and the order was then performed without the advance
+that was its condition. **If the balance is slow, the discount was paid for twice.**
+
+**Chase it this week while the handover is fresh.** An air curtain invoice goes stale quickly —
+there is no commissioning visit still to come, no spare to deliver, nothing to bring the client
+back to the table.
+
+**The 3,500 has no instrument and no date.** Cash, cheque or transfer is not recorded, so **no
+receipt can be issued** — the house format refuses a receipt without a payment instrument, and
+rightly. **Tell me how it arrived and the receipt goes out under the next number.** Note 3 of
+the invoice has already promised the client one. This is OL-014 again, on the eleventh payment.
+
+**Warranty extended on Farhan's instruction.** He asked for one year to be stated. The quotation
+gave 12 months on the units and **6 months on workmanship**; the invoice now gives **12 months on
+both**, and makes the warranty conditional on the balance being settled. That is six extra months
+of labour liability on an installation whose 61.5 kg of units hang on a structure that was never
+verified (note 4 of the quotation). **Priced at nothing.**
 
 ### OL-083 — The Oscar Prime 119,000 transfer reads "Pending Approval", not paid
 **Owner:** Farhan · **Raised:** 2026-10-14 · **Value:** QAR 119,000 · **VERIFY THE CREDIT**

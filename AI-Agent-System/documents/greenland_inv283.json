@@ -1,0 +1,56 @@
+{
+  "type": "invoice",
+  "badge": ["FINAL INVOICE"],
+  "number": "INV-283/2026",
+  "date": "18-10-2026",
+  "ref": "Quotation QUT/DCTS/242/2026 (Revised) — approved",
+  "currency": "QAR",
+  "filename": "Invoice_INV-283-2026_GreenLandQatar_AirCurtains_Balance",
+  "payee_name": "The New Doha Kitchen Equipment Services W.L.L.",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "BILL TO",
+    "name": "Green Land Qatar",
+    "fields": [
+      "State of Qatar",
+      {"label": "Project", "value": "Supply and installation of three (3) air curtains to a 4.50 m x 3.00 m door"},
+      {"label": "Our quotation", "value": "QUT/DCTS/242/2026 (Revised) dated 27-09-2026 — approved"},
+      {"label": "Stage", "value": "Work complete, tested and handed over — final invoice for the balance"}
+    ]
+  },
+  "lines": [
+    {
+      "description": "SUPPLY AND INSTALLATION OF AIR CURTAINS — DOOR 4.50 m (W) x 3.00 m (H)\n1. AIR CURTAIN UNITS — Three (3) Nos. Carrier air curtains, model FM-3515B-L/YS5, each 1500 x 220 x 240 mm, 220 - 240 V / 1 phase / 50 Hz, supplied and installed side by side to give a continuous 4500 mm air screen across the full width of the opening.\n2. SUPPORT FRAME — Square tube support frame with fixing plates above the door opening, fabricated, drilled and bolted to the structure, carrying the three units in line and true.\n3. INSTALLATION — Units mounted on the frame, levelled and the discharge nozzles aligned across the opening, with final adjustment of the air stream.\n4. ELECTRICAL — Units interconnected and terminated at a single point from the power supply at the door.\n5. TESTING AND HANDOVER — Units run up, airflow and direction checked across the opening, operation demonstrated and the installation handed over complete.",
+      "unit": "Lot",
+      "qty": 1,
+      "rate": 7850.00
+    }
+  ],
+  "discount": 550.00,
+  "adjustments": [
+    {"label": "LESS: amount received on account, acknowledged with thanks", "amount": -3500.00}
+  ],
+  "grand_total_label": "BALANCE NOW DUE",
+  "bank": {
+    "Bank": "The Commercial Bank (P.S.Q.C.), Grand Hamad Branch – 4010",
+    "Account Name": "The New Doha Kitchen Equipment Services W.L.L.",
+    "Account Number": "4010-777739-001",
+    "IBAN": "QA06 CBQA 0000 0000 4010 7777 3900 1",
+    "SWIFT / BIC": "CBQAQAQA",
+    "Currency": "Qatari Riyal (QAR)"
+  },
+  "notes": [
+    "ACCOUNT SUMMARY. Contract value QAR 7,850.00 less the special discount of QAR 550.00 = QAR 7,300.00. Received on account QAR 3,500.00. Balance now due QAR 3,800.00.",
+    "The work is complete. The three air curtains have been installed, run up, checked across the opening and handed over, and this invoice is raised for the balance of the contract value.",
+    "The payment of QAR 3,500.00 is received and acknowledged with thanks. Our formal receipt will be issued separately.",
+    "Payment due on presentation of this invoice. Payment may be made in cash, or by cheque or bank transfer to the account shown above; cheques to be crossed and drawn strictly in favour of the account name given. Kindly quote invoice INV-283/2026 as the reference.",
+    "WARRANTY: one (1) year — twelve (12) months from the date of handover on the air curtain units supplied and on our installation workmanship, as per our quotation QUT/DCTS/242/2026. The warranty excludes damage arising from misuse, power surge, improper or interrupted supply, water ingress, unauthorised modification or repair by others, and the absence of routine cleaning of the filters and intake.",
+    "The warranty is conditional upon the balance of this invoice being settled in full.",
+    "As stated in our quotation, the power supply and isolator at the door, builder's work, cutting and making good, and any switching, timer or door-interlock control beyond the units' own controls are not included and have not been carried out by us."
+  ]
+}
