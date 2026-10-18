@@ -1,0 +1,54 @@
+{
+  "type": "lpo",
+  "number": "LPO-210/2026",
+  "date": "18-10-2026",
+  "ref": "ART-QTN-3457-26 dated 17-10-2026",
+  "currency": "QAR",
+  "filename": "LPO-210-2026_Airtronics_Dorin22HP_Gunay_BismiProject",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "VENDOR INFORMATION",
+    "name": "Airtronics Trading Contracting & Maintenance W.L.L.",
+    "fields": [
+      "Doha, State of Qatar",
+      {"label": "Attention", "value": "Mr. Gireesh Nath — Sales Manager  |  Mob: +974 3169 0622"},
+      {"label": "Project", "value": "Bismi — one (1) freezer room, 10.00 x 9.50 x 5.00 m (475 cbm), −18 °C to −22 °C"},
+      {"label": "Payment Terms", "value": "100% CDC upon collection"},
+      {"label": "Delivery Terms", "value": "Ex-works Doha — ex-stock, subject to prior sale"}
+    ]
+  },
+  "lines": [
+    {"description": "Dorin (Italy) semi-hermetic condensing unit — AU2-H2201CS, R404A, 16.5 kW @ −25 Te / 45 Amb", "unit": "Nos", "qty": 1, "rate": 19800.00},
+    {"description": "Gunay (Turkey) cubic evaporator — GNE 350.6C2", "unit": "Nos", "qty": 1, "rate": 9875.00},
+    {"description": "Subzero control panel, metal body — CRC205200", "unit": "Nos", "qty": 1, "rate": 975.00},
+    {"description": "Danfoss filter drier, solder — DCL 165S / 023Z501091", "unit": "Nos", "qty": 1, "rate": 45.00},
+    {"description": "Danfoss sight glass, solder — SGI 16s / 014L0145", "unit": "Nos", "qty": 1, "rate": 70.00},
+    {"description": "Danfoss expansion valve R404A — TE 5 / 067B3342", "unit": "Nos", "qty": 1, "rate": 275.00},
+    {"description": "Danfoss expansion valve orifice — 067B2789-04", "unit": "Nos", "qty": 1, "rate": 105.00},
+    {"description": "Danfoss expansion valve body, solder — 067B4011, angleway, 5/8\" x 7/8\"", "unit": "Nos", "qty": 1, "rate": 75.00},
+    {"description": "Danfoss solenoid valve 5/8\", solder — EVR 15 / 032L228", "unit": "Nos", "qty": 1, "rate": 290.00},
+    {"description": "Danfoss solenoid coil, 220 V — 018F6282", "unit": "Nos", "qty": 1, "rate": 90.00},
+    {"description": "Copper capillary — 0.9 m", "unit": "Nos", "qty": 1, "rate": 15.00},
+    {"description": "Vibration absorber — Harbax, 1-5/8\"", "unit": "Nos", "qty": 1, "rate": 120.00},
+    {"description": "Danfoss dual pressure switch — KP15 auto / 060-124166", "unit": "Nos", "qty": 1, "rate": 185.00},
+    {"description": "Flexible hose — red / blue", "unit": "Nos", "qty": 2, "rate": 35.00},
+    {"description": "Brazing rod — Harris 45%, 2 pcs per set", "unit": "Set", "qty": 2, "rate": 65.00},
+    {"description": "Copper rod — 0%", "unit": "Nos", "qty": 1, "rate": 60.00},
+    {"description": "Castel NPT connector — 7130/2, 1/4\" x 1/4\"", "unit": "Nos", "qty": 2, "rate": 8.00}
+  ],
+  "discount": 1021.00,
+  "grand_total_label": "TOTAL ORDER VALUE",
+  "notes": [
+    "Placed against your quotation ART-QTN-3457-26 dated 17-10-2026. Sub-total QAR 32,196.00 less your discount of QAR 1,021.00, net QAR 31,175.00. Payment 100% CDC upon collection, ex-works Doha. Please acknowledge this order in writing and confirm stock availability and the collection date.",
+    "SELECTION IS YOURS. The Dorin AU2-H2201CS is selected by yourselves at 16.5 kW at −25 °C evaporating and 45 °C ambient against the freezer room stated on your quotation — 10.00 x 9.50 x 5.00 m, 475 cbm, operating at −18 °C to −22 °C. Please confirm in writing that this selection carries the room at that duty with the compressor running not more than sixteen (16) hours per day, and confirm the design ambient you have used, our project ambient being 46 °C.",
+    "ITEMS NOT ON THIS ORDER. This order covers the machine package only. The following are required to complete the installation and are not included here: the R404A refrigerant charge, the interconnecting copper tube and fittings, Armaflex insulation, the evaporator drain line heating tape, and the door frame anti-condensation heater. Please quote these separately, stating the R404A charge in kg for this system. Confirm also whether the GNE 350.6C2 is supplied with electric defrost heaters fitted as standard, or whether they are to be ordered separately.",
+    "SPECIFICATION CONFIRMED AS ABOVE. The makes, models, part numbers and quantities stated are what we are ordering and what is to be supplied. Any substitution of make, model, capacity or refrigerant requires our prior written approval before collection; goods supplied against a substitution we have not approved are liable to be returned at your cost.",
+    "All items are to be supplied new, in original manufacturer's packing, with the manufacturer's data plate, warranty documentation, wiring details and the Dorin selection printout. We will inspect at collection and may reject on the spot.",
+    "This order is a firm order at the prices and quantities stated. The prices are fixed and no price adjustment, handling, transport or other charge will be accepted beyond the total order value above. Please quote LPO-210/2026 on your delivery note and invoice."
+  ]
+}

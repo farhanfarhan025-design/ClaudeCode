@@ -349,7 +349,7 @@ The larger of the two has collected nothing.
 | Doha Cooling receipt | next after **DCTS-RCT-014/2026**. 001–012 cold storage **in date order** (renumbered 06-09-2026 at Farhan's request so the client can follow the account down the page: 001 08-09-2025 … 012 05-07-2026), 013–014 sectional doors, all Oriental Agro. Runs alongside the pre-printed voucher books, which reached no. 1347 on 17-05-2026 and no. 0095 on 04-07-2026 |
 | Delivery note | DN-253/2026 (One A, Capital Grille — panel and flooring, 02-10-2026) |
 | **Contract** | **CON/TNDK/SQ118/2026** (Bismi Group International, 17-10-2026). Contracts take the quotation's serial — CON/TNDK/058/2026 followed QUT/DCTS/058/2026. Only two contracts are on file and there was no series row until now (OL-090) |
-| LPO | LPO-202/2026 — 195 and 197 cancelled, 196/198/199/201 Oscar Prime, 200 Doha Controls |
+| LPO | **LPO-210/2026** (Airtronics, Bismi machine, 18-10-2026) — 203 Geo Panel CANCELLED by LTR/DCTS/251, 204 Geo Panel, 205/207 Airtronics, 206 IDIF, 208/209 Al Buhsain. Earlier: LPO-202/2026 — 195 and 197 cancelled, 196/198/199/201 Oscar Prime, 200 Doha Controls |
 
 ## Pricing rate card
 

@@ -2581,6 +2581,48 @@ ordered. **A 110,000 contract funded by a 55,000 advance has no room for a costi
 there is still no supplier cost on file for any part of it. **Price the panel, the doors, the
 machine and the epoxy against the stage money before committing to Al Buhsain.**
 
+### OL-095 — Bismi machine ordered at 31,175, and the 30% stage was built to pay for it
+**Owner:** Farhan · **Raised:** 2026-10-18 · **Value:** QAR 31,175 committed
+
+**LPO-210/2026** to Airtronics against ART-QTN-3457-26 of 17-10-2026: **Dorin AU2-H2201CS 22 HP
+at 19,800, Gunay GNE 350.6C2 at 9,875, Subzero control panel at 975** and fourteen lines of
+Danfoss valves, drier, sight glass, pressure switch and consumables. Sub-total 32,196 less 1,021
+discount = **31,175**. Their arithmetic checks line by line. **100% CDC on collection, ex-works
+Doha, 5 day validity, ex-stock subject to prior sale.**
+
+**The first costed line on this job, and it lands exactly where the new terms put it.** Bismi's
+stage 2 — *30% on completion of the panel work, before delivery of the machine* — is **33,000**.
+The machine is **31,175**. **The 30% stage buys the machine with 1,825 to spare.** That is why
+clause 4.2 of the contract matters: collect Airtronics' goods after Bismi's stage 2 clears, not
+before, and the job funds its own plant.
+
+**Do not collect, and do not pay, until the Bismi advance is in.** 100% CDC on collection means
+TNDK's cash leaves the moment the goods do. **Their validity is 5 days and the stock is subject
+to prior sale**, so the real risk is the opposite one: the unit sells to someone else while the
+advance is awaited. **Ask Airtronics to hold the Dorin against this LPO** — it is the one call
+worth making today.
+
+**Capacity is bought on the supplier's selection and nothing else.** 16.5 kW at −25 Te / 45 amb
+for **475 m³ at −18 to −22 °C**. At the usual 30–50 W/m³ for a freezer, 475 m³ wants roughly
+14 to 24 kW, so **16.5 kW sits in the lower half of that band**, and our own quotation promised
+the client **not more than 16 hours a day running** — which needs the 24-hour load covered in
+16 hours, a 1.5x factor. **No heat load calculation exists for this room.** Note 2 of the LPO
+puts the selection on Airtronics in writing and asks them to confirm the duty, the 16-hour run
+time and the ambient they used (ours is 46 °C, theirs 45 °C). **Get that confirmation in writing
+before collection** — under a fixed lump sum contract with a 12-month warranty, a short machine
+is TNDK's loss, not theirs.
+
+**The order does not complete the installation.** Note 3 lists what is missing and asks for a
+separate quote: **the R404A charge** (a 22 HP system takes a serious weight of gas and it is not
+on the quotation at all), **the interconnecting copper and fittings** — only 0.9 m of capillary
+is listed — **Armaflex insulation, the drain line heating tape and the door frame heater**, all
+three of which TNDK has sold to Bismi in writing. It also asks whether the GNE 350.6C2 carries
+electric defrost heaters as standard. **Until those come back, the machine cost is 31,175 and
+the refrigeration cost is unknown.**
+
+**One evaporator for a 10.00 x 9.50 m room.** A single cubic cooler throwing across 10 m is a
+distribution question worth asking Airtronics while the selection is still open.
+
 ### OL-083 — The Oscar Prime 119,000 transfer reads "Pending Approval", not paid
 **Owner:** Farhan · **Raised:** 2026-10-14 · **Value:** QAR 119,000 · **VERIFY THE CREDIT**
 
