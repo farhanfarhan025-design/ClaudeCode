@@ -2509,8 +2509,13 @@ verified (note 4 of the quotation). **Priced at nothing.**
 ### OL-093 — Bismi: 82,500 invoiced, and the clock does not start until it clears
 **Owner:** Farhan · **Raised:** 2026-10-18 · **Value:** QAR 82,500 · **LARGEST ADVANCE ON FILE**
 
-**INV-284/2026** raised against contract CON/TNDK/SQ118/2026 for the **75% advance of 82,500**.
-Balance 22,000 on material delivery and 5,500 at handover.
+**SUPERSEDED THE SAME DAY.** Farhan set the terms at **50 / 30 / 10 / 10** on 18-10-2026. The
+contract was reissued as **CON/TNDK/SQ118/2026 Revision 1** and the invoice reissued under the
+same number at **55,000**. See **OL-094** — the cash position is materially different and the
+figures below are the withdrawn ones.
+
+*Original entry:* **INV-284/2026** raised against contract CON/TNDK/SQ118/2026 for the
+**75% advance of 82,500**. Balance 22,000 on material delivery and 5,500 at handover.
 
 **It is the second largest single receivable the company has ever raised**, behind Oscar Prime's
 119,000, and it is due on presentation. **Nothing has been ordered and nothing should be** —
@@ -2537,6 +2542,44 @@ Confirmed by hash before anything was built on it.
 
 **No supplier cost is on file for this job either.** A 110,000 contract with no costed bill is
 the largest unpriced margin in the book.
+
+### OL-094 — Bismi terms cut to 50/30/10/10: 27,500 less up front, and double the retention
+**Owner:** Farhan · **Raised:** 2026-10-18 · **Value:** QAR 110,000 · **CASH — HEADLINE**
+
+Farhan set the Bismi payment terms at **50% advance / 30% on completion of the panel work, before
+delivery of the machine / 10% on installation of the machine, before the epoxy / 10% on handover**
+— replacing the 75/20/5 in both the quotation and the contract as first issued. **Contract
+reissued as Revision 1, INV-284 reissued at 55,000**, both on 18-10-2026. Nothing was signed or
+paid against the first issue, so the change is clean.
+
+| | Old 75/20/5 | New 50/30/10/10 |
+|---|---|---|
+| Advance | 82,500 | **55,000** |
+| Stage 2 | 22,000 on material delivery | **33,000** on panel work complete, before the machine |
+| Stage 3 | — | **11,000** on machine installed, before the epoxy |
+| Final retention | 5,500 | **11,000** |
+
+**Two things move against TNDK and one moves for it.**
+
+- **27,500 less cash up front.** The advance no longer covers the material buy. Panel alone is
+  **424.50 sqm** — at the Al Buhsain rates on file (102/sqm for 100 mm, roughly 68/sqm for 50 mm)
+  that is near **38,700**, before the sliding door, the aluminium door, the 22 HP Dorin, the Gunay
+  cooler, the control panel, the epoxy and the steel. **55,000 buys the panel and starts the
+  erection; it does not buy the machine.** Stage 2 is what buys the machine, and stage 2 only
+  arrives after the panel work is finished — so **TNDK carries the panel purchase, the erection
+  labour and the preliminaries on 55,000 for three to four weeks.**
+- **The retention doubles, 5,500 to 11,000**, and sits at the far end of a 45–55 day job on a
+  client with no trading history with TNDK.
+- **In TNDK's favour: the stages are gates, not dates.** Clause 4.2 as reissued lets TNDK hold
+  the machine delivery until stage 2 is in cleared funds and hold the floor coating until stage 3
+  is, with the time added to the programme and no liability for delay. **That is worth more than
+  the 25% given away** — it means the expensive items never leave TNDK's hands unpaid. **Use it.
+  Do not deliver the Dorin on a promise.**
+
+**What this now requires, and it is not optional:** a costed bill for this job before the panel is
+ordered. **A 110,000 contract funded by a 55,000 advance has no room for a costing error**, and
+there is still no supplier cost on file for any part of it. **Price the panel, the doors, the
+machine and the epoxy against the stage money before committing to Al Buhsain.**
 
 ### OL-083 — The Oscar Prime 119,000 transfer reads "Pending Approval", not paid
 **Owner:** Farhan · **Raised:** 2026-10-14 · **Value:** QAR 119,000 · **VERIFY THE CREDIT**
