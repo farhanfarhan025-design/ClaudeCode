@@ -341,7 +341,7 @@ The larger of the two has collected nothing.
 
 | Series | Next free |
 |---|---|
-| Invoice / Receipt | next after **285** — one running series: 261 cancelled, 263 Al Zahrawi, 264/265 Oscar Prime, 266 Stop n Shop invoice, 267 Stop n Shop receipt, 268 Lean N Fit inspection, 269 Home-Made by Earth advance, 270 Dana Hypermarket door handle, 271 BSI cold room checkup, 272 One A Design + Build advance, 273 Sunrise final receipt, 274 One A advance receipt, 275 One A second invoice, 276 HBK Mesaieed advance, 277 Everbloom advance, 278 Oscar Prime advance, 279 Oscar Prime advance receipt, 280 Everbloom advance receipt, 281 Ruwais Farm expansion valve, **282 Evergreen Refrigeration defrost heaters, 283 Green Land air curtains balance, 284 Bismi Group International advance, 285 Bismi part advance receipt**. None yet in the Drive log |
+| Invoice / Receipt | next after **286** — one running series: 261 cancelled, 263 Al Zahrawi, 264/265 Oscar Prime, 266 Stop n Shop invoice, 267 Stop n Shop receipt, 268 Lean N Fit inspection, 269 Home-Made by Earth advance, 270 Dana Hypermarket door handle, 271 BSI cold room checkup, 272 One A Design + Build advance, 273 Sunrise final receipt, 274 One A advance receipt, 275 One A second invoice, 276 HBK Mesaieed advance, 277 Everbloom advance, 278 Oscar Prime advance, 279 Oscar Prime advance receipt, 280 Everbloom advance receipt, 281 Ruwais Farm expansion valve, **282 Evergreen Refrigeration defrost heaters, 283 Green Land air curtains balance, 284 Bismi Group International advance, 285 Bismi part advance receipt, 286 Ruwais Farm settlement receipt**. None yet in the Drive log |
 | Statement of account | next after **SOA/DCTS/001/2026** (Stop n Shop, 13-09-2026) — series opened that day; TNDK had none. Doha Cooling uses the client AS- series: **AS-2026-9456** (Oriental Agro, 26-09-2026) supersedes AS-2026-9455 |
 | Receipt | RCT-257/2026 |
 | Quotation | next after QUT/DCTS/252/2026 (251 taken by LTR/DCTS/251, the Geo Panel cancellation), plus the SQ038 / SQ074 series — see OL-018. **247 and 248 were consumed by the letter series** (LTR/DCTS/247 Home-Made by Earth, LTR/DCTS/248 One A) — letters share the quotation serial, so 249 was the next free number |
@@ -421,6 +421,8 @@ a different business from one earning 22,950.
 
 ## Bank receipts — complete register as at 14 October 2026
 
+**Superseded by two further instruments on 18-10-2026 — Ruwais Farm 1,750 and Bismi 8,000 (cheque dated 19-10, uncleared). Rebuild before reissuing.**
+
 **Issued version — R2, Doha Cooling letterhead, both entities in one date-ordered list:**
 `reports/bank_receipts_register_dohacooling_2026-10-14.html` →
 `BankReceiptsRegister_DohaCooling_2026-10-14.pdf`, at Farhan's instruction 14-10-2026. An ENTITY
@@ -430,9 +432,9 @@ column (DCTS / TNDK) carries the split. R1, two sections on the TNDK letterhead,
 
 | | Instruments | QAR |
 |---|---|---|
-| TNDK — cheques and transfers | 13 | 427,455.00 |
+| TNDK — cheques and transfers | **15** | **437,205.00** |
 | Doha Cooling — Oriental Agro cheques | 4 | 718,000.00 |
-| **Total banked** | **17** | **1,145,455.00** |
+| **Total banked** | **19** | **1,155,205.00** |
 
 **Instruments on file — TNDK:**
 
@@ -451,6 +453,8 @@ column (DCTS / TNDK) carries the split. R1, two sections on the TNDK letterhead,
 | One A Design, Build and Trading | MS1A03383663 / MB260930957255 | — | 01-10-2026 | 25,725.00 |
 | Everbloom | 20261006QNBAQAQAXXXH02184180 / MB261006530403 | QNB | 06-10-2026 | 12,750.00 |
 | Oscar Prime | transfer ref **061026A7317** | Commercial Bank | 06-10-2026 | 119,000.00 |
+| Ruwais Farm | Fawran **FT262919GGJ5** | QIB | 18-10-2026 | 1,750.00 |
+| Bismi Group International | cheque **00000221**, A/C payee only | QNB | 19-10-2026 | 8,000.00 |
 
 **Doha Cooling — Oriental Agro, QNB cheques:** 000000067 (209,000), 000000069 (209,000), 60000076
 (200,000), 00000110 (100,000) = **718,000.00**.

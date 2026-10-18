@@ -2659,6 +2659,32 @@ and if the 8,000 bounces on the name, ask for a replacement rather than re-prese
 **Still no supplier quote for the panel**, which is the largest single buy on the job and the one
 the 55,000 advance is supposed to cover.
 
+### OL-097 — Ruwais Farm settled in full, and the July 1,850 still has no receipt
+**Owner:** Farhan · **Raised:** 2026-10-18 · **Value:** QAR 1,850 unreceipted
+
+**1,750 received 18-10-2026** by Fawran transfer **FT262919GGJ5**, QIB, beneficiary alias
+CR-199351, debit a/c QA07 QISB 0000 0000 0110 2363 5001 8. **INV-281/2026 settled in full within
+five days of issue** — receipted under **RCT-286/2026**. The fastest settlement on file.
+
+**Same debit account as their 13-07-2026 payment** of 1,850 (FT261947R2WS), which confirms the
+payer and makes Ruwais Farm a **repeat customer who pays fast and pays in full**. Two jobs, two
+settlements, no chasing. **That is worth more than the 3,600 it has brought in** — it is the
+profile to cultivate, and TNDK still holds **no address, no contact name and no telephone** for
+them. **Get those details before the next call-out.**
+
+**The July 1,850 was never receipted.** Its instrument is now fully known and sits in the bank
+register. **RCT can be raised for it on request** and should be — it is one of the five
+identified under OL-082, and it is the easiest of them to close.
+
+**Their transfer purpose reads "Rent Payments"** under Goods & Services. A mis-selection on their
+app, of no consequence to TNDK, but if their accounts ever reconcile by purpose the payment will
+be looked for in the wrong place. Not worth raising with them.
+
+**Recommend the filter drier again.** Note 3 of the receipt repeats it. A saturated drier is the
+most common cause of a repeat expansion valve failure, and the six month warranty excludes
+failure from contamination carried from elsewhere in the system — so if it has not been changed,
+TNDK is likely to be called back to a failure it will not be paid for.
+
 ### OL-083 — The Oscar Prime 119,000 transfer reads "Pending Approval", not paid
 **Owner:** Farhan · **Raised:** 2026-10-14 · **Value:** QAR 119,000 · **VERIFY THE CREDIT**
 
