@@ -170,6 +170,19 @@ inverts the whole point of having it.
   LPO. In a lump-sum scope, each numbered clause has its heading bolded and its body set in
   normal weight; a full page of bold reads as shouting.
 
+## Highlighting a clause
+
+Farhan asks for a clause to be marked when he wants the client's eye on it — the warranty on
+INV-283/2026 was the first. `scripts/highlight.py in.pdf out.pdf "WARRANTY"` fills every text
+line the phrase falls in, taking the whole line rather than the matched words.
+
+The fill is painted **under the text as page content, not added as an annotation**. An annotation
+can be hidden, stripped or dropped when the client prints or forwards the file, and a highlight
+that vanishes on the copy the client actually reads is worse than none. Painting it underneath
+also keeps the text crisp — a yellow laid over the text washes it out.
+
+Keep the unhighlighted PDF too; the highlighted one is the copy that leaves the office.
+
 ## Before it goes anywhere
 
 The renderer produces a **draft**. No agent sends anything to a client, vendor or bank —
