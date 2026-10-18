@@ -1,0 +1,28 @@
+{
+  "type": "delivery_note",
+  "number": "DN-252/2026",
+  "date": "06-08-2026",
+  "ref": "LPO PO-2026-0000248",
+  "meta_labels": ["DN NUMBER", "DATE", "REF LPO"],
+  "currency": "QAR",
+  "party": {
+    "title": "DELIVER TO",
+    "name": "Example Trading & Food Stuff Co. W.L.L. – Qatar",
+    "fields": [
+      { "label": "Site", "value": "Example Branch, Industrial Area, Doha" },
+      { "label": "Site Contact", "value": "Mr. Example | +974 0000 0000" },
+      { "label": "Vehicle", "value": "Pickup – 000000" }
+    ]
+  },
+  "lines": [
+    { "description": "PUF insulated panel 100mm – wall", "unit": "Sqm", "qty": 86 },
+    { "description": "PUF insulated panel 100mm – ceiling", "unit": "Sqm", "qty": 24 },
+    { "description": "Hinged door 900 x 1900mm with heater frame", "unit": "Nos", "qty": 2 },
+    { "description": "Condensing unit with evaporator set (chiller)", "unit": "Set", "qty": 1 },
+    { "description": "Control panel, thermostat and wiring accessories", "unit": "Lot", "qty": 1 }
+  ],
+  "notes": [
+    "Goods received in good condition unless noted above at the time of delivery.",
+    "Any shortage or damage to be reported in writing within 24 hours of delivery."
+  ]
+}

@@ -50,7 +50,17 @@ that destroys the feedback loop the specialist needs to improve.
 | Vendor RFQ, LPO, landed cost, committed spend | **PROCURE** | Client pricing |
 | Invoice, receipt, delivery note, numbering, register maintenance | **LEDGER** | Chasing payment |
 | Outstanding money, milestones, guarantees, follow-up drafts | **COLLECT** | Raising the invoice itself |
+| Vendor bill, payment due date, payment run, supplier statement | **PAYABLES** | Vendor selection or price (that's PROCURE) |
+| Cash/bank position, cheque status, instrument reconciliation | **CASHBOOK** | Issuing the receipt document (that's LEDGER) |
+| Month-end close, tie-out, "what do we owe / what have we got" | **ACCOUNTS-LEAD** | Any single-lane accounts task — route it directly |
 | Warranty expiry, AMC proposals, recurring revenue | **ANNUITY** | New-build work |
+
+**The accounts team.** LEDGER, COLLECT, PAYABLES and CASHBOOK form a team under
+**ACCOUNTS-LEAD** (`teams/accounts/TEAM.md`). Single-lane work routes to the member directly —
+adding a hop for "raise INV-260" is ceremony. Route to ACCOUNTS-LEAD when the job spans two or
+more accounts lanes, needs the month-end close, or asks a question only the whole team can
+answer (net position, tie-out, exposure). Out-of-team work comes back **up** to TNDK-OPS;
+ACCOUNTS-LEAD never briefs PRICE or PROCURE directly.
 
 **Multi-lane jobs get split, never merged.** "Quote the Samoosa variation and invoice it"
 is two assignments: PRICE, then LEDGER. Sequence them; don't hand one agent both.
