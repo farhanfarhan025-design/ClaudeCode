@@ -176,6 +176,11 @@ Farhan asks for a clause to be marked when he wants the client's eye on it — t
 INV-283/2026 was the first. `scripts/highlight.py in.pdf out.pdf "WARRANTY"` fills every text
 line the phrase falls in, taking the whole line rather than the matched words.
 
+A numbered note wraps over several lines and only its first line carries the heading, so marking
+a whole note takes `--block` with the note's opening and the next note's opening:
+`highlight.py in.pdf out.pdf --block "3. COMPRESSOR" "4. WHAT THIS"`. Everything from the first
+line up to, but not including, the second is filled.
+
 The fill is painted **under the text as page content, not added as an annotation**. An annotation
 can be hidden, stripped or dropped when the client prints or forwards the file, and a highlight
 that vanishes on the copy the client actually reads is worse than none. Painting it underneath

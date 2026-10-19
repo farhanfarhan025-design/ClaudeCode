@@ -1,10 +1,17 @@
 {
   "type": "quotation",
-  "badge": ["MAINTENANCE", "QUOTATION"],
+  "badge": [
+    "MAINTENANCE",
+    "QUOTATION"
+  ],
   "number": "QUT/DCTS/253/2026",
   "date": "19-10-2026",
   "ref": "15 days from date of quotation",
-  "meta_labels": ["QUOTATION NO", "DATE", "VALIDITY"],
+  "meta_labels": [
+    "QUOTATION NO",
+    "DATE",
+    "VALIDITY"
+  ],
   "currency": "QAR",
   "filename": "Quotation_QUT-DCTS-253-2026_IranianKitchen_ExpansionValve_SystemService",
   "company": {
@@ -18,9 +25,18 @@
     "name": "M/s. Iranian Kitchen",
     "fields": [
       "State of Qatar",
-      {"label": "Subject", "value": "Replacement of expansion valve and filter drier, and complete refrigeration system service"},
-      {"label": "Work completion", "value": "01 day from the confirmed order"},
-      {"label": "Payment", "value": "100% on completion of the work"}
+      {
+        "label": "Subject",
+        "value": "Replacement of expansion valve and filter drier, and complete refrigeration system service"
+      },
+      {
+        "label": "Work completion",
+        "value": "01 day from the confirmed order"
+      },
+      {
+        "label": "Payment",
+        "value": "100% on completion of the work"
+      }
     ]
   },
   "lines": [
@@ -28,13 +44,14 @@
       "description": "REPLACEMENT OF EXPANSION VALVE AND FILTER DRIER, AND COMPLETE SYSTEM SERVICE\n1. EXPANSION VALVE — Existing refrigerant charge recovered and the failed thermostatic expansion valve removed. New valve supplied and fitted, matched to the system duty and refrigerant, brazed in under a dry nitrogen purge, with a new bulb strap, the bulb fitted and insulated on the suction line and the superheat set to the manufacturer's figure.\n2. FILTER DRIER — Existing filter drier removed and a new drier of the correct size and connection supplied and fitted in the liquid line, brazed in under a dry nitrogen purge and fitted the correct way round to the direction of flow.\n3. NITROGEN PRESSURE TESTING — Complete circuit pressure tested with dry nitrogen to the working pressure of the system and held under a standing pressure test.\n4. COMPLETE LEAK TESTING — All joints, brazed connections, valves, flare fittings, the condenser and the evaporator leak tested, and any leak found reported to you before the system is closed.\n5. OIL — Compressor oil level and condition checked through the sight glass, oil colour and clarity reported, and the crankcase heater proved.\n6. COMPLETE SYSTEM SERVICE — Condenser and evaporator coils cleaned by water washing with coil cleaner, fans and fan guards cleaned, drain pan and drain line cleared and flushed, electrical connections checked and tightened, contactors, overloads and safety controls inspected, and the control settings checked.\n7. EVACUATION AND RECHARGING — System evacuated with a vacuum hold test and recharged with the recovered refrigerant.\n8. TESTING, COMMISSIONING AND HANDOVER — System run up, suction and discharge pressures, superheat, compressor current and room temperature measured and recorded, controls and cut-outs proved, and the system handed over pulling down to its set point.\n9. All labour, brazing materials, nitrogen, gauges, consumables and transportation to and from site.",
       "unit": "Lot",
       "qty": 1,
-      "rate": 1900.00
+      "rate": 1900.0
     }
   ],
   "grand_total_label": "TOTAL",
   "notes": [
     "SITE SURVEY BEFORE ORDER. This offer is made without sight of the equipment. The expansion valve and filter drier will be matched on site to the system's duty, refrigerant and connection sizes. The price above is for one (1) refrigeration circuit of standard commercial size; should the system prove to be of a materially larger capacity, or should more than one circuit require attention, we shall advise you in writing before any work begins.",
     "REFRIGERANT. The existing refrigerant charge is recovered and re-used. The supply of new refrigerant is not included. If the existing charge is found to be lost, short or contaminated, or if a top-up is required to bring the system to its nameplate charge, we shall advise the quantity and the cost for your approval before charging.",
+    "COMPRESSOR. Whether the compressor is pumping correctly can only be established once the system has been closed, charged and run. Should our inspection and commissioning show that the compressor is not pumping to duty — low discharge pressure, failure to pull the room down, worn valves or rings, or a seized or short-cycling machine — the compressor is NOT covered by this quotation. A replacement compressor, together with its labour, oil, additional filter drier and system flushing where contamination has occurred, WILL BE CHARGED EXTRA. We shall report the finding, quote the cost and obtain your written approval before any compressor is ordered or replaced.",
     "WHAT THIS QUOTATION DOES NOT COVER. Repair or replacement of any component other than the expansion valve and the filter drier; compressor oil, should a top-up or change be found necessary; repair of any leak found during testing, which will be reported and quoted separately; and any electrical work beyond the checking and tightening of existing connections.",
     "CONDITION OF THE EXISTING PLANT. The equipment is the client's own and its age, condition and performance history are not known to us. This offer covers the work described above and does not warrant the capacity, performance or continued operation of the system as a whole.",
     "WARRANTY: six (6) months from the date of handover on the expansion valve and filter drier supplied and on our workmanship. Excludes failure caused by moisture or contamination carried from elsewhere in the system, a leak outside the work described above, power surge, improper supply, or absence of routine maintenance.",

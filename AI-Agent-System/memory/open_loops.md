@@ -2715,8 +2715,21 @@ quote is **1,900 for a valve, a drier, a full service and a coil wash, without t
 two prices are close and the work is not — **one of them is mispriced and it is probably Ruwais.**
 Still no labour rate or parts cost on file for either, so neither can be checked.
 
+**COMPRESSOR CARVE-OUT ADDED 19-10-2026** at Farhan's instruction, as note 3, **highlighted in
+yellow**. If inspection and commissioning show the compressor is not pumping to duty — low
+discharge pressure, failure to pull down, worn valves or rings, a seized or short-cycling machine
+— the compressor is outside this quotation and **the replacement, its labour, oil, an additional
+drier and system flushing where contamination has occurred are charged extra**, reported and
+quoted for written approval before anything is ordered.
+
+**This is the right carve-out and it was the biggest hole in the offer.** A failed expansion
+valve starves a compressor, and a compressor run starved is a compressor on its way out — so the
+single most likely bad outcome on this job was exactly the one the 1,900 did not cover. **A
+commercial compressor is a multiple of this contract price**, and without the note TNDK would
+have been arguing after the system was open.
+
 **Assumed, not given by Farhan:** 01 day completion, 100% on completion, 6 month warranty on the
-parts and workmanship, 15 day validity, and the exclusions at notes 3 and 4. He gave the scope
+parts and workmanship, 15 day validity, and the exclusions at notes 4 and 5. He gave the scope
 and the price only.
 
 ### OL-083 — The Oscar Prime 119,000 transfer reads "Pending Approval", not paid
