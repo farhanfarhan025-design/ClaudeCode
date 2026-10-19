@@ -2689,7 +2689,17 @@ TNDK is likely to be called back to a failure it will not be paid for.
 **Owner:** Farhan · **Raised:** 2026-10-19 · **Value:** QAR 1,900
 
 **QUT/DCTS/253/2026** — M/s. Iranian Kitchen, replacement of expansion valve and filter drier
-with complete system service. **1,900**, issued 19-10-2026. 01 day, 100% on completion.
+with complete system service. **REVISED the same day to 1,500** — 1,900 less a special discount
+of **400** at Farhan's instruction, scope untouched, reissued under the same number marked
+REVISED and superseding the earlier issue. 01 day, 100% on completion.
+
+**The discount is 21% of the price, given before the client asked for one.** Green Land's was 7%
+and Bismi's 7.2%. **At 1,500 this job carries a valve, a drier, a full service, a coil wash, a
+nitrogen test, a leak test and commissioning** — against Ruwais Farm's 1,750 for a valve and a
+gas charge alone. **The comparison that looked odd at 1,900 is now plainly wrong**: either Ruwais
+was underquoted or this one is, and with no labour rate and no parts cost on file **there is
+nothing to tell Farhan which.** A service rate card is now the single most useful thing missing
+from this system.
 **New client — no address, no contact name, no telephone, and no equipment details of any kind.**
 
 **TWO READINGS WERE MADE AND BOTH NEED CONFIRMING.**

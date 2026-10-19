@@ -13,7 +13,7 @@
     "VALIDITY"
   ],
   "currency": "QAR",
-  "filename": "Quotation_QUT-DCTS-253-2026_IranianKitchen_ExpansionValve_SystemService",
+  "filename": "Quotation_QUT-DCTS-253-2026_REVISED_IranianKitchen_ExpansionValve_SystemService",
   "company": {
     "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
     "legal": "The New Doha Kitchen Equipment Services W.L.L.",
@@ -36,6 +36,10 @@
       {
         "label": "Payment",
         "value": "100% on completion of the work"
+      },
+      {
+        "label": "Status",
+        "value": "REVISED — supersedes our quotation of the same number issued earlier today"
       }
     ]
   },
@@ -49,6 +53,7 @@
   ],
   "grand_total_label": "TOTAL",
   "notes": [
+    "REVISED QUOTATION. This quotation is issued in revision of our quotation of the same number and date and supersedes it in full; the earlier document is withdrawn and should not be acted upon. The scope of work is unchanged in every respect; the price has been reduced by a special discount of QAR 400.00.",
     "SITE SURVEY BEFORE ORDER. This offer is made without sight of the equipment. The expansion valve and filter drier will be matched on site to the system's duty, refrigerant and connection sizes. The price above is for one (1) refrigeration circuit of standard commercial size; should the system prove to be of a materially larger capacity, or should more than one circuit require attention, we shall advise you in writing before any work begins.",
     "REFRIGERANT. The existing refrigerant charge is recovered and re-used. The supply of new refrigerant is not included. If the existing charge is found to be lost, short or contaminated, or if a top-up is required to bring the system to its nameplate charge, we shall advise the quantity and the cost for your approval before charging.",
     "COMPRESSOR. Whether the compressor is pumping correctly can only be established once the system has been closed, charged and run. Should our inspection and commissioning show that the compressor is not pumping to duty — low discharge pressure, failure to pull the room down, worn valves or rings, or a seized or short-cycling machine — the compressor is NOT covered by this quotation. A replacement compressor, together with its labour, oil, additional filter drier and system flushing where contamination has occurred, WILL BE CHARGED EXTRA. We shall report the finding, quote the cost and obtain your written approval before any compressor is ordered or replaced.",
@@ -56,5 +61,6 @@
     "CONDITION OF THE EXISTING PLANT. The equipment is the client's own and its age, condition and performance history are not known to us. This offer covers the work described above and does not warrant the capacity, performance or continued operation of the system as a whole.",
     "WARRANTY: six (6) months from the date of handover on the expansion valve and filter drier supplied and on our workmanship. Excludes failure caused by moisture or contamination carried from elsewhere in the system, a leak outside the work described above, power surge, improper supply, or absence of routine maintenance.",
     "Water and electricity at site to be made available by the client. Prices are in Qatari Riyals and are valid for 15 days from the date of this quotation."
-  ]
+  ],
+  "discount": 400.0
 }
