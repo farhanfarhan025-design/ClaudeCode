@@ -2732,6 +2732,37 @@ have been arguing after the system was open.
 parts and workmanship, 15 day validity, and the exclusions at notes 4 and 5. He gave the scope
 and the price only.
 
+### OL-099 — First Doha Cooling invoice to anyone but Oriental Agro, and the entity has no bank block
+**Owner:** Farhan · **Raised:** 2026-10-19 · **Value:** QAR 1,800
+
+**DCTS-INV-007/2026** — Westin Hotel, **three (3) ALCO power assemblies XB-1019-NW100-1B charged
+for R-407C at 600 each = 1,800**, supply only, due on presentation. Issued **on Doha Cooling
+letterhead at Farhan's express instruction, "for only this time"**, so the default stays TNDK.
+
+**Numbered 007, not 006.** DCTS-INV-006 is reserved for the Oriental Agro panel shifting that
+still has no price; taking it here would have destroyed that reservation.
+
+**THIS IS THE FIRST DOHA COOLING INVOICE TO A CLIENT OTHER THAN ORIENTAL AGRO.** The series has
+run 001–005 for one customer. A second customer on the entity changes what the entity is for, and
+**two things are now missing that did not matter while there was only one client:**
+
+1. **No bank account is on file for Doha Cooling.** TNDK's Commercial Bank account cannot go on a
+   Doha Cooling invoice — a cheque or transfer to an account in the other company's name is
+   exactly the defect flagged at OL-068 and on the Bismi cheque. **The invoice therefore carries
+   no bank block**, only the payee line and *"our bank transfer details will be furnished on
+   request."* **Supply Doha Cooling's account name, number, IBAN and SWIFT and the block goes on
+   properly.** Until then every Doha Cooling invoice asks the client for an extra email.
+2. **No Doha Cooling company seal.** TNDK's seal reads C.R. 199351 and cannot be used on C.R.
+   93354 paper.
+
+**The client is named only as "Westin Hotel".** No registered entity, no address beyond Doha, no
+contact name, no purchase order. **Hotels of this size pay against a PO number and an approved
+vendor record, and an invoice without one usually sits.** Get the registered name and the PO
+reference before this is sent, or expect to reissue it.
+
+**No supplier cost on file.** At 600 each for an Alco power assembly the margin is unknown, and
+this is the third component sale in a week priced without one.
+
 ### OL-083 — The Oscar Prime 119,000 transfer reads "Pending Approval", not paid
 **Owner:** Farhan · **Raised:** 2026-10-14 · **Value:** QAR 119,000 · **VERIFY THE CREDIT**
 
