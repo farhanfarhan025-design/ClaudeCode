@@ -2773,6 +2773,47 @@ reference before this is sent, or expect to reissue it.
 **No supplier cost on file.** At 600 each for an Alco power assembly the margin is unknown, and
 this is the third component sale in a week priced without one.
 
+### OL-100 — Aalaf: floor heating added at 11,500, and it is the answer to the Bismi problem
+**Owner:** Farhan · **Raised:** 2026-10-19 · **Value:** QAR 31,000
+
+**QUT/DCTS/042/2026 REVISED** — Al Mairqab Industrial Investment (Aalaf), attn. Mr. Francis Lloyd
+De Ramos, Procurement Manager. Civil works **19,500 unchanged** plus **floor heating for frost
+heave prevention 11,500** = **31,000**. Reissued under the same number, superseding the
+08-07-2026 issue, which had **expired in July** on its own 15 day validity.
+
+**The heating design, checked:** floor **5.70 x 6.20 = 35.34 sqm**. Two DEVIflex 10T cables of
+**990 W / 100 m** each. Taken as **duty plus standby** — which is what *"with reserve system"*
+means — the active output is **990 W over 35.34 sqm = 28 W/sqm**, with cable spacing near
+**350 mm**. That is a sound frost-heave figure. **Run together the two would give 56 W/sqm,
+which is comfort-heating territory and wrong for this duty**, so the quotation states plainly
+that one is duty and one is standby. Two DEVIreg 330 thermostats, one per circuit, agree with
+that reading. **If Farhan intended both cables live at once, the scope needs rewriting.**
+
+**THIS IS THE JOB THAT SHOULD BE SHOWN TO BISMI.** Aalaf is buying 40 mm of floor insulation plus
+a heated slab under a cold room. **Bismi is building a 475 cbm freezer at −18 to −22 C on an
+uninsulated existing slab with nothing but an epoxy coating** (OL-088), and the offer of an
+insulated floor has now been put in writing three times with no answer. **11,500 for 35.34 sqm
+is 325/sqm; Bismi's freezer floor is 95 sqm.** There is a real number to put in front of
+Mr. Nizar, and a live job to point at.
+
+**What the notes protect:**
+
+- **Sequence.** Cables go after the 40 mm insulation and before the RCC pour, so the civil work
+  and the heating are one programme and **cannot be split between contractors**. TNDK must be
+  present at the pour.
+- **Irreversibility.** No cutting, shortening, joining or re-routing; and if anyone drills, cores
+  or chases the slab afterwards, **the reserve can be lost along with the duty cable** — which
+  is the whole point of having paid for it.
+- **Test records at three stages** — before laying, after fixing, after the pour. These are what
+  the DEVI warranty requires and what answers a later claim that the cable was dead on arrival.
+
+**40 mm of floor insulation is thin for a freezer**, which is precisely why the heating is needed.
+Worth confirming what temperature this room runs at before the slab is poured.
+
+**Assumed, not given by Farhan:** the duty/standby reading, 12 month workmanship warranty with the
+manufacturer's warranty passed through, and the exclusions at notes 3 to 5. He gave the equipment
+list, the floor area and the price.
+
 ### OL-083 — The Oscar Prime 119,000 transfer reads "Pending Approval", not paid
 **Owner:** Farhan · **Raised:** 2026-10-14 · **Value:** QAR 119,000 · **VERIFY THE CREDIT**
 
