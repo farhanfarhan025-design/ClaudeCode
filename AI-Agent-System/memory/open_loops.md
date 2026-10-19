@@ -2685,6 +2685,40 @@ most common cause of a repeat expansion valve failure, and the six month warrant
 failure from contamination carried from elsewhere in the system — so if it has not been changed,
 TNDK is likely to be called back to a failure it will not be paid for.
 
+### OL-098 — Iranian Kitchen quoted at 1,900 sight unseen, and "water service" was read for him
+**Owner:** Farhan · **Raised:** 2026-10-19 · **Value:** QAR 1,900
+
+**QUT/DCTS/253/2026** — M/s. Iranian Kitchen, replacement of expansion valve and filter drier
+with complete system service. **1,900**, issued 19-10-2026. 01 day, 100% on completion.
+**New client — no address, no contact name, no telephone, and no equipment details of any kind.**
+
+**TWO READINGS WERE MADE AND BOTH NEED CONFIRMING.**
+
+1. **"Including water service" is written as water washing of the coils** — condenser and
+   evaporator cleaned with water and coil cleaner, which is what the phrase means on site here.
+   **If Farhan meant the water circuit of a water-cooled condenser**, that is different work on
+   different plant and the scope must be rewritten.
+2. **Gas was not in Farhan's list, but commissioning was.** A system cannot be commissioned
+   without refrigerant, and replacing a valve and a drier means opening the circuit. The scope
+   therefore recovers and re-uses the existing charge, and **note 2 excludes the supply of new
+   refrigerant**, with any shortfall to be advised and approved before charging. **If Farhan
+   intended the 1,900 to cover a full new charge, the price is wrong** — on the Ruwais job a
+   complete charge was part of a 1,750 lump sum.
+
+**Quoted without seeing the plant.** No refrigerant type, no model, no duty, no circuit count.
+**Note 1 limits the price to one circuit of standard commercial size** and requires written
+notice before work begins if the system proves materially larger. Without that note a 1,900
+offer could be held to a valve costing more than the job.
+
+**Compare with Ruwais Farm, INV-281: 1,750 for an expansion valve plus a full gas charge.** This
+quote is **1,900 for a valve, a drier, a full service and a coil wash, without the gas.** The
+two prices are close and the work is not — **one of them is mispriced and it is probably Ruwais.**
+Still no labour rate or parts cost on file for either, so neither can be checked.
+
+**Assumed, not given by Farhan:** 01 day completion, 100% on completion, 6 month warranty on the
+parts and workmanship, 15 day validity, and the exclusions at notes 3 and 4. He gave the scope
+and the price only.
+
 ### OL-083 — The Oscar Prime 119,000 transfer reads "Pending Approval", not paid
 **Owner:** Farhan · **Raised:** 2026-10-14 · **Value:** QAR 119,000 · **VERIFY THE CREDIT**
 
