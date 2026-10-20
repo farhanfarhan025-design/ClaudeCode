@@ -2814,6 +2814,39 @@ Worth confirming what temperature this room runs at before the slab is poured.
 manufacturer's warranty passed through, and the exclusions at notes 3 to 5. He gave the equipment
 list, the floor area and the price.
 
+### OL-101 — Panda Cakes approved at 29,000, and the quotation template's defects travelled again
+**Owner:** Farhan · **Raised:** 2026-10-20 · **Value:** QAR 29,000
+
+**QUT/DCTS/SQ121/2026 (Revised) approved 20-10-2026.** One chiller room 4.35 x 2.00 x 2.40 m
+(20.88 cbm) at 0 to +8 C, 100 mm PUF to walls, ceiling **and floor**, insulated flooring with
+18 mm marine ply and 1.2 mm chequered plate, hinged door, **BITZER 2GES-2Y-40S** with a
+**Guntner GASC RX 031.1/1WN/FFA7E**, R404A. **INV-287/2026 raised for the 75% advance, 21,750**;
+then 5,800 on delivery and 1,450 at handover. **14-18 days, material delivery 3-5 days.**
+
+**The take-off checks out.** Walls 30.48 + ceiling 8.70 + floor 8.70 = **47.88 sqm**, and
+4.35 x 2.00 x 2.40 = **20.88 cbm**. Both as stated.
+
+**THIS JOB HAS THE INSULATED FLOOR THAT BISMI DOES NOT.** A 20.88 cbm chiller at 0 to +8 C gets
+100 mm PUF underfoot; Bismi's **475 cbm freezer at −18 to −22 C** is going onto a bare slab with
+epoxy (OL-088). **The contrast is now on TNDK's own paper, a day apart.** It is the second
+argument available to put to Mr. Nizar, alongside Aalaf's heated floor (OL-100).
+
+**Three template defects rode along, as on Bismi (OL-089):** clause 5 still says prices are
+*"exclusive of VAT, if applicable"* in a country with no VAT; the header says **15 days validity**
+while clause 6 says **30 days**; and the pricing table lists six items with **no amounts against
+any of them**, only a grand total. **The first two are in every quotation this template produces
+and should be fixed at source**, not corrected job by job.
+
+**R404A on chiller duty.** R404A is a low-temperature refrigerant; a 0 to +8 C room is ordinarily
+R134a or R449A. It will work, but it is a very high GWP gas under international phase-down, and a
+bakery is exactly the kind of client who may be asked about it later. **Worth confirming with
+Airtronics that R404A is what they are supplying for this duty**, since the compressor selection
+follows the refrigerant.
+
+**No supplier cost on file.** A BITZER and a Guntner on a 29,000 contract is a tight job and the
+margin is unknown. **Get the Airtronics quote for this one before ordering** — it is the same
+supplier and the same week as LPO-210.
+
 ### OL-083 — The Oscar Prime 119,000 transfer reads "Pending Approval", not paid
 **Owner:** Farhan · **Raised:** 2026-10-14 · **Value:** QAR 119,000 · **VERIFY THE CREDIT**
 
