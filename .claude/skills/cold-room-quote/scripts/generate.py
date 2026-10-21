@@ -465,6 +465,7 @@ def remove_pictures(doc, spec):
         _drop_caption(para)
         para.getparent().remove(para)
         _collapse_blanks(doc, item["after"].upper(), item["before"].upper())
+        _collapse_blanks_before(doc, item["after"].upper())
 
 
 def _drop_caption(para):
@@ -485,6 +486,26 @@ def _drop_caption(para):
     if all(r.find(qn("w:rPr")) is not None
            and r.find(qn("w:rPr")).find(qn("w:i")) is not None for r in runs):
         nxt.getparent().remove(nxt)
+
+
+def _collapse_blanks_before(doc, anchor):
+    """Drop the blank paragraphs sitting immediately above a section heading.
+
+    The master pads each section with empty paragraphs, sized so the page
+    breaks where its photograph wants it. Take the photograph out and that
+    padding is left over — and, landing at the top of a fresh page, it pushes
+    the heading down an inch for no reason.
+    """
+    els = list(doc.element.body.iterchildren())
+    text = [" ".join(t.text or "" for t in e.iter(qn("w:t"))).upper() for e in els]
+    start = next((i for i, s in enumerate(text) if anchor in s), None)
+    if start is None:
+        return
+    i = start - 1
+    while i >= 0 and els[i].tag == qn("w:p") and not text[i].strip() \
+            and els[i].find(".//" + qn("a:blip")) is None:
+        els[i].getparent().remove(els[i])
+        i -= 1
 
 
 def _collapse_blanks(doc, after, before, keep=1):
