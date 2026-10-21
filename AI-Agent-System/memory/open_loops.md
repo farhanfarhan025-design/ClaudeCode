@@ -2847,6 +2847,53 @@ follows the refrigerant.
 margin is unknown. **Get the Airtronics quote for this one before ordering** — it is the same
 supplier and the same week as LPO-210.
 
+### OL-102 — Mr. Akbar: 73 sqm quoted against a 68.08 sqm room, and the gauge question rides again
+**Owner:** Farhan · **Raised:** 2026-10-21 · **Value:** QAR 9,330
+
+**QUT/DCTS/254/2026** — Mr. Akbar, supply only of **73.00 sqm of 100 mm PIR panel at 115/sqm =
+8,395** plus **17 aluminium angles at 55 = 935**, total **9,330**. Room 6.50 x 2.14 x 2.33 m.
+100% with order, 07-10 days. **New client — no company, no address, no telephone.**
+
+**THE QUANTITY DOES NOT COME OUT OF THE ROOM, AND FARHAN SHOULD KNOW BY HOW MUCH.**
+
+| | sqm |
+|---|---|
+| Walls 2 x (6.50 + 2.14) x 2.33 | 40.26 |
+| Ceiling 6.50 x 2.14 | 13.91 |
+| Floor 6.50 x 2.14 | 13.91 |
+| **Walls + ceiling + floor** | **68.08** |
+| **Quoted** | **73.00** |
+| Difference | **+4.92 (7.2%)** |
+
+**7.2% reads as a normal cutting and fitting allowance and the quotation says so in note 2** —
+it is not presented as a measured area. **But it only works if the floor is panelled.** Without
+the floor the room needs **54.17 sqm**, and 73.00 would be **35% over.** Note 3 therefore asks
+the client to confirm, in writing and before the cutting list is released, whether the quantity
+includes the floor panel. **Farhan should settle that before this goes out** — on a supply-only
+order the client pays for every square metre either way.
+
+**The price is above the two panel rates on file.** Al Buhsain quote TNDK **102/sqm** for 100 mm
+(LPO-208, 385.20 sqm) and the Geo Panel order ran near **95/sqm**. At **115/sqm** the gross margin
+is roughly **11-13%** on a supply-only sale with no installation risk and no labour — thin for a
+trade sale, and that is before cutting waste on a small order, which carries proportionally more.
+**A 73 sqm order is a minimum-quantity order at the mill and may be priced above the big-job
+rate.** Check the buying price for this quantity before the order is accepted.
+
+**Specified at 0.50 mm PPGI, as every TNDK quotation does.** The supplier has been quoting
+**0.45 mm, then 0.43 mm** (OL-044, OL-067, OL-080) — so this is the fourth document promising a
+gauge the supply chain has not been delivering. **Note 4 commits TNDK to advise in writing before
+despatch if the mill supplies a different facing thickness.** On a supply-only sale the client
+can measure the skin with a gauge; there is nowhere to hide.
+
+**PIR specified rather than PUR, as Farhan asked**, and the quotation says why it matters — PIR
+chars instead of melting and is the preferred core where fire performance is called for.
+**TNDK's standard cold room quotations all say "polyurethane (PUF)".** If the mill is actually
+supplying PUR, this document promises something different from the standard product.
+
+**Assumed, not given by Farhan:** 100% with order, 07-10 days delivery, 12 month warranty against
+manufacturing defect, the supply-only fencing, and the storage and offloading conditions. He gave
+dimensions, quantity, the two rates and the word PIR.
+
 ### OL-083 — The Oscar Prime 119,000 transfer reads "Pending Approval", not paid
 **Owner:** Farhan · **Raised:** 2026-10-14 · **Value:** QAR 119,000 · **VERIFY THE CREDIT**
 

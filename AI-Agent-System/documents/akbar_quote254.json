@@ -1,0 +1,51 @@
+{
+  "type": "quotation",
+  "badge": ["SUPPLY", "QUOTATION"],
+  "number": "QUT/DCTS/254/2026",
+  "date": "21-10-2026",
+  "ref": "15 days from date of quotation",
+  "meta_labels": ["QUOTATION NO", "DATE", "VALIDITY"],
+  "currency": "QAR",
+  "filename": "Quotation_QUT-DCTS-254-2026_MrAkbar_100mm_SandwichPanel",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "TO",
+    "name": "Mr. Akbar",
+    "fields": [
+      "State of Qatar",
+      {"label": "Subject", "value": "Supply of 100 mm PIR insulated sandwich panel and aluminium angles"},
+      {"label": "Room size", "value": "6.50 m (L) x 2.14 m (W) x 2.33 m (H)"},
+      {"label": "Supply", "value": "Material supply only — installation not included"},
+      {"label": "Delivery", "value": "07 - 10 days from the confirmed order and payment"}
+    ]
+  },
+  "lines": [
+    {
+      "description": "100 mm PIR INSULATED SANDWICH PANEL — SUPPLY ONLY\nFor a room of 6.50 m (L) x 2.14 m (W) x 2.33 m (H).\n\nPANEL CONSTRUCTION\nPanel type: Pre-insulated sandwich panel, factory foamed, continuous line production\nPanel thickness: 100 mm\nInsulation core: Injected PIR (polyisocyanurate), closed cell, CFC and HCFC free, zero ODP\nCore density: 40 ± 2 kg/m3\nThermal conductivity (k): 0.020 - 0.022 W/m.K (typical)\nClosed cell content: not less than 90% (typical)\nFire performance: Class B / self-extinguishing. PIR chars rather than melting and is the preferred core where fire performance is called for\nService temperature: suitable for continuous duty from -40 C to +80 C\n\nFACINGS\nSkin material: Pre-painted galvanised steel (PPGI), both faces\nSkin thickness: 0.50 mm each face\nFinish: Food-grade white, polyester coated over galvanised substrate\nProfile: Lightly stucco embossed / plain, as per mill standard\n\nJOINTING\nLocking system: Cam-lock / hook-lock with tongue-and-groove edge for a tight, leak-proof joint\nJoint sealing: PVC gasket to the panel edge; joints to be silicone sealed on fixing\nPanel width: Standard mill module width, lengths cut to the sizes required\n\nQUANTITY\n73.00 sqm of 100 mm PIR panel, cut to size for the walls, ceiling and floor of the above room, inclusive of an allowance for cutting and fitting.",
+      "unit": "Sqm",
+      "qty": 73,
+      "rate": 115.00
+    },
+    {
+      "description": "ALUMINIUM ANGLE\nAluminium angle / corner trim for the panel joints and corners, mill finish, supplied in standard mill lengths. For sealing and trimming of the wall-to-wall, wall-to-ceiling and wall-to-floor junctions.",
+      "unit": "Nos",
+      "qty": 17,
+      "rate": 55.00
+    }
+  ],
+  "grand_total_label": "TOTAL",
+  "notes": [
+    "SUPPLY ONLY. This offer is for the supply of material to your site or for collection from our store. Installation, erection, cutting on site, sealing, silicone, fixings, coving, doors, refrigeration, electrical work and civil work are not included and have not been priced.",
+    "QUANTITY. The 73.00 sqm quoted is the panel area for the room stated, inclusive of an allowance for cutting and fitting. The exact cutting list is to be confirmed in writing before the panels are cut. Panels are cut to order and are therefore not returnable or exchangeable, and any quantity ordered above the cutting list is to your account.",
+    "PANEL SIZES TO BE CONFIRMED BEFORE CUTTING. Please confirm the finished room dimensions, whether the quantity is to include the floor panel, and the position of the door opening, before we release the cutting list to the factory. A panel cut to the wrong size cannot be made good.",
+    "The specification above is the standard product. Core density, conductivity, closed cell content and fire classification are the manufacturer's typical published values and the manufacturer's data sheet governs. Should the mill supply a facing of a different thickness or a core of a different classification, we shall advise you in writing before despatch.",
+    "WARRANTY: twelve (12) months from the date of delivery against manufacturing defect in the panels and angles supplied. Excludes damage in handling, transport by others, storage, cutting or erection; distortion caused by incorrect fixing or inadequate support; and any defect arising after the material has been cut or installed by others.",
+    "Offloading at site and safe storage are to your account. Panels are to be stored flat, clear of the ground, under cover and protected from direct sun until erected.",
+    "PAYMENT: 100% with the confirmed order. Prices are in Qatari Riyals, ex our store, and are valid for 15 days from the date of this quotation."
+  ]
+}
