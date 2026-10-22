@@ -2823,6 +2823,15 @@ list, the floor area and the price.
 **Guntner GASC RX 031.1/1WN/FFA7E**, R404A. **INV-287/2026 raised for the 75% advance, 21,750**;
 then 5,800 on delivery and 1,450 at handover. **14-18 days, material delivery 3-5 days.**
 
+**ADVANCE SETTLED IN FULL 22-10-2026.** 21,750 received by **Fawran outward transfer, status
+Approved**, from QIIB a/c QA73 QIIB 0000 0000 1113 1971 01001, request raised by **Mr. Shameem
+Parakkal**, credited to the Commercial Bank IBAN through the **CR-199351 alias**. Receipted under
+**RCT-288/2026**. **Two days from invoice to cleared funds.** Balance 7,250.
+
+**The Fawran reference number is not in the screenshot** — it is below the visible area. The
+instrument is traceable on the debit IBAN, date and amount, but **the reference belongs in the
+bank register**; ask for the full slip.
+
 **The take-off checks out.** Walls 30.48 + ceiling 8.70 + floor 8.70 = **47.88 sqm**, and
 4.35 x 2.00 x 2.40 = **20.88 cbm**. Both as stated.
 

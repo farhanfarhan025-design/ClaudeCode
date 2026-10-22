@@ -58,7 +58,7 @@ keying error — see OL-027.
 | Insulated sectional overhead doors (4 nos.) | Oriental Agro Trading | QUT/DCTS/036/2026 R1 | **Doha Cooling** | 81,000 | 81,000 | 0 — settled 11-05-2026 |
 | Flower chiller cold room, Semaisma | Mr. Hamad Abdulla J S Al-Sulaiti (Flower Shop) | CON/TNDK/058/2026, 08-06-2026 | Contract | 25,000 | not recorded | **not recorded — completed 2026 per Farhan** |
 | Freezer room + preparation room, epoxy floor | **Bismi Group International W.L.L.** (C.R. 178652) | **CON/TNDK/SQ118/2026**, 17-10-2026, on QUT/DCTS/SQ118/2026 Rev. | **Contract** | **110,000** | **30,000** (22,000 cash + QNB cheque **00000221** dated 19-10-2026 for 8,000, RCT-285/2026) | **80,000** — advance balance **25,000 due before commencement**; then 33,000 before machine delivery, 11,000 before epoxy, 11,000 on handover |
-| Chiller room 4.35 x 2.00 x 2.40 m + refrigeration | **M/s. Panda Cakes** | QUT/DCTS/SQ121/2026 Rev. — approved 20-10-2026 | Quote — approved | **29,000** | 0 | **29,000** — INV-287/2026 for the 75% advance 21,750; then 20% on delivery 5,800, 5% handover 1,450 |
+| Chiller room 4.35 x 2.00 x 2.40 m + refrigeration | **M/s. Panda Cakes** | QUT/DCTS/SQ121/2026 Rev. — approved 20-10-2026 | Quote — approved | **29,000** | **21,750** (Fawran transfer, QIIB, 22-10-2026, RCT-288) | **7,250** — 20% on delivery 5,800, 5% handover 1,450. **Advance settled in full; programme running from 22-10-2026** |
 | Civil works + floor heating for frost heave prevention | Al Mairqab Industrial Investment (Aalaf) | QUT/DCTS/042/2026 Rev., 19-10-2026 | Quote | **31,000** | 0 | **quoted, not won** — 100% advance, 10-15 days |
 | 3 nos ALCO power assemblies XB-1019-NW100-1B (R-407C) | Westin Hotel | DCTS-INV-007/2026, 19-10-2026 | **Doha Cooling** | **1,800** | 0 | **1,800** — due on presentation, supply only |
 | 3 nos Carrier air curtains to a 4.50 x 3.00 m door | Green Land Qatar | QUT/DCTS/242/2026 Rev. — approved 18-10-2026 | Quote — approved | **7,300** | **3,500** (mode not recorded) | **3,800** — INV-283/2026, due on presentation. **Work complete and handed over** |
@@ -344,7 +344,7 @@ The larger of the two has collected nothing.
 
 | Series | Next free |
 |---|---|
-| Invoice / Receipt | next after **287** — one running series: 261 cancelled, 263 Al Zahrawi, 264/265 Oscar Prime, 266 Stop n Shop invoice, 267 Stop n Shop receipt, 268 Lean N Fit inspection, 269 Home-Made by Earth advance, 270 Dana Hypermarket door handle, 271 BSI cold room checkup, 272 One A Design + Build advance, 273 Sunrise final receipt, 274 One A advance receipt, 275 One A second invoice, 276 HBK Mesaieed advance, 277 Everbloom advance, 278 Oscar Prime advance, 279 Oscar Prime advance receipt, 280 Everbloom advance receipt, 281 Ruwais Farm expansion valve, **282 Evergreen Refrigeration defrost heaters, 283 Green Land air curtains balance, 284 Bismi Group International advance, 285 Bismi part advance receipt, 286 Ruwais Farm settlement receipt, 287 Panda Cakes advance**. None yet in the Drive log |
+| Invoice / Receipt | next after **288** — one running series: 261 cancelled, 263 Al Zahrawi, 264/265 Oscar Prime, 266 Stop n Shop invoice, 267 Stop n Shop receipt, 268 Lean N Fit inspection, 269 Home-Made by Earth advance, 270 Dana Hypermarket door handle, 271 BSI cold room checkup, 272 One A Design + Build advance, 273 Sunrise final receipt, 274 One A advance receipt, 275 One A second invoice, 276 HBK Mesaieed advance, 277 Everbloom advance, 278 Oscar Prime advance, 279 Oscar Prime advance receipt, 280 Everbloom advance receipt, 281 Ruwais Farm expansion valve, **282 Evergreen Refrigeration defrost heaters, 283 Green Land air curtains balance, 284 Bismi Group International advance, 285 Bismi part advance receipt, 286 Ruwais Farm settlement receipt, 287 Panda Cakes advance, 288 Panda Cakes advance receipt**. None yet in the Drive log |
 | Statement of account | next after **SOA/DCTS/001/2026** (Stop n Shop, 13-09-2026) — series opened that day; TNDK had none. Doha Cooling uses the client AS- series: **AS-2026-9456** (Oriental Agro, 26-09-2026) supersedes AS-2026-9455 |
 | Receipt | RCT-257/2026 |
 | Quotation | next after **QUT/DCTS/254/2026** (Mr. Akbar, 21-10-2026); then QUT/DCTS/253/2026 (Iranian Kitchen, 19-10-2026); before that QUT/DCTS/252/2026 (251 taken by LTR/DCTS/251, the Geo Panel cancellation), plus the SQ038 / SQ074 series — see OL-018. **247 and 248 were consumed by the letter series** (LTR/DCTS/247 Home-Made by Earth, LTR/DCTS/248 One A) — letters share the quotation serial, so 249 was the next free number |
@@ -435,9 +435,9 @@ column (DCTS / TNDK) carries the split. R1, two sections on the TNDK letterhead,
 
 | | Instruments | QAR |
 |---|---|---|
-| TNDK — cheques and transfers | **15** | **437,205.00** |
+| TNDK — cheques and transfers | **16** | **458,955.00** |
 | Doha Cooling — Oriental Agro cheques | 4 | 718,000.00 |
-| **Total banked** | **19** | **1,155,205.00** |
+| **Total banked** | **20** | **1,176,955.00** |
 
 **Instruments on file — TNDK:**
 
@@ -457,6 +457,7 @@ column (DCTS / TNDK) carries the split. R1, two sections on the TNDK letterhead,
 | Everbloom | 20261006QNBAQAQAXXXH02184180 / MB261006530403 | QNB | 06-10-2026 | 12,750.00 |
 | Oscar Prime | transfer ref **061026A7317** | Commercial Bank | 06-10-2026 | 119,000.00 |
 | Ruwais Farm | Fawran **FT262919GGJ5** | QIB | 18-10-2026 | 1,750.00 |
+| M/s. Panda Cakes | Fawran outward, approved — debit a/c QA73 QIIB 0000 0000 1113 1971 01001 | QIIB | 22-10-2026 | 21,750.00 |
 | Bismi Group International | cheque **00000221**, A/C payee only | QNB | 19-10-2026 | 8,000.00 |
 
 **Doha Cooling — Oriental Agro, QNB cheques:** 000000067 (209,000), 000000069 (209,000), 60000076
