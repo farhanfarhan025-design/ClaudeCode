@@ -340,6 +340,13 @@ missing lead time.
 Top-2 clients = **86.2%** of the order book (Mesaieed 52.8% + CCC 33.4%, on 758,100).
 The larger of the two has collected nothing.
 
+## Standing rule — vendor documents name no client
+
+**Farhan, 22-10-2026, on LPO-211.** The end client, the site and the project reference do not
+appear on any document a supplier sees, **including the filename**, which travels with the
+attachment. State the technical duty a vendor needs to confirm their own selection; name nobody.
+A supplier who knows whose job it is can price the next one accordingly, or go direct.
+
 ## Numbering — next free (as at 13 July 2026)
 
 | Series | Next free |

@@ -2916,6 +2916,12 @@ advance **21,750 already banked** (RCT-288), machine **8,200** — **28% of the 
 out of an advance that is 2.65 times its size.** The cash sequence on this job is the healthiest
 in the book: money in before material out.
 
+**REISSUED 22-10-2026 WITH THE CLIENT REMOVED.** Farhan: *"never ever mention to my supplier
+about which project."* The Project line is gone from the vendor block and **the client's name is
+out of the filename**, which travels with the attachment. The room duty stays in note 4 — the
+vendor needs it to confirm their own selection, and it names nobody. **Now a standing rule for
+every vendor document**, recorded in `durable_facts.md` and in the house format.
+
 **Three defects in their quotation, all answered in the LPO:**
 
 1. **Payment terms read only "AS PER TERMS".** That is not a term. **Note 2 says no terms are

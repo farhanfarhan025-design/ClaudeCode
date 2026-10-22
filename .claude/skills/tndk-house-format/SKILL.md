@@ -188,6 +188,22 @@ also keeps the text crisp — a yellow laid over the text washes it out.
 
 Keep the unhighlighted PDF too; the highlighted one is the copy that leaves the office.
 
+## Never name the client on a vendor document
+
+Farhan ruled on 22 October 2026, on LPO-211: **the end client is not to appear on anything a
+supplier sees.** A vendor who knows whose job it is can price the next one knowing what TNDK
+charges, or approach the client directly.
+
+So an LPO carries the duty but not the customer. State the room size, temperature, refrigerant
+and ambient where the vendor needs them to confirm their own selection — that protection is worth
+keeping — and leave out the client's name, the site and the project reference.
+
+**The filename travels with the attachment**, so strip it from there too. `LPO-211-2026_
+DohaControls_BitzerCDU_GuntnerEvaporator` is right; adding the client's name to it is not.
+
+The JSON kept in `documents/` is internal and may name the job in its own notes; the PDF that
+goes to the vendor may not.
+
 ## Before it goes anywhere
 
 The renderer produces a **draft**. No agent sends anything to a client, vendor or bank —
