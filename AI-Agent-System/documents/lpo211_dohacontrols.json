@@ -1,0 +1,49 @@
+{
+  "type": "lpo",
+  "number": "LPO-211/2026",
+  "date": "22-10-2026",
+  "ref": "Offer 107/QTN262083 dated 21-10-2026",
+  "currency": "QAR",
+  "filename": "LPO-211-2026_DohaControls_BitzerCDU_Guntner_PandaCakes",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "VENDOR INFORMATION",
+    "name": "Doha Controls Trading W.L.L.",
+    "fields": [
+      "Doha, State of Qatar",
+      {"label": "Attention", "value": "Mr. Mohana Kumar — Front Office Sales Coordinator  |  Mob: 7479 6823"},
+      {"label": "Project", "value": "Panda Cakes — one (1) chiller room 4.35 x 2.00 x 2.40 m, 0 °C to +8 °C"},
+      {"label": "Payment Terms", "value": "To be confirmed — your quotation states \"AS PER TERMS\""},
+      {"label": "Delivery Terms", "value": "Collection from your showroom — ex-stock, subject to prior sale"}
+    ]
+  },
+  "lines": [
+    {
+      "description": "RIME air-cooled condensing unit, RLUM-B021Y-1B, with BITZER semi-hermetic reciprocating compressor 2GES-2Y-40S, 380 - 420 V / 3 Ph / 50 Hz — part no. CDU-2GES2Y-RM",
+      "unit": "Pcs",
+      "qty": 1,
+      "rate": 5765.00
+    },
+    {
+      "description": "GUNTNER evaporator — GASC RX 031.1/1WN/FFA7E.TNNN — part no. GP-311FF-A7E",
+      "unit": "Pcs",
+      "qty": 1,
+      "rate": 2435.00
+    }
+  ],
+  "grand_total_label": "TOTAL ORDER VALUE",
+  "notes": [
+    "Placed against your quotation 107/QTN262083 dated 21-10-2026, net QAR 8,200.00. Please acknowledge this order in writing and confirm stock availability and the collection date.",
+    "PAYMENT TERMS ARE NOT STATED ON YOUR QUOTATION, which reads only \"AS PER TERMS\". Kindly confirm your payment terms in writing with your acknowledgement of this order. No terms are agreed until you have done so.",
+    "PLEASE RAISE YOUR INVOICE AGAINST THIS ORDER AND IN THE NAME SHOWN ABOVE. Your quotation is addressed to Doha Cooling Trading & Solutions W.L.L.; this purchase is made by The New Doha Kitchen Equipment Services W.L.L., C.R. 199351, and the invoice is to be raised in that name, quoting LPO-211/2026.",
+    "SELECTION IS YOURS. The unit and the evaporator are selected by yourselves for a chiller room of 4.35 x 2.00 x 2.40 m (20.88 cbm) operating at 0 °C to +8 °C on R404A at a design ambient of 46 °C. Please confirm in writing that this selection carries the room at that duty with the compressor running not more than sixteen (16) hours per day, and confirm that R404A is the refrigerant you recommend for this chiller duty rather than R134a or R449A.",
+    "ITEMS NOT ON THIS ORDER. This order covers the condensing unit and the evaporator only. The following are required to complete the installation and are not included: the refrigerant charge, the thermostatic expansion valve, filter drier and sight glass, the interconnecting copper tube and fittings, Armaflex insulation, the insulated condensate drain line, and the digital control panel. Please quote these separately, stating the refrigerant charge in kg for this system.",
+    "SPECIFICATION CONFIRMED AS ABOVE. The makes, models, part numbers and quantities stated are what we are ordering and what is to be supplied. Any substitution of make, model, capacity or refrigerant requires our prior written approval before collection; goods supplied against a substitution we have not approved are liable to be returned at your cost.",
+    "All items are to be supplied new, in original manufacturer's packing, with the manufacturer's data plate, warranty documentation, wiring details and the unit selection printout. We will inspect at collection and may reject on the spot. The prices are fixed and no handling, transport or other charge will be accepted beyond the total order value above."
+  ]
+}

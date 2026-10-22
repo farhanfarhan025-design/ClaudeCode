@@ -2903,6 +2903,42 @@ supplying PUR, this document promises something different from the standard prod
 manufacturing defect, the supply-only fencing, and the storage and offloading conditions. He gave
 dimensions, quantity, the two rates and the word PIR.
 
+### OL-103 — Panda Cakes machine bought at 8,200, and the first costed margin in months
+**Owner:** Farhan · **Raised:** 2026-10-22 · **Value:** QAR 8,200 committed
+
+**LPO-211/2026** to **Doha Controls Trading W.L.L.** against offer 107/QTN262083 of 21-10-2026:
+**RIME air-cooled condensing unit RLUM-B021Y-1B with BITZER 2GES-2Y-40S at 5,765** and a
+**Guntner GASC RX 031.1/1WN/FFA7E at 2,435** = **8,200**. Collection from their showroom,
+ex-stock subject to prior sale, 7 day validity. Models match quotation SQ121 exactly.
+
+**THIS IS THE FIRST JOB IN MONTHS WITH A REAL COST LINE AGAINST IT.** Contract **29,000**,
+advance **21,750 already banked** (RCT-288), machine **8,200** — **28% of the contract value, paid
+out of an advance that is 2.65 times its size.** The cash sequence on this job is the healthiest
+in the book: money in before material out.
+
+**Three defects in their quotation, all answered in the LPO:**
+
+1. **Payment terms read only "AS PER TERMS".** That is not a term. **Note 2 says no terms are
+   agreed until they confirm in writing.** Until they do, TNDK does not know whether this is cash
+   on collection or 30 days — on 8,200 it matters to the Bismi cash plan.
+2. **Their quotation is addressed to DOHA COOLING TRADING AND SOLUTION WLL.** The Panda Cakes job
+   is TNDK's — SQ121, INV-287 and RCT-288 are all on TNDK paper, C.R. 199351. **Note 3 requires
+   the invoice in TNDK's name quoting this LPO.** Left alone, the purchase lands in the wrong
+   entity's books against a sale in the other's, which is the same entity confusion as the
+   Westin invoice (OL-099).
+3. **The order does not complete the installation.** No refrigerant, no expansion valve, filter
+   drier or sight glass, no copper, no Armaflex, no drain line, no control panel — **all of which
+   TNDK has sold to Panda Cakes in writing.** Note 5 asks for them to be quoted separately.
+
+**R404A on chiller duty is queried in writing** (note 4), with R134a and R449A named as the
+alternatives, alongside the usual request to confirm the selection carries 20.88 cbm at 0 to
++8 C on a 16 hour run time.
+
+**Rough position on this job:** machine 8,200 + panel 47.88 sqm at about 102 = 4,884 + door,
+flooring, control panel, piping, gas and labour. **The contract has room**, which neither Bismi
+nor Oscar Prime can be said to have with confidence. **Price the rest and this becomes the first
+fully costed job since Capital Grille.**
+
 ### OL-083 — The Oscar Prime 119,000 transfer reads "Pending Approval", not paid
 **Owner:** Farhan · **Raised:** 2026-10-14 · **Value:** QAR 119,000 · **VERIFY THE CREDIT**
 
