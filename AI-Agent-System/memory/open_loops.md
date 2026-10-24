@@ -2945,6 +2945,52 @@ flooring, control panel, piping, gas and labour. **The contract has room**, whic
 nor Oscar Prime can be said to have with confidence. **Price the rest and this becomes the first
 fully costed job since Capital Grille.**
 
+### OL-104 — Panda Cakes panel ordered at 0.40 mm Aluzinc against 0.50 mm PPGI sold, and the floor is missing
+**Owner:** Farhan · **Raised:** 2026-10-24 · **Value:** QAR 4,037.60 · **TWO GAPS, BOTH CHECKABLE**
+
+**LPO-212/2026** to **Geo Panel** against GEO/Q3485 Rev. 1: **41.20 sqm of 100 mm cold room panel
+at 98.00 = 4,037.60.** 100% in advance, ex-works Mesaieed, 07-10 days. **Client not named
+anywhere, per the standing rule.** Third Geo Panel order — 203 (cancelled), 204, now 212.
+
+**THE CUT LIST BUYS THE WALLS AND THE CEILING, NOT THE FLOOR.**
+
+| | |
+|---|---|
+| Walls — perimeter 2 x (4.35 + 2.00) = 12.70 m, height 2.40 | 13 pcs x 2.40 m = **31.20 sqm** |
+| Ceiling — 4.35 x 2.00 | 5 pcs x 2.00 m = **10.00 sqm** |
+| **Ordered** | **41.20 sqm** |
+| Floor — 4.35 x 2.00 | **8.70 sqm — NOT ORDERED** |
+
+**Quotation SQ121 sells an insulated floor**: *"100 mm PUF sandwich panels for walls, ceiling &
+floor (47.88 sqm)"* and a separate priced item for *"100 mm PUF floor panel + 18 mm marine-grade
+plywood + 1.2 mm MS chequered plate (8.70 sqm)"*. **The client has paid a 75% advance against a
+specification that includes a floor panel this order does not buy.** Either order the 8.70 sqm or
+confirm it is coming from stock — but it cannot simply be absent.
+
+**THE FACING IS 0.40 mm ALUZINC. THE CLIENT WAS SOLD 0.50 mm PPGI.**
+
+Quotation SQ121, section 1: *"0.5 mm pre-painted galvanized steel (PPGI), food-grade white."*
+Geo Panel's offer: **0.40 mm pre-painted Aluzinc**, both faces. **Two differences, not one** —
+**20% thinner**, and **Aluzinc rather than galvanised**. This is OL-044, OL-067 and OL-080 for the
+fourth time, and it is the first time the two documents sit a week apart on the same job.
+
+**0.40 mm is measurable with a gauge by anyone who cares to.** The LPO orders what was quoted,
+because that is the price basis, but **note 3 requires written notice before production of any
+change in thickness, coating or substrate and says we measure at inspection.** **Farhan's
+decision, before he pays:** accept 0.40 Aluzinc and correct the client quotation, or pay Geo
+Panel for 0.50 PPGI and keep the promise made.
+
+**The core is PIR at 40 ± 2**, where SQ121 says polyurethane (PUF). PIR is the better core, so
+no harm done to the client — but the quotation template says PUF on every job and the mills are
+supplying PIR. **Update the template.**
+
+**Price 98.00/sqm** against Al Buhsain's 102.00 (LPO-208) and the 115.00 quoted to Mr. Akbar
+(OL-102). **Geo is the cheapest panel on file**, which is consistent with the thinner facing.
+
+**Clause 8 of their terms — the right to raise the price after confirmation if raw material costs
+move — is rejected in note 4** and forms no part of the order. It is one-sided and they have
+used the same terms on every quotation.
+
 ### OL-083 — The Oscar Prime 119,000 transfer reads "Pending Approval", not paid
 **Owner:** Farhan · **Raised:** 2026-10-14 · **Value:** QAR 119,000 · **VERIFY THE CREDIT**
 
