@@ -147,6 +147,12 @@ pins 3 mm in its own spec, so it still reproduces its source document.
 | `row_labels` | list of `{from, to}` — rewrites a table row's **label**, matched exactly on the text it currently carries. Section 5 is written around a remote condensing unit; a job selling the compressor alone has to relabel the row, not merely restate its value. It runs last, so `machine_rows` and the rest still key on the master's own labels |
 | `table_images` | list of `{table, images}` — swaps those photographs. `images` matches the table's pictures in document order, each entry a `{path, caption, height_in}` or `null` to leave that one alone; the caption is written into the paragraph under the picture. Section 5 is drawn as a condensing unit beside an evaporator, so a monoblock job has to change both pictures and both captions together |
 
+`template/glass-front.png` is the house photograph of a glazed display room —
+toughened glass front and returns, two-leaf sliding glass doors with stainless
+pull handles, chequered plate floor and a ceiling unit cooler. Pass it as
+`door.image` on a display chiller, where the master's hinged-door artwork says
+nothing about what is being sold.
+
 `template/panel-pir-100mm.jpg` is the house PIR panel sheet — 100 mm, 1000 mm
 effective width, density 40 ± 2 kg/m³, 0.40 – 0.60 mm pre-painted GI / SS /
 Alu-Zn skins, B-s1 d0, k = 0.021 W/m·K, cam-lock joint. `replace` the master's
