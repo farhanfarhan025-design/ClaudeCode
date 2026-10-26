@@ -41,6 +41,7 @@ change, and the renderer already knows them — do not override them casually:
 | `quotation` | QUOTATION | TO | yes | `Farhan / Sales Engineer` |
 | `work_order` | WORK / ORDER | JOB & SITE DETAILS | no | completed-by / checked-by, adds a DONE tick column |
 | `handover` | HANDOVER / CERTIFICATE | HANDOVER TO | no | handed-over-by / received-and-accepted-by, adds a VERIFIED tick column |
+| `handover_report` | HANDOVER / REPORT | HANDOVER TO | no | computer-generated callout, **no signature**; adds a STATUS column |
 
 A work order is the sheet the technicians carry. It takes an approved quotation's scope and
 turns it into numbered, ticked instructions, so the job that was sold is the job that gets
@@ -52,6 +53,14 @@ for free.
 A handover certificate is a checklist signed at site: each line is ticked by both parties, and
 the client's signature starts the warranty. Leave the verification column as `"☐"` rather than
 asserting a test passed — a certificate that pre-ticks its own checks is worthless as evidence.
+
+A **handover report** is the other half of that pair and the distinction matters. It is TNDK's
+own account of what was done, checked and left behind, issued computer-generated with no
+signature at all, so its STATUS column *does* state the outcome — Complete, Passed, Re-used,
+Handed over. Farhan asked for one on Everbloom, 26 October 2026. **It records the handover; it
+does not evidence that the client accepted it.** Where that evidence is wanted, the certificate
+goes with it and the client signs that. Do not offer the report as a substitute for a signature
+the job needs.
 
 The footer follows the signature mode. Two-party documents say *"This document requires the
 signature of both parties to be valid"*; documents signed by one TNDK signatory say *"valid when

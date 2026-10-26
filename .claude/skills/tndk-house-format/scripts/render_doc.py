@@ -147,6 +147,22 @@ TYPES = {
         "extra_column": {"label": "DONE", "field": "result", "width": 11.0,
                           "align": "c", "position": "end"},
     },
+    "handover_report": {
+        # The record of a handover, as opposed to the certificate of one. The certificate is
+        # signed at site by both parties and is the evidence the client accepted; this is
+        # TNDK's own account of what was done, checked and left behind, issued like an LPO
+        # with no signature at all. Farhan asked for it on Everbloom, 26 October 2026.
+        # It states what was handed over; it does not evidence that the client agreed.
+        "badge": ["HANDOVER", "REPORT"],
+        "party": "HANDOVER TO",
+        "meta": ["REPORT NO", "DATE", "REF"],
+        "counterparty": "CLIENT",
+        "money": False,
+        "sign": "computer",
+        "callout": "This Handover Report is system-generated and is valid without a physical signature.",
+        "extra_column": {"label": "STATUS", "field": "result", "width": 13.0,
+                          "align": "c", "position": "end"},
+    },
     "handover": {
         "badge": ["HANDOVER", "CERTIFICATE"],
         "party": "HANDOVER TO",
