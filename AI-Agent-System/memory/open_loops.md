@@ -3033,6 +3033,49 @@ different books.
 **Assumed, not given by Farhan:** 100% with order, 07-10 days, 12 month warranty, and the load,
 floor, fixing and layout conditions. He gave the supplier quotation and the uplift only.
 
+### OL-106 — Aalaf Rev. 2: the floor heating is dead, vent pipes replace it, and a cold room is undrawn-for
+**Owner:** Farhan · **Raised:** 2026-10-26 · **Value:** QAR 23,450 · **SUPERSEDES OL-100**
+
+**QUT/DCTS/042/2026 Revision 2** — civil works **19,500 unchanged** plus **under-floor uPVC
+ventilation 3,950** = **23,450**. Drawings **TNDK-AA-CR-01 and -02 Rev. 5 of 26-10-2026**.
+
+**THE 11,500 FLOOR HEATING OF 19-10-2026 IS WITHDRAWN.** Drawing note 7 is explicit:
+*"REV 2 UNDER-FLOOR HEATER DELETED; VENT PIPES REINSTATED (REV 4)."* The floor build-up legend on
+sheet 2 lists eight items and **no heating cable**. Heating and ventilation are alternative cures
+for the same problem and only one is wanted — **so Rev. 2 prices the pipes and drops the heater.**
+Farhan also attached the **original** 19,500 quotation rather than the heated revision, which
+points the same way. **If he does want both, say so and the heating goes back at 11,500.**
+
+**The revision history on the drawing shows the design moving under the quotation:** vent pipes
+added at Rev. 1 (08-10), heater at Rev. 2 (19-10 — the day the heating was quoted), racks at
+Rev. 3, pipes reinstated at Rev. 4, rack sizes at Rev. 5, **three of those on 26-10 alone.**
+**Nothing should be ordered off a drawing revised three times in a day.**
+
+**What was quoted, from the drawing:** seven (7) uPVC Ø110 Class B pipes at **920 mm centres**
+across a **6200 x 5900 mm** room, one continuous length with no joint under the room, **1:100
+fall**, ends **≥300 mm beyond the panel face** with a down-facing bend and an **SS 304 mesh
+screen**, **≥40 mm PCC cover**. Note 2 of the quotation explains to the client why the ends must
+stay open — a blocked vent pipe is a floor that heaves, and the client will block them if nobody
+says not to.
+
+**TWO THINGS THE DRAWING SETTLES AND ONE IT EXPOSES.**
+
+1. **Rack anchoring is answered.** Drawing note 8: *"RACK BASE ANCHORS INTO RCC RAFT ONLY, MAX.
+   60MM DEEP - DO NOT PIERCE INSULATION / W.P."* **QUT/DCTS/255/2026 asks the client that very
+   question** (OL-105). The racking quotation can be reissued with it settled.
+2. **The slip sheet is not in the civil scope.** Item 2 of the floor build-up legend is a
+   **200 micron polyethylene slip sheet, laps 150 mm taped**, which the 19,500 scope does not
+   contain. **Note 5 excludes it and offers to quote.** The drawing also splits PCC into a base
+   and a screed where the quotation has a single 50 mm PCC — flagged in note 4.
+3. **THERE IS NO QUOTATION FOR THE COLD ROOM ITSELF.** The drawing shows **100 mm PU panel to
+   walls and ceiling, a 1500 x 2000 sliding door, a ceiling-hung evaporator and an outdoor
+   condensing unit**, with TNDK named on it as **COLD ROOM SUB-CONTRACTOR** — and the only Aalaf
+   documents on file are the floor (23,450) and the racking (17,235). **The largest part of this
+   job has never been priced.** Room 6200 x 5900 x 2900 external, interior 6000 x 5700.
+
+**Aalaf exposure if both current quotations land: 40,685** — and the cold room would add
+materially more again.
+
 ### OL-083 — The Oscar Prime 119,000 transfer reads "Pending Approval", not paid
 **Owner:** Farhan · **Raised:** 2026-10-14 · **Value:** QAR 119,000 · **VERIFY THE CREDIT**
 

@@ -1,0 +1,52 @@
+{
+  "type": "quotation",
+  "badge": ["CIVIL WORKS & VENTILATION", "QUOTATION"],
+  "number": "QUT/DCTS/042/2026",
+  "date": "26-10-2026",
+  "ref": "15 days from date of quotation",
+  "meta_labels": ["QUOTATION NO", "DATE", "VALIDITY"],
+  "currency": "QAR",
+  "filename": "Quotation_QUT-DCTS-042-2026_REV2_Aalaf_CivilWorks_VentPipes",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "TO",
+    "name": "Al Mairqab Industrial Investment (Aalaf)",
+    "fields": [
+      "P.O. Box 295, Doha, State of Qatar",
+      {"label": "Attention", "value": "Mr. Francis Lloyd De Ramos — Procurement Manager"},
+      "Tel: +974 4432 7766  |  francis@aalaf.com.qa",
+      {"label": "Subject", "value": "Civil works and under-floor uPVC ventilation to the cold room"},
+      {"label": "Reference drawings", "value": "TNDK-AA-CR-01 and TNDK-AA-CR-02, Rev. 5 dated 26-10-2026"},
+      {"label": "Status", "value": "REVISION 2 — supersedes our issue of 08-07-2026 and our revision of 19-10-2026"}
+    ]
+  },
+  "lines": [
+    {
+      "description": "CIVIL WORKS — LUMP SUM\n1. DEMOLITION — Demolition of the existing floor concrete and removal of waste material, approximately 300 mm deep from the existing level.\n2. INSULATION AND PREPARATION — Supply and installation of 40 mm foam sheet, levelling and compaction of the floor.\n3. RCC FLOOR — Supply and installation of 100 mm RCC floor concrete with 6 mm mesh (A6).\n4. PCC BASE — 50 mm PCC on the floor base.\n5. WATERPROOFING — Cementitious waterproofing works.\nConcrete prepared at site in accordance with QCS (Qatar Construction Specifications).",
+      "unit": "L.S",
+      "qty": 1,
+      "rate": 19500.00
+    },
+    {
+      "description": "UNDER-FLOOR uPVC VENTILATION — SUPPLY AND INSTALLATION\nTo drawings TNDK-AA-CR-01 and TNDK-AA-CR-02 Rev. 5. Room 6200 x 5900 mm external.\n1. PIPEWORK — Supply and installation of seven (7) Nos. uPVC Ø110 mm Class B ventilation pipes beneath the cold room floor, set out at 920 mm centres across the room width, each run in one continuous length with no joint beneath the room.\n2. FALL — Each pipe laid to a 1:100 fall so that any condensate drains clear and the pipe does not hold water.\n3. TERMINATIONS — Pipe ends taken not less than 300 mm beyond the panel face at both ends, each fitted with a uPVC 90 degree bend with the open end facing down and a stainless steel 304 mesh screen to the opening, to keep out vermin and debris.\n4. SETTING OUT AND PROTECTION — Pipes set out, levelled and fixed clear of the condensing unit supports, and the ends at the door side kept clear and protected from traffic during the works.\n5. COVER — Pipes laid within the floor build-up with not less than 40 mm PCC cover over the pipes, and the pipe line marked up before the screed is laid.\n6. All pipe, bends, mesh screens, fixings, setting out, labour and testing for free passage of air after the screed has been laid.",
+      "unit": "L.S",
+      "qty": 1,
+      "rate": 3950.00
+    }
+  ],
+  "grand_total_label": "GRAND TOTAL",
+  "notes": [
+    "REVISION 2. This quotation supersedes our quotation of the same number dated 08 July 2026 and our revision of 19 October 2026, both of which are withdrawn. The civil works scope and its price of QAR 19,500.00 are unchanged. The under-floor uPVC ventilation has been added at QAR 3,950.00, giving QAR 23,450.00. The floor heating system for frost heave prevention previously offered at QAR 11,500.00 is withdrawn, the under-floor heater having been deleted at Rev. 2 of the drawings and the ventilation pipes reinstated at Rev. 4. The two are alternative means to the same end and only one is required.",
+    "WHY THE PIPES ARE THERE. A cold room running below freezing over an insulated slab will, in time, cool the ground beneath it. The ventilation pipes let ambient air pass under the floor and carry that cold away, which is what prevents the ground freezing and the slab heaving. For that reason the pipe ends must be left permanently open and unobstructed, and must not be blocked, buried, covered over or built against at any time after handover.",
+    "SEQUENCE OF WORK. The pipes are laid within the floor build-up and are covered by the PCC screed, so the civil works and the pipework are a single operation and cannot be carried out separately or by different parties. We will test each pipe for free passage of air after the screed is laid and before the floor is handed over.",
+    "LEVELS TO BE VERIFIED JOINTLY ON SITE. Clear height, finished floor level, slab and PCC levels are to be confirmed jointly before the panels are ordered, as note 3 of the drawings requires. The thickness of the PCC base is to be confirmed on site; a materially greater thickness than the 50 mm quoted would be a variation.",
+    "NOT INCLUDED IN THIS QUOTATION. The polyethylene slip sheet shown at item 2 of the floor build-up legend on drawing TNDK-AA-CR-02 is not in the scope priced above and will be quoted on request. Epoxy works remain excluded as previously discussed, together with any structural work and any additional works outside the scope stated.",
+    "WARRANTY: twelve (12) months on our workmanship from the date of handover. Excludes blockage, crushing, damage or obstruction of the pipes by others after handover, and any movement, cracking or heave arising from a cause outside the works described above.",
+    "Payment Terms: 100% payment in advance prior to commencement of works. Work completion 10 - 15 days from date of confirmation / site handover. Site access, water and electricity to be provided by the client free of cost. Prices are in Qatari Riyals and are valid for 15 days from the date of this quotation."
+  ]
+}
