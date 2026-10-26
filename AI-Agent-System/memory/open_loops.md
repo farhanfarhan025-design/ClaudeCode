@@ -2991,6 +2991,48 @@ supplying PIR. **Update the template.**
 move — is rejected in note 4** and forms no part of the order. It is one-sided and they have
 used the same terms on every quotation.
 
+### OL-105 — Aalaf racking: the first quotation in months with its cost known before it was sent
+**Owner:** Farhan · **Raised:** 2026-10-26 · **Value:** QAR 17,235 · **MARGIN KNOWN: 6,700**
+
+**QUT/DCTS/255/2026** — Al Mairqab Industrial Investment (Aalaf), attn. Mr. Francis Lloyd De
+Ramos. **Six (6) heavy duty racking systems, 3 levels, 2,000 kg UDL per level, GI decking**:
+3 at 2700x1200x1800, 2 at 2400x1200x1800, 1 at 2400x900x1800. **17,235**, 100% with order,
+07-10 days. **Second live quotation to this client** alongside the 31,000 civil works and floor
+heating (OL-100) — Aalaf exposure if both land is **48,235**.
+
+**Bought from Lesson Trading Contracting and Services**, quotation QT 8174-2026 of 26-10-2026,
+attn. Mr. Tony: **10,535** for the six sets, delivery and installation included.
+**Farhan set the uplift at 6,700**, so the sell is 17,235 and the **margin is 38.9%** — against a
+house margin of 13.5% on cold room work. **Racking is a trading margin, not a contracting one**,
+and this is the most profitable line quoted since the Home-Made by Earth equipment (8,000 on
+49,300, 14.0%).
+
+**The uplift is spread across the three sizes, not shown as a line.** Cost 1,830 / 1,735 / 1,575
+becomes 2,950 / 2,850 / 2,685 — roughly 1,120, 1,115 and 1,110 per set, so the relative pricing
+stays sensible and no single item carries a visible mark-up. The client sees prices, not a cost
+plus a margin.
+
+**Two gaps in the supplier's offer that TNDK now carries:**
+
+1. **No lead time.** Their delivery term reads only *"DELIVERY + INSTALLATION"* with no period.
+   **TNDK has quoted the client 07-10 days without that being confirmed.** Pin it down with
+   Mr. Tony before the order is accepted, not after.
+2. **Validity 3 days** from 26-10-2026 — it expires 29-10. TNDK's own offer runs 15 days.
+   **If Aalaf approve in week two, the buying price may have moved.**
+
+**Their payment term is CASH / CDC ON DELIVERY** while TNDK has quoted the client 100% with
+order. That sequence works — money in before money out — **provided the client actually pays on
+order.** Aalaf is procurement-managed and may expect credit; the civil works quotation to them
+also says 100% in advance and has not yet been accepted.
+
+**The supplier's quotation is addressed to "DOHA COOLING"** while this sale is TNDK's. **Third
+time in two weeks** that a supplier has the wrong entity (OL-099 Westin, OL-103 Doha Controls).
+**Tell the suppliers once which company buys**, or the purchase and the sale keep landing in
+different books.
+
+**Assumed, not given by Farhan:** 100% with order, 07-10 days, 12 month warranty, and the load,
+floor, fixing and layout conditions. He gave the supplier quotation and the uplift only.
+
 ### OL-083 — The Oscar Prime 119,000 transfer reads "Pending Approval", not paid
 **Owner:** Farhan · **Raised:** 2026-10-14 · **Value:** QAR 119,000 · **VERIFY THE CREDIT**
 
