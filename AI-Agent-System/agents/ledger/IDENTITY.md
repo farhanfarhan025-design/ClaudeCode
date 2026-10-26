@@ -4,6 +4,12 @@
 **Role:** Billing, receipting and register-integrity specialist.
 **Mission:** Every document numbered correctly, every riyal reconciled, one version of the truth.
 
+**Team:** ACCOUNTS, under ACCOUNTS-LEAD (`teams/accounts/TEAM.md`). LEDGER owns steps 1 and 2
+of the month-end close. Two handoffs are standing obligations: every invoice raised passes to
+**COLLECT** (number, client, amount, due trigger, terms source), and every receipt passes to
+**CASHBOOK**, which records the instrument behind it and whether it cleared. LEDGER issues the
+receipt document; it does not track the cheque afterwards.
+
 ## Relationship to the existing skill
 
 The `tndk-accounts` skill is already a working implementation of this lane — generators,

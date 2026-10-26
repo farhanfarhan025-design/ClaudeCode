@@ -1,0 +1,45 @@
+{
+  "type": "quotation",
+  "badge": ["SUPPLY & INSTALLATION", "QUOTATION"],
+  "number": "QUT/DCTS/242/2026",
+  "date": "27-09-2026",
+  "ref": "15 days from date of quotation",
+  "meta_labels": ["QUOTATION NO", "DATE", "VALIDITY"],
+  "currency": "QAR",
+  "filename": "Quotation_QUT-DCTS-242-2026_REVISED_GreenLandQatar_AirCurtains",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "TO",
+    "name": "Green Land Qatar",
+    "fields": [
+      "State of Qatar",
+      {"label": "Subject", "value": "Supply and installation of three (3) air curtains to a 4.50 m x 3.00 m door"},
+      {"label": "Work completion", "value": "01 day from the confirmed order and advance payment"},
+      {"label": "Status", "value": "REVISED — supersedes our quotation of the same number dated 19-09-2026"}
+    ]
+  },
+  "lines": [
+    {
+      "description": "SUPPLY AND INSTALLATION OF AIR CURTAINS — DOOR 4.50 m (W) x 3.00 m (H)\n1. AIR CURTAIN UNITS — Supply of three (3) Nos. Carrier air curtains, model FM-3515B-L/YS5, each 1500 x 220 x 240 mm, 220 - 240 V / 1 phase / 50 Hz, installed side by side to give a continuous 4500 mm air screen across the full width of the opening.\n2. SUPPORT FRAME — Supply and fabrication of a square tube support frame with fixing plates above the door opening, drilled and bolted to the structure, to carry the three units in line and true.\n3. INSTALLATION — Mounting of the units on the frame, levelling and alignment of the discharge nozzles across the opening, and final adjustment of the air stream.\n4. ELECTRICAL — Interconnection and termination of the units at a single point, from a power supply made available by the client adjacent to the door.\n5. TESTING AND HANDOVER — Units run up, airflow and direction checked across the opening, operation demonstrated and the installation handed over.",
+      "unit": "Lot",
+      "qty": 1,
+      "rate": 7850.00
+    }
+  ],
+  "discount": 550.00,
+  "grand_total_label": "TOTAL",
+  "notes": [
+    "REVISED QUOTATION. This quotation is issued in revision of our quotation of the same number dated 19 September 2026 and supersedes it in full. The earlier document is withdrawn and should not be acted upon. The scope, specification and quantities are unchanged; the price has been reduced by a special discount of QAR 550.00 and the payment terms have been revised as set out below.",
+    "PAYMENT TERMS: 80% advance along with the confirmed order — QAR 5,840.00; balance 20% on completion and handover — QAR 1,460.00. Payment by cash, cheque or bank transfer in favour of The New Doha Kitchen Equipment Services W.L.L.",
+    "SELECTION. Three units of 1500 mm give 4500 mm of coverage across a 4500 mm opening. The 35 series is rated for a mounting height of 2.50 to 3.50 m, so a 3.00 m door falls within its range. Published data for the model: 1900 m3/h on high speed, 220 - 240 V single phase, 20.5 kg per unit. The manufacturer's data plate governs in the event of any difference.",
+    "STRUCTURE ABOVE THE DOOR. The three units weigh approximately 61.5 kg in total before the weight of the support frame. The structure above the opening is to be of adequate strength to carry that load and is to be confirmed on site before fixing; any strengthening required is not included in this offer.",
+    "BY OTHERS: the power supply and isolator adjacent to the door, any builder's work, cutting, making good or redecoration, and any switching, timer or door-interlock control beyond the units' own controls.",
+    "WARRANTY: twelve (12) months manufacturer's warranty on the air curtain units from the date of handover, and six (6) months on our installation workmanship. Excludes damage from misuse, power surge, improper supply, water ingress or unauthorised modification.",
+    "Prices are in Qatari Riyals and are valid for 15 days from the date of this quotation."
+  ]
+}
