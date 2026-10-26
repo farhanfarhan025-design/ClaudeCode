@@ -462,7 +462,8 @@ def build_html(doc):
     notes = ""
     if doc.get("notes"):
         items = "".join(f"<div>{i}. {esc(n)}</div>" for i, n in enumerate(doc["notes"], 1))
-        notes = f'<div class="notes"><b><i>Notes:</i></b><div class="nlist">{items}</div></div>'
+        cls = "notes newpage" if doc.get("notes_new_page") else "notes"
+        notes = f'<div class="{cls}"><b><i>Notes:</i></b><div class="nlist">{items}</div></div>'
 
     # ---- payee line and bank details (invoices)
     #
@@ -595,6 +596,10 @@ def build_html(doc):
   /* If the notes are long enough that they must split anyway, split between notes and never
      through the middle of one. */
   .notes .nlist > div {{ page-break-inside: avoid; }}
+  /* notes_new_page: Farhan asked on QUT/DCTS/042 Rev. 2 for the priced page to carry the
+     pricing and nothing else, with the conditions overleaf. A client reads the price page
+     first; a long tail of notes under it competes with the number. */
+  .notes.newpage {{ page-break-before: always; margin-top: 0; }}
   .realis {{ font-size: 8.5pt; color: {INK_SOFT}; padding-top: 3pt; }}
   /* A signature block or a bordered callout split across a page break is a broken document,
      not a long one. Each stays whole. */

@@ -170,6 +170,18 @@ inverts the whole point of having it.
   LPO. In a lump-sum scope, each numbered clause has its heading bolded and its body set in
   normal weight; a full page of bold reads as shouting.
 
+## Keeping the price page clean
+
+`notes_new_page: true` pushes the notes, and with them the signature, onto a page of their own,
+so the priced page carries the party block, the line items, the totals and the amount in words
+and nothing else. Farhan asked for this on QUT/DCTS/042 Rev. 2 — the client reads the price page
+first, and a long tail of conditions under the figure competes with it.
+
+It is a layout switch, not a licence to hide terms: the notes still go out, on the next page,
+and anything the client must act on belongs in them either way. Where a line item's own
+description runs long, move the detail into a note and leave a pointer — *"Full specification
+of the pipework is given at note 3 overleaf"* — rather than shrinking the scope.
+
 ## Highlighting a clause
 
 Farhan asks for a clause to be marked when he wants the client's eye on it — the warranty on
