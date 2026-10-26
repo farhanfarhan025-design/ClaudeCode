@@ -3091,6 +3091,36 @@ says not to.
 **Aalaf exposure if both current quotations land: 40,685** — and the cold room would add
 materially more again.
 
+### OL-107 — Everbloom closed out at 4,250, and the no-warranty wording is the whole document
+**Owner:** Farhan · **Raised:** 2026-10-26 · **Value:** QAR 4,250 outstanding
+
+**INV-289/2026** — Everbloom, flower display chiller. Contract **17,000**, advance **12,750**
+received 06-10-2026 (RCT-280), **balance 4,250** covering both remaining stages — 20% on delivery
+3,400 and 5% on handover 850 — raised together as the work is complete and handed over.
+**Twenty days from order to completion.**
+
+**THE MACHINE IS THE CLIENT'S OWN AND NOTE 4 IS WHY THIS INVOICE MATTERS.** The condensing unit,
+evaporator and control box were **re-used, not supplied** (OL-074). They were re-mounted,
+re-piped, re-wired, evacuated, recharged and re-commissioned onto a new chiller — **so if that
+machine now fails, the client's instinct will be that TNDK touched it last.** Note 4 states in
+terms that the equipment is theirs, was not supplied or replaced, its age and remaining life are
+unknown to TNDK, and it carries **no warranty of any kind as to capacity, performance or
+continued operation**, with repair or replacement available on a separate quotation. **This is
+the last document TNDK will put in front of this client, so it is the one that has to carry it.**
+
+**A glass-fronted display chiller is hard duty for a re-used machine.** Two sides are 12 mm
+frameless glass against a +2 to +8 C room; the heat gain is far above a solid-panel box, and the
+existing condensing unit was never selected for it. **Note 6 recommends regular condenser
+cleaning and offers an AMC** — worth pursuing, because the first failure on this job will be
+blamed on the installation whatever note 4 says.
+
+**The warranty TNDK does give** runs 12 months on the panels, the frameless glass, the sliding
+glass door, the insulated floor, the new pipework and wiring and the workmanship, and expressly
+excludes glass breakage after handover.
+
+**On settlement the account closes at 17,000 in full.** Everbloom pays promptly — the advance
+arrived the same day the quotation was approved — so this should be a short collection.
+
 ### OL-083 — The Oscar Prime 119,000 transfer reads "Pending Approval", not paid
 **Owner:** Farhan · **Raised:** 2026-10-14 · **Value:** QAR 119,000 · **VERIFY THE CREDIT**
 
