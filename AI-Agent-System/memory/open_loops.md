@@ -2859,7 +2859,22 @@ supplier and the same week as LPO-210.
 ### OL-102 — Mr. Akbar: 73 sqm quoted against a 68.08 sqm room, and the gauge question rides again
 **Owner:** Farhan · **Raised:** 2026-10-21 · **Value:** QAR 9,330
 
-**QUT/DCTS/254/2026** — Mr. Akbar, supply only of **73.00 sqm of 100 mm PIR panel at 115/sqm =
+**QUT/DCTS/254/2026 REVISED 26-10-2026 to 11,180** — a **hinged cold room door, 900 x 1900 mm
+clear opening, supply only, at 1,850** added at Farhan's instruction. Panel and angles unchanged.
+Reissued under the same number superseding the 21-10 issue, with the pricing on page 1 and the
+panel specification moved to note 2 overleaf so the totals sit on the priced page.
+
+**THE DOOR REPEATS OL-075 UNLESS THE HAND IS ASKED FOR.** Twelve IDIF hinged doors were once
+ordered with no hand specified. **Note 5 now asks three things before the door is ordered:**
+the **hand** (and whether it is read from outside looking in), the **duty** — chiller or freezer,
+since a freezer door carries a heated frame which is a different build and a different price, and
+**no frame heater is in the 1,850** — and confirmation that **no deduction has been made from
+the 73 sqm for the door opening**, the cut-out being to the client's account.
+
+**1,850 is the same figure quoted to Tem-Ac** for a hinged door (OL on QUT/DCTS/244). Consistent
+pricing, but still **no supplier cost on file** for a door at that price.
+
+*Original entry:* supply only of **73.00 sqm of 100 mm PIR panel at 115/sqm =
 8,395** plus **17 aluminium angles at 55 = 935**, total **9,330**. Room 6.50 x 2.14 x 2.33 m.
 100% with order, 07-10 days. **New client — no company, no address, no telephone.**
 

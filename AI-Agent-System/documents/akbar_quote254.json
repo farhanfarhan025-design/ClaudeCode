@@ -1,12 +1,19 @@
 {
   "type": "quotation",
-  "badge": ["SUPPLY", "QUOTATION"],
+  "badge": [
+    "SUPPLY",
+    "QUOTATION"
+  ],
   "number": "QUT/DCTS/254/2026",
-  "date": "21-10-2026",
+  "date": "26-10-2026",
   "ref": "15 days from date of quotation",
-  "meta_labels": ["QUOTATION NO", "DATE", "VALIDITY"],
+  "meta_labels": [
+    "QUOTATION NO",
+    "DATE",
+    "VALIDITY"
+  ],
   "currency": "QAR",
-  "filename": "Quotation_QUT-DCTS-254-2026_MrAkbar_100mm_SandwichPanel",
+  "filename": "Quotation_QUT-DCTS-254-2026_REVISED_MrAkbar_Panel_Angles_Door",
   "company": {
     "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
     "legal": "The New Doha Kitchen Equipment Services W.L.L.",
@@ -18,34 +25,55 @@
     "name": "Mr. Akbar",
     "fields": [
       "State of Qatar",
-      {"label": "Subject", "value": "Supply of 100 mm PIR insulated sandwich panel and aluminium angles"},
-      {"label": "Room size", "value": "6.50 m (L) x 2.14 m (W) x 2.33 m (H)"},
-      {"label": "Supply", "value": "Material supply only — installation not included"},
-      {"label": "Delivery", "value": "07 - 10 days from the confirmed order and payment"}
+      {
+        "label": "Subject",
+        "value": "Supply of 100 mm PIR insulated sandwich panel, aluminium angles and one (1) hinged cold room door"
+      },
+      {
+        "label": "Room size",
+        "value": "6.50 m (L) x 2.14 m (W) x 2.33 m (H)  |  Material supply only — installation not included"
+      },
+      {
+        "label": "Delivery",
+        "value": "07 - 10 days from the confirmed order and payment"
+      },
+      {
+        "label": "Status",
+        "value": "REVISED — supersedes our quotation of the same number dated 21-10-2026"
+      }
     ]
   },
   "lines": [
     {
-      "description": "100 mm PIR INSULATED SANDWICH PANEL — SUPPLY ONLY\nFor a room of 6.50 m (L) x 2.14 m (W) x 2.33 m (H).\n\nPANEL CONSTRUCTION\nPanel type: Pre-insulated sandwich panel, factory foamed, continuous line production\nPanel thickness: 100 mm\nInsulation core: Injected PIR (polyisocyanurate), closed cell, CFC and HCFC free, zero ODP\nCore density: 40 ± 2 kg/m3\nThermal conductivity (k): 0.020 - 0.022 W/m.K (typical)\nClosed cell content: not less than 90% (typical)\nFire performance: Class B / self-extinguishing. PIR chars rather than melting and is the preferred core where fire performance is called for\nService temperature: suitable for continuous duty from -40 C to +80 C\n\nFACINGS\nSkin material: Pre-painted galvanised steel (PPGI), both faces\nSkin thickness: 0.50 mm each face\nFinish: Food-grade white, polyester coated over galvanised substrate\nProfile: Lightly stucco embossed / plain, as per mill standard\n\nJOINTING\nLocking system: Cam-lock / hook-lock with tongue-and-groove edge for a tight, leak-proof joint\nJoint sealing: PVC gasket to the panel edge; joints to be silicone sealed on fixing\nPanel width: Standard mill module width, lengths cut to the sizes required\n\nQUANTITY\n73.00 sqm of 100 mm PIR panel, cut to size for the walls, ceiling and floor of the above room, inclusive of an allowance for cutting and fitting.",
+      "description": "100 mm PIR INSULATED SANDWICH PANEL — SUPPLY ONLY\nFor a room of 6.50 m (L) x 2.14 m (W) x 2.33 m (H). 73.00 sqm of 100 mm PIR panel with 0.50 mm pre-painted steel facings both sides, cut to size for the walls, ceiling and floor of the above room, inclusive of an allowance for cutting and fitting.\nFull specification of the panel is given at note 2 overleaf.",
       "unit": "Sqm",
       "qty": 73,
-      "rate": 115.00
+      "rate": 115.0
     },
     {
       "description": "ALUMINIUM ANGLE\nAluminium angle / corner trim for the panel joints and corners, mill finish, supplied in standard mill lengths. For sealing and trimming of the wall-to-wall, wall-to-ceiling and wall-to-floor junctions.",
       "unit": "Nos",
       "qty": 17,
-      "rate": 55.00
+      "rate": 55.0
+    },
+    {
+      "description": "HINGED COLD ROOM DOOR — 900 mm (W) x 1900 mm (H) CLEAR OPENING — SUPPLY ONLY\nSingle leaf hinged cold room door, 100 mm thick leaf to match the wall panel and insulated with the same core, in food-grade white to match the panel facing. Supplied complete with anti-condensation PVC / aluminium frame, three (3) Nos. heavy duty self-closing hinges, safety latch handle with inside release (anti-trap) and a food-grade magnetic / silicone sealing gasket — a complete door set for fixing on site by others.",
+      "unit": "Nos",
+      "qty": 1,
+      "rate": 1850.0
     }
   ],
   "grand_total_label": "TOTAL",
   "notes": [
     "SUPPLY ONLY. This offer is for the supply of material to your site or for collection from our store. Installation, erection, cutting on site, sealing, silicone, fixings, coving, doors, refrigeration, electrical work and civil work are not included and have not been priced.",
+    "PANEL SPECIFICATION. PANEL CONSTRUCTION — Panel type: pre-insulated sandwich panel, factory foamed, continuous line production. Panel thickness: 100 mm. Insulation core: injected PIR (polyisocyanurate), closed cell, CFC and HCFC free, zero ODP. Core density: 40 ± 2 kg/m3. Thermal conductivity (k): 0.020 - 0.022 W/m.K (typical). Closed cell content: not less than 90% (typical). Fire performance: Class B / self-extinguishing — PIR chars rather than melting and is the preferred core where fire performance is called for. Service temperature: suitable for continuous duty from -40 C to +80 C. FACINGS — Skin material: pre-painted galvanised steel (PPGI), both faces. Skin thickness: 0.50 mm each face. Finish: food-grade white, polyester coated over galvanised substrate. Profile: lightly stucco embossed / plain, as per mill standard. JOINTING — Locking system: cam-lock / hook-lock with tongue-and-groove edge for a tight, leak-proof joint. Joint sealing: PVC gasket to the panel edge; joints to be silicone sealed on fixing. Panel width: standard mill module width, lengths cut to the sizes required.",
     "QUANTITY. The 73.00 sqm quoted is the panel area for the room stated, inclusive of an allowance for cutting and fitting. The exact cutting list is to be confirmed in writing before the panels are cut. Panels are cut to order and are therefore not returnable or exchangeable, and any quantity ordered above the cutting list is to your account.",
     "PANEL SIZES TO BE CONFIRMED BEFORE CUTTING. Please confirm the finished room dimensions, whether the quantity is to include the floor panel, and the position of the door opening, before we release the cutting list to the factory. A panel cut to the wrong size cannot be made good.",
+    "THE DOOR — THREE THINGS TO CONFIRM BEFORE WE ORDER. (a) THE HAND. Please confirm whether the door is left or right opening, and whether the hand is read standing outside the room looking in. A hinged door is made to that hand and cannot be reversed afterwards. (b) THE DUTY. Please confirm whether the room is chiller or freezer; a freezer door carries a heated frame, which is a different build and a different price, and no frame heater is included in the price above. (c) THE OPENING. The 900 x 1900 mm stated is the clear opening. The door opening is to be formed in the panel on site; no deduction has been made from the panel quantity for the opening, and the cut-out is to your account.",
     "The specification above is the standard product. Core density, conductivity, closed cell content and fire classification are the manufacturer's typical published values and the manufacturer's data sheet governs. Should the mill supply a facing of a different thickness or a core of a different classification, we shall advise you in writing before despatch.",
     "WARRANTY: twelve (12) months from the date of delivery against manufacturing defect in the panels and angles supplied. Excludes damage in handling, transport by others, storage, cutting or erection; distortion caused by incorrect fixing or inadequate support; and any defect arising after the material has been cut or installed by others.",
     "Offloading at site and safe storage are to your account. Panels are to be stored flat, clear of the ground, under cover and protected from direct sun until erected.",
     "PAYMENT: 100% with the confirmed order. Prices are in Qatari Riyals, ex our store, and are valid for 15 days from the date of this quotation."
-  ]
+  ],
+  "notes_new_page": true
 }
