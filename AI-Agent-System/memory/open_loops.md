@@ -3121,6 +3121,37 @@ excludes glass breakage after handover.
 **On settlement the account closes at 17,000 in full.** Everbloom pays promptly — the advance
 arrived the same day the quotation was approved — so this should be a short collection.
 
+### OL-108 — HMBE second payment raised, and a stale payment-terms row is corrected
+**Owner:** Farhan · **Raised:** 2026-10-26 · **Value:** QAR 11,725
+
+**INV-290/2026** — Home-Made by Earth, **25% on delivery of materials at site, 11,725**, against
+LPO HMBE/LPO/2026/001 Ver. 2. Contract **46,900**, received **32,830** (70% advance, cheque
+00000001, 21-09-2026), **remaining after this invoice 2,345** at handover.
+
+**THE PAYMENT TERMS ROW IN `durable_facts.md` WAS WRONG AND IS NOW FIXED.** It recorded
+**30 / 40 / 25 / 5** for this client, taken from **LTR/DCTS/247/2026** — the letter built for
+Home-Made by Earth on 28-09-2026 and **withdrawn the same day**, because the 30%-advance request
+was **One A's**, not theirs; it was reissued as LTR/DCTS/248/2026. The withdrawal was recorded
+against One A but the payment-terms row was never corrected, so the two halves of the records
+have disagreed for a month. **The arithmetic settles it: 32,830 is exactly 70% of 46,900**, and
+the order book has said 70/25/5 throughout. **The row now reads 70/25/5 with the correction
+noted.** A second invoice raised on the wrong stage percentage would have been a real error.
+
+**NO DELIVERY NOTE EXISTS FOR THIS CLIENT.** This invoice is the **delivery** stage, and nothing
+on file evidences that materials reached site — DN-253 is One A's and is the only delivery note
+in the series. **A client's accounts will ask what the 25% is against.** Raise the delivery note
+before this is sent, or be ready to produce one.
+
+**The words-versus-figures defect is chased again, in note 4** (OL-084). The order reads
+**46,900 in figures and Forty-Five Thousand Three Hundred in words**. **The gap is 1,600 and the
+final stage is 2,345** — so the defect is large enough to swallow most of the retention if their
+accounts take the words as governing. The note asks for a short amendment correcting the words
+**and confirming 70/25/5**, which also puts this client's stages beyond argument.
+
+**Numbering note:** the invoice series and the new handover series both stand at 290
+(INV-290/2026 and HO/TNDK/290/2026). Different prefixes, different series, no collision — but
+**the handover series should have started at 001**, and should be renumbered if it is used again.
+
 ### OL-083 — The Oscar Prime 119,000 transfer reads "Pending Approval", not paid
 **Owner:** Farhan · **Raised:** 2026-10-14 · **Value:** QAR 119,000 · **VERIFY THE CREDIT**
 
