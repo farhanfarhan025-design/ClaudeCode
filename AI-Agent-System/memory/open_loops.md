@@ -1980,8 +1980,20 @@ advance is spent.**
 Order"; Farhan said approved and supplied no LPO number, so INV-277 cites the approved quotation
 instead. Add the LPO reference when it arrives.
 
-**Everbloom's C.R. is 150356**, learned 06-10-2026 from the transfer advice — the first hard
-identifier on file for this client. Still no legal name, contact name, telephone or address.
+**C.R. 150356 — PROVENANCE, QUERIED BY FARHAN 27-10-2026 AND RE-CHECKED.** It comes from the
+payment advice of 06-10-2026 and from nowhere else. On that advice the debit block reads
+**From/Debit Account 0260-067656-001** and, immediately beneath it, **Alias Name: CR -150356**;
+the beneficiary block separately reads **CR-199351 / THE NEW DOHA KITCHEN EQUIPMENT SERV**, which
+is TNDK. So 150356 is the **paying account's registered alias**, and 199351 is ours. The two were
+not confused.
+
+**But it is an inference, not evidence.** The advice does not carry the payer's *name* — only the
+account and its alias. It is read as Everbloom's C.R. because Farhan identified the payment as
+Everbloom's. **If a third party paid on their behalf, 150356 is that third party's C.R., not
+Everbloom's**, and it should not then appear on documents addressed to Everbloom. **TNDK holds no
+C.R. extract, trade licence, letterhead or LPO from this client** — still no legal name, contact
+name, telephone or address either. **INV-289/2026 and HO/TNDK/290/2026 both print it**; if it is
+not theirs, both need reissuing.
 
 **PAID 06-10-2026.** 12,750 received by **transfer addressed to Commercial Registration alias**,
 reference MB261006530403, from account 0260-067656-001, **credited by beneficiary C.R. 199351**.
