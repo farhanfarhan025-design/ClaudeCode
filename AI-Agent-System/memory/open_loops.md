@@ -3231,6 +3231,45 @@ largest uninvoiced sum in the business after Mesaieed.
 payment in full. On a job where **70% is outstanding**, that line is worth having on the document
 the client signs.
 
+### OL-110 — Gozl Veterinary approved at 59,800, on a 50% advance and the first duty/standby job
+**Owner:** Farhan · **Raised:** 2026-10-29 · **Value:** QAR 59,800
+
+**QUT/DCTS/SQ130/2026 approved.** One chiller room **4.00 x 4.00 x 2.50 m** (40.00 cbm) at
+0 to +8 C, 100 mm PUF to walls, ceiling and floor (**72.00 sqm**), insulated floor with 18 mm
+marine ply and **1.5 mm** chequered plate, hinged door 900 x 1900, and **two complete
+refrigeration systems — one duty, one standby**: 2 x BITZER **2EES-3Y** 3 HP (4.4 kW at -12 C /
+45 C) with 2 x Gunay **GNE 240.8B2**, on a control panel with automatic duty/standby changeover.
+**INV-291/2026 raised for the 50% advance, 29,900.**
+
+**The take-off checks out:** walls 40.00 + ceiling 16.00 + floor 16.00 = **72.00 sqm**, and
+4.00 x 4.00 x 2.50 = **40.00 cbm**. Both as stated.
+
+**THE 45/5 TAIL IS MINE.** Farhan gave the advance only. The quotation prints 75/20/5, so cutting
+the advance to 50% leaves **25% unplaced**. Rather than invent a stage, the delivery stage was
+grown from 20% to **45% (26,910)** and the **5% retention (2,990)** left as quoted. **Confirm it**
+— the alternatives are 50/30/15/5 or the Bismi shape of 50/30/10/10, and on a 59,800 contract the
+difference in what is held to the end is real.
+
+**A STANDBY SET IS WHY THIS CONTRACT IS WORTH 59,800.** A veterinary client storing vaccines,
+samples or carcasses cannot lose a room; **two complete systems, either of which holds the room
+alone, is the right answer and it is properly specified** — automatic cut-in on failure or high
+temperature alarm, manual selection, and indication for both sets. **Note 4 of the invoice tells
+them to run the sets in rotation**, which is the thing clients get wrong: a standby that never
+runs seizes, and then there is no standby.
+
+**R404A on chiller duty again**, as on Panda Cakes (OL-101). A 0 to +8 C room is ordinarily R134a
+or R449A. **Two machines means twice the gas**, so if the refrigerant is to be revisited, this is
+the job to do it on, before anything is ordered.
+
+**The same three template defects rode along a fourth time** (OL-089, OL-101): the *"exclusive of
+VAT"* line in a country with no VAT, validity given as **15 days** in the header and **30 days**
+at clause 6, and a pricing table with **four items and no amount against any of them**. **Fix the
+template.**
+
+**No supplier cost on file.** Two BITZER sets and two Gunay coolers inside 59,800 — **get the
+Airtronics or Doha Controls price before ordering**, because the duty/standby design doubles the
+machine cost while the room is only 40 cbm.
+
 ### OL-083 — The Oscar Prime 119,000 transfer reads "Pending Approval", not paid
 **Owner:** Farhan · **Raised:** 2026-10-14 · **Value:** QAR 119,000 · **VERIFY THE CREDIT**
 
