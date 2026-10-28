@@ -3320,6 +3320,43 @@ approved. **A client who pays that fast and then stops is usually waiting for so
 likely the handover report, which exists (HO/TNDK/290/2026) and may not have been sent. **Send it
 with the invoice.**
 
+### OL-112 — Gozl panel ordered at 7,399, and the 0.40 mm gauge reaches a fifth job
+**Owner:** Farhan · **Raised:** 2026-10-29 · **Value:** QAR 7,399
+
+**LPO-213/2026** to Geo Panel against GEO/Q3491 of 28-10-2026: **75.50 sqm of 100 mm cold room
+panel at 98.00 = 7,399.00.** 100% in advance, ex-works Mesaieed, **02-03 days**, 7 day validity.
+**No client named**, per the standing rule. Fourth Geo Panel order — 203 (cancelled), 204, 212,
+213.
+
+**THE CUT LIST IS GOZL'S ROOM, AND IT READS CLEANLY.** Room 4.00 x 4.00 x 2.50 m.
+
+| Cut | Pcs | For |
+|---|---|---|
+| 2.50 m | 17 | **walls** — 16.00 m perimeter needs 16, one spare |
+| 4.20 m | 5 | **ceiling / floor** — over-length for trimming |
+| 4.00 m | 3 | **ceiling / floor** — 8 pieces of ~4 m covers both 4.00 x 4.00 faces |
+| **75.50 sqm** | **25** | against **72.00 sqm** quoted — a 4.9% allowance |
+
+**It also confirms the 1.00 m module width for a second time**: 2.5x17 + 4.2x5 + 4x3 = **75.5
+linear metres = 75.50 sqm**, exactly as quoted. The CCC list gave the same answer at 412. **The
+width assumption on DN-254 can be treated as settled.**
+
+**THE FACING IS 0.40 mm ALUZINC. GOZL WAS SOLD 0.50 mm PPGI.** Quotation SQ130 section 1 reads
+*"0.5 mm pre-painted galvanized steel (PPGI), food-grade white."* **This is the fifth job to carry
+the gap** — OL-044 (Al Buhsain 0.45 on Oscar), OL-067, OL-080, OL-104 (Panda Cakes) and now this.
+**It is no longer a supplier slip; it is the standing difference between what TNDK sells and what
+TNDK buys.** Either the quotation template changes to 0.40 mm Aluzinc or the buying specification
+changes to 0.50 mm PPGI. **Same core question as OL-104 and it has not been answered.**
+
+**DO NOT PAY GEO PANEL BEFORE THE GOZL CHEQUE CLEARS.** Geo want **100% in advance** and their
+lead time is only 2-3 days, so there is no cost to waiting. Gozl's **29,900 is a cheque dated
+28-10-2026** (RCT-292, uncrossed — OL-110), and the receipt TNDK issued states material is
+ordered on clearance. **Clear first, then pay.**
+
+**Margin note:** panel 7,399 against a 59,800 contract is **12.4%** of contract value — the
+cheapest major component on the job. The machine remains unpriced: **two BITZER 2EES-3Y sets and
+two Gunay GNE 240.8B2 coolers are still without a supplier quote.**
+
 ### OL-083 — The Oscar Prime 119,000 transfer reads "Pending Approval", not paid
 **Owner:** Farhan · **Raised:** 2026-10-14 · **Value:** QAR 119,000 · **VERIFY THE CREDIT**
 
