@@ -3266,9 +3266,23 @@ VAT"* line in a country with no VAT, validity given as **15 days** in the header
 at clause 6, and a pricing table with **four items and no amount against any of them**. **Fix the
 template.**
 
+**ADVANCE RECEIVED 29-10-2026, THE DAY AFTER APPROVAL.** **29,900 by Doha Bank cheque 01000012**
+dated 28-10-2026, drawn on GOZL VETERINARY SERV AND TRAD a/c 267-1347410-01-10-0, North Gate Mall
+branch. Receipted under **RCT-292/2026**, subject to realisation. **Balance 29,900.**
+
+**THE PAYEE NAME IS WRITTEN CORRECTLY** — *"The New Doha Kitchen Equipment Services W.L.L"*, no
+"and". After the Bismi cheque (OL-096) and the historic Sunrise defect (OL-068), this is the
+first client cheque in months with the account name right. **Words and figures agree** at 29,900.
+
+**BUT THE CHEQUE IS NOT CROSSED AND "OR BEARER" IS NOT STRUCK OUT.** On its face it is a bearer
+instrument: **anyone holding it can present it.** 29,900 is a serious sum to carry uncrossed.
+**Bank it at once, and ask Gozl to cross future cheques "A/C Payee Only"** and strike the bearer
+wording, as Bismi, CCC and Sunrise all do. Recorded on the bank register with that caveat.
+
 **No supplier cost on file.** Two BITZER sets and two Gunay coolers inside 59,800 — **get the
 Airtronics or Doha Controls price before ordering**, because the duty/standby design doubles the
-machine cost while the room is only 40 cbm.
+machine cost while the room is only 40 cbm. **The advance now funds it**, so order once the
+cheque clears, not before.
 
 ### OL-111 — Four accounts settled, 26,350 in, and not one instrument recorded
 **Owner:** Farhan · **Raised:** 2026-10-29 · **Value:** QAR 26,350 received, **0 evidenced**

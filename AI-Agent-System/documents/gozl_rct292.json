@@ -1,0 +1,45 @@
+{
+  "type": "receipt",
+  "number": "RCT-292/2026",
+  "date": "29-10-2026",
+  "ref": "INV-291/2026",
+  "meta_labels": ["RECEIPT NO", "DATE", "AGAINST INVOICE"],
+  "currency": "QAR",
+  "filename": "Receipt_RCT-292-2026_GozlVeterinary_ChillerRoom_50pct_Advance",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "RECEIVED FROM",
+    "name": "M/s. Gozl Veterinary Services and Trading Co.",
+    "fields": [
+      "Doha, State of Qatar",
+      {"label": "Project", "value": "One (1) chiller room 4.00 x 4.00 x 2.50 m with duty and standby refrigeration"},
+      {"label": "Our quotation", "value": "QUT/DCTS/SQ130/2026 (Revised) — approved"},
+      {"label": "Contract Value", "value": "QAR 59,800.00"},
+      {"label": "Balance After This Receipt", "value": "QAR 29,900.00 — 45% on delivery 26,910.00, 5% on handover 2,990.00"}
+    ]
+  },
+  "lines": [
+    {"description": "50% advance payment received in full against INV-291/2026 dated 29-10-2026 — supply, installation, testing and commissioning of one (1) chiller room with duty and standby refrigeration systems", "unit": "Job", "qty": 1, "rate": 29900.00}
+  ],
+  "grand_total_label": "TOTAL RECEIVED",
+  "instrument": {
+    "type": "cheque",
+    "payment_mode": "Cheque",
+    "cheque_no": "01000012",
+    "cheque_date": "28-10-2026",
+    "bank": "Doha Bank — North Gate Mall Branch, Doha, Qatar",
+    "drawer": "GOZL VETERINARY SERV AND TRAD — drawn on a/c 267-1347410-01-10-0"
+  },
+  "notes": [
+    "ACCOUNT POSITION. Contract value QAR 59,800.00. The 50% advance of QAR 29,900.00 is received in full by this receipt. Balance QAR 29,900.00 — 45% QAR 26,910.00 on delivery of materials at site, and 5% QAR 2,990.00 after successful testing, commissioning and handover.",
+    "Received with thanks, subject to realisation of the cheque. Material will be ordered and the programme will commence upon clearance: material delivery 4 to 6 days, site mobilisation within 3 working days of material arrival, installation 12 to 16 working days on a civil-ready site, and testing and commissioning 1 to 2 working days thereafter.",
+    "SITE READINESS. Please ensure the room position is clear, level and accessible, and that the main power supply and the cable run from the main distribution board to the cold room control panel are available, together with a drainage point within 3 m of the evaporators, as these are by others under our quotation.",
+    "SITE SURVEY. Final room dimensions will be confirmed on site before fabrication. Any change arising will be advised to you in writing, with its effect on the price and the programme, before the work is done.",
+    "This receipt is issued against INV-291/2026 and is subject to the terms of our approved quotation QUT/DCTS/SQ130/2026 (Revised)."
+  ]
+}
