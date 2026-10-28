@@ -3270,6 +3270,42 @@ template.**
 Airtronics or Doha Controls price before ordering**, because the duty/standby design doubles the
 machine cost while the room is only 40 cbm.
 
+### OL-111 — Four accounts settled, 26,350 in, and not one instrument recorded
+**Owner:** Farhan · **Raised:** 2026-10-29 · **Value:** QAR 26,350 received, **0 evidenced**
+
+Farhan confirmed on 29-10-2026 that **Green Land, Westin, BSI and Stop n Shop have all paid.**
+**Everbloom's 4,250 has not.**
+
+| Account | QAR | Position |
+|---|---|---|
+| Stop n Shop — the 20,000 PDC | 20,000 | **realised.** Contract 45,000 settled in full |
+| Green Land — INV-283 balance | 3,800 | settled. Contract 7,300 closed |
+| Westin — DCTS-INV-007 | 1,800 | settled. **First Doha Cooling receipt outside Oriental Agro** |
+| BSI — INV-271 | 750 | settled |
+| **Total in** | **26,350** | |
+
+**NOT ONE OF THE FOUR HAS AN INSTRUMENT, A DATE OR A MODE ON FILE.** Cash, cheque or transfer is
+unknown for every one of them, so **no receipt can be issued** — the house format refuses a
+receipt without a traceable instrument, rightly — and **the bank receipts register cannot be
+updated**, because it is not even known whether these arrived through the bank. The register
+therefore stands at 20 instruments and 1,176,955.00 and is now **understated by up to 26,350**.
+
+**This is OL-014 for the twelfth time**, and it is getting worse rather than better: the register
+built on 14-10-2026 closed a 280,000 evidence gap, and **four weeks later a new one has opened.**
+**Send the four slips, cheque images or a line each saying cash, and all four receipts go out in
+one pass** — plus the five historic ones still owed (Oscar 64,250, CCC 76,050, Sunrise 27,600,
+Lean N Fit 17,000, Ruwais 1,850).
+
+**THE STOP N SHOP PDC IS THE ONE WORTH NOTING.** A 90-day post-dated cheque taken on 26-08-2026
+has realised. **It is the only PDC in the records and it paid**, which is useful evidence when
+the next client asks for PDC terms.
+
+**Everbloom at 4,250 is now the only completed job unpaid.** INV-289 went out on 26-10-2026, the
+room is installed and handed over, and the client paid their 12,750 advance the same day they
+approved. **A client who pays that fast and then stops is usually waiting for something** — most
+likely the handover report, which exists (HO/TNDK/290/2026) and may not have been sent. **Send it
+with the invoice.**
+
 ### OL-083 — The Oscar Prime 119,000 transfer reads "Pending Approval", not paid
 **Owner:** Farhan · **Raised:** 2026-10-14 · **Value:** QAR 119,000 · **VERIFY THE CREDIT**
 

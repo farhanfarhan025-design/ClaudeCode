@@ -29,7 +29,7 @@ A fact without a source is not a fact.
 | Freezer unit replacement | Lean N Fit | LPO 26060001 | LPO | 17,000 | 17,000 | 0 |
 | Refrigeration maintenance | Al Noor Bakery | verbal | Cash | 800 | 800 | 0 |
 | Cold room maintenance | BSI (Mr. Lijo) | INV-254/2026 | Cash | 450 | 450 | 0 |
-| Cold room checkup + gas charging | BSI (Mr. Lijo) | INV-271/2026 | Invoice | 750 | 0 | 750 — invoiced 27-09-2026 |
+| Cold room checkup + gas charging | BSI (Mr. Lijo) | INV-271/2026 | Invoice | 750 | **750** (received — instrument not recorded, Farhan 29-10-2026) | **0 — settled** |
 | Refrigeration maintenance | Ruwais Farm | INV-014/2026 | Invoice | 1,850 | 1,850 | 0 |
 | Expansion valve replacement + system gas charging | Ruwais Farm | INV-281/2026 | Invoice | 1,750 | **1,750** (Fawran FT262919GGJ5, QIB, 18-10-2026, RCT-286) | **0 — settled in full 18-10-2026** |
 | Jollibee Rasaboud cold room | Sunrise Trading & Food Stuff Co. | PO-2026-0000248 | LPO | 46,000 | 27,600 + part of 23,100 (18-08-2026) | see below |
@@ -50,7 +50,7 @@ The shortfall is **exactly 5% of the 46,000 cold room contract**. Neither LPO ca
 retention clause, so this reads as a retention applied by the client's accounts rather than a
 keying error — see OL-027.
 | Drainage system replacement | Lean N Fit | QUT/DCTS/214/2026 | Cash | 1,200 | 1,200 | 0 — completed & paid 11-08-2026 |
-| Cold room — chiller + freezer | Stop n Shop – Bin Omran | QUT/DCTS/SQ076/2026 | Quote | 45,000 | 25,000 (cheque 00006483, QNB, 26-08-2026) | 20,000 — PDC 90 days |
+| Cold room — chiller + freezer | Stop n Shop – Bin Omran | QUT/DCTS/SQ076/2026 | Quote | 45,000 | **45,000** — 25,000 (cheque 00006483, QNB, 26-08-2026) + **20,000 PDC realised** (instrument not recorded, Farhan 29-10-2026) | **0 — settled in full** |
 | Chiller + freezer rooms | Home-Made by Earth | HMBE/LPO/2026/001 **ver.2, 17-09-2026** | LPO | **46,900** (figures now correct; **words still read 45,300** — OL-084) | **32,830** (cheque **00000001**, QNB, 21-09-2026 — drawn 65,830, of which 33,000 is kitchen fabrication) | **14,070** — **INV-290/2026 raised 26-10-2026 for the 25% delivery stage, 11,725**; then 5% handover 2,345 |
 | Chiller + freezer rooms — Capital Grille at ABESQ Hotel | One A Design, Build and Trading W.L.L. | WO/1A/096/26, 27-09-2026 | Work Order | **73,500** | **25,725** (transfer MS1A03383663, 01-10-2026, RCT-274) | **47,775** — of which **29,400 now invoiced** under INV-275 against DN-253 (02-10-2026); then 20% completion 14,700 and 5% handover 3,675 |
 | Cold storage project | Oriental Agro Trading | SOA AS-2026-9456 | **Doha Cooling** | 1,103,286 | 1,093,000 | 10,286 |
@@ -62,9 +62,9 @@ keying error — see OL-027.
 | Chiller room 4.35 x 2.00 x 2.40 m + refrigeration | **M/s. Panda Cakes** | QUT/DCTS/SQ121/2026 Rev. — approved 20-10-2026 | Quote — approved | **29,000** | **21,750** (Fawran transfer, QIIB, 22-10-2026, RCT-288) | **7,250** — 20% on delivery 5,800, 5% handover 1,450. **Advance settled in full; programme running from 22-10-2026** |
 | Civil works + under-floor uPVC ventilation | Al Mairqab Industrial Investment (Aalaf) | **QUT/DCTS/042/2026 Rev. 2**, 26-10-2026 | Quote | **23,450** | 0 | **quoted, not won** — 100% advance, 10-15 days. **The 11,500 floor heating of Rev. 1 is withdrawn** — drawing Rev. 5 deletes the heater and reinstates vent pipes |
 | 6 nos heavy duty racking systems, 3 levels, 2000 kg UDL | Al Mairqab Industrial Investment (Aalaf) | QUT/DCTS/255/2026, 26-10-2026 | Quote | **17,235** | 0 | **quoted, not won** — cost 10,535 from Lesson Trading QT 8174-2026, **margin 6,700 (38.9%)** |
-| 3 nos ALCO power assemblies XB-1019-NW100-1B (R-407C) | Westin Hotel | DCTS-INV-007/2026, 19-10-2026 | **Doha Cooling** | **1,800** | 0 | **1,800** — due on presentation, supply only |
-| 3 nos Carrier air curtains to a 4.50 x 3.00 m door | Green Land Qatar | QUT/DCTS/242/2026 Rev. — approved 18-10-2026 | Quote — approved | **7,300** | **3,500** (mode not recorded) | **3,800** — INV-283/2026, due on presentation. **Work complete and handed over** |
-| Flower display chiller, frameless glass front | Everbloom (C.R. 150356) | QUT/DCTS/SQ112/2026, 06-10-2026 | Quote — approved | **17,000** | **12,750** (CR-alias transfer MB261006530403, 06-10-2026, RCT-280) | **4,250** — **INV-289/2026 raised 26-10-2026 for both remaining stages**, due on presentation. Work complete and handed over |
+| 3 nos ALCO power assemblies XB-1019-NW100-1B (R-407C) | Westin Hotel | DCTS-INV-007/2026, 19-10-2026 | **Doha Cooling** | **1,800** | **1,800** (received — instrument not recorded, Farhan 29-10-2026) | **0 — settled** |
+| 3 nos Carrier air curtains to a 4.50 x 3.00 m door | Green Land Qatar | QUT/DCTS/242/2026 Rev. — approved 18-10-2026 | Quote — approved | **7,300** | **7,300** — 3,500 on account + **3,800 balance received** (both instruments not recorded, Farhan 29-10-2026) | **0 — settled in full.** Work complete and handed over |
+| Flower display chiller, frameless glass front | Everbloom (C.R. 150356) | QUT/DCTS/SQ112/2026, 06-10-2026 | Quote — approved | **17,000** | **12,750** (CR-alias transfer MB261006530403, 06-10-2026, RCT-280) | **4,250** — **INV-289/2026 raised 26-10-2026 for both remaining stages. STILL OUTSTANDING as at 29-10-2026.** Work complete and handed over |
 | Five (5) cold rooms — thawing chiller, 2 chillers, 2 freezers | Oscar Prime Trading Contracting and Services W.L.L. | OTTS/LPO/05102026-01/2026, 05-10-2026 | LPO | **170,000** | **119,000** (06-10-2026, RCT-279 — **instrument not recorded**) | **51,000** — 25% on delivery 42,500, 5% handover 8,500 |
 | Cold storage facility — 3 chiller rooms + epoxy, racking, dock leveller, sectional doors | Alayees General Trading | CA/92/SQ033/2025, 02-08-2025 | **Doha Cooling** | 595,000 | not recorded | **not recorded** |
 | 10 nos 40 ft container cold rooms (5 chiller + 5 freezer), Ras Laffan | Paramount Trading Co. W.L.L. | PO30-06088-1, 27-06-2024 | **Doha Cooling** | 635,000 | not recorded | **not recorded** |
