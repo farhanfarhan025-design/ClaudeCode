@@ -3164,6 +3164,40 @@ accounts take the words as governing. The note asks for a short amendment correc
 (INV-290/2026 and HO/TNDK/290/2026). Different prefixes, different series, no collision — but
 **the handover series should have started at 001**, and should be renumbered if it is used again.
 
+### OL-109 — CCC panel delivery note issued with blank quantities, because no schedule exists
+**Owner:** Farhan · **Raised:** 2026-10-28
+
+**DN-254/2026** — Consolidated Contractors Group S.A.L. (Offshore), complete sandwich panel
+delivery against **LPO DIAR-L05531 MCR**. Nine lines: wall, ceiling and partition panel, coving,
+corner angle, silicone, PU foam, fixings and a write-in line.
+
+**EVERY QUANTITY IS A BLANK RULE, AND THAT IS DELIBERATE.** TNDK holds **no panel schedule, no
+room dimensions, no panel thickness and no shop drawing for this project** — the CCC purchase
+order itself has never been in these records (asked for on 20-10-2026 and not supplied). A
+delivery note is the document the client signs as evidence of what they received; **invented
+areas on it would be worse than useless.** Note 1 therefore requires the quantity to be entered
+and initialled by both parties at delivery, and says any line left blank is not part of the
+delivery.
+
+**Needed to issue the itemised version under the same number:** the panel take-off, or the CCC
+PO, or the approved shop drawing. **Any of the three is enough.**
+
+**THE SITE IS NOT CERTAIN EITHER, SO IT IS LEFT BLANK.** The order book records this as the
+**HIA Airport** cold rooms, while the CCC cheque of 04-07-2026 is noted *"EPIC for NGL-5 Plant"* —
+an airport and a gas plant are not the same place, and one of the two records is wrong. **Confirm
+the site before this goes to a driver.**
+
+**THE DELIVERY SITS ODDLY AGAINST THE PROJECT STATUS.** Farhan reported CCC/HIA **complete** on
+28-09-2026 (OL-061), and **177,450 of 253,500 has been collectable since** with nothing invoiced.
+A panel delivery a month after completion means either the completion report was premature, or
+this is a later phase, or the paperwork is being reconstructed after the fact. **Whichever it is,
+it bears on when the two 30% stages and the 10% retention can be invoiced** — which is the single
+largest uninvoiced sum in the business after Mesaieed.
+
+**Risk and title are stated on the note** — risk passes on delivery, title stays with TNDK until
+payment in full. On a job where **70% is outstanding**, that line is worth having on the document
+the client signs.
+
 ### OL-083 — The Oscar Prime 119,000 transfer reads "Pending Approval", not paid
 **Owner:** Farhan · **Raised:** 2026-10-14 · **Value:** QAR 119,000 · **VERIFY THE CREDIT**
 
