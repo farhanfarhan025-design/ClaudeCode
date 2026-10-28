@@ -3182,10 +3182,19 @@ delivery.
 **Needed to issue the itemised version under the same number:** the panel take-off, or the CCC
 PO, or the approved shop drawing. **Any of the three is enough.**
 
-**THE SITE IS NOT CERTAIN EITHER, SO IT IS LEFT BLANK.** The order book records this as the
-**HIA Airport** cold rooms, while the CCC cheque of 04-07-2026 is noted *"EPIC for NGL-5 Plant"* —
-an airport and a gas plant are not the same place, and one of the two records is wrong. **Confirm
-the site before this goes to a driver.**
+**SITE CONFIRMED 28-10-2026: CCC LABOR CAMP**, site supervisor **Mr. Suresh**. **It matches
+neither earlier record.** The order book called this the **HIA Airport** cold rooms and the CCC
+cheque of 04-07-2026 is noted *"EPIC for NGL-5 Plant"*. Cold rooms for a labour camp kitchen is a
+different job from either. **The order book is corrected to CCC Labor Camp**, but it is worth
+establishing whether the HIA and NGL-5 references belong to this order at all or to other CCC
+work — a wrong project name on an invoice for 177,450 is a reason for a main contractor's
+accounts to return it.
+
+**REVISED THE SAME DAY TO PANEL ONLY.** Farhan: *"only the sandwich panel for now."* Coving,
+corner angles, silicone, foam and fixings are struck from the lines, and **note 2 now states on
+the face of the document that they are not included and follow under a separate delivery note** —
+so CCC cannot treat this as the full material delivery, and TNDK's position that more is still to
+come is on the page they sign.
 
 **THE DELIVERY SITS ODDLY AGAINST THE PROJECT STATUS.** Farhan reported CCC/HIA **complete** on
 28-09-2026 (OL-061), and **177,450 of 253,500 has been collectable since** with nothing invoiced.

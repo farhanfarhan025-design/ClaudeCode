@@ -33,7 +33,7 @@ A fact without a source is not a fact.
 | Refrigeration maintenance | Ruwais Farm | INV-014/2026 | Invoice | 1,850 | 1,850 | 0 |
 | Expansion valve replacement + system gas charging | Ruwais Farm | INV-281/2026 | Invoice | 1,750 | 0 | 1,750 — invoiced 13-10-2026 |
 | Jollibee Rasaboud cold room | Sunrise Trading & Food Stuff Co. | PO-2026-0000248 | LPO | 46,000 | 27,600 + part of 23,100 (18-08-2026) | see below |
-| HIA Airport cold rooms (5) | Consolidated Contractors (CCC) | DIAR-L05531 MCR | LPO | 253,500 | 76,050 | **177,450 — COMPLETED 2026 per Farhan 28-09-2026; balance now DUE, not future** |
+| Cold rooms, **CCC Labor Camp** (site confirmed 28-10-2026; previously recorded as HIA Airport) | Consolidated Contractors (CCC) | DIAR-L05531 MCR | LPO | 253,500 | 76,050 | **177,450 — COMPLETED 2026 per Farhan 28-09-2026; balance now DUE, not future** |
 | Mesaieed animal waste cold room | HBK-BWTC-BEIL JV | HBB000353-0 | LOA | 400,000 | 0 | **400,000 — COMPLETED 2026 per Farhan; 60,000 15% advance invoiced 05-10-2026 under INV-276; 340,000 still uninvoiced** |
 | Samoosa cold room (freezer) | Samoosa Shop | QUT/DCTS/066/2026 | Quote | 38,500 | 38,500 | 0 — settled, confirmed by Farhan 11-08-2026 |
 | Jollibee condensing unit relocation | Sunrise Trading | PO-2026-0000310 | LPO | 7,000 | part of 23,100 (18-08-2026) | see below |
