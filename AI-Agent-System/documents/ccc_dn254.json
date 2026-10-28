@@ -45,28 +45,44 @@
   },
   "lines": [
     {
-      "description": "INSULATED SANDWICH PANEL — WALL\nPre-insulated sandwich panel, wall panels, cut to size per the approved shop drawing",
+      "description": "100 mm INSULATED SANDWICH PANEL — 3.00 m LENGTH\nCut length 3.00 m x standard 1.00 m module width — 111 pieces",
       "unit": "Sqm",
-      "qty": "______________"
+      "qty": 333.0,
+      "pieces": "111"
     },
     {
-      "description": "INSULATED SANDWICH PANEL — CEILING\nPre-insulated sandwich panel, ceiling panels, cut to size per the approved shop drawing",
+      "description": "100 mm INSULATED SANDWICH PANEL — 2.00 m LENGTH\nCut length 2.00 m x standard 1.00 m module width — 12 pieces",
       "unit": "Sqm",
-      "qty": "______________"
+      "qty": 24.0,
+      "pieces": "12"
     },
     {
-      "description": "INSULATED SANDWICH PANEL — PARTITION / OTHER\nAs per the approved shop drawing",
+      "description": "100 mm INSULATED SANDWICH PANEL — 5.00 m LENGTH\nCut length 5.00 m x standard 1.00 m module width — 11 pieces",
       "unit": "Sqm",
-      "qty": "______________"
+      "qty": 55.0,
+      "pieces": "11"
+    },
+    {
+      "description": "TOTAL DELIVERED",
+      "unit": "Sqm",
+      "qty": 412.0,
+      "pieces": "134"
     }
   ],
   "notes": [
-    "SANDWICH PANEL DELIVERY against LPO DIAR-L05531 MCR. The quantity delivered is to be entered against each line at the time of delivery and initialled by both parties. Any line against which no quantity is entered does not form part of this delivery.",
+    "SANDWICH PANEL DELIVERY against LPO DIAR-L05531 MCR. Total delivered: ONE HUNDRED AND THIRTY-FOUR (134) pieces, 412.00 linear metres, 412.00 SQUARE METRES of 100 mm insulated sandwich panel. Areas are calculated on the standard 1.00 m panel module width; the piece count and the cut lengths are to be checked and initialled by both parties at the time of delivery.",
     "SANDWICH PANEL ONLY. This delivery comprises insulated sandwich panel and nothing else. Aluminium coving and corner angles, silicone sealant, polyurethane foam, fixings, doors, refrigeration equipment, control panels and all other materials are NOT included in this delivery and will follow under a separate delivery note.",
     "Goods are received in good condition unless noted on this delivery note at the time of delivery. Any shortage, damage or discrepancy is to be reported to us in writing within twenty-four (24) hours of delivery; after that time the quantities and condition recorded above are taken as agreed.",
     "This delivery note records the movement of goods only. It is not an invoice, it is not a certificate of completion, and it does not vary the order, the specification or the agreed prices.",
     "RISK AND TITLE. Risk in the material passes to you on delivery to site. Title in the material remains with The New Doha Kitchen Equipment Services W.L.L. until payment has been received in full.",
     "STORAGE AND HANDLING. Panels are to be offloaded with care, stored flat and clear of the ground, under cover and protected from direct sunlight until erected, and kept clear of traffic routes. We are not responsible for damage, distortion or staining arising after delivery.",
     "Please return one signed copy of this delivery note to us."
-  ]
+  ],
+  "extra_column": {
+    "label": "PIECES",
+    "field": "pieces",
+    "width": 11.0,
+    "align": "c",
+    "position": "end"
+  }
 }

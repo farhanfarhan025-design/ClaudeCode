@@ -3171,6 +3171,30 @@ accounts take the words as governing. The note asks for a short amendment correc
 delivery against **LPO DIAR-L05531 MCR**. Nine lines: wall, ceiling and partition panel, coving,
 corner angle, silicone, PU foam, fixings and a write-in line.
 
+**CUT LIST SUPPLIED 28-10-2026 AND THE DOCUMENT IS NOW ITEMISED.** Farhan's handwritten list,
+headed *"II set"*: **3 m x 111 nos, 2 m x 12 nos, 5 m x 11 nos = 134 pieces, 412 linear metres.**
+At the standard **1.00 m** module width that is **412.00 sqm** — 333.00 + 24.00 + 55.00. The
+delivery note shows sqm in the QTY column, as asked, with a **PIECES** column beside it so the
+count can be checked off the truck.
+
+**412.00 SQM IS EXACTLY THE QUANTITY ON LPO-203/2026** — Geo Panel, 412.00 sqm of 100 mm panel at
+95.00, 39,140, drafted 28-09-2026. **That answers a question left open for a month.** OL-076
+guessed LPO-203 served Oscar Prime (377.12 sqm plus allowance); OL-080 then proved Oscar Prime's
+panel came from Al Buhsain's 385.20 sqm schedule, leaving LPO-203 with no job against it —
+*"39,140 of committed spend with no job to post it to."* **The cut list matching to the square
+metre says LPO-203 was always this CCC order.**
+
+**But LPO-203 was CANCELLED** by LTR/DCTS/251. So panel is being delivered in exactly the
+quantity of a cancelled order. **Either it was re-ordered, or the cancellation was reversed, or
+it came from another supplier.** Whichever it is, **the cost of this 412 sqm needs posting to the
+CCC job** — and if it came from Geo Panel it is **0.40 mm Aluzinc**, which is the OL-044 / OL-067
+/ OL-080 / OL-104 gauge question landing on a main contractor's project.
+
+**The 1.00 m module width is an assumption**, though a well-supported one: it is the width that
+makes this list come to 412.00 sqm, the figure Geo Panel themselves quoted. **At 1.15 m the area
+would be 473.80 sqm** — a 15% difference on a document the client signs. **Confirm the width.**
+
+*Superseded — the blank-quantity reasoning that applied before the cut list arrived:*
 **EVERY QUANTITY IS A BLANK RULE, AND THAT IS DELIBERATE.** TNDK holds **no panel schedule, no
 room dimensions, no panel thickness and no shop drawing for this project** — the CCC purchase
 order itself has never been in these records (asked for on 20-10-2026 and not supplied). A
