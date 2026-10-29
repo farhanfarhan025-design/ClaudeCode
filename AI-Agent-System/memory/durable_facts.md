@@ -363,7 +363,7 @@ A supplier who knows whose job it is can price the next one accordingly, or go d
 | Delivery note | **DN-254/2026** (CCC, sandwich panel, 28-10-2026); DN-253/2026 (One A, Capital Grille — panel and flooring, 02-10-2026) |
 | Handover report | **HO/TNDK/290/2026** (Everbloom, 26-10-2026) — series opened that day; TNDK had none |
 | **Contract** | **CON/TNDK/SQ118/2026** (Bismi Group International, 17-10-2026). Contracts take the quotation's serial — CON/TNDK/058/2026 followed QUT/DCTS/058/2026. Only two contracts are on file and there was no series row until now (OL-090) |
-| LPO | **LPO-213/2026** (Geo Panel, Gozl Veterinary panel, 29-10-2026); LPO-212/2026 (Geo Panel, Panda Cakes panel, 24-10-2026); LPO-211/2026 (Doha Controls, Panda Cakes machine, 22-10-2026); LPO-210/2026 (Airtronics, Bismi machine, 18-10-2026) — 203 Geo Panel CANCELLED by LTR/DCTS/251, 204 Geo Panel, 205/207 Airtronics, 206 IDIF, 208/209 Al Buhsain. Earlier: LPO-202/2026 — 195 and 197 cancelled, 196/198/199/201 Oscar Prime, 200 Doha Controls |
+| LPO | **LPO-214/2026** (Airtronics, Gozl evaporators and accessories, 29-10-2026); LPO-213/2026 (Geo Panel, Gozl Veterinary panel, 29-10-2026); LPO-212/2026 (Geo Panel, Panda Cakes panel, 24-10-2026); LPO-211/2026 (Doha Controls, Panda Cakes machine, 22-10-2026); LPO-210/2026 (Airtronics, Bismi machine, 18-10-2026) — 203 Geo Panel CANCELLED by LTR/DCTS/251, 204 Geo Panel, 205/207 Airtronics, 206 IDIF, 208/209 Al Buhsain. Earlier: LPO-202/2026 — 195 and 197 cancelled, 196/198/199/201 Oscar Prime, 200 Doha Controls |
 
 ## Pricing rate card
 

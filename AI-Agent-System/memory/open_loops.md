@@ -3357,6 +3357,40 @@ ordered on clearance. **Clear first, then pay.**
 cheapest major component on the job. The machine remains unpriced: **two BITZER 2EES-3Y sets and
 two Gunay GNE 240.8B2 coolers are still without a supplier quote.**
 
+### OL-113 — Gozl evaporators ordered, but the model changed and the condensing units are missing
+**Owner:** Farhan · **Raised:** 2026-10-29 · **Value:** QAR 8,000 · **TWO GAPS BEFORE COLLECTION**
+
+**LPO-214/2026** to Airtronics against ART-QTN-3493-26 **REV 1**: two Gunay **GYE 235-6B** slim
+type evaporators at 2,435, two Subzero control panels at 975, and ten lines of Danfoss and Castel
+valves, driers, sight glasses, flare nuts and consumables. Sub-total **8,146.50** less **146.50**
+= **8,000.00**. Their arithmetic checks line by line. 100% CDC on collection, ex-works Doha,
+**5 day validity**, ex-stock subject to prior sale. **Client not named**, per the standing rule.
+
+**1. THE EVAPORATOR IS NOT THE ONE SOLD.** Quotation SQ130 names the **Gunay GNE 240.8B2**;
+Airtronics have quoted the **GYE 235-6B slim type** — a different model and a different form
+factor. **The client's document names the model**, so this is a substitution against a signed
+offer, the same defect as OL-072 (One A) and OL-079 (Oscar Prime). **Note 2 requires written
+confirmation before collection** that the GYE 235-6B carries 40 cbm at 0 to +8 C on a 16 hour run
+time, and that its size, air throw, fan arrangement and drain suit a ceiling-hung installation in
+a 4.00 x 4.00 x 2.50 m room — and says TNDK will not collect without it. **If it is equivalent,
+tell Gozl in writing and have them accept it; if it is not, order the GNE.**
+
+**2. THE CONDENSING UNITS ARE NOT ON THIS ORDER AT ALL.** SQ130 sells **two BITZER 2EES-3Y**
+units, 3 HP, 4.4 kW each. **Nothing on this quotation is a condensing unit.** So 8,000 buys the
+indoor half of two systems and **the machines that actually make the cold are still unbought and
+unpriced.** Note 3 asks Airtronics to quote them immediately, **together with the R404A charge in
+kg for both systems, the interconnecting copper tube and fittings, and Armaflex** — none of which
+appear either.
+
+**THE JOB COST IS STILL MOSTLY UNKNOWN.** Panel 7,399 (LPO-213) + evaporator package 8,000 =
+**15,399 against a 59,800 contract, 25.8%.** The two BITZER units are the single largest line
+still open. **Until they are priced, the margin on this contract cannot be stated.**
+
+**CASH SEQUENCE.** Gozl's 29,900 advance is a cheque dated 28-10-2026 and **has not cleared**
+(OL-110, uncrossed). Geo Panel want 100% in advance; Airtronics want 100% CDC on collection.
+**Both suppliers are paid before TNDK's money is certain.** Hold both until the cheque clears —
+Geo's lead time is 2-3 days and Airtronics are ex-stock, so waiting costs nothing.
+
 ### OL-083 — The Oscar Prime 119,000 transfer reads "Pending Approval", not paid
 **Owner:** Farhan · **Raised:** 2026-10-14 · **Value:** QAR 119,000 · **VERIFY THE CREDIT**
 
