@@ -3391,6 +3391,43 @@ still open. **Until they are priced, the margin on this contract cannot be state
 **Both suppliers are paid before TNDK's money is certain.** Hold both until the cheque clears —
 Geo's lead time is 2-3 days and Airtronics are ex-stock, so waiting costs nothing.
 
+### OL-114 — CCC second instalment invoiced at last: 76,050 of the 177,450 moves
+**Owner:** Farhan · **Raised:** 2026-10-29 · **Value:** QAR 76,050 · **FIRST CCC INVOICE ON FILE**
+
+**INV-293/2026** — Consolidated Contractors, **second 30% instalment, 76,050**, against LPO
+DIAR-L05531 MCR. Contract 253,500; first 30% received 04-07-2026; **remaining after this invoice
+101,400** — the third 30% of 76,050 and the final 10% of 25,350.
+
+**THIS IS THE FIRST INVOICE TNDK HAS RAISED TO CCC IN THESE RECORDS.** The first 76,050 was
+received in July with **no invoice and no receipt** on file. OL-061 recorded on 28-09-2026 that
+the whole 177,450 was collectable with nothing invoiced; **a month later, 76,050 of it is.**
+
+**THE STAGE IS INFERRED, NOT READ.** The PO has never been supplied (asked for 20-10 and 28-10),
+so **the milestone wording behind the second 30% is unknown.** The invoice is pitched on the
+material delivery, citing **DN-254/2026 of 28-10-2026 — 134 pieces, 412.00 sqm** — which is the
+strongest evidence available and is referenced on the face of the invoice. **If the PO ties the
+second stage to something else, this may come back.** Note 4 invites CCC to say what their
+accounts need, which is the civil way to find out.
+
+**TWO WEAKNESSES A MAIN CONTRACTOR'S QS WILL LOOK FOR:**
+
+1. **The delivery was panel only.** DN-254 states on its face that coving, angles, silicone,
+   foam, fixings, doors, refrigeration and control panels are **not** included and follow
+   separately. A QS reading "30% on delivery of materials" against a partial delivery can hold
+   the stage. **Have the remaining delivery notes ready.**
+2. **The project name has three versions** — HIA Airport in the order book, *"EPIC for NGL-5
+   Plant"* on their July cheque, and **CCC Labor Camp** confirmed by Farhan. The invoice uses
+   CCC Labor Camp. **If their accounts post by project code, a wrong name returns the invoice.**
+
+**THE THIRD 30% IS ARGUABLY ALSO DUE.** Farhan reported the job **complete** on 28-09-2026. On
+30/30/30/10 a completed job supports the third stage as well, leaving only the 10% retention.
+**Farhan asked for the second invoice only and that is what was raised** — but if the works are
+genuinely finished, **76,050 more can be invoiced today** and only 25,350 should be sitting as
+retention.
+
+**Still owed to CCC's file:** the receipt for the first 76,050 (cheque 00000245, QIB, 04-07-2026
+— instrument fully known, one of the five unreceipted payments under OL-082).
+
 ### OL-083 — The Oscar Prime 119,000 transfer reads "Pending Approval", not paid
 **Owner:** Farhan · **Raised:** 2026-10-14 · **Value:** QAR 119,000 · **VERIFY THE CREDIT**
 
