@@ -3428,6 +3428,40 @@ retention.
 **Still owed to CCC's file:** the receipt for the first 76,050 (cheque 00000245, QIB, 04-07-2026
 — instrument fully known, one of the five unreceipted payments under OL-082).
 
+### OL-115 — One A chased for INV-275 without naming it, and the two-day deadline is now live
+**Owner:** Farhan · **Raised:** 2026-10-31 · **Value:** QAR 29,400 · **DEADLINE RUNS 02-11-2026**
+
+**LTR/DCTS/256/2026** issued to One A Design, Build and Trading W.L.L., signed and stamped, one
+page. Farhan's instruction was explicit — *"Don't mention which payment"* — so the letter names
+**no amount, no invoice number and no stage.** It was checked by regex before issue: no figure,
+no "QAR", no INV- reference appears anywhere in it. What it does say is that the water-cooled
+condensing unit has been reserved and held, that TNDK has waited some days with no reply, that a
+fresh enquiry for the same specification has come in, that the payment should be released **within
+two (2) days** or the unit goes to another client, and that a replacement would take **60 to 75
+days** to arrive once reordered.
+
+**THE PAYMENT ACTUALLY BEING CHASED IS INV-275/2026 — 29,400, the 40% on panel delivery**,
+raised against DN-253/2026 of 02-10-2026. It is not named on the letter by instruction, but it is
+what the client must pay for this to close.
+
+**THE DEADLINE IS A COMMITMENT, NOT A PHRASE.** The letter promises the unit goes elsewhere if
+payment is not received in two days. **If the money does not land by 02-11-2026, Farhan has to
+decide whether to act on it or let it pass** — a deadline that passes unremarked teaches the
+client that the next one can be ignored too. Diarise it.
+
+**WHY THE LETTER MATTERS BEYOND THE MONEY — the delay penalty.** Work order **WO/1A/096/26**
+carries **QAR 2,000 per calendar day, deductible from sums due**, over a **30 day project period
+from 27-09-2026**. That period has now expired. The penalty was the client's term and is not in
+TNDK's quotation. **A contemporaneous letter recording that TNDK is ready and waiting only on
+payment is the defence against that penalty**, which is why the letter carries the sentence *"Any
+delay in completion arising from the awaited payment, or from the consequent unavailability of the
+unit, will not be attributable to us."* It is worded as a record made in good faith, not a
+complaint. **Keep the issued copy and the proof of sending** — on a 2,000/day claim that sentence
+and its date are the whole of the evidence.
+
+**Related:** the balance after INV-275 is 20% completion 14,700 and 5% handover 3,675 (OL and
+order book row for Capital Grille). Advance of 25,725 received 01-10-2026 under RCT-274.
+
 ### OL-083 — The Oscar Prime 119,000 transfer reads "Pending Approval", not paid
 **Owner:** Farhan · **Raised:** 2026-10-14 · **Value:** QAR 119,000 · **VERIFY THE CREDIT**
 
