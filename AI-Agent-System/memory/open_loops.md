@@ -3428,6 +3428,45 @@ retention.
 **Still owed to CCC's file:** the receipt for the first 76,050 (cheque 00000245, QIB, 04-07-2026
 — instrument fully known, one of the five unreceipted payments under OL-082).
 
+### OL-117 — The two missing condensing units are ordered, and the job is now fully bought
+**Owner:** Farhan · **Raised:** 2026-11-01 · **Value:** QAR 12,000 · **DUTY CONFIRMATION OUTSTANDING**
+
+**LPO-215/2026** — Doha Controls Trading W.L.L., **2 × RIME RLUM-B030Y-1C air-cooled condensing
+units with BITZER 2FES-3Y-40S**, part CDU-2FES3Y-RM, 6,000 each, **net 12,000**, against their
+offer 107/QTN262111 of 01-11-2026. **100% cash on delivery, delivered to site in 3 days,
+ex-stock subject to prior sale.**
+
+**THESE ARE THE UNITS LPO-214 EXPRESSLY LEFT OUT.** Note 3 of LPO-214 told Airtronics *"the two
+(2) condensing units required for this application are not included and remain to be supplied."*
+This closes that gap. **Inferred, not stated by Farhan** — the quantity, the duty and the gap all
+line up, and the PO carries the 40 cbm duty-and-standby application line accordingly. **If these
+units are for some other room, the application line on the PO is wrong and it must be reissued.**
+
+**EACH UNIT MUST CARRY THE WHOLE ROOM.** Duty and standby means one unit runs the room alone —
+not two units sharing it. Note 3 of the PO puts that in writing and asks Doha Controls to confirm
+the full 40 cbm duty at 0 °C to +8 °C on R404A at 46 °C ambient, ≤16 hours running, with the
+selection printout to accompany the goods. **Do not accept delivery without that confirmation** —
+the selection is the vendor's and this note is what makes it theirs.
+
+**PRICE READS WELL AGAINST THE LAST ONE.** LPO-211 bought a RLUM-B021Y-1B with the smaller
+2GES-2Y at **5,765**. This is a larger unit with a 2FES-3Y at **6,000** — 235 more for a step up
+in capacity. **Delivery is on site and inside the price**, where LPO-211 and LPO-214 were both
+ex-works collection. Note 6 locks that so no transport charge appears on the invoice.
+
+**ENTITY AGAIN.** Doha Controls addressed the quotation to **Doha Cooling Trading and Solution
+W.L.L.** — the third document this week to do so. Note 2 directs the invoice to TNDK, C.R. 199351,
+exactly as LPO-211 had to. **See OL-116: this keeps happening because the vendors have Doha
+Cooling on file and nobody has told them otherwise.**
+
+**STILL NOT BOUGHT for these two systems:** the R404A charge, the interconnecting copper and
+fittings, and the Armaflex insulation. Note 4 asks Doha Controls to quote them at once.
+
+**CASH POSITION ON THIS JOB.** Advance received **29,900** (cheque 01000012, subject to
+realisation). Committed vendor spend now **27,399** — panel 7,399 (LPO-213), evaporators and
+accessories 8,000 (LPO-214), condensing units 12,000 (LPO-215). **The advance covers the bought
+material with 2,501 to spare, before refrigerant, copper, insulation, labour and transport.**
+Contract 59,800. **Check the cheque has cleared before paying 12,000 cash on delivery.**
+
 ### OL-116 — Aalaf will issue the PO, and they asked for a "name change" that cannot honestly be given
 **Owner:** Farhan · **Raised:** 2026-11-01 · **Value:** QAR 23,450 + 17,235 quoted · **PO IMMINENT**
 
