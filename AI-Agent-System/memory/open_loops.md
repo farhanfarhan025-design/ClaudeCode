@@ -3459,8 +3459,24 @@ written into the quotation:**
    almost no air, and the blame lands on the fan. The note puts the rotation check and the
    protection on whoever connects it.
 
-**WARRANTY** is 12 months from delivery on the manufacturer's warranty, excluding damage in
-installation by others and unprotected supply — correct for a supply-only sale.
+**REVISED THE SAME DAY ON FARHAN'S INSTRUCTION — "Delivery same day / Don't mention anything on
+warranty."** Delivery is now **same day from the confirmed order**, and **every reference to
+warranty is removed**: the warranty note is deleted and the words "warranty documentation" are
+gone from the line item. Verified by search — the issued PDF contains no instance of "warrant" or
+"guarantee". The quotation went out under the same number with no supersession banner, because
+the first version had not reached the client.
+
+**TWO CONSEQUENCES OF THAT REVISION TO KEEP IN VIEW.**
+
+1. **Same-day delivery is now a promise with no stock behind it.** The earlier draft hedged with
+   "subject to stock availability"; that hedge is gone at Farhan's instruction. **The fans must
+   be in hand, or confirmed in a supplier's stock, before this order is accepted** — a same-day
+   promise missed at this office is worth far more than the 3,300.
+2. **Silence on warranty is not the absence of one.** Saying nothing does not exclude the implied
+   position; it only means the document does not define it. If the intention is that the goods
+   carry the manufacturer's cover and nothing more, that is better said than left out — but it
+   was Farhan's express instruction to leave it out and it was followed. **If a fan fails, there
+   is no written limit to point at.**
 
 **VALIDITY 15 days, to 16-11-2026.**
 
