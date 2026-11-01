@@ -3428,6 +3428,47 @@ retention.
 **Still owed to CCC's file:** the receipt for the first 76,050 (cheque 00000245, QIB, 04-07-2026
 — instrument fully known, one of the five unreceipted payments under OL-082).
 
+### OL-116 — Aalaf will issue the PO, and they asked for a "name change" that cannot honestly be given
+**Owner:** Farhan · **Raised:** 2026-11-01 · **Value:** QAR 23,450 + 17,235 quoted · **PO IMMINENT**
+
+Aalaf procurement (**Mr. Francis Lloyd De Ramos**, e-mail 01-11-2026, copied to Jassim, Anas and
+others) will raise the PO for the chiller room works once TNDK supplies **company documents, a
+bank certificate, and "letter of name chang from Doha Cooling to The New Kitchen."**
+**This is the first Aalaf PO in prospect — nothing of theirs has ever been won.**
+
+**WHY THEY ASKED.** The thread opens with the quotation sent by **dcts qatar on 8 July**. The
+Aalaf quotation on file carries the serial **QUT/DCTS/042/2026 with a date of 19-10-2026** — a
+July-era serial on an October document. **The original was issued under Doha Cooling and the
+revisions under TNDK**, so the vendor name on their paper changed between revisions and their
+procurement stopped on it. That is a filing consequence of the two-entity habit, not a client
+problem.
+
+**THE LETTER THEY ASKED FOR WOULD HAVE BEEN FALSE AND WAS NOT WRITTEN.** TNDK is C.R. 199351 and
+Doha Cooling is C.R. 93354 — **two separately registered companies, not one renamed.** A letter
+stating a name change would be a misrepresentation to a client's procurement, relied on to raise
+a PO and release money. **LTR/DCTS/257/2026 says the true thing instead:** same ownership, same
+management, same team; TNDK is the entity to be ordered on; TNDK adopts the quotation in full with
+no change of scope, price, terms or validity; **Doha Cooling will raise no invoice and make no
+claim**; all warranty and rectification obligations sit with TNDK. Issued signed and stamped.
+
+**THE REAL EXPOSURE THIS UNCOVERS — the two entities are not interchangeable and the paperwork
+keeps treating them as though they were.** Doha Cooling **has no bank account and no company
+seal** (OL-099). Every Doha Cooling document is therefore unbankable and unsealable, and any
+client who orders on Doha Cooling has to be walked back to TNDK exactly as here. **Decide which
+entity trades and use it** — or the next procurement department will ask the same question, and
+one of them will ask for something that cannot be answered at all.
+
+**STILL UNANSWERED: WHICH QUOTATION IS THE PO AGAINST?** They say "the Chiller room." The only
+Aalaf documents on file are **civil works 23,450 (QUT/DCTS/042 Rev. 2)** and **racking 17,235
+(QUT/DCTS/255)**. **The cold room itself has never been priced** (OL-106), although the drawings
+name TNDK as cold room sub-contractor. **Read the PO against the quotation line by line before
+accepting it.** If it purports to cover the chiller room build, there is no agreed price behind
+it.
+
+**FARHAN TO ATTACH:** C.R., Establishment (Computer) Card, Tax Card, bank account certificate from
+The Commercial Bank, authorised signatory ID. The letter lists all five as enclosed — **if one is
+not attached, the letter is wrong on its face.**
+
 ### OL-115 — One A chased for INV-275 without naming it, and the two-day deadline is now live
 **Owner:** Farhan · **Raised:** 2026-10-31 · **Value:** QAR 29,400 · **DEADLINE RUNS 02-11-2026**
 
