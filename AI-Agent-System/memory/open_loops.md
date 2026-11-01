@@ -3428,6 +3428,46 @@ retention.
 **Still owed to CCC's file:** the receipt for the first 76,050 (cheque 00000245, QIB, 04-07-2026
 — instrument fully known, one of the five unreceipted payments under OL-082).
 
+### OL-118 — 14,350 committed to a chiller and freezer that match no job on file
+**Owner:** Farhan · **Raised:** 2026-11-01 · **Value:** QAR 14,350 · **NO SALE BEHIND THIS COST**
+
+**LPO-216/2026** — Airtronics, against **ART-QTN-3496-26 of 29-10-2026**. Sub-total 14,412 less
+62 discount, **net 14,350**, 100% CDC on collection, ex-works Doha. Danfoss **MCZC 048** hermetic
+unit with Gunay **GNE 130.4A** for a chiller, Danfoss **LGQC 068** with Gunay **GNE 135.8D** for a
+freezer, two Subzero panels and the valve and fitting package.
+
+**THE ROOMS ARE 3.00 x 2.20 x 2.20 m, 14.52 cbm EACH — AND NO QUOTATION, ORDER BOOK ROW OR OPEN
+LOOP ON FILE CARRIES THOSE DIMENSIONS.** Searched on the sizes, the volume and both model
+numbers: nothing. **So 14,350 of material is being bought against a sale that is not in these
+records.** Either the job was quoted outside the documents I hold, or it has not been quoted at
+all. **Ask Farhan which job this is and get the quotation into the file before collection** — a
+cost with no revenue behind it is how a month's margin disappears quietly.
+*(The quotation is addressed to "Mr. Joby/Farhan", which may point to who sold it.)*
+
+**THREE TECHNICAL POINTS PUT TO THE VENDOR IN WRITING.**
+
+1. **THEIR SELECTION IS AT 45 °C AMBIENT; OUR DESIGN AMBIENT IS 46 °C.** The MCZC 048 is rated
+   2 kW at -5 °C Te / **45 °C** and the LGQC 068 1.4 kW at -25 °C Te / **45 °C**. Every other TNDK
+   document selects at **46 °C** Doha design ambient. One degree at the top of the envelope is
+   exactly where a marginal unit stops holding the room. Note 2 requires written confirmation of
+   both duties at 46 °C **before collection**, with the selection printouts, and says we will not
+   collect until it comes.
+2. **THE FREEZER CANNOT DEFROST ON THIS QUOTATION AS WRITTEN.** A room at -18 °C to -22 °C needs
+   electric defrost with a timer and termination thermostat and a heated, insulated drain. The
+   quotation lists a cubic evaporator and a plastic-body control panel and **no defrost heater,
+   no timer, no termination thermostat and no drain heater tape.** Note 3 asks them to confirm
+   what is built in and to quote the rest. **This is the item most likely to come back in July.**
+3. **HERMETIC, NOT SEMI-HERMETIC.** Danfoss MCZC and LGQC are hermetic units — the compressor
+   cannot be rebuilt, only replaced. LPO-211 and LPO-215 both bought **semi-hermetic Bitzer**.
+   Nothing wrong with hermetic on small rooms, but the service life and the repair position
+   differ, and whoever priced the job should have priced it on that basis.
+
+**NOT INCLUDED and called out in note 4:** R404A charge, interconnecting copper tube and
+fittings, Armaflex insulation, insulated drain lines. **Expect a second Airtronics order.**
+
+**Validity is five (5) days from 29-10-2026 — it expires 03-11-2026** and the stock is subject to
+prior sale, so the acknowledgement is wanted today.
+
 ### OL-117 — The two missing condensing units are ordered, and the job is now fully bought
 **Owner:** Farhan · **Raised:** 2026-11-01 · **Value:** QAR 12,000 · **DUTY CONFIRMATION OUTSTANDING**
 
