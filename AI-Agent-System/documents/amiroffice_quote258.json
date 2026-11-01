@@ -1,0 +1,64 @@
+{
+  "type": "quotation",
+  "badge": [
+    "SUPPLY",
+    "QUOTATION"
+  ],
+  "number": "QUT/DCTS/258/2026",
+  "date": "01-11-2026",
+  "ref": "15 days from date of quotation",
+  "meta_labels": [
+    "QUOTATION NO",
+    "DATE",
+    "VALIDITY"
+  ],
+  "currency": "QAR",
+  "filename": "Quotation_QUT-DCTS-258-2026_PrivateOffice_RotorupAxialFan_4T-S500S",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "TO",
+    "name": "The Private Office of H.H. The Father Amir",
+    "fields": [
+      "Doha, State of Qatar",
+      {
+        "label": "Subject",
+        "value": "Supply of axial fans — Rotorup 4T-S500S"
+      },
+      {
+        "label": "Scope",
+        "value": "Supply only — installation and electrical connection are not included"
+      },
+      {
+        "label": "Delivery",
+        "value": "03 to 05 days from the confirmed order, subject to stock availability"
+      },
+      {
+        "label": "Payment",
+        "value": "100% against delivery"
+      }
+    ]
+  },
+  "lines": [
+    {
+      "description": "ROTORUP AXIAL FAN — MODEL 4T-S500S\nPower supply: 380 V / 50 Hz / 3 Phase\nSpeed: 1,370 RPM\nSupplied new, complete with its motor, impeller and mounting frame, in the original manufacturer's packing, with the manufacturer's data plate and warranty documentation.\nSupply only, delivered to your site. Removal of the existing fan, mounting, electrical connection, commissioning and the making good of any opening are not included — please refer to notes 2 and 3 below.",
+      "unit": "Nos",
+      "qty": 2,
+      "rate": 1650.0
+    }
+  ],
+  "grand_total_label": "TOTAL",
+  "notes": [
+    "MODEL AS SPECIFIED BY YOURSELVES. The fan is offered strictly against the make, model, electrical supply and speed stated above, as given to us. We have not surveyed the existing installation, and this offer does not include the selection of the fan for any particular duty. Should you wish us to confirm the airflow, static pressure, opening size, mounting arrangement or electrical loading against the application before you place the order, kindly advise and we shall attend site at no charge and confirm the selection in writing.",
+    "SUPPLY ONLY. This quotation covers the supply and delivery of the two (2) fans and nothing further. Removal and disposal of the existing fans, mounting and fixing, the supply or alteration of any frame, duct, louvre or builder's opening, the electrical supply, cabling, isolator, starter, overload protection and final connection, testing, commissioning and the making good of any opening are NOT included. Should you wish us to carry out the installation and connection, we shall be pleased to attend site and submit a separate offer for it.",
+    "ELECTRICAL. The fans are three-phase units and are to be connected by a competent electrician through a suitably rated isolator and overload protection. The direction of rotation must be proved on first run and the phases reversed if the impeller turns the wrong way, as a three-phase fan will run quietly in reverse while delivering very little air. We do not accept responsibility for a fan connected or protected by others.",
+    "WARRANTY: twelve (12) months from the date of delivery against manufacturing defects, under the manufacturer's warranty. Excludes damage in handling or installation by others, incorrect or unprotected electrical supply, phase failure, power surge, water ingress, operation outside the fan's rating, and fair wear and tear.",
+    "DELIVERY. 03 to 05 days from the confirmed order, subject to the stock position at the time of order. Should the item not be in stock at that time, we shall advise you of the lead time in writing before accepting the order.",
+    "Prices are quoted in Qatari Riyals and are valid for fifteen (15) days from the date of this quotation. Payment 100% against delivery, by cheque or bank transfer in favour of The New Doha Kitchen Equipment Services W.L.L.",
+    "We thank you for the opportunity of submitting this offer and remain at your service for any clarification, site attendance or further information that may be required."
+  ]
+}

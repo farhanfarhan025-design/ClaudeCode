@@ -3428,6 +3428,42 @@ retention.
 **Still owed to CCC's file:** the receipt for the first 76,050 (cheque 00000245, QIB, 04-07-2026
 — instrument fully known, one of the five unreceipted payments under OL-082).
 
+### OL-119 — Quoted the Private Office of the Father Amir without knowing the buying price
+**Owner:** Farhan · **Raised:** 2026-11-01 · **Value:** QAR 3,300 · **MARGIN UNKNOWN**
+
+**QUT/DCTS/258/2026** — **The Private Office of H.H. The Father Amir**, supply of **two (2)
+Rotorup axial fans, model 4T-S500S, 380 V / 50 Hz / 3 Ph, 1,370 rpm**, at **1,650 each, total
+3,300**, supply only, 100% against delivery, 3 to 5 days subject to stock. Signed and stamped.
+
+**THE SELLING PRICE CAME FROM FARHAN AND THE COST IS NOT ON FILE.** No supplier quotation for a
+Rotorup 4T-S500S exists in these records, so **the margin on this job is unknown** and the
+delivery promise of 3 to 5 days is not backed by a confirmed stock position anywhere. **Get a
+supplier price and a stock confirmation before the order is accepted.** This is the same pattern
+as OL-105 praised in reverse: that racking quotation went out with its cost known, this one did
+not.
+
+**THE CLIENT IS THE REASON TO BE CAREFUL, NOT A REASON TO RELAX.** A private office of this
+standing pays reliably and is worth keeping, which makes a missed delivery date or a fan that
+does not suit the opening expensive in a way the 3,300 does not show. **Three protections are
+written into the quotation:**
+
+1. **Note 1 — the model is theirs, not ours.** We have not surveyed the installation and the
+   offer does not include selecting the fan for any duty. It offers a free site attendance to
+   confirm airflow, static pressure, opening size, mounting and electrical loading **before**
+   they order. **If they accept that offer, take it** — it is the cheapest insurance available.
+2. **Note 2 — supply only.** Removal of the existing fans, mounting, frames, ducts, louvres,
+   cabling, isolator, starter, overload, final connection, commissioning and making good are all
+   excluded, with an offer to quote the installation separately. **There is a second, larger job
+   sitting in that sentence if they want it.**
+3. **Note 3 — three-phase rotation.** A three-phase fan runs quietly backwards while moving
+   almost no air, and the blame lands on the fan. The note puts the rotation check and the
+   protection on whoever connects it.
+
+**WARRANTY** is 12 months from delivery on the manufacturer's warranty, excluding damage in
+installation by others and unprotected supply — correct for a supply-only sale.
+
+**VALIDITY 15 days, to 16-11-2026.**
+
 ### OL-118 — 14,350 committed to a chiller and freezer that match no job on file
 **Owner:** Farhan · **Raised:** 2026-11-01 · **Value:** QAR 14,350 · **NO SALE BEHIND THIS COST**
 
