@@ -1,0 +1,52 @@
+{
+  "type": "invoice",
+  "badge": ["SECOND", "INVOICE"],
+  "number": "INV-294/2026",
+  "date": "02-11-2026",
+  "ref": "QUT/DCTS/SQ130/2026 (Revised) — approved 29-10-2026",
+  "currency": "QAR",
+  "filename": "Invoice_INV-294-2026_GozlVeterinary_ChillerRoom_45pct_OnDelivery",
+  "payee_name": "The New Doha Kitchen Equipment Services W.L.L.",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "BILL TO",
+    "name": "M/s. Gozl Veterinary Services and Trading Co.",
+    "fields": [
+      "Doha, State of Qatar",
+      {"label": "Project", "value": "One (1) chiller room 4.00 x 4.00 x 2.50 m with duty and standby refrigeration"},
+      {"label": "Our quotation", "value": "QUT/DCTS/SQ130/2026 (Revised) — approved 29-10-2026"},
+      {"label": "Contract Value", "value": "QAR 59,800.00"},
+      {"label": "Stage", "value": "Second instalment — 45% on delivery of materials at site"}
+    ]
+  },
+  "lines": [
+    {
+      "description": "SECOND PAYMENT — 45% ON DELIVERY OF MATERIALS AT SITE\nSecond instalment against our approved quotation QUT/DCTS/SQ130/2026 (Revised) for the supply, installation, testing and commissioning of one (1) chiller room 4.00 x 4.00 x 2.50 m at 0 °C to +8 °C with duty and standby refrigeration.\nMaterials delivered to site comprise 100 mm PUF insulated sandwich panel to walls, ceiling and floor (72.00 sqm) with all coving, angles, silicone sealing and fasteners; the insulated floor system with 18 mm marine ply and 1.5 mm chequered plate; the hinged door 900 x 1900 mm complete with hardware; and the two (2) complete refrigeration systems — condensing units, unit coolers, expansion valves, filter driers, sight glasses, solenoid valves and accessories — together with the control panel with automatic duty and standby changeover.\nContract value QAR 59,800.00 — this invoice covers the second instalment of 45%.",
+      "unit": "Lot",
+      "qty": 1,
+      "rate": 26910.00
+    }
+  ],
+  "grand_total_label": "AMOUNT NOW DUE",
+  "bank": {
+    "Bank": "The Commercial Bank (P.S.Q.C.), Grand Hamad Branch – 4010",
+    "Account Name": "The New Doha Kitchen Equipment Services W.L.L.",
+    "Account Number": "4010-777739-001",
+    "IBAN": "QA06 CBQA 0000 0000 4010 7777 3900 1",
+    "SWIFT / BIC": "CBQAQAQA",
+    "Currency": "Qatari Riyal (QAR)"
+  },
+  "notes": [
+    "ACCOUNT POSITION. Contract value QAR 59,800.00. Received: 50% advance QAR 29,900.00 on 29-10-2026 under INV-291/2026, receipted by RCT-292/2026. This invoice: second instalment 45% QAR 26,910.00 on delivery of materials at site. Remaining after this invoice: 5% QAR 2,990.00, payable after successful testing, commissioning and handover.",
+    "Payment due on presentation of this invoice. Payment may be made by cheque or bank transfer to the account shown above. Kindly cross cheques \"A/C Payee Only\", strike out the words \"or bearer\", and draw them strictly in favour of the account name given, which is THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L. with no word between Equipment and Services. Please quote invoice INV-294/2026 as the reference.",
+    "MATERIAL DELIVERED TO SITE. The materials described above have been delivered to your site. Our delivery note covering the delivery follows for signature by your site representative; kindly have it signed and returned to us, and advise at once if any item is found short or damaged so that it can be made good without delay.",
+    "DUTY AND STANDBY — PLEASE RUN THE SETS IN ROTATION. The room is served by two complete refrigeration systems, either of which holds the room on its own, with automatic changeover on failure or high temperature. A standby set that never runs will seize, and a seized standby is no standby at all. Kindly operate the two sets in rotation once the room is handed over, and we shall set the changeover and explain the operation at commissioning.",
+    "INSTALLATION AND COMMISSIONING TO FOLLOW. Installation proceeds on a civil-ready site, with testing and commissioning on completion, after which the final 5% falls due. Please ensure the main power supply and the cable run from the main distribution board to the cold room control panel are available, together with a drainage point within 3 m of the evaporators, as these are by others under our quotation.",
+    "This invoice is issued against our approved quotation QUT/DCTS/SQ130/2026 (Revised) and is subject to its terms."
+  ]
+}

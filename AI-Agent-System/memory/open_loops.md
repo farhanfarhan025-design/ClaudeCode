@@ -3428,6 +3428,51 @@ retention.
 **Still owed to CCC's file:** the receipt for the first 76,050 (cheque 00000245, QIB, 04-07-2026
 — instrument fully known, one of the five unreceipted payments under OL-082).
 
+### OL-120 — Gozl's delivery stage invoiced, but what was bought is not what was sold
+**Owner:** Farhan · **Raised:** 2026-11-02 · **Value:** QAR 26,910 · **SUBSTITUTION UNACCEPTED**
+
+**INV-294/2026** — Gozl Veterinary, **second instalment 45% on delivery of materials, 26,910**,
+against approved quotation QUT/DCTS/SQ130/2026 (Revised). Contract 59,800; advance 29,900
+received 29-10-2026 (RCT-292); **remaining after this invoice 2,990, the 5% on handover.**
+Signed and stamped.
+
+**THE MACHINES DELIVERED ARE NOT THE MACHINES QUOTED. THIS IS THE ONE TO DEAL WITH TODAY.**
+
+| | Sold to Gozl under SQ130 | Actually ordered |
+|---|---|---|
+| Condensing units | **2 × BITZER 2EES-3Y**, 3 HP, 4.4 kW at -12 °C / 45 °C | **2 × RIME RLUM-B030Y-1C with BITZER 2FES-3Y** (LPO-215) |
+| Unit coolers | **2 × Gunay GNE 240.8B2** | **2 × Gunay GYE 235-6B** slim type (LPO-214) |
+
+Both items changed. LPO-214 note 2 already required Airtronics to confirm the GYE carries the
+duty, and OL-113 flagged the cooler change — **but the client has never been told and has never
+accepted it.** A veterinary client with a vaccine or sample store will have an engineer who reads
+data plates. **If he reads them against SQ130 before paying, this invoice stops.**
+
+**So the invoice does not assert the models.** The line item describes the delivery generically —
+panel, floor, door, "the two (2) complete refrigeration systems — condensing units, unit coolers,
+expansion valves, filter driers, sight glasses, solenoid valves and accessories" — and names no
+make or model, which is accurate for what was delivered and makes no claim that will be
+contradicted by a data plate. **That is a holding position, not a cure.** Get the substitution
+accepted in writing, with the duty confirmations behind it, and do it before the money is chased,
+not after it is refused.
+
+**THREE OTHER THINGS ON THIS INVOICE.**
+
+1. **NO DELIVERY NOTE EXISTS FOR GOZL.** The DN series stands at **DN-254/2026 (CCC)**. The
+   invoice says our delivery note "follows for signature by your site representative" — **that is
+   a promise now outstanding.** CCC's second invoice could cite DN-254 on its face and was far
+   stronger for it. **Give me the delivered items and the delivery date and I will raise DN-255.**
+2. **THE 45% IS STILL MY NUMBER, NOT FARHAN'S.** OL-110 recorded it: he set the 50% advance and
+   said nothing about the tail, so the quotation's 20% delivery stage was grown to 45% to absorb
+   the 25% left unplaced. **This invoice now puts 26,910 in front of the client on that basis.**
+   If the intended shape was 50/30/15/5 or the Bismi 50/30/10/10, **say so before this is sent**,
+   because it changes what is held to the end from 2,990 to as much as 5,980.
+3. **THE ADVANCE CHEQUE WAS NOT CONFIRMED CLEARED.** Doha Bank 01000012 of 28-10-2026 was taken
+   **uncrossed with "or bearer" unstruck** and receipted subject to realisation. Invoicing the
+   second stage while the first is unconfirmed means **56,810 of a 59,800 contract would be
+   invoiced on one unverified instrument.** Check the account before the installation labour goes
+   in.
+
 ### OL-119 — Quoted the Private Office of the Father Amir without knowing the buying price
 **Owner:** Farhan · **Raised:** 2026-11-01 · **Value:** QAR 3,300 · **MARGIN UNKNOWN**
 
