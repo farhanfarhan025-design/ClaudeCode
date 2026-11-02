@@ -3250,6 +3250,11 @@ grown from 20% to **45% (26,910)** and the **5% retention (2,990)** left as quot
 — the alternatives are 50/30/15/5 or the Bismi shape of 50/30/10/10, and on a 59,800 contract the
 difference in what is held to the end is real.
 
+> **SETTLED 02-11-2026 — THE 45% WAS WRONG.** Farhan: *"30% at delivery not 45%."* The terms are
+> **50 advance / 30 on delivery (17,940) / 20 remaining (11,960)**, and INV-294/2026 was reissued
+> at 17,940 before it reached the client. **The split of the last 20% between completion and
+> handover is still not stated — ask, do not infer.** See OL-120.
+
 **A STANDBY SET IS WHY THIS CONTRACT IS WORTH 59,800.** A veterinary client storing vaccines,
 samples or carcasses cannot lose a room; **two complete systems, either of which holds the room
 alone, is the right answer and it is properly specified** — automatic cut-in on failure or high
@@ -3431,10 +3436,16 @@ retention.
 ### OL-120 — Gozl's delivery stage invoiced, but what was bought is not what was sold
 **Owner:** Farhan · **Raised:** 2026-11-02 · **Value:** QAR 26,910 · **SUBSTITUTION UNACCEPTED**
 
-**INV-294/2026** — Gozl Veterinary, **second instalment 45% on delivery of materials, 26,910**,
+**INV-294/2026** — Gozl Veterinary, **second instalment 30% on delivery of materials, 17,940**,
 against approved quotation QUT/DCTS/SQ130/2026 (Revised). Contract 59,800; advance 29,900
-received 29-10-2026 (RCT-292); **remaining after this invoice 2,990, the 5% on handover.**
+received 29-10-2026 (RCT-292); **remaining after this invoice 11,960, being 20%.**
 Signed and stamped.
+
+**CORRECTED 02-11-2026.** The invoice first went out at **45% / 26,910** on my inference and
+Farhan corrected it the same day: *"30% at delivery not 45%."* The document was reissued at
+17,940 under the same number before it reached the client, every percentage on its face
+re-checked (it now reads 50%, 30% and 20% and nothing else), and the old file deleted so there is
+only one INV-294 in existence. **The 45% was never his figure and the order book now says so.**
 
 **THE MACHINES DELIVERED ARE NOT THE MACHINES QUOTED. THIS IS THE ONE TO DEAL WITH TODAY.**
 
@@ -3462,14 +3473,16 @@ not after it is refused.
    invoice says our delivery note "follows for signature by your site representative" — **that is
    a promise now outstanding.** CCC's second invoice could cite DN-254 on its face and was far
    stronger for it. **Give me the delivered items and the delivery date and I will raise DN-255.**
-2. **THE 45% IS STILL MY NUMBER, NOT FARHAN'S.** OL-110 recorded it: he set the 50% advance and
-   said nothing about the tail, so the quotation's 20% delivery stage was grown to 45% to absorb
-   the 25% left unplaced. **This invoice now puts 26,910 in front of the client on that basis.**
-   If the intended shape was 50/30/15/5 or the Bismi 50/30/10/10, **say so before this is sent**,
-   because it changes what is held to the end from 2,990 to as much as 5,980.
+2. **THE LAST 20% IS STILL UNSPLIT — DO NOT INVENT IT AGAIN.** With 50% and 30% settled,
+   **11,960 remains** and Farhan has not said how it divides between completion and handover.
+   The invoice therefore describes it as 20% *"covering completion of the installation and the
+   successful testing, commissioning and handover"* without naming a split, which is accurate and
+   commits nothing. **Ask him: 15/5, 10/10, or all 20% on handover.** Inventing 45% once was
+   enough; the amount held to the very end is the only real protection on this job and it is his
+   call, not mine.
 3. **THE ADVANCE CHEQUE WAS NOT CONFIRMED CLEARED.** Doha Bank 01000012 of 28-10-2026 was taken
    **uncrossed with "or bearer" unstruck** and receipted subject to realisation. Invoicing the
-   second stage while the first is unconfirmed means **56,810 of a 59,800 contract would be
+   second stage while the first is unconfirmed means **47,840 of a 59,800 contract would be
    invoiced on one unverified instrument.** Check the account before the installation labour goes
    in.
 
