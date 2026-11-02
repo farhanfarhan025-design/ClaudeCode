@@ -1,0 +1,52 @@
+{
+  "type": "quotation",
+  "badge": ["CIVIL WORKS & FLOOR HEATING", "QUOTATION"],
+  "number": "QUT/DCTS/042/2026",
+  "date": "19-10-2026",
+  "ref": "15 days from date of quotation",
+  "meta_labels": ["QUOTATION NO", "DATE", "VALIDITY"],
+  "currency": "QAR",
+  "filename": "Quotation_QUT-DCTS-042-2026_REVISED_Aalaf_CivilWorks_FloorHeating",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "TO",
+    "name": "Al Mairqab Industrial Investment (Aalaf)",
+    "fields": [
+      "P.O. Box 295, Doha, State of Qatar",
+      {"label": "Attention", "value": "Mr. Francis Lloyd De Ramos — Procurement Manager"},
+      "Tel: +974 4432 7766  |  francis@aalaf.com.qa",
+      {"label": "Subject", "value": "Civil works, and supply and installation of a floor heating system for frost heave prevention"},
+      {"label": "Work completion", "value": "10 - 15 days from date of confirmation / site handover"},
+      {"label": "Status", "value": "REVISED — supersedes our quotation of the same number dated 08-07-2026"}
+    ]
+  },
+  "lines": [
+    {
+      "description": "CIVIL WORKS — LUMP SUM\n1. DEMOLITION — Demolition of the existing floor concrete and removal of waste material, approximately 300 mm deep from the existing level.\n2. INSULATION AND PREPARATION — Supply and installation of 40 mm foam sheet, levelling and compaction of the floor.\n3. RCC FLOOR — Supply and installation of 100 mm RCC floor concrete with 6 mm mesh (A6).\n4. PCC BASE — 50 mm PCC on the floor base.\n5. WATERPROOFING — Cementitious waterproofing works.\nConcrete prepared at site in accordance with QCS (Qatar Construction Specifications).",
+      "unit": "L.S",
+      "qty": 1,
+      "rate": 19500.00
+    },
+    {
+      "description": "FLOOR HEATING SYSTEM FOR FROST HEAVE PREVENTION — WITH RESERVE SYSTEM\nFloor area 5.70 m x 6.20 m (35.34 sqm).\n1. HEATING CABLE — Supply and installation of two (2) Nos. DEVIflex 10T heating cables, 990 W, 230 V, 100 m each, laid above the floor insulation and within the RCC slab at even spacing across the full floor area.\n2. RESERVE SYSTEM — The two cables are installed as a duty circuit and a full standby circuit. A cable cast into a concrete slab cannot be repaired or replaced; the second cable is laid and terminated at the same time so that, should the duty cable ever fail, the standby can be energised without breaking out the floor.\n3. CONTROLS — Supply and installation of two (2) Nos. DEVIreg 330 electronic thermostats, each complete with its floor sensor in a conduit sleeve, one serving each circuit, mounted outside the room.\n4. FIXING — Supply and installation of three (3) rolls of 25 m metal fixing strip, set out across the floor to hold both cables at the designed spacing during the pour.\n5. TESTING — Insulation resistance and continuity of each cable tested and recorded before laying, after fixing, and again after the concrete has been poured, and the readings handed to you.\n6. TESTING, COMMISSIONING AND HANDOVER — Thermostats wired, sensors proved, set points set and the system handed over in working order.",
+      "unit": "L.S",
+      "qty": 1,
+      "rate": 11500.00
+    }
+  ],
+  "grand_total_label": "GRAND TOTAL",
+  "notes": [
+    "REVISED QUOTATION. This quotation is issued in revision of our quotation of the same number dated 08 July 2026 and supersedes it in full; the earlier document is withdrawn. The civil works scope and its price of QAR 19,500.00 are unchanged. The floor heating system for frost heave prevention has been added at QAR 11,500.00, bringing the total to QAR 31,000.00.",
+    "SEQUENCE OF WORK. The heating cables are laid after the 40 mm insulation and before the RCC pour, and are fixed to the metal strip and tied clear of the mesh. The two works are therefore a single programme and cannot be carried out separately or by different parties. We must be present during the pour.",
+    "THE CABLE CANNOT BE REPLACED ONCE CAST. Neither cable may be cut, shortened, joined or re-routed on site. If the slab is drilled, cored, chased or cut by others at any time after the pour, any damage to the cables is outside our responsibility and the reserve circuit may be lost with the duty circuit.",
+    "ELECTRICAL SUPPLY BY OTHERS. A 230 V single phase supply with its own isolator and protective device is to be provided adjacent to each thermostat position. Each circuit draws approximately 990 W. Final connection from the client's isolator to the thermostat is included; the supply up to that point is not.",
+    "EXCLUSIONS. Epoxy works are excluded, as previously discussed. Also excluded: any structural work; any insulation other than the 40 mm foam sheet described above; and any additional works outside the scope stated, which will be quoted separately.",
+    "WARRANTY: twelve (12) months on our installation workmanship from the date of handover. The manufacturer's own warranty on the DEVI heating cables and thermostats is passed to you in full, and the test records are provided as the evidence it requires. Excludes damage caused by others to the slab, by incorrect supply, or by operation of the thermostats outside their stated range.",
+    "Payment Terms: 100% payment in advance prior to commencement of works. Work completion 10 - 15 days from date of confirmation / site handover. Site access, water and electricity to be provided by the client free of cost. Prices are in Qatari Riyals and are valid for 15 days from the date of this quotation."
+  ]
+}

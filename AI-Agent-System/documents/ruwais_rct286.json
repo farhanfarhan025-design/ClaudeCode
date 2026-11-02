@@ -1,0 +1,44 @@
+{
+  "type": "receipt",
+  "number": "RCT-286/2026",
+  "date": "18-10-2026",
+  "ref": "INV-281/2026",
+  "meta_labels": ["RECEIPT NO", "DATE", "AGAINST INVOICE"],
+  "currency": "QAR",
+  "filename": "Receipt_RCT-286-2026_RuwaisFarm_ExpansionValve_SettledInFull",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "RECEIVED FROM",
+    "name": "Ruwais Farm",
+    "fields": [
+      "State of Qatar",
+      {"label": "Service", "value": "Replacement of expansion valve and complete system gas charging"},
+      {"label": "Invoice Value", "value": "QAR 1,750.00"},
+      {"label": "Balance After This Receipt", "value": "QAR 0.00 — account settled in full"}
+    ]
+  },
+  "lines": [
+    {"description": "Payment in full against INV-281/2026 dated 13-10-2026 — replacement of expansion valve, pressure testing, evacuation and complete system gas charging, testing, commissioning and labour", "unit": "Job", "qty": 1, "rate": 1750.00}
+  ],
+  "grand_total_label": "TOTAL RECEIVED",
+  "instrument": {
+    "type": "transfer",
+    "payment_mode": "Bank transfer — Fawran",
+    "reference_no": "FT262919GGJ5",
+    "bank": "Qatar Islamic Bank (QIB) — QIB Mobile App",
+    "transfer_date": "18-10-2026",
+    "beneficiary": "THE NEW DOHA KITCHEN EQUIPMENT SERV — alias CR-199351",
+    "drawer": "Ruwais Farm — debit a/c QA07 QISB 0000 0000 0110 2363 5001 8"
+  },
+  "notes": [
+    "Received with thanks in full and final settlement of INV-281/2026 dated 13-10-2026. The account stands settled; there is no balance outstanding.",
+    "WARRANTY. Six (6) months from the date of INV-281/2026 on the expansion valve supplied and on our workmanship, as stated on that invoice. Excludes failure caused by moisture or contamination carried from elsewhere in the system, a leak outside the work carried out, power surge, improper supply, or absence of routine maintenance.",
+    "FILTER DRIER. As noted on our invoice, the filter drier should be renewed whenever a sealed refrigeration circuit has been opened. If the drier on this system has not been changed we recommend it be done at the earliest opportunity, a saturated drier being the most common cause of a repeat expansion valve failure. We will be pleased to attend and quote.",
+    "We thank you for your continued custom and remain at your service for routine maintenance of your refrigeration plant."
+  ]
+}

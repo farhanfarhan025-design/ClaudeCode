@@ -1,0 +1,88 @@
+{
+  "type": "delivery_note",
+  "number": "DN-254/2026",
+  "date": "28-10-2026",
+  "ref": "LPO DIAR-L05531 MCR",
+  "meta_labels": [
+    "DN NUMBER",
+    "DATE",
+    "REF LPO"
+  ],
+  "currency": "QAR",
+  "filename": "DeliveryNote_DN-254-2026_CCC_SandwichPanelDelivery",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "DELIVER TO",
+    "name": "Consolidated Contractors Group S.A.L. (Offshore) — CCC",
+    "fields": [
+      "State of Qatar",
+      {
+        "label": "Order",
+        "value": "LPO DIAR-L05531 MCR — cold rooms"
+      },
+      {
+        "label": "Delivery",
+        "value": "Sandwich panel only — see note 2"
+      },
+      {
+        "label": "Site",
+        "value": "CCC Labor Camp"
+      },
+      {
+        "label": "Site supervisor",
+        "value": "Mr. Suresh"
+      },
+      {
+        "label": "Vehicle / Trip",
+        "value": "_______________________________________"
+      }
+    ]
+  },
+  "lines": [
+    {
+      "description": "100 mm INSULATED SANDWICH PANEL — 3.00 m LENGTH\nCut length 3.00 m x standard 1.00 m module width — 111 pieces",
+      "unit": "Sqm",
+      "qty": 333.0,
+      "pieces": "111"
+    },
+    {
+      "description": "100 mm INSULATED SANDWICH PANEL — 2.00 m LENGTH\nCut length 2.00 m x standard 1.00 m module width — 12 pieces",
+      "unit": "Sqm",
+      "qty": 24.0,
+      "pieces": "12"
+    },
+    {
+      "description": "100 mm INSULATED SANDWICH PANEL — 5.00 m LENGTH\nCut length 5.00 m x standard 1.00 m module width — 11 pieces",
+      "unit": "Sqm",
+      "qty": 55.0,
+      "pieces": "11"
+    },
+    {
+      "description": "TOTAL DELIVERED",
+      "unit": "Sqm",
+      "qty": 412.0,
+      "pieces": "134"
+    }
+  ],
+  "notes": [
+    "SANDWICH PANEL DELIVERY against LPO DIAR-L05531 MCR. Total delivered: ONE HUNDRED AND THIRTY-FOUR (134) pieces, 412.00 linear metres, 412.00 SQUARE METRES of 100 mm insulated sandwich panel. Areas are calculated on the standard 1.00 m panel module width; the piece count and the cut lengths are to be checked and initialled by both parties at the time of delivery.",
+    "SANDWICH PANEL ONLY. This delivery comprises insulated sandwich panel and nothing else. Aluminium coving and corner angles, silicone sealant, polyurethane foam, fixings, doors, refrigeration equipment, control panels and all other materials are NOT included in this delivery and will follow under a separate delivery note.",
+    "Goods are received in good condition unless noted on this delivery note at the time of delivery. Any shortage, damage or discrepancy is to be reported to us in writing within twenty-four (24) hours of delivery; after that time the quantities and condition recorded above are taken as agreed.",
+    "This delivery note records the movement of goods only. It is not an invoice, it is not a certificate of completion, and it does not vary the order, the specification or the agreed prices.",
+    "RISK AND TITLE. Risk in the material passes to you on delivery to site. Title in the material remains with The New Doha Kitchen Equipment Services W.L.L. until payment has been received in full.",
+    "STORAGE AND HANDLING. Panels are to be offloaded with care, stored flat and clear of the ground, under cover and protected from direct sunlight until erected, and kept clear of traffic routes. We are not responsible for damage, distortion or staining arising after delivery.",
+    "Please return one signed copy of this delivery note to us."
+  ],
+  "extra_column": {
+    "label": "PIECES",
+    "field": "pieces",
+    "width": 11.0,
+    "align": "c",
+    "position": "end"
+  }
+}

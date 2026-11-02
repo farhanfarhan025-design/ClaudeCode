@@ -1,0 +1,52 @@
+{
+  "type": "invoice",
+  "badge": ["SECOND", "INVOICE"],
+  "number": "INV-293/2026",
+  "date": "29-10-2026",
+  "ref": "LPO DIAR-L05531 MCR",
+  "currency": "QAR",
+  "filename": "Invoice_INV-293-2026_CCC_ColdRooms_SecondPayment",
+  "payee_name": "The New Doha Kitchen Equipment Services W.L.L.",
+  "notes_new_page": true,
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "BILL TO",
+    "name": "Consolidated Contractors Group S.A.L. (Offshore) — CCC",
+    "fields": [
+      "State of Qatar",
+      {"label": "Project", "value": "Cold rooms — CCC Labor Camp"},
+      {"label": "Order", "value": "LPO DIAR-L05531 MCR — QAR 253,500.00"},
+      {"label": "Payment terms", "value": "30% / 30% / 30% / 10%"},
+      {"label": "Stage", "value": "Second instalment — 30% of the contract value"}
+    ]
+  },
+  "lines": [
+    {
+      "description": "SECOND PAYMENT — 30% OF THE CONTRACT VALUE\nSecond instalment against LPO DIAR-L05531 MCR for the supply, installation, testing and commissioning of the cold rooms at CCC Labor Camp, comprising insulated sandwich panel to walls and ceiling with all coving, angles, silicone sealing, fasteners and accessories; cold room doors complete with hardware; the refrigeration systems with condensing units, unit coolers, copper piping, insulation, defrost and insulated drain lines; control panels with all safeties; internal lighting, door frame heaters and electrical works from the control panel onward; and testing, commissioning, transportation, mobilisation and lifting at site.\nMaterial delivery to site is evidenced by our delivery note DN-254/2026 dated 28-10-2026 — 134 pieces, 412.00 sqm of 100 mm insulated sandwich panel.\nContract value QAR 253,500.00 — this invoice covers the second 30% instalment.",
+      "unit": "Lot",
+      "qty": 1,
+      "rate": 76050.00
+    }
+  ],
+  "grand_total_label": "AMOUNT NOW DUE",
+  "bank": {
+    "Bank": "The Commercial Bank (P.S.Q.C.), Grand Hamad Branch – 4010",
+    "Account Name": "The New Doha Kitchen Equipment Services W.L.L.",
+    "Account Number": "4010-777739-001",
+    "IBAN": "QA06 CBQA 0000 0000 4010 7777 3900 1",
+    "SWIFT / BIC": "CBQAQAQA",
+    "Currency": "Qatari Riyal (QAR)"
+  },
+  "notes": [
+    "ACCOUNT POSITION. Contract value QAR 253,500.00 under LPO DIAR-L05531 MCR, payable 30% / 30% / 30% / 10%. Received: first instalment 30% QAR 76,050.00 on 04-07-2026. This invoice: second instalment 30% QAR 76,050.00. Remaining after this invoice: third instalment 30% QAR 76,050.00 and the final 10% QAR 25,350.00 — QAR 101,400.00 in all.",
+    "Payment due on presentation of this invoice. Payment may be made by cheque or bank transfer to the account shown above; cheques to be crossed and drawn strictly in favour of the account name given, which is THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L. with no word between Equipment and Services. Kindly quote invoice INV-293/2026 and LPO DIAR-L05531 MCR as the references.",
+    "MATERIAL DELIVERED. Our delivery note DN-254/2026 of 28-10-2026 records the delivery to CCC Labor Camp of 134 pieces, 412.00 square metres of 100 mm insulated sandwich panel, received at site. A signed copy is available on request. The remaining materials follow under separate delivery notes.",
+    "Should your accounts require a progress or measurement certificate, a project reference or any supporting document in addition to this invoice, kindly advise and it will be furnished at once.",
+    "WARRANTY: twelve (12) months on the cold room panels, doors and our workmanship from the date of handover, and twelve (12) months on the compressors, coils, electrical components and controls from the date of commissioning. Excludes damage from misuse, power surge, improper voltage, water ingress, unauthorised modification or the absence of routine maintenance."
+  ]
+}

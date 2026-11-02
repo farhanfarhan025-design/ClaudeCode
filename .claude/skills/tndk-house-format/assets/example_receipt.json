@@ -1,0 +1,30 @@
+{
+  "type": "receipt",
+  "number": "RCT-257/2026",
+  "date": "06-08-2026",
+  "ref": "INV-259/2026",
+  "meta_labels": ["RECEIPT NO", "DATE", "AGAINST INVOICE"],
+  "currency": "QAR",
+  "party": {
+    "title": "RECEIVED FROM",
+    "name": "Example Trading & Food Stuff Co. W.L.L. – Qatar",
+    "fields": [
+      { "label": "Project", "value": "Cold room supply and installation – Example Branch" },
+      { "label": "Contract Value", "value": "QAR 46,000.00" },
+      { "label": "Previously Received", "value": "QAR 27,600.00" },
+      { "label": "Balance After This Receipt", "value": "QAR 0.00" }
+    ]
+  },
+  "lines": [
+    { "description": "Balance payment against INV-259/2026 (40% on commissioning)", "unit": "Job", "qty": 1, "rate": 18400.00 }
+  ],
+  "grand_total_label": "TOTAL RECEIVED",
+  "instrument": {
+    "type": "cheque",
+    "cheque_no": "000512",
+    "bank": "Example Bank – Doha",
+    "cheque_date": "05-08-2026",
+    "drawer": "Example Trading & Food Stuff Co. W.L.L."
+  },
+  "notes": ["Balance settled in full against contract value QAR 46,000.00."]
+}

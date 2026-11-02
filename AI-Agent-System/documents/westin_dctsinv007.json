@@ -1,0 +1,41 @@
+{
+  "type": "invoice",
+  "badge": ["SUPPLY INVOICE"],
+  "number": "DCTS-INV-007/2026",
+  "date": "19-10-2026",
+  "ref": "Supply only — ex stock",
+  "currency": "QAR",
+  "filename": "Invoice_DCTS-INV-007-2026_WestinHotel_AlcoPowerAssembly",
+  "payee_name": "Doha Cooling Trading & Solutions W.L.L.",
+  "company": {
+    "name": "DOHA COOLING TRADING & SOLUTIONS W.L.L.",
+    "legal": "Doha Cooling Trading & Solutions W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 93354  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "Doha Cooling Trading & Solutions W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 93354  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "BILL TO",
+    "name": "Westin Hotel",
+    "fields": [
+      "Doha, State of Qatar",
+      {"label": "Supply", "value": "ALCO thermostatic expansion valve power assemblies — R-407C"},
+      {"label": "Stage", "value": "Goods supplied — invoiced in full"}
+    ]
+  },
+  "lines": [
+    {
+      "description": "ALCO POWER ASSEMBLY — XB-1019-NW100-1B (R-407C)\nALCO Controls (Emerson) power assembly for thermostatic expansion valve, part reference XB-1019-NW100-1B, thermostatic charge for R-407C, supplied complete with capillary tube and sensing bulb as per the manufacturer's standard packing.",
+      "unit": "Nos",
+      "qty": 3,
+      "rate": 600.00
+    }
+  ],
+  "grand_total_label": "TOTAL DUE",
+  "notes": [
+    "Payment due on presentation of this invoice. Payment may be made in cash, or by cheque or bank transfer; cheques to be crossed and drawn strictly in favour of Doha Cooling Trading & Solutions W.L.L. Our bank transfer details will be furnished on request. Kindly quote invoice DCTS-INV-007/2026 as the reference.",
+    "SUPPLY ONLY. This invoice covers the three power assemblies as described. Removal of the existing power assemblies, fitting, recovery and recharging of the refrigerant, setting of the superheat, testing and commissioning are not included and have not been carried out by us.",
+    "REFRIGERANT CHARGE. The power assembly is charged for R-407C. A power assembly of the wrong thermostatic charge will not control the valve correctly. Please satisfy yourselves that the refrigerant, the valve body and the orifice in service match this part reference before fitting, as a fitted assembly cannot be returned.",
+    "WARRANTY: six (6) months from the date of this invoice against manufacturing defect in the items supplied. Excludes failure or malfunction arising from incorrect selection, incorrect fitting, a damaged or kinked capillary, a bulb incorrectly located or insulated, moisture or contamination within the system, or operation outside the manufacturer's stated range.",
+    "Goods sold are not returnable or exchangeable once fitted."
+  ]
+}

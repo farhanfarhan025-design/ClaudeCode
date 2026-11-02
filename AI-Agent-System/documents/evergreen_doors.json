@@ -1,0 +1,49 @@
+{
+  "type": "quotation",
+  "badge": ["SUPPLY", "QUOTATION"],
+  "number": "QUT/DCTS/252/2026",
+  "date": "14-10-2026",
+  "ref": "15 days from date of quotation",
+  "meta_labels": ["QUOTATION NO", "DATE", "VALIDITY"],
+  "currency": "QAR",
+  "filename": "Quotation_QUT-DCTS-252-2026_EvergreenRefrigeration_SlidingDoors",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "TO",
+    "name": "Evergreen Refrigeration Trading & Services L.L.C.",
+    "fields": [
+      "Doha, State of Qatar",
+      {"label": "Attention", "value": "Mr. Anish Bernanth — Sales & Service Operations"},
+      "Mob: +974 6659 0555  |  info@evergreen-qatar.com",
+      {"label": "Subject", "value": "Supply of two (2) sliding cold room doors — right-hand opening"},
+      {"label": "Delivery", "value": "07 - 10 days from the confirmed order and payment"}
+    ]
+  },
+  "lines": [
+    {
+      "description": "SLIDING COLD ROOM DOOR — 1.80 m (W) x 2.20 m (H)\nRight-hand opening. Supplied complete with door leaf, frame, top-hung track, rollers, bottom guide, handle with lock and all standard fixing hardware.",
+      "unit": "Nos",
+      "qty": 1,
+      "rate": 6400.00
+    },
+    {
+      "description": "SLIDING COLD ROOM DOOR — 2.00 m (W) x 2.20 m (H)\nRight-hand opening. Supplied complete with door leaf, frame, top-hung track, rollers, bottom guide, handle with lock and all standard fixing hardware.",
+      "unit": "Nos",
+      "qty": 1,
+      "rate": 6800.00
+    }
+  ],
+  "grand_total_label": "GRAND TOTAL",
+  "notes": [
+    "PAYMENT TERMS: 100% cash along with the confirmed order.  ·  DELIVERY: 07 - 10 days from the confirmed order and payment.  ·  VALIDITY: 15 days from the date of this quotation.",
+    "BOTH DOORS ARE RIGHT-HAND OPENING, as advised by yourselves. The doors are manufactured to the hand and the sizes stated above and cannot be altered, exchanged or returned once made. Kindly re-check the hand and the clear opening sizes against the openings before placing the order, and confirm whether the hand is read from outside or from inside the room.",
+    "PLEASE CONFIRM THE ROOM DUTY BEFORE ORDERING: chiller or freezer. A freezer door is supplied with a door frame heater and the leaf and frame are specified accordingly; a chiller door is not. The duty determines the specification and may affect the price and the lead time. Kindly also confirm the panel thickness the frame is to suit.",
+    "SUPPLY ONLY. The prices cover supply of the two doors. Delivery to site, installation, fixing into the panel, silicone and sealing, cutting of openings, electrical supply and connection of any door heater, and removal or disposal of existing doors are not included and can be quoted separately on request. Collection from our store, or delivery within Doha on request at additional cost.",
+    "WARRANTY: twelve (12) months from the date of delivery against manufacturing defect on the door leaf, frame and hardware. Excludes damage in transit after acceptance, damage from impact, forklift or trolley strike, improper installation, and failure of any heater caused by incorrect electrical connection."
+  ]
+}

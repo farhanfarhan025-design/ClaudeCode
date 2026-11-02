@@ -1,0 +1,53 @@
+{
+  "type": "invoice",
+  "badge": ["SECOND", "INVOICE"],
+  "number": "INV-290/2026",
+  "date": "26-10-2026",
+  "ref": "LPO HMBE/LPO/2026/001 Ver. 2 dated 17-09-2026",
+  "currency": "QAR",
+  "filename": "Invoice_INV-290-2026_HomeMadeByEarth_ColdRooms_SecondPayment",
+  "payee_name": "The New Doha Kitchen Equipment Services W.L.L.",
+  "notes_new_page": true,
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "BILL TO",
+    "name": "Home-Made by Earth",
+    "fields": [
+      "Doha, State of Qatar",
+      {"label": "Attention", "value": "Mr. Nitin  |  Tel: 3007 0441"},
+      {"label": "Project", "value": "Chiller and freezer rooms — our quotation QUT/DCTS/SQ091/2026 (Ver. 3)"},
+      {"label": "Order", "value": "LPO HMBE/LPO/2026/001 Ver. 2 dated 17-09-2026 — QAR 46,900.00"},
+      {"label": "Stage", "value": "Second payment — 25% on delivery of materials at site"}
+    ]
+  },
+  "lines": [
+    {
+      "description": "SECOND PAYMENT — 25% ON DELIVERY OF MATERIALS AT SITE\nSecond instalment against LPO HMBE/LPO/2026/001 Ver. 2 for the supply, installation, testing and commissioning of the chiller and freezer rooms, comprising 100 mm PUF sandwich panel to walls and ceiling with all coving, angles, silicone sealing, fasteners and accessories; two (2) Nos. sliding cold room doors with a 160 mm insulated PU / PIR leaf, heated frame and gasket; the refrigeration system with condensing units, unit coolers, copper piping, Armaflex insulation, electric defrost and insulated drain lines; digital control panels with all safeties; internal vapour-proof LED lighting, door frame heaters and complete electrical works from the control panel onward; and testing, commissioning, transportation, mobilisation, lifting at site and handover with operation training. Erected on the client's existing floor — insulated flooring is not included.\nContract value QAR 46,900.00 — this invoice covers the 25% delivery stage.",
+      "unit": "Lot",
+      "qty": 1,
+      "rate": 11725.00
+    }
+  ],
+  "grand_total_label": "AMOUNT NOW DUE",
+  "bank": {
+    "Bank": "The Commercial Bank (P.S.Q.C.), Grand Hamad Branch – 4010",
+    "Account Name": "The New Doha Kitchen Equipment Services W.L.L.",
+    "Account Number": "4010-777739-001",
+    "IBAN": "QA06 CBQA 0000 0000 4010 7777 3900 1",
+    "SWIFT / BIC": "CBQAQAQA",
+    "Currency": "Qatari Riyal (QAR)"
+  },
+  "notes": [
+    "ACCOUNT POSITION. Contract value QAR 46,900.00. Received: 70% advance QAR 32,830.00 on 21-09-2026. This invoice: 25% on delivery of materials at site QAR 11,725.00. Remaining after this invoice: 5% on successful testing, commissioning and handover QAR 2,345.00.",
+    "Payment due on presentation of this invoice. Payment may be made in cash, or by cheque or bank transfer to the account shown above; cheques to be crossed and drawn strictly in favour of the account name given. Kindly quote invoice INV-290/2026 as the reference.",
+    "KINDLY NOTE THE ACCOUNT NAME. Our bank account is held in the name THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L., with no word between Equipment and Services. Cheques are requested in that exact name so that presentation is not delayed.",
+    "AMENDMENT TO THE ORDER STILL REQUESTED. Your purchase order Ver. 2 states the value in figures as QAR 46,900.00, which agrees with our contract, but the amount in words still reads \"Qatari Riyals Forty-Five Thousand Three Hundred Only\" from the earlier version. We should be grateful for a short written amendment correcting the words, and confirming the payment stages as 70% / 25% / 5%, so that the final payment is not held up on a point of drafting. The contract value is not in question.",
+    "INSULATED FLOORING IS NOT INCLUDED. Both rooms are erected on your existing floor, as stated in our quotation and your order. We shall be pleased to quote separately for an insulated floor construction.",
+    "WARRANTY: twelve (12) months on the cold room panels, doors and our workmanship from the date of handover, and twelve (12) months on the compressors, coils, electrical components and controls from the date of commissioning. Excludes damage from misuse, power surge, improper voltage, water ingress, unauthorised modification or the absence of routine maintenance."
+  ]
+}

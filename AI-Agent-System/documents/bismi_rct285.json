@@ -1,0 +1,69 @@
+{
+  "type": "receipt",
+  "number": "RCT-285/2026",
+  "date": "18-10-2026",
+  "ref": "INV-284/2026 (Revised)",
+  "meta_labels": [
+    "RECEIPT NO",
+    "DATE",
+    "AGAINST INVOICE"
+  ],
+  "currency": "QAR",
+  "filename": "Receipt_RCT-285-2026_BismiGroupInternational_PartAdvance",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "RECEIVED FROM",
+    "name": "Bismi Group International W.L.L.",
+    "fields": [
+      "C.R. 178652  |  Doha, State of Qatar",
+      {
+        "label": "Attention",
+        "value": "Mr. Nizar Pulikkalakath Abdulkareem — Manager"
+      },
+      {
+        "label": "Project",
+        "value": "One (1) freezer room with epoxy floor coating and one (1) preparation room"
+      },
+      {
+        "label": "Contract",
+        "value": "CON/TNDK/SQ118/2026 Rev. 1 dated 18-10-2026 — value QAR 110,000.00"
+      },
+      {
+        "label": "Advance (50%)",
+        "value": "QAR 55,000.00 — received QAR 30,000.00, balance QAR 25,000.00 due before commencement"
+      }
+    ]
+  },
+  "lines": [
+    {
+      "description": "Part payment of the 50% advance against INV-284/2026 (Revised) — received in cash",
+      "unit": "Job",
+      "qty": 1,
+      "rate": 22000.0
+    },
+    {
+      "description": "Part payment of the 50% advance against INV-284/2026 (Revised) — received by cheque no. 00000221",
+      "unit": "Job",
+      "qty": 1,
+      "rate": 8000.0
+    }
+  ],
+  "grand_total_label": "TOTAL RECEIVED",
+  "instrument": {
+    "type": "cheque",
+    "payment_mode": "Part cash QAR 22,000.00 and part cheque QAR 8,000.00",
+    "cheque_no": "00000221, dated 19-10-2026 — QAR 8,000.00",
+    "bank": "Qatar National Bank (Q.P.S.C.), Doha, Qatar — A/C Payee Only, Corporate",
+    "drawer": "Bismi Group International W.L.L. — drawn on a/c 0250-057166-001"
+  },
+  "notes": [
+    "ACCOUNT POSITION. Contract value QAR 110,000.00. Advance due under clause 4.1, 50% = QAR 55,000.00; received by this receipt QAR 30,000.00; balance of advance QAR 25,000.00, due before commencement. Remaining stages: 30% QAR 33,000.00 on completion of the panel work and before delivery of the machine; 10% QAR 11,000.00 on installation of the machine and before the epoxy floor coating; 10% QAR 11,000.00 on handover.",
+    "The cash of QAR 22,000.00 is received unconditionally. The cheque of QAR 8,000.00 is accepted subject to realisation, is presentable on or after its date of 19-10-2026, and is credited to your account with us only upon clearance. Under clause 5.1 of the Contract time runs from receipt of the advance in cleared funds, so material will be ordered and the programme will commence upon receipt of the balance of the advance and clearance of that cheque.",
+    "Our bank account is held in the name THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L., with no word between Equipment and Services; future cheques are kindly requested in that exact name so that presentation is not delayed. This receipt is issued against INV-284/2026 (Revised) and is subject to the terms of Contract CON/TNDK/SQ118/2026 Revision 1."
+  ]
+}

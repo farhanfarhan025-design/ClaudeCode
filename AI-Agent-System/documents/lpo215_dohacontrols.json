@@ -1,0 +1,42 @@
+{
+  "type": "lpo",
+  "number": "LPO-215/2026",
+  "date": "01-11-2026",
+  "ref": "Offer 107/QTN262111 dated 01-11-2026",
+  "currency": "QAR",
+  "filename": "LPO-215-2026_DohaControls_BitzerCDU_2FES3Y",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "VENDOR INFORMATION",
+    "name": "Doha Controls Trading W.L.L.",
+    "fields": [
+      "Doha, State of Qatar",
+      {"label": "Attention", "value": "Mr. Mohana Kumar — Front Office Sales Coordinator  |  Mob: 7479 6823"},
+      {"label": "Application", "value": "Chiller room 4.00 x 4.00 x 2.50 m (40 cbm), 0 °C to +8 °C — two (2) systems, duty and standby"},
+      {"label": "Payment Terms", "value": "100% cash on delivery (CDC), as your quotation states"},
+      {"label": "Delivery Terms", "value": "Delivery on site, 3 days — ex-stock, subject to prior sale"}
+    ]
+  },
+  "lines": [
+    {
+      "description": "RIME air-cooled condensing unit, RLUM-B030Y-1C, with BITZER semi-hermetic reciprocating compressor 2FES-3Y-40S, 380 - 420 V / 3 Ph / 50 Hz — part no. CDU-2FES3Y-RM",
+      "unit": "Pcs",
+      "qty": 2,
+      "rate": 6000.00
+    }
+  ],
+  "grand_total_label": "TOTAL ORDER VALUE",
+  "notes": [
+    "Placed against your quotation 107/QTN262111 dated 01-11-2026 — two (2) units at QAR 6,000.00 each, net QAR 12,000.00. Payment 100% cash on delivery, delivery on site within three (3) days. Your offer is ex-stock subject to prior sale, so kindly acknowledge this order in writing today and confirm that both units are held against it.",
+    "PLEASE RAISE YOUR INVOICE AGAINST THIS ORDER AND IN THE NAME SHOWN ABOVE. Your quotation is addressed to Doha Cooling Trading and Solution W.L.L.; this purchase is made by The New Doha Kitchen Equipment Services W.L.L., C.R. 199351, and the invoice and delivery note are to be raised in that name, quoting LPO-215/2026. An invoice in any other name will be returned for correction.",
+    "SELECTION IS YOURS, AND EACH UNIT MUST CARRY THE FULL LOAD. The two systems are duty and standby, not two halves of one load — each unit runs the room on its own. Please confirm in writing, before delivery, that the RLUM-B030Y-1C with the 2FES-3Y-40S carries the full duty of a 40 cbm chiller room at 0 °C to +8 °C, on R404A, at a design ambient of 46 °C, with the compressor running not more than sixteen (16) hours per day, and that R404A is the refrigerant you recommend for this duty rather than R134a or R449A. Your selection printout is to accompany the goods.",
+    "ITEMS NOT ON THIS ORDER. This order covers the two condensing units only. Still required to complete these two systems and NOT included: the R404A refrigerant charge, the interconnecting copper tube and fittings, and the Armaflex insulation. Please quote these separately and immediately, stating the refrigerant charge in kg for each system.",
+    "SPECIFICATION CONFIRMED AS ABOVE. The make, model, part number, compressor, electrical supply and quantity stated are what we are ordering and what is to be supplied. Any substitution of make, model, capacity, compressor or refrigerant requires our prior written approval before delivery; goods supplied against a substitution we have not approved are liable to be returned at your cost.",
+    "DELIVERY ON SITE IS PART OF THE PRICE. Your quotation states delivery on site, and the total order value above is the whole of what is payable. No transport, handling, lifting, offloading or other charge will be accepted beyond it. Both units are to be supplied new, in original manufacturer's packing, with the manufacturer's data plate, warranty documentation, wiring details and the unit selection printout. We will inspect on delivery and may reject on the spot."
+  ]
+}
