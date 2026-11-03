@@ -3433,6 +3433,56 @@ retention.
 **Still owed to CCC's file:** the receipt for the first 76,050 (cheque 00000245, QIB, 04-07-2026
 — instrument fully known, one of the five unreceipted payments under OL-082).
 
+### OL-124 — Aalaf won at 95,000, on a 14-day date against a 25–30 day quotation
+**Owner:** Farhan · **Raised:** 2026-11-03 · **Value:** QAR 95,000 · **BIGGEST WIN SINCE CCC**
+
+**LPO 26-00330 dated 03-11-2026**, signed by **Anas Darawsheh, General Manager**, and sealed,
+placed on **QUT/DCTS/SQ143/2026**. **Gross 108,780 less 13,780 special discount, net 95,000.**
+Three codes: CM0048 chiller room **52,900**, CM0049 civil works and under-floor ventilation
+**21,880**, CM0050 stainless steel shelving **34,000**. **I checked it against SQ143 line by
+line and the order is a faithful restatement** — 19,500 + 2,380 = the 21,880 they group as one
+line, and the amount in words, "QAR Ninety Five Thousand", agrees with the net. Delivery DDP.
+**INV-297/2026 raised for the 30% advance, 28,500.**
+
+**AALAF IS NOW A CLIENT, AFTER FOUR QUOTATIONS AND FIVE MONTHS.** SQ143 supersedes and withdraws
+QUT/DCTS/063/2026 (28-06), QUT/DCTS/042/2026 Rev. 2 (26-10) and QUT/01348/2026 (23-06). **OL-106
+recorded that the cold room itself had never been priced — it has now, at 52,900, and it is the
+largest part of the job.** The racking quotation QUT/DCTS/255/2026 at 17,235 was NOT what they
+bought: the order takes **stainless steel three-tier shelving at 34,000**, so the Lesson Trading
+cost of 10,535 does not apply and **the shelving has no costed supplier price at all.**
+
+**THE DATE IS THE PROBLEM, AND IT IS ON THEIR ORDER.**
+
+| | |
+|---|---|
+| Their LPO delivery date | **17-11-2026 — 14 days from the order** |
+| Our quotation, section 12 | **25 to 30 days from LPO** on a civil-ready site |
+
+Made up of 5–7 days material delivery, 3 working days to mobilise, **15–20 working days to
+install — civil works and ventilation first, then the cold room, then the shelving** — and 1–2
+days to commission. **These are sequential and the concrete must cure before the room is built on
+it.** Note 3 of the invoice says plainly, on the day of the order, that 14 days is not achievable
+for the full scope, and asks them either to confirm the programme in writing or to phase the
+works. **Say it now or pay for it later** — One A's 2,000/day penalty (OL-063) is what happens
+when a client's date goes unanswered.
+
+**THE CASH SHAPE IS AGAINST US.** SQ143 prints **75/20/5**; the LPO imposes **30/25/25/20**, and
+INV-297 accepts it in writing. **Only 28,500 arrives before the panels and the machines must be
+bought**, and the next 23,750 does not come until the panels are delivered. On comparable jobs
+the panel alone has run 7,400–11,900 and a Bitzer-plus-Gunay set 8,000–12,000, with 34,000 of
+shelving still to fabricate. **Get supplier prices for all three packages before committing**,
+and do not let the shelving — the one item with no cost on file and the largest single unknown —
+be ordered on a guess.
+
+**BEFORE THE PANELS ARE ORDERED**, note 4 requires the clear height, finished floor level, slab
+and PCC levels to be confirmed **jointly on site**. A PCC base materially thicker than the 50 mm
+quoted is a variation. Slip sheet and epoxy excluded. **Fix that joint survey this week** — on a
+14-day date, a week lost to an unconfirmed level is the whole programme.
+
+**Warranty on this job is 24 months on the compressor and coils**, not the usual 12. It is in
+SQ143 and it is now repeated on the invoice. **Check the Bitzer and Gunay warranties actually
+run that long before the machines are bought**, or TNDK carries the second year itself.
+
 ### OL-123 — Gozl paid the delivery stage the day after invoice, on a second uncrossed cheque
 **Owner:** Farhan · **Raised:** 2026-11-03 · **Value:** QAR 17,940 received · **BANK BOTH CHEQUES**
 
