@@ -3433,6 +3433,43 @@ retention.
 **Still owed to CCC's file:** the receipt for the first 76,050 (cheque 00000245, QIB, 04-07-2026
 — instrument fully known, one of the five unreceipted payments under OL-082).
 
+### OL-122 — Kalima maintenance quoted at 2,350 on a plant nobody has seen
+**Owner:** Farhan · **Raised:** 2026-11-03 · **Value:** QAR 2,350 · **PRICED WITHOUT A SURVEY**
+
+**QUT/DCTS/259/2026** — M/s. Kalima, **complete leak testing, nitrogen pressure testing,
+evacuation, gas charging, complete water service, electrical and control check, and testing,
+commissioning and handover — 2,350**, one day, 100% on completion, 15 day validity. Signed and
+stamped, pricing on page 1 and the conditions overleaf.
+
+**THE COMPRESSOR CLAUSE IS IN AND IT IS HIGHLIGHTED IN YELLOW**, as Farhan asked on the identical
+clause for Iranian Kitchen (OL-098). Note 1: if commissioning shows the compressor is not pumping
+to duty, **the compressor and its labour, oil, filter drier and system flushing WILL BE CHARGED
+EXTRA**, reported and quoted for written approval first. The highlight is painted under the text
+as page content, not as an annotation, so it survives printing and forwarding.
+
+**THE REAL EXPOSURE IS THE GAS, NOT THE COMPRESSOR.** This quotation **includes the refrigerant**
+— Iranian Kitchen's did not; there the existing charge was recovered and re-used. A fixed 2,350
+that carries an unknown refrigerant quantity on an unseen plant is an open-ended item:
+**R404A on a large circuit can eat the whole price.** Note 3 therefore caps it to **one (1)
+circuit of standard commercial size** and requires written approval if the plant is materially
+larger, multi-circuit, or on a costly gas. **Find out the system size and the refrigerant before
+the order is accepted.**
+
+**TWO MORE PROTECTIONS WORTH KNOWING ARE THERE.**
+
+1. **Note 2 — a leak must be repaired before the system can be charged.** Gas put into a leaking
+   circuit is gas lost, and the client will blame the charge, not the leak. The repair is
+   excluded and quoted separately, and the charge follows the repair. **Without that sentence
+   this job can be done twice and paid for once.**
+2. **Note 6 — warranty is three (3) months on workmanship only**, excluding refrigerant loss
+   through any leak outside the work and failure of any existing component. A gas charge cannot
+   be warranted on somebody else's pipework.
+
+**NOTHING IS KNOWN ABOUT THIS CLIENT OR THIS PLANT.** Kalima appears nowhere else in these
+records — no previous job, no equipment history, no site. **The scope was given verbally and the
+price was set by Farhan.** Note 5 records that the age, condition and service history are not
+known to us and that the offer does not warrant the system as a whole.
+
 ### OL-121 — Panda Cakes delivery stage invoiced, with the floor panel still unaccounted for
 **Owner:** Farhan · **Raised:** 2026-11-03 · **Value:** QAR 5,800 · **FLOOR AND GAUGE UNRESOLVED**
 
