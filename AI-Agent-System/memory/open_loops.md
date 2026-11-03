@@ -3433,6 +3433,34 @@ retention.
 **Still owed to CCC's file:** the receipt for the first 76,050 (cheque 00000245, QIB, 04-07-2026
 — instrument fully known, one of the five unreceipted payments under OL-082).
 
+### OL-123 — Gozl paid the delivery stage the day after invoice, on a second uncrossed cheque
+**Owner:** Farhan · **Raised:** 2026-11-03 · **Value:** QAR 17,940 received · **BANK BOTH CHEQUES**
+
+**RCT-296/2026** — **17,940 received against INV-294/2026** by **Doha Bank cheque 01000013 dated
+03-11-2026**, drawn by GOZL VETERINARY SERV AND TRAD on a/c 267-1347410-01-10-0, North Gate Mall.
+Issued the day after the invoice. **Received to date 47,840 of 59,800; balance 11,960 (20%).**
+Signed and stamped.
+
+**THE CHEQUE CHECKS OUT ON EVERY POINT BUT ONE.** Words — *"Only Seventeen thousands, Nine
+hundreds and forty Qatari riyals"* — agree with the figures at **17,940**, and the payee reads
+*"The New Doha Kitchen Equipment Services w.l.l"*, correct, with no "and" between Equipment and
+Services. After the Bismi and Sunrise payee defects, Gozl have now written the name right twice.
+
+**BUT IT IS AGAIN NOT CROSSED AND "OR BEARER" IS AGAIN NOT STRUCK OUT.** Second time in six days;
+**47,840 of this contract has now been paid on two bearer instruments.** On their face either is
+payable to whoever presents it. Note 3 of the receipt asks them, politely and in their own
+interest, to cross future cheques "A/C Payee Only" and strike the bearer wording. **Bank both
+cheques at once — this is a carrying risk, not a paperwork point.**
+
+**THE FIRST CHEQUE HAS STILL NOT BEEN CONFIRMED CLEARED** (OL-120). Two uncleared instruments
+now stand behind 47,840 of a 59,800 contract while **27,399 of vendor orders are committed**
+(LPO-213, 214, 215) and LPO-215 is **cash on delivery**. **Check the account before paying out.**
+
+**THE CLIENT IS PAYING FASTER THAN THE PAPERWORK.** Two stages settled inside a week, and the
+substitution of the condensing units and unit coolers (OL-120) is **still not disclosed**, nor is
+the promised delivery note raised. **Money arriving quickly is not agreement with what was
+delivered** — the 11,960 retention is where that argument will land if it is left alone.
+
 ### OL-122 — Kalima maintenance quoted at 2,350 on a plant nobody has seen
 **Owner:** Farhan · **Raised:** 2026-11-03 · **Value:** QAR 2,350 · **PRICED WITHOUT A SURVEY**
 
