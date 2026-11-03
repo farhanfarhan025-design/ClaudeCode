@@ -3433,6 +3433,46 @@ retention.
 **Still owed to CCC's file:** the receipt for the first 76,050 (cheque 00000245, QIB, 04-07-2026
 — instrument fully known, one of the five unreceipted payments under OL-082).
 
+### OL-121 — Panda Cakes delivery stage invoiced, with the floor panel still unaccounted for
+**Owner:** Farhan · **Raised:** 2026-11-03 · **Value:** QAR 5,800 · **FLOOR AND GAUGE UNRESOLVED**
+
+**INV-295/2026** — Panda Cakes, **second instalment 20% on delivery of materials, 5,800**,
+against approved quotation QUT/DCTS/SQ121/2026 (Revised). Contract 29,000; 75% advance 21,750
+received 22-10-2026 (RCT-288); **remaining after this invoice 1,450, the 5% on handover.**
+Signed and stamped.
+
+**THE PAYMENT TERMS HERE ARE THE CLIENT'S OWN, NOT AN INFERENCE.** SQ121 prints **75 / 20 / 5**
+and the 75% advance was paid against it, so the 20% stage is read straight off the approved
+quotation and is stated on the face of the invoice. **Nothing here is grown or assumed**, unlike
+Gozl (OL-120).
+
+**THE MACHINE MATCHES WHAT WAS SOLD.** SQ121 sells a **BITZER 2GES-2Y-40S** with a **Guntner
+GASC RX 031.1/1WN/FFA7E**; LPO-211 bought exactly that pair. **No substitution to disclose on
+this job** — the opposite of Gozl, and worth noting as the standard the others should meet.
+
+**BUT TWO THINGS FROM OL-104 ARE STILL OPEN AND THIS INVOICE WALKS PAST BOTH.**
+
+1. **THE FLOOR PANEL WAS NEVER ORDERED.** LPO-212 bought **41.20 sqm — walls 31.20 and ceiling
+   10.00.** SQ121 sells **47.88 sqm including a 8.70 sqm floor**, plus a separately described
+   floor build-up of 100 mm PUF, 18 mm marine ply and 1.2 mm chequered plate. **8.70 sqm of
+   floor panel is on no purchase order.** The invoice says "the insulated floor system" was
+   delivered. **Confirm it is actually on site — from stock, from the Geo Panel delivery, or at
+   all — before this invoice is presented**, because the client has paid 75% against a
+   specification that includes it and is now being asked to pay for its delivery.
+2. **THE FACING IS 0.40 mm ALUZINC AGAINST 0.50 mm PPGI SOLD.** Twenty per cent thinner and a
+   different substrate, measurable by anyone with a gauge. **The invoice therefore does not state
+   the facing** — the line item says "100 mm insulated sandwich panel" and no gauge, coating or
+   substrate, which is true of what was delivered and asserts nothing a measurement can
+   contradict. **That is cover, not a cure.** Fifth job in the series (OL-044, OL-067, OL-080,
+   OL-104) and it still has not been decided.
+
+**NO DELIVERY NOTE EXISTS FOR PANDA CAKES.** The DN series stands at **DN-254/2026 (CCC)**. Note 3
+promises the client one for site signature — **a second outstanding promise, after Gozl's**.
+Give me the delivered items and the date and DN-255 and DN-256 can both be raised.
+
+**THIS CLIENT PAYS.** The advance cleared by Fawran transfer **two days** after INV-287. On that
+record the 5,800 should move quickly, and the 1,450 retention is the only money left at risk.
+
 ### OL-120 — Gozl's delivery stage invoiced, but what was bought is not what was sold
 **Owner:** Farhan · **Raised:** 2026-11-02 · **Value:** QAR 26,910 · **SUBSTITUTION UNACCEPTED**
 
