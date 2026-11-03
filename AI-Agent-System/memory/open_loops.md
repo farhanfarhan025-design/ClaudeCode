@@ -3433,6 +3433,44 @@ retention.
 **Still owed to CCC's file:** the receipt for the first 76,050 (cheque 00000245, QIB, 04-07-2026
 — instrument fully known, one of the five unreceipted payments under OL-082).
 
+### OL-125 — Oscar Prime's third job taken while the first two are still owed for
+**Owner:** Farhan · **Raised:** 2026-11-03 · **Value:** QAR 38,000 · **CREDIT CONCENTRATION**
+
+**QUT/DCTS/SQ146/2026 approved.** One chiller room **4.00 x 3.90 x 2.70 m (42.12 cbm)** at 0 to
++5 °C, 100 mm PUF to walls and ceiling, hinged door 900 x 1900, **BITZER LH64/4FES-3Y 3 HP**
+air-cooled condensing unit with a **Güntner GACC RX 031.1/2WN/HHA7E** unit cooler on R404A,
+control panel, lighting, door heater and electrical works. **38,000.** **INV-298/2026 raised for
+the 65% advance, 24,700**; balance **13,300 on completion**. 14 to 18 days from the advance.
+
+**BOTH STAGES CAME FROM FARHAN — "Advance 65% / Balance after finishing."** Nothing is inferred
+here, unlike Gozl (OL-120). SQ146 prints 75/20/5 and note 2 of the invoice records in writing
+that the two-stage schedule replaces it.
+
+**THE TAKE-OFF CHECKS OUT.** Walls 2 x (4.00 + 3.90) x 2.70 = **42.66 sqm**, ceiling 4.00 x 3.90
+= **15.60 sqm**, total **58.26 sqm** exactly as quoted. **That arithmetic also proves there is no
+floor panel in the scope** — note 3 of the invoice says so plainly and offers to quote one
+before the panels are ordered, because a floor cannot be added after the room is built. Oscar
+Prime's second job also excluded insulated flooring; **this is the second time and the client
+should be made to say yes or no in writing.**
+
+**THE REAL ISSUE IS NOT THIS JOB — IT IS WHAT OSCAR PRIME ALREADY OWES.**
+
+| Job | Position |
+|---|---|
+| Job 1, 75,000 | **10,750 invoiced 29-08-2026 under INV-265 and still unpaid** — over two months |
+| Job 2, 170,000 | **51,000 outstanding**; and the 119,000 "received" on 06-10 was a transfer report reading **"Pending Approval", never confirmed cleared** (OL-083) |
+| Job 3, 38,000 | this one — 24,700 now invoiced |
+
+**If that 119,000 never landed, the exposure to this one client is 180,750.** Even if it did,
+**61,750 is outstanding before a riyal of this job is counted.** TNDK has now taken a third order
+from a client whose last two are not settled. **Before any material is bought for this room:
+confirm the 119,000 credit on the bank statement, and get a date for the 10,750.** The 65%
+advance is good cover for this job alone and is not the point.
+
+**NO WRITTEN ORDER FOR THIS ONE.** Jobs 1 and 2 both came with an LPO; **job 3 is a verbal
+approval relayed through Farhan.** The invoice cites the approved quotation, which is the right
+basis, but **ask Mr. Praveen for an LPO or a written confirmation** before fabrication starts.
+
 ### OL-124 — Aalaf won at 95,000, on a 14-day date against a 25–30 day quotation
 **Owner:** Farhan · **Raised:** 2026-11-03 · **Value:** QAR 95,000 · **BIGGEST WIN SINCE CCC**
 
