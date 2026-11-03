@@ -1,0 +1,47 @@
+{
+  "type": "receipt",
+  "number": "RCT-299/2026",
+  "date": "03-11-2026",
+  "ref": "INV-298/2026",
+  "meta_labels": ["RECEIPT NO", "DATE", "AGAINST INVOICE"],
+  "currency": "QAR",
+  "filename": "Receipt_RCT-299-2026_OscarPrime_ChillerRoom_65pct_Advance",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "RECEIVED FROM",
+    "name": "M/s. Oscar Prime Trading Contracting and Services W.L.L.",
+    "fields": [
+      "Doha, State of Qatar",
+      {"label": "Kind attention", "value": "Mr. Praveen"},
+      {"label": "Project", "value": "One (1) chiller room 4.00 x 3.90 x 2.70 m with refrigeration system"},
+      {"label": "Our quotation", "value": "QUT/DCTS/SQ146/2026 — approved"},
+      {"label": "Contract Value", "value": "QAR 38,000.00"},
+      {"label": "Balance After This Receipt", "value": "QAR 13,300.00 — 35% on completion"}
+    ]
+  },
+  "lines": [
+    {"description": "65% advance payment received in full against INV-298/2026 dated 03-11-2026 — supply, installation, testing and commissioning of one (1) chiller room 4.00 x 3.90 x 2.70 m with refrigeration system", "unit": "Job", "qty": 1, "rate": 24700.00}
+  ],
+  "grand_total_label": "TOTAL RECEIVED",
+  "instrument": {
+    "type": "transfer",
+    "payment_mode": "Bank transfer",
+    "reference": "031126A3211 — processed 03-11-2026",
+    "bank": "The Commercial Bank (P.S.Q.C.) — remitter to beneficiary, same bank",
+    "drawer": "OSCAR PRIME TRADING CONT. & SERVICES — debit a/c QA14 CBQA 0000 0000 4090 7103 32001",
+    "credited_to": "The New Doha Kitchen Equipment Services W.L.L. — QA06 CBQA 0000 0000 4010 7777 3900 1"
+  },
+  "notes": [
+    "ACCOUNT POSITION. Contract value QAR 38,000.00. Received by this receipt: 65% advance QAR 24,700.00, in full. Balance QAR 13,300.00, being 35%, payable on completion of the works — after successful testing, commissioning and handover.",
+    "Received with thanks, and with our particular thanks for settling the advance on the day the invoice was raised. Your transfer advice shows reference 031126A3211, processed 03-11-2026, for QAR 24,700.00, credited to our account at The Commercial Bank, and the amount agrees with our invoice exactly.",
+    "THE PROGRAMME NOW RUNS. Material delivery 4 to 6 days from this advance, site mobilisation within 3 working days of material arrival, installation 7 to 10 working days on a civil-ready site, and testing and commissioning 1 working day thereafter — 14 to 18 days in all, subject to site readiness.",
+    "BEFORE THE PANELS ARE ORDERED. Final room dimensions will be confirmed on site, and we repeat that no insulated floor is included in this contract — the panel quantity of 58.26 sqm is the walls and the ceiling only. Should you wish a floor panel, marine plywood and chequered plate to be added, kindly tell us now, as it cannot be added once the room is built.",
+    "SITE READINESS. Please ensure the room position is clear, level and accessible, and that the main power supply and the cable run from the main distribution board to the cold room control panel are available, together with a drainage point within 3 m of the evaporator, as these are by others under our quotation.",
+    "This receipt is issued against INV-298/2026 and is subject to the terms of our approved quotation QUT/DCTS/SQ146/2026."
+  ]
+}

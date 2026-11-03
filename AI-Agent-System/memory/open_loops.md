@@ -3433,6 +3433,36 @@ retention.
 **Still owed to CCC's file:** the receipt for the first 76,050 (cheque 00000245, QIB, 04-07-2026
 — instrument fully known, one of the five unreceipted payments under OL-082).
 
+### OL-126 — Oscar Prime's advance landed the same day, and its advice proves the 119,000 point
+**Owner:** Farhan · **Raised:** 2026-11-03 · **Value:** QAR 24,700 received · **CHECK THE 119,000**
+
+**RCT-299/2026** — **24,700 received against INV-298/2026 on the day it was raised**, by
+Commercial Bank transfer **031126A3211**, debit a/c QA14 CBQA 0000 0000 4090 7103 32001 in the
+name OSCAR PRIME TRADING CONT. & SERVICES, credited to TNDK's IBAN. The MT103 carries
+`:32A:261103QAR24700,00` — value date 03-11-2026 — and the amount agrees with the invoice exactly.
+**Balance 13,300 (35%) on completion.** Signed and stamped.
+
+**THIS ADVICE SETTLES AN ARGUMENT ABOUT THE 119,000.** OL-083 recorded that the Commercial Bank
+report for **061026A7317** showed **Transaction Status "Pending Approval" and Processed Date "-"**,
+and the open question was whether that form simply never fills those fields. **It does.** This
+advice, from the same bank in the same format, shows **Processed Date 03/11/2026** and a complete
+MT103. **A blank processed date therefore means the money had not moved**, not that the report
+omits it.
+
+**So the 119,000 of 06-10-2026 should be treated as unproven until the statement is seen.**
+RCT-279/2026 was issued for it and the Oscar Prime programme was told to run from that date.
+**Pull the Commercial Bank statement for 06-10-2026 and look for 061026A7317.** If it is there,
+OL-083 closes. If it is not, the exposure to this client is **180,750**, not 61,750, and nothing
+further should be bought for any of the three jobs until it is resolved.
+
+**WHAT THIS CLIENT'S CONDUCT ACTUALLY SHOWS.** They paid 24,700 within hours of an invoice on a
+job with no written order. That is not the behaviour of a client in difficulty. **It is the
+paperwork behind the older money that is unverified, not the client's willingness to pay** — which
+is exactly why the statement check is worth doing now rather than assuming either way.
+
+**Still outstanding from the earlier jobs:** **10,750** invoiced under INV-265 on 29-08-2026, and
+**51,000** on job 2. Neither is affected by this receipt.
+
 ### OL-125 — Oscar Prime's third job taken while the first two are still owed for
 **Owner:** Farhan · **Raised:** 2026-11-03 · **Value:** QAR 38,000 · **CREDIT CONCENTRATION**
 
@@ -3891,6 +3921,11 @@ order book row for Capital Grille). Advance of 25,725 received 01-10-2026 under 
 The Commercial Bank report Farhan supplied for ref **061026A7317** carries **Transaction Status
 "Pending Approval"** and **Processed Date "-"**. On that evidence the client has *raised* the
 instruction; a second signatory had not released it at the time the report was taken.
+
+> **STRENGTHENED 03-11-2026.** Oscar Prime's advice for the 24,700 (OL-126) comes from the same
+> bank in the same format and **shows a Processed Date and a full MT103**. The form does fill
+> those fields when the money moves, so **the blank on 061026A7317 means it had not moved.**
+> Treat the 119,000 as unproven until the statement for 06-10-2026 is seen.
 
 **This evidences the instruction, not the credit.** RCT-279/2026 has already been issued for
 119,000, and the Oscar Prime programme has been told it runs from 06-10-2026 on the strength of
