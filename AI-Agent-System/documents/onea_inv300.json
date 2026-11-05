@@ -1,0 +1,56 @@
+{
+  "type": "invoice",
+  "badge": ["FINAL", "INVOICE"],
+  "number": "INV-300/2026",
+  "date": "05-11-2026",
+  "ref": "WO/1A/096/26 dated 27-09-2026",
+  "currency": "QAR",
+  "filename": "Invoice_INV-300-2026_OneA_CapitalGrille_FinalInvoice",
+  "payee_name": "The New Doha Kitchen Equipment Services W.L.L.",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "BILL TO",
+    "name": "One A Design, Build and Trading W.L.L.",
+    "fields": [
+      "Doha, State of Qatar",
+      {"label": "Kind attention", "value": "The Management"},
+      {"label": "Project", "value": "Chiller and freezer rooms — Capital Grille at ABESQ Hotel"},
+      {"label": "Your order", "value": "Work Order WO/1A/096/26 dated 27-09-2026 — QAR 73,500.00"},
+      {"label": "Payment terms", "value": "35% advance / 40% on panel delivery / 20% on completion / 5% on handover"},
+      {"label": "Stage", "value": "Final invoice — 20% on completion and 5% on handover, raised together"}
+    ]
+  },
+  "lines": [
+    {
+      "description": "FINAL PAYMENT — 20% ON COMPLETION AND 5% ON HANDOVER\nFinal instalment against your work order WO/1A/096/26 for the supply, installation, testing and commissioning of the chiller and freezer rooms at the Capital Grille, ABESQ Hotel — insulated sandwich panel to walls and ceiling with all coving, angles, silicone sealing and fasteners; the insulated floor system; cold room doors complete with hardware; the refrigeration systems with condensing units, unit coolers, copper piping, insulation, valves and insulated drain lines; control panels with all safeties; internal lighting, door frame heaters and electrical works from the control panel onward; and testing, commissioning, transportation, mobilisation and lifting at site.\nMaterial delivery to site is evidenced by our delivery note DN-253/2026 dated 02-10-2026.\nContract value QAR 73,500.00. The two closing stages are raised together on this final invoice: 20% on completion QAR 14,700.00 and 5% on handover QAR 3,675.00.",
+      "unit": "Lot",
+      "qty": 1,
+      "rate": 18375.00
+    }
+  ],
+  "grand_total_label": "AMOUNT NOW DUE",
+  "bank": {
+    "Bank": "The Commercial Bank (P.S.Q.C.), Grand Hamad Branch – 4010",
+    "Account Name": "The New Doha Kitchen Equipment Services W.L.L.",
+    "Account Number": "4010-777739-001",
+    "IBAN": "QA06 CBQA 0000 0000 4010 7777 3900 1",
+    "SWIFT / BIC": "CBQAQAQA",
+    "Currency": "Qatari Riyal (QAR)"
+  },
+  "notes_new_page": true,
+  "notes": [
+    "STATEMENT OF ACCOUNT. Contract value QAR 73,500.00 under work order WO/1A/096/26, payable 35% advance, 40% on delivery of panels, 20% on completion and 5% on handover. Received: 35% advance QAR 25,725.00 on 01-10-2026 by transfer MS1A03383663, receipted under RCT-274/2026. Invoiced and outstanding: INV-275/2026 of 02-10-2026, 40% on delivery of panels, QAR 29,400.00 — this remains unpaid. This final invoice: QAR 18,375.00. TOTAL NOW OUTSTANDING ON THIS CONTRACT: QAR 47,775.00.",
+    "THIS IS THE FINAL INVOICE ON THIS CONTRACT. The contract is now invoiced in full and no further invoice will follow. Settlement of the QAR 47,775.00 shown above closes the account between us.",
+    "INV-275/2026 REMAINS OUTSTANDING. The 40% stage of QAR 29,400.00, raised on 02-10-2026 against our delivery note DN-253/2026, has not yet been received. We wrote to you on 31-10-2026 under our reference LTR/DCTS/256/2026 regarding the release of the payment and have not yet had your reply. Kindly arrange settlement of that invoice together with this one; should your accounts require a further copy of INV-275/2026 or of the delivery note, it will be sent the same day.",
+    "COMPLETION AND THE PROGRAMME. We record, as we did in our letter of 31-10-2026, that our materials and our team have been ready throughout and that the works awaited only the release of the payment then due. Any extension of the programme arising from that wait, or from the consequent unavailability of the plant, is not attributable to us. We set this down in good faith and in the ordinary course of keeping the account clear, and not by way of any complaint.",
+    "WORKS NOT INCLUDED IN THIS INVOICE. The change from air-cooled to water-cooled condensing units, offered under our quotation QUT/DCTS/SQ101/2026 at a net addition of QAR 78,500.00, is not part of the contract value above and is not invoiced here. No order has been received for it. It remains open for your instruction and the unit lead time stated in our letter continues to apply.",
+    "Payment due on presentation of this invoice. Payment may be made by cheque or bank transfer to the account shown above; cheques to be crossed \"A/C Payee Only\" and drawn strictly in favour of the account name given, which is THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L. with no word between Equipment and Services. Kindly quote invoices INV-300/2026 and INV-275/2026 and your work order WO/1A/096/26 as the references.",
+    "WARRANTY: twelve (12) months on the cold room panels, the doors and our workmanship from the date of handover, and twelve (12) months on the compressors, coils, electrical components and controls from the date of commissioning. Excludes damage from misuse, power surge, improper voltage, water ingress, unauthorised modification or the absence of routine maintenance.",
+    "We thank you for the opportunity of carrying out these works and for your confidence throughout, and we remain at your service for maintenance, service contracts and any further requirement at the Capital Grille or elsewhere."
+  ]
+}

@@ -3433,6 +3433,50 @@ retention.
 **Still owed to CCC's file:** the receipt for the first 76,050 (cheque 00000245, QIB, 04-07-2026
 — instrument fully known, one of the five unreceipted payments under OL-082).
 
+### OL-127 — One A invoiced in full, and 47,775 of a 73,500 contract is now outstanding
+**Owner:** Farhan · **Raised:** 2026-11-05 · **Value:** QAR 47,775 · **LARGEST SINGLE DEBT**
+
+**INV-300/2026** — One A Design, Build and Trading W.L.L., **final invoice, 18,375**: the 20%
+completion stage 14,700 and the 5% handover stage 3,675 raised together, as was done on Everbloom.
+Signed and stamped, pricing on page 1 and a statement of account overleaf.
+
+**THE CONTRACT IS NOW FULLY INVOICED AND MOSTLY UNPAID.**
+
+| | QAR |
+|---|---|
+| Contract, WO/1A/096/26 | 73,500.00 |
+| Received — 35% advance, transfer MS1A03383663, RCT-274, 01-10-2026 | 25,725.00 |
+| **INV-275/2026, 40% on panel delivery, 02-10-2026 — UNPAID** | **29,400.00** |
+| **INV-300/2026, this final invoice** | **18,375.00** |
+| **TOTAL OUTSTANDING** | **47,775.00** |
+
+**65% of the contract is unpaid and there is nothing left to invoice.** Note 1 of the invoice is a
+full statement of account and note 2 says in terms that this is the final invoice and that
+settlement of the 47,775 closes the account — so the client cannot treat the 18,375 as the whole
+of what is due.
+
+**I RAISED IT ON THE ASSUMPTION THE WORKS ARE COMPLETE AND HANDED OVER.** Farhan asked for the
+final invoice and both closing stages are completion and handover stages. **If the room is not yet
+handed over, say so and the 5% of 3,675 comes off and is raised separately later.**
+
+**THE DELAY PENALTY IS THE REASON NOTE 4 IS WORDED AS IT IS.** WO/1A/096/26 carries **QAR 2,000
+per calendar day deductible from sums due** over a 30-day period from 27-09-2026, long expired.
+**A final invoice is exactly the moment a client applies a penalty**, and 47,775 is enough to
+absorb a great deal of it. Note 4 repeats, calmly and without complaint, the record already made
+in LTR/DCTS/256/2026 of 31-10-2026: materials and team were ready throughout and the works awaited
+only the payment then due, so any extension is not attributable to TNDK. **That letter and this
+note are the whole of the defence — keep both, with proof of sending.**
+
+**THE WATER-COOLED VARIATION IS EXPRESSLY OUTSIDE THIS INVOICE.** Note 5 records that SQ101's net
+addition of **78,500** is not part of the 73,500 and is not invoiced, that **no order has been
+received for it**, and that it stays open. Without that sentence a final invoice could be read as
+closing the variation too.
+
+**WHAT TO DO NEXT.** The 31-10 letter's two-day deadline passed on 02-11 with no reply.
+**A second letter is now justified, and this time it can name the figure** — a final invoice
+changes the position: there is nothing left to deliver and nothing left to invoice, so there is
+nothing left to discuss but payment. Say the word and it will be drafted.
+
 ### OL-126 — Oscar Prime's advance landed the same day, and its advice proves the 119,000 point
 **Owner:** Farhan · **Raised:** 2026-11-03 · **Value:** QAR 24,700 received · **CHECK THE 119,000**
 
