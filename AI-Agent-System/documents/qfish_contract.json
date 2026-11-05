@@ -1,0 +1,353 @@
+{
+  "_note": "Contract CON/TNDK/SQ144/2026 between TNDK (Contractor) and Q Fish Trading (Employer), built from quotation QUT/DCTS/SQ144/2026 dated 5 November 2026. Payment revised on Farhan's instruction to 50/30/10/10. TWO THINGS NEED FARHAN BEFORE ISSUE: (1) Q Fish's Commercial Registration number, its representative's name and QID are not in the quotation and are left as blanks — they must be filled from the client's CR before signature. (2) Clause 9 carries the quotation's exclusion of working above 3 m for a room 6.00 m high; the access equipment to build it is therefore outside the lump sum and clause 9.2 requires the amount to be agreed in writing before erection. Stage 3 of the payment schedule ('10% on progress') had no defined trigger; it is anchored to completion of the refrigeration installation so the milestone is testable. Clause 10 records that the two existing Dorin units carry no TNDK warranty, per the note in the quotation's BOQ, and that no flooring work is in scope.",
+
+  "reference": "CON/TNDK/SQ144/2026",
+  "filename": "Contract CON-TNDK-SQ144-2026 Q Fish Trading",
+  "footer_left": "Contract No. CON/TNDK/SQ144/2026",
+  "footer_initials": "Contractor ______   Employer ______",
+  "cover_has_no_footer": true,
+
+  "check_money": { "lines": [161500], "subtotal": 161500, "discount": 11500, "price": 150000 },
+  "check_stages": [[50, 75000], [30, 45000], [10, 15000], [10, 15000]],
+
+  "cover": {
+    "kicker": "State of Qatar",
+    "title": "Contract Agreement",
+    "works": "For the supply, installation, testing and commissioning of the enlargement of an existing freezer room — new wall and ceiling panels, a new sliding door and an additional refrigeration system",
+    "meta": [
+      "**Contract No.** CON/TNDK/SQ144/2026",
+      "**Dated** 5 November 2026",
+      "**Contract Price** QAR 150,000.00 (Qatari Riyals One Hundred and Fifty Thousand Only)",
+      "**Based on** Quotation QUT/DCTS/SQ144/2026 dated 5 November 2026"
+    ],
+    "foot": "Executed in two (2) original counterparts, one for each Party, each of which is an original. This Contract is made in the English language and is governed by the laws of the State of Qatar."
+  },
+
+  "parties": [
+    {
+      "role": "The Contractor — First Party",
+      "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+      "alias": "(hereinafter “**the Contractor**” or “**TNDK**”)",
+      "lines": [
+        "A limited liability company registered in the State of Qatar",
+        "Commercial Registration No. **199351**",
+        "P.O. Box 80247, Doha, State of Qatar",
+        "Tel: 7706 0676  |  farhan@dctsqatar.com",
+        "Represented by **Mr. Abdulla Kavumthalakkal**, Owner and Authorised Signatory, holding Qatar ID No. 26335619530."
+      ]
+    },
+    {
+      "role": "The Employer — Second Party",
+      "name": "Q FISH TRADING",
+      "alias": "(hereinafter “**the Employer**” or “**Q Fish**”)",
+      "lines": [
+        "Registered in the State of Qatar",
+        "Doha, State of Qatar",
+        "Commercial Registration No. ___________",
+        "Represented by ___________",
+        "Designation ___________",
+        "Holding Qatar ID No. ___________",
+        "duly authorised to sign on its behalf."
+      ]
+    }
+  ],
+
+  "execution": {
+    "attestation": "**IN WITNESS WHEREOF** the Parties have executed this Contract on the day and year first above written, in two (2) original counterparts, each Party having received one.",
+    "note": "Each Party to initial every page. This Contract is executed in the English language and is governed by the laws of the State of Qatar.",
+    "signatories": [
+      {
+        "heading": "For and on behalf of the Contractor",
+        "image": "seal_signature.png",
+        "name": "Mr. Abdulla Kavumthalakkal",
+        "details": [
+          "Owner / Authorised Signatory",
+          "The New Doha Kitchen Equipment Services W.L.L.",
+          "C.R. 199351  |  Qatar ID 26335619530",
+          "Date: 5 November 2026",
+          "Company seal affixed"
+        ]
+      },
+      {
+        "heading": "For and on behalf of the Employer",
+        "name": "___________________",
+        "details": [
+          "Authorised Signatory",
+          "Q Fish Trading",
+          "C.R. ___________",
+          "Qatar ID ___________",
+          "Date: ___________",
+          "Company seal: ___________"
+        ]
+      }
+    ]
+  },
+
+  "blocks": [
+    { "type": "cover" },
+
+    { "type": "heading", "text": "Contract for the supply, installation, testing and commissioning of the enlargement of an existing freezer room" },
+
+    { "type": "para", "text": "THIS CONTRACT is made at Doha, State of Qatar, on **5 November 2026**, BETWEEN:" },
+    { "type": "parties" },
+    { "type": "para", "text": "The Contractor and the Employer are referred to individually as a “Party” and together as “the Parties”." },
+
+    { "type": "clause", "title": "Recitals", "alpha": true, "items": [
+      "The Employer owns an existing cold storage room at its premises in the State of Qatar and wishes to have that room enlarged to 18.00 m × 14.00 m × 6.00 m and brought into service as a freezer room, as more fully described in Schedule 1 (together, “**the Works**”).",
+      "The Contractor carries on the business of the supply, fabrication, installation, testing and commissioning of cold rooms, refrigeration systems and commercial kitchen equipment, and has represented that it has the skill, experience, manpower and resources to execute the Works.",
+      "The Contractor submitted its quotation reference **QUT/DCTS/SQ144/2026** dated 5 November 2026 in the sum of QAR 150,000.00 (“**the Quotation**”), and the Employer has approved and accepted that Quotation.",
+      "The Parties now wish to record the terms upon which the Works shall be executed."
+    ], "tail": "**NOW IT IS HEREBY AGREED** as follows:" },
+
+    { "type": "clause", "no": "1", "title": "Contract documents and precedence", "items": [
+      "The following documents together form this Contract and are to be read as one instrument: (i) these Articles of Agreement and the clauses set out below; (ii) Schedule 1 — Scope of Works and Technical Specification; (iii) Schedule 2 — Contract Price and Bill of Quantities; (iv) Schedule 3 — Exclusions; and (v) the Quotation.",
+      "In the event of any conflict, ambiguity or discrepancy between them, the order of precedence shall be: these clauses first, then Schedules 1, 2 and 3 in that order, and the Quotation last. Where this Contract is silent, the Quotation shall apply.",
+      "No purchase order, acknowledgement, delivery note, invoice or other document issued by either Party shall vary this Contract, and any printed conditions appearing on any such document are of no effect between the Parties."
+    ]},
+
+    { "type": "clause", "no": "2", "title": "Scope of works", "items": [
+      "The Contractor shall supply, fabricate, deliver, install, test, commission and hand over the Works described in Schedule 1, complete in every respect, and shall provide all materials, labour, supervision, tools, plant, transportation, mobilisation and consumables necessary for their proper execution, save only for those matters expressly excluded by Schedule 3 and by clause 9.",
+      "The Works comprise, in summary: the enlargement of the Employer's existing cold room to 18.00 m × 14.00 m × 6.00 m internal (1,512.00 m³) operating at −18°C to −22°C; the supply and installation of 636.00 sqm of new 100 mm PUF sandwich panel, being 384.00 sqm to the four walls and 252.00 sqm to the ceiling, with ceiling support steel, coving, angles, silicone and accessories; one (1) new sliding cold room door of 2000 mm × 2500 mm clear opening; one (1) new BITZER (Germany) LH135/4JE-22Y-40P 22 HP air-cooled condensing unit with a Güntner (Germany) GACC RX 050.2-2SN-JNA7E unit cooler on R404A; the re-commissioning of the two (2) existing Dorin (Italy) 15 HP systems; and a new control panel with all safeties, together with the refrigeration piping, insulation, electrical works and sealing described in Schedule 1.",
+      "**Site survey.** Before any fabrication is put in hand the Contractor shall carry out a site survey and confirm the final room dimensions with the Employer in writing. The dimensions stated in this Contract are the dimensions agreed at the date hereof; any change arising from that survey shall be dealt with as a Variation under clause 8.",
+      "**Equivalent equipment.** The makes and models named in Schedule 1 are the equipment the Contractor has offered and priced. The Contractor shall not substitute any item of plant or equipment for another make, model or capacity without the Employer's prior written consent, which shall not be unreasonably withheld where the substitute is of equal or better specification and the Contract Price is not increased.",
+      "The Contractor shall execute the Works in a good and workmanlike manner, with sound materials new and unused save for the re-used equipment identified in clause 10, in accordance with the manufacturers' instructions and with the applicable laws, regulations and municipal requirements of the State of Qatar."
+    ]},
+
+    { "type": "clause", "no": "3", "title": "Contract price", "items": [
+      "The Employer shall pay the Contractor for the proper execution and completion of the Works the lump sum of **QAR 150,000.00 (Qatari Riyals One Hundred and Fifty Thousand Only)** (“**the Contract Price**”), being the sub-total of QAR 161,500.00 less a special discount of QAR 11,500.00 as set out in Schedule 2.",
+      "The Contract Price is a **fixed lump sum**. It is inclusive of all materials, labour, supervision, transportation, mobilisation, testing, commissioning, handover and operation training, and of every cost and charge whatsoever necessary for the completion of the Works, except as expressly excluded by Schedule 3, excluded by clause 9, or varied under clause 8.",
+      "The Contract Price shall not be adjusted for any change in the cost of materials, labour, freight or exchange rates, and no claim for escalation shall lie.",
+      "The quantities stated in Schedule 2 are given in support of the lump sum and are not a re-measurable schedule of rates.",
+      "No value added tax or other turnover tax is chargeable on the Contract Price under the law of the State of Qatar as at the date of this Contract. Should any such tax lawfully come into force and apply to the Works, it shall be borne by the Employer and added to the sums payable hereunder, and the Contractor shall issue a compliant invoice in respect of it."
+    ]},
+
+    { "type": "clause", "no": "4", "title": "Payment", "lead": "The Contract Price shall be paid in the following instalments:" },
+    { "type": "table",
+      "head": ["Stage", "Milestone", "%", "Amount (QAR)"],
+      "widths": ["16mm", "", "16mm", "32mm"],
+      "align": ["ctr", "", "ctr", "num"],
+      "rows": [
+        ["1", "**Advance** — payable upon signature of this Contract. The advance is a condition precedent to the Contractor's obligation to commence; the programme in clause 5 runs from the date this instalment is received in cleared funds.", "50%", "75,000.00"],
+        ["2", "**Sandwich panel delivered and installed** — payable upon delivery to site of the sandwich panels and completion of their installation to the walls and ceiling of the enlarged room.", "30%", "45,000.00"],
+        ["3", "**Progress — refrigeration installation complete** — payable upon completion of the refrigeration installation: the new condensing unit and unit cooler installed, piped and insulated, the two existing systems re-commissioned, and the new control panel installed and wired, in each case before testing and commissioning begins.", "10%", "15,000.00"],
+        ["4", "**Handover** — payable upon successful testing and commissioning and signature of the Handover Certificate under clause 11.", "10%", "15,000.00"]
+      ],
+      "total_rows": [["", "CONTRACT PRICE", "100%", "150,000.00"]]
+    },
+    { "type": "list", "start": 2, "items": [
+      "Each instalment shall be paid within **seven (7) days** of the Contractor's invoice for the relevant stage. Payment shall be made in Qatari Riyals by cash, crossed cheque or bank transfer drawn strictly in favour of **The New Doha Kitchen Equipment Services W.L.L.**",
+      "Where payment is made by cheque, the relevant instalment is treated as paid only upon realisation of that cheque, and the Contractor's receipt shall be issued subject to realisation.",
+      "If any instalment properly due remains unpaid for fourteen (14) days after its due date, the Contractor may, on seven (7) days' written notice, suspend the Works until payment is made. Any period of such suspension shall be added to the time for completion, and the Contractor shall not be liable for delay during it.",
+      "The Employer shall not set off, withhold or deduct any sum from any instalment, save for a sum which the Employer is entitled to deduct under clause 14 and of which written notice specifying the ground and the amount has been given not less than seven (7) days before the due date.",
+      "The Contractor shall not be obliged to commence testing and commissioning until instalment 3 has been received, and any period during which it remains unreceived shall be added to the time for completion."
+    ]},
+
+    { "type": "clause", "no": "5", "title": "Programme, completion and site readiness", "items": [
+      "Time shall run from the later of (i) the date of signature of this Contract and (ii) receipt of the advance instalment in cleared funds (“**the Commencement Date**”).",
+      "The Contractor shall complete the Works within **thirty-five (35) to forty-five (45) days** from the Commencement Date, made up as follows: material delivery 7–10 days; site mobilisation within 3 working days of material arrival; installation 25–30 working days on a civil-ready site; and testing and commissioning 2–3 working days after installation.",
+      "Working hours are standard working days, 08:00 to 17:00. Work outside those hours, if required by the Employer, shall be a Variation under clause 8.",
+      "**Site readiness.** The Employer shall give the Contractor clear, safe, exclusive and uninterrupted access to the site, with the floor clear, level and clean, the building structure above available and adequate for the suspension of the ceiling panels and the unit coolers, and power and water available for construction use. The installation period assumes a civil-ready site in this condition.",
+      "The Employer shall empty the existing room of all stored product before the Commencement Date and shall keep it empty for the duration of the Works. The Contractor is not responsible for the storage, relocation or deterioration of any product left in or near the room.",
+      "The time for completion shall be extended, day for day, by any delay caused by the Employer, by any person for whom the Employer is responsible, by late or non-payment, by want of access or site readiness, by any Variation, or by any event of force majeure under clause 16."
+    ]},
+
+    { "type": "clause", "no": "6", "title": "Obligations of the employer", "lead": "The Employer shall, at its own cost and in good time so as not to delay the Works:", "alpha": true, "items": [
+      "carry out all civil works, foundations, levelling and any structural support or strengthening required, including any structure required above the room from which the ceiling panels and the unit coolers are to be suspended;",
+      "provide the main power supply and the main cable run from the main distribution board to the cold room control panel, of adequate rating for a 400V / 3-phase / 50 Hz supply, together with the associated protective devices;",
+      "provide the drainage point to which the evaporator drain lines are to be connected, within 3 m of each evaporator drain outlet;",
+      "obtain and maintain all permits, approvals, municipality consents, building permissions and gate passes required for the Works and for the Contractor's access to the site;",
+      "provide a safe, dry and secure place at or adjacent to the site for the storage of materials delivered to site, and bear the risk of loss of or damage to those materials once delivered;",
+      "make the two existing Dorin systems and the existing room available to the Contractor for inspection at the site survey under clause 2.3; and",
+      "designate in writing one representative authorised to give and receive instructions, approve Variations and sign the Handover Certificate on its behalf."
+    ]},
+
+    { "type": "clause", "no": "7", "title": "Exclusions", "lead": "The matters listed in Schedule 3 are excluded from the Works and from the Contract Price. Any such matter which the Employer requires the Contractor to perform shall be instructed and valued as a Variation under clause 8 before it is carried out." },
+
+    { "type": "clause", "no": "8", "title": "Variations", "items": [
+      "The Employer may instruct additions to, omissions from or changes in the Works. No Variation shall be valid unless it is in writing, signed by both Parties, and states the agreed adjustment to the Contract Price and to the time for completion before the varied work is begun.",
+      "The Contractor shall not be obliged to carry out any instructed Variation until it has been so agreed, and shall not be liable for any delay arising from the Employer's failure to agree one.",
+      "Verbal instructions shall be confirmed in writing by the instructing Party within three (3) working days; absent such confirmation, neither Party shall be bound by them."
+    ]},
+
+    { "type": "clause", "no": "9", "title": "Access, working at height and lifting", "items": [
+      "The enlarged room is 6.00 m in height. Its erection necessarily involves work substantially above 3 m, and the Parties expressly record that **the access equipment and scaffolding required to erect the panels and ceiling to that height are not included in the Contract Price**, Schedule 3 item 9 applying.",
+      "The Contractor shall, promptly upon the site survey under clause 2.3, submit to the Employer a written statement of the access equipment and scaffolding required and the sum payable for it. That sum shall be agreed in writing between the Parties, as a Variation under clause 8, **before erection of the panels begins**. Neither Party shall be obliged to proceed with the erection until it is agreed, and the time for completion shall be extended by any period during which it remains unagreed.",
+      "The Contract Price includes the lifting of the condensing unit and the unit cooler into their designed positions by ordinary means. If the position nominated by the Employer, or the access route to it, requires a crane, hoist or other mechanical lifting equipment, that equipment shall be a Variation under clause 8.",
+      "The Employer shall nominate the final positions of the new condensing unit, the unit coolers and the control panel at the time of the site survey, and shall ensure that the nominated position for the condensing unit is adequately ventilated, accessible for maintenance and structurally adequate to carry it."
+    ]},
+
+    { "type": "clause", "no": "10", "title": "Re-used equipment and the existing structure", "items": [
+      "The Parties expressly record that two (2) of the three refrigeration systems serving the enlarged room are the Employer's **existing Dorin (Italy) 15 HP systems**, which the Contractor shall service, re-charge and re-commission but does not supply.",
+      "The Contractor gives **no warranty whatsoever on the two existing Dorin condensing units, their compressors, their existing unit coolers or any other existing equipment or pipework**, whether as to condition, performance, remaining service life or fitness for purpose. The warranty at clause 12 covers only the Contractor's own workmanship in re-commissioning them, and the new equipment the Contractor supplies.",
+      "The Contractor's inspection of the existing systems at the site survey is a visual and functional check only. If, on inspection or during re-commissioning, any existing unit is found to require repair, replacement of parts, or replacement in whole, that work is not included in the Contract Price and shall be instructed and valued as a Variation under clause 8. The Contractor shall report any such finding to the Employer in writing before carrying out the work.",
+      "The stated capacity of the installation for 1,512.00 m³ at −18°C to −22°C in 46°C ambient assumes that the two existing 15 HP systems perform to their original rated duty. The Contractor does not warrant the achievement of design temperature to the extent that a shortfall arises from the condition or underperformance of those existing systems.",
+      "No flooring work is included in the Works. The enlarged room is erected on the Employer's existing floor, and no insulated floor construction, floor panel, floor coating, under-floor heating or under-floor ventilation forms part of the Contract Price.",
+      "The Employer acknowledges that it has been advised that a freezer room operating continuously at −18°C to −22°C over an uninsulated floor may, over time, give rise to the freezing of the ground beneath it, to frost heave, cracking or movement of the slab, and to condensation at the slab edges. The Contractor shall bear no liability for any such matter, and the warranty at clause 12 shall not extend to it. The Contractor will, at the Employer's request, quote separately for an insulated floor construction."
+    ]},
+
+    { "type": "clause", "no": "11", "title": "Testing, commissioning and handover", "items": [
+      "Upon completion of the installation the Contractor shall pressure test, evacuate, charge, run up and commission the refrigeration systems, prove the controls, defrost and safeties, and pull the room down to its design temperature.",
+      "The Contractor shall give the Employer not less than two (2) working days' notice of the date of testing and commissioning, and the Employer shall attend or be represented.",
+      "On satisfactory completion the Parties shall sign a **Handover Certificate** recording the date of handover, the readings taken and any outstanding minor items, together with operation training and the as-built documentation. The date of that certificate is the date from which the warranty at clause 12 runs.",
+      "If the Employer takes the room into use, stores product in it or otherwise takes beneficial possession before the Handover Certificate is signed, handover shall be deemed to have taken place on the date of such use, and the final instalment shall thereupon fall due.",
+      "Outstanding minor items recorded on the Handover Certificate shall be completed by the Contractor within fourteen (14) days and shall not be grounds for withholding the final instalment, provided they do not prevent the room from being used for its intended purpose."
+    ]},
+
+    { "type": "clause", "no": "12", "title": "Warranty", "items": [
+      "The Contractor warrants the Works as follows, in each case for a period of **twelve (12) months**: the cold room panels and the new door, and the Contractor's workmanship, from the date of the Handover Certificate; and the new refrigeration compressor, the new evaporator and condenser coils, and the new electrical components and controls, from the date of commissioning. Warranties given by the manufacturers of the new plant are in addition and shall be assigned to the Employer so far as they are assignable.",
+      "During the warranty period the Contractor shall, upon written notice, attend and make good any defect in materials or workmanship covered by it, free of charge.",
+      "The warranty does not extend to: damage caused by misuse, overloading, power surge, improper voltage or interrupted supply, water ingress, unauthorised modification or repair by others, consumable and wear items, or the absence of routine maintenance; nor to any matter excluded by clause 10.",
+      "The warranty is conditional upon the Contract Price having been paid in full and upon the refrigeration plant being maintained in accordance with the manufacturers' recommendations. The Contractor will quote separately for an annual maintenance contract, and the Parties record that regular maintenance is necessary for the continued performance of the plant."
+    ]},
+
+    { "type": "clause", "no": "13", "title": "Title, risk and insurance", "items": [
+      "Risk in the materials passes to the Employer upon their delivery to site. Title in the materials and in the Works passes to the Employer upon payment of the Contract Price in full, and until then the materials remain the property of the Contractor notwithstanding their incorporation into the Works, so far as the law permits.",
+      "The Employer shall insure the materials and the Works at site against loss and damage from the date of delivery to site until handover.",
+      "The Contractor shall maintain, at its own cost, workmen's compensation cover for its personnel and third party liability insurance in respect of its operations at site.",
+      "Each Party shall comply with the health and safety requirements applicable at the site."
+    ]},
+
+    { "type": "clause", "no": "14", "title": "Delay", "items": [
+      "If the Contractor fails to complete the Works within the time for completion as extended under clause 5.6, the Employer shall be entitled to liquidated damages at the rate of **QAR 250.00 per calendar day** of delay, up to an aggregate maximum of **five per cent (5%) of the Contract Price**.",
+      "Such liquidated damages are the Employer's sole and exclusive remedy for delay in completion, and the Contractor shall have no other liability whatsoever, whether for loss of profit, loss of business, loss of product or any other loss, arising from late completion.",
+      "No liquidated damages shall accrue in respect of any period of delay falling within clause 5.6, clause 4.4, clause 4.6 or clause 9.2."
+    ]},
+
+    { "type": "clause", "no": "15", "title": "Suspension and termination", "items": [
+      "Either Party may terminate this Contract by written notice if the other commits a material breach of it and fails to remedy that breach within fourteen (14) days of written notice specifying it, or becomes insolvent, enters liquidation or has a receiver appointed over its assets.",
+      "Upon termination for any reason the Employer shall pay the Contractor for all work properly executed to the date of termination, for all materials ordered, fabricated or delivered for the Works which the Contractor cannot reasonably return or re-use, and for the Contractor's reasonable costs of demobilisation, giving credit for sums already received.",
+      "The Employer acknowledges that the sandwich panels, the door and the new refrigeration plant are procured and fabricated to order for this project and are not returnable to the Contractor's suppliers once ordered."
+    ]},
+
+    { "type": "clause", "no": "16", "title": "Force majeure", "lead": "Neither Party shall be liable for any failure or delay in performance caused by an event beyond its reasonable control, including act of God, fire, flood, exceptional weather, epidemic, war, civil unrest, act of government, blockade, closure of borders, failure of public utilities, or the unavailability of shipping or of materials from international suppliers for such a reason. The affected Party shall notify the other promptly and shall use reasonable endeavours to mitigate. If such an event continues for more than ninety (90) days either Party may terminate this Contract, and clause 15.2 shall apply." },
+
+    { "type": "clause", "no": "17", "title": "Limitation of liability", "items": [
+      "The Contractor's total aggregate liability under or in connection with this Contract, whether in contract, tort or otherwise, shall not exceed the Contract Price.",
+      "Neither Party shall be liable to the other for loss of profit, loss of revenue, loss of business, loss of or deterioration of stored product, or any indirect or consequential loss.",
+      "Nothing in this Contract limits the liability of either Party for death or personal injury caused by its negligence, for fraud, or for any liability which cannot lawfully be limited."
+    ]},
+
+    { "type": "clause", "no": "18", "title": "General", "items": [
+      "**Assignment and subcontracting.** Neither Party may assign this Contract without the other's written consent. The Contractor may subcontract parts of the Works but remains responsible for them.",
+      "**Confidentiality.** Each Party shall keep confidential the commercial terms of this Contract and any information of the other Party disclosed in connection with it.",
+      "**Notices.** Notices shall be in writing and sent to the addresses and email addresses given above, or to such other address as a Party notifies, and shall be deemed received on delivery or, if sent by email, on the next working day.",
+      "**Entire agreement.** This Contract constitutes the entire agreement between the Parties in respect of the Works and supersedes all prior negotiations, representations, quotations and understandings, save for the Quotation as incorporated by clause 1.1.",
+      "**Amendment, severability and waiver.** No amendment is effective unless in writing and signed by both Parties. If any provision is held invalid the remainder continues in force. No failure or delay in exercising a right operates as a waiver of it.",
+      "**Counterparts and language.** This Contract may be signed in counterparts. It is executed in the English language, in two (2) original copies, one for each Party, each of which is an original."
+    ]},
+
+    { "type": "clause", "no": "19", "title": "Governing law and disputes", "items": [
+      "This Contract is governed by and shall be construed in accordance with the laws of the **State of Qatar**.",
+      "The Parties shall first attempt in good faith to settle any dispute by negotiation between their authorised representatives within thirty (30) days of written notice of the dispute.",
+      "Failing settlement, the dispute shall be submitted to the exclusive jurisdiction of the competent courts of the State of Qatar."
+    ]},
+
+    { "type": "pagebreak" },
+    { "type": "heading", "text": "Schedule 1 — Scope of works and technical specification" },
+    { "type": "table",
+      "head": ["Room", "Qty", "Temperature", "Internal dimensions", "Panel"],
+      "align": ["", "ctr", "ctr", "ctr", "ctr"],
+      "widths": ["", "14mm", "34mm", "44mm", "20mm"],
+      "rows": [
+        ["**Freezer room** — enlarged", "1", "−18°C to −22°C", "18.00 × 14.00 × 6.00 m", "100 mm"]
+      ]
+    },
+    { "type": "table", "kv": true, "lead": "**1. Panels — all new.**", "rows": [
+      ["Panel type", "Pre-insulated polyurethane (PUF) sandwich panel — walls and ceiling supplied NEW"],
+      ["Panel thickness", "100 mm"],
+      ["Insulation core", "CFC-free injected polyurethane foam, density 40 ± 2 kg/m³"],
+      ["Skin material", "0.5 mm pre-painted galvanised steel (PPGI), food-grade white, both faces"],
+      ["Locking system", "Cam-lock / hook-lock type for tight, leak-proof joints"],
+      ["Thermal conductivity", "0.022 W/m·K (typical)"],
+      ["Fire rating", "Class B / self-extinguishing"],
+      ["Wall coverage", "384.00 sqm — new 100 mm panel to all four walls: 2 × (18.00 × 6.00) + 2 × (14.00 × 6.00)"],
+      ["Ceiling coverage", "252.00 sqm — new 100 mm panel over the enlarged room: 18.00 × 14.00"],
+      ["Total panel quantity", "**636.00 sqm** of new 100 mm PUF sandwich panel — 384.00 sqm wall and 252.00 sqm ceiling, with ceiling suspension steel"],
+      ["Floor", "No flooring work included — the room is erected on the Employer's existing floor. See clause 10."]
+    ]},
+    { "type": "table", "kv": true, "lead": "**2. Door — 1 No., new.**", "rows": [
+      ["Door type", "NEW sliding cold room door, single leaf, 100 mm thick, supplied and installed in the new wall panel"],
+      ["Clear opening", "2000 mm (W) × 2500 mm (H)"],
+      ["Frame", "Heated PVC / aluminium anti-condensation frame"],
+      ["Track and rollers", "Heavy-duty top-hung track with nylon rollers, bottom guide and end stops"],
+      ["Handle / lock", "Recessed sliding handle with internal safety release (anti-trap)"],
+      ["Gasket", "Magnetic / silicone double gasket, food-grade"]
+    ]},
+    { "type": "para", "text": "**3. Angles, silicone and accessories.** Aluminium sanitary coving at all wall–floor and wall–ceiling joints; aluminium corner angles and capping at all external corners; food-grade neutral-cure silicone sealant at all panel joints, the door frame and the floor seam; expanding polyurethane foam joint backing; stainless steel rivets, screws and washers; and a continuous vapour barrier at the panel–floor interface." },
+    { "type": "table", "kv": true, "lead": "**4. Refrigeration — three systems serving the enlarged room.**", "rows": [
+      ["System type", "Three (3) split refrigeration systems — two (2) EXISTING Dorin (Italy) 15 HP systems re-used and re-commissioned, and one (1) NEW BITZER (Germany) 22 HP system supplied complete for the additional volume"],
+      ["Condensing unit — new", "**BITZER (Germany) LH135/4JE-22Y-40P** air-cooled condensing unit, 22 HP, with 4JE-22Y semi-hermetic reciprocating compressor — 1 No."],
+      ["Condensing units — existing", "Two (2) Nos. Dorin (Italy) 15 HP condensing units, re-used, serviced and re-commissioned. No TNDK warranty — see clause 10."],
+      ["Evaporator — new", "**Güntner (Germany) GACC RX 050.2-2SN-JNA7E** ceiling-suspended unit cooler with electric defrost, served by the new 22 HP unit — 1 No."],
+      ["Evaporators — existing", "Existing unit coolers re-used, cleaned and re-commissioned on the two 15 HP systems"],
+      ["Refrigerant", "R404A — existing charge recovered, filtered and recharged; the new system charged new"],
+      ["Mounting", "Condensing units on outdoor steel bases / plinths; unit coolers ceiling-suspended inside the room"],
+      ["Defrost", "Automatic electric defrost with timer and termination thermostat"],
+      ["Drain lines", "Insulated drain lines with heating tape to all unit coolers"],
+      ["Piping", "Refrigeration interconnecting copper piping with Armaflex insulation, valves, filter driers and sight glasses"]
+    ]},
+    { "type": "table", "kv": true, "lead": "**5. Capacity and heat load.**", "rows": [
+      ["Internal volume", "18.00 × 14.00 × 6.00 = 1,512.00 m³"],
+      ["Design ambient", "+46°C (Doha ambient design)"],
+      ["Design room temperature", "−18°C to −22°C"],
+      ["Estimated heat load", "1,512.00 m³ enlarged freezer room at −18°C to −22°C, 46°C ambient"],
+      ["Selected capacity", "2 × existing Dorin 15 HP re-used, plus one (1) new BITZER LH135/4JE-22Y-40P, 22 HP, with a Güntner GACC RX 050.2-2SN-JNA7E unit cooler"],
+      ["Run time", "Designed for not more than 16 hours per day operation"],
+      ["Power supply", "400V / 3-phase / 50 Hz"]
+    ]},
+    { "type": "para", "text": "**6. Control panel — new.** New control box with digital temperature controllers, defrost timers and all safeties for the three (3) systems, supplied and installed complete with new wiring from the control box onward: digital LED display of set point and actual room temperature; compressor on/off, evaporator fan control, electric defrost timer and alarm output; overload relay, phase-failure relay and HP/LP cut-out switches; power, compressor, defrost and alarm pilot lamps; MCB, contactors and emergency stop in a metallic IP54 enclosure; anti-condensation door frame heater wired through the panel; and a vapour-proof LED light inside the room with an external on/off switch." },
+    { "type": "list", "lead": "**7. Works included.**", "items": [
+      "Site survey and confirmation of final room dimensions before fabrication.",
+      "Supply and installation of 636.00 sqm of new 100 mm PUF sandwich panel — 384.00 sqm to the walls and 252.00 sqm to the ceiling — with all aluminium coving, corner angles, silicone sealing, fasteners, panel support steel and accessories.",
+      "Supply and installation of one (1) No. new sliding cold room door, 2000 × 2500 mm clear opening, with heated anti-condensation frame, heavy-duty top-hung track and rollers, bottom guide and internal safety release.",
+      "Supply and installation of one (1) No. new BITZER (Germany) LH135/4JE-22Y-40P condensing unit, 22 HP, with a Güntner (Germany) GACC RX 050.2-2SN-JNA7E unit cooler, and re-commissioning of the two (2) existing Dorin 15 HP systems — complete with a new control box, refrigeration copper piping, Armaflex insulation, valves, filter driers, sight glasses, electric defrost and insulated drain lines.",
+      "Electrical works from the cold room control panel onward — including power and control wiring, internal LED light, door frame heater and emergency switch.",
+      "Supply and mounting of the digital control panel with all safeties.",
+      "Aluminium coving, corner angles, silicone sealing and full vapour sealing.",
+      "Pressure testing, vacuum, gas charging, testing and commissioning.",
+      "Handover with operation training and as-built documentation."
+    ]},
+
+    { "type": "pagebreak" },
+    { "type": "heading", "text": "Schedule 2 — Contract price and bill of quantities" },
+    { "type": "table",
+      "head": ["Sl", "Description", "Amount (QAR)"],
+      "align": ["ctr", "", "num"],
+      "widths": ["14mm", "", "34mm"],
+      "rows": [
+        ["1", "**COLD ROOM — ENLARGEMENT** to 18.00 m (L) × 14.00 m (W) × 6.00 m (H), 1,512.00 m³: supply and installation of 636.00 sqm of new 100 mm PUF sandwich panel — 384.00 sqm to all four walls and 252.00 sqm to the ceiling; supply and installation of one (1) No. new sliding cold room door, 2000 × 2500 mm clear opening, with heated frame, track, rollers, guides and internal safety release; supply and installation of one (1) No. new BITZER (Germany) LH135/4JE-22Y-40P condensing unit, 22 HP, with 4JE-22Y semi-hermetic compressor and a Güntner (Germany) GACC RX 050.2-2SN-JNA7E unit cooler; re-commissioning of the two (2) existing Dorin 15 HP systems; new control box with all safeties; refrigeration copper piping, Armaflex insulation, valves, filter driers, sight glasses, electric defrost, insulated drain lines with heating tape; internal vapour-proof LED lighting, door frame heater, complete electrical works from the control box onward; and all aluminium coving, corner angles, silicone sealing, panel support steel, fasteners and accessories.", "161,500.00"]
+      ],
+      "sum_rows": [
+        ["", "SUB-TOTAL (LUMP SUM)", "161,500.00"],
+        ["", "LESS: SPECIAL DISCOUNT", "(11,500.00)"]
+      ],
+      "total_rows": [["", "CONTRACT PRICE (LUMP SUM)", "150,000.00"]]
+    },
+    { "type": "note", "items": [
+      "**Amount in words:** Qatari Riyals One Hundred and Fifty Thousand Only (QAR 150,000.00).",
+      "**Re-used equipment.** The two (2) existing Dorin 15 HP condensing units are re-used and re-commissioned. They carry no TNDK warranty on the equipment itself — see clause 10.",
+      "**Included in the above rate:** testing, commissioning, transportation, mobilisation and handover with operation training.",
+      "**Not included:** access equipment and scaffolding for erection to 6.00 m (clause 9); any flooring, insulated floor construction or floor coating (clause 10); the building structure from which the ceiling panels and unit coolers are hung; the main power supply up to the control panel; and any civil or builder's work."
+    ]},
+
+    { "type": "heading", "text": "Schedule 3 — Exclusions" },
+    { "type": "list", "lead": "The following are excluded from the Works and from the Contract Price, and are the responsibility of the Employer:", "items": [
+      "Civil works, foundation, levelling and any structural support.",
+      "Power supply (Main DB) and the main cable run from the MDB to the cold room control panel.",
+      "Any false ceiling removal, modification or restoration of existing finishes.",
+      "Drain piping beyond 3 m from the evaporator drain outlet.",
+      "Backup power, UPS, generator or stabiliser.",
+      "Telephone, CCTV, BMS or IoT integration (available on request — separately quoted).",
+      "Any taxes, duties or municipality fees other than those explicitly mentioned.",
+      "Lifting equipment and cranes, if access requires more than standard manual handling.",
+      "Working at heights above 3 m — additional scaffolding cost shall apply, to be agreed under clause 9.2 before erection begins.",
+      "Any flooring, insulated floor construction, floor panel, floor coating, under-floor heating or under-floor ventilation.",
+      "Repair or replacement of any part of the two existing Dorin systems or of any other existing equipment or pipework found to require it (clause 10.3).",
+      "Any item not specifically listed in the Scope of Works at Schedule 1."
+    ]},
+
+    { "type": "pagebreak" },
+    { "type": "heading", "text": "Execution" },
+    { "type": "execution" }
+  ]
+}
