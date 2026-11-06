@@ -3446,9 +3446,36 @@ discount, **net 150,000**. **INV-301/2026 raised for the 75% advance, 112,500.**
 **THE TAKE-OFF CHECKS OUT.** Walls 2 x (18 + 14) x 6 = **384.00 sqm**, ceiling 18 x 14 =
 **252.00 sqm**, total **636.00 sqm**; volume 18 x 14 x 6 = **1,512.00 cbm**. All as quoted.
 
-**TERMS ARE THE QUOTATION'S OWN, NOT AN ASSUMPTION.** Farhan gave no payment instruction with the
-approval, so the invoice applies clause 12 of the approved document — **75 / 20 / 5** — and says
-so on its face. **If something else was agreed verbally, the invoice must be reissued.**
+**TERMS CORRECTED 06-11-2026 — THEY WERE NEVER 75/20/5.** The first issue applied clause 12 of the
+approved quotation because no instruction came with the approval. Farhan then gave the real
+schedule: *"50% advance. We will make the delivery of sandwich panel. Then after installation of
+sandwich panel, 30%. Then during work 10% and final 10%."*
+
+| Stage | % | QAR |
+|---|---|---|
+| Advance | 50% | **75,000.00** |
+| **After INSTALLATION of the sandwich panel** (not its delivery) | 30% | 45,000.00 |
+| During the works | 10% | 15,000.00 |
+| Final | 10% | 15,000.00 |
+
+**INV-301 was reissued from 112,500 to 75,000 under the same number before it reached the
+client**, every percentage on its face re-checked (it now reads 50 / 30 / 10 / 10 and nothing
+else) and the 112,500 file deleted. **This is the Bismi shape (OL-096) — the second contract on
+this book to use 50/30/10/10.** Note the 30% hangs on the panel being **installed**, not
+delivered: a delivery note will not trigger it.
+
+**20,000 OF THE 75,000 ADVANCE IS IN, 55,000 IS NOT.** Two QNB Tahweel transfers of 10,000 each —
+**IB1A11385427 of 05-11-2026** and **IB1A11386998 of 06-11-2026** — from Q Fish's QNB account
+0250-068740-001 to the TNDK IBAN, **both advices showing Status Success**. Receipted under
+**RCT-302/2026**, which states on its face that it is a part payment and names the 55,000
+outstanding. Farhan says the balance will follow and he will confirm.
+
+**DO NOT ORDER AGAINST 20,000.** The advance has to buy a 22 HP Bitzer, a large Güntner cooler and
+636 sqm of panel, and **no supplier price for any of them is on file.** Note 4 of the receipt
+tells the client plainly that ordering begins when the 55,000 is credited and that the delivery
+date will be confirmed the same day. **Two 10,000 transfers at midnight, two minutes apart, is a
+client paying what they have to hand** — worth watching, not worth worrying about yet, but the
+material order waits for the full 75,000.
 
 **THE FLOOR IS THE REAL EXPOSURE AND IT IS THE THIRD TIME THIS YEAR.** The 636 sqm is walls and
 ceiling only. **There is no floor panel, no insulated floor build-up, no under-floor ventilation
