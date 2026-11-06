@@ -3433,6 +3433,57 @@ retention.
 **Still owed to CCC's file:** the receipt for the first 76,050 (cheque 00000245, QIB, 04-07-2026
 — instrument fully known, one of the five unreceipted payments under OL-082).
 
+### OL-128 — Q Fish won at 150,000, and a 1,512 cbm freezer is going onto an untouched floor
+**Owner:** Farhan · **Raised:** 2026-11-06 · **Value:** QAR 150,000 · **FLOOR RISK, UNANSWERED**
+
+**QUT/DCTS/SQ144/2026 approved and company-stamped by Q Fish Trading** (C.R. 134683, P.O. Box
+14569). Enlargement of the freezer room to **18.00 x 14.00 x 6.00 m — 1,512 cbm at -18 to -22 C**:
+**636 sqm of new 100 mm PUF panel**, a new 2000 x 2500 sliding door, a new **BITZER
+LH135/4JE-22Y-40P 22 HP** condensing unit with a **Güntner GACC RX 050.2-2SN-JNA7E** cooler, and
+re-commissioning of the **two existing Dorin 15 HP** systems. Sub-total 161,500 less 11,500
+discount, **net 150,000**. **INV-301/2026 raised for the 75% advance, 112,500.**
+
+**THE TAKE-OFF CHECKS OUT.** Walls 2 x (18 + 14) x 6 = **384.00 sqm**, ceiling 18 x 14 =
+**252.00 sqm**, total **636.00 sqm**; volume 18 x 14 x 6 = **1,512.00 cbm**. All as quoted.
+
+**TERMS ARE THE QUOTATION'S OWN, NOT AN ASSUMPTION.** Farhan gave no payment instruction with the
+approval, so the invoice applies clause 12 of the approved document — **75 / 20 / 5** — and says
+so on its face. **If something else was agreed verbally, the invoice must be reissued.**
+
+**THE FLOOR IS THE REAL EXPOSURE AND IT IS THE THIRD TIME THIS YEAR.** The 636 sqm is walls and
+ceiling only. **There is no floor panel, no insulated floor build-up, no under-floor ventilation
+and no under-floor heating anywhere in this contract**, and a 1,512 cbm freezer at -18 to -22 C
+pulls heat out of the ground continuously. An uninsulated, unventilated slab under a room this
+size freezes, lifts and cracks — and the room above it goes with it.
+
+| Job | Freezer volume | Floor |
+|---|---|---|
+| Bismi (OL-088) | 475 cbm at -18 to -22 | bare slab with epoxy |
+| Aalaf (OL-106, now won) | chiller | **uPVC under-floor ventilation, 7 pipes** |
+| **Q Fish, this job** | **1,512 cbm at -18 to -22** | **nothing at all** |
+
+**Note 3 of the invoice puts it to the client in writing before work begins**, says TNDK is
+content to proceed as quoted and on their instruction, and offers to survey the existing floor
+and quote an insulated floor or an under-floor ventilation system — noting either is far easier
+before the panels go up than after. **Get an answer in writing. If they decline, that note and
+their reply are what protect TNDK when the slab moves.**
+
+**THE TWO DORIN UNITS ARE THE SECOND EXPOSURE.** They are the client's own, re-used and
+re-commissioned. Note 2 of the invoice repeats the quotation: TNDK warrants the re-commissioning
+work but **not the units, their compressors, motors, controls, capacity or continued operation**,
+and anything found beyond economic repair is reported, quoted and approved before work. **Record
+their condition, hours and fault history at first attendance, in writing and with photographs**,
+before a spanner is put on them.
+
+**CASH AND SCALE.** At 150,000 this is the second largest live contract after CCC. The 112,500
+advance has to buy a 22 HP Bitzer, a large Güntner cooler and 636 sqm of panel —
+**no supplier price for any of it is on file.** Get all three quoted before the advance is spent.
+Programme is **35 to 45 days**, the longest TNDK has taken on.
+
+**NO LPO.** The approval is their stamp and signature on our quotation, which is good evidence and
+better than several jobs on this book — but **ask for a purchase order anyway** for a contract of
+this size.
+
 ### OL-127 — One A invoiced in full, and 47,775 of a 73,500 contract is now outstanding
 **Owner:** Farhan · **Raised:** 2026-11-05 · **Value:** QAR 47,775 · **LARGEST SINGLE DEBT**
 
