@@ -1,0 +1,50 @@
+{
+  "type": "lpo",
+  "number": "LPO-217/2026",
+  "date": "07-11-2026",
+  "ref": "SAL-QTN-2026-01788 dated 05-11-2026",
+  "currency": "QAR",
+  "filename": "LPO-217-2026_AlBuhsain_JMB_100mm_ColdStorePanel_636sqm",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "VENDOR INFORMATION",
+    "name": "Al Buhsain Steel Industries W.L.L. (JMB)",
+    "fields": [
+      "Gate 14, Street No. 13, New Industrial Area, Doha, State of Qatar",
+      {"label": "Attention", "value": "Mr. Mihassar VK — Sales Responsible  |  Mob: 7122 4431"},
+      {"label": "Application", "value": "Freezer room, -18 °C to -22 °C — walls and ceiling"},
+      {"label": "Payment Terms", "value": "50% in advance, 50% before shipment"},
+      {"label": "Delivery Terms", "value": "Ex-works your factory, Doha — collection by us"}
+    ]
+  },
+  "lines": [
+    {
+      "description": "JMBCS COLD STORE PANEL, 100 mm, WITH PROTECTIVE FILM — WALL PANEL\nCore: polyisocyanurate (PIR), 40 - 42 kg/m3\nOutside facing: 0.50 mm pre-painted galvanised steel, RAL 9003, PE\nInside facing: 0.50 mm pre-painted galvanised steel, RAL 9003, PE\nCut length 6.00 m x 64 pieces, 1.00 m wide — 384.00 sqm",
+      "unit": "Sqm",
+      "qty": 384.00,
+      "rate": 110.00
+    },
+    {
+      "description": "JMBCS COLD STORE PANEL, 100 mm, WITH PROTECTIVE FILM — CEILING PANEL\nCore: polyisocyanurate (PIR), 40 - 42 kg/m3\nOutside facing: 0.50 mm pre-painted galvanised steel, RAL 9003, PE\nInside facing: 0.50 mm pre-painted galvanised steel, RAL 9003, PE\nCut length 7.00 m x 36 pieces, 1.00 m wide — 252.00 sqm",
+      "unit": "Sqm",
+      "qty": 252.00,
+      "rate": 110.00
+    }
+  ],
+  "grand_total_label": "TOTAL ORDER VALUE",
+  "notes_new_page": true,
+  "notes": [
+    "Placed against your quotation SAL-QTN-2026-01788 dated 05-11-2026 — 636.00 sqm at QAR 110.00 per sqm, net QAR 69,960.00. Payment 50% in advance and 50% before shipment, ex-works your factory. Please acknowledge this order in writing and confirm the production and collection dates.",
+    "CUT LIST AND QUANTITY CONFIRMED, IN SATISFACTION OF CLAUSE 4 OF YOUR TERMS. We confirm the specification exactly as ordered above and as your quotation offers it: 100 mm JMBCS cold store panel, PIR core at 40 - 42 kg/m3, 0.50 mm pre-painted galvanised steel both faces in RAL 9003 PE, with protective film. The cut list is 6.00 m x 64 pieces and 7.00 m x 36 pieces, 100 pieces in all at 1.00 m wide, totalling 636.00 sqm. No piece is to be cut to any other length and no other quantity is to be produced without our prior written approval. We note clause 3 and confirm that nothing beyond this schedule is ordered.",
+    "NO SUBSTITUTION. Any change to the core type or density, to the facing thickness, coating, substrate or RAL colour, or to the panel profile, requires our prior written approval BEFORE production. Should the mill supply otherwise, advise us in writing before anything is made. We measure the facing at inspection and goods supplied against a substitution we have not approved are liable to be returned at your cost.",
+    "PRE-DELIVERY INSPECTION, AS CLAUSE 7 OF YOUR TERMS REQUIRES. We will attend your factory to inspect before collection. Please give us not less than one (1) working day's notice of readiness. Panels are to be free of dents, edge damage, delamination, coating defects and foam voids, the protective film intact, and we may reject at inspection.",
+    "COLLECTION AND YOUR CLAUSE 8. We note that loading is to be within one (1) week of the goods being ready, failing which a charge of 1% of the value per week applies. Kindly give us the readiness date in writing as soon as production is scheduled so that collection is arranged inside that week. No such charge will be accepted where notice of readiness has not been given to us in writing.",
+    "YOUR QUOTATION IS MARKED \"DRAFT\" AND GIVES A DELIVERY DATE OF 11-11-2026, WHILE CLAUSE 6 GIVES 6 TO 12 WORKING DAYS FROM THE ADVANCE PAYMENT. Please issue your confirmed proforma invoice against this order and state one firm date for readiness. The price above is firm for the quantity and specification stated and no price adjustment, handling, loading or other charge will be accepted beyond the total order value.",
+    "Panels are to be supplied new, with the manufacturer's specification sheet for the facing and the core. Please raise your proforma and your invoice in the name shown above — The New Doha Kitchen Equipment Services W.L.L., C.R. 199351 — and quote LPO-217/2026 on your delivery note and invoice."
+  ]
+}

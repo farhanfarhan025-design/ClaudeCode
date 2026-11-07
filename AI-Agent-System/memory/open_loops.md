@@ -3433,6 +3433,52 @@ retention.
 **Still owed to CCC's file:** the receipt for the first 76,050 (cheque 00000245, QIB, 04-07-2026
 — instrument fully known, one of the five unreceipted payments under OL-082).
 
+### OL-129 — Panel ordered at 0.50 mm at last, but the advance is not in to pay for it
+**Owner:** Farhan · **Raised:** 2026-11-07 · **Value:** QAR 69,960 · **DO NOT PAY YET**
+
+**LPO-217/2026** — Al Buhsain Steel Industries (JMB), against **SAL-QTN-2026-01788 of
+05-11-2026**: **636.00 sqm of 100 mm JMBCS cold store panel at 110.00 = 69,960.00**, cut
+**6.00 m x 64 pieces (384.00 sqm)** and **7.00 m x 36 pieces (252.00 sqm)**. 50% in advance,
+50% before shipment, ex-works their factory. **No client, site or project named**, per the
+standing rule. Arithmetic checked against their quotation line by line and it reconciles.
+
+**THE GAUGE PROBLEM IS FINALLY ANSWERED.** This panel is **0.50 mm pre-painted galvanised steel
+on BOTH faces, RAL 9003, over a PIR core at 40 - 42 kg/m3.** Five jobs have now run on Geo
+Panel's **0.40 mm Aluzinc** against 0.50 mm PPGI sold to the client (OL-044, OL-067, OL-080,
+OL-104, OL-112). **This order matches what TNDK actually sells.** The premium is the reason:
+**110.00 against Geo's 98.00** — 7,632 more over 636 sqm, and worth it to close a gap that has
+been open since August.
+
+**BUT THE MONEY IS NOT THERE.** The 50% advance to JMB is **34,980**. The job this panel is for
+has had **20,000** of its 75,000 advance (OL-128), and **55,000 is still awaited**.
+
+| | QAR |
+|---|---|
+| Client advance received | 20,000 |
+| JMB 50% advance due | **34,980** |
+| **Short by** | **14,980 — before any machine is bought** |
+
+**Hold the LPO until the balance lands.** Their validity is **3 working days from 05-11-2026**,
+so the price will lapse around 10-11-2026 — if the client money is close, tell JMB and ask them
+to hold the price for a few days rather than paying out of pocket.
+
+**FOUR THINGS PUT TO THE VENDOR IN WRITING.**
+
+1. **Clause 4 satisfied.** Their terms say JMB produces what the PO confirms. Note 2 confirms
+   core, density, both facings, thickness, RAL, profile, both cut lengths and the quantity, and
+   says nothing beyond the schedule is ordered (their clause 3 charges extras).
+2. **Clause 8 is a penalty on us** — 1% of value per week, **699.60 a week**, if loading is not
+   within a week of readiness. Note 5 accepts it only where **written notice of readiness** has
+   been given, which is the part that protects TNDK.
+3. **Their quotation is marked "DRAFT"** and carries two inconsistent dates: a delivery date of
+   **11-11-2026** on its face and **6 to 12 working days from the advance** at clause 6. Note 6
+   asks for a confirmed proforma and one firm readiness date.
+4. **Pre-delivery inspection** at their factory is their own clause 7; note 4 claims it and asks
+   for a working day's notice.
+
+**The quotation is addressed to "The New Doha Kitchen" at qatardcts@gmail.com**, not the
+company's own address. Note 7 directs the proforma and invoice to the full legal name and C.R.
+
 ### OL-128 — Q Fish won at 150,000, and a 1,512 cbm freezer is going onto an untouched floor
 **Owner:** Farhan · **Raised:** 2026-11-06 · **Value:** QAR 150,000 · **FLOOR RISK, UNANSWERED**
 
