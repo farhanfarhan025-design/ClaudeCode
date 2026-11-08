@@ -3510,6 +3510,15 @@ else) and the 112,500 file deleted. **This is the Bismi shape (OL-096) — the s
 this book to use 50/30/10/10.** Note the 30% hangs on the panel being **installed**, not
 delivered: a delivery note will not trigger it.
 
+**UPDATED 07-11-2026 — A THIRD 10,000 ARRIVED.** QNB transfer **IB1A11621611 / IB261107394705**,
+07-11-2026 at 11:27, Status Success, same debit account. Receipted under **RCT-303/2026**.
+**Received to date 30,000 of the 75,000 advance; 45,000 still awaited.** Three transfers of
+exactly 10,000 on three consecutive days is a client paying in daily instalments — the pattern
+is consistent and the money is arriving, but **it is not a client who can release 45,000 at
+once, and the programme should be planned on that footing.** Note 4 of RCT-303 tells them the
+panel order is being held against the balance and that the supplier's price will not hold long,
+which is the right pressure to apply and is true.
+
 **20,000 OF THE 75,000 ADVANCE IS IN, 55,000 IS NOT.** Two QNB Tahweel transfers of 10,000 each —
 **IB1A11385427 of 05-11-2026** and **IB1A11386998 of 06-11-2026** — from Q Fish's QNB account
 0250-068740-001 to the TNDK IBAN, **both advices showing Status Success**. Receipted under
