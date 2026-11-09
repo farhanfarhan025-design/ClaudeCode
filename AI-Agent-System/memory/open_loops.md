@@ -3510,6 +3510,22 @@ else) and the 112,500 file deleted. **This is the Bismi shape (OL-096) — the s
 this book to use 50/30/10/10.** Note the 30% hangs on the panel being **installed**, not
 delivered: a delivery note will not trigger it.
 
+**UPDATED 09-11-2026 — A FOURTH 10,000, AND FARHAN'S COUNT WAS RIGHT.** QNB transfer
+**IB1A11830077 / IB261108477123**, 08-11-2026 at 10:29, Status Success. Receipted under
+**RCT-304/2026**. **Received to date 40,000 of the 75,000 advance; 35,000 still awaited.**
+
+**A LESSON IN HOW THESE ADVICES ARRIVE.** Farhan said the total was 40,000 when the file showed
+30,000. The gap was not an error on either side: **the 07-11 advice had been forwarded twice**
+(byte-identical, same MD5) and **the 08-11 advice had not been sent at all.** Checking each advice
+by its transaction reference rather than by its filename is what separated the duplicate from the
+missing one — the filenames are timestamps and two copies of one transfer look like two payments.
+**Reconcile these by reference number, every time.** Four distinct references so far:
+IB1A11385427 (05-11), IB1A11386998 (06-11), IB1A11621611 (07-11), IB1A11830077 (08-11).
+
+**AT 40,000 THE PANEL CAN BE PAID FOR.** JMB's 50% advance on LPO-217 is **34,980** — covered,
+with 5,020 to spare. The constraint is no longer cash but **their 3-working-day validity from
+05-11, which has now expired**: get the price confirmed or re-quoted before paying.
+
 **UPDATED 07-11-2026 — A THIRD 10,000 ARRIVED.** QNB transfer **IB1A11621611 / IB261107394705**,
 07-11-2026 at 11:27, Status Success, same debit account. Receipted under **RCT-303/2026**.
 **Received to date 30,000 of the 75,000 advance; 45,000 still awaited.** Three transfers of
