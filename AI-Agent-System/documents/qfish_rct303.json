@@ -1,0 +1,47 @@
+{
+  "type": "receipt",
+  "number": "RCT-303/2026",
+  "date": "07-11-2026",
+  "ref": "INV-301/2026",
+  "meta_labels": ["RECEIPT NO", "DATE", "AGAINST INVOICE"],
+  "currency": "QAR",
+  "filename": "Receipt_RCT-303-2026_QFishTrading_PartAdvance_10000",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "RECEIVED FROM",
+    "name": "M/s. Q Fish Trading",
+    "fields": [
+      "P.O. Box 14569, Doha, State of Qatar  |  C.R. 134683",
+      {"label": "Project", "value": "Enlargement of the freezer room to 18.00 x 14.00 x 6.00 m (1,512.00 cbm), -18 °C to -22 °C"},
+      {"label": "Our quotation", "value": "QUT/DCTS/SQ144/2026 — approved and stamped"},
+      {"label": "Contract Value", "value": "QAR 150,000.00"},
+      {"label": "Status", "value": "PART PAYMENT against the 50% advance of QAR 75,000.00"},
+      {"label": "Received To Date", "value": "QAR 30,000.00 — balance of the advance QAR 45,000.00"}
+    ]
+  },
+  "lines": [
+    {"description": "Part payment received against INV-301/2026 dated 06-11-2026, being the 50% advance on the enlargement of the freezer room — QNB transfer IB1A11621611 of 07-11-2026", "unit": "Nos", "qty": 1, "rate": 10000.00}
+  ],
+  "grand_total_label": "TOTAL RECEIVED",
+  "instrument": {
+    "type": "transfer",
+    "payment_mode": "Bank transfer (QNB Tahweel)",
+    "reference": "IB1A11621611 / IB261107394705 of 07-11-2026, 11:27 — shown as Success",
+    "bank": "Qatar National Bank (QNB) — remitting bank",
+    "drawer": "M/s. Q Fish Trading — debit a/c 0250-068740-001",
+    "credited_to": "The New Doha Kitchen Equipment Services W.L.L. — QA06 CBQA 0000 0000 4010 7777 3900 1"
+  },
+  "notes": [
+    "THIS IS A PART PAYMENT, NOT THE FULL ADVANCE. Contract value QAR 150,000.00. The 50% advance due under INV-301/2026 is QAR 75,000.00. Received to date QAR 30,000.00 — QAR 20,000.00 under RCT-302/2026 and QAR 10,000.00 by this receipt. BALANCE OF THE ADVANCE STILL AWAITED: QAR 45,000.00.",
+    "PAYMENTS RECEIVED TO DATE, ALL BY QNB TRANSFER FROM YOUR ACCOUNT 0250-068740-001: QAR 10,000.00 under reference IB1A11385427 of 05-11-2026; QAR 10,000.00 under reference IB1A11386998 of 06-11-2026; and QAR 10,000.00 under reference IB1A11621611 of 07-11-2026. Each is acknowledged in full and each is shown on your advice as Success.",
+    "AGREED PAYMENT SCHEDULE. 50% advance QAR 75,000.00; 30% QAR 45,000.00 after installation of the sandwich panel; 10% QAR 15,000.00 during the works; and 10% QAR 15,000.00 final. This schedule is as agreed between us and replaces the terms printed at clause 12 of our quotation QUT/DCTS/SQ144/2026.",
+    "THE PANEL IS READY TO ORDER AND THE PRICE WILL NOT HOLD LONG. The 636.00 sqm of 100 mm panel for your room has been priced and the order prepared, but our supplier's offer carries a short validity and the mill is to be paid 50% with the order. We are holding that order against the balance of this advance. Kindly release the remaining QAR 45,000.00 at your earliest so the panel can be put into production without the price being re-quoted; we shall confirm the production and delivery dates to you on the day it is placed.",
+    "Kindly quote invoice INV-301/2026 as the reference on the balance transfer. Payment to be made to The Commercial Bank (P.S.Q.C.), Grand Hamad Branch – 4010, account name THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L., account 4010-777739-001, IBAN QA06 CBQA 0000 0000 4010 7777 3900 1, SWIFT CBQAQAQA.",
+    "This receipt is issued against INV-301/2026 and is subject to the terms of our approved quotation QUT/DCTS/SQ144/2026, as varied by the agreed payment schedule above."
+  ]
+}

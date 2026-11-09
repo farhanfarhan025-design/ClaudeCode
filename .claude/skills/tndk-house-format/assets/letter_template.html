@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>__TITLE__</title>
+<style>
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  @page { size: A4; margin: 0; }
+  body { font-family: Arial, "Liberation Sans", Helvetica, sans-serif;
+         font-size: 10pt; color: #222222; margin: 0; line-height: 1.45; }
+  .band { background: #1F3864; color: #FFFFFF; padding: 13pt 27pt 11pt 27pt; margin-top: -34pt; }
+  .band .co { font-size: 15.5pt; font-weight: bold; line-height: 1.15; }
+  .band .ad { font-size: 8pt; padding-top: 2pt; }
+  .badge { background: #C9A24E; color: #1F3864; text-align: center; width: 128pt;
+           padding: 8pt 0; font-weight: bold; line-height: 1.25; }
+  .badge .b0 { font-size: 9.5pt; } .badge .b1 { font-size: 13pt; }
+  .rule { background: #C9A24E; height: 4pt; font-size: 1pt; }
+  .meta { background: #EEF2F8; padding: 6pt 27pt; font-size: 9pt; line-height: 1.45; }
+  .wrap { padding: 12pt 27pt 0 27pt; }
+  .to { margin-bottom: 10pt; line-height: 1.45; }
+  .to .nm { font-weight: bold; font-size: 11pt; color: #1F3864; }
+  .subj { background: #1F3864; color: #FFFFFF; font-weight: bold; font-size: 10pt;
+          padding: 6pt 12pt; margin: 10pt 0 12pt 0; }
+  p { margin: 0 0 9pt 0; text-align: justify; }
+  table.det { width: 100%; border-collapse: collapse; margin: 9pt 0; }
+  table.det td { border: 0.6pt solid #C9CDD6; padding: 5pt 9pt; font-size: 9.5pt; }
+  table.det td.k { background: #EEF2F8; font-weight: bold; color: #1F3864; width: 38%; }
+  .cal { background: #EEF2F8; padding: 9pt 12pt; margin: 10pt 0; font-size: 9.5pt; line-height: 1.5; }
+  .cal b { color: #1F3864; }
+  table.sig { width: 100%; margin-top: 26pt; page-break-inside: avoid; }
+  table.sig td { width: 48%; vertical-align: top; }
+  .sigline { border-top: 0.8pt solid #222222; height: 1pt; font-size: 1pt; width: 62%; }
+  .signame { font-weight: bold; padding-top: 5pt; font-size: 10pt; }
+  .sigco { font-size: 8.5pt; color: #333333; }
+  .stamp { font-size: 8.5pt; color: #555555; font-style: italic; padding-top: 16pt; }
+  .footwrap { position: fixed; bottom: 0; left: 0; right: 0; }
+  table.pagegrid { width: 100%; border-collapse: collapse; }
+  table.pagegrid > thead > tr > td { height: 34pt; border: 0; padding: 0; }
+  table.pagegrid > tfoot > tr > td { height: 44pt; border: 0; padding: 0; }
+  table.pagegrid > tbody > tr > td { border: 0; padding: 0; }
+  .foot { background: #1F3864; color: #FFFFFF; text-align: center; padding: 7pt 27pt; font-size: 8pt; }
+  .foot .f2 { font-style: italic; }
+</style></head><body>
+<table class="pagegrid"><thead><tr><td></td></tr></thead><tfoot><tr><td></td></tr></tfoot><tbody><tr><td>
+<table width="100%" cellpadding="0" cellspacing="0" class="band"><tr>
+  <td><div class="co">__CONAME__</div><div class="ad">__COADDR__</div></td>
+  <td width="28%" align="right"><div class="badge"><span class="b0">__B0__</span><br/><span class="b1">__B1__</span></div></td>
+</tr></table>
+<div class="rule"></div>
+<div class="meta">__META__</div>
+<div class="wrap">
+__BODY__
+  <table class="sig"><tr>
+    <td><div class="sigline"></div><div class="signame">Farhan</div>
+        <div class="sigco">Sales Engineer<br/>For and on behalf of __COLEGAL__</div>
+        <div class="stamp">Company stamp:</div></td>
+    <td></td>
+  </tr></table>
+</div>
+</td></tr></tbody></table>
+<div class="footwrap"><div class="foot">
+  <div><b>__COFOOT__</b></div>
+  <div class="f2">__FOOTNOTE__</div>
+</div></div>
+</body></html>

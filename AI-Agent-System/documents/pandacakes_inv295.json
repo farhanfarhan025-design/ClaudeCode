@@ -1,0 +1,52 @@
+{
+  "type": "invoice",
+  "badge": ["SECOND", "INVOICE"],
+  "number": "INV-295/2026",
+  "date": "03-11-2026",
+  "ref": "QUT/DCTS/SQ121/2026 (Revised) — approved 20-10-2026",
+  "currency": "QAR",
+  "filename": "Invoice_INV-295-2026_PandaCakes_ChillerRoom_20pct_OnDelivery",
+  "payee_name": "The New Doha Kitchen Equipment Services W.L.L.",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "BILL TO",
+    "name": "M/s. Panda Cakes",
+    "fields": [
+      "Doha, State of Qatar",
+      {"label": "Project", "value": "One (1) chiller room 4.35 x 2.00 x 2.40 m, 0 °C to +8 °C, with refrigeration"},
+      {"label": "Our quotation", "value": "QUT/DCTS/SQ121/2026 (Revised) — approved 20-10-2026"},
+      {"label": "Contract Value", "value": "QAR 29,000.00"},
+      {"label": "Payment terms", "value": "75% advance / 20% on delivery of materials / 5% on handover"},
+      {"label": "Stage", "value": "Second instalment — 20% on delivery of materials at site"}
+    ]
+  },
+  "lines": [
+    {
+      "description": "SECOND PAYMENT — 20% ON DELIVERY OF MATERIALS AT SITE\nSecond instalment against our approved quotation QUT/DCTS/SQ121/2026 (Revised) for the supply, installation, testing and commissioning of one (1) chiller room 4.35 x 2.00 x 2.40 m operating at 0 °C to +8 °C.\nMaterials delivered to site comprise the 100 mm insulated sandwich panel to walls and ceiling with all coving, angles, silicone sealing and fasteners; the hinged cold room door complete with hardware; the insulated floor system; and the refrigeration system — condensing unit, unit cooler, expansion valve, filter drier, sight glass, solenoid valve and accessories — together with the control panel.\nContract value QAR 29,000.00 — this invoice covers the second instalment of 20%.",
+      "unit": "Lot",
+      "qty": 1,
+      "rate": 5800.00
+    }
+  ],
+  "grand_total_label": "AMOUNT NOW DUE",
+  "bank": {
+    "Bank": "The Commercial Bank (P.S.Q.C.), Grand Hamad Branch – 4010",
+    "Account Name": "The New Doha Kitchen Equipment Services W.L.L.",
+    "Account Number": "4010-777739-001",
+    "IBAN": "QA06 CBQA 0000 0000 4010 7777 3900 1",
+    "SWIFT / BIC": "CBQAQAQA",
+    "Currency": "Qatari Riyal (QAR)"
+  },
+  "notes": [
+    "ACCOUNT POSITION. Contract value QAR 29,000.00, payable 75% advance, 20% on delivery of materials and 5% on handover. Received: 75% advance QAR 21,750.00 on 22-10-2026 under INV-287/2026, receipted by RCT-288/2026. This invoice: second instalment 20% QAR 5,800.00 on delivery of materials at site. Remaining after this invoice: 5% QAR 1,450.00, payable after successful testing, commissioning and handover.",
+    "Payment due on presentation of this invoice. Payment may be made by cheque or bank transfer to the account shown above; cheques to be crossed \"A/C Payee Only\" and drawn strictly in favour of the account name given, which is THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L. with no word between Equipment and Services. Kindly quote invoice INV-295/2026 as the reference. Our thanks for the prompt settlement of the advance, which cleared within two days.",
+    "MATERIAL DELIVERED TO SITE. The materials described above have been delivered to your site. Our delivery note covering the delivery follows for signature by your site representative; kindly have it signed and returned to us, and advise at once if any item is found short or damaged so that it can be made good without delay.",
+    "INSTALLATION AND COMMISSIONING TO FOLLOW. Installation proceeds on a civil-ready site, with testing and commissioning on completion, after which the final 5% falls due. Please ensure the main power supply and the cable run from the main distribution board to the cold room control panel are available, together with a drainage point within 3 m of the evaporator, as these are by others under our quotation.",
+    "This invoice is issued against our approved quotation QUT/DCTS/SQ121/2026 (Revised) and is subject to its terms."
+  ]
+}

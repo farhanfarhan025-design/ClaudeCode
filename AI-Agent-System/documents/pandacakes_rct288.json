@@ -1,0 +1,44 @@
+{
+  "type": "receipt",
+  "number": "RCT-288/2026",
+  "date": "22-10-2026",
+  "ref": "INV-287/2026",
+  "meta_labels": ["RECEIPT NO", "DATE", "AGAINST INVOICE"],
+  "currency": "QAR",
+  "filename": "Receipt_RCT-288-2026_PandaCakes_ChillerRoom_75pct_Advance",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "RECEIVED FROM",
+    "name": "M/s. Panda Cakes",
+    "fields": [
+      "Doha, State of Qatar",
+      {"label": "Project", "value": "One (1) chiller room 4.35 x 2.00 x 2.40 m with refrigeration system"},
+      {"label": "Our quotation", "value": "QUT/DCTS/SQ121/2026 (Revised) — approved"},
+      {"label": "Contract Value", "value": "QAR 29,000.00"},
+      {"label": "Balance After This Receipt", "value": "QAR 7,250.00 — 20% on delivery 5,800.00, 5% on handover 1,450.00"}
+    ]
+  },
+  "lines": [
+    {"description": "75% advance payment received in full against INV-287/2026 dated 20-10-2026 — supply, installation, testing and commissioning of one (1) chiller room with refrigeration system", "unit": "Job", "qty": 1, "rate": 21750.00}
+  ],
+  "grand_total_label": "TOTAL RECEIVED",
+  "instrument": {
+    "type": "transfer",
+    "payment_mode": "Bank transfer — Fawran payment outward, status Approved",
+    "transfer_date": "22-10-2026",
+    "beneficiary": "THE NEW DOHA KITCHEN EQUIPMENT SERV — alias CR-199351, a/c QA06 CBQA 0000 0000 4010 7777 3900 1",
+    "drawer": "M/s. Panda Cakes — debit a/c QA73 QIIB 0000 0000 1113 1971 01001, request raised by Mr. Shameem Parakkal"
+  },
+  "notes": [
+    "ACCOUNT POSITION. Contract value QAR 29,000.00. The 75% advance of QAR 21,750.00 is received in full by this receipt. Balance QAR 7,250.00 — 20% QAR 5,800.00 on delivery of materials at site, and 5% QAR 1,450.00 after successful testing, commissioning and handover.",
+    "Received with thanks. The advance being settled in full, material is now on order and the programme commences from this date: material delivery 3 to 5 days, site mobilisation within 3 working days of material arrival, installation 7 to 10 working days on a civil-ready site, and testing and commissioning 1 working day thereafter.",
+    "SITE READINESS. Please ensure the room position is clear, level and accessible, and that the power supply and the cable run from the main distribution board to the cold room control panel are available, as these are by others under our quotation. The installation period assumes a civil-ready site.",
+    "SITE SURVEY. Final room dimensions will be confirmed on site before fabrication. Any change arising will be advised to you in writing, with its effect on the price and the programme, before the work is done.",
+    "This receipt is issued against INV-287/2026 and is subject to the terms of our approved quotation QUT/DCTS/SQ121/2026 (Revised)."
+  ]
+}

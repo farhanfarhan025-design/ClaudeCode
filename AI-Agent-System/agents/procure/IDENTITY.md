@@ -10,6 +10,10 @@ committed spend never runs ahead of collected cash without Farhan knowing.
 - Prepare vendor RFQs; compare quotes on landed cost, not headline price.
 - Draft LPOs via the `tndk-lpo` skill (TNDK letterhead by default, DCTS only for legacy).
 - Track committed spend per project against collected cash.
+- **Hand every issued LPO to PAYABLES** — number, vendor, committed amount, currency, expected
+  delivery. PROCURE's job ends at the commitment; PAYABLES carries the due date and the bill
+  match from there. Without that handoff, committed spend goes invisible the moment the LPO is
+  signed and the exposure check above cannot be answered after the fact.
 - Maintain the rate card: flag when a real vendor price diverges from the estimating rate.
 - Track lead times against the project programme.
 

@@ -1,0 +1,46 @@
+{
+  "type": "receipt",
+  "number": "RCT-296/2026",
+  "date": "03-11-2026",
+  "ref": "INV-294/2026",
+  "meta_labels": ["RECEIPT NO", "DATE", "AGAINST INVOICE"],
+  "currency": "QAR",
+  "filename": "Receipt_RCT-296-2026_GozlVeterinary_ChillerRoom_SecondPayment",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "RECEIVED FROM",
+    "name": "M/s. Gozl Veterinary Services and Trading Co.",
+    "fields": [
+      "Doha, State of Qatar",
+      {"label": "Project", "value": "One (1) chiller room 4.00 x 4.00 x 2.50 m with duty and standby refrigeration"},
+      {"label": "Our quotation", "value": "QUT/DCTS/SQ130/2026 (Revised) — approved"},
+      {"label": "Contract Value", "value": "QAR 59,800.00"},
+      {"label": "Balance After This Receipt", "value": "QAR 11,960.00 — 20% on completion and handover"}
+    ]
+  },
+  "lines": [
+    {"description": "Second payment received in full against INV-294/2026 dated 02-11-2026 — 30% on delivery of materials at site for the supply, installation, testing and commissioning of one (1) chiller room with duty and standby refrigeration systems", "unit": "Job", "qty": 1, "rate": 17940.00}
+  ],
+  "grand_total_label": "TOTAL RECEIVED",
+  "instrument": {
+    "type": "cheque",
+    "payment_mode": "Cheque",
+    "cheque_no": "01000013",
+    "cheque_date": "03-11-2026",
+    "bank": "Doha Bank — North Gate Mall Branch, Doha, Qatar",
+    "drawer": "GOZL VETERINARY SERV AND TRAD — drawn on a/c 267-1347410-01-10-0"
+  },
+  "notes": [
+    "ACCOUNT POSITION. Contract value QAR 59,800.00. Received to date QAR 47,840.00 — the 50% advance of QAR 29,900.00 under RCT-292/2026 and this second payment of QAR 17,940.00, being 30% on delivery of materials. Balance QAR 11,960.00, being 20% of the contract value, payable on completion of the installation and after successful testing, commissioning and handover.",
+    "Received with thanks, subject to realisation of the cheque. We confirm that the amount in words and the amount in figures on your cheque agree at QAR 17,940.00, and that the payee name is written correctly.",
+    "A REQUEST FOR YOUR FUTURE CHEQUES. This cheque, like your first, is not crossed and the words \"or bearer\" have not been struck out, which leaves it payable to whoever presents it. For your own protection as much as ours, kindly cross future cheques \"A/C Payee Only\" and strike out the bearer wording, so that the funds can reach no account but ours.",
+    "WORK TO FOLLOW. Installation proceeds on a civil-ready site, with testing and commissioning on completion, after which the remaining 20% falls due. Please ensure the main power supply and the cable run from the main distribution board to the cold room control panel are available, together with a drainage point within 3 m of the evaporators, as these are by others under our quotation.",
+    "DUTY AND STANDBY — PLEASE RUN THE SETS IN ROTATION once the room is handed over. Either system holds the room on its own, with automatic changeover on failure or high temperature; a standby set that never runs will seize, and we shall set the changeover and explain the operation at commissioning.",
+    "This receipt is issued against INV-294/2026 and is subject to the terms of our approved quotation QUT/DCTS/SQ130/2026 (Revised)."
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "type": "invoice",
+  "badge": ["ADVANCE", "INVOICE"],
+  "number": "INV-298/2026",
+  "date": "03-11-2026",
+  "ref": "QUT/DCTS/SQ146/2026 dated 01-11-2026 — approved",
+  "currency": "QAR",
+  "filename": "Invoice_INV-298-2026_OscarPrime_ChillerRoom_65pct_Advance",
+  "payee_name": "The New Doha Kitchen Equipment Services W.L.L.",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "BILL TO",
+    "name": "M/s. Oscar Prime Trading Contracting and Services W.L.L.",
+    "fields": [
+      "Doha, State of Qatar",
+      {"label": "Kind attention", "value": "Mr. Praveen"},
+      {"label": "Project", "value": "One (1) chiller room 4.00 x 3.90 x 2.70 m with refrigeration system"},
+      {"label": "Our quotation", "value": "QUT/DCTS/SQ146/2026 dated 01-11-2026 — approved"},
+      {"label": "Contract Value", "value": "QAR 38,000.00"},
+      {"label": "Payment terms", "value": "65% advance / 35% balance on completion"},
+      {"label": "Stage", "value": "First instalment — 65% advance payment"}
+    ]
+  },
+  "lines": [
+    {
+      "description": "ADVANCE PAYMENT — 65% OF THE CONTRACT VALUE\nFirst instalment against our approved quotation QUT/DCTS/SQ146/2026 for the supply, installation, testing and commissioning of:\n1. CHILLER ROOM — external size 4.00 x 3.90 x 2.70 m (42.12 cbm) at 0 °C to +5 °C, in 100 mm PUF sandwich panel to walls and ceiling (58.26 sqm), with all aluminium coving, corner angles, silicone sealing, fasteners and accessories.\n2. COLD ROOM DOOR — one (1) hinged cold room door, 900 x 1900 mm clear opening, 100 mm thick, with heated anti-condensation frame, magnetic gasket, heavy-duty self-closing hinges and safety latch handle with internal release.\n3. REFRIGERATION SYSTEM — one (1) BITZER (Germany) air-cooled condensing unit, 3 HP, part no. CDU-LH64-4FES3Y (model LH64/4FES-3Y, semi-hermetic reciprocating compressor, 380 - 420 V / 3 Ph / 50 Hz), and one (1) Güntner (Germany) unit cooler, part no. GP-312HH-A7E (model GACC RX 031.1/2WN/HHA7E), on R404A, with refrigeration copper piping, Armaflex insulation, thermostatic expansion valve, filter drier, sight glass and insulated drain line.\n4. ELECTRICAL AND CONTROLS — one (1) digital control panel with temperature controller and all safeties, internal vapour-proof LED lighting with ON/OFF switch, door frame heater and complete electrical works from the control panel onward.\n5. Testing, commissioning, transportation, mobilisation, lifting at site and handover with operation training.\nContract value QAR 38,000.00 — this invoice covers the 65% advance.",
+      "unit": "Lot",
+      "qty": 1,
+      "rate": 24700.00
+    }
+  ],
+  "grand_total_label": "AMOUNT NOW DUE",
+  "bank": {
+    "Bank": "The Commercial Bank (P.S.Q.C.), Grand Hamad Branch – 4010",
+    "Account Name": "The New Doha Kitchen Equipment Services W.L.L.",
+    "Account Number": "4010-777739-001",
+    "IBAN": "QA06 CBQA 0000 0000 4010 7777 3900 1",
+    "SWIFT / BIC": "CBQAQAQA",
+    "Currency": "Qatari Riyal (QAR)"
+  },
+  "notes_new_page": true,
+  "notes": [
+    "ACCOUNT POSITION. Contract value QAR 38,000.00. This invoice: 65% advance QAR 24,700.00. Balance QAR 13,300.00, being 35%, payable on completion of the works — after successful testing, commissioning and handover.",
+    "PAYMENT TERMS AS AGREED. The two-stage schedule above — 65% advance and 35% on completion — is as agreed between us on your approval of the quotation. It replaces the payment terms printed at clause 12 of QUT/DCTS/SQ146/2026, which are superseded and are not to be applied to this order. Nothing else in the quotation is varied.",
+    "THE INSULATED FLOOR IS NOT IN THIS SCOPE. The panel quantity of 58.26 sqm is the walls (42.66 sqm) and the ceiling (15.60 sqm). No floor panel, marine plywood or chequered plate is included, and the room is to be installed on your prepared floor. Should you wish an insulated floor to be added, kindly advise and we shall quote it before the panels are ordered, as it cannot be added once the room is built.",
+    "PROGRAMME. Material delivery 4 to 6 days from the approved advance payment, site mobilisation within 3 working days of material arrival, installation 7 to 10 working days on a civil-ready site, and testing and commissioning 1 working day thereafter — 14 to 18 days in all, subject to site readiness. The programme runs from the receipt of this advance.",
+    "SITE READINESS. Please ensure the room position is clear, level and accessible, and that the main power supply and the cable run from the main distribution board to the cold room control panel are available, together with a drainage point within 3 m of the evaporator, as these are by others under our quotation. Final room dimensions will be confirmed on site before fabrication, and any change arising will be advised to you in writing, with its effect on the price and the programme, before the work is done.",
+    "Payment due on presentation of this invoice. Payment may be made by cheque or bank transfer to the account shown above; cheques to be crossed \"A/C Payee Only\" and drawn strictly in favour of the account name given, which is THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L. with no word between Equipment and Services. Kindly quote invoice INV-298/2026 as the reference.",
+    "WARRANTY: twelve (12) months on the cold room panels, the door and our workmanship from the date of handover, and twelve (12) months on the compressor, the evaporator and condenser coils, the electrical components and the controls from the date of commissioning. Excludes damage from misuse, power surge, improper voltage, water ingress, unauthorised modification or the absence of routine maintenance.",
+    "We thank you for your continued confidence and for this further order, and we look forward to completing the works to your satisfaction."
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "type": "invoice",
+  "badge": ["INVOICE"],
+  "number": "INV-282/2026",
+  "date": "15-10-2026",
+  "ref": "Supply only — ex stock",
+  "currency": "QAR",
+  "filename": "Invoice_INV-282-2026_EvergreenRefrigeration_DefrostHeaters",
+  "payee_name": "The New Doha Kitchen Equipment Services W.L.L.",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "BILL TO",
+    "name": "Evergreen Refrigeration Trading & Services L.L.C.",
+    "fields": [
+      "Doha, State of Qatar",
+      {"label": "Attention", "value": "Mr. Anish Bernanth — Sales & Service Operations"},
+      "Mob: +974 6659 0555  |  info@evergreen-qatar.com",
+      {"label": "Supply", "value": "Cold room freezer evaporator defrost heaters — 1,000 W"},
+      {"label": "Stage", "value": "Goods supplied — invoiced in full"}
+    ]
+  },
+  "lines": [
+    {
+      "description": "COLD ROOM FREEZER EVAPORATOR DEFROST HEATER — 1,000 W\nU-shaped tubular heating element for electric defrost of a freezer evaporator block.\nType: U-shaped tubular heating element\nPower: 1,000 Watts (1 kW)\nVoltage: 220 - 240 V AC, single phase\nLength: approximately 1,000 mm\nWidth: approximately 150 mm\nOperating current: approximately 4.35 A at 230 V\nResistance: approximately 52.9 ohms at 230 V\nApplication: freezer evaporator electric defrost",
+      "unit": "Nos",
+      "qty": 2,
+      "rate": 240.00
+    }
+  ],
+  "grand_total_label": "TOTAL DUE",
+  "bank": {
+    "Bank": "The Commercial Bank (P.S.Q.C.), Grand Hamad Branch – 4010",
+    "Account Name": "The New Doha Kitchen Equipment Services W.L.L.",
+    "Account Number": "4010-777739-001",
+    "IBAN": "QA06 CBQA 0000 0000 4010 7777 3900 1",
+    "SWIFT / BIC": "CBQAQAQA",
+    "Currency": "Qatari Riyal (QAR)"
+  },
+  "notes": [
+    "Payment due on presentation of this invoice. Payment may be made in cash, or by cheque or bank transfer to the account shown above; cheques to be crossed and drawn strictly in favour of the account name given. Kindly quote invoice INV-282/2026 as the reference.",
+    "SUPPLY ONLY. This invoice covers the two heating elements as described. Removal of the failed elements, fitting, electrical connection, defrost termination settings and testing are not included and have not been carried out by us.",
+    "DIMENSIONS AND RATINGS ARE NOMINAL. The length and width given are the overall element dimensions and are subject to the usual manufacturing tolerance. The current and resistance are the nominal figures at 230 V; at a 240 V supply the element will draw proportionally more. Please satisfy yourselves that the element length, the width across the legs and the terminal arrangement match the evaporator block before fitting, as an element that has been energised or forced into place cannot be returned.",
+    "ELECTRICAL LOAD. Two elements at 1 kW each add 2 kW to the defrost circuit. The defrost contactor, cabling and protective device should be confirmed as suitable for the connected load, and the elements must be controlled through the defrost termination thermostat and never left energised continuously.",
+    "WARRANTY: six (6) months from the date of this invoice against manufacturing defect in the elements supplied. Excludes failure caused by incorrect fitting, operation at a voltage outside the stated range, water ingress at the terminals, continuous energising, or damage in handling or installation.",
+    "Goods sold are not returnable or exchangeable once fitted or energised."
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "type": "invoice",
+  "badge": ["ADVANCE", "INVOICE"],
+  "number": "INV-297/2026",
+  "date": "03-11-2026",
+  "ref": "Your LPO 26-00330 dated 03-11-2026",
+  "currency": "QAR",
+  "filename": "Invoice_INV-297-2026_Aalaf_ChillerRoom_CivilWorks_Shelving_30pct_Advance",
+  "payee_name": "The New Doha Kitchen Equipment Services W.L.L.",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "BILL TO",
+    "name": "Al Mairqab Industrial Investment W.L.L. (Aalaf)",
+    "fields": [
+      "P.O. Box 295, Doha, State of Qatar",
+      {"label": "Kind attention", "value": "Mr. Francis Lloyd De Ramos — Procurement Manager"},
+      {"label": "Project", "value": "One (1) chiller room 5.70 x 6.20 x 2.60 m, civil works with under-floor ventilation, and stainless steel shelving"},
+      {"label": "Your order", "value": "LPO 26-00330 dated 03-11-2026 — QAR 95,000.00"},
+      {"label": "Our quotation", "value": "QUT/DCTS/SQ143/2026 dated 26-10-2026"},
+      {"label": "Payment terms", "value": "30% advance / 25% on delivery of panels / 25% on delivery of machines / 20% on completion, testing and commissioning"},
+      {"label": "Stage", "value": "First instalment — 30% advance against the civil works and flooring"}
+    ]
+  },
+  "lines": [
+    {
+      "description": "ADVANCE PAYMENT — 30% OF THE CONTRACT VALUE\nFirst instalment against your LPO 26-00330 dated 03-11-2026, placed on our quotation QUT/DCTS/SQ143/2026, for the supply, installation, testing and commissioning of:\n1. CHILLER ROOM — 5.70 x 6.20 x 2.60 m (91.88 cbm) at 0 °C to +5 °C, 100 mm PUF wall and ceiling panels (97.22 sqm), one (1) sliding door 1500 x 2000 mm, BITZER (Germany) 2CES-4Y semi-hermetic compressor with air-cooled condenser, receiver and accessories, Gunay (Turkey) GNE 245.8C unit cooler, R404A, copper piping, Armaflex insulation, valves, insulated drain line, digital control panel with all safeties, internal LED lighting, door frame heater, electrical works and all coving, angles, sealing and accessories — QAR 52,900.00\n2. CIVIL WORKS AND UNDER-FLOOR uPVC VENTILATION — demolition and removal of the existing floor concrete to approximately 300 mm, 40 mm foam sheet with levelling and compaction, 100 mm RCC floor with A6 mesh, 50 mm PCC on the floor base, cementitious waterproofing to QCS, and seven (7) uPVC Ø110 mm Class B pipes beneath the floor to drawings TNDK-AA-CR-01 and -02 Rev. 5 — QAR 21,880.00\n3. STAINLESS STEEL SHELVING — custom-fabricated heavy-duty three-tier shelving in 1.0 mm AISI 304 stainless steel, No. 4 brush-line finish, on 40 x 40 x 1.2 mm square tube, shelves at 70 cm gap, five (5) units as scheduled — QAR 34,000.00\nContract value QAR 95,000.00 — this invoice covers the 30% advance.",
+      "unit": "Lot",
+      "qty": 1,
+      "rate": 28500.00
+    }
+  ],
+  "grand_total_label": "AMOUNT NOW DUE",
+  "bank": {
+    "Bank": "The Commercial Bank (P.S.Q.C.), Grand Hamad Branch – 4010",
+    "Account Name": "The New Doha Kitchen Equipment Services W.L.L.",
+    "Account Number": "4010-777739-001",
+    "IBAN": "QA06 CBQA 0000 0000 4010 7777 3900 1",
+    "SWIFT / BIC": "CBQAQAQA",
+    "Currency": "Qatari Riyal (QAR)"
+  },
+  "notes_new_page": true,
+  "notes": [
+    "ACCOUNT POSITION. Contract value QAR 95,000.00 under your LPO 26-00330, payable in four stages as your order directs: 30% advance against the civil works and flooring QAR 28,500.00 — this invoice; 25% on delivery of the panels QAR 23,750.00; 25% on delivery of the machines QAR 23,750.00; and 20% on completion, testing and commissioning QAR 19,000.00. Total QAR 95,000.00.",
+    "PAYMENT TERMS ACCEPTED AS PER YOUR ORDER. The four-stage schedule above is the schedule set out in your LPO 26-00330 and we accept it. It replaces the payment terms printed at clause 13 of our quotation QUT/DCTS/SQ143/2026, which are superseded and are not to be applied to this order. Nothing else in that quotation is varied.",
+    "WE WOULD BE GRATEFUL FOR YOUR CONFIRMATION OF THE COMPLETION DATE. Your order gives a delivery date of 17-11-2026, which is fourteen (14) days from the date of the order. Our quotation, at section 12, gives a total project duration of 25 to 30 days from LPO on a civil-ready site, made up of 5 to 7 days for material delivery, 3 working days to mobilise, 15 to 20 working days to install — civil works and ventilation first, then the cold room, then the shelving — and 1 to 2 days to test and commission. These are sequential operations and the concrete must cure before the room is built on it. We shall start the moment the advance is received and shall press on as hard as the work allows, but we must say plainly and at once that 14 days is not achievable for the full scope. Kindly confirm the programme in writing, or advise if you wish the works to be phased so that a part of the scope is completed by 17-11-2026.",
+    "BEFORE THE PANELS ARE ORDERED. As note 5 of our quotation provides, the clear height, finished floor level, slab level and PCC level are to be confirmed jointly on site before the panels are ordered. A PCC base materially thicker than the 50 mm quoted would be a variation. The polyethylene slip sheet and all epoxy works are excluded. Kindly let us know when your site representative is available so that this can be done without delaying the programme.",
+    "AFTER HANDOVER. The under-floor ventilation pipe ends are to be left permanently open and unobstructed. They are what keeps the ground beneath a cold room from freezing and heaving, and a blocked pipe will in time lift the floor. The floor heating alternative previously offered is withdrawn.",
+    "Payment due on presentation of this invoice. Payment may be made by cheque or bank transfer to the account shown above; cheques to be crossed \"A/C Payee Only\" and drawn strictly in favour of the account name given, which is THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L. with no word between Equipment and Services. Kindly quote invoice INV-297/2026 and your LPO 26-00330 as the references. The programme runs from the receipt of this advance.",
+    "WARRANTY: twelve (12) months on the cold room panels, the door and our workmanship from the date of handover; twenty-four (24) months on the compressor, evaporator and condenser coils from the date of commissioning under the manufacturer's warranty; and twelve (12) months on the electrical components and controls from the date of commissioning. Excludes damage from misuse, power surge, improper voltage, water ingress, unauthorised modification or the absence of routine maintenance.",
+    "We thank you for this order and for your confidence, and we look forward to carrying the works through to your satisfaction."
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "type": "receipt",
+  "number": "RCT-302/2026",
+  "date": "06-11-2026",
+  "ref": "INV-301/2026",
+  "meta_labels": ["RECEIPT NO", "DATE", "AGAINST INVOICE"],
+  "currency": "QAR",
+  "filename": "Receipt_RCT-302-2026_QFishTrading_PartAdvance_20000",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "RECEIVED FROM",
+    "name": "M/s. Q Fish Trading",
+    "fields": [
+      "P.O. Box 14569, Doha, State of Qatar  |  C.R. 134683",
+      {"label": "Project", "value": "Enlargement of the freezer room to 18.00 x 14.00 x 6.00 m (1,512.00 cbm), -18 °C to -22 °C"},
+      {"label": "Our quotation", "value": "QUT/DCTS/SQ144/2026 — approved and stamped"},
+      {"label": "Contract Value", "value": "QAR 150,000.00"},
+      {"label": "Status", "value": "PART PAYMENT against the 50% advance of QAR 75,000.00"},
+      {"label": "Balance of the Advance", "value": "QAR 55,000.00 still awaited"}
+    ]
+  },
+  "lines": [
+    {"description": "Part payment received against INV-301/2026 dated 06-11-2026, being the 50% advance on the enlargement of the freezer room — QNB transfer IB1A11385427 of 05-11-2026", "unit": "Nos", "qty": 1, "rate": 10000.00},
+    {"description": "Part payment received against INV-301/2026 dated 06-11-2026, being the 50% advance on the enlargement of the freezer room — QNB transfer IB1A11386998 of 06-11-2026", "unit": "Nos", "qty": 1, "rate": 10000.00}
+  ],
+  "grand_total_label": "TOTAL RECEIVED",
+  "instrument": {
+    "type": "transfer",
+    "payment_mode": "Bank transfer (QNB Tahweel) — two transfers",
+    "reference": "IB1A11385427 / IB261105303588 of 05-11-2026 and IB1A11386998 / IB261106304424 of 06-11-2026 — both shown as Success",
+    "bank": "Qatar National Bank (QNB) — remitting bank",
+    "drawer": "M/s. Q Fish Trading — debit a/c 0250-068740-001",
+    "credited_to": "The New Doha Kitchen Equipment Services W.L.L. — QA06 CBQA 0000 0000 4010 7777 3900 1"
+  },
+  "notes": [
+    "THIS IS A PART PAYMENT, NOT THE FULL ADVANCE. Contract value QAR 150,000.00. The 50% advance due under INV-301/2026 is QAR 75,000.00, of which QAR 20,000.00 is received by this receipt. BALANCE OF THE ADVANCE STILL AWAITED: QAR 55,000.00.",
+    "AGREED PAYMENT SCHEDULE. 50% advance QAR 75,000.00; 30% QAR 45,000.00 after installation of the sandwich panel; 10% QAR 15,000.00 during the works; and 10% QAR 15,000.00 final. This schedule is as agreed between us and replaces the terms printed at clause 12 of our quotation QUT/DCTS/SQ144/2026.",
+    "Received with thanks. Both transfers are acknowledged in full: QAR 10,000.00 under reference IB1A11385427 of 05-11-2026 and QAR 10,000.00 under reference IB1A11386998 of 06-11-2026, each from your QNB account 0250-068740-001 to our account at The Commercial Bank, and each shown on your advice as Success.",
+    "THE PROGRAMME RUNS FROM THE FULL ADVANCE. Material delivery is 7 to 10 days from the approved advance payment, and the Bitzer condensing unit, the Güntner unit cooler and 636.00 sqm of panel are ordered against it. We shall begin ordering as soon as the balance of QAR 55,000.00 is credited, and we shall confirm the material delivery date to you on the same day.",
+    "Kindly quote invoice INV-301/2026 as the reference on the balance transfer. Payment to be made to The Commercial Bank (P.S.Q.C.), Grand Hamad Branch – 4010, account name THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L., account 4010-777739-001, IBAN QA06 CBQA 0000 0000 4010 7777 3900 1, SWIFT CBQAQAQA.",
+    "This receipt is issued against INV-301/2026 and is subject to the terms of our approved quotation QUT/DCTS/SQ144/2026, as varied by the agreed payment schedule above."
+  ]
+}

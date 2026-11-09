@@ -1,0 +1,87 @@
+{
+  "_note": "Illustrative data with invented clients. Real figures live in Drive and are never copied into a skill or repo — copies drift, and that drift is what produced three different answers for one client (DECISIONS.md D-006). Use this file to learn the shape of the input, not the numbers. It deliberately contains four defects so you can see what a FAILED close looks like: a stored balance that disagrees, a bill with no LPO, a bounced cheque, and a receipt with no instrument behind it.",
+
+  "as_of": "2026-08-04",
+
+  "register": [
+    {
+      "project": "Example Foods cold room",
+      "client": "Example Foods Trading Co.",
+      "contract": 46000,
+      "received": 27600,
+      "balance": 18400,
+      "due_since": "2026-06-20",
+      "cost": 34500
+    },
+    {
+      "project": "Example Contractors airport rooms",
+      "client": "Example Contractors W.L.L.",
+      "contract": 253500,
+      "received": 76050,
+      "balance": 0.0,
+      "due_since": "2026-05-02"
+    },
+    {
+      "project": "Example JV waste facility",
+      "client": "Example JV",
+      "contract": 400000,
+      "received": 0
+    }
+  ],
+
+  "numbering": {
+    "INV": [251, 252, 253, 254, 256, 257, 258],
+    "RCT": [251, 252, 253, 254, 255, 256]
+  },
+
+  "receipts": [
+    { "ref": "RCT-255/2026", "client": "Example Foods Trading Co.", "amount": 27600, "date": "2026-05-20" },
+    { "ref": "RCT-256/2026", "client": "Example Contractors W.L.L.", "amount": 76050, "date": "2026-06-11" }
+  ],
+
+  "instruments": [
+    {
+      "receipt_ref": "RCT-255/2026",
+      "invoice": "INV-252/2026",
+      "type": "cheque",
+      "number": "000451",
+      "bank": "Example Bank",
+      "drawer": "Example Foods Trading Co.",
+      "date": "2026-05-20",
+      "amount": 27600,
+      "status": "cleared"
+    }
+  ],
+
+  "cheques_issued": [
+    { "number": "000112", "payee": "Example Panel Supplier", "amount": 41000, "presented": false }
+  ],
+
+  "opening_cash": null,
+
+  "payables": [
+    {
+      "vendor": "Example Panel Supplier",
+      "bill": "EPS-2291",
+      "lpo": "LPO-188/2026",
+      "lpo_amount": 41000,
+      "project": "Example JV waste facility",
+      "amount": 41000,
+      "due": "2026-08-12",
+      "status": "open"
+    },
+    {
+      "vendor": "Example Transport",
+      "bill": "ET-0093",
+      "lpo": null,
+      "project": "Example Foods cold room",
+      "amount": 1500,
+      "due": "2026-07-28",
+      "status": "open"
+    }
+  ],
+
+  "committed_not_billed": [
+    { "lpo": "LPO-189/2026", "vendor": "Example Refrigeration", "project": "Example JV waste facility", "amount": 62000 }
+  ]
+}
