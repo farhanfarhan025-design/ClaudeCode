@@ -3447,11 +3447,29 @@ on R404A with their own control panels. Sub-total 61,250 less 9,250 discount, **
 **46.80 sqm** per room, and 3.00 x 3.00 x 2.40 = **21.60 cbm**. Both as quoted. Note these are
 **internal** dimensions, where most TNDK quotations state external.
 
-**TERMS ARE THE QUOTATION'S OWN AND FARHAN HAS NOT CONFIRMED THEM.** No instruction came with the
-approval, so the invoice applies clause 13 — **75 / 20 / 5** — and says so on its face.
-**This is exactly where Q Fish went wrong** (OL-128): the invoice went out at 75% and the real
-agreement was 50/30/10/10, so it had to be reissued. **Ask Farhan before this is sent to the
-client.** If 75/20/5 is right, nothing changes; if not, INV-305 is reissued at the agreed figure.
+**TERMS CONFIRMED 12-11-2026, AND THEY WERE NOT 75/20/5.** The first issue applied clause 13 of
+the quotation because no instruction came with the approval; asking before it reached the client
+was the right call and Farhan then gave the real schedule.
+
+| Stage | % | QAR |
+|---|---|---|
+| Advance | 50% | **26,000.00** |
+| **After installation of the sandwich panel, BEFORE delivery of the condensing units** | 30% | 15,600.00 |
+| At handover | 20% | 10,400.00 |
+
+**INV-305 was reissued from 39,000 to 26,000 under the same number before it reached the
+client**, every percentage on its face re-checked (50 / 30 / 20 and nothing else) and the 39,000
+file deleted. **Caught before issue this time, unlike Q Fish** (OL-128), where the client-facing
+figure had already been produced at 112,500.
+
+**STAGE 2 IS A WORK GATE, NOT JUST A DATE.** The 30% falls due once the panel is installed and is
+payable **before the condensing units go to site** — so the machines are TNDK's leverage, exactly
+as clause 4.2 does on the Bismi contract (OL-096). Note 2 of the invoice states it in those terms.
+**Do not deliver the condensing units until the 15,600 is in.**
+
+**THE TAIL IS THE STRONGEST ON THE BOOK.** 20% — **10,400** — is held to handover, against 5% on
+most TNDK jobs and 10% on Q Fish. On a 52,000 contract that is real protection, and it also means
+**half the contract value lands only after the panel is up.**
 
 **TWO THINGS THIS QUOTATION GETS RIGHT THAT OTHERS DID NOT.**
 

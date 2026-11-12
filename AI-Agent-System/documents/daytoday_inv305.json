@@ -1,11 +1,14 @@
 {
   "type": "invoice",
-  "badge": ["ADVANCE", "INVOICE"],
+  "badge": [
+    "ADVANCE",
+    "INVOICE"
+  ],
   "number": "INV-305/2026",
   "date": "12-11-2026",
   "ref": "QUT/DCTS/SQ145/2026 dated 30-10-2026 — approved",
   "currency": "QAR",
-  "filename": "Invoice_INV-305-2026_DayToDayHypermarket_ChillerFreezer_75pct_Advance",
+  "filename": "Invoice_INV-305-2026_DayToDayHypermarket_ChillerFreezer_50pct_Advance",
   "payee_name": "The New Doha Kitchen Equipment Services W.L.L.",
   "company": {
     "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
@@ -18,19 +21,34 @@
     "name": "M/s. Day to Day Hypermarket",
     "fields": [
       "Doha, State of Qatar",
-      {"label": "Project", "value": "One (1) chiller room and one (1) freezer room, each 3.00 x 3.00 x 2.40 m internal"},
-      {"label": "Our quotation", "value": "QUT/DCTS/SQ145/2026 dated 30-10-2026 — approved"},
-      {"label": "Contract Value", "value": "QAR 52,000.00 (sub-total 61,250.00 less special discount 9,250.00)"},
-      {"label": "Payment terms", "value": "75% advance / 20% on delivery of materials / 5% on handover"},
-      {"label": "Stage", "value": "First instalment — 75% advance payment"}
+      {
+        "label": "Project",
+        "value": "One (1) chiller room and one (1) freezer room, each 3.00 x 3.00 x 2.40 m internal"
+      },
+      {
+        "label": "Our quotation",
+        "value": "QUT/DCTS/SQ145/2026 dated 30-10-2026 — approved"
+      },
+      {
+        "label": "Contract Value",
+        "value": "QAR 52,000.00 (sub-total 61,250.00 less special discount 9,250.00)"
+      },
+      {
+        "label": "Payment terms",
+        "value": "50% advance / 30% after installation of the sandwich panel and before delivery of the condensing units / 20% at handover"
+      },
+      {
+        "label": "Stage",
+        "value": "First instalment — 50% advance payment"
+      }
     ]
   },
   "lines": [
     {
-      "description": "ADVANCE PAYMENT — 75% OF THE CONTRACT VALUE\nFirst instalment against our approved quotation QUT/DCTS/SQ145/2026 for the supply, installation, testing and commissioning of:\n1. CHILLER ROOM — internal 3.00 x 3.00 x 2.40 m (21.60 cbm) at 0 °C to +8 °C, 100 mm PUF sandwich panel to walls, ceiling and floor (46.80 sqm), insulated floor system of 100 mm PUF floor panel with 18 mm marine plywood and 1.5 mm MS chequered plate (9.00 sqm), one (1) hinged door 900 x 1900 mm, one (1) 2 HP air-cooled condensing unit with matching evaporating unit on R404A, copper piping, Armaflex insulation, expansion valve, filter drier, sight glass and insulated drain line, digital control panel with all safeties, internal LED lighting, door frame heater and electrical works, and all coving, angles, sealing and accessories.\n2. FREEZER ROOM — internal 3.00 x 3.00 x 2.40 m (21.60 cbm) at -18 °C to -22 °C, specification as above with a 2.5 HP air-cooled condensing unit and matching evaporating unit, and in addition a solenoid valve, electric defrost and an insulated drain line with heating tape.\n3. Testing, commissioning, transportation, mobilisation, lifting at site and handover with operation training.\nContract value QAR 52,000.00 — this invoice covers the 75% advance.",
+      "description": "ADVANCE PAYMENT — 50% OF THE CONTRACT VALUE\nFirst instalment against our approved quotation QUT/DCTS/SQ145/2026 for the supply, installation, testing and commissioning of:\n1. CHILLER ROOM — internal 3.00 x 3.00 x 2.40 m (21.60 cbm) at 0 °C to +8 °C, 100 mm PUF sandwich panel to walls, ceiling and floor (46.80 sqm), insulated floor system of 100 mm PUF floor panel with 18 mm marine plywood and 1.5 mm MS chequered plate (9.00 sqm), one (1) hinged door 900 x 1900 mm, one (1) 2 HP air-cooled condensing unit with matching evaporating unit on R404A, copper piping, Armaflex insulation, expansion valve, filter drier, sight glass and insulated drain line, digital control panel with all safeties, internal LED lighting, door frame heater and electrical works, and all coving, angles, sealing and accessories.\n2. FREEZER ROOM — internal 3.00 x 3.00 x 2.40 m (21.60 cbm) at -18 °C to -22 °C, specification as above with a 2.5 HP air-cooled condensing unit and matching evaporating unit, and in addition a solenoid valve, electric defrost and an insulated drain line with heating tape.\n3. Testing, commissioning, transportation, mobilisation, lifting at site and handover with operation training.\nContract value QAR 52,000.00 — this invoice covers the 50% advance.",
       "unit": "Lot",
       "qty": 1,
-      "rate": 39000.00
+      "rate": 26000.0
     }
   ],
   "grand_total_label": "AMOUNT NOW DUE",
@@ -44,7 +62,8 @@
   },
   "notes_new_page": true,
   "notes": [
-    "ACCOUNT POSITION. Contract value QAR 52,000.00 — sub-total QAR 61,250.00 less the special discount of QAR 9,250.00 — payable, as clause 13 of our approved quotation provides, 75% in advance, 20% on delivery of materials at site and 5% after successful testing, commissioning and handover. This invoice: 75% advance QAR 39,000.00. To follow: 20% QAR 10,400.00 on delivery of materials, and 5% QAR 2,600.00 on handover.",
+    "ACCOUNT POSITION. Contract value QAR 52,000.00 — sub-total QAR 61,250.00 less the special discount of QAR 9,250.00 — payable in three stages as agreed between us: 50% advance QAR 26,000.00, this invoice; 30% QAR 15,600.00 after installation of the sandwich panel and before delivery of the condensing units; and 20% QAR 10,400.00 at handover. Total QAR 52,000.00.",
+    "PAYMENT TERMS AS AGREED. The three-stage schedule above is the schedule agreed between us and it replaces the terms printed at clause 13 of our quotation QUT/DCTS/SQ145/2026, which are superseded and are not to be applied to this order. Nothing else in that quotation is varied. The second stage falls due once the sandwich panel is installed, and is payable before the condensing units are delivered to site.",
     "EQUIPMENT MAKES. As note 3 of our quotation provides, the condensing units are Danfoss (Denmark) or Tecumseh (France) and the evaporating units Gunay (Turkey) or Tecumseh (France), the make in each case as available at the time of order. The duty, capacity and specification are as quoted whichever make is supplied, and we shall confirm the makes and models to you in writing once the equipment is ordered.",
     "PROGRAMME. Material delivery 3 to 5 days from the approved advance payment, site mobilisation within 3 working days of material arrival, installation 8 to 12 working days on a civil-ready site, and testing and commissioning 1 to 2 working days thereafter — 16 to 20 days in all, subject to site readiness. The programme runs from the receipt of this advance.",
     "SITE READINESS. Please ensure the room positions are clear, level and accessible, and that the main power supply and the cable runs from the main distribution board to the two cold room control panels are available, together with drainage points within 3 m of each evaporator, as these are by others under our quotation. Final room dimensions will be confirmed on site before fabrication, and any change arising will be advised to you in writing, with its effect on the price and the programme, before the work is done.",
