@@ -3433,6 +3433,42 @@ retention.
 **Still owed to CCC's file:** the receipt for the first 76,050 (cheque 00000245, QIB, 04-07-2026
 — instrument fully known, one of the five unreceipted payments under OL-082).
 
+### OL-130 — Day to Day Hypermarket won at 52,000, and the terms need confirming
+**Owner:** Farhan · **Raised:** 2026-11-12 · **Value:** QAR 52,000 · **CONFIRM THE TERMS**
+
+**QUT/DCTS/SQ145/2026 approved.** One chiller room and one freezer room, **each 3.00 x 3.00 x
+2.40 m internal (21.60 cbm)**, 100 mm PUF to walls, ceiling and floor (46.80 sqm each), insulated
+floor of 100 mm PUF panel, 18 mm marine ply and 1.5 mm chequered plate (9.00 sqm each), hinged
+doors 900 x 1900, a **2 HP** condensing unit on the chiller and a **2.5 HP** on the freezer, both
+on R404A with their own control panels. Sub-total 61,250 less 9,250 discount, **net 52,000**.
+**INV-305/2026 raised for the 75% advance, 39,000.**
+
+**THE TAKE-OFF CHECKS OUT.** Walls 4 x 3.00 x 2.40 = 28.80, ceiling 9.00, floor 9.00 =
+**46.80 sqm** per room, and 3.00 x 3.00 x 2.40 = **21.60 cbm**. Both as quoted. Note these are
+**internal** dimensions, where most TNDK quotations state external.
+
+**TERMS ARE THE QUOTATION'S OWN AND FARHAN HAS NOT CONFIRMED THEM.** No instruction came with the
+approval, so the invoice applies clause 13 — **75 / 20 / 5** — and says so on its face.
+**This is exactly where Q Fish went wrong** (OL-128): the invoice went out at 75% and the real
+agreement was 50/30/10/10, so it had to be reissued. **Ask Farhan before this is sent to the
+client.** If 75/20/5 is right, nothing changes; if not, INV-305 is reissued at the agreed figure.
+
+**TWO THINGS THIS QUOTATION GETS RIGHT THAT OTHERS DID NOT.**
+
+1. **The insulated floor is in, on both rooms.** A 21.60 cbm freezer at -18 to -22 C with
+   100 mm PUF underfoot, marine ply and chequered plate. Set that against Q Fish's 1,512 cbm
+   freezer with **no floor at all** (OL-128), Bismi's bare slab (OL-088) and Oscar Prime's two
+   rooms with none (OL-125). **This is the specification the others should have had.**
+2. **The makes are quoted as alternatives** — Danfoss or Tecumseh on the condensing units, Gunay
+   or Tecumseh on the evaporators, **"as per availability at the time of order"**. That wording
+   is what Gozl's contract lacked, and it is why Gozl now has an undisclosed substitution to
+   settle (OL-120). **Note 2 of the invoice repeats it and promises to confirm the actual makes
+   and models in writing once ordered** — do that, and the clause does its job.
+
+**NO SUPPLIER COST ON FILE** for either system or the panel. Two small machines and roughly
+93.60 sqm of panel inside 52,000 looks comfortable, but it is not costed. **No LPO either** — the
+approval is verbal through Farhan.
+
 ### OL-129 — Panel ordered at 0.50 mm at last, but the advance is not in to pay for it
 **Owner:** Farhan · **Raised:** 2026-11-07 · **Value:** QAR 69,960 · **DO NOT PAY YET**
 
