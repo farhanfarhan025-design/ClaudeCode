@@ -3433,6 +3433,52 @@ retention.
 **Still owed to CCC's file:** the receipt for the first 76,050 (cheque 00000245, QIB, 04-07-2026
 — instrument fully known, one of the five unreceipted payments under OL-082).
 
+### OL-131 — JMB offered 0.30 mm facing, and the floor panel is missing again
+**Owner:** Farhan · **Raised:** 2026-11-14 · **Value:** QAR 6,530 · **TWO DEFECTS, BOTH FIXABLE NOW**
+
+**LPO-218/2026** — Al Buhsain Steel (JMB), against **SAL-QTN-2026-01880 of 14-11-2026**:
+**68.40 sqm of 100 mm JMBCS panel at 95.50 = 6,530.00** (6,532.20 less 2.20 rounding), cut
+**2.40 m x 21 pieces (50.40 sqm)** and **3.00 m x 6 pieces (18.00 sqm)**. 50% advance, 50% before
+shipment, ex-works. **No client named.** Arithmetic checked against their quotation; it reconciles.
+
+**THE JOB IS IDENTIFIABLE FROM THE CUT LIST, AND IT IS DAY TO DAY HYPERMARKET.** Two rooms of
+3.00 x 3.00 x 2.40 m sharing a partition give a wall run of 2 x (6.00 + 3.00) + 3.00 = **21.00 m,
+so 21 pieces at 2.40 m**, and a ceiling of 6.00 x 3.00 = **18.00 sqm, so 6 pieces at 3.00 m**.
+Both match exactly.
+
+**DEFECT 1 — THE FACING IS 0.30 mm AGAINST 0.50 mm SOLD.**
+
+| | |
+|---|---|
+| Sold to the client, SQ145 | 100 mm PUF sandwich panel (TNDK's standard is **0.50 mm PPGI**) |
+| JMB's own offer nine days ago, SAL-QTN-2026-01788 | **0.50 mm** both faces at **110.00** |
+| **This offer** | **0.30 mm** both faces at **95.50** |
+
+**0.30 mm is forty per cent thinner than what LPO-217 bought for the other job, and it is thinner
+than the 0.40 mm Aluzinc that has caused trouble on five jobs already.** At that gauge a panel
+dents on handling and a 3.00 m ceiling span is a question worth asking. **Note 2 of the LPO
+therefore holds the advance**: JMB must confirm in writing that 0.30 mm is intended and not a
+typing error, that it carries their normal warranty over a 3.00 m ceiling span, and **quote the
+identical schedule in 0.50 mm** so the two can be compared. The LPO says in terms that no advance
+is released until that comes back. **Farhan's decision, with the numbers in front of him: the
+0.50 mm uplift on 68.40 sqm at the 110.00 rate is about 993.**
+
+**DEFECT 2 — THE FLOOR PANEL IS NOT ON THIS ORDER.** SQ145 sells **an insulated floor system on
+both rooms** — 100 mm PUF floor panel with 18 mm marine ply and 1.5 mm chequered plate, 9.00 sqm
+each. This order buys **walls and ceiling only**; the **18.00 sqm of floor panel is on no purchase
+order.** This is OL-104 (Panda Cakes) repeating exactly: the client has an insulated floor in the
+contract and the panel order does not contain it. **Order the 18.00 sqm with this one or confirm
+it is coming from stock** — it cannot simply be absent, and it is cheaper to add now than as a
+second delivery.
+
+**Validity is 3 working days** from 14-11-2026, and their quotation is again marked **DRAFT** with
+two inconsistent dates (19-11-2026 on its face, 6 to 12 working days at clause 6). Note 7 asks for
+a confirmed proforma and one firm readiness date.
+
+**CASH IS NOT THE CONSTRAINT HERE.** The 50% advance is only **3,265** and the client's own 50%
+advance of 26,000 is invoiced under INV-305 — but **not yet received**. Check it has landed
+before paying JMB.
+
 ### OL-130 — Day to Day Hypermarket won at 52,000, and the terms need confirming
 **Owner:** Farhan · **Raised:** 2026-11-12 · **Value:** QAR 52,000 · **CONFIRM THE TERMS**
 
