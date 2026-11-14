@@ -3610,6 +3610,24 @@ else) and the 112,500 file deleted. **This is the Bismi shape (OL-096) — the s
 this book to use 50/30/10/10.** Note the 30% hangs on the panel being **installed**, not
 delivered: a delivery note will not trigger it.
 
+**UPDATED 14-11-2026 — 20,000 IN ONE PAYMENT, AND THE PANEL CAN NOW BE BOUGHT.** QNB transfer
+**IB1A13304803 / IB261114048114**, 14-11-2026 at 22:53, **20,000**, Status Success. Receipted
+under **RCT-306/2026**. **Received to date 60,000 of the 75,000 advance; 15,000 still awaited.**
+Checked against every earlier advice by transaction reference — this one is new, not a duplicate.
+
+**THE PATTERN HAS CHANGED FOR THE BETTER.** Four daily instalments of 10,000, then a six-day gap,
+then **20,000 in a single payment**. This is no longer a client scraping together 10,000 a day.
+
+**PLACE THE PANEL ORDER.** LPO-217 to JMB needs **34,980** as its 50% advance and **60,000 is in
+hand against this job**. The order has been held since 07-11 on cash; that reason has gone.
+**The remaining obstacle is JMB's 3-working-day validity, which expired on or about 10-11** — get
+the 110.00 per sqm confirmed or re-quoted in writing, then pay. Note 4 of RCT-306 tells the client
+the panel is being put in hand, so **that promise is now made and should be kept this week.**
+
+**THE MACHINE ORDER STILL WAITS ON THE LAST 15,000.** Note 5 of the receipt says so plainly: the
+22 HP Bitzer and the Güntner cooler are bought against the remainder of the advance and their lead
+time runs from the day that order is placed. **Still no supplier price on file for either.**
+
 **UPDATED 09-11-2026 — A FOURTH 10,000, AND FARHAN'S COUNT WAS RIGHT.** QNB transfer
 **IB1A11830077 / IB261108477123**, 08-11-2026 at 10:29, Status Success. Receipted under
 **RCT-304/2026**. **Received to date 40,000 of the 75,000 advance; 35,000 still awaited.**
