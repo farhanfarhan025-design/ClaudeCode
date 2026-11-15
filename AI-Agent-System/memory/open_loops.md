@@ -3433,6 +3433,60 @@ retention.
 **Still owed to CCC's file:** the receipt for the first 76,050 (cheque 00000245, QIB, 04-07-2026
 — instrument fully known, one of the five unreceipted payments under OL-082).
 
+### OL-132 — Aalaf civil works bought at 13,500 against 21,880 sold, but the vent pipe is under-specified
+**Owner:** Farhan · **Raised:** 2026-11-15 · **Value:** QAR 13,500 · **MARGIN 8,380 (38.3%)**
+
+**LPO-219/2026** — Star Technical Services W.L.L. (C.R. 203382, Mr. Justin Raj Francis), against
+**STS/QT/159/2026 of 14-11-2026**: demolition 700 mm deep 4,900; 40 mm foam sheet with levelling
+2,250; 100 mm RCC with A6 mesh 2,200; 50 mm PCC 1,800; cementitious waterproofing 2,400; uPVC
+pipe and fittings 1,465. Sub-total 15,015 less 1,515, **net 13,500**. **10,000 in advance, 3,500
+on completion, 10 working days.** Arithmetic checked and it reconciles. **No client or project
+named on our order**, although their quotation names the site.
+
+**THE FIRST COSTED MARGIN ON THE AALAF JOB.** SQ143 sells civil works at **19,500** and
+under-floor ventilation at **2,380** — **21,880**. Bought at **13,500**, so the margin on this
+package is **8,380, or 38.3%.** The Aalaf contract is 95,000 in total and this is the first part
+of it with a supplier price on file.
+
+**THE VENT PIPE IS THE ITEM TO WATCH, AND THEIR LINE DOES NOT BUY WHAT WAS SOLD.**
+
+| | Sold to the client, SQ143 | Star Technical's line 6 |
+|---|---|---|
+| Size | **Ø110 mm Class B** | **100 mm**, class not stated |
+| Quantity | **seven (7) pipes** | not stated |
+| Centres | 920 mm | not stated |
+| Fall | 1:100 | not stated |
+| Joints | one continuous length, **no joint under the room** | not stated |
+| Ends | ≥300 mm beyond the panel face, 90° bend facing down, **SS 304 mesh screen** | not stated |
+| Cover | ≥40 mm PCC | not stated |
+| Testing | air-passage tested before handover | not stated |
+| Price | 2,380 | **1,465** |
+
+**Note 2 of the LPO sets out all nine requirements and asks them to confirm in writing that the
+1,465 covers them, or to quote the difference BEFORE starting.** This is the single item the
+whole floor depends on and **it will not be opened up afterwards** — OL-106 recorded why the ends
+must stay permanently open, and a blocked or omitted vent under a cold room heaves the floor.
+
+**THREE SMALLER POINTS, ALL ON THE ORDER.**
+
+1. **Their amount in words is wrong.** It reads *"Qatari Riyals Fifteen Thousand and fifteen
+   Only"* against a total of **13,500** — the words repeat the pre-discount sub-total. Note 3
+   fixes the ordered figure at 13,500 and requires the invoice to be corrected.
+2. **Demolition is priced at 700 mm deep; SQ143 told the client "approximately 300 mm".** Deeper
+   is in TNDK's favour at a fixed lump sum, but note 4 requires written confirmation of the depth
+   and immediate notice if the ground differs, with no after-the-event charge for rock, dewatering
+   or disposal.
+3. **Their clause 3 allows re-use of existing material.** Note 5 requires anything re-used to be
+   identified and approved in writing first, and forbids re-use of anything structural, of mesh
+   and of waterproofing.
+
+**THREE INSPECTION HOLD POINTS** are imposed by note 6 — after demolition, after the pipes are set
+out and before the PCC cover, and after the RCC pour — each on one working day's notice.
+
+**CASH.** The 10,000 advance is due on release. **Aalaf has paid nothing yet** — INV-297 for the
+30% advance of 28,500 was raised on 03-11 and is outstanding. Their LPO's delivery date of
+17-11-2026 is this week and the programme has not started.
+
 ### OL-131 — JMB offered 0.30 mm facing, and the floor panel is missing again
 **Owner:** Farhan · **Raised:** 2026-11-14 · **Value:** QAR 6,530 · **TWO DEFECTS, BOTH FIXABLE NOW**
 
