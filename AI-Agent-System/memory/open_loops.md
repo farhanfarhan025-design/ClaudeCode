@@ -3487,6 +3487,38 @@ out and before the PCC cover, and after the RCC pour — each on one working day
 30% advance of 28,500 was raised on 03-11 and is outstanding. Their LPO's delivery date of
 17-11-2026 is this week and the programme has not started.
 
+### OL-133 — Day to Day paid the whole advance in cash, and the panel order can go today
+**Owner:** Farhan · **Raised:** 2026-11-15 · **Value:** QAR 26,000 received · **CASH — BANK IT**
+
+**RCT-307/2026** — **26,000 received IN CASH on Saturday 14-11-2026**, two days after INV-305 was
+raised, being the **50% advance in full**. Contract 52,000; **balance 26,000** — 30% 15,600 after
+installation of the sandwich panel and before delivery of the condensing units, and 20% 10,400 at
+handover. Signed and stamped.
+
+**THE FASTEST ADVANCE ON THE BOOK, AND THE FIRST PAID IN FULL AT ONE GO SINCE SAMOOSA.** Set
+against Q Fish, who took five payments over ten days to reach 60,000 of 75,000, and Aalaf, who
+have paid nothing twelve days after INV-297. **Day to Day settled a 26,000 advance in 48 hours.**
+
+**IT IS CASH, AND THAT CARRIES ITS OWN HOUSEKEEPING.** 26,000 in notes is the second largest cash
+receipt on this book after Bismi's 22,000 (OL-096). **Bank it, and keep the deposit slip with
+this receipt** — a cash receipt with no corresponding bank credit is the hardest item to prove
+later, and the bank register has no instrument reference to carry for it. **Record the deposit
+reference against RCT-307 once it is in.**
+
+**THE PANEL ORDER IS NOW FULLY FUNDED.** LPO-218 to JMB needs only **3,265** as its 50% advance
+against 26,000 in hand. **What is still unanswered is the specification, not the money** (OL-131):
+the 0.30 mm facing against 0.50 mm sold, and the **18.00 sqm of insulated floor panel that is on
+no purchase order.** Settle both before paying JMB — the LPO already holds the advance for the
+gauge confirmation, and the floor must be added or confirmed from stock.
+
+**TWO PROMISES NOW MADE TO THIS CLIENT, IN WRITING, ON THIS RECEIPT.** Note 3 says the panel
+order is being placed **at once** and the delivery date confirmed in writing. Note 4 says TNDK
+will notify them **on the day the panel is complete** so the 15,600 can be paid and the machines
+follow without a gap. **Both are keepable and both are now owed.**
+
+**STILL NO SUPPLIER COST** for either refrigeration system, and **no LPO from the client** — the
+approval and now the payment are the record. At 26,000 cash in hand the approval is not in doubt.
+
 ### OL-131 — JMB offered 0.30 mm facing, and the floor panel is missing again
 **Owner:** Farhan · **Raised:** 2026-11-14 · **Value:** QAR 6,530 · **TWO DEFECTS, BOTH FIXABLE NOW**
 
