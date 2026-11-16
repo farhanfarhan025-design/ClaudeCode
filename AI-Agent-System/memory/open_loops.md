@@ -3487,6 +3487,58 @@ out and before the PCC cover, and after the RCC pour — each on one working day
 30% advance of 28,500 was raised on 03-11 and is outstanding. Their LPO's delivery date of
 17-11-2026 is this week and the programme has not started.
 
+### OL-134 — Third JMB order, third time at 0.30 mm, and the cut list does not match what was sold
+**Owner:** Farhan · **Raised:** 2026-11-16 · **Value:** QAR 11,190 · **TWO QUESTIONS BEFORE PAYING**
+
+**LPO-220/2026** — Al Buhsain Steel (JMB), against **SAL-QTN-2026-01906 of 16-11-2026**:
+**117.20 sqm of 100 mm JMBCS panel at 95.50 = 11,190.00** (11,192.60 less 2.60), cut
+**2.90 m x 25 (72.50 sqm)**, **6.20 m x 6 (37.20 sqm)** and **2.50 m x 3 (7.50 sqm)**.
+50% advance, 50% before shipment, ex-works. **No client named.** Arithmetic checked; it
+reconciles to the riyal.
+
+**THE 0.30 mm FACING, FOR THE THIRD TIME.** JMB quoted **0.50 mm at 110.00** on 05-11 (LPO-217),
+then **0.30 mm at 95.50** on 14-11 (LPO-218) and again here. **Note 2 of this order holds the
+advance** until they confirm the thickness is intended, that it carries their warranty over the
+**6.20 m ceiling span — the longest on any TNDK order** — and quote the same schedule in 0.50 mm.
+**A 6.20 m ceiling panel in 0.30 mm facing is the weakest combination yet ordered.** On 117.20 sqm
+the uplift to 0.50 mm at their own 110.00 rate is about **1,700**.
+
+**THE CUT LIST POINTS AT THE AALAF CHILLER ROOM, AND IT DOES NOT MATCH SQ143.**
+
+| | Sold under SQ143 | This order |
+|---|---|---|
+| Room | 5.70 x 6.20 x 2.60 m external | — |
+| Ceiling | 5.70 x 6.20 = 35.34 sqm | **6 x 6.20 = 37.20 sqm** — consistent |
+| Walls | perimeter 23.80 m at **2.60 m** high = 61.88 sqm | **25 pieces at 2.90 m** = 72.50 sqm |
+| Short lengths | none | **3 x 2.50 m** = 7.50 sqm |
+| **Total panel** | **97.22 sqm** | **117.20 sqm** |
+
+**The ceiling span of 6.20 m matches the room exactly, so the job is identifiable. But the wall
+pieces are 2.90 m where the quotation sells a 2.60 m room, and the order is 19.98 sqm — about
+1,900 — above what was sold.** Two possible explanations and they need separating before the
+advance goes out:
+
+1. **The clear height changed on site.** INV-297 note 4 required the clear height, finished floor
+   level, slab and PCC levels to be **confirmed jointly on site before the panels are ordered**,
+   and LPO-219 buys a **700 mm** demolition where SQ143 told the client 300 mm. A deeper dig and a
+   new floor build-up can easily move the panel height. **If that is what happened it is a
+   variation and the client should be told in writing** — the room they are paying for is taller
+   than the one they bought.
+2. **Or the extra is cutting allowance and the 2.50 m pieces are made-up lengths**, in which case
+   nothing is owed by anyone and the order simply carries waste.
+
+**Ask the person who took the site dimensions which it is.** Ordering 1,900 of extra panel is
+cheap; discovering after the room is built that the client was never told its height changed is
+not.
+
+**Validity is 3 working days** and the quotation is marked **DRAFT** with two dates (21-11-2026 on
+its face, 6 to 12 working days at clause 6). Note 7 asks for a confirmed proforma and one firm
+readiness date.
+
+**THREE JMB ORDERS NOW SIT UNPAID ON THE SAME QUESTION** — LPO-217 (69,960, 0.50 mm, price lapsed),
+LPO-218 (6,530, 0.30 mm) and this one. **One call to Mr. Mihassar settles the gauge for all
+three.**
+
 ### OL-133 — Day to Day paid the whole advance in cash, and the panel order can go today
 **Owner:** Farhan · **Raised:** 2026-11-15 · **Value:** QAR 26,000 received · **CASH — BANK IT**
 
