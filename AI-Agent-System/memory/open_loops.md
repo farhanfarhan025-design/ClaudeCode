@@ -3508,9 +3508,15 @@ that no charge runs beyond the date so notified, and asks for written confirmati
 their general condition J says their terms prevail over ours unless they agree in writing.**
 Without that written reply the 7-day rule stands and the hire costs more than it should.
 
-**THE 400 MOBILISATION FIGURE IS AMBIGUOUS.** Their table reads "Mobilisation and Demobilisation
-(Birkat Al Awamer) | 2 trips | QAR 400.00". **400 for both trips, or 400 each?** Note 3 takes it
-as the total for both and refuses anything above it without prior written notice.
+**MOBILISATION DELETED ON FARHAN'S INSTRUCTION — ORDER IS NOW 900.** The 400 was ambiguous in any
+case ("2 trips | QAR 400.00" — total, or each?), and the question is now moot. **TNDK collects
+the unit from their yard and returns it there on its own transport.** Note 3 does not merely omit
+the line: it says the 400 is **expressly excluded**, tells them **not to deliver to site**, and
+states that **no mobilisation, demobilisation, delivery, collection or transport charge of any
+kind** will be accepted, with the total payable fixed at **900.00**. Dropping a line from a PO
+does not stop a vendor mobilising and invoicing for it; saying so does. The hire period now runs
+**from the date we collect**, not from a delivery date, and note 5 records that their general
+condition K — waiting time and failed mobilisation — cannot arise.
 
 **A COMMERCIAL POINT FOR FARHAN, NOT FOR THE VENDOR.** Their rates are **300/day, 1,200/week,
 3,500/month**. **Four days costs 1,200 — exactly the weekly rate.** If there is any prospect of a
