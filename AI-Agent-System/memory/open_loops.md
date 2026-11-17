@@ -3487,6 +3487,42 @@ out and before the PCC cover, and after the RCC pour — each on one working day
 30% advance of 28,500 was raised on 03-11 and is outstanding. Their LPO's delivery date of
 17-11-2026 is this week and the programme has not started.
 
+### OL-136 — Bismi's advance is complete at last, and the commencement gate is passed
+**Owner:** Farhan · **Raised:** 2026-11-17 · **Value:** QAR 30,000 received · **OL-096 CLOSES**
+
+**RCT-308/2026** — **30,000 received 17-11-2026**: **17,975 in cash** and **12,025 by QNB cheque
+no. 00000255** (634-001/037) dated 17-11-2026, drawn on Bismi's a/c 0250057166001. Farhan's own
+note reconciles — 17,975 + 12,025 = **30,000**. **Received to date 60,000 of 110,000.**
+
+**THE 50% ADVANCE OF 55,000 IS NOW RECEIVED IN FULL**, with **5,000 over** which the receipt holds
+on account of stage 2. **Balance 50,000:** stage 2 **28,000** of its 33,000, stage 3 11,000,
+stage 4 11,000.
+
+**THIS CLOSES OL-096, WHICH HAS BEEN OPEN SINCE 18 OCTOBER.** That loop said: 30,000 received
+against a 55,000 advance, the machine already ordered from Airtronics at 31,175 on 100% CDC
+terms, cleared cash of only 22,000, and *"DO NOT START"*. **Clause 4.2 of the contract makes the
+advance a condition of commencement; that gate is now passed.** The machine can be collected and
+the panel work can begin. Note 3 of the receipt tells the client so and promises the programme
+dates in writing — **send them.**
+
+**THE CHEQUE IS EVERYTHING GOZL'S WAS NOT.** Crossed **A/C PAYEE ONLY**, payee written correctly
+as THE NEW DOHA KITCHEN EQUIPMENT SERVICES, words and figures agreeing at 12,025. **The receipt
+thanks them for crossing it** — worth doing, because Gozl have now paid 47,840 on two uncrossed
+bearer cheques and the contrast is the argument for asking them to change.
+
+**TWO HOUSEKEEPING ITEMS, BOTH THE SAME SHAPE AS BEFORE.**
+
+1. **17,975 in cash.** The third large cash receipt on this book (Bismi 22,000, Day to Day 26,000,
+   now this). **Bank it and record the deposit reference against RCT-308** — cash with no
+   corresponding bank credit is the hardest receipt to prove later.
+2. **The 8,000 cheque 00000221 of 19-10-2026 has still never been confirmed cleared.** It is a
+   month old. **Check it on the statement at the same time as banking this one** — if it bounced,
+   the advance is not complete after all and the gate has not been passed.
+
+**STAGE 2 REMAINS A WORK GATE.** Note 5 repeats clause 4.2: the 28,000 still outstanding on stage
+2 falls due on completion of the panel work and **before the machine is delivered to site.** The
+machine is TNDK's leverage and should not leave the yard before it is paid.
+
 ### OL-135 — Scissor lift hired for 3 days, on a quotation that gives two different off-hire rules
 **Owner:** Farhan · **Raised:** 2026-11-17 · **Value:** QAR 1,300 · **SETTLE OFF-HIRE BEFORE DELIVERY**
 
