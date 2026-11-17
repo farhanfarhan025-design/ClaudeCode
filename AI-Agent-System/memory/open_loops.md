@@ -3834,6 +3834,35 @@ else) and the 112,500 file deleted. **This is the Bismi shape (OL-096) — the s
 this book to use 50/30/10/10.** Note the 30% hangs on the panel being **installed**, not
 delivered: a delivery note will not trigger it.
 
+**COMPLETE 17-11-2026 — THE FULL 75,000 ADVANCE IS IN.** QNB transfer **IB1A13959479 /
+IB261117299469**, 17-11-2026 at 22:17, **15,000**, Status Success. Receipted under
+**RCT-309/2026**. Checked against every earlier advice by transaction reference; new, not a
+duplicate. **Farhan's own count was right again.**
+
+| Reference | Date | QAR |
+|---|---|---|
+| IB1A11385427 | 05-11 | 10,000 |
+| IB1A11386998 | 06-11 | 10,000 |
+| IB1A11621611 | 07-11 | 10,000 |
+| IB1A11830077 | 08-11 | 10,000 |
+| IB1A13304803 | 14-11 | 20,000 |
+| **IB1A13959479** | **17-11** | **15,000** |
+| | | **75,000 — exactly the 50% advance** |
+
+**Twelve days, six transfers, settled to the riyal.** Balance 75,000: 30% 45,000 after the panel
+is installed, 10% 15,000 during the works, 10% 15,000 final.
+
+**EVERY REASON FOR HOLDING THE ORDERS HAS NOW GONE.** LPO-217 to JMB (69,960, 0.50 mm at 110.00)
+has been held since 07-11 on cash, then on the lapsed 3-day validity. **The money is no longer
+the question — the price is.** Get 110.00 confirmed or re-quoted in writing and place it. Note 4
+of RCT-309 tells the client the panel AND the refrigeration orders are going forward and that the
+programme runs from today, so **both promises are now owed and the 7 to 10 day material delivery
+clock has started.**
+
+**THE MACHINE STILL HAS NO SUPPLIER PRICE.** The 22 HP Bitzer and the Güntner cooler are the long
+lead items on a 1,512 cbm freezer and nothing is quoted for either. **That is now the single
+biggest risk on this job** — the client has paid 75,000 and the programme is running.
+
 **UPDATED 14-11-2026 — 20,000 IN ONE PAYMENT, AND THE PANEL CAN NOW BE BOUGHT.** QNB transfer
 **IB1A13304803 / IB261114048114**, 14-11-2026 at 22:53, **20,000**, Status Success. Receipted
 under **RCT-306/2026**. **Received to date 60,000 of the 75,000 advance; 15,000 still awaited.**
