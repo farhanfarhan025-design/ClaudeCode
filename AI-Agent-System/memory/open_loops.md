@@ -3487,6 +3487,50 @@ out and before the PCC cover, and after the RCC pour — each on one working day
 30% advance of 28,500 was raised on 03-11 and is outstanding. Their LPO's delivery date of
 17-11-2026 is this week and the programme has not started.
 
+### OL-135 — Scissor lift hired for 3 days, on a quotation that gives two different off-hire rules
+**Owner:** Farhan · **Raised:** 2026-11-17 · **Value:** QAR 1,300 · **SETTLE OFF-HIRE BEFORE DELIVERY**
+
+**LPO-221/2026** — Rental Station W.L.L. (Mr. Hazem Muhaisen), against **QU-H-10692-26 of
+17-11-2026**: one **battery-operated 12 m scissor lift without operator**, **three (3) days at
+300.00 = 900.00**, plus **mobilisation and demobilisation to Birkat Al Awamer 400.00** — net
+**1,300.00**. First plant hire on this book.
+
+**THEIR OWN DOCUMENT GIVES TWO OFF-HIRE RULES AND THEY CANNOT BOTH BE RIGHT.**
+
+| | |
+|---|---|
+| Page 1, "End of Hire" | off-hire notification **earlier to 24 hours** |
+| General condition E | off-hire by e-mail **not less than SEVEN (7) DAYS** before the date |
+
+**On a three-day hire a seven-day notice means paying for days the machine is not on site.**
+Note 2 of the LPO orders explicitly on **24 hours' e-mail notice to rental@rs-qatar.co**, states
+that no charge runs beyond the date so notified, and asks for written confirmation — **because
+their general condition J says their terms prevail over ours unless they agree in writing.**
+Without that written reply the 7-day rule stands and the hire costs more than it should.
+
+**THE 400 MOBILISATION FIGURE IS AMBIGUOUS.** Their table reads "Mobilisation and Demobilisation
+(Birkat Al Awamer) | 2 trips | QAR 400.00". **400 for both trips, or 400 each?** Note 3 takes it
+as the total for both and refuses anything above it without prior written notice.
+
+**A COMMERCIAL POINT FOR FARHAN, NOT FOR THE VENDOR.** Their rates are **300/day, 1,200/week,
+3,500/month**. **Four days costs 1,200 — exactly the weekly rate.** If there is any prospect of a
+fourth day, take the week: same money, seven days instead of four, and no argument about
+extensions. **At three days the daily rate is right; at four it is wasted.**
+
+**TWO CONDITIONS THAT MATTER ON SITE.** Their terms 4 and 5 provide third-party certification and
+group insurance — note 4 requires **the TPC and the insurance certificate to arrive with the
+machine**, because no site will let it be operated without them, and requires the signed
+delivery/collection report their own condition V calls for. Note 5 records that TNDK supplies the
+certified operator and arranges gate passes and permits.
+
+**ENTITY AGAIN — THE FOURTH VENDOR THIS MONTH.** Their quotation is addressed to **Doha Cooling
+Trading & Solutions W.L.L.**, which has no bank account and no seal (OL-099). Note 6 directs the
+invoice to TNDK, C.R. 199351. **Their payment terms also require updated company documents with
+the order — send the C.R., computer card and tax card with it.**
+
+**Insurance deductible** on any loss is 10%, minimum **2,500** — nearly twice the hire value.
+Brief whoever operates it accordingly.
+
 ### OL-134 — Third JMB order, third time at 0.30 mm, and the cut list does not match what was sold
 **Owner:** Farhan · **Raised:** 2026-11-16 · **Value:** QAR 11,190 · **TWO QUESTIONS BEFORE PAYING**
 
