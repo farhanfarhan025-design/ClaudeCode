@@ -3487,6 +3487,50 @@ out and before the PCC cover, and after the RCC pour — each on one working day
 30% advance of 28,500 was raised on 03-11 and is outstanding. Their LPO's delivery date of
 17-11-2026 is this week and the programme has not started.
 
+### OL-137 — JMB now want 100% before production, and the wall height looks a metre short
+**Owner:** Farhan · **Raised:** 2026-11-18 · **Value:** QAR 24,780 · **DO NOT PAY ON THIS ALONE**
+
+**LPO-222/2026** — Al Buhsain Steel (JMB), against **SAL-QTN-2026-01920 of 17-11-2026**:
+**259.50 sqm at 95.50 = 24,780.00** (24,782.25 less 2.25), cut **4.00 m x 40 (160.00 sqm)**,
+**5.00 m x 10 (50.00 sqm)** and **4.95 m x 10 (49.50 sqm)**. Arithmetic checked; reconciles to
+the riyal. **No client named.** Fourth JMB order in two weeks.
+
+**THEIR PAYMENT TERM HAS CHANGED AND IT IS THE HEADLINE.** The three previous quotations all read
+**50% in advance, 50% before shipment**. This one reads **"100% For Urgent order in advance,
+before the Production."** That removes every piece of leverage TNDK has: pay 24,780 and the mill
+owes nothing but a promise. **Note 2 accepts it only on three conditions, to be confirmed in
+writing:** payment against a **proforma invoice in TNDK's name**, not a quotation; production
+starting the day payment lands with goods ready within **six (6) working days**; and **full refund
+within seven (7) days** on written request if they cannot produce or deliver. **Without those
+three, do not pay in full.**
+
+**THE CUT LIST LOOKS LIKE THE BISMI JOB, AND THE WALL HEIGHT DOES NOT ADD UP.** Timing fits
+exactly — Bismi's advance completed on 17-11 (OL-136) and panel work is stage 1. The ceiling
+pieces support it: **10 x 5.00 + 10 x 4.95 = 99.50 sqm** against the **95 sqm** floor area
+recorded at OL-088. **But the contract's own figures put that room at 5.00 m high** — 475 m3 over
+95 sqm — and **the wall pieces ordered are 4.00 m.**
+
+| | |
+|---|---|
+| Freezer volume, SQ118 | 475 m3 |
+| Floor area, SQ118 | 95 sqm |
+| **Implied height** | **5.00 m** |
+| **Wall pieces ordered** | **4.00 m x 40** |
+
+**If the room is 5.00 m high, a 4.00 m panel leaves a one-metre band unclad all the way round —
+roughly 40 sqm, about 3,800 of panel.** Either the walls are made up in two heights and a second
+order follows, or a different room is being clad, or the height is wrong. **Ask before paying,
+because this order is 100% in advance and there is no second chance to correct the cut.** OL-087
+also records that SQ118 excludes working above 3 m, which is a separate problem on a 5 m room.
+
+**THE 0.30 mm FACING, FOURTH TIME.** Note 3 again holds payment until JMB confirm the thickness is
+intended, confirm the warranty over the spans ordered, and quote the same schedule in 0.50 mm.
+**Four orders — LPO-217, 218, 220 and 222 — now wait on one phone call.** Combined value at stake
+is **112,460**.
+
+**Note 6 matters more than usual here:** pre-delivery inspection is the only protection left once
+the money is paid before production. One working day's notice, gauge in hand.
+
 ### OL-136 — Bismi's advance is complete at last, and the commencement gate is passed
 **Owner:** Farhan · **Raised:** 2026-11-17 · **Value:** QAR 30,000 received · **OL-096 CLOSES**
 
