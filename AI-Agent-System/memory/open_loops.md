@@ -3487,6 +3487,41 @@ out and before the PCC cover, and after the RCC pour — each on one working day
 30% advance of 28,500 was raised on 03-11 and is outstanding. Their LPO's delivery date of
 17-11-2026 is this week and the programme has not started.
 
+### OL-138 — Q Fish second invoice prepared for a milestone that has not happened yet
+**Owner:** Farhan · **Raised:** 2026-11-19 · **Value:** QAR 45,000 · **DO NOT SEND YET**
+
+**INV-310/2026** — Q Fish Trading, **second instalment 30% of 45,000**, falling due **on
+installation of the sandwich panel**. Contract 150,000; advance 75,000 received in full 17-11;
+remaining after this invoice **30,000** (10% during the works, 10% final). Signed and stamped,
+pricing on page 1 with the account position overleaf.
+
+**THE MILESTONE HAS NOT BEEN REACHED ON THESE RECORDS, AND THE DATES SAY IT CANNOT HAVE BEEN.**
+
+| | |
+|---|---|
+| Advance completed | 17-11-2026 |
+| Panel order LPO-217 to JMB | **drawn 07-11, still not placed** — held first on cash, then on JMB's lapsed 3-day validity and the 0.50/0.30 mm gauge question |
+| Material delivery per SQ144 | **7 to 10 days from the approved advance** |
+| Installation period per SQ144 | **25 to 30 working days** |
+| **Earliest the panel could be installed** | **well into December** |
+
+**Farhan asked for the invoice and it is prepared, but it should not be sent until the panel is
+actually up.** Q Fish settled a 75,000 advance in six transfers over twelve days and asked for
+nothing in return; invoicing them for a stage that has not occurred is the one thing that would
+spend that goodwill. **When it does go, send it with photographs of the completed panel work and
+a signed site record** — the stage is visible and checkable, and the invoice is unanswerable with
+the evidence attached.
+
+**IF THE PANEL IS IN FACT INSTALLED,** then the panel was bought somewhere other than LPO-217 and
+the order book is wrong — tell me and I will correct it.
+
+**THE INVOICE CARRIES TWO THINGS FORWARD DELIBERATELY.** Note 5 repeats that **the two existing
+Dorin 15 HP units carry no TNDK warranty**, and note 6 repeats, for the third document running,
+that **the floor is outside the contract** on a 1,512 cbm freezer at -18 to -22 C, with the offer
+to survey and quote an insulated floor or under-floor ventilation still open. **Q Fish have never
+answered that in writing.** Each document that repeats it strengthens the position if the slab
+ever moves.
+
 ### OL-137 — JMB now want 100% before production, and the wall height looks a metre short
 **Owner:** Farhan · **Raised:** 2026-11-18 · **Value:** QAR 24,780 · **DO NOT PAY ON THIS ALONE**
 
