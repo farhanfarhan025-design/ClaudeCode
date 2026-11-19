@@ -3487,6 +3487,44 @@ out and before the PCC cover, and after the RCC pour — each on one working day
 30% advance of 28,500 was raised on 03-11 and is outstanding. Their LPO's delivery date of
 17-11-2026 is this week and the programme has not started.
 
+### OL-144 — HMBE's delivery-stage cheque surfaces 23 days after it was written
+**Owner:** Farhan · **Raised:** 2026-11-19 · **Value:** QAR 11,725 received, 2,345 left · **BANKING UNCONFIRMED**
+
+**RCT-315/2026** — **11,725 against INV-290/2026**, the 25% on delivery of materials, by **QNB
+cheque 00000008 (634-001/091)** drawn by HOMEMADE BY EARTH EATERY on a/c 0260460123001,
+**dated 27-10-2026**, crossed A/C Payee Only. Words and figures agree, payee name correct.
+**Received to date 44,555 of 46,900; balance 2,345**, the 5% on handover.
+
+**THE CHEQUE IS DATED THE DAY AFTER THE INVOICE.** INV-290 went out on 26-10, the cheque was
+written on 27-10. This client pays on sight and has done so twice.
+
+**SO WHERE HAS IT BEEN FOR 23 DAYS?** It reached these records on 19-11. Either it sat in the
+office uncashed, or it was banked weeks ago and never reported. **Both are worth knowing, and
+only the bank statement answers it.** The receipt is dated 27-10-2026, the date of the
+instrument — if the cheque only came to hand later, say so and it will be re-dated.
+**A Qatari cheque is good for six months, so nothing is lost yet, but an uncrossed three weeks
+in a drawer is three weeks of a drawer's risk for nothing.**
+
+**THIS IS THE THIRD RECORDS-LAG IN ONE WEEK.** One A chased for a payment already made (OL-141);
+Panda Cakes' cash reported fourteen days late (OL-143); now this. **The cause is the same every
+time: TNDK's own bank statement has never been looked at in this session.** Everything here is
+built from what clients send. One download of the Commercial Bank and QNB statements settles
+OL-141, OL-143, this loop, the four unproven cash receipts and Oscar Prime's unproven 119,000
+at a single stroke. **It is the highest-value hour available on the whole book.**
+
+**THE WORDS-VERSUS-FIGURES DEFECT NOW MATTERS MORE, NOT LESS (OL-084).** The LPO reads
+**46,900 in figures and Forty-Five Thousand Three Hundred in words** — a gap of **1,600**
+against a final retention of **2,345**. But the client has now paid **32,830 and 11,725**, which
+are exactly 70% and 25% **of 46,900**. **Their own two payments prove which figure governs.**
+Note 4 of the receipt puts that arithmetic in front of them in writing. If the amendment never
+comes, that receipt is the evidence.
+
+**STILL NO DELIVERY NOTE FOR THIS CLIENT (OL-108).** The 25% is the *delivery* stage and nothing
+on file evidences that materials reached site. The client has paid it without asking, which
+closes the commercial risk but not the file. **Raise DN-255/2026 to complete the record.**
+
+**Receivables after this payment: 492,130.**
+
 ### OL-143 — Panda Cakes pay the delivery stage in cash; only the retention remains
 **Owner:** Farhan · **Raised:** 2026-11-19 · **Value:** QAR 1,450 left · **FOURTH CASH RECEIPT**
 
