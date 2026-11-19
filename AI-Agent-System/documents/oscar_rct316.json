@@ -1,0 +1,46 @@
+{
+  "type": "receipt",
+  "number": "RCT-316/2026",
+  "date": "01-09-2026",
+  "ref": "INV-265/2026",
+  "meta_labels": ["RECEIPT NO", "DATE", "AGAINST INVOICE"],
+  "currency": "QAR",
+  "filename": "Receipt_RCT-316-2026_OscarPrime_Job1_FinalBalance_10750",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "RECEIVED FROM",
+    "name": "Oscar Prime Trading Contracting and Services W.L.L.",
+    "fields": [
+      "Doha, State of Qatar",
+      {"label": "Kind attention", "value": "Mr. Shameem"},
+      {"label": "Project", "value": "Two (2) chiller rooms — our first contract, order of 17-08-2026"},
+      {"label": "Contract Value", "value": "QAR 75,000.00"},
+      {"label": "Status", "value": "FINAL BALANCE RECEIVED — THIS CONTRACT IS SETTLED IN FULL"},
+      {"label": "Balance After This Receipt", "value": "NIL"}
+    ]
+  },
+  "lines": [
+    {"description": "Final balance received in full against INV-265/2026 dated 29-08-2026 — supply, installation, testing and commissioning of two (2) chiller rooms, the work being complete and handed over. Bank transfer, customer reference COLDROOM FINAL PAYMENTS", "unit": "Job", "qty": 1, "rate": 10750.00}
+  ],
+  "grand_total_label": "TOTAL RECEIVED",
+  "instrument": {
+    "type": "transfer",
+    "payment_mode": "Bank transfer (Transfer Within CB)",
+    "reference": "Commercial Bank transfer advice, release time 01-09-2026 10:52 — customer reference COLDROOM FINAL PAYMENTS; purpose: Merchant Settlement",
+    "drawer": "Oscar Prime Trading Cont. & Services — debit a/c QA14 CBQA 0000 0000 4090 7103 3200 1",
+    "credited_to": "The New Doha Kitchen Equipment Services W.L.L. — QA06 CBQA 0000 0000 4010 7777 3900 1"
+  },
+  "notes": [
+    "THIS CONTRACT IS NOW SETTLED IN FULL AND THE ACCOUNT IS CLOSED. Contract value QAR 75,000.00. Received: QAR 56,250.00 value date 19-08-2026 and QAR 8,000.00 value date 24-08-2026, both by transfer under reference Kitchen Fabrication; and QAR 10,750.00 by this receipt, value date 01-09-2026, settling INV-265/2026. TOTAL RECEIVED QAR 75,000.00. NOTHING FURTHER IS DUE on this contract and no further invoice will follow.",
+    "THIS RECEIPT IS ISSUED LATE, AND WE REGRET IT. Your transfer advice reached us only now. The receipt carries the value date of the transfer, 01-09-2026, which is the date the payment was made and is the date it takes effect in our books. Our thanks for settling within three days of our invoice.",
+    "RECEIPTS FOR THE TWO EARLIER PAYMENTS. No receipts were issued at the time for the QAR 56,250.00 of 19-08-2026 or the QAR 8,000.00 of 24-08-2026. This receipt records both of them in the account position above, and we shall be pleased to issue separate receipts for either or both on request.",
+    "This receipt relates to our first contract with you only. Our second contract for five (5) cold rooms under your LPO OTTS/LPO/05102026-01/2026, and our third for the chiller room under QUT/DCTS/SQ146/2026, are separate accounts and are unaffected by this settlement.",
+    "WARRANTY: twelve (12) months on the cold room panels, doors and our workmanship from the date of handover, and twelve (12) months on the compressors, coils, electrical components and controls from the date of commissioning. Excludes damage from misuse, power surge, improper voltage, water ingress, unauthorised modification or the absence of routine maintenance.",
+    "This receipt is issued against INV-265/2026 and closes the account on our first contract with you. With thanks for your custom."
+  ]
+}

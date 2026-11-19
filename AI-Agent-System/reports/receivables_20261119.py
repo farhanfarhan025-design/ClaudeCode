@@ -14,7 +14,8 @@ ROWS = [
     ("Al Mairqab Industrial Investment (Aalaf)", "Chiller room, civil works, SS shelving", 95000, 28500, 0, 66500,
      "30% advance paid 12-11 by crossed cheque (RCT-313). Their LPO delivery date of 17-11 has passed."),
     ("Oscar Prime Trading (2nd job)", "Five cold rooms", 170000, 119000, 0, 51000,
-     "The 119,000 advice read “Pending Approval” and has never been confirmed on a statement."),
+     "The 119,000 advice read “Pending Approval” and has never been confirmed on a statement. A further "
+     "25,000 was instructed on 19-11-2026, also “Pending Approval” — not taken to received until the credit shows."),
     ("Bismi Group International", "Freezer room, preparation room, epoxy", 110000, 60000, 0, 50000,
      "Advance complete 17-11. Stage 2 of 28,000 is payable before the machine goes to site."),
     ("One A Design, Build and Trading", "Chiller + freezer — Capital Grille, ABESQ", 73500, 67125, 6375, 0,
@@ -27,8 +28,6 @@ ROWS = [
      "65% advance received same day. Balance on completion. No written order on file."),
     ("M/s. Gozl Veterinary Services", "Chiller room, duty and standby", 59800, 47840, 0, 11960,
      "Both stages paid on uncrossed bearer cheques, neither confirmed cleared. Split of the 20% not yet set."),
-    ("Oscar Prime Trading (1st job)", "Cold room — final balance", 75000, 64250, 10750, 0,
-     "INV-265 issued 29-08-2026. Unpaid for almost three months."),
     ("M/s. Panda Cakes", "Chiller room 4.35 x 2.00 x 2.40 m", 29000, 27550, 0, 1450,
      "INV-295 settled in cash 05-11-2026 (RCT-314). Only the 5% handover retention remains."),
 ]
@@ -107,7 +106,7 @@ HTML = u"""<!DOCTYPE html>
 </div>
 <div class="rule"></div>
 <div class="asat"><b>As at 19 November 2026 (revised).</b> Figures in Qatari Riyals.
-<b>Al Zahrawi Medical and Everbloom are settled and closed off this list. One A's INV-275 was settled on 19-10-2026 and the advice has only now been produced.</b> <b>HBK-BWTC-BEIL JV (Mesaieed) is excluded at your instruction</b> &mdash; that contract carries a further
+<b>Al Zahrawi Medical, Everbloom and Oscar Prime's first contract are settled and closed off this list.</b> <b>Oscar Prime's 10,750 was paid on 01-09-2026 and One A's INV-275 on 19-10-2026 — both advices were produced only on 19-11, having been carried as unpaid until then.</b> <b>HBK-BWTC-BEIL JV (Mesaieed) is excluded at your instruction</b> &mdash; that contract carries a further
 QAR 400,000.00 receivable, of which 340,000.00 has never been invoiced.</div>
 
 <div class="cards">
@@ -120,7 +119,7 @@ QAR 400,000.00 receivable, of which 340,000.00 has never been invoiced.</div>
 <table>
 <tr><th class="l">#</th><th class="l">Customer / project</th><th>Contract</th><th>Received</th><th>Invoiced,<br/>unpaid</th><th>Not yet<br/>invoiced</th><th>Total<br/>receivable</th></tr>
 __ROWS__
-<tr class="tot"><td></td><td>TOTAL &mdash; 12 customers, HBK excluded</td><td class="r">__CONTRACT__</td><td class="r">__RECD__</td><td class="r">__INV__</td><td class="r">__NOTINV__</td><td class="r">__OUT__</td></tr>
+<tr class="tot"><td></td><td>TOTAL &mdash; 11 customers, HBK excluded</td><td class="r">__CONTRACT__</td><td class="r">__RECD__</td><td class="r">__INV__</td><td class="r">__NOTINV__</td><td class="r">__OUT__</td></tr>
 </table>
 
 <h2>NOT INCLUDED IN THE TOTAL &mdash; no payment record on file</h2>
@@ -140,12 +139,13 @@ __ROWS__
 &nbsp;<b>1.</b> <b>Three customers hold 59% of everything owed</b> &mdash; CCC 177,450, Aalaf 95,000 and Q Fish 75,000.
 &nbsp;<b>2.</b> <b>101,400 of CCC's balance has never been invoiced</b> on a job completed in September, and is the
 single easiest sum on this page to turn into cash: the third 30% of 76,050 and the 10% retention of 25,350.
-&nbsp;<b>3.</b> <b>Oscar Prime owe 75,050 across three contracts</b>, and 10,750 of it has been invoiced since August.
-Their 119,000 advance on the five cold rooms has never been confirmed on a bank statement; if it never landed,
-the figure above understates their balance by that amount.
-&nbsp;<b>4.</b> <b>One A's 47,775 is fully invoiced and wholly unpaid</b>, the oldest live debt here, chased by letter
-on 31-10-2026 with no reply. Their work order carries a 2,000 per day delay penalty, so this one is not simply
-a collection matter.
+&nbsp;<b>3.</b> <b>Oscar Prime owe 64,300 across their two live contracts</b>, none of it yet invoiced. Their first
+contract was settled in full on 01-09-2026 and is closed. <b>But 144,000 of what they are shown as having paid rests
+on advices that read &ldquo;Pending Approval&rdquo;</b> &mdash; the 119,000 of 06-10 and the 25,000 instructed on 19-11,
+which is not counted as received above. Neither has been confirmed on a bank statement.
+&nbsp;<b>4.</b> <b>One A are down to 6,375</b>, the remainder of INV-300. Their INV-275 had in fact been settled on
+19-10-2026, so the chasing letter of 31-10 was wrong and has been withdrawn. Nothing further will be invoiced;
+settlement of the 6,375 closes that account.
 &nbsp;<b>5.</b> <b>Aalaf have paid nothing at all</b> &mdash; 95,000 contracted, advance invoiced on 03-11 and still
 outstanding, with their own delivery date of 17-11 already past.
 </div>

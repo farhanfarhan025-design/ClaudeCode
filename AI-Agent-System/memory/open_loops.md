@@ -3487,6 +3487,51 @@ out and before the PCC cover, and after the RCC pour — each on one working day
 30% advance of 28,500 was raised on 03-11 and is outstanding. Their LPO's delivery date of
 17-11-2026 is this week and the programme has not started.
 
+### OL-145 — Oscar Prime: one contract closes, and 25,000 arrives that has not arrived
+**Owner:** Farhan · **Raised:** 2026-11-19 · **Value:** 10,750 received, 25,000 unproven · **TWO ADVICES, TWO DIFFERENT THINGS**
+
+Two Commercial Bank advices came together and they are **not** the same kind of document.
+
+**ONE — 10,750, value date 01-09-2026, customer reference COLDROOM FINAL PAYMENTS.**
+**RCT-316/2026 issued, dated 01-09-2026.** This settles **INV-265/2026** and **closes the first
+Oscar Prime contract in full at 75,000** — 56,250 on 19-08, 8,000 on 24-08, 10,750 on 01-09.
+**They paid within three days of the invoice.** The receivables list has carried it as "unpaid
+for almost three months" ever since. **It was never unpaid. It was never reported.**
+
+**TWO — 25,000, transaction reference 191126A8312, released 19-11-2026 at 15:21.**
+**NOT RECEIPTED, AND NOT COUNTED AS RECEIVED.** The advice reads **Corporate Status: "Pending
+Approval"**, corporate **A0743 SAFARI GROUP**, reference **KITCHEN CRAFT COLDROOM**. It was
+printed **34 seconds after release**. This is an instruction that a second signatory had not
+approved, raised an hour and a half before it reached these records. **It is in the bank register
+in brackets, as an instruction, not a credit.** The moment the credit shows, RCT-317/2026 issues.
+
+**AND IT IS A PAYMENT AGAINST A STAGE THAT WAS NEVER INVOICED.** The second contract
+(170,000, five cold rooms) has 51,000 outstanding — 42,500 on delivery and 8,500 at handover —
+and **no invoice has ever been raised for either**. Oscar Prime are paying 25,000 against nothing.
+**Raise the 25% delivery invoice of 42,500 and let this transfer land against it**, or the
+receipt will have no invoice to name.
+
+**THE FIFTH RECORDS-LAG, AND THE LONGEST: 79 DAYS.** One A (OL-141), Panda Cakes (OL-143),
+HMBE (OL-144), and now this. **Every one of them is a payment that arrived and was not known
+about.** None was a client failing to pay. The position has been understated, not overstated,
+every single time.
+
+**I ALSO OVERSTATED THE PROOF AGAINST THE 119,000 — SEE THE CORRECTION IN OL-083.** I had said a
+blank Processed Date meant the money had not moved. These two advices show the print time runs
+seconds after the release time, so that field is blank on every advice printed at the counter and
+proves nothing. **The "Pending Approval" status still stands against the 119,000, and that alone
+is reason enough to verify it.**
+
+**OSCAR PRIME NOW CARRY 144,000 OF "RECEIVED" THAT RESTS ON PENDING-APPROVAL ADVICES** — the
+119,000 of 06-10 and this 25,000. That is the largest single unverified sum on the book, from one
+customer, and **one statement download answers it.**
+
+**Receivables after the 10,750: 481,380.** Oscar Prime's remaining exposure: 64,300 across the
+two live contracts, none of it yet invoiced.
+
+**Still open from OL-037: no receipts were ever issued for the 56,250 of 19-08 or the 8,000 of
+24-08.** RCT-316 records both in its account position and offers separate receipts. Say the word.
+
 ### OL-144 — HMBE's delivery-stage cheque surfaces 23 days after it was written
 **Owner:** Farhan · **Raised:** 2026-11-19 · **Value:** QAR 11,725 received, 2,345 left · **BANKING UNCONFIRMED**
 
@@ -4783,6 +4828,16 @@ instruction; a second signatory had not released it at the time the report was t
 > bank in the same format and **shows a Processed Date and a full MT103**. The form does fill
 > those fields when the money moves, so **the blank on 061026A7317 means it had not moved.**
 > Treat the 119,000 as unproven until the statement for 06-10-2026 is seen.
+>
+> **CORRECTED 19-11-2026 — THAT INFERENCE WAS TOO STRONG.** Two more Oscar Prime advices
+> (OL-145) carry their release and print times: 01-09-2026 released 10:52:53, printed 10:53:10
+> — **17 seconds**; 19-11-2026 released 15:21:19, printed 15:21:53 — **34 seconds**. **An
+> advice printed seconds after release will always show a blank Processed Date, whatever happens
+> afterwards.** The blank therefore proves nothing either way; the 24,700 advice simply showed a
+> Processed Date because it was printed later. **What still stands is "Corporate Status: Pending
+> Approval", which is a substantive statement that a second signatory had not released it at that
+> moment — and that is on 061026A7317.** So the 119,000 remains unproven, but for the one
+> reason, not two. Only the bank statement settles it.
 
 **This evidences the instruction, not the credit.** RCT-279/2026 has already been issued for
 119,000, and the Oscar Prime programme has been told it runs from 06-10-2026 on the strength of
