@@ -17,8 +17,8 @@ ROWS = [
      "The 119,000 advice read “Pending Approval” and has never been confirmed on a statement."),
     ("Bismi Group International", "Freezer room, preparation room, epoxy", 110000, 60000, 0, 50000,
      "Advance complete 17-11. Stage 2 of 28,000 is payable before the machine goes to site."),
-    ("One A Design, Build and Trading", "Chiller + freezer — Capital Grille, ABESQ", 73500, 25725, 47775, 0,
-     "Fully invoiced. INV-275 of 29,400 unpaid since October; INV-300 final of 18,375. Chased by letter 31-10."),
+    ("One A Design, Build and Trading", "Chiller + freezer — Capital Grille, ABESQ", 73500, 37725, 35775, 0,
+     "Fully invoiced. 12,000 received on account (RCT-311); INV-275 stands at 17,400 and INV-300 at 18,375."),
     ("M/s. Day to Day Hypermarket", "Chiller room + freezer room", 52000, 26000, 0, 26000,
      "Advance paid in cash. 30% due on panel installation, before the machines go out; 20% at handover."),
     ("Home-Made by Earth", "Chiller + freezer rooms", 46900, 32830, 11725, 2345,
@@ -106,8 +106,8 @@ HTML = u"""<!DOCTYPE html>
   <div class="ttl">AMOUNTS RECEIVABLE FROM CUSTOMERS</div>
 </div>
 <div class="rule"></div>
-<div class="asat"><b>As at 19 November 2026 (revised).</b> Figures in Qatari Riyals.
-<b>Al Zahrawi Medical and Everbloom are now settled in full and are closed off this list.</b> <b>HBK-BWTC-BEIL JV (Mesaieed) is excluded at your instruction</b> &mdash; that contract carries a further
+<div class="asat"><b>As at 19 November 2026 (revised twice).</b> Figures in Qatari Riyals.
+<b>Al Zahrawi Medical and Everbloom are settled in full and closed off this list; One A have paid 12,000 on account.</b> <b>HBK-BWTC-BEIL JV (Mesaieed) is excluded at your instruction</b> &mdash; that contract carries a further
 QAR 400,000.00 receivable, of which 340,000.00 has never been invoiced.</div>
 
 <div class="cards">

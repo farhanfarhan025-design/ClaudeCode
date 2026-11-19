@@ -1,0 +1,45 @@
+{
+  "type": "receipt",
+  "number": "RCT-311/2026",
+  "date": "19-11-2026",
+  "ref": "INV-275/2026",
+  "meta_labels": ["RECEIPT NO", "DATE", "AGAINST INVOICE"],
+  "currency": "QAR",
+  "filename": "Receipt_RCT-311-2026_OneA_CapitalGrille_PartPayment_12000",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "RECEIVED FROM",
+    "name": "One A Design, Build and Trading W.L.L.",
+    "fields": [
+      "Doha, State of Qatar",
+      {"label": "Project", "value": "Chiller and freezer rooms — Capital Grille at ABESQ Hotel"},
+      {"label": "Your order", "value": "Work Order WO/1A/096/26 dated 27-09-2026 — QAR 73,500.00"},
+      {"label": "Status", "value": "PART PAYMENT against INV-275/2026"},
+      {"label": "Balance After This Receipt", "value": "QAR 35,775.00 — INV-275 17,400.00 and INV-300 18,375.00"}
+    ]
+  },
+  "lines": [
+    {"description": "Part payment received against INV-275/2026 dated 02-10-2026, being the 40% stage on delivery of panels for the chiller and freezer rooms at the Capital Grille, ABESQ Hotel — bank transfer reference MS1A11300934", "unit": "Nos", "qty": 1, "rate": 12000.00}
+  ],
+  "grand_total_label": "TOTAL RECEIVED",
+  "instrument": {
+    "type": "transfer",
+    "payment_mode": "Bank transfer (Tahweel)",
+    "reference": "Transaction reference MS1A11300934  |  Reference number MB261105271277",
+    "drawer": "One A Design, Build and Trading W.L.L. — debit a/c 0251-054777-001",
+    "credited_to": "The New Doha Kitchen Equipment Services W.L.L. — QA06 CBQA 0000 0000 4010 7777 3900 1"
+  },
+  "notes": [
+    "ACCOUNT POSITION. Contract value QAR 73,500.00 under work order WO/1A/096/26. Received to date QAR 37,725.00 — the 35% advance of QAR 25,725.00 on 01-10-2026 under RCT-274/2026, and QAR 12,000.00 by this receipt. BALANCE OUTSTANDING QAR 35,775.00.",
+    "HOW THIS PAYMENT IS APPLIED. The sum of QAR 12,000.00 is applied to the oldest invoice, INV-275/2026 of 02-10-2026 for QAR 29,400.00, being the 40% stage on delivery of panels, which was raised against our delivery note DN-253/2026. That invoice therefore stands at QAR 17,400.00. Our final invoice INV-300/2026 of QAR 18,375.00 remains due in full.",
+    "THE CONTRACT IS INVOICED IN FULL AND NO FURTHER INVOICE WILL FOLLOW. Settlement of the QAR 35,775.00 shown above closes the account between us — QAR 17,400.00 on INV-275/2026 and QAR 18,375.00 on INV-300/2026. Kindly quote both invoice numbers and your work order WO/1A/096/26 as the references on the remittance.",
+    "Received with thanks, and our thanks for this payment on account. We should be grateful if you would now arrange the balance, and we remain ready to attend your office to go through the account with you at any time convenient to yourselves.",
+    "WARRANTY: twelve (12) months on the cold room panels, the doors and our workmanship from the date of handover, and twelve (12) months on the compressors, coils, electrical components and controls from the date of commissioning. Excludes damage from misuse, power surge, improper voltage, water ingress, unauthorised modification or the absence of routine maintenance.",
+    "This receipt is issued against INV-275/2026 and is subject to the terms of work order WO/1A/096/26."
+  ]
+}

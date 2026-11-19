@@ -3487,6 +3487,39 @@ out and before the PCC cover, and after the RCC pour — each on one working day
 30% advance of 28,500 was raised on 03-11 and is outstanding. Their LPO's delivery date of
 17-11-2026 is this week and the programme has not started.
 
+### OL-140 — One A pay 12,000 on account; the chasing letter worked, partly
+**Owner:** Farhan · **Raised:** 2026-11-19 · **Value:** QAR 35,775 still due · **DEBT HALVED, NOT CLOSED**
+
+**RCT-311/2026** — **12,000 received** by Tahweel transfer, **MS1A11300934 / MB261105271277**,
+from One A's a/c **0251-054777-001** to the TNDK IBAN. **Applied to the oldest invoice**,
+INV-275/2026 of 29,400, which now stands at **17,400**. INV-300/2026 of 18,375 remains due in
+full. **Received to date 37,725 of 73,500; balance 35,775.**
+
+**THE LETTER DID ITS WORK.** LTR/DCTS/256/2026 of 31-10-2026 asked for release of the payment
+within two days and said the reserved water-cooled unit would otherwise go elsewhere. The two
+days passed with no reply — and **the reference number on this transfer, MB261105271277, carries
+261105, which reads as 05-11-2026**, four working days after the letter. **A silent client who
+then pays is still a client who read it.**
+
+**BUT THE ADVICE SHOWS NO TRANSACTION DATE.** The screenshot is the app's transaction detail
+and the date field is not among the lines captured. The receipt is therefore dated 19-11-2026,
+the day Farhan reported it, and says only "bank transfer reference MS1A11300934". **Get the dated
+advice or the statement line and the date goes into the bank register properly** — the reference
+encoding is an inference, not evidence.
+
+**THE REMAINING 35,775 IS STILL THE OLDEST FULLY-INVOICED DEBT ON THE BOOK.** Nothing further
+will be invoiced: note 3 of the receipt says in terms that the contract is invoiced in full and
+settlement of 35,775 closes the account. **A second letter is now easier to write than the
+first** — a part payment is an admission of the debt, so the next one can name both invoice
+numbers and both figures without any delicacy.
+
+**AND THE PENALTY POINT HAS NOT GONE AWAY.** WO/1A/096/26 carries **2,000 per calendar day**
+deductible from sums due, over a 30-day period from 27-09-2026. **35,775 is enough to absorb a
+great deal of that**, which is why LTR/DCTS/256 and note 4 of INV-300 both record that TNDK was
+ready and waiting on payment. **Keep both with the proof of sending.**
+
+**Receivables after this payment: 567,555** across 12 customers, from 579,555.
+
 ### OL-139 — Al Zahrawi and Everbloom closed, but neither has a receipt or an instrument
 **Owner:** Farhan · **Raised:** 2026-11-19 · **Value:** QAR 9,150 settled · **RECEIPTS OUTSTANDING**
 
