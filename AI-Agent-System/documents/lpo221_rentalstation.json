@@ -1,0 +1,56 @@
+{
+  "type": "lpo",
+  "number": "LPO-221/2026",
+  "date": "17-11-2026",
+  "ref": "QU-H-10692-26 dated 17-11-2026",
+  "currency": "QAR",
+  "filename": "LPO-221-2026_RentalStation_ScissorLift12m_3Days",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "VENDOR INFORMATION",
+    "name": "Rental Station W.L.L.",
+    "fields": [
+      "Doha, State of Qatar",
+      {
+        "label": "Attention",
+        "value": "Mr. Hazem Muhaisen — Sales and Operational Manager  |  Mob: 6682 1151"
+      },
+      {
+        "label": "Equipment",
+        "value": "Battery-operated scissor lift, 12 m, without operator — one (1) unit"
+      },
+      {
+        "label": "Hire Period",
+        "value": "Three (3) days from the date we collect the unit"
+      },
+      {
+        "label": "Collection",
+        "value": "Collected from and returned to your yard by us — mobilisation NOT ordered"
+      }
+    ]
+  },
+  "lines": [
+    {
+      "description": "Hire of battery-operated scissor lift, 12 m, without operator — one (1) unit, daily rate QAR 300.00 per day",
+      "unit": "Days",
+      "qty": 3,
+      "rate": 300.0
+    }
+  ],
+  "grand_total_label": "TOTAL ORDER VALUE",
+  "notes_new_page": true,
+  "notes": [
+    "Placed against your rental quotation QU-H-10692-26 dated 17-11-2026, for a hire period of THREE (3) DAYS from the date the unit is collected: three (3) days at QAR 300.00 per day, net QAR 900.00. Please acknowledge this order in writing and confirm the date and time the unit will be ready for collection.",
+    "YOUR OFF-HIRE NOTICE PERIOD CONTRADICTS ITSELF AND MUST BE SETTLED BEFORE DELIVERY. Page 1 of your quotation states \"End of Hire: As per customer off-hire notification earlier to 24 hours\", while general condition E requires off-hire requests by e-mail not less than SEVEN (7) DAYS before the intended off-hire date. The two cannot both apply to a three (3) day hire, and a seven-day notice on a three-day hire would mean paying for days on which the machine is not on site. WE ORDER ON THE BASIS OF TWENTY-FOUR (24) HOURS' NOTICE, given by e-mail to rental@rs-qatar.co, and on the basis that no hire charge runs beyond the off-hire date so notified. Please confirm that in writing with your acknowledgement. We note your general condition J and record that this order is placed on that understanding.",
+    "MOBILISATION AND DEMOBILISATION ARE NOT ORDERED AND ARE NOT TO BE CHARGED. The QAR 400.00 shown against mobilisation and demobilisation on your quotation is expressly EXCLUDED from this order. WE WILL COLLECT THE UNIT FROM YOUR YARD AND RETURN IT THERE AT OUR OWN COST AND ON OUR OWN TRANSPORT. Please do not deliver the unit to site. No mobilisation, demobilisation, delivery, collection or transport charge of any kind will be accepted on your invoice, and the total payable under this order is QAR 900.00.",
+    "CERTIFICATES ARE TO ARRIVE WITH THE MACHINE. Your terms 4 and 5 provide third-party certification and group insurance. The valid third-party test certificate for the unit and the insurance certificate are to be handed over with the machine when we collect it, as the site will not permit it to be operated without them. The machine is to be handed over fully charged and in good working order, and a condition report is to be signed by both parties when we collect the unit and again when we return it, as your general condition V requires.",
+    "OPERATION, ACCESS AND CHARGES. The unit is hired without an operator and will be operated only by our certified and licensed operators, in accordance with site safety requirements. As we are collecting and returning the unit ourselves, no site access, gate pass, escort or permit arrangement falls to you, and no waiting-time or failed-mobilisation charge can arise under your general condition K. Extra hours or days beyond the three (3) days ordered are chargeable pro rata at the daily rate stated and only where instructed by us in writing. No other charge — standby, idle time, cleaning, consumables or administration — will be accepted beyond the total order value above.",
+    "PLEASE RAISE YOUR INVOICE IN THE NAME SHOWN ABOVE. Your quotation is addressed to Doha Cooling Trading & Solutions W.L.L.; this hire is taken by The New Doha Kitchen Equipment Services W.L.L., C.R. 199351, and the invoice is to be raised in that name quoting LPO-221/2026. An invoice in any other name will be returned for correction. Our company documents for your approval accompany this order.",
+    "The unit is to be returned in the condition in which it is received, fair wear and tear excepted. We note your damage and insurance provisions, including the deductible of 10% of the loss subject to a minimum of QAR 2,500.00, and your charge for removal of branding."
+  ]
+}

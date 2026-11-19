@@ -1,0 +1,54 @@
+{
+  "type": "invoice",
+  "badge": ["ADVANCE INVOICE"],
+  "number": "INV-291/2026",
+  "date": "29-10-2026",
+  "ref": "Quotation QUT/DCTS/SQ130/2026 (Revised) — approved",
+  "currency": "QAR",
+  "filename": "Invoice_INV-291-2026_GozlVeterinary_ChillerRoom_50pct_Advance",
+  "payee_name": "The New Doha Kitchen Equipment Services W.L.L.",
+  "notes_new_page": true,
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "BILL TO",
+    "name": "M/s. Gozl Veterinary Services and Trading Co.",
+    "fields": [
+      "Doha, State of Qatar",
+      {"label": "Project", "value": "One (1) chiller room 4.00 x 4.00 x 2.50 m with duty and standby refrigeration"},
+      {"label": "Our quotation", "value": "QUT/DCTS/SQ130/2026 (Revised) dated 28-10-2026 — approved"},
+      {"label": "Contract Value", "value": "QAR 59,800.00"},
+      {"label": "Stage", "value": "First instalment — 50% advance with confirmed order"}
+    ]
+  },
+  "lines": [
+    {
+      "description": "ADVANCE PAYMENT — 50% OF THE CONTRACT VALUE\nFirst instalment against our approved quotation QUT/DCTS/SQ130/2026 for the supply, installation, testing and commissioning of:\n1. CHILLER ROOM — internal size 4.00 m (L) x 4.00 m (W) x 2.50 m (H), 40.00 m3, operating at 0 C to +8 C, in 100 mm PUF sandwich panel to walls, ceiling and floor (72.00 sqm), with insulated floor system of 100 mm PUF panel, 18 mm marine plywood and 1.5 mm MS chequered plate (16.00 sqm), one (1) No. hinged cold room door 900 x 1900 mm with heated anti-condensation frame, and all aluminium coving, corner angles, silicone sealing, fasteners and accessories.\n2. REFRIGERATION — DUTY AND STANDBY — two (2) Nos. BITZER (Germany) 2EES-3Y assembled air-cooled condensing units, 3 HP, 4.4 kW each at -12 C evaporating / 45 C ambient, with two (2) Nos. Gunay (Turkey) GNE 240.8B2 evaporating units, R404A — one (1) complete set duty and one (1) complete set standby, each with its own copper piping, Armaflex insulation, thermostatic expansion valve, solenoid valve, filter drier, sight glass and insulated drain line.\n3. CONTROL PANEL AND ELECTRICAL — one (1) No. digital control panel with all safeties and DUTY / STANDBY changeover, automatic sequencing between the two systems, manual selection and automatic cut-in of the standby set on failure or high temperature alarm; internal vapour-proof LED lighting, door frame heater and complete electrical works from the control panel onward.\n4. Testing, commissioning, transportation, mobilisation, lifting at site and handover with operation training.\nContract value QAR 59,800.00 — this invoice covers 50% thereof.",
+      "unit": "Lot",
+      "qty": 1,
+      "rate": 29900.00
+    }
+  ],
+  "grand_total_label": "ADVANCE NOW DUE",
+  "bank": {
+    "Bank": "The Commercial Bank (P.S.Q.C.), Grand Hamad Branch – 4010",
+    "Account Name": "The New Doha Kitchen Equipment Services W.L.L.",
+    "Account Number": "4010-777739-001",
+    "IBAN": "QA06 CBQA 0000 0000 4010 7777 3900 1",
+    "SWIFT / BIC": "CBQAQAQA",
+    "Currency": "Qatari Riyal (QAR)"
+  },
+  "notes": [
+    "PAYMENT SCHEDULE. Contract value QAR 59,800.00 — 50% advance with the confirmed order QAR 29,900.00 (this invoice); 45% on delivery of materials at site QAR 26,910.00; 5% after successful testing, commissioning and handover QAR 2,990.00. This schedule revises the 75 / 20 / 5 stated in our quotation, the advance having been agreed at 50%.",
+    "Payment due on presentation of this invoice. Payment may be made in cash, or by cheque or bank transfer to the account shown above; cheques to be crossed and drawn strictly in favour of the account name given, with no word between Equipment and Services. Kindly quote invoice INV-291/2026 as the reference.",
+    "PROGRAMME. Material delivery is 4 to 6 days from the confirmed order and receipt of this advance, site mobilisation within 3 working days of material arrival, installation 12 to 16 working days on a civil-ready site, and testing and commissioning 1 to 2 working days thereafter — a total of 22 to 28 days, subject to site readiness. Material will be ordered on receipt of this payment.",
+    "DUTY AND STANDBY. Two complete refrigeration systems are supplied to one room. Each set alone holds the room at temperature, and the control panel sequences between them and cuts the standby set in automatically on failure or on a high temperature alarm. Both sets are to be run in rotation so that neither stands idle for long periods; we will set the changeover at commissioning and explain it at handover.",
+    "SITE SURVEY. A site survey will be carried out and the final room dimensions confirmed before any fabrication is put in hand. Any change arising will be advised to you in writing, with its effect on the price and the programme, before the work is done.",
+    "BY OTHERS, as set out in our quotation: civil works, foundation, levelling and any structural support; the main power supply and the cable run from the main distribution board to the cold room control panel; drain piping beyond 3 m from the evaporator drain outlets; backup power, UPS, generator or stabiliser; and any false ceiling removal or restoration of existing finishes.",
+    "WARRANTY: twelve (12) months on the cold room panels, door and our workmanship from the date of handover, and twelve (12) months on the compressors, the evaporator and condenser coils and the electrical components and controls from the date of commissioning. Excludes damage from misuse, power surge, improper voltage, water ingress, unauthorised modification or the absence of routine maintenance."
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "type": "quotation",
+  "badge": [
+    "SUPPLY & INSTALLATION",
+    "QUOTATION"
+  ],
+  "number": "QUT/DCTS/255/2026",
+  "date": "26-10-2026",
+  "ref": "15 days from date of quotation",
+  "meta_labels": [
+    "QUOTATION NO",
+    "DATE",
+    "VALIDITY"
+  ],
+  "currency": "QAR",
+  "filename": "Quotation_QUT-DCTS-255-2026_Aalaf_HeavyDutyRacking",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "TO",
+    "name": "Al Mairqab Industrial Investment (Aalaf)",
+    "fields": [
+      "P.O. Box 295, Doha, State of Qatar",
+      {
+        "label": "Attention",
+        "value": "Mr. Francis Lloyd De Ramos — Procurement Manager"
+      },
+      "Tel: +974 4432 7766  |  francis@aalaf.com.qa",
+      {
+        "label": "Subject",
+        "value": "Supply and installation of six (6) heavy duty racking systems"
+      },
+      {
+        "label": "Delivery",
+        "value": "07 - 10 days from the confirmed order"
+      }
+    ]
+  },
+  "lines": [
+    {
+      "description": "HEAVY DUTY RACKING SYSTEM — 2700 mm (L) x 1200 mm (W) x 1800 mm (H)\nThree (3) levels, capacity 2,000 kg uniformly distributed load per level. GI decking to each level. Supplied complete with upright frames, beams, decking panels, bracing and all fixing hardware, delivered to site and installed.",
+      "unit": "Set",
+      "qty": 3,
+      "rate": 2950.0
+    },
+    {
+      "description": "HEAVY DUTY RACKING SYSTEM — 2400 mm (L) x 1200 mm (W) x 1800 mm (H)\nThree (3) levels, capacity 2,000 kg uniformly distributed load per level. GI decking to each level. Supplied complete with upright frames, beams, decking panels, bracing and all fixing hardware, delivered to site and installed.",
+      "unit": "Set",
+      "qty": 2,
+      "rate": 2850.0
+    },
+    {
+      "description": "HEAVY DUTY RACKING SYSTEM — 2400 mm (L) x 900 mm (W) x 1800 mm (H)\nThree (3) levels, capacity 2,000 kg uniformly distributed load per level. GI decking to each level. Supplied complete with upright frames, beams, decking panels, bracing and all fixing hardware, delivered to site and installed.",
+      "unit": "Set",
+      "qty": 1,
+      "rate": 2685.0
+    }
+  ],
+  "grand_total_label": "TOTAL",
+  "notes": [
+    "SCOPE. The above prices are for the supply, delivery to site and installation of six (6) racking systems, complete with all frames, beams, GI decking and fixings. Offloading at site is included. The upright and beam sections, their gauge and the finish are to the manufacturer's standard for the stated capacity; should you require a particular finish, a different level configuration or a different number of levels, we shall be pleased to quote.",
+    "LOAD CAPACITY. The stated 2,000 kg per level is a uniformly distributed load, being the manufacturer's rating. It assumes the load is spread evenly across the level and not concentrated at a point or at one end, that the rating is not exceeded, and that the racking stands on a sound, level floor. The racking is not to be climbed, altered, extended or relocated without reference to us.",
+    "FLOOR, FIXING AND LAYOUT. The floor is to be level, sound and able to carry the imposed load; any floor preparation, levelling or structural strengthening is not included. Please confirm whether the racking is to be anchored to the floor — where the floor is an insulated cold room floor or a finished surface which is not to be drilled, the racking will be installed free-standing and the levels must then be loaded with particular care. Please also confirm the positions, aisle widths and orientation of each run before delivery, and ensure the area is clear for installation. Dimensions stated are the overall frame sizes.",
+    "WARRANTY: twelve (12) months from the date of handover against manufacturing defect in the racking supplied and on our installation workmanship. Excludes overloading, point loading, impact from trolleys, pallet trucks or forklifts, corrosion arising from the storage environment, and any alteration or relocation carried out by others.",
+    "PAYMENT: 100% with the confirmed order. Delivery and installation 07 - 10 days from the confirmed order, subject to the site being ready to receive. Prices are in Qatari Riyals and are valid for 15 days from the date of this quotation."
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "type": "receipt",
+  "number": "RCT-308/2026",
+  "date": "17-11-2026",
+  "ref": "INV-284/2026 Rev. — CON/TNDK/SQ118/2026 Rev. 1",
+  "meta_labels": ["RECEIPT NO", "DATE", "AGAINST"],
+  "currency": "QAR",
+  "filename": "Receipt_RCT-308-2026_Bismi_AdvanceCompleted_30000",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "RECEIVED FROM",
+    "name": "Bismi Group International W.L.L.",
+    "fields": [
+      "Doha, State of Qatar  |  C.R. 178652",
+      {"label": "Project", "value": "Freezer room and preparation room with epoxy flooring"},
+      {"label": "Our contract", "value": "CON/TNDK/SQ118/2026 Rev. 1 dated 17-10-2026"},
+      {"label": "Contract Value", "value": "QAR 110,000.00"},
+      {"label": "Status", "value": "THE 50% ADVANCE IS NOW COMPLETE — QAR 60,000.00 received in all"},
+      {"label": "Balance After This Receipt", "value": "QAR 50,000.00"}
+    ]
+  },
+  "lines": [
+    {"description": "Payment received in cash against the contract — completing the 50% advance of QAR 55,000.00", "unit": "Nos", "qty": 1, "rate": 17975.00},
+    {"description": "Payment received by QNB cheque no. 00000255 dated 17-11-2026, crossed A/C Payee Only", "unit": "Nos", "qty": 1, "rate": 12025.00}
+  ],
+  "grand_total_label": "TOTAL RECEIVED",
+  "instrument": {
+    "type": "cheque",
+    "payment_mode": "Cash QAR 17,975.00 and cheque QAR 12,025.00",
+    "cheque_no": "00000255 (634-001/037)",
+    "cheque_date": "17-11-2026",
+    "bank": "Qatar National Bank (Q.P.S.C.), Doha, Qatar",
+    "drawer": "BISMI GROUP INTERNATIONAL — drawn on a/c 0250057166001",
+    "crossing": "Crossed A/C PAYEE ONLY"
+  },
+  "notes": [
+    "ACCOUNT POSITION. Contract value QAR 110,000.00. Received to date QAR 60,000.00 — QAR 30,000.00 under RCT-285/2026 of 18-10-2026 and QAR 30,000.00 by this receipt. THE 50% ADVANCE OF QAR 55,000.00 IS NOW RECEIVED IN FULL, and the further QAR 5,000.00 is held on account of the next stage. Balance QAR 50,000.00.",
+    "HOW THE BALANCE STANDS AGAINST THE AGREED STAGES. Stage 2 — 30% of QAR 33,000.00, on completion of the panel work and before delivery of the machine — QAR 5,000.00 of it is received, leaving QAR 28,000.00. Stage 3 — 10% of QAR 11,000.00, on installation of the machine and before the epoxy. Stage 4 — 10% of QAR 11,000.00, on handover. Total remaining QAR 50,000.00.",
+    "THE ADVANCE BEING COMPLETE, THE WORKS CAN NOW PROCEED. Clause 4.2 of our contract makes the advance a condition of commencement. With it received, we shall mobilise and begin the panel work, and the refrigeration equipment will be collected and held for your project. We shall write to you with the programme dates.",
+    "Received with thanks. The cash of QAR 17,975.00 is acknowledged in full, and the cheque of QAR 12,025.00 is received subject to realisation. We confirm that the amount in words and the amount in figures on your cheque agree at QAR 12,025.00, that the payee name is written correctly, and that it is crossed A/C Payee Only — for which our thanks; it is the safest way to settle an account of this size.",
+    "STAGE 2 IS A WORK GATE. As clause 4.2 provides, the 30% falls due on completion of the panel work and is payable BEFORE the machine is delivered to site. We shall notify you in writing on the day the panel work is complete so that there is no delay between the panel and the machine arriving.",
+    "This receipt is issued against our contract CON/TNDK/SQ118/2026 Rev. 1 and invoice INV-284/2026 Rev., and is subject to the terms of that contract."
+  ]
+}

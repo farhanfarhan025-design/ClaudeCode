@@ -1,0 +1,51 @@
+{
+  "type": "lpo",
+  "number": "LPO-216/2026",
+  "date": "01-11-2026",
+  "ref": "ART-QTN-3496-26 dated 29-10-2026",
+  "currency": "QAR",
+  "filename": "LPO-216-2026_Airtronics_DanfossCDU_GunayEvaporators",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "VENDOR INFORMATION",
+    "name": "Airtronics Trading Contracting & Maintenance W.L.L.",
+    "fields": [
+      "Doha, State of Qatar",
+      {"label": "Attention", "value": "Mr. Gireesh Nath — Sales Manager  |  Mob: +974 3169 0622"},
+      {"label": "Application", "value": "Chiller room 3.00 x 2.20 x 2.20 m (14.52 cbm) and freezer room 3.00 x 2.20 x 2.20 m (14.52 cbm) — one (1) system each"},
+      {"label": "Payment Terms", "value": "100% CDC upon collection"},
+      {"label": "Delivery Terms", "value": "Ex-works Doha — ex-stock, subject to prior sale"}
+    ]
+  },
+  "lines": [
+    {"description": "Danfoss hermetic condensing unit — MCZC 048, R404A, 2 kW at -5 °C Te / 45 °C ambient (CHILLER ROOM)", "unit": "Nos", "qty": 1, "rate": 3800.00},
+    {"description": "Gunay cubic type evaporator — GNE 130.4A (CHILLER ROOM)", "unit": "Nos", "qty": 1, "rate": 1300.00},
+    {"description": "Danfoss hermetic condensing unit — LGQC 068, R404A, 1.4 kW at -25 °C Te / 45 °C ambient (FREEZER ROOM)", "unit": "Nos", "qty": 1, "rate": 4300.00},
+    {"description": "Gunay cubic type evaporator — GNE 135.8D (FREEZER ROOM)", "unit": "Nos", "qty": 1, "rate": 2200.00},
+    {"description": "Subzero control panel, plastic body — CRC205200", "unit": "Nos", "qty": 2, "rate": 975.00},
+    {"description": "Danfoss filter drier, flare, 3/8\" — DCL 163 / 023Z500891", "unit": "Nos", "qty": 2, "rate": 45.00},
+    {"description": "Danfoss sight glass, solder — SGI 10s / 014-0035", "unit": "Nos", "qty": 2, "rate": 60.00},
+    {"description": "Danfoss expansion valve R404A — TE 2 / 068Z3403", "unit": "Nos", "qty": 2, "rate": 175.00},
+    {"description": "Danfoss expansion valve orifice — chiller 068-2010 x 1, freezer 068-2015 x 1", "unit": "Nos", "qty": 2, "rate": 45.00},
+    {"description": "Vibration absorber — Harbax, 5/8\"", "unit": "Nos", "qty": 2, "rate": 45.00},
+    {"description": "Copper P trap — 5/8\"", "unit": "Nos", "qty": 2, "rate": 10.00},
+    {"description": "Copper rod — 0%, 1 tube", "unit": "Nos", "qty": 1, "rate": 60.00},
+    {"description": "Castel flare nut — 7010/33, 3/8\"", "unit": "Nos", "qty": 6, "rate": 5.00},
+    {"description": "Olab flare nut — 1/2\"", "unit": "Nos", "qty": 2, "rate": 6.00}
+  ],
+  "discount": 62.00,
+  "grand_total_label": "TOTAL ORDER VALUE",
+  "notes": [
+    "Placed against your quotation ART-QTN-3496-26 dated 29-10-2026. Sub-total QAR 14,412.00 less your discount of QAR 62.00, net QAR 14,350.00. Payment 100% CDC upon collection, ex-works Doha. Your offer is ex-stock subject to prior sale and valid five (5) days, so kindly acknowledge this order in writing today, confirm that all items are held against it and give us the collection date.",
+    "YOUR SELECTION IS AT 45 °C AMBIENT AND OUR DESIGN AMBIENT IS 46 °C. Both units are offered on a 45 °C ambient rating — the MCZC 048 at 2 kW at -5 °C Te and the LGQC 068 at 1.4 kW at -25 °C Te. Please confirm in writing, BEFORE collection, that each unit holds its room at the design ambient of 46 °C: the chiller room 14.52 cbm at 0 °C to +8 °C and the freezer room 14.52 cbm at -18 °C to -22 °C, each on R404A, with the compressor running not more than sixteen (16) hours per day. The selection is yours and the selection printout for each unit is to be supplied with the goods. We will not collect until that confirmation is received.",
+    "DEFROST AND DRAIN FOR THE FREEZER ARE NOT ANSWERED BY THIS QUOTATION. A freezer room at -18 °C to -22 °C needs electric defrost with a timer and a termination thermostat, and a heated, insulated drain line. Please confirm in writing whether the Gunay GNE 135.8D is supplied with electric defrost heaters fitted, whether the Subzero CRC205200 control panel carries the defrost timer and termination thermostat for that duty, and quote the drain heater tape separately if it is not included. We will not accept a freezer system that cannot defrost.",
+    "ITEMS NOT ON THIS ORDER. This order covers the units, evaporators, control panels, valves and accessories listed above. Still required to complete both systems and NOT included: the R404A refrigerant charge, the interconnecting copper tube and fittings, the Armaflex insulation, and the insulated drain lines. Please quote these separately and immediately, stating the refrigerant charge in kg for each system.",
+    "SPECIFICATION CONFIRMED AS ABOVE. The makes, models, part numbers, capacities and quantities stated are what we are ordering and what is to be supplied. Any substitution of make, model, capacity, compressor type or refrigerant requires our prior written approval before collection; goods supplied against a substitution we have not approved are liable to be returned at your cost.",
+    "All items are to be supplied new, in original manufacturer's packing, with the manufacturer's data plate, warranty documentation, wiring details and the unit selection printouts. We will inspect at collection and may reject on the spot. The prices are fixed and no handling, transport or other charge will be accepted beyond the total order value above. Please quote LPO-216/2026 on your delivery note and invoice, and raise the invoice in the name shown above."
+  ]
+}

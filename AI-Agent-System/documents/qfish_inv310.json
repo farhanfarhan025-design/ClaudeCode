@@ -1,0 +1,55 @@
+{
+  "type": "invoice",
+  "badge": ["SECOND", "INVOICE"],
+  "number": "INV-310/2026",
+  "date": "19-11-2026",
+  "ref": "QUT/DCTS/SQ144/2026 — approved and stamped",
+  "currency": "QAR",
+  "filename": "Invoice_INV-310-2026_QFishTrading_SecondPayment_30pct",
+  "payee_name": "The New Doha Kitchen Equipment Services W.L.L.",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "BILL TO",
+    "name": "M/s. Q Fish Trading",
+    "fields": [
+      "P.O. Box 14569, Doha, State of Qatar  |  C.R. 134683",
+      {"label": "Project", "value": "Enlargement of the freezer room to 18.00 x 14.00 x 6.00 m (1,512.00 cbm), -18 °C to -22 °C"},
+      {"label": "Our quotation", "value": "QUT/DCTS/SQ144/2026 — approved and stamped"},
+      {"label": "Contract Value", "value": "QAR 150,000.00"},
+      {"label": "Payment terms", "value": "50% advance / 30% after installation of the sandwich panel / 10% during the works / 10% final"},
+      {"label": "Stage", "value": "Second instalment — 30% on installation of the sandwich panel"}
+    ]
+  },
+  "lines": [
+    {
+      "description": "SECOND PAYMENT — 30% OF THE CONTRACT VALUE\nSecond instalment against our approved quotation QUT/DCTS/SQ144/2026 for the enlargement of the freezer room to 18.00 x 14.00 x 6.00 m (1,512.00 cbm) at -18 °C to -22 °C, falling due on installation of the sandwich panel.\nThe panel work comprises 636.00 sqm of NEW 100 mm PUF sandwich panel — 384.00 sqm to all four walls and 252.00 sqm to the ceiling — with all aluminium coving, corner angles, silicone sealing, panel support steel, fasteners and accessories, together with the NEW sliding cold room door 2000 x 2500 mm with heated frame, track, rollers, guides and internal safety release.\nContract value QAR 150,000.00 — this invoice covers the second instalment of 30%.",
+      "unit": "Lot",
+      "qty": 1,
+      "rate": 45000.00
+    }
+  ],
+  "grand_total_label": "AMOUNT NOW DUE",
+  "bank": {
+    "Bank": "The Commercial Bank (P.S.Q.C.), Grand Hamad Branch – 4010",
+    "Account Name": "The New Doha Kitchen Equipment Services W.L.L.",
+    "Account Number": "4010-777739-001",
+    "IBAN": "QA06 CBQA 0000 0000 4010 7777 3900 1",
+    "SWIFT / BIC": "CBQAQAQA",
+    "Currency": "Qatari Riyal (QAR)"
+  },
+  "notes_new_page": true,
+  "notes": [
+    "ACCOUNT POSITION. Contract value QAR 150,000.00, payable in four stages as agreed between us. Received: 50% advance QAR 75,000.00, settled in full on 17-11-2026 across six transfers and receipted under RCT-302/2026, RCT-303/2026, RCT-304/2026, RCT-306/2026 and RCT-309/2026. This invoice: second instalment 30% QAR 45,000.00 on installation of the sandwich panel. Remaining after this invoice: 10% QAR 15,000.00 during the works and 10% QAR 15,000.00 final — QAR 30,000.00 in all.",
+    "AGREED PAYMENT SCHEDULE. 50% advance QAR 75,000.00; 30% QAR 45,000.00 after installation of the sandwich panel; 10% QAR 15,000.00 during the works; and 10% QAR 15,000.00 final. This schedule replaces the terms printed at clause 12 of our quotation QUT/DCTS/SQ144/2026, which are superseded and are not to be applied to this order.",
+    "Payment due on presentation of this invoice. Payment may be made by cheque or bank transfer to the account shown above; cheques to be crossed \"A/C Payee Only\" and drawn strictly in favour of the account name given, which is THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L. with no word between Equipment and Services. Kindly quote invoice INV-310/2026 as the reference. Our thanks for settling the advance in full.",
+    "WHAT FOLLOWS THIS STAGE. The refrigeration works follow the panel: the NEW BITZER (Germany) LH135/4JE-22Y-40P condensing unit, 22 HP, with its Güntner (Germany) GACC RX 050.2-2SN-JNA7E unit cooler, the new control box with all safeties, the refrigeration piping, insulation, valves, electric defrost and insulated drain lines with heating tape, the internal lighting and door frame heater, and the re-commissioning of your two (2) existing Dorin 15 HP systems — followed by testing, commissioning and handover with operation training.",
+    "THE TWO EXISTING DORIN 15 HP UNITS CARRY NO WARRANTY FROM US. They are your own equipment, re-used and re-commissioned under this contract. We warrant our re-commissioning work, but not the condensing units themselves, their compressors, motors or controls, and not their capacity, performance or continued operation. Should either be found on commissioning to be beyond economic repair, or to require parts, we shall report it to you, quote the cost and obtain your written approval before any work is done.",
+    "THE FLOOR REMAINS OUTSIDE THIS CONTRACT. No floor panel, insulated floor build-up, under-floor ventilation or under-floor heating is included, and the room is installed on your existing floor. We repeat our offer to survey the existing floor and to quote an insulated floor or an under-floor ventilation system separately. A freezer of this size held at -18 °C to -22 °C draws heat continuously out of the ground beneath it, and we should not be doing our job if we did not put the point to you again in writing.",
+    "WARRANTY: twelve (12) months on the cold room panels, the new door and our workmanship from the date of handover, and twelve (12) months on the new compressor, the evaporator and condenser coils, the electrical components and the controls from the date of commissioning. Excludes the two existing Dorin units as set out above, and damage from misuse, power surge, improper voltage, water ingress, unauthorised modification or the absence of routine maintenance."
+  ]
+}
