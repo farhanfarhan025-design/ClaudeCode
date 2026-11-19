@@ -3487,6 +3487,39 @@ out and before the PCC cover, and after the RCC pour — each on one working day
 30% advance of 28,500 was raised on 03-11 and is outstanding. Their LPO's delivery date of
 17-11-2026 is this week and the programme has not started.
 
+### OL-139 — Al Zahrawi and Everbloom closed, but neither has a receipt or an instrument
+**Owner:** Farhan · **Raised:** 2026-11-19 · **Value:** QAR 9,150 settled · **RECEIPTS OUTSTANDING**
+
+Farhan confirmed on 19-11-2026 that both accounts are **paid and closed**:
+
+| Client | Invoice | QAR | Outstanding since |
+|---|---|---|---|
+| **Al Zahrawi Medical LLC** | INV-263/2026 | **4,900.00** | approved 18-08-2026 |
+| **Everbloom** | INV-289/2026 | **4,250.00** | raised 26-10-2026 |
+
+**Total 9,150.** The order book and the receivables report are updated; the list now shows
+**12 customers and 579,555** against 14 and 588,705 before.
+
+**NO RECEIPT HAS BEEN ISSUED FOR EITHER, BECAUSE NO INSTRUMENT IS KNOWN.** Farhan said only that
+they are closed — no cheque number, no transfer reference, no date, no statement of cash. A
+receipt in the house format requires an instrument or the renderer refuses it, and rightly:
+**a receipt that cannot name how the money arrived is not worth issuing.**
+
+**This is now a pattern worth naming.** Payments recorded on Farhan's word alone, with no
+instrument captured: BSI 750, Westin 1,800, Green Land 7,300 and Stop n Shop's 20,000 PDC (all
+29-10-2026), and now these two. **Six payments, 43,150 in all, with nothing in the bank register
+to tie them to.** Separately, five historic payments remain unreceipted (Oscar Prime 64,250, CCC
+76,050, Sunrise 27,600, Lean N Fit 17,000, Ruwais 1,850 — OL-082).
+
+**What is needed for each of the two closed here:** the instrument (cheque number and bank, or
+transfer reference), the date, and the amount. **Give me those and RCT numbers follow the same
+day** — Everbloom's in particular closes a job that also has a handover report (HO/TNDK/290/2026),
+so its file would then be complete end to end.
+
+**Everbloom's file is otherwise the cleanest on the book:** quotation, advance invoice, advance
+receipt, final invoice, handover report, and now settlement. **Only the closing receipt is
+missing.**
+
 ### OL-138 — Q Fish second invoice prepared for a milestone that has not happened yet
 **Owner:** Farhan · **Raised:** 2026-11-19 · **Value:** QAR 45,000 · **DO NOT SEND YET**
 

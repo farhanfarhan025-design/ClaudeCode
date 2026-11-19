@@ -31,10 +31,6 @@ ROWS = [
      "INV-265 issued 29-08-2026. Unpaid for almost three months."),
     ("M/s. Panda Cakes", "Chiller room 4.35 x 2.00 x 2.40 m", 29000, 21750, 5800, 1450,
      "INV-295 for the 20% delivery stage; 5% on handover to follow."),
-    ("Al Zahrawi Medical LLC", "Cold room maintenance", 4900, 0, 4900, 0,
-     "INV-263. Approved 18-08-2026 and unpaid since."),
-    ("Everbloom", "Flower display chiller", 17000, 12750, 4250, 0,
-     "INV-289 covers both closing stages. Work complete and handed over."),
 ]
 
 UNKNOWN = [
@@ -110,8 +106,8 @@ HTML = u"""<!DOCTYPE html>
   <div class="ttl">AMOUNTS RECEIVABLE FROM CUSTOMERS</div>
 </div>
 <div class="rule"></div>
-<div class="asat"><b>As at 19 November 2026.</b> Figures in Qatari Riyals.
-<b>HBK-BWTC-BEIL JV (Mesaieed) is excluded at your instruction</b> &mdash; that contract carries a further
+<div class="asat"><b>As at 19 November 2026 (revised).</b> Figures in Qatari Riyals.
+<b>Al Zahrawi Medical and Everbloom are now settled in full and are closed off this list.</b> <b>HBK-BWTC-BEIL JV (Mesaieed) is excluded at your instruction</b> &mdash; that contract carries a further
 QAR 400,000.00 receivable, of which 340,000.00 has never been invoiced.</div>
 
 <div class="cards">
@@ -124,7 +120,7 @@ QAR 400,000.00 receivable, of which 340,000.00 has never been invoiced.</div>
 <table>
 <tr><th class="l">#</th><th class="l">Customer / project</th><th>Contract</th><th>Received</th><th>Invoiced,<br/>unpaid</th><th>Not yet<br/>invoiced</th><th>Total<br/>receivable</th></tr>
 __ROWS__
-<tr class="tot"><td></td><td>TOTAL &mdash; 14 customers, HBK excluded</td><td class="r">__CONTRACT__</td><td class="r">__RECD__</td><td class="r">__INV__</td><td class="r">__NOTINV__</td><td class="r">__OUT__</td></tr>
+<tr class="tot"><td></td><td>TOTAL &mdash; 12 customers, HBK excluded</td><td class="r">__CONTRACT__</td><td class="r">__RECD__</td><td class="r">__INV__</td><td class="r">__NOTINV__</td><td class="r">__OUT__</td></tr>
 </table>
 
 <h2>NOT INCLUDED IN THE TOTAL &mdash; no payment record on file</h2>
