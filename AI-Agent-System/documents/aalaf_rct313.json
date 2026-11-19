@@ -1,0 +1,72 @@
+{
+  "type": "receipt",
+  "number": "RCT-313/2026",
+  "date": "12-11-2026",
+  "ref": "INV-297/2026",
+  "meta_labels": [
+    "RECEIPT NO",
+    "DATE",
+    "AGAINST INVOICE"
+  ],
+  "currency": "QAR",
+  "filename": "Receipt_RCT-313-2026_Aalaf_30pct_Advance_28500",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "RECEIVED FROM",
+    "name": "Al Mairqab Industrial Investment W.L.L. (Aalaf)",
+    "fields": [
+      "P.O. Box 295, Doha, State of Qatar",
+      {
+        "label": "Kind attention",
+        "value": "Mr. Francis Lloyd De Ramos — Procurement Manager"
+      },
+      {
+        "label": "Project",
+        "value": "One (1) chiller room 5.70 x 6.20 x 2.60 m, civil works with under-floor ventilation, and stainless steel shelving"
+      },
+      {
+        "label": "Your order",
+        "value": "LPO 26-00330 dated 03-11-2026 — QAR 95,000.00"
+      },
+      {
+        "label": "Status",
+        "value": "30% ADVANCE RECEIVED IN FULL"
+      },
+      {
+        "label": "Balance After This Receipt",
+        "value": "QAR 66,500.00"
+      }
+    ]
+  },
+  "lines": [
+    {
+      "description": "30% advance payment received in full against INV-297/2026 dated 03-11-2026 — supply, installation, testing and commissioning of one (1) chiller room, civil works with under-floor uPVC ventilation, and stainless steel shelving, under your LPO 26-00330",
+      "unit": "Job",
+      "qty": 1,
+      "rate": 28500.0
+    }
+  ],
+  "grand_total_label": "TOTAL RECEIVED",
+  "instrument": {
+    "type": "cheque",
+    "payment_mode": "Cheque",
+    "cheque_no": "00000157",
+    "cheque_date": "11-11-2026",
+    "bank": "Masraf Al Rayan Q.P.S.C. — Lusail Marina Branch, Doha, Qatar",
+    "drawer": "AL MAIRQAB INDUSTRIAL INVESTMENT W.L.L. — drawn on a/c 0022-108718-001",
+    "crossing": "Crossed A/C PAYEE ONLY",
+    "received_on": "12-11-2026, under our cash/cheque receipt voucher no. 0741"
+  },
+  "notes": [
+    "ACCOUNT POSITION. Contract value QAR 95,000.00 under your LPO 26-00330. The 30% advance of QAR 28,500.00 is received in full by this receipt. Balance QAR 66,500.00 — 25% QAR 23,750.00 on delivery of the panels, 25% QAR 23,750.00 on delivery of the machines, and 20% QAR 19,000.00 on completion, testing and commissioning.",
+    "Received with thanks, subject to realisation of the cheque. The amount in words and in figures agree at QAR 28,500.00, the payee name is correct, and the cheque is crossed A/C Payee Only — for which our thanks. This receipt is issued against our cash/cheque receipt voucher no. 0741 of 12-11-2026 and replaces it for your records; the two are one and the same payment.",
+    "THE PROGRAMME NOW RUNS. The civil works and under-floor ventilation proceed first, then the cold room, then the shelving, as section 12 of our quotation sets out. We are placing the material orders and shall confirm the dates to you in writing. The joint confirmation of clear height, finished floor level, slab and PCC levels is still to be made on site before the panels are ordered.",
+    "THE COMPLETION DATE ON YOUR ORDER. Your LPO gives a delivery date of 17-11-2026, which has now passed. Our quotation gives a total project duration of 25 to 30 days from LPO on a civil-ready site, the works being sequential and the concrete requiring time to cure before the room is built upon it. We shall press on as hard as the work allows and write to you with a programme, but kindly confirm a revised completion date in writing, or advise if you wish the works to be phased.",
+    "This receipt is issued against INV-297/2026 and is subject to the terms of our quotation QUT/DCTS/SQ143/2026 and your LPO 26-00330."
+  ]
+}

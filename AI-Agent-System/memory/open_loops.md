@@ -3487,6 +3487,40 @@ out and before the PCC cover, and after the RCC pour — each on one working day
 30% advance of 28,500 was raised on 03-11 and is outstanding. Their LPO's delivery date of
 17-11-2026 is this week and the programme has not started.
 
+### OL-142 — Aalaf's advance paid, and it is the best-presented cheque on the book
+**Owner:** Farhan · **Raised:** 2026-11-19 · **Value:** QAR 28,500 received · **DATE STILL UNAGREED**
+
+**RCT-313/2026** — the **30% advance of 28,500 received in full** on **12-11-2026** against
+INV-297/2026, by **Masraf Al Rayan cheque 00000157** dated 11-11-2026, drawn by AL MAIRQAB
+INDUSTRIAL INVESTMENT on a/c 0022-108718-001, Lusail Marina branch. **Balance 66,500** — 25% on
+panel delivery 23,750, 25% on machine delivery 23,750, 20% on completion 19,000.
+
+**THE CHEQUE IS CORRECT ON EVERY POINT.** Crossed **A/C PAYEE ONLY**, payee written in full as
+THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L., words and figures agreeing at 28,500. **Set that
+against Gozl, who have paid 47,840 on two uncrossed bearer cheques.** Bismi and now Aalaf both
+cross theirs; Gozl should be shown how it is done.
+
+**A MANUAL VOUCHER WAS ALREADY WRITTEN FOR IT — no. 0741 of 12-11-2026**, from the pre-printed
+book. **RCT-313 says on its face that it is issued against voucher 0741 and replaces it, and that
+the two are one and the same payment.** Without that sentence the same 28,500 appears twice in
+the records. **Check whether the voucher book is being used for other receipts that never reach
+these files** — the book reached no. 1347 in May and no. 0095 in July, so it is in active use.
+
+**THE DELIVERY DATE IS STILL NOT AGREED, AND IT IS NOW TWO DAYS PAST.** Their LPO 26-00330 gives
+**17-11-2026**; SQ143 gives **25 to 30 days** for sequential works on a civil-ready site. INV-297
+put that in writing on 03-11 and asked them to confirm a programme or phase the works. **They have
+not answered, and the advance only arrived on 12-11.** Note 4 of this receipt asks again.
+**On a 95,000 contract with no penalty clause the exposure is reputational rather than financial
+— but Aalaf stopped once already over a vendor-name discrepancy, so they are a client who reads
+the paperwork.**
+
+**THE WORK CAN NOW START.** Civil works and under-floor ventilation first (LPO-219 to Star
+Technical, 13,500, whose own 10,000 advance is now funded), then the cold room, then the shelving.
+**LPO-220 for the panel is still unpaid pending the 0.30 mm gauge answer and the 2.90 m wall
+height question (OL-134)** — settle both before the panel goes into production.
+
+**Receivables after this payment: 509,655.**
+
 ### OL-141 — One A had already paid on 19 October; the reminder and the final invoice were both wrong
 **Owner:** Farhan · **Raised:** 2026-11-19 · **Value:** QAR 6,375 still due · **SUPERSEDES OL-140**
 
