@@ -3487,7 +3487,50 @@ out and before the PCC cover, and after the RCC pour — each on one working day
 30% advance of 28,500 was raised on 03-11 and is outstanding. Their LPO's delivery date of
 17-11-2026 is this week and the programme has not started.
 
+### OL-141 — One A had already paid on 19 October; the reminder and the final invoice were both wrong
+**Owner:** Farhan · **Raised:** 2026-11-19 · **Value:** QAR 6,375 still due · **SUPERSEDES OL-140**
+
+**A QNB transaction receipt produced on 19-11-2026 shows QAR 29,400.00 paid on 19-10-2026 at
+20:52** from One A's a/c 0251-054777-001 to the TNDK IBAN, purpose *"Projects Payments /
+Construction and Development Payments"*. **29,400 is INV-275/2026 to the riyal.**
+
+**TNDK CHASED A PAYMENT THAT HAD ALREADY BEEN MADE, TWICE.**
+
+| Date | What TNDK said | What was true |
+|---|---|---|
+| 19-10-2026 | — | **INV-275 paid in full** |
+| 31-10-2026 | LTR/DCTS/256 asked for release of the payment, gave a two-day deadline, said the reserved unit would go elsewhere | already settled 12 days |
+| 05-11-2026 | INV-300 note 3: *"INV-275/2026 REMAINS OUTSTANDING… we have not yet had your reply"* | already settled 17 days |
+
+**That is very likely why the client never replied.** OL-140 read the 12,000 of 05-11 as the
+letter working; it was not — the client had paid, and then paid again on account.
+
+**CORRECTED ACCOUNT.** Contract 73,500. Received **67,125** — advance 25,725 (RCT-274), **29,400
+on 19-10-2026 (RCT-312)**, and 12,000 (RCT-311, now applied to INV-300). **Balance 6,375**, being
+the remainder of INV-300. **Not 35,775.** Receivables fall from 567,555 to **538,155**.
+
+**TWO DOCUMENTS REISSUED TODAY.** **RCT-312/2026** receipts the 29,400, states that the receipt
+is late and regrets it, and **withdraws the reminder and the invoice note unreservedly**.
+**RCT-311/2026** is reissued against INV-300 with the allocation corrected; the earlier version
+applying it to INV-275 is deleted.
+
+**THE CAUSE IS WORTH NAMING, BECAUSE IT WILL RECUR.** Nothing was mis-recorded: the advice simply
+never reached the office, and on 31-10 Farhan confirmed INV-275 unpaid. **TNDK has no sight of
+its own bank account in these records.** Every receipt here is built from an advice the client
+chooses to send. **The fix is a weekly look at the Commercial Bank statement**, matching credits
+to invoices — the same check that would settle Oscar Prime's 119,000 (OL-083), the Gozl cheques
+and the Bismi 8,000.
+
+**THE PENALTY EXPOSURE IS NOW SMALLER BUT NOT GONE.** WO/1A/096/26 carries 2,000 per calendar day
+against a 30-day period from 27-09-2026. **Only 6,375 remains to deduct from** — but the
+withdrawal in RCT-312 is also the right posture if they ever raise it.
+
+**STILL OWED TO THE FILE:** the dated advice for the 12,000 of MS1A11300934, which carries no
+transaction date.
+
 ### OL-140 — One A pay 12,000 on account; the chasing letter worked, partly
+> **SUPERSEDED 19-11-2026 by OL-141.** The inference that the 31-10 letter produced this payment
+> was wrong: INV-275 had been settled on 19-10-2026, before the letter was written.
 **Owner:** Farhan · **Raised:** 2026-11-19 · **Value:** QAR 35,775 still due · **DEBT HALVED, NOT CLOSED**
 
 **RCT-311/2026** — **12,000 received** by Tahweel transfer, **MS1A11300934 / MB261105271277**,
