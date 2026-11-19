@@ -29,8 +29,8 @@ ROWS = [
      "Both stages paid on uncrossed bearer cheques, neither confirmed cleared. Split of the 20% not yet set."),
     ("Oscar Prime Trading (1st job)", "Cold room — final balance", 75000, 64250, 10750, 0,
      "INV-265 issued 29-08-2026. Unpaid for almost three months."),
-    ("M/s. Panda Cakes", "Chiller room 4.35 x 2.00 x 2.40 m", 29000, 21750, 5800, 1450,
-     "INV-295 for the 20% delivery stage; 5% on handover to follow."),
+    ("M/s. Panda Cakes", "Chiller room 4.35 x 2.00 x 2.40 m", 29000, 27550, 0, 1450,
+     "INV-295 settled in cash 05-11-2026 (RCT-314). Only the 5% handover retention remains."),
 ]
 
 UNKNOWN = [

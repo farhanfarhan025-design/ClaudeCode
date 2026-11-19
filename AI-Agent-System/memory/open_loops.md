@@ -3487,6 +3487,39 @@ out and before the PCC cover, and after the RCC pour — each on one working day
 30% advance of 28,500 was raised on 03-11 and is outstanding. Their LPO's delivery date of
 17-11-2026 is this week and the programme has not started.
 
+### OL-143 — Panda Cakes pay the delivery stage in cash; only the retention remains
+**Owner:** Farhan · **Raised:** 2026-11-19 · **Value:** QAR 1,450 left · **FOURTH CASH RECEIPT**
+
+**RCT-314/2026** — **5,800 received in cash on 05-11-2026** against INV-295/2026, being the 20%
+on delivery of materials. **Received to date 27,550 of 29,000; balance 1,450**, the 5% on
+handover. Signed and stamped.
+
+**THIS IS THE BEST-PAYING ACCOUNT ON THE BOOK.** The 75% advance cleared by Fawran transfer two
+days after INV-287, and this stage was settled two days after INV-295. **A 29,000 contract
+95% collected inside three weeks**, with only the handover retention outstanding.
+
+**REPORTED FOURTEEN DAYS LATE.** The money came on 05-11 and reached these records on 19-11, so
+the receivables list carried 5,800 as outstanding for a fortnight that it was not. **The same
+fortnight in which One A were chased for a payment they had made (OL-141).** Two instances in
+one week of the records lagging the bank.
+
+**FOURTH LARGE CASH RECEIPT IN A MONTH, AND NONE HAS A DEPOSIT REFERENCE.**
+
+| | QAR | Date |
+|---|---|---|
+| Bismi, part advance | 22,000 | 18-10-2026 |
+| Day to Day, full advance | 26,000 | 14-11-2026 |
+| Bismi, advance completion | 17,975 | 17-11-2026 |
+| **Panda Cakes, delivery stage** | **5,800** | **05-11-2026** |
+| **Total cash in hand or banked, unproven** | **71,775** | |
+
+**None of the four has a bank deposit slip recorded against it.** Cash is the only receipt that
+leaves no trace of its own — the client has a signed receipt, but TNDK has nothing to show the
+money reached the account. **Ask for the four deposit references together and the register is
+whole.**
+
+**Receivables after this payment: 503,855.**
+
 ### OL-142 — Aalaf's advance paid, and it is the best-presented cheque on the book
 **Owner:** Farhan · **Raised:** 2026-11-19 · **Value:** QAR 28,500 received · **DATE STILL UNAGREED**
 
