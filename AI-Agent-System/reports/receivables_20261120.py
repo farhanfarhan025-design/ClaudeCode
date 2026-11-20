@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Receivables from customers, as at 19-11-2026. HBK-BWTC-BEIL JV excluded at Farhan's instruction."""
+"""Receivables from customers, as at 20-11-2026. HBK-BWTC-BEIL JV excluded at Farhan's instruction."""
 import io
 
 SP = "/tmp/claude-0/-home-user-ClaudeCode/f198eb8f-5169-5011-a0a8-bd4d87e7e71f/scratchpad"
@@ -9,8 +9,9 @@ q = lambda n: "{:,.2f}".format(n)
 ROWS = [
     ("Consolidated Contractors (CCC)", "Cold rooms — CCC Labor Camp", 253500, 76050, 76050, 101400,
      "INV-293 for the second 30%. Work complete; the third 30% and the 10% retention have never been invoiced."),
-    ("M/s. Q Fish Trading", "Freezer room enlargement, 1,512 cbm", 150000, 75000, 0, 75000,
-     "Advance settled in full. INV-310 for the 30% is prepared but must wait until the panel is installed."),
+    ("M/s. Q Fish Trading", "Freezer room enlargement, 1,512 cbm", 150000, 120000, 0, 30000,
+     "80% collected. The 30% of 45,000 was paid on 20-11 (RCT-317) although the panel has not been ordered, "
+     "let alone installed. 10% falls due during the works and 10% on completion."),
     ("Al Mairqab Industrial Investment (Aalaf)", "Chiller room, civil works, SS shelving", 95000, 28500, 0, 66500,
      "30% advance paid 12-11 by crossed cheque (RCT-313). Their LPO delivery date of 17-11 has passed."),
     ("Oscar Prime Trading (2nd job)", "Five cold rooms", 170000, 119000, 0, 51000,
@@ -105,7 +106,7 @@ HTML = u"""<!DOCTYPE html>
   <div class="ttl">AMOUNTS RECEIVABLE FROM CUSTOMERS</div>
 </div>
 <div class="rule"></div>
-<div class="asat"><b>As at 19 November 2026 (revised).</b> Figures in Qatari Riyals.
+<div class="asat"><b>As at 20 November 2026.</b> Figures in Qatari Riyals.
 <b>Al Zahrawi Medical, Everbloom and Oscar Prime's first contract are settled and closed off this list.</b> <b>Oscar Prime's 10,750 was paid on 01-09-2026 and One A's INV-275 on 19-10-2026 — both advices were produced only on 19-11, having been carried as unpaid until then.</b> <b>HBK-BWTC-BEIL JV (Mesaieed) is excluded at your instruction</b> &mdash; that contract carries a further
 QAR 400,000.00 receivable, of which 340,000.00 has never been invoiced.</div>
 
@@ -136,7 +137,7 @@ __ROWS__
 
 <div class="note2">
 <b>Where the money actually is.</b>
-&nbsp;<b>1.</b> <b>Three customers hold 59% of everything owed</b> &mdash; CCC 177,450, Aalaf 95,000 and Q Fish 75,000.
+&nbsp;<b>1.</b> <b>Two customers hold 62% of everything owed</b> &mdash; CCC 177,450 and Aalaf 95,000. <b>Q Fish have now paid 80% of a contract whose panel has not been ordered</b>, which is cash in hand and an obligation in equal measure.
 &nbsp;<b>2.</b> <b>101,400 of CCC's balance has never been invoiced</b> on a job completed in September, and is the
 single easiest sum on this page to turn into cash: the third 30% of 76,050 and the 10% retention of 25,350.
 &nbsp;<b>3.</b> <b>Oscar Prime owe 64,300 across their two live contracts</b>, none of it yet invoiced. Their first
@@ -152,7 +153,7 @@ outstanding, with their own delivery date of 17-11 already past.
 
 <div class="foot">
 The New Doha Kitchen Equipment Services W.L.L.&nbsp; |&nbsp; P.O. Box 80247, Doha, State of Qatar&nbsp; |&nbsp; C.R. 199351&nbsp; |&nbsp; Tel: 7706 0676<br/>
-<i>Internal receivables report &mdash; prepared 19 November 2026 from the order book.</i>
+<i>Internal receivables report &mdash; prepared 20 November 2026 from the order book.</i>
 </div>
 </body></html>"""
 

@@ -3487,6 +3487,51 @@ out and before the PCC cover, and after the RCC pour — each on one working day
 30% advance of 28,500 was raised on 03-11 and is outstanding. Their LPO's delivery date of
 17-11-2026 is this week and the programme has not started.
 
+### OL-146 — Q Fish pay 45,000 for a milestone that has not happened, and now hold 80% of the contract
+**Owner:** Farhan · **Raised:** 2026-11-20 · **Value:** QAR 120,000 collected · **SUPERSEDES OL-138**
+
+**RCT-317/2026** — **45,000 received 20-11-2026 19:46**, QNB Tahweel transfer **IB1A14575587 /
+IB261120528434**, **Status: Success**, debit a/c 0250-068740-001. This is the **30% second
+instalment** and it settles **INV-310/2026** in full. **Received to date 120,000 of 150,000 —
+eighty per cent. Balance 30,000**, being 10% during the works and 10% on completion.
+
+**OL-138 SAID THIS INVOICE SHOULD NOT BE SENT UNTIL THE PANEL WAS UP. IT NEVER WAS SENT. THEY
+PAID ANYWAY.** The stage is *"after installation of the sandwich panel"*. On these records:
+
+| | |
+|---|---|
+| Panel order LPO-217 to JMB | **still not placed** — held on the 0.50/0.30 mm gauge question |
+| Material delivery per SQ144 | 7 to 10 days from the approved advance |
+| Installation per SQ144 | 25 to 30 working days |
+| **Panel installed?** | **No. It has not been bought.** |
+
+**So TNDK now holds 120,000 against a freezer room whose principal material has not been
+ordered.** That is excellent for cash and a real obligation in the same breath. **Nothing is
+wrong with it — the client chose to pay ahead — but it changes what the JMB delay costs.**
+
+**THE JMB CALL IS NOW THE MOST OVERDUE ITEM ON THE BOOK (OL-131 / OL-134 / OL-137).** The
+0.30 mm facing question sits across four orders with **112,460** at stake, and it is the single
+thing holding LPO-217. **A customer who has paid 80% in advance will not stay patient for ever,
+and this one has never once had to be reminded of anything.** One telephone call settles the
+gauge; the order goes the same day.
+
+**EIGHT TRANSFERS, EVERY ONE STATUS SUCCESS, NOT ONE REMINDER SENT.** 10,000 x4 on 05–08-11,
+20,000 on 14-11, 15,000 on 17-11, 45,000 on 20-11. **This is the best-behaved account on the
+book after Panda Cakes, and it is also the largest sum TNDK holds against unstarted work.**
+Treat the two facts as one.
+
+**THE FLOOR IS NOW RAISED FOR THE FOURTH TIME, IN NOTE 3 OF THE RECEIPT.** 1,512 cbm at −18 °C
+to −22 °C over an uninsulated slab, no under-floor ventilation, and **Q Fish have never answered
+in writing.** Note 4 repeats that the two existing Dorin 15 HP units carry no TNDK warranty.
+**Each document that repeats both strengthens the position if the slab ever moves** — but at 80%
+paid, the commercial leverage to get that instruction in writing is at its highest right now.
+
+**INV-310/2026 SHOULD GO WITH THIS RECEIPT.** It was prepared on 19-11 and held. The payment has
+overtaken it, so send the two together: the receipt needs an invoice to name, and the invoice is
+the only document that states what the 45,000 was for.
+
+**Receivables after this payment: 436,380.**
+
 ### OL-145 — Oscar Prime: one contract closes, and 25,000 arrives that has not arrived
 **Owner:** Farhan · **Raised:** 2026-11-19 · **Value:** 10,750 received, 25,000 unproven · **TWO ADVICES, TWO DIFFERENT THINGS**
 
