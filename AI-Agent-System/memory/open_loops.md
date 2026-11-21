@@ -3487,6 +3487,56 @@ out and before the PCC cover, and after the RCC pour — each on one working day
 30% advance of 28,500 was raised on 03-11 and is outstanding. Their LPO's delivery date of
 17-11-2026 is this week and the programme has not started.
 
+### OL-151 — Gozl's handover report discloses the equipment substitution, after three weeks of not doing so
+**Owner:** Farhan · **Raised:** 2026-11-21 · **Value:** QAR 11,960 falls due · **READ NOTE 2 BEFORE SENDING**
+
+**HO/TNDK/003/2026** — Gozl Veterinary, chiller room 4.00 x 4.00 x 2.50 m, 0 °C to +8 °C, **duty
+and standby**. Nineteen items: 72.00 sqm panel to walls, ceiling and floor; insulated floor with
+18 mm marine ply and 1.5 mm chequered plate; door 900 x 1900; **two RIME RLUM-B030Y-1C with
+BITZER 2FES-3Y**; **two GUNAY GYE 235-6B**; two independent circuits with Danfoss and Castel
+accessories; SUBZERO CRC205200 panel with changeover; both circuits tested, evacuated, charged
+and proved; **each system run alone and proved to hold the room**; changeover proved both ways.
+
+**THIS DOCUMENT NAMES THE INSTALLED MODELS, AND THAT IS DELIBERATE.** OL-120 recorded that
+INV-294 described the plant generically to avoid asserting models that a data plate would
+contradict, and called that *"a holding position, not a cure."* **A handover report is where the
+holding position runs out.** It is the document a veterinary client files for warranty and
+service, the one his engineer reads against SQ130, and the one that triggers the final 11,960.
+Writing the quoted models would be false; omitting all models would leave the client a handover
+record naming no equipment, which on a duty/standby vaccine store is conspicuous in itself.
+
+**SO NOTE 2 DISCLOSES IT, IN TNDK'S OWN WORDS, BEFORE THEIR ENGINEER FINDS IT.**
+
+| | Sold under SQ130 | Installed |
+|---|---|---|
+| Condensing units | 2 × BITZER 2EES-3Y | **2 × RIME RLUM-B030Y-1C with BITZER 2FES-3Y** |
+| Unit coolers | 2 × GUNAY GNE 240.8B2 | **2 × GUNAY GYE 235-6B slim type** |
+
+Note 2 says the makes are unchanged, gives the reason the slim cooler suits a 2.50 m ceiling,
+rests the case on the test that actually matters — **the room holds 0 °C to +8 °C on either
+system running alone** — states plainly *"we did not bring the change to you in writing
+beforehand and we should have done"*, offers the manufacturers' selection data, and **asks for
+written acceptance.** That last sentence is the point of the whole note.
+
+**BEFORE THIS GOES OUT, TWO THINGS.** First, **confirm the duty figures are real** — LPO-214
+note 2 required Airtronics to confirm in writing that the GYE 235-6B carries 40 cbm at 0 to +8 °C
+on a 16-hour run; OL-113 never recorded a reply. **Send the selection data with the report.** An
+apology backed by figures is a variation; an apology with nothing behind it is an admission.
+Second, **it triggers the 20%** — note 6 says the invoice follows. Raise it only once the
+acceptance is in hand, or the two questions arrive together and the client answers the cheaper one.
+
+**NOTE 3 EARNS ITS PLACE.** It tells them to alternate the lead system monthly so neither machine
+sits idle and seizes. **A standby that has never run is not a standby** — on a vaccine store that
+advice is worth more to them than the apology above it, and it is the reason to read the page.
+
+**THE 20% SPLIT IS STILL NOT SET BY FARHAN.** The terms read *50 / 30 / 20 on completion and
+handover*, so the report treats the 20% as one stage falling due now. **No split has been
+invented.** If Farhan wants it divided, say so before the invoice.
+
+**BOTH CHEQUES REMAIN UNCONFIRMED.** 29,900 (01000012) and 17,940 (01000013) are uncrossed bearer
+cheques and neither has been shown cleared. **47,840 of this contract is still unproven** — the
+same gap as everything else awaiting one look at the bank statement.
+
 ### OL-150 — Two handover reports issued, and the handover series is restarted at 001
 **Owner:** Farhan · **Raised:** 2026-11-21 · **TWO ROOMS HANDED OVER**
 

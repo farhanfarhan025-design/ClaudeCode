@@ -1,0 +1,165 @@
+{
+  "type": "handover_report",
+  "number": "HO/TNDK/003/2026",
+  "date": "21-11-2026",
+  "ref": "QUT/DCTS/SQ130/2026 (Revised) — INV-291 and INV-294/2026",
+  "currency": "QAR",
+  "filename": "HandoverReport_HO-TNDK-003-2026_Gozl_ChillerRoom_DutyStandby",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "HANDOVER TO",
+    "name": "M/s. Gozl Veterinary Services and Trading Co.",
+    "fields": [
+      "Doha, State of Qatar",
+      {
+        "label": "Installation",
+        "value": "One (1) chiller room with DUTY AND STANDBY refrigeration — two independent systems"
+      },
+      {
+        "label": "Internal size",
+        "value": "4.00 m (L) x 4.00 m (W) x 2.50 m (H) — 40.00 cbm"
+      },
+      {
+        "label": "Design condition",
+        "value": "0 °C to +8 °C"
+      },
+      {
+        "label": "Date of handover",
+        "value": "21 November 2026"
+      },
+      {
+        "label": "Warranty runs from",
+        "value": "21 November 2026 — twelve (12) months, see item 21"
+      }
+    ]
+  },
+  "lines": [
+    {
+      "description": "PANELS — 100 mm PUF / PIR sandwich panel to walls, ceiling and floor, 72.00 sqm, 0.40 mm pre-painted Aluzinc both faces in RAL 9002, core density 40 ± 2 kg/m³, erected, plumbed, aligned, coved, sealed with food-grade silicone and fixed",
+      "unit": "Lot",
+      "qty": 1,
+      "result": "Complete"
+    },
+    {
+      "description": "INSULATED FLOOR — insulated floor system laid over the floor panel, 16.00 sqm, with 18 mm marine plywood and 1.5 mm chequered plate finish, sealed and coved to the wall panels",
+      "unit": "Lot",
+      "qty": 1,
+      "result": "Complete"
+    },
+    {
+      "description": "COLD ROOM DOOR — hinged cold room door, clear opening 900 x 1900 mm, complete with heated frame, magnetic gasket, hinges, handle with lock and internal safety release",
+      "unit": "No.",
+      "qty": 1,
+      "result": "Complete"
+    },
+    {
+      "description": "DOOR OPERATION — door closes square on the gasket all round, frame heater proved warm, handle, lock and internal safety release operated from both sides, keys handed over",
+      "unit": "Check",
+      "qty": 1,
+      "result": "Checked"
+    },
+    {
+      "description": "CONDENSING UNITS — two (2) RIME air-cooled condensing units RLUM-B030Y-1C with BITZER semi-hermetic compressors 2FES-3Y, on R404A, arranged as DUTY and STANDBY, each set on anti-vibration mounts with clear airflow to the condenser. PLEASE READ NOTE 2",
+      "unit": "Nos.",
+      "qty": 2,
+      "result": "Complete"
+    },
+    {
+      "description": "UNIT COOLERS — two (2) GUNAY slim type unit coolers GYE 235-6B, ceiling hung, levelled, secured and set with clearance for airflow and service, one to each system. PLEASE READ NOTE 2",
+      "unit": "Nos.",
+      "qty": 2,
+      "result": "Complete"
+    },
+    {
+      "description": "DUTY AND STANDBY CHANGEOVER — the two systems are fully independent on the refrigeration side and are controlled for automatic changeover, so that failure of the running system brings the second into operation without intervention",
+      "unit": "Lot",
+      "qty": 1,
+      "result": "Complete"
+    },
+    {
+      "description": "PIPEWORK — two (2) independent circuits of copper suction and liquid lines brazed throughout under a dry nitrogen purge, suction lines fully Armaflex insulated with vapour-sealed joints, clamped and supported, with sleeves and sealing at the panel penetrations",
+      "unit": "Lot",
+      "qty": 1,
+      "result": "Complete"
+    },
+    {
+      "description": "CIRCUIT ACCESSORIES, EACH SYSTEM — DANFOSS TE 2 thermostatic expansion valve with 068-2006-03 orifice sized and set, DANFOSS DCL 164S filter drier, DANFOSS SGI 12s moisture-indicating sight glass and CASTEL 1068/4A6 solenoid valve with 220 V coil, fitted and proved",
+      "unit": "Sets",
+      "qty": 2,
+      "result": "Complete"
+    },
+    {
+      "description": "CONDENSATE DRAINS — insulated drain lines run from both evaporator trays with traps and continuous fall to the discharge point, each tested to run free",
+      "unit": "Lot",
+      "qty": 1,
+      "result": "Complete"
+    },
+    {
+      "description": "CONTROL PANEL — SUBZERO metal-body control panel CRC205200 with digital temperature controller and display, duty / standby changeover, main isolator, contactors, overloads, control fuses, safeties and indicator lamps, wired, labelled and set to the design condition",
+      "unit": "No.",
+      "qty": 1,
+      "result": "Complete"
+    },
+    {
+      "description": "LIGHTING AND HEATERS — internal vapour-proof LED lighting with door switch, and door frame heater, wired and proved",
+      "unit": "Lot",
+      "qty": 1,
+      "result": "Complete"
+    },
+    {
+      "description": "ELECTRICAL WORKS — complete power and control wiring from the control panel onward to both condensing units, both unit coolers, defrost, lighting and door heater, earthed, glanded and identified",
+      "unit": "Lot",
+      "qty": 1,
+      "result": "Complete"
+    },
+    {
+      "description": "PRESSURE TEST AND EVACUATION — both refrigeration circuits pressure tested separately with dry nitrogen and each held under a standing pressure test to prove it tight, then each evacuated to a deep vacuum with a vacuum hold test to draw off moisture and non-condensables before charging",
+      "unit": "Tests",
+      "qty": 2,
+      "result": "Passed"
+    },
+    {
+      "description": "REFRIGERANT CHARGING — both circuits charged with R404A to the manufacturers' nameplate charges, each charge weighed in, and superheat and sub-cooling measured and set on each system",
+      "unit": "Lot",
+      "qty": 1,
+      "result": "Complete"
+    },
+    {
+      "description": "PULL-DOWN TEST — room run up from ambient and proved to pull down to and hold the design condition of 0 °C to +8 °C, with the defrost cycle observed through a full sequence",
+      "unit": "Test",
+      "qty": 1,
+      "result": "Passed"
+    },
+    {
+      "description": "DUTY AND STANDBY PROVING, AND SAFETIES — EACH SYSTEM RUN ALONE and proved capable of holding the room at the design condition on its own; the automatic changeover operated and proved in both directions, with the standby shown to start and take up the load. High and low pressure cut-outs, compressor overloads and controller set points proved and recorded on both systems",
+      "unit": "Test",
+      "qty": 1,
+      "result": "Passed"
+    },
+    {
+      "description": "SITE CLEARANCE AND TRAINING — packaging, panel offcuts and debris removed and the room left clean; operation of the controller, the duty / standby changeover, the defrost cycle, correct door use and the internal safety release explained to your staff",
+      "unit": "Lot",
+      "qty": 1,
+      "result": "Complete"
+    },
+    {
+      "description": "HANDOVER OF THE INSTALLATION — room handed over complete, running and holding its set point on duty and standby, with this report issued and our warranty running from the date above",
+      "unit": "Lot",
+      "qty": 1,
+      "result": "Handed over"
+    }
+  ],
+  "notes": [
+    "This report records the completion and handover of the chiller room described above, carried out against our revised quotation QUT/DCTS/SQ130/2026 as approved by you on 29-10-2026 and invoiced under INV-291/2026 and INV-294/2026. Each item listed has been installed, tested or checked as stated.",
+    "EQUIPMENT SUPPLIED — A CHANGE FROM THE MODELS NAMED IN OUR QUOTATION, WHICH WE BRING TO YOUR ATTENTION. Our quotation SQ130 named two (2) BITZER 2EES-3Y condensing units and two (2) GUNAY GNE 240.8B2 unit coolers. The units installed are two (2) RIME RLUM-B030Y-1C condensing units carrying BITZER 2FES-3Y compressors, and two (2) GUNAY GYE 235-6B slim type unit coolers — the same manufacturers, in current models selected for the duty of this room, the slim type cooler suiting the 2.50 m ceiling height. The room has been proved to hold 0 °C to +8 °C on EITHER SYSTEM RUNNING ALONE, which is the test that matters on a duty and standby installation. We did not bring the change to you in writing beforehand and we should have done; we do so now. The manufacturers' selection data for both items is available to you on request, and we should be grateful for your written confirmation that the equipment as installed is accepted.",
+    "WHAT DUTY AND STANDBY GIVES YOU, AND HOW TO KEEP IT. Two complete and independent refrigeration systems serve this room. Either will hold it alone. If one fails, the other starts automatically and the room does not warm — which on a veterinary store is the entire purpose of the second system. ALTERNATE THE LEAD SYSTEM regularly, monthly if you can, so that both machines run and neither sits idle long enough to seize; the changeover on the panel does this. A standby that has never run is not a standby.",
+    "READINGS. Suction and discharge pressures, superheat, sub-cooling, compressor running currents and the room pull-down temperature were measured on BOTH systems at commissioning and are held on our service record. A copy will be provided on request.",
+    "WARRANTY. Twelve (12) months from 21 November 2026 on the cold room panels, the door, the insulated floor and our workmanship, and twelve (12) months from the date of commissioning on both condensing units, both unit coolers, the electrical components and the controls. Excludes damage from misuse, power surge or improper voltage, water ingress, unauthorised modification, operation outside the design condition, and the absence of routine maintenance. We recommend routine servicing twice a year on both systems and shall be pleased to quote you an annual maintenance contract.",
+    "ACCOUNT. Contract value QAR 59,800.00. Received QAR 47,840.00 — the 50% advance of QAR 29,900.00 under RCT-292/2026 and the 30% delivery stage of QAR 17,940.00 under RCT-296/2026, both with thanks. The remaining 20% of QAR 11,960.00 falls due on completion and handover, which this report records. Our invoice follows."
+  ]
+}
