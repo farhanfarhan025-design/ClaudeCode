@@ -1,0 +1,56 @@
+{
+  "type": "handover_report",
+  "number": "HO/TNDK/001/2026",
+  "date": "21-11-2026",
+  "ref": "QUT/DCTS/SQ121/2026 (Revised) — INV-287, INV-295 and INV-319/2026",
+  "currency": "QAR",
+  "filename": "HandoverReport_HO-TNDK-001-2026_PandaCakes_ChillerRoom",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "HANDOVER TO",
+    "name": "M/s. Panda Cakes",
+    "fields": [
+      "Doha, State of Qatar",
+      {"label": "Installation", "value": "One (1) chiller room with refrigeration"},
+      {"label": "Internal size", "value": "4.35 m (L) x 2.00 m (W) x 2.40 m (H)"},
+      {"label": "Design condition", "value": "0 °C to +8 °C"},
+      {"label": "Date of handover", "value": "21 November 2026"},
+      {"label": "Warranty runs from", "value": "21 November 2026 — twelve (12) months, see item 20"}
+    ]
+  },
+  "lines": [
+    {"description": "PANELS — 100 mm PIR sandwich panel to walls and ceiling, 0.40 mm pre-painted Aluzinc both faces in RAL 9002, core density 40 ± 2 kg/m³. Walls 30.48 sqm and ceiling 8.70 sqm, erected, plumbed, aligned, coved, sealed with food-grade silicone and fixed", "unit": "Lot", "qty": 1, "result": "Complete"},
+    {"description": "INSULATED FLOOR — insulated floor system laid to the room, 8.70 sqm, levelled, sealed and coved to the wall panels", "unit": "Lot", "qty": 1, "result": "Complete"},
+    {"description": "COLD ROOM DOOR — hinged cold room door complete with heated frame, magnetic gasket, hinges, handle with lock and internal safety release", "unit": "No.", "qty": 1, "result": "Complete"},
+    {"description": "DOOR OPERATION — door closes square on the gasket all round, frame heater proved warm, handle, lock and internal safety release operated from both sides, keys handed over", "unit": "Check", "qty": 1, "result": "Checked"},
+    {"description": "CONDENSING UNIT — RIME air-cooled condensing unit RLUM-B021Y-1B with BITZER semi-hermetic reciprocating compressor 2GES-2Y-40S, 380–420 V / 3 Ph / 50 Hz, set on anti-vibration mounts with clear airflow to the condenser", "unit": "No.", "qty": 1, "result": "Complete"},
+    {"description": "UNIT COOLER — GÜNTNER evaporator GASC RX 031.1/1WN/FFA7E.TNNN, mounted, levelled, secured and set with clearance for airflow and service", "unit": "No.", "qty": 1, "result": "Complete"},
+    {"description": "PIPEWORK — copper suction and liquid lines brazed throughout under a dry nitrogen purge, suction line fully Armaflex insulated with vapour-sealed joints, run on clamps and supports with sleeves and sealing at the panel penetrations", "unit": "Lot", "qty": 1, "result": "Complete"},
+    {"description": "CIRCUIT ACCESSORIES — thermostatic expansion valve sized and set, filter drier, moisture-indicating sight glass, liquid line solenoid valve and service valves fitted", "unit": "Lot", "qty": 1, "result": "Complete"},
+    {"description": "CONDENSATE DRAIN — insulated drain line run from the evaporator tray with trap and continuous fall to the discharge point, tested to run free", "unit": "Lot", "qty": 1, "result": "Complete"},
+    {"description": "CONTROL PANEL — digital control panel with temperature controller and display, main isolator, contactors, overload protection, control fuses, safeties and indicator lamps, wired, labelled and set to the design condition", "unit": "No.", "qty": 1, "result": "Complete"},
+    {"description": "LIGHTING AND HEATERS — internal vapour-proof LED lighting with door switch, and door frame heater, wired and proved", "unit": "Lot", "qty": 1, "result": "Complete"},
+    {"description": "ELECTRICAL WORKS — complete power and control wiring from the control panel onward to the condensing unit, evaporator, defrost, lighting and door heater, earthed, glanded and identified", "unit": "Lot", "qty": 1, "result": "Complete"},
+    {"description": "PRESSURE TEST — complete refrigeration circuit pressure tested with dry nitrogen and held under a standing pressure test to prove the circuit tight", "unit": "Test", "qty": 1, "result": "Passed"},
+    {"description": "EVACUATION — system evacuated to a deep vacuum with a vacuum hold test to draw off moisture and non-condensables before charging", "unit": "Test", "qty": 1, "result": "Passed"},
+    {"description": "REFRIGERANT CHARGING — system charged to the manufacturer's nameplate charge, the charge weighed in, and superheat and sub-cooling measured and set against the running pressures and temperatures", "unit": "Lot", "qty": 1, "result": "Complete"},
+    {"description": "PULL-DOWN TEST — room run up from ambient and proved to pull down to and hold the design condition of 0 °C to +8 °C, with the defrost cycle observed through a full sequence", "unit": "Test", "qty": 1, "result": "Passed"},
+    {"description": "SAFETY CONTROLS — high and low pressure cut-outs, compressor overload, and controller set points and differentials proved and recorded", "unit": "Test", "qty": 1, "result": "Passed"},
+    {"description": "SITE CLEARANCE — packaging, panel offcuts, cable waste and debris removed from site and the room left clean and ready for use", "unit": "Lot", "qty": 1, "result": "Complete"},
+    {"description": "OPERATION TRAINING — operation of the controller and set points, the defrost cycle, correct door use, the internal safety release and basic daily checks explained to your staff", "unit": "Lot", "qty": 1, "result": "Complete"},
+    {"description": "HANDOVER OF THE INSTALLATION — room handed over complete, running and holding its set point, with this report issued and the warranty running from the date above", "unit": "Lot", "qty": 1, "result": "Handed over"}
+  ],
+  "notes": [
+    "This report records the completion and handover of the chiller room described above, carried out against our revised quotation QUT/DCTS/SQ121/2026 as approved by you on 20-10-2026, and invoiced under INV-287/2026, INV-295/2026 and INV-319/2026. Each item listed has been installed, tested or checked as stated.",
+    "READINGS. Suction and discharge pressures, superheat, sub-cooling, compressor running current and room pull-down temperature were measured at commissioning and are held on our service record. A copy will be provided on request.",
+    "WARRANTY. Twelve (12) months from 21 November 2026 on the cold room panels, the door, the insulated floor and our workmanship, and twelve (12) months from the date of commissioning on the condensing unit, the unit cooler, the electrical components and the controls. The warranty excludes damage from misuse, power surge or improper voltage, water ingress, unauthorised modification, operation outside the design condition, and the absence of routine maintenance.",
+    "WHAT KEEPS THE ROOM WORKING. Keep the condenser coil clean and clear of obstruction, do not block the evaporator airflow with stacked goods, keep the door closed and the gasket clean and undamaged, and do not wash down the panels with a pressure hose. Let the defrost cycle complete rather than interrupting it. We recommend routine servicing twice a year and shall be pleased to quote you an annual maintenance contract.",
+    "DELIVERY NOTE. Our delivery note for the materials delivered to site accompanies this report for signature by your site representative. Kindly have it signed and returned to us so that the record is complete at both ends.",
+    "ACCOUNT. Contract value QAR 29,000.00, of which QAR 27,550.00 is received with thanks. The final 5% of QAR 1,450.00 falls due on this handover and is invoiced under INV-319/2026. On settlement the account between us closes. Our thanks for a contract settled promptly at every stage."
+  ]
+}

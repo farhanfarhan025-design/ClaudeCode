@@ -3487,6 +3487,48 @@ out and before the PCC cover, and after the RCC pour — each on one working day
 30% advance of 28,500 was raised on 03-11 and is outstanding. Their LPO's delivery date of
 17-11-2026 is this week and the programme has not started.
 
+### OL-150 — Two handover reports issued, and the handover series is restarted at 001
+**Owner:** Farhan · **Raised:** 2026-11-21 · **TWO ROOMS HANDED OVER**
+
+**HO/TNDK/001/2026 — M/s. Panda Cakes**, chiller room 4.35 x 2.00 x 2.40 m, 0 °C to +8 °C.
+Twenty items: GEO 100 mm PIR panel (walls 30.48 sqm, ceiling 8.70 sqm), insulated floor 8.70 sqm,
+door, **RIME RLUM-B021Y-1B with BITZER 2GES-2Y-40S**, **GÜNTNER GASC RX 031.1/1WN/FFA7E.TNNN**,
+pipework, accessories, drain, panel, lighting, wiring, pressure test, evacuation, charging,
+pull-down, safeties, clearance, training, handover.
+
+**HO/TNDK/002/2026 — Oscar Prime, third job**, chiller room 4.00 x 3.90 x 2.70 m, 0 °C to +5 °C.
+Nineteen items, with **BITZER LH64/4FES-3Y 3 HP** and **GÜNTNER GACC RX 031.1/2WN/HHA7E** on
+R404A. **Item 1 records the panel as your supply and item 2 records that there is no insulated
+floor** — both appear on the face of the schedule, not buried in a note.
+
+**THE SERIES IS RESTARTED AT 001, WHICH IS THE WHOLE POINT OF DOING IT NOW.** HO/TNDK/290/2026
+(Everbloom) opened the series at 290 by taking the invoice number of the day. **One document had
+been issued, so this was the last cheap moment to fix it.** 290 is retired: the Everbloom
+certificate stands as numbered in the client's hands, and **290 must never be reused** when the
+new series eventually reaches it. Recorded in the numbering table.
+
+**ONE THING TO CHECK BEFORE THE PANDA CAKES REPORT GOES OUT.** Item 2 records an insulated floor
+of 8.70 sqm. **LPO-212/2026 to Geo Panel ordered wall and ceiling panel only** — cut lengths
+2.40 m x 13 and 2.00 m x 5, which at 1.00 m width is 31.20 + 10.00 = **41.20 sqm, with no floor
+panel on the order**. INV-295 and INV-319 both state an insulated floor system in the scope, so
+either it came from stock, from another supplier, or it is a built-up floor rather than panel.
+**Confirm it went in before this report is sent.** A handover report that certifies a floor that
+was never laid is worse than no report at all. Say the word and the line comes out.
+
+**OSCAR PRIME'S REPORT IS THE MORE IMPORTANT OF THE TWO.** Note 2 puts in writing that the
+client-supplied panel carries no TNDK warranty, and note 3 that no insulated floor exists and
+none can be added now, with the 58.26 sqm arithmetic to prove it was never in scope. **Together
+with note 3 of INV-318, that is now three separate documents separating their material from our
+workmanship.** If that room ever runs warm, those notes are the defence.
+
+**THE FLOOR QUESTION IS ASKED FOR THE THIRD TIME AND STILL UNANSWERED** — on this room and on
+the five-cold-room contract. Oscar Prime have never replied in writing.
+
+**Neither report is signed.** A handover report is TNDK's own account of what was done and is
+issued computer-generated, as the Everbloom one was. **If you want the client's acceptance on
+paper, that is a handover CERTIFICATE** — two-party signed at site — and I will raise one for
+either room on request.
+
 ### OL-149 — Panda Cakes' final invoice goes out, and the delivery note we promised never did
 **Owner:** Farhan · **Raised:** 2026-11-21 · **Value:** QAR 1,450 · **FINAL INVOICE OUT**
 
