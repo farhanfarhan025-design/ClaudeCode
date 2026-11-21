@@ -3487,6 +3487,40 @@ out and before the PCC cover, and after the RCC pour — each on one working day
 30% advance of 28,500 was raised on 03-11 and is outstanding. Their LPO's delivery date of
 17-11-2026 is this week and the programme has not started.
 
+### OL-149 — Panda Cakes' final invoice goes out, and the delivery note we promised never did
+**Owner:** Farhan · **Raised:** 2026-11-21 · **Value:** QAR 1,450 · **FINAL INVOICE OUT**
+
+**INV-319/2026** — the final 5% of **1,450** on testing, commissioning and handover. Contract
+29,000; received 27,550 (21,750 advance 22-10 RCT-288, 5,800 cash 05-11 RCT-314). **Settlement
+closes the contract at 29,000 in full.** One page, signed and stamped.
+
+**THE CLEANEST CONTRACT ON THE BOOK, START TO FINISH.** Quotation approved 20-10-2026, room
+complete and handed over inside a month, **every stage settled within two days of its invoice
+and not one reminder sent.** Note 2 of the invoice says so to them in plain words. A customer who
+behaves like this is worth telling so, and worth quoting an AMC to — note 5 offers one.
+
+**BUT NO DELIVERY NOTE WAS EVER ISSUED, AND INV-295 PROMISED ONE IN WRITING.** Note 3 of that
+invoice told them *"our delivery note covering the delivery follows for signature by your site
+representative."* It never followed. **DN-254/2026 is still the next free number.** Note 4 of
+this invoice asks them to sign and return it, which is awkward wording for a document they have
+never been sent. **Either raise DN-254 now and send it with the final invoice, or drop note 4.**
+I have left the note in because the delivery did happen and the record should exist — but it
+needs the document behind it within the day.
+
+**THIS IS THE SECOND CONTRACT RUNNING THAT COMPLETED WITH NO DELIVERY NOTE.** Home-Made by Earth
+is the other (OL-108), where the client paid the *delivery* stage with nothing on file evidencing
+that materials reached site. **Two jobs, two delivery stages invoiced and paid, no delivery notes.
+DN-253 (One A) is still the only one in the series.** The clients have paid without asking, so
+nothing is at risk commercially — but a delivery stage with no delivery note is the easiest
+question in the world for an auditor or a disputing client to ask.
+
+**HANDOVER ACKNOWLEDGEMENT.** Note 3 asks for a signed handover acknowledgement. **The handover
+series stands at HO/TNDK/290/2026 and should have restarted at 001** — if a certificate is issued
+for this room, renumber the series properly rather than continuing from 290.
+
+**Receivables unchanged in total at 429,750** — the 1,450 simply moves from *not invoiced* to
+*invoiced and awaiting payment*.
+
 ### OL-148 — Oscar Prime's third job closes at 31,370 after they supply the panel themselves
 **Owner:** Farhan · **Raised:** 2026-11-21 · **Value:** QAR 6,670 now due · **FINAL INVOICE OUT**
 

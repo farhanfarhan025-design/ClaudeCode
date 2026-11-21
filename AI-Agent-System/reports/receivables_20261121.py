@@ -30,8 +30,9 @@ ROWS = [
      "final 6,670. No written order on file — the approval is verbal."),
     ("M/s. Gozl Veterinary Services", "Chiller room, duty and standby", 59800, 47840, 0, 11960,
      "Both stages paid on uncrossed bearer cheques, neither confirmed cleared. Split of the 20% not yet set."),
-    ("M/s. Panda Cakes", "Chiller room 4.35 x 2.00 x 2.40 m", 29000, 27550, 0, 1450,
-     "INV-295 settled in cash 05-11-2026 (RCT-314). Only the 5% handover retention remains."),
+    ("M/s. Panda Cakes", "Chiller room 4.35 x 2.00 x 2.40 m", 29000, 27550, 1450, 0,
+     "Room complete and handed over. INV-319 for the final 5%. Every earlier stage was settled within two "
+     "days of its invoice, so this should be the shortest collection on the page."),
 ]
 
 UNKNOWN = [
