@@ -3487,6 +3487,46 @@ out and before the PCC cover, and after the RCC pour — each on one working day
 30% advance of 28,500 was raised on 03-11 and is outstanding. Their LPO's delivery date of
 17-11-2026 is this week and the programme has not started.
 
+### OL-147 — Sarus: a new client, a 15,800 repair quoted, and one word in their scope that needs settling
+**Owner:** Farhan · **Raised:** 2026-11-21 · **Value:** QAR 15,800 · **AWAITING THEIR ORDER**
+
+**QUT/DCTS/260/2026** — M/s. Sarus Trading and Contracting (attn. **Mr. Pramod Kumar, Contract
+Manager**, contracting@sarustrading.com, 7171 4412). **Repair of the cold room / chiller in
+Building 8 Ground Floor, Main Kitchen**: new air-cooled condensing unit on a **BITZER** compressor
+(Germany, as their scope specifies), complete new refrigeration piping and circuit accessories,
+new control panel box with digital controller and display, complete electrical wiring, evaporator
+checked and reconnected, pressure test, evacuation, charging, commissioning. **QAR 15,800.00 as
+one lot. 100% advance. Two days. Twelve months' warranty**, which meets the minimum one year
+their scope calls for. Signed and stamped under Farhan / Sales Engineer.
+
+**NEW CLIENT. FIRST DOCUMENT. NO HISTORY, NO CREDIT KNOWLEDGE, NOTHING ON FILE.** The 100%
+advance is therefore exactly the right term and should not be softened if they push back — it is
+also the only thing that makes the two-day completion honest, because the unit is released from
+stock the moment the money lands.
+
+**THE ONE REAL AMBIGUITY: "CHANGING OF THE DISPLAY UNIT".** Their scope says the display is not
+working and asks for it to be changed. **I have read that as the temperature display and
+controller**, and the quotation supplies a new one inside the new control panel. **But in a main
+kitchen "display unit" can equally mean a refrigerated display cabinet — which would be a
+separate piece of equipment costing multiples of this quotation.** Note 1 of the quotation puts
+the question to them in writing and offers to quote it separately. **Get the answer before the
+order is accepted, not after.** If it is a cabinet and we have priced a controller, the job is
+lost before it starts.
+
+**THE PRICE WAS SET AT 15,800, NOT 17,200.** Farhan's first instruction said 17,200 and was
+corrected within the same breath to 15,800. **15,800 is the figure quoted.** Noted here only so
+the earlier number never resurfaces from a half-remembered conversation.
+
+**WHAT I HAVE DELIBERATELY EXCLUDED, IN NOTE 2.** The evaporator itself if found beyond repair;
+the cold room panels, door, gasket and floor; the incoming supply from their distribution board;
+the condensate drain point; scaffolding or crane work; and disposal of the old unit, which is
+handed to them. **On a repair of plant we have never seen, the exclusions are the quotation.**
+
+**NO SITE VISIT IS RECORDED.** The duty is selected on their description, not on our own survey.
+Note 3 says the model and capacity are confirmed on the day the order is placed. **Attend site
+before confirming the selection** — a condensing unit sized from someone else's scope of works is
+how the wrong machine gets bought.
+
 ### OL-146 — Q Fish pay 45,000 for a milestone that has not happened, and now hold 80% of the contract
 **Owner:** Farhan · **Raised:** 2026-11-20 · **Value:** QAR 120,000 collected · **SUPERSEDES OL-138**
 
