@@ -1,0 +1,55 @@
+{
+  "type": "invoice",
+  "badge": ["FINAL", "INVOICE"],
+  "number": "INV-318/2026",
+  "date": "21-11-2026",
+  "ref": "QUT/DCTS/SQ146/2026 — approved 03-11-2026",
+  "currency": "QAR",
+  "filename": "Invoice_INV-318-2026_OscarPrime_Job3_FinalBalance_PanelCredited",
+  "payee_name": "The New Doha Kitchen Equipment Services W.L.L.",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "BILL TO",
+    "name": "Oscar Prime Trading Contracting and Services W.L.L.",
+    "fields": [
+      "Doha, State of Qatar",
+      {"label": "Kind attention", "value": "Mr. Shameem"},
+      {"label": "Project", "value": "One (1) chiller room 4.00 x 3.90 x 2.70 m (42.12 cbm), 0 °C to +5 °C — our third contract with you"},
+      {"label": "Our quotation", "value": "QUT/DCTS/SQ146/2026 dated 01-11-2026 — approved 03-11-2026, QAR 38,000.00"},
+      {"label": "Stage", "value": "FINAL — 35% balance on completion, less credit for the sandwich panel supplied by you"}
+    ]
+  },
+  "lines": [
+    {
+      "description": "FINAL PAYMENT — 35% BALANCE ON COMPLETION\nBalance due on completion of the supply, installation, testing and commissioning of one (1) chiller room 4.00 x 3.90 x 2.70 m at 0 °C to +5 °C under our quotation QUT/DCTS/SQ146/2026, comprising 100 mm PUF sandwich panel to walls and ceiling with all coving, angles, silicone sealing and fasteners; one (1) hinged cold room door 900 x 1900 mm with heated frame and gasket; the BITZER LH64/4FES-3Y 3 HP air-cooled condensing unit with the Güntner GACC RX 031.1/2WN/HHA7E unit cooler on R404A, copper pipework, Armaflex insulation, electric defrost and insulated drain line; the digital control panel with all safeties; internal vapour-proof LED lighting and door frame heater; complete electrical works from the control panel onward; and testing, commissioning, transportation, lifting at site and handover.\nContract value QAR 38,000.00 — this invoice covers the 35% completion stage.",
+      "unit": "Lot",
+      "qty": 1,
+      "rate": 13300.00
+    }
+  ],
+  "adjustments": [
+    {"label": "LESS: credit for the 100 mm PUF sandwich panel supplied by you to site", "amount": -6630.00}
+  ],
+  "grand_total_label": "AMOUNT NOW DUE",
+  "bank": {
+    "Bank": "The Commercial Bank (P.S.Q.C.), Grand Hamad Branch – 4010",
+    "Account Name": "The New Doha Kitchen Equipment Services W.L.L.",
+    "Account Number": "4010-777739-001",
+    "IBAN": "QA06 CBQA 0000 0000 4010 7777 3900 1",
+    "SWIFT / BIC": "CBQAQAQA",
+    "Currency": "Qatari Riyal (QAR)"
+  },
+  "notes": [
+    "ACCOUNT POSITION. Contract value QAR 38,000.00. Received: 65% advance QAR 24,700.00 on 03-11-2026, receipted under RCT-299/2026. This invoice: the 35% completion stage of QAR 13,300.00, LESS a credit of QAR 6,630.00 for the sandwich panel supplied by you, leaving QAR 6,670.00 now due. On settlement the contract stands at QAR 31,370.00 received in full and the account closes. No further invoice will follow.",
+    "THE CREDIT OF QAR 6,630.00 IS FOR MATERIAL SUPPLIED BY YOU, NOT A REDUCTION IN OUR PRICE. The 100 mm PUF sandwich panel for the walls and ceiling of this room — 58.26 sqm as quoted, being 42.66 sqm of walls and 15.60 sqm of ceiling — was supplied by you direct to site and has been removed from our account accordingly. Our rates for all other work are unchanged and this credit sets no precedent for any future order between us.",
+    "THE PANEL YOU SUPPLIED CARRIES NO WARRANTY FROM US. We have installed it with our own coving, angles, sealing and fasteners and we warrant our installation of it, but we cannot and do not warrant the panel itself — its core density, its facing gauge, its thermal performance, its fire rating or its freedom from manufacturing defect. Any claim on the panel as a product lies with you and your supplier.",
+    "WARRANTY: twelve (12) months from the date of handover on the cold room door, our installation workmanship, the coving, sealing and finishing, and the new pipework and wiring; and twelve (12) months from the date of commissioning on the BITZER condensing unit, the Güntner unit cooler, the electrical components and the controls. Excludes the client-supplied sandwich panel as stated above, and excludes damage from misuse, power surge, improper voltage, water ingress, unauthorised modification or the absence of routine maintenance.",
+    "INSULATED FLOORING IS NOT INCLUDED, AND THIS IS THE SECOND ROOM IN WHICH WE RAISE IT. The room is built on your existing floor, as our quotation states. Walls of 42.66 sqm and ceiling of 15.60 sqm total the 58.26 sqm quoted, which of itself shows no floor panel is in the scope. A floor cannot be added once a room is built. We should be grateful for your written confirmation that no insulated floor is required, here and on the five-cold-room contract.",
+    "Payment due on presentation of this invoice. Payment may be made in cash, or by cheque or bank transfer to the account shown above; cheques to be crossed and drawn strictly in favour of the account name given, which is THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L. with no word between Equipment and Services. Kindly quote invoice INV-318/2026 as the reference."
+  ]
+}

@@ -3487,6 +3487,49 @@ out and before the PCC cover, and after the RCC pour — each on one working day
 30% advance of 28,500 was raised on 03-11 and is outstanding. Their LPO's delivery date of
 17-11-2026 is this week and the programme has not started.
 
+### OL-148 — Oscar Prime's third job closes at 31,370 after they supply the panel themselves
+**Owner:** Farhan · **Raised:** 2026-11-21 · **Value:** QAR 6,670 now due · **FINAL INVOICE OUT**
+
+**INV-318/2026** — the 35% completion stage of **13,300**, **less a credit of 6,630** for the
+100 mm PUF sandwich panel Oscar Prime supplied direct to site. **AMOUNT NOW DUE 6,670.** On
+settlement the contract stands at **31,370 received in full** and the account closes. One page,
+signed and stamped.
+
+**IT IS RECORDED AS A CREDIT FOR MATERIAL, NOT AS A DISCOUNT, AND THAT WORDING MATTERS.** The
+renderer's `discount` field prints the word "Discount", which would have told this client that
+TNDK reduces its prices on request. **Note 2 states plainly that our rates are unchanged and the
+credit sets no precedent.** A labelled adjustment line was used instead.
+
+**THE PANEL THEY SUPPLIED CARRIES NO TNDK WARRANTY, AND NOTE 3 SAYS SO.** We warrant our
+installation of it — coving, angles, sealing, fasteners — but not its core density, facing gauge,
+thermal performance, fire rating or freedom from defect. **This is the single most important line
+on the invoice.** A cold room that underperforms will be blamed on the installer, and without
+note 3 there is nothing on file separating the two.
+
+**6,630 AGAINST 58.26 SQM IS 113.80 PER SQM.** JMB's current rate on comparable 100 mm panel runs
+around 102.00 per sqm, so the credit is a little above what the panel would have cost TNDK to buy.
+**That is a commercial decision, properly Farhan's, and it is a generous one** — recorded here
+only so that nobody later reads it as an error. The quantity is stated on the invoice as the
+58.26 sqm quoted (walls 42.66 + ceiling 15.60), which puts the basis of the credit beyond
+argument.
+
+**THE FLOOR IS RAISED FOR THE SECOND ROOM RUNNING.** Note 5 shows the arithmetic that proves no
+floor panel is in the scope and asks for written confirmation on this room **and** on the
+five-cold-room contract. **A floor cannot be added after a room is built.** Still unanswered.
+
+**STILL NO WRITTEN ORDER FOR THIS JOB (OL-125).** Jobs 1 and 2 came with an LPO; job 3 rests on a
+verbal approval, the quotation, INV-298 and the 24,700 advance. The advance proves the contract
+exists, so this is not a crisis — but **the 6,670 is now the only sum outstanding on a job with
+no purchase order behind it.** An email from Mr. Shameem confirming scope and terms costs nothing
+and would close the gap.
+
+**OSCAR PRIME'S POSITION AFTER THIS INVOICE:** 6,670 on job 3 (invoiced) and 51,000 on job 2
+(not invoiced) — **57,670 live**. Job 1 closed in full on 01-09-2026. **And 144,000 of what they
+are shown as having paid still rests on "Pending Approval" advices** (OL-083, OL-145): the
+119,000 of 06-10 and the 25,000 of 19-11.
+
+**Receivables after this invoice: 429,750.**
+
 ### OL-147 — Sarus: a new client, a 15,800 repair quoted, and one word in their scope that needs settling
 **Owner:** Farhan · **Raised:** 2026-11-21 · **Value:** QAR 15,800 · **AWAITING THEIR ORDER**
 
