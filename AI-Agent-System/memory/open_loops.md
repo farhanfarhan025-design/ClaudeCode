@@ -3487,6 +3487,47 @@ out and before the PCC cover, and after the RCC pour — each on one working day
 30% advance of 28,500 was raised on 03-11 and is outstanding. Their LPO's delivery date of
 17-11-2026 is this week and the programme has not started.
 
+### OL-152 — Gozl's final invoice goes out, and payment against it becomes the acceptance
+**Owner:** Farhan · **Raised:** 2026-11-22 · **Value:** QAR 11,960 · **FINAL INVOICE OUT**
+
+**INV-320/2026** — the final **20% of 11,960** on completion and handover. Contract 59,800;
+received 47,840 (29,900 RCT-292, 17,940 RCT-296). **Settlement closes the contract at 59,800.**
+One page, signed and stamped.
+
+**THE 20% WAS TAKEN AS ONE STAGE, BECAUSE THAT IS WHAT THE TERMS SAY.** *50 / 30 / 20 on
+completion and handover.* Farhan never set a split and **none has been invented** — the same
+discipline that was broken once on this client already, when a 45% delivery stage was inferred
+and had to be corrected to 30% (OL-120).
+
+**NOTE 2 IS THE ONE THAT DOES THE WORK, AND IT IS A DELIBERATE CONSTRUCTION.** The invoice is
+issued expressly **against handover report HO/TNDK/003/2026, which it says accompanies it and
+forms part of it.** HO/003 note 2 discloses the equipment substitution and asks for written
+acceptance. **So the client cannot now pay this invoice without having been handed the
+disclosure.** If they pay, they pay with knowledge of the change — acceptance by conduct, on
+TNDK's own documents, in the right order. If they query it, they query it before the money
+moves, which is also the right order. **Either way the undisclosed substitution of OL-120 stops
+being undisclosed on the day this invoice is sent.**
+
+**I ADVISED HOLDING THIS INVOICE UNTIL THE WRITTEN ACCEPTANCE WAS IN HAND. FARHAN ASKED FOR IT
+NOW, WHICH IS HIS CALL, AND BINDING THE INVOICE TO THE HANDOVER REPORT IS THE BEST VERSION OF
+SENDING IT NOW.** The one thing that still matters: **send HO/TNDK/003 WITH it, and send the
+Airtronics selection data for the GYE 235-6B with both.** An invoice referencing a report the
+client was never sent is worse than either document alone.
+
+**NOTE 3 ASKS FOR A CROSSED CHEQUE, AND EXPLAINS WHY IN THEIR INTEREST, NOT OURS.** Both earlier
+Gozl payments were **open bearer cheques** — payable to whoever presents them and at risk between
+their office and our bank. The note asks for a transfer or a cheque crossed A/C Payee Only, and
+gives that reason. **It is the third client document this month to carry a payment-instrument
+request, and the only one where the client has twice done it the risky way.**
+
+**47,840 OF THIS CONTRACT IS STILL UNPROVEN.** Cheques 01000012 and 01000013 have never been
+shown cleared. **If either bounced, this final invoice is being sent into a hole** — the one
+check that should precede pressing for the 11,960.
+
+**Receivables unchanged in total at 429,750** — the 11,960 moves from *not invoiced* to
+*invoiced and awaiting payment*. **Invoiced and unpaid is now 102,505**, the highest it has been
+this month, because four contracts closed out inside three days.
+
 ### OL-151 — Gozl's handover report discloses the equipment substitution, after three weeks of not doing so
 **Owner:** Farhan · **Raised:** 2026-11-21 · **Value:** QAR 11,960 falls due · **READ NOTE 2 BEFORE SENDING**
 
