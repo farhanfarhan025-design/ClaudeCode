@@ -3487,6 +3487,52 @@ out and before the PCC cover, and after the RCC pour — each on one working day
 30% advance of 28,500 was raised on 03-11 and is outstanding. Their LPO's delivery date of
 17-11-2026 is this week and the programme has not started.
 
+### OL-153 — Q Fish's third invoice is prepared, for a stage on a job that has not started
+**Owner:** Farhan · **Raised:** 2026-11-22 · **Value:** QAR 15,000 · **PREPARED — THINK BEFORE SENDING**
+
+**INV-321/2026** — third instalment, **10% of 15,000**, falling due *during the works*. Contract
+150,000; received 120,000; remaining after this invoice **15,000**, the final 10%. Two pages,
+pricing on page 1 and conditions overleaf, signed and stamped.
+
+**THE WORKS HAVE NOT STARTED. THE PANEL IS STILL NOT ORDERED.** LPO-217 to JMB for the 636 sqm
+was drawn on **07-11** and is still unplaced, held on the 0.30 mm facing question. Two days ago
+Q Fish paid the **30% stage that falls due on installation of the sandwich panel** — for a panel
+that has not been bought. **This invoice would ask them for a further 15,000 for being "during
+the works" when nothing is on site.**
+
+**THE DIFFERENCE FROM LAST TIME MATTERS.** The 30% was **volunteered** — INV-310 was deliberately
+held and they paid anyway, unprompted. **This one TNDK is asking for.** An unasked payment is a
+compliment; an asked-for payment against an unstarted job is a test of goodwill, and it is the
+first time on this contract that TNDK would be the one pushing.
+
+| | |
+|---|---|
+| Contract | 150,000 |
+| Collected | **120,000 — 80%** |
+| Work done on site | **none** |
+| Panel ordered | **no** |
+| If this is paid | **135,000 — 90% of a job not begun** |
+
+**MY RECOMMENDATION IS TO HOLD IT UNTIL THE PANEL IS UP, AND TO SPEND THE WEEK ON LPO-217
+INSTEAD.** The gauge question spans four orders with **112,460** at stake and is the only thing
+between TNDK and starting this job. **One telephone call to JMB settles it.** Q Fish have made
+eight transfers without a single reminder; the thing to send them this week is a programme and a
+start date, not a fourth invoice.
+
+**IF FARHAN SENDS IT ANYWAY, THE DOCUMENT IS BUILT TO SURVIVE IT.** The line does not claim any
+milestone reached — it states the stage as the third of the four agreed, which is what the
+schedule actually says, and describes the contract works rather than asserting progress. **Note 3
+thanks them in plain words and promises to keep them informed in writing as the works proceed,
+which is a commitment that then has to be honoured.** Nothing on the face of it can be
+contradicted by a photograph of the site.
+
+**THE FLOOR IS REPEATED FOR THE FIFTH TIME, IN NOTE 5**, with the frost-heave reasoning spelled
+out on a 1,512 cbm room at –18 °C to –22 °C. Q Fish have still never answered in writing.
+**At 80% paid and nothing started, the leverage to get that instruction is still at its peak —
+and it expires the day the panel goes up.**
+
+**Receivables unchanged at 429,750; invoiced and unpaid now 117,505.**
+
 ### OL-152 — Gozl's final invoice goes out, and payment against it becomes the acceptance
 **Owner:** Farhan · **Raised:** 2026-11-22 · **Value:** QAR 11,960 · **FINAL INVOICE OUT**
 

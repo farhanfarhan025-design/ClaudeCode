@@ -9,9 +9,9 @@ q = lambda n: "{:,.2f}".format(n)
 ROWS = [
     ("Consolidated Contractors (CCC)", "Cold rooms — CCC Labor Camp", 253500, 76050, 76050, 101400,
      "INV-293 for the second 30%. Work complete; the third 30% and the 10% retention have never been invoiced."),
-    ("M/s. Q Fish Trading", "Freezer room enlargement, 1,512 cbm", 150000, 120000, 0, 30000,
-     "80% collected. The 30% of 45,000 was paid on 20-11 (RCT-317) although the panel has not been ordered, "
-     "let alone installed. 10% falls due during the works and 10% on completion."),
+    ("M/s. Q Fish Trading", "Freezer room enlargement, 1,512 cbm", 150000, 120000, 15000, 15000,
+     "80% collected. INV-321 raised for the third stage of 15,000, leaving a 15,000 final. The panel has still "
+     "not been ordered, let alone installed, so nothing on site yet answers either stage."),
     ("Al Mairqab Industrial Investment (Aalaf)", "Chiller room, civil works, SS shelving", 95000, 28500, 0, 66500,
      "30% advance paid 12-11 by crossed cheque (RCT-313). Their LPO delivery date of 17-11 has passed."),
     ("Oscar Prime Trading (2nd job)", "Five cold rooms", 170000, 119000, 0, 51000,
