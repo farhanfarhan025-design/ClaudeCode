@@ -3487,6 +3487,47 @@ out and before the PCC cover, and after the RCC pour — each on one working day
 30% advance of 28,500 was raised on 03-11 and is outstanding. Their LPO's delivery date of
 17-11-2026 is this week and the programme has not started.
 
+### OL-154 — Gozl's handover report reissued with a temperature monitoring system nobody had recorded
+**Owner:** Farhan · **Raised:** 2026-11-22 · **REVISION 1 — AND A MISSING PROCUREMENT TRAIL**
+
+**HO/TNDK/003/2026 Revision 1** supersedes the 21-11 issue under the same number. Three new items:
+**12 hardware** (calibrated sensor inside the room, clear of the evaporator air stream; gateway
+outside, powered from the panel supply, on the client's internet), **13 mobile application**
+(registered, users added, live reading demonstrated and cross-checked against the panel display),
+**14 alarms tested** (high and low thresholds set to 0 °C to +8 °C, alarm raised and **received on
+the telephone in the client's presence**). Item 21 now also trains them on the app.
+
+**I ALSO CORRECTED A LIVE ERROR IN YESTERDAY'S ISSUE.** The party block read *"twelve (12) months,
+see item 21"* — a reference left behind when the schedule was consolidated from 21 items to 19.
+**It pointed at the wrong line.** It now reads "see note 6". If the 21-11 version went to Gozl,
+Revision 1 quietly fixes that too.
+
+**THE MONITORING SYSTEM IS ON NO PURCHASE ORDER.** LPO-213 is the panel, LPO-214 the evaporators
+and accessories, LPO-215 the two condensing units. **Nothing in the Gozl procurement chain is a
+monitoring system, a gateway or a sensor.** So either it was bought outside the LPO system, taken
+from stock, or supplied by a third party. **Three questions, and the answers belong on file:**
+
+| | |
+|---|---|
+| **Make and model?** | The report describes it functionally and names nothing, because nothing is known. A veterinary client will want the make for his own records and for calibration |
+| **What did it cost, and is it in the 59,800?** | SQ130 does not sell a monitoring system. If it is goodwill, **say so to the client** — unrecognised generosity is wasted. If it is an extra, it is **unbilled**, and INV-320 for the final 11,960 has already gone out |
+| **Whose app, and who holds the account?** | If the account is registered to TNDK rather than to Gozl, TNDK is in the loop on their cold-chain data for ever. Register it to the client |
+
+**THIS IS THE SECOND TIME THIS WEEK THAT WHAT WAS INSTALLED IS NOT WHAT THE RECORDS SAY.** The
+first was the equipment substitution on this same job (OL-120). **Both were found at handover,
+not at procurement.** The common cause is that material reaches site without passing through an
+LPO. **One line in the order book per job, for everything bought, would catch both.**
+
+**NOTE 4 GIVES THE CLIENT THE CAVEAT THAT PROTECTS TNDK.** The alarms depend on the client's
+internet and power; if either fails the room keeps running but the alarm cannot reach a telephone.
+**Without that sentence, a failed alarm on a vaccine store becomes TNDK's problem.** The note also
+tells them to keep the user list current and to test an alarm themselves from time to time.
+
+**AND IT IS WORTH SELLING, NOT JUST RECORDING.** On a veterinary store a continuous logged
+temperature history is an inspection document. Note 4 says that in those words. **It is the best
+AMC opening on the book** — the system needs its sensor checked and its user list maintained, and
+that is a service visit with a reason attached.
+
 ### OL-153 — Q Fish's third invoice is prepared, for a stage on a job that has not started
 **Owner:** Farhan · **Raised:** 2026-11-22 · **Value:** QAR 15,000 · **PREPARED — THINK BEFORE SENDING**
 

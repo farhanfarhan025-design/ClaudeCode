@@ -1,8 +1,8 @@
 {
   "type": "handover_report",
   "number": "HO/TNDK/003/2026",
-  "date": "21-11-2026",
-  "ref": "QUT/DCTS/SQ130/2026 (Revised) — INV-291 and INV-294/2026",
+  "date": "22-11-2026",
+  "ref": "QUT/DCTS/SQ130/2026 (Revised) — Revision 1, superseding our report of 21-11-2026",
   "currency": "QAR",
   "filename": "HandoverReport_HO-TNDK-003-2026_Gozl_ChillerRoom_DutyStandby",
   "company": {
@@ -34,7 +34,7 @@
       },
       {
         "label": "Warranty runs from",
-        "value": "21 November 2026 — twelve (12) months, see item 21"
+        "value": "21 November 2026 — twelve (12) months, see note 6"
       }
     ]
   },
@@ -106,6 +106,24 @@
       "result": "Complete"
     },
     {
+      "description": "TEMPERATURE MONITORING SYSTEM — HARDWARE — continuous temperature monitoring system installed to the room: calibrated temperature sensor mounted inside the room in a position representative of the stored product and clear of the evaporator air stream, with the monitoring unit and its gateway mounted outside the room, powered from the control panel supply and connected to your site internet",
+      "unit": "Lot",
+      "qty": 1,
+      "result": "Complete"
+    },
+    {
+      "description": "TEMPERATURE MONITORING — MOBILE APPLICATION — the system registered and configured on the mobile application and your nominated users added, so that the room temperature CAN BE READ ON A MOBILE TELEPHONE AT ANY TIME FROM ANY LOCATION and a continuous temperature history is kept. The live reading was demonstrated on a mobile telephone at handover and cross-checked against the control panel display",
+      "unit": "Lot",
+      "qty": 1,
+      "result": "Complete"
+    },
+    {
+      "description": "TEMPERATURE MONITORING — ALARMS TESTED — high and low temperature alarm thresholds set against the design condition of 0 °C to +8 °C, the notification list set to your nominated users, and an alarm raised and RECEIVED ON THE MOBILE TELEPHONE as a live test in your presence at handover",
+      "unit": "Test",
+      "qty": 1,
+      "result": "Passed"
+    },
+    {
       "description": "LIGHTING AND HEATERS — internal vapour-proof LED lighting with door switch, and door frame heater, wired and proved",
       "unit": "Lot",
       "qty": 1,
@@ -142,7 +160,7 @@
       "result": "Passed"
     },
     {
-      "description": "SITE CLEARANCE AND TRAINING — packaging, panel offcuts and debris removed and the room left clean; operation of the controller, the duty / standby changeover, the defrost cycle, correct door use and the internal safety release explained to your staff",
+      "description": "SITE CLEARANCE AND TRAINING — packaging, panel offcuts and debris removed and the room left clean; operation of the controller, the duty / standby changeover, the defrost cycle, correct door use, the internal safety release, AND THE USE OF THE MONITORING APPLICATION AND ITS ALARMS explained to your staff",
       "unit": "Lot",
       "qty": 1,
       "result": "Complete"
@@ -155,11 +173,12 @@
     }
   ],
   "notes": [
-    "This report records the completion and handover of the chiller room described above, carried out against our revised quotation QUT/DCTS/SQ130/2026 as approved by you on 29-10-2026 and invoiced under INV-291/2026 and INV-294/2026. Each item listed has been installed, tested or checked as stated.",
+    "This report records the completion and handover of the chiller room described above, carried out on 21 November 2026 against our revised quotation QUT/DCTS/SQ130/2026 as approved by you on 29-10-2026 and invoiced under INV-291/2026, INV-294/2026 and INV-320/2026. Each item listed has been installed, tested or checked as stated. THIS IS REVISION 1 AND IT SUPERSEDES OUR REPORT OF 21-11-2026 ISSUED UNDER THE SAME NUMBER: it adds the temperature monitoring system at items 12 to 14, which was installed and commissioned as part of these works. The date of handover and the date from which the warranty runs are unchanged.",
     "EQUIPMENT SUPPLIED — A CHANGE FROM THE MODELS NAMED IN OUR QUOTATION, WHICH WE BRING TO YOUR ATTENTION. Our quotation SQ130 named two (2) BITZER 2EES-3Y condensing units and two (2) GUNAY GNE 240.8B2 unit coolers. The units installed are two (2) RIME RLUM-B030Y-1C condensing units carrying BITZER 2FES-3Y compressors, and two (2) GUNAY GYE 235-6B slim type unit coolers — the same manufacturers, in current models selected for the duty of this room, the slim type cooler suiting the 2.50 m ceiling height. The room has been proved to hold 0 °C to +8 °C on EITHER SYSTEM RUNNING ALONE, which is the test that matters on a duty and standby installation. We did not bring the change to you in writing beforehand and we should have done; we do so now. The manufacturers' selection data for both items is available to you on request, and we should be grateful for your written confirmation that the equipment as installed is accepted.",
     "WHAT DUTY AND STANDBY GIVES YOU, AND HOW TO KEEP IT. Two complete and independent refrigeration systems serve this room. Either will hold it alone. If one fails, the other starts automatically and the room does not warm — which on a veterinary store is the entire purpose of the second system. ALTERNATE THE LEAD SYSTEM regularly, monthly if you can, so that both machines run and neither sits idle long enough to seize; the changeover on the panel does this. A standby that has never run is not a standby.",
+    "THE TEMPERATURE MONITORING SYSTEM, AND WHAT IT IS WORTH TO YOU. The room is now monitored continuously and can be read on a mobile telephone from anywhere, with a temperature history kept and high and low alarms sent to your nominated users. On a veterinary store this is more than a convenience: it is a documented cold-chain record you can produce to an inspector or a supplier, and it is warning BEFORE stock is lost rather than discovery afterwards. Two things it depends on, which are outside our control and which you should know: the system needs your site internet and power to be available — if either fails, the room keeps running and keeps logging locally where the unit provides for it, but the alarm cannot reach your telephone. Please keep the nominated user list up to date as your staff change, and test an alarm yourselves from time to time.",
     "READINGS. Suction and discharge pressures, superheat, sub-cooling, compressor running currents and the room pull-down temperature were measured on BOTH systems at commissioning and are held on our service record. A copy will be provided on request.",
-    "WARRANTY. Twelve (12) months from 21 November 2026 on the cold room panels, the door, the insulated floor and our workmanship, and twelve (12) months from the date of commissioning on both condensing units, both unit coolers, the electrical components and the controls. Excludes damage from misuse, power surge or improper voltage, water ingress, unauthorised modification, operation outside the design condition, and the absence of routine maintenance. We recommend routine servicing twice a year on both systems and shall be pleased to quote you an annual maintenance contract.",
-    "ACCOUNT. Contract value QAR 59,800.00. Received QAR 47,840.00 — the 50% advance of QAR 29,900.00 under RCT-292/2026 and the 30% delivery stage of QAR 17,940.00 under RCT-296/2026, both with thanks. The remaining 20% of QAR 11,960.00 falls due on completion and handover, which this report records. Our invoice follows."
+    "WARRANTY. Twelve (12) months from 21 November 2026 on the cold room panels, the door, the insulated floor and our workmanship, and twelve (12) months from the date of commissioning on both condensing units, both unit coolers, the electrical components, the controls and the temperature monitoring system. Excludes damage from misuse, power surge or improper voltage, water ingress, unauthorised modification, operation outside the design condition, and the absence of routine maintenance. We recommend routine servicing twice a year on both systems and shall be pleased to quote you an annual maintenance contract.",
+    "ACCOUNT. Contract value QAR 59,800.00. Received QAR 47,840.00 — the 50% advance of QAR 29,900.00 under RCT-292/2026 and the 30% delivery stage of QAR 17,940.00 under RCT-296/2026, both with thanks. The remaining 20% of QAR 11,960.00 falls due on completion and handover, which this report records, and is invoiced under INV-320/2026 of 22-11-2026. On settlement the contract stands at QAR 59,800.00 received in full and the account between us closes."
   ]
 }
