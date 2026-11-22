@@ -1,0 +1,47 @@
+{
+  "type": "maintenance_contract",
+  "number": "AMC/TNDK/001/2026",
+  "date": "22-11-2026",
+  "ref": "23-11-2026 to 22-11-2027 (12 months)",
+  "currency": "QAR",
+  "show_prices": false,
+  "filename": "MaintenanceContract_AMC-TNDK-001-2026_Gozl_ChillerRoom_Year1",
+  "sign_labels": ["For The New Doha Kitchen Equipment Services W.L.L.", "For M/s. Gozl Veterinary Services and Trading Co."],
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "BETWEEN TNDK AND",
+    "name": "M/s. Gozl Veterinary Services and Trading Co.",
+    "fields": [
+      "Doha, State of Qatar",
+      {"label": "Plant covered", "value": "One (1) chiller room 4.00 x 4.00 x 2.50 m, 0 °C to +8 °C, with DUTY AND STANDBY refrigeration — two (2) complete systems and the temperature monitoring system"},
+      {"label": "Contract period", "value": "23 November 2026 to 22 November 2027 — twelve (12) months, both dates inclusive"},
+      {"label": "CONTRACT SUM", "value": "NIL — THIS FIRST YEAR IS PROVIDED FREE OF CHARGE WITH YOUR INSTALLATION. Nothing is payable under this contract."},
+      {"label": "Scheduled visits", "value": "Two (2) preventive maintenance visits — approximately 23 May 2027 and 22 November 2027"},
+      {"label": "Breakdown attendance", "value": "INCLUDED — unlimited call-outs within working hours"},
+      {"label": "To call us out", "value": "Tel 7706 0676  |  farhan@dctsqatar.com — quote this contract number"}
+    ]
+  },
+  "lines": [
+    {"description": "PREVENTIVE MAINTENANCE VISITS — two (2) scheduled visits during the contract year, at approximately six-monthly intervals, each covering BOTH refrigeration systems in full. We shall contact you to arrange each visit at a time that suits your operation", "unit": "Visits", "qty": 2},
+    {"description": "REFRIGERATION SERVICE, EACH VISIT, EACH SYSTEM — condenser coil cleaned and cleared; evaporator coil cleaned, fans, guards and heaters checked; drain pan and drain line cleared and flushed; running pressures, superheat, sub-cooling and compressor current measured and recorded; refrigerant charge checked and the sight glass read for moisture and flash gas; the circuit checked for leaks at the accessible joints; compressor oil level and condition inspected; and vibration mounts, fixings and pipe supports checked", "unit": "Lot", "qty": 1},
+    {"description": "ELECTRICAL AND CONTROLS SERVICE, EACH VISIT — control panel inspected, electrical connections checked and tightened, contactors and overloads inspected, high and low pressure cut-outs proved, controller set points and differentials verified against the design condition, defrost cycle observed through a full sequence, internal lighting, door switch and door frame heater checked", "unit": "Lot", "qty": 1},
+    {"description": "DUTY AND STANDBY PROVING, EACH VISIT — EACH SYSTEM RUN ALONE and proved still capable of holding the room at the design condition on its own, the automatic changeover operated and proved in both directions, and THE LEAD SYSTEM ALTERNATED so that neither machine stands idle. This is the single most important item in this contract: it is what keeps your standby a standby", "unit": "Lot", "qty": 1},
+    {"description": "TEMPERATURE MONITORING CHECK, EACH VISIT — the room sensor reading verified against a calibrated thermometer and against the control panel display, the gateway and connection checked, an alarm raised and confirmed received, and the nominated user list reviewed with you and updated as your staff change", "unit": "Lot", "qty": 1},
+    {"description": "FABRIC CHECK, EACH VISIT — door closing and alignment, gasket condition and seal, door heater, hinges, handle, lock and internal safety release; panel joints, coving and silicone sealing; and the insulated floor and its chequered plate inspected for damage", "unit": "Lot", "qty": 1},
+    {"description": "BREAKDOWN ATTENDANCE — unlimited call-outs during the contract year within working hours, at no charge for the attendance or the labour. On a chiller room failure where the stored product is at risk we attend as a priority", "unit": "Unlimited", "qty": 1},
+    {"description": "WRITTEN SERVICE REPORT — after every attendance, scheduled or breakdown, a written report of what was found, what was done and the readings taken, for your own records and for any inspection of your cold chain", "unit": "Per visit", "qty": 1}
+  ],
+  "notes": [
+    "THE CONTRACT SUM IS NIL. THIS FIRST YEAR IS GIVEN FREE OF CHARGE WITH YOUR INSTALLATION AND NOTHING IS PAYABLE UNDER IT. We do this for two reasons and we would rather say them plainly than leave you guessing. First, a duty and standby plant that is never serviced quietly stops being duty and standby, and we would rather keep yours working than be called when it has not. Second, we would like your custom when the year is out. Before 22 November 2027 we shall write to you with a quotation for the following year, which you are entirely free to accept or decline.",
+    "WHAT IS INCLUDED AND WHAT IS NOT. Included: all attendance, all labour, cleaning materials, and a top-up of refrigerant where a small loss is found on service. NOT included: replacement parts and components; a full refrigerant charge following a leak, and the repair of the leak itself; consumables such as lamps and fuses; and any work arising from misuse, impact damage, power surge, water ingress, operation outside the design condition or modification by others. Anything chargeable will be reported to you, quoted, and carried out only on your written approval. Any item still within our warranty certificate WC/TNDK/001/2026 is repaired or replaced at our cost under that certificate, not charged here.",
+    "THIS CONTRACT AND YOUR WARRANTY WORK TOGETHER. Warranty certificate WC/TNDK/001/2026 runs for twelve months from 21 November 2026 and requires, as a condition, that the plant is serviced at least twice in the year and that the lead system is alternated regularly. THIS CONTRACT DISCHARGES BOTH OF THOSE CONDITIONS FOR YOU, and the service reports are the record that they were met. You therefore need do nothing to keep your warranty in good standing except give us access.",
+    "WHAT WE ASK OF YOU. Reasonable access to the room and the plant for each visit, arranged in advance; power and water available at site; the condenser kept clear of obstruction and the evaporator airflow not blocked by stacked goods; and prompt notice of any fault. Please report a fault as soon as it appears — a small fault left running becomes a large one, and a room allowed to run on after a known fault can lose its product and its warranty cover together.",
+    "RESPONSE. Scheduled visits are arranged with you in advance at a time that suits your operation. For a breakdown, telephone 7706 0676 or write to farhan@dctsqatar.com quoting this contract number. We shall respond the same working day wherever we can, and attend as a priority where the room is at risk. Out-of-hours attendance can be arranged and is not included in this contract; it will be quoted at the time.",
+    "TERM AND RENEWAL. This contract runs from 23 November 2026 to 22 November 2027 and then ends; it does not renew automatically and you will not be billed for anything without asking for it first. Either party may end it earlier on thirty (30) days' written notice. It covers only the plant described above at your premises. It is issued in respect of our contract QUT/DCTS/SQ130/2026 (Revised) and our handover report HO/TNDK/003/2026."
+  ]
+}

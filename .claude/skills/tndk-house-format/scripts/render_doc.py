@@ -163,6 +163,30 @@ TYPES = {
         "extra_column": {"label": "STATUS", "field": "result", "width": 13.0,
                           "align": "c", "position": "end"},
     },
+    "warranty": {
+        # The company's own undertaking, issued once and kept by the client for the life of
+        # the warranty. One party signs it, because only one party is promising anything.
+        # The schedule lists what is covered and for how long; the notes list what is not.
+        "badge": ["WARRANTY", "CERTIFICATE"],
+        "party": "ISSUED TO",
+        "meta": ["CERTIFICATE NO", "DATE", "WARRANTY PERIOD"],
+        "counterparty": "CLIENT",
+        "money": False,
+        "sign": "sales",
+        "extra_column": {"label": "COVER", "field": "result", "width": 15.0,
+                          "align": "c", "position": "end"},
+    },
+    "maintenance_contract": {
+        # An agreement, not an instruction: both parties sign. Money is shown because the
+        # contract sum and its payment are the point of it.
+        "badge": ["MAINTENANCE", "CONTRACT"],
+        "party": "BETWEEN TNDK AND",
+        "meta": ["CONTRACT NO", "DATE", "CONTRACT PERIOD"],
+        "counterparty": "CLIENT",
+        "money": True,
+        "sign": "two-party",
+        "sign_labels": ("For and on behalf of TNDK", "For and on behalf of the Client"),
+    },
     "handover": {
         "badge": ["HANDOVER", "CERTIFICATE"],
         "party": "HANDOVER TO",
@@ -528,7 +552,7 @@ def build_html(doc):
                 '<div class="sigline"></div><div class="signame">Ronaldo / Accountant</div>'
                 f'<div class="sigco">For {esc(company["legal"])}</div></div></div>')
     else:
-        left, right = spec.get("sign_labels", ("Delivered by", "Received by"))
+        left, right = doc.get("sign_labels") or spec.get("sign_labels", ("Delivered by", "Received by"))
         sign = (f'<table class="sig2"><tr>'
                 f'<td>{seal_tag(doc)}<div class="sigline"></div>'
                 f'<div class="signame">{esc(left)}</div>'

@@ -3487,6 +3487,52 @@ out and before the PCC cover, and after the RCC pour — each on one working day
 30% advance of 28,500 was raised on 03-11 and is outstanding. Their LPO's delivery date of
 17-11-2026 is this week and the programme has not started.
 
+### OL-155 — Gozl closed out with a four-document pack, and two new series opened
+**Owner:** Farhan · **Raised:** 2026-11-22 · **THE SET IS COMPLETE**
+
+Four documents now close this contract. Two were already issued and two are new:
+
+| | |
+|---|---|
+| **INV-320/2026** | Final invoice, **11,960**, issued 22-11 |
+| **HO/TNDK/003/2026 Rev 1** | Handover report, 22 items, monitoring system added |
+| **WC/TNDK/001/2026** | **NEW** — warranty certificate, 12 months, 21-11-2026 to 20-11-2027 |
+| **AMC/TNDK/001/2026** | **NEW** — maintenance contract, 23-11-2026 to 22-11-2027, **NIL** |
+
+**TWO NEW DOCUMENT TYPES WERE ADDED TO THE HOUSE FORMAT**, `warranty` and
+`maintenance_contract`, rather than forcing either into an existing layout. The warranty signs
+one party, because only one party is promising anything; the contract signs both, because it is
+an agreement. `sign_labels` is now overridable per document, so the AMC names both companies in
+full instead of saying "Delivered by". **Both series start at 001, which is how the handover
+series should have started.**
+
+**THE AMC IS FREE AND THE DOCUMENT SAYS SO IN PLAIN WORDS, WITH THE REASON.** Note 1: a duty and
+standby plant that is never serviced quietly stops being duty and standby; and TNDK wants the
+renewal. **Unrecognised generosity is wasted, so it is written down.**
+
+**THE THREE DOCUMENTS INTERLOCK, AND THAT IS THE POINT.** The warranty's condition 3 requires
+servicing twice a year and regular alternation of the lead system. **AMC note 3 states that the
+contract discharges both conditions for the client**, and that the service reports are the
+record. So the client cannot void his own warranty by forgetting to service — and TNDK gets two
+guaranteed visits to a customer it wants to keep.
+
+**DIARISE THE RENEWAL: BEFORE 22 NOVEMBER 2027.** The AMC expressly does not auto-renew and
+promises a quotation before it ends. **That promise is now on a signed document.** The first
+preventive visit falls due around **23 May 2027**.
+
+**WHAT IS STILL OPEN ON THIS CLIENT, AND NONE OF IT IS SMALL:**
+1. **The equipment substitution is disclosed but not yet accepted in writing** (OL-151). Send
+   HO/003 Rev 1 and the Airtronics selection data with the invoice.
+2. **The monitoring system is on no purchase order** (OL-154) — make, model, cost, and whose
+   name the app account is in. The warranty now covers it as item 10 **without TNDK knowing what
+   it is**, which is a promise made over an unidentified product.
+3. **47,840 of this contract has never been proved cleared** — two uncrossed bearer cheques.
+4. **The 20% split was never set** and was taken as one stage, correctly.
+
+**ONE SENTENCE IN THE WARRANTY IS WORTH RE-READING BEFORE IT GOES.** Item 10 warrants the
+temperature monitoring system for twelve months. **Confirm the supplier's own warranty on it
+matches**, or TNDK is carrying a year of cover on a box it bought outside its own order system.
+
 ### OL-154 — Gozl's handover report reissued with a temperature monitoring system nobody had recorded
 **Owner:** Farhan · **Raised:** 2026-11-22 · **REVISION 1 — AND A MISSING PROCUREMENT TRAIL**
 

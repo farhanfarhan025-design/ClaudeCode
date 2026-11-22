@@ -1,0 +1,47 @@
+{
+  "type": "warranty",
+  "number": "WC/TNDK/001/2026",
+  "date": "22-11-2026",
+  "ref": "12 months — 21-11-2026 to 20-11-2027",
+  "currency": "QAR",
+  "filename": "WarrantyCertificate_WC-TNDK-001-2026_Gozl_ChillerRoom",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "ISSUED TO",
+    "name": "M/s. Gozl Veterinary Services and Trading Co.",
+    "fields": [
+      "Doha, State of Qatar",
+      {"label": "Installation", "value": "One (1) chiller room 4.00 x 4.00 x 2.50 m (40.00 cbm), 0 °C to +8 °C, with duty and standby refrigeration"},
+      {"label": "Our contract", "value": "QUT/DCTS/SQ130/2026 (Revised) — approved 29-10-2026"},
+      {"label": "Handed over", "value": "21 November 2026 — handover report HO/TNDK/003/2026"},
+      {"label": "Warranty period", "value": "TWELVE (12) MONTHS — 21 November 2026 to 20 November 2027, both dates inclusive"},
+      {"label": "To make a claim", "value": "Tel 7706 0676  |  farhan@dctsqatar.com — quote this certificate number"}
+    ]
+  },
+  "lines": [
+    {"description": "COLD ROOM PANELS — 100 mm PUF / PIR sandwich panel to walls, ceiling and floor, 72.00 sqm, including coving, corner angles, sealing and fixings", "unit": "Lot", "qty": 1, "result": "12 months"},
+    {"description": "INSULATED FLOOR SYSTEM — insulated floor build-up with 18 mm marine plywood and 1.5 mm chequered plate finish, 16.00 sqm", "unit": "Lot", "qty": 1, "result": "12 months"},
+    {"description": "COLD ROOM DOOR — hinged door 900 x 1900 mm with heated frame, magnetic gasket, hinges, handle, lock and internal safety release", "unit": "No.", "qty": 1, "result": "12 months"},
+    {"description": "INSTALLATION WORKMANSHIP — erection, plumbing and alignment of the room, all coving, silicone sealing and finishing, and the mechanical and electrical installation carried out by us", "unit": "Lot", "qty": 1, "result": "12 months"},
+    {"description": "CONDENSING UNITS — two (2) RIME RLUM-B030Y-1C air-cooled condensing units with BITZER semi-hermetic compressors 2FES-3Y, on R404A, arranged duty and standby", "unit": "Nos.", "qty": 2, "result": "12 months"},
+    {"description": "UNIT COOLERS — two (2) GUNAY slim type unit coolers GYE 235-6B, one to each system, with their fans, heaters and trays", "unit": "Nos.", "qty": 2, "result": "12 months"},
+    {"description": "REFRIGERATION PIPEWORK — two (2) independent copper circuits with Armaflex insulation, brazed joints, supports, and the insulated condensate drain lines", "unit": "Lot", "qty": 1, "result": "12 months"},
+    {"description": "CIRCUIT ACCESSORIES — DANFOSS TE 2 expansion valves and orifices, DANFOSS DCL 164S filter driers, DANFOSS SGI 12s sight glasses and CASTEL 1068/4A6 solenoid valves with coils, two sets", "unit": "Sets", "qty": 2, "result": "12 months"},
+    {"description": "CONTROL PANEL — SUBZERO metal-body control panel CRC205200 with digital temperature controller and display, AUTOMATIC DUTY AND STANDBY CHANGEOVER, isolator, contactors, overloads, fuses and safeties", "unit": "No.", "qty": 1, "result": "12 months"},
+    {"description": "TEMPERATURE MONITORING SYSTEM — the room sensor, the monitoring unit and its gateway, and their configuration on the mobile application with the alarm settings as commissioned", "unit": "Lot", "qty": 1, "result": "12 months"},
+    {"description": "LIGHTING, HEATERS AND ELECTRICAL WORKS — internal vapour-proof LED lighting with door switch, door frame heater, and the complete power and control wiring from the control panel onward", "unit": "Lot", "qty": 1, "result": "12 months"}
+  ],
+  "notes": [
+    "WHAT THIS CERTIFICATE PROMISES. The New Doha Kitchen Equipment Services W.L.L. warrants that the works and equipment listed above are free from defects in material and workmanship, and undertakes to repair or, at our option, replace any item that proves defective within the warranty period, at our cost, including the labour, the parts and the attendance at your site. Items 1 to 4 and 7 to 11 are warranted for twelve (12) months from the date of HANDOVER, 21 November 2026. Items 5 and 6, being the condensing units and unit coolers, are warranted for twelve (12) months from the date of COMMISSIONING. Both periods end on 20 November 2027.",
+    "WHAT IS NOT COVERED. Damage from misuse, abuse, impact (including trolley, pallet or forklift damage to panels, door or floor), overloading of the room or blocking of the evaporator airflow; power surge, voltage outside the equipment's rated range, phase failure or interruption of supply; water ingress, flooding or washing down with a pressure hose; unauthorised modification, repair or interference by anyone other than ourselves or a person we authorise in writing; operation outside the design condition of 0 °C to +8 °C; the absence of routine maintenance; consumable and wear items including lamps, fuses and gaskets damaged by impact; refrigerant lost other than through a defect in our work; corrosion from chemicals, cleaning agents or stored product; and any cause outside our reasonable control.",
+    "CONDITIONS ON WHICH THIS WARRANTY IS GIVEN. The room is to be operated within its design condition and kept in reasonable condition; the condenser coils are to be kept clean and clear of obstruction; the evaporator airflow is not to be blocked by stacked goods; routine servicing is to be carried out at least twice in the year, by us or by a competent refrigeration contractor, and the records kept; and THE LEAD SYSTEM IS TO BE ALTERNATED REGULARLY, monthly if possible, using the changeover on the control panel, so that both machines run and neither sits idle long enough to seize. A standby that has never run is not a standby, and a seizure caused by never running it is not a defect in our supply.",
+    "THE TEMPERATURE MONITORING SYSTEM AND ITS ALARMS. The sensor, the monitoring unit, the gateway and their configuration are warranted as item 10. The ALARMS, however, depend on your own internet connection and power supply being available: if either fails, the room continues to run and the system continues to work, but a notification cannot reach a telephone. We cannot warrant the delivery of an alarm over a network that is not ours. Please keep the nominated user list up to date as your staff change, and test an alarm yourselves from time to time.",
+    "HOW TO MAKE A CLAIM. Telephone 7706 0676 or write to farhan@dctsqatar.com, quoting this certificate number WC/TNDK/001/2026 and describing the fault. We will attend site and, on a chiller room failure where the room is at risk, we will attend as a priority. Please report any fault promptly: a small fault left running can become a large one, and damage caused by continuing to operate equipment after a fault is known is not covered.",
+    "This certificate is issued in respect of our contract QUT/DCTS/SQ130/2026 (Revised) and our handover report HO/TNDK/003/2026, and is subject to their terms. It relates to this installation at your premises and passes with the installation if the premises change hands. We shall be pleased to quote you an annual maintenance contract, which keeps the plant serviced, the records kept and this warranty's conditions satisfied without you having to think about them."
+  ]
+}
