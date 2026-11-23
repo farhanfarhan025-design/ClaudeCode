@@ -3487,6 +3487,55 @@ out and before the PCC cover, and after the RCC pour — each on one working day
 30% advance of 28,500 was raised on 03-11 and is outstanding. Their LPO's delivery date of
 17-11-2026 is this week and the programme has not started.
 
+### OL-156 — Gozl's consolidated final account, and the double-count it could have caused
+**Owner:** Farhan · **Raised:** 2026-11-23 · **Value:** QAR 11,960 due · **DO NOT COUNT IT TWICE**
+
+**INV-322/2026 — CONSOLIDATED INVOICE / FINAL ACCOUNT**, issued at the client's request for the
+complete project. Contract **59,800** on the face of it, **less 29,900 (RCT-292) and 17,940
+(RCT-296)**, giving **BALANCE NOW DUE 11,960**. Two pages, signed and stamped.
+
+**IT IS NOT A PRO FORMA, AND IT MATTERED TO GET THAT RIGHT.** A pro forma is issued BEFORE supply,
+is not a demand for payment, and is used to let a client raise an order or open a credit. **This
+work is finished, handed over and 80% paid.** Calling it a pro forma on a completed, part-paid
+contract would have been wrong on its face and would have confused the client's accounts
+department, which is the one audience the document exists for. The correct instrument is a
+**final account issued as a consolidated invoice**.
+
+**THE REAL RISK WAS DOUBLE COUNTING, AND THE DOCUMENT IS BUILT AROUND KILLING IT.** Three invoices
+already exist — INV-291 (29,900), INV-294 (17,940), INV-320 (11,960), together exactly 59,800.
+**A fourth invoice for 59,800 with nothing else on it would let Gozl's books show 119,600 owed.**
+
+Three defences, all on the document:
+1. **The party block says it** — *"IT CONSOLIDATES AND REPLACES our invoices INV-291, INV-294
+   and INV-320/2026 — IT IS NOT IN ADDITION TO THEM"*, in the header, before the price.
+2. **Note 1 is titled "PLEASE READ THIS NOTE FIRST"**, lists all three invoices with their dates
+   and amounts, shows they total 59,800, and asks them to cancel or cross-reference the three and
+   enter this one in their place.
+3. **The payments are on the face of the invoice as deductions**, so the document itself proves
+   that only 11,960 is outstanding. **A reader cannot book 59,800 as payable from a page whose
+   bottom line reads 11,960.**
+
+**THE SAME DISCIPLINE IS NOW NEEDED IN TNDK'S OWN BOOKS, AND THIS IS THE PART TO WATCH.** The
+invoice register carries 291, 294, 320 **and** 322 on one contract worth 59,800. **Turnover must
+count one presentation or the other, never both.** The numbering table now says so against 322
+and against the order book row. **If a year-end summary is ever run off the invoice series
+without reading that note, this contract reports at 119,600.**
+
+**WHY THE CLIENT PROBABLY ASKED.** A stage-billed contract leaves their file with three part
+invoices and no single document showing what the project cost. Their accounts, their auditor or
+their owner wants one page. **It is a reasonable request and worth saying yes to** — and it is
+also the natural moment to ask for the acceptance of the equipment substitution (OL-151), since
+they are reading the file anyway.
+
+**AND IT PUTS THE 11,960 IN FRONT OF THEM AGAIN WITHOUT CHASING.** The client asked for a summary;
+the summary happens to end in a balance due. **That is a collection letter they requested
+themselves**, which is the best kind. Note 4 repeats the crossed-cheque request, with the reason
+given in their interest.
+
+**STILL UNPROVEN: the 47,840 deducted on this invoice** rests on two uncrossed bearer cheques
+neither of which has been shown cleared. **This document now states in writing that TNDK received
+them.** If either bounced, that statement has to be corrected before anything else.
+
 ### OL-155 — Gozl closed out with a four-document pack, and two new series opened
 **Owner:** Farhan · **Raised:** 2026-11-22 · **THE SET IS COMPLETE**
 
