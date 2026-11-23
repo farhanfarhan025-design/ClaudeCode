@@ -3487,6 +3487,47 @@ out and before the PCC cover, and after the RCC pour — each on one working day
 30% advance of 28,500 was raised on 03-11 and is outstanding. Their LPO's delivery date of
 17-11-2026 is this week and the programme has not started.
 
+### OL-158 — The consolidated invoice is reissued as paid in full, on the day it was first written
+**Owner:** Farhan · **Raised:** 2026-11-23 · **REVISION 1 — NIL BALANCE**
+
+**INV-322/2026 Revision 1.** The first issue of this morning showed contract 59,800 less 47,840
+received, **balance due 11,960**. The cheque arrived the same day. **A complete-project invoice
+demanding money that has already been paid is the one document that must not reach a client's
+accounts department**, so it is reissued under the same number deducting all three payments:
+
+| | QAR |
+|---|---|
+| Complete project | 59,800.00 |
+| LESS cheque 01000012, 29-10 (RCT-292) | (29,900.00) |
+| LESS cheque 01000013, 03-11 (RCT-296) | (17,940.00) |
+| LESS cheque 01000014, 23-11 (RCT-323) | (11,960.00) |
+| **BALANCE OUTSTANDING** | **0.00** |
+
+**THE THREE RECEIPT NUMBERS ARE ON THE FACE OF THE INVOICE, NOT JUST THE AMOUNTS.** A client filing
+this one page can tie every riyal to a receipt he already holds. **That is what makes it a final
+account rather than a summary.**
+
+**"AMOUNT IN WORDS: ZERO QATARI RIYALS ONLY" STAYS, AND IT SHOULD.** It looks odd on first
+reading, but `render_doc.py` validates any stated words against the computed grand total and
+refuses a mismatch. **Writing "NIL — PAID IN FULL" there would mean weakening that guard**, which
+exists precisely so an invoice can never leave with words and figures disagreeing — the defect
+chased on the HMBE order all year (OL-084). **The label above it reads BALANCE OUTSTANDING: 0.00,
+so nothing is ambiguous.** The guard is worth more than the cosmetics.
+
+**NOTE 1 NOW CARRIES BOTH WARNINGS AT ONCE** — that this invoice replaces INV-291, INV-294 and
+INV-320 and is not additional to them, **and** that it is Revision 1 superseding the first issue
+of the same date. The payment note no longer asks for money: it records that nothing is required,
+gives the bank details for their files and any future order, and states the twenty-five-day run
+from approval to settlement in plain words.
+
+**TNDK'S OWN TURNOVER RULE IS UNCHANGED AND STILL THE RISK.** The invoice series carries 291, 294,
+320 and 322 against one 59,800 contract. **Count one presentation or the other. Never both.**
+Now that 322 reads nil, a careless reader could also take it as a 59,800 sale with nothing
+collected — **it is the three receipts that prove collection, and they are referenced on it.**
+
+**The superseded first-issue PDF has been deleted** so only one INV-322 exists, as was done for
+INV-294 in November and for the mis-numbered RCT-318 an hour ago.
+
 ### OL-157 — Gozl settles in full, and I caught a number collision one step from the client
 **Owner:** Farhan · **Raised:** 2026-11-23 · **CONTRACT CLOSED AT 59,800** · **NUMBERING ERROR CORRECTED**
 

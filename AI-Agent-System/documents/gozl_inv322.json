@@ -1,11 +1,14 @@
 {
   "type": "invoice",
-  "badge": ["CONSOLIDATED", "INVOICE"],
+  "badge": [
+    "CONSOLIDATED",
+    "INVOICE"
+  ],
   "number": "INV-322/2026",
   "date": "23-11-2026",
-  "ref": "QUT/DCTS/SQ130/2026 (Revised) — FINAL ACCOUNT for the complete project",
+  "ref": "QUT/DCTS/SQ130/2026 (Revised) — FINAL ACCOUNT, Revision 1 — SETTLED IN FULL",
   "currency": "QAR",
-  "filename": "Invoice_INV-322-2026_Gozl_FinalAccount_CompleteProject_Consolidated",
+  "filename": "Invoice_INV-322-2026_Gozl_FinalAccount_CompleteProject_SettledInFull",
   "payee_name": "The New Doha Kitchen Equipment Services W.L.L.",
   "notes_new_page": true,
   "company": {
@@ -19,11 +22,26 @@
     "name": "M/s. Gozl Veterinary Services and Trading Co.",
     "fields": [
       "Doha, State of Qatar",
-      {"label": "Project", "value": "One (1) chiller room 4.00 x 4.00 x 2.50 m (40.00 cbm), 0 °C to +8 °C, with DUTY AND STANDBY refrigeration — complete and handed over 21-11-2026"},
-      {"label": "Our contract", "value": "QUT/DCTS/SQ130/2026 (Revised) — approved 29-10-2026"},
-      {"label": "Contract Value", "value": "QAR 59,800.00 — the complete project"},
-      {"label": "Purpose of this document", "value": "ISSUED AT YOUR REQUEST as the final account for the complete project. IT CONSOLIDATES AND REPLACES our invoices INV-291, INV-294 and INV-320/2026 — IT IS NOT IN ADDITION TO THEM"},
-      {"label": "Stage", "value": "FINAL ACCOUNT — complete project value, less payments already received"}
+      {
+        "label": "Project",
+        "value": "One (1) chiller room 4.00 x 4.00 x 2.50 m (40.00 cbm), 0 °C to +8 °C, with DUTY AND STANDBY refrigeration — complete and handed over 21-11-2026"
+      },
+      {
+        "label": "Our contract",
+        "value": "QUT/DCTS/SQ130/2026 (Revised) — approved 29-10-2026"
+      },
+      {
+        "label": "Contract Value",
+        "value": "QAR 59,800.00 — the complete project"
+      },
+      {
+        "label": "Purpose of this document",
+        "value": "ISSUED AT YOUR REQUEST as the final account for the complete project. IT CONSOLIDATES AND REPLACES our invoices INV-291, INV-294 and INV-320/2026 — IT IS NOT IN ADDITION TO THEM. REVISION 1 of 23-11-2026 records your final payment and supersedes the first issue of the same date."
+      },
+      {
+        "label": "Stage",
+        "value": "FINAL ACCOUNT — COMPLETE PROJECT, PAID IN FULL. NOTHING IS OUTSTANDING."
+      }
     ]
   },
   "lines": [
@@ -31,14 +49,24 @@
       "description": "COMPLETE PROJECT — SUPPLY, INSTALLATION, TESTING, COMMISSIONING AND HANDOVER OF ONE (1) CHILLER ROOM 4.00 x 4.00 x 2.50 m AT 0 °C TO +8 °C WITH DUTY AND STANDBY REFRIGERATION\nThe whole of the works under our approved quotation QUT/DCTS/SQ130/2026 (Revised), comprising:\n• 100 mm insulated sandwich panel to walls, ceiling and floor, 72.00 sqm, with all aluminium coving, corner angles, silicone sealing and fasteners.\n• The insulated floor system with 18 mm marine plywood and 1.5 mm chequered plate finish, 16.00 sqm.\n• One (1) hinged cold room door 900 x 1900 mm with heated frame, magnetic gasket, hinges, handle with lock and internal safety release.\n• TWO (2) COMPLETE AND INDEPENDENT REFRIGERATION SYSTEMS arranged as duty and standby — two (2) RIME RLUM-B030Y-1C air-cooled condensing units with BITZER 2FES-3Y semi-hermetic compressors on R404A, and two (2) GUNAY GYE 235-6B slim type unit coolers, with their expansion valves, filter driers, sight glasses, solenoid valves, copper pipework, Armaflex insulation and insulated condensate drain lines.\n• One (1) SUBZERO control panel with digital temperature controller and display and AUTOMATIC DUTY AND STANDBY CHANGEOVER, with all safeties.\n• The temperature monitoring system with remote reading and alarms on a mobile application.\n• Internal vapour-proof LED lighting, door frame heater, and the complete electrical works from the control panel onward.\n• Pressure testing, evacuation, refrigerant charging, testing and commissioning of both systems, transportation, lifting at site, and handover with operation training.\nHanded over 21-11-2026 under our handover report HO/TNDK/003/2026, and warranted for twelve (12) months under our certificate WC/TNDK/001/2026.",
       "unit": "Lot",
       "qty": 1,
-      "rate": 59800.00
+      "rate": 59800.0
     }
   ],
   "adjustments": [
-    {"label": "LESS: received 29-10-2026, 50% advance — our receipt RCT-292/2026", "amount": -29900.00},
-    {"label": "LESS: received 03-11-2026, 30% on delivery — our receipt RCT-296/2026", "amount": -17940.00}
+    {
+      "label": "LESS: received 29-10-2026, 50% advance — cheque 01000012, our receipt RCT-292/2026",
+      "amount": -29900.0
+    },
+    {
+      "label": "LESS: received 03-11-2026, 30% on delivery — cheque 01000013, our receipt RCT-296/2026",
+      "amount": -17940.0
+    },
+    {
+      "label": "LESS: received 23-11-2026, final 20% — cheque 01000014, our receipt RCT-323/2026",
+      "amount": -11960.0
+    }
   ],
-  "grand_total_label": "BALANCE NOW DUE",
+  "grand_total_label": "BALANCE OUTSTANDING",
   "bank": {
     "Bank": "The Commercial Bank (P.S.Q.C.), Grand Hamad Branch – 4010",
     "Account Name": "The New Doha Kitchen Equipment Services W.L.L.",
@@ -48,11 +76,12 @@
     "Currency": "Qatari Riyal (QAR)"
   },
   "notes": [
-    "PLEASE READ THIS NOTE FIRST — THIS DOCUMENT REPLACES THREE EARLIER INVOICES AND IS NOT ADDITIONAL TO THEM. You asked us for a single invoice covering the complete project, and this is it. The works were billed to you in three stages as our contract provides, under INV-291/2026 of 29-10-2026 for QAR 29,900.00, INV-294/2026 of 02-11-2026 for QAR 17,940.00 and INV-320/2026 of 22-11-2026 for QAR 11,960.00 — together QAR 59,800.00, which is the contract value and the figure shown above. THIS CONSOLIDATED INVOICE REPLACES ALL THREE FOR YOUR RECORDS. Kindly cancel or cross-reference those three in your books and enter this one in their place, so that the project is not recorded twice. THE TOTAL PAYABLE ON THIS CONTRACT IS AND ALWAYS WAS QAR 59,800.00.",
-    "FINAL ACCOUNT, AND WHAT IS ACTUALLY OUTSTANDING. Contract value QAR 59,800.00. Received with thanks: QAR 29,900.00 on 29-10-2026, being the 50% advance, receipted under RCT-292/2026; and QAR 17,940.00 on 03-11-2026, being the 30% on delivery of materials, receipted under RCT-296/2026 — QAR 47,840.00 in all. BALANCE NOW DUE QAR 11,960.00, being the final 20% which fell due on completion and handover. On settlement of that sum the contract stands at QAR 59,800.00 received in full and the account between us is closed. Nothing further will be invoiced.",
+    "PLEASE READ THIS NOTE FIRST — THIS DOCUMENT REPLACES THREE EARLIER INVOICES AND IS NOT ADDITIONAL TO THEM. You asked us for a single invoice covering the complete project, and this is it. The works were billed to you in three stages as our contract provides, under INV-291/2026 of 29-10-2026 for QAR 29,900.00, INV-294/2026 of 02-11-2026 for QAR 17,940.00 and INV-320/2026 of 22-11-2026 for QAR 11,960.00 — together QAR 59,800.00, which is the contract value and the figure shown above. THIS CONSOLIDATED INVOICE REPLACES ALL THREE FOR YOUR RECORDS. Kindly cancel or cross-reference those three in your books and enter this one in their place, so that the project is not recorded twice. THE TOTAL PAYABLE ON THIS CONTRACT WAS QAR 59,800.00 AND IT HAS BEEN PAID IN FULL. This is Revision 1 and it supersedes our first issue of the same date, which was prepared before your final payment reached us.",
+    "FINAL ACCOUNT — SETTLED IN FULL. Contract value QAR 59,800.00. Received with thanks: QAR 29,900.00 on 29-10-2026, the 50% advance, under cheque 01000012 and our receipt RCT-292/2026; QAR 17,940.00 on 03-11-2026, the 30% on delivery of materials, under cheque 01000013 and our receipt RCT-296/2026; and QAR 11,960.00 on 23-11-2026, the final 20% on completion and handover, under cheque 01000014 and our receipt RCT-323/2026. TOTAL RECEIVED QAR 59,800.00. BALANCE OUTSTANDING: NIL. THE ACCOUNT BETWEEN US IS CLOSED, nothing further is due and no further invoice will follow. All three receipts are with you and this invoice may be filed with them as the complete record of the project.",
     "THE DOCUMENTS THAT GO WITH THIS ACCOUNT. Handover report HO/TNDK/003/2026 records every item installed, tested and checked, and the results of the pressure, evacuation, charging, pull-down and safety tests — including the test that matters most on a duty and standby plant, that EACH SYSTEM WAS RUN ALONE AND PROVED TO HOLD THE ROOM AT 0 °C TO +8 °C ON ITS OWN. Warranty certificate WC/TNDK/001/2026 gives twelve (12) months from 21-11-2026. Maintenance contract AMC/TNDK/001/2026 provides two preventive visits and unlimited breakdown attendance from 23-11-2026 to 22-11-2027 AT NO CHARGE, as our compliment on this installation.",
-    "PAYMENT. The balance of QAR 11,960.00 is due on presentation. Payment may be made by bank transfer to the account shown above, or by cheque CROSSED \"A/C PAYEE ONLY\" and drawn strictly in favour of the account name given, which is THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L., with no word between Equipment and Services. We ask for a crossed cheque or a transfer in your interest as much as ours: an open cheque is payable to whoever presents it and is at risk from the moment it leaves your office until it reaches our bank. Kindly quote INV-322/2026 as the reference.",
+    "NO PAYMENT IS REQUIRED AGAINST THIS DOCUMENT. It is issued as your record of the completed project and is settled in full. Our bank details are reproduced above for your files only, and for any future order. Our thanks for a contract approved on 29-10-2026, handed over on 21-11-2026 and settled on 23-11-2026 — twenty-five days from first to last, with every stage paid without a reminder from us. We say so because it is unusual and because it is appreciated.",
     "WARRANTY: twelve (12) months from 21-11-2026 on the cold room panels, the door, the insulated floor and our workmanship, and twelve (12) months from the date of commissioning on both condensing units, both unit coolers, the electrical components, the controls and the temperature monitoring system. The full terms, the exclusions and the conditions are set out in certificate WC/TNDK/001/2026, which governs.",
     "This consolidated invoice is issued at your request against our approved quotation QUT/DCTS/SQ130/2026 (Revised) and our handover report HO/TNDK/003/2026, and is subject to the terms of that quotation. With our thanks for the order and for the opportunity to work with you."
-  ]
+  ],
+  "grand_total": 0.0
 }
