@@ -1,0 +1,47 @@
+{
+  "type": "receipt",
+  "number": "RCT-323/2026",
+  "date": "23-11-2026",
+  "ref": "INV-320/2026 — as restated in INV-322/2026",
+  "meta_labels": ["RECEIPT NO", "DATE", "AGAINST INVOICE"],
+  "currency": "QAR",
+  "filename": "Receipt_RCT-323-2026_Gozl_FinalBalance_ContractSettledInFull",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "RECEIVED FROM",
+    "name": "M/s. Gozl Veterinary Services and Trading Co.",
+    "fields": [
+      "Doha, State of Qatar",
+      {"label": "Project", "value": "One (1) chiller room 4.00 x 4.00 x 2.50 m, 0 °C to +8 °C, with duty and standby refrigeration"},
+      {"label": "Our contract", "value": "QUT/DCTS/SQ130/2026 (Revised) — contract value QAR 59,800.00"},
+      {"label": "Status", "value": "FINAL BALANCE RECEIVED — THIS CONTRACT IS SETTLED IN FULL"},
+      {"label": "Balance After This Receipt", "value": "NIL — the account between us is closed"}
+    ]
+  },
+  "lines": [
+    {"description": "Final balance received in full, being the 20% payable on completion and handover, against INV-320/2026 of 22-11-2026 as restated in our consolidated final account INV-322/2026 of 23-11-2026 — supply, installation, testing and commissioning of one (1) chiller room 4.00 x 4.00 x 2.50 m with duty and standby refrigeration, complete and handed over on 21-11-2026", "unit": "Job", "qty": 1, "rate": 11960.00}
+  ],
+  "grand_total_label": "TOTAL RECEIVED",
+  "instrument": {
+    "type": "cheque",
+    "payment_mode": "Cheque",
+    "cheque_no": "01000014",
+    "cheque_date": "22-11-2026",
+    "bank": "Doha Bank, North Gate Mall Branch, Doha, Qatar",
+    "drawer": "GOZL VETERINARY SERV AND TRAD — drawn on a/c 267-1347410-01-10-0",
+    "received_on": "23-11-2026, under our cash/cheque receipt voucher no. 0745"
+  },
+  "notes": [
+    "THIS CONTRACT IS NOW SETTLED IN FULL AND THE ACCOUNT IS CLOSED. Contract value QAR 59,800.00. Received: QAR 29,900.00 on 29-10-2026, the 50% advance, under cheque 01000012 and our receipt RCT-292/2026; QAR 17,940.00 on 03-11-2026, the 30% on delivery of materials, under cheque 01000013 and our receipt RCT-296/2026; and QAR 11,960.00 by this receipt, the final 20% on completion and handover, under cheque 01000014. TOTAL RECEIVED QAR 59,800.00. NOTHING FURTHER IS DUE and no further invoice will follow.",
+    "Received with thanks, subject to realisation of the cheque. The amount in words and in figures agree at QAR 11,960.00 and the payee name is correct. This receipt is issued against our cash/cheque receipt voucher no. 0745 of 23-11-2026 and replaces it for your records; the two are one and the same payment.",
+    "OUR THANKS FOR A CONTRACT COMPLETED FROM START TO FINISH IN UNDER FOUR WEEKS. Your quotation was approved on 29-10-2026, the room was handed over on 21-11-2026 and the account is settled today. Every stage was paid without a reminder from us, and the final payment came within a day of our account being rendered. We say so because it is unusual and because it is appreciated.",
+    "WHAT YOU NOW HOLD, AND IT COSTS YOU NOTHING FURTHER. Handover report HO/TNDK/003/2026 recording every item installed and tested; warranty certificate WC/TNDK/001/2026 giving twelve (12) months from 21-11-2026 on the panels, door, insulated floor, workmanship, both condensing units, both unit coolers, the controls and the temperature monitoring system; and maintenance contract AMC/TNDK/001/2026, which runs from 23-11-2026 to 22-11-2027 AT NO CHARGE and provides two preventive visits and unlimited breakdown attendance within working hours. Your first scheduled visit falls due around 23 May 2027 and we shall contact you to arrange it.",
+    "TWO SHORT REQUESTS TO CLOSE THE FILE AT BOTH ENDS. First, kindly sign and return a copy of maintenance contract AMC/TNDK/001/2026, which requires both signatures to take effect. Second, note 2 of our handover report records that the condensing units and unit coolers installed are current models of the same manufacturers rather than the models named in our quotation, selected for the duty of your room and proved on site to hold it on either system alone; we should be grateful for your written confirmation that the equipment as installed is accepted. The manufacturers' selection data is with you on request.",
+    "ONE THING THAT KEEPS THE PLANT ALIVE, AND IT IS THE ONLY THING WE ASK OF YOU. Please alternate the lead refrigeration system regularly, monthly if you can, using the changeover on the control panel, so that both machines run and neither stands idle long enough to seize. A standby that has never run is not a standby. With our thanks for your custom, and we hope to work with you again."
+  ]
+}

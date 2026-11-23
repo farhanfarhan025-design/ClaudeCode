@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Receivables from customers, as at 22-11-2026. HBK-BWTC-BEIL JV excluded at Farhan's instruction."""
+"""Receivables from customers, as at 23-11-2026. HBK-BWTC-BEIL JV excluded at Farhan's instruction."""
 import io
 
 SP = "/tmp/claude-0/-home-user-ClaudeCode/f198eb8f-5169-5011-a0a8-bd4d87e7e71f/scratchpad"
@@ -28,9 +28,6 @@ ROWS = [
     ("Oscar Prime Trading (3rd job)", "Chiller room 4.00 x 3.90 x 2.70 m", 31370, 24700, 6670, 0,
      "Contract 38,000 less a 6,630 credit for the sandwich panel they supplied to site. INV-318 for the "
      "final 6,670. No written order on file — the approval is verbal."),
-    ("M/s. Gozl Veterinary Services", "Chiller room, duty and standby", 59800, 47840, 11960, 0,
-     "Handed over 21-11 (HO/TNDK/003). INV-320 for the final 20%. Both earlier stages were paid on uncrossed "
-     "bearer cheques and neither is confirmed cleared, so 47,840 of this contract is still unproven."),
     ("M/s. Panda Cakes", "Chiller room 4.35 x 2.00 x 2.40 m", 29000, 27550, 1450, 0,
      "Room complete and handed over. INV-319 for the final 5%. Every earlier stage was settled within two "
      "days of its invoice, so this should be the shortest collection on the page."),
@@ -109,8 +106,8 @@ HTML = u"""<!DOCTYPE html>
   <div class="ttl">AMOUNTS RECEIVABLE FROM CUSTOMERS</div>
 </div>
 <div class="rule"></div>
-<div class="asat"><b>As at 22 November 2026.</b> Figures in Qatari Riyals.
-<b>Al Zahrawi Medical, Everbloom and Oscar Prime's first contract are settled and closed off this list.</b> <b>Oscar Prime's 10,750 was paid on 01-09-2026 and One A's INV-275 on 19-10-2026 — both advices were produced only on 19-11, having been carried as unpaid until then.</b> <b>HBK-BWTC-BEIL JV (Mesaieed) is excluded at your instruction</b> &mdash; that contract carries a further
+<div class="asat"><b>As at 23 November 2026.</b> Figures in Qatari Riyals.
+<b>Al Zahrawi Medical, Everbloom, Oscar Prime's first contract and Gozl Veterinary are settled and closed off this list.</b> <b>Gozl paid the final 11,960 on 23-11-2026, closing a 59,800 contract approved only on 29-10-2026.</b> <b>Oscar Prime's 10,750 was paid on 01-09-2026 and One A's INV-275 on 19-10-2026 — both advices were produced only on 19-11, having been carried as unpaid until then.</b> <b>HBK-BWTC-BEIL JV (Mesaieed) is excluded at your instruction</b> &mdash; that contract carries a further
 QAR 400,000.00 receivable, of which 340,000.00 has never been invoiced.</div>
 
 <div class="cards">
@@ -123,7 +120,7 @@ QAR 400,000.00 receivable, of which 340,000.00 has never been invoiced.</div>
 <table>
 <tr><th class="l">#</th><th class="l">Customer / project</th><th>Contract</th><th>Received</th><th>Invoiced,<br/>unpaid</th><th>Not yet<br/>invoiced</th><th>Total<br/>receivable</th></tr>
 __ROWS__
-<tr class="tot"><td></td><td>TOTAL &mdash; 11 customers, HBK excluded</td><td class="r">__CONTRACT__</td><td class="r">__RECD__</td><td class="r">__INV__</td><td class="r">__NOTINV__</td><td class="r">__OUT__</td></tr>
+<tr class="tot"><td></td><td>TOTAL &mdash; 10 customers, HBK excluded</td><td class="r">__CONTRACT__</td><td class="r">__RECD__</td><td class="r">__INV__</td><td class="r">__NOTINV__</td><td class="r">__OUT__</td></tr>
 </table>
 
 <h2>NOT INCLUDED IN THE TOTAL &mdash; no payment record on file</h2>
@@ -156,7 +153,7 @@ outstanding, with their own delivery date of 17-11 already past.
 
 <div class="foot">
 The New Doha Kitchen Equipment Services W.L.L.&nbsp; |&nbsp; P.O. Box 80247, Doha, State of Qatar&nbsp; |&nbsp; C.R. 199351&nbsp; |&nbsp; Tel: 7706 0676<br/>
-<i>Internal receivables report &mdash; prepared 22 November 2026 from the order book.</i>
+<i>Internal receivables report &mdash; prepared 23 November 2026 from the order book.</i>
 </div>
 </body></html>"""
 

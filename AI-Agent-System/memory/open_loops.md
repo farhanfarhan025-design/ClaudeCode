@@ -3487,6 +3487,48 @@ out and before the PCC cover, and after the RCC pour — each on one working day
 30% advance of 28,500 was raised on 03-11 and is outstanding. Their LPO's delivery date of
 17-11-2026 is this week and the programme has not started.
 
+### OL-157 — Gozl settles in full, and I caught a number collision one step from the client
+**Owner:** Farhan · **Raised:** 2026-11-23 · **CONTRACT CLOSED AT 59,800** · **NUMBERING ERROR CORRECTED**
+
+**RCT-323/2026** — **11,960 received 23-11-2026**, Doha Bank cheque **01000014** dated 22-11-2026,
+drawn by GOZL VETERINARY SERV AND TRAD on a/c 267-1347410-01-10-0, under TNDK voucher **0745**.
+Words and figures agree, payee name correct. **TOTAL RECEIVED 59,800.00. CONTRACT SETTLED IN FULL
+AND CLOSED.**
+
+**I FIRST NUMBERED THIS RECEIPT RCT-318/2026, WHICH WAS ALREADY TAKEN.** 318 is Oscar Prime's
+final invoice of 21-11-2026. The invoice and receipt share one running series, and I issued into
+it without reading the numbering table first — **the one check that table exists for.** Caught
+before the document left, reissued as **RCT-323/2026**, and the wrong-numbered file and PDF
+deleted so only one RCT-323 exists. **Next free number is 324.** OL-018 warned about exactly this
+drift in August; the lesson is to read the table before writing the number, not after rendering.
+
+**FOUR WEEKS, START TO FINISH.** Quotation approved **29-10-2026**, handed over **21-11-2026**,
+settled **23-11-2026**. A 59,800 contract delivered and collected in **25 days**, every stage paid
+without a reminder, and the final payment arriving **one day** after the account was rendered.
+**The consolidated invoice of 23-11 was paid the same day it was issued.** On this book only
+Panda Cakes compares.
+
+**THE THIRD OPEN BEARER CHEQUE, AND THE REQUEST WAS IGNORED THREE TIMES.** 01000012, 01000013 and
+now 01000014 all read *"or bearer"* un-struck with no crossing. INV-322 note 4 asked for a
+crossed cheque or a transfer and explained why in the client's own interest. **They did it the
+same way again.** Nothing was lost, but the practice is theirs, not an oversight: **on the next
+Gozl order, ask before the first invoice, not in it.** The receipt does not raise it a fourth
+time — a receipt is a thank-you, and the contract is closed.
+
+**ALL THREE CHEQUES REMAIN UNCONFIRMED ON A STATEMENT.** 59,800 of cash is now recorded as
+received on this contract **entirely on the strength of three open cheques and TNDK's own
+vouchers.** The cheque numbers run 12, 13, 14 in sequence, which is consistent, but sequence is
+not clearance. **This is the single largest unverified receipt on the book and it is now closed
+in the records as paid.** One statement download settles it.
+
+**TWO ASKS CARRIED ON THE RECEIPT, BECAUSE IT IS THE LAST DOCUMENT THAT GOES TO THIS CLIENT.**
+Note 5 asks them to sign and return **AMC/TNDK/001/2026**, which needs both signatures to take
+effect, and to confirm in writing that the **substituted equipment is accepted** (OL-151). If
+those are not asked for now they will not be asked for at all — nothing further is owed, so
+there is no later leverage.
+
+**Receivables: 417,790 across 10 customers** — Gozl closed off the list entirely.
+
 ### OL-156 — Gozl's consolidated final account, and the double-count it could have caused
 **Owner:** Farhan · **Raised:** 2026-11-23 · **Value:** QAR 11,960 due · **DO NOT COUNT IT TWICE**
 
