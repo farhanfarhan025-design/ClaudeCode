@@ -3487,6 +3487,44 @@ out and before the PCC cover, and after the RCC pour — each on one working day
 30% advance of 28,500 was raised on 03-11 and is outstanding. Their LPO's delivery date of
 17-11-2026 is this week and the programme has not started.
 
+### OL-160 — Second scissor lift hire, and the off-hire trap is closed in advance this time
+**Owner:** Farhan · **Raised:** 2026-11-24 · **Value:** QAR 600 · **COLLECT TODAY, RETURN 26-11**
+
+**LPO-223/2026** — Rental Station W.L.L., one 12 m battery scissor lift without operator,
+**two (2) days at QAR 300.00 per day, net 600.00**, at the rates of QU-H-10692-26 as ordered
+before. **Collected from their yard 24-11-2026, returned 26-11-2026.** No client, site or project
+named anywhere on it, filename included.
+
+**MOBILISATION IS EXCLUDED AGAIN, AND IN THE SAME WORDS THAT WORKED.** Note 3 does not merely
+omit the charge — **deleting a line does not stop a vendor billing it.** It says the charge is
+expressly excluded, that TNDK collects and returns on its own transport, that the unit is not to
+be delivered, that **no transport charge of any kind will be accepted**, and that the total
+payable is 600.00. That is the construction Farhan asked for on LPO-221 and it is reproduced
+exactly.
+
+**THE OFF-HIRE CONTRADICTION IS HANDLED BETTER THIS TIME.** Rental Station's quotation says
+24 hours on page 1 and **seven days at general condition E** — a seven-day notice on a two-day
+hire would mean paying for five days the machine is not on site. On LPO-221 the order simply
+objected. **On this one note 2 gives the return date AS the off-hire notification, now, in the
+order itself**, so no separate notice can be said to be missing, with an e-mail to
+rental@rs-qatar.co promised on the day as well. **The trap is closed before the hire starts
+rather than argued after it.**
+
+**NOTE 6 STOPS THE TWO HIRES BEING MERGED ON ONE INVOICE.** It states this is a separate and
+additional hire, not a continuation of LPO-221/2026, and that an invoice carrying the old order
+number will be returned. **Two short hires from the same vendor within a week is exactly how a
+single bill for five or six days appears.**
+
+**CERTIFICATES WITH THE MACHINE, AND FULLY CHARGED.** Note 4 repeats that the third-party test
+certificate and the insurance certificate come with the unit at collection, since site will not
+permit it to be operated without them, and that a condition report is signed both at collection
+and at return. **On a battery machine "fully charged" is not a pleasantry — an uncharged lift
+costs a working day of the two paid for.**
+
+**WATCH THE RETURN DATE.** The order fixes the charge at 600 and says no hire runs beyond
+26-11-2026. **If the unit goes back late, that protection falls away and the rate resumes.**
+The one thing to diarise is the return, not the collection.
+
 ### OL-159 — Bismi clear stage 2, the panel gate opens, and a fifth cash receipt arrives
 **Owner:** Farhan · **Raised:** 2026-11-24 · **Value:** QAR 30,000 received · **THE MACHINE GOES TO SITE**
 
