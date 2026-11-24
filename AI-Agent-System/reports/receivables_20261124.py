@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Receivables from customers, as at 23-11-2026. HBK-BWTC-BEIL JV excluded at Farhan's instruction."""
+"""Receivables from customers, as at 24-11-2026. HBK-BWTC-BEIL JV excluded at Farhan's instruction."""
 import io
 
 SP = "/tmp/claude-0/-home-user-ClaudeCode/f198eb8f-5169-5011-a0a8-bd4d87e7e71f/scratchpad"
@@ -17,8 +17,9 @@ ROWS = [
     ("Oscar Prime Trading (2nd job)", "Five cold rooms", 170000, 119000, 0, 51000,
      "The 119,000 advice read “Pending Approval” and has never been confirmed on a statement. A further "
      "25,000 was instructed on 19-11-2026, also “Pending Approval” — not taken to received until the credit shows."),
-    ("Bismi Group International", "Freezer room, preparation room, epoxy", 110000, 60000, 0, 50000,
-     "Advance complete 17-11. Stage 2 of 28,000 is payable before the machine goes to site."),
+    ("Bismi Group International", "Freezer room, preparation room, epoxy", 110000, 90000, 0, 20000,
+     "Stage 2 completed 24-11 (RCT-324), 2,000 on account of stage 3. The panel gate is passed, so the machine "
+     "now goes to site. 9,000 before the epoxy and 11,000 at handover."),
     ("One A Design, Build and Trading", "Chiller + freezer — Capital Grille, ABESQ", 73500, 67125, 6375, 0,
      "INV-275 settled in full on 19-10-2026 (advice produced 19-11). Only 6,375 of INV-300 remains."),
     ("M/s. Day to Day Hypermarket", "Chiller room + freezer room", 52000, 26000, 0, 26000,
@@ -106,7 +107,7 @@ HTML = u"""<!DOCTYPE html>
   <div class="ttl">AMOUNTS RECEIVABLE FROM CUSTOMERS</div>
 </div>
 <div class="rule"></div>
-<div class="asat"><b>As at 23 November 2026.</b> Figures in Qatari Riyals.
+<div class="asat"><b>As at 24 November 2026.</b> Figures in Qatari Riyals.
 <b>Al Zahrawi Medical, Everbloom, Oscar Prime's first contract and Gozl Veterinary are settled and closed off this list.</b> <b>Gozl paid the final 11,960 on 23-11-2026, closing a 59,800 contract approved only on 29-10-2026.</b> <b>Oscar Prime's 10,750 was paid on 01-09-2026 and One A's INV-275 on 19-10-2026 — both advices were produced only on 19-11, having been carried as unpaid until then.</b> <b>HBK-BWTC-BEIL JV (Mesaieed) is excluded at your instruction</b> &mdash; that contract carries a further
 QAR 400,000.00 receivable, of which 340,000.00 has never been invoiced.</div>
 
@@ -153,7 +154,7 @@ outstanding, with their own delivery date of 17-11 already past.
 
 <div class="foot">
 The New Doha Kitchen Equipment Services W.L.L.&nbsp; |&nbsp; P.O. Box 80247, Doha, State of Qatar&nbsp; |&nbsp; C.R. 199351&nbsp; |&nbsp; Tel: 7706 0676<br/>
-<i>Internal receivables report &mdash; prepared 23 November 2026 from the order book.</i>
+<i>Internal receivables report &mdash; prepared 24 November 2026 from the order book.</i>
 </div>
 </body></html>"""
 

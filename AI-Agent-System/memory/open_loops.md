@@ -3487,6 +3487,66 @@ out and before the PCC cover, and after the RCC pour — each on one working day
 30% advance of 28,500 was raised on 03-11 and is outstanding. Their LPO's delivery date of
 17-11-2026 is this week and the programme has not started.
 
+### OL-159 — Bismi clear stage 2, the panel gate opens, and a fifth cash receipt arrives
+**Owner:** Farhan · **Raised:** 2026-11-24 · **Value:** QAR 30,000 received · **THE MACHINE GOES TO SITE**
+
+**RCT-324/2026** — **15,000 in cash and 15,000 by QNB cheque 00000257** of 24-11-2026, crossed
+**A/C PAYEE ONLY**, drawn by BISMI GROUP INTERNATIONAL on a/c 0250057166001. Words and figures
+agree, payee name correct.
+
+**HOW IT IS APPLIED, BECAUSE IT DOES NOT LAND CLEANLY ON ONE STAGE.**
+
+| | QAR |
+|---|---|
+| Contract | 110,000 |
+| Received before | 60,000 — advance 55,000 complete, **plus 5,000 already on account of stage 2** |
+| This receipt | 30,000 |
+| of which, completing stage 2 (33,000 less the 5,000 held) | **28,000** |
+| of which, on account of stage 3 | **2,000** |
+| **Received to date** | **90,000** |
+| **Balance** | **20,000** — 9,000 of stage 3, 11,000 on handover |
+
+**The receipt states that split on its face** rather than leaving 2,000 floating, so neither side
+has to reconstruct it later.
+
+**STAGE 2 IS A WORK GATE, NOT JUST A DATE, AND IT IS NOW PASSED.** Under clause 4 it falls due on
+completion of the panel work AND BEFORE the machine is delivered. **The money is in, so the
+machine delivery is now the next obligation on TNDK, not on Bismi.** Note 3 commits in writing to
+confirming the delivery date and giving notice before the unit arrives. **That is a promise with
+a date attached — it needs honouring this week.**
+
+**NOTE 4 PROTECTS THE EPOXY, WHICH IS WHERE THIS JOB CAN STILL GO WRONG.** Stage 3 falls due on
+installation of the machine and **before** the epoxy is laid. The note says plainly that the
+epoxy follows the machine and not before it, **so that the finished floor is not worked over.**
+An epoxy floor laid early and then walked on by machine installers is a re-do nobody has priced.
+
+**THEY CROSSED THE CHEQUE, AND IT IS WORTH NOTICING.** Every Bismi cheque has been crossed
+A/C Payee Only — 00000221, 00000255 and now 00000257. **Gozl ignored the same request three
+times.** Note 2 thanks Bismi for it and explains the protection runs both ways. **Bismi are the
+client to hold up as the example when asking anyone else.**
+
+**BUT IT IS THE FIFTH LARGE CASH RECEIPT IN SIX WEEKS, AND STILL NOT ONE DEPOSIT SLIP.**
+
+| | QAR | Date |
+|---|---|---|
+| Bismi, part advance | 22,000 | 18-10 |
+| Panda Cakes, delivery stage | 5,800 | 05-11 |
+| Day to Day, full advance | 26,000 | 14-11 |
+| Bismi, advance completion | 17,975 | 17-11 |
+| **Bismi, stage 2** | **15,000** | **24-11** |
+| **Total cash, no deposit reference** | **86,775** | |
+
+**Bismi alone account for 54,975 of it.** Five receipts, five signed acknowledgements to clients,
+and nothing on TNDK's side showing the money reached a bank. **Ask for the five deposit
+references together and the register closes.**
+
+**NO INVOICE WAS EVER RAISED FOR STAGE 2.** The 30,000 arrives against an uninvoiced stage, as
+Oscar Prime's 25,000 did (OL-145). The receipt carries the full stage detail so nothing is
+ambiguous to the client — **but TNDK's books now hold a 30,000 receipt with no matching
+invoice.** Say the word and the stage-2 invoice is raised and back-dated to the gate.
+
+**Receivables: 387,790** — Bismi's balance falls from 50,000 to 20,000.
+
 ### OL-158 — The consolidated invoice is reissued as paid in full, on the day it was first written
 **Owner:** Farhan · **Raised:** 2026-11-23 · **REVISION 1 — NIL BALANCE**
 
