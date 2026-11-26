@@ -3487,6 +3487,49 @@ out and before the PCC cover, and after the RCC pour — each on one working day
 30% advance of 28,500 was raised on 03-11 and is outstanding. Their LPO's delivery date of
 17-11-2026 is this week and the programme has not started.
 
+### OL-162 — PLG relocation quotation rebuilt, and the draft carried two defects worth catching
+**Owner:** Farhan · **Raised:** 2026-11-26 · **Value:** QAR 11,800 · **AWAITING THEIR LPO**
+
+**QUT/DCTS/261/2026** — M/s. Premium Limited Group (PLG), attn. **Mr. Suvarnan Sivapragasam,
+Purchasing**. Relocation and re-installation of their existing cold room: freezer 1.93 x 1.40 x
+2.50 m and chiller 1.93 x 2.35 x 2.50 m, Copeland condensing units and Icemake evaporators, two
+sets. **Nine priced items, lump sum QAR 11,800.00, 100% advance with the LPO, 5 to 10 working
+days.** Arithmetic re-checked and it reconciles to the draft exactly. Signed and stamped.
+
+**DEFECT 1 — THE NUMBER WAS 191 BEHIND THE SERIES.** The draft came in as **QUT/DCTS/070/2026**.
+The live series stands at 260 and **070 belongs to July**. Had it gone out, TNDK would have two
+quotations numbered 070 and a client holding the older one. **Renumbered to 261.** This is OL-018
+drifting again — the series is kept in `durable_facts.md` and reading it takes ten seconds.
+
+**DEFECT 2 — THE CHEQUE NAME WAS WRONG, AND IT IS THE ONE THAT COSTS REAL TIME.** The draft read
+*"Cheque should be prepared under the name of: The New Doha Kitchen Equipment **and** Services"*.
+**The bank account carries no "and".** The Commercial Bank IBAN certificate reads THE NEW DOHA
+KITCHEN EQUIPMENT SERV. A cheque drawn with "and" in it is refused at presentation and the client
+has to be asked for a replacement. **Note 7 now states the correct name and says expressly that
+there is no word between Equipment and Services.** This is the same defect the renderer's
+DEFAULT_PAYEE comment was written for.
+
+**WHAT I ADDED, AND WHY NONE OF IT CHANGES THE PRICE OR THE DEAL.** The scope, the nine figures,
+the total, the terms and the exclusions are exactly as Farhan set them. What the house format
+adds is the protection a relocation job needs:
+
+| Note | What it stops |
+|---|---|
+| 2 | A used compressor that will not pump on test becoming **TNDK's** problem. Reported, quoted, approved — not absorbed |
+| 3 | A room built from bent used panels being judged against a new one. Says plainly it cannot be |
+| 4 | One nameplate charge of gas turning into three because their circuit leaks |
+| 6 | The 5-to-10 days running from the order rather than from **a ready site** |
+
+**THE NO-WARRANTY POSITION IS KEPT AS FARHAN WROTE IT**, but note 1 now gives the reason — used
+equipment, not supplied by us, condition unknown — which reads as a professional position rather
+than a refusal. **Worth considering for the next one: offering twelve months on TNDK's OWN
+workmanship, the new piping and the new wiring, while excluding their used plant entirely.** It
+costs almost nothing on work TNDK controls and it answers the obvious client question. Farhan's
+call, not changed here.
+
+**NOTHING ELSE IS KNOWN ABOUT THIS CLIENT.** No history, no credit knowledge, first document.
+**100% advance is therefore exactly right** and should not be softened.
+
 ### OL-161 — Day to Day's second invoice is prepared, for a panel that is still not bought
 **Owner:** Farhan · **Raised:** 2026-11-26 · **Value:** QAR 15,600 · **PREPARED — READ BEFORE SENDING**
 

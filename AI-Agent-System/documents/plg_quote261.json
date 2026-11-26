@@ -1,0 +1,125 @@
+{
+  "type": "quotation",
+  "badge": [
+    "RELOCATION",
+    "QUOTATION"
+  ],
+  "number": "QUT/DCTS/261/2026",
+  "date": "26-11-2026",
+  "ref": "15 days from date of quotation",
+  "meta_labels": [
+    "QUOTATION NO",
+    "DATE",
+    "VALIDITY"
+  ],
+  "currency": "QAR",
+  "filename": "Quotation_QUT-DCTS-261-2026_PLG_ColdRoom_Relocation_Reinstallation",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "TO",
+    "name": "M/s. Premium Limited Group (PLG)",
+    "fields": [
+      "Office 1F-24, Blue Polygon Commercial Complex, Al Waab  |  P.O. Box 55429, Doha, State of Qatar",
+      {
+        "label": "Kind attention",
+        "value": "Mr. Suvarnan Sivapragasam — Purchasing  |  Tel: 6608 6702  |  purchasing@plgtrade.com"
+      },
+      {
+        "label": "Subject",
+        "value": "Relocation and re-installation of your existing cold room at the new location"
+      },
+      {
+        "label": "Freezer room",
+        "value": "1.93 x 1.40 x 2.50 m — existing, client supplied"
+      },
+      {
+        "label": "Chiller room",
+        "value": "1.93 x 2.35 x 2.50 m — existing, client supplied"
+      },
+      {
+        "label": "Equipment",
+        "value": "Copeland condensing units and Icemake evaporators — two (2) sets, existing, client supplied"
+      },
+      {
+        "label": "Work completion",
+        "value": "5 to 10 working days from receipt of the advance, subject to site readiness"
+      },
+      {
+        "label": "Payment",
+        "value": "100% advance with the confirmed LPO / order"
+      }
+    ]
+  },
+  "lines": [
+    {
+      "description": "INSTALLATION OF THE EXISTING COLD ROOM AT THE NEW LOCATION\nRe-erection of the freezer room and the chiller room using your sandwich panels, cold room doors and chequered plates, including our aluminium angles, coving, silicone sealant, PU foam, rivets and fasteners, with the rooms set out, plumbed, aligned and sealed at the new position.",
+      "unit": "Lot",
+      "qty": 1,
+      "rate": 3800.0
+    },
+    {
+      "description": "INSTALLATION OF THE REFRIGERATION UNITS AND CONTROL PANEL\nMounting of your Copeland condensing units and Icemake evaporators, two (2) sets, on brackets or stands as the position requires, and mounting of your control panel box.",
+      "unit": "Lot",
+      "qty": 1,
+      "rate": 1500.0
+    },
+    {
+      "description": "SUPPLY AND INSTALLATION OF ALL ELECTRICAL WIRING\nCables, conduits, glands and terminations from the control panel to both condensing units, both evaporators, the door heaters and the lights, earthed and identified.",
+      "unit": "Lot",
+      "qty": 1,
+      "rate": 2000.0
+    },
+    {
+      "description": "SUPPLY AND INSTALLATION OF REFRIGERATION PIPING\nNew copper liquid and suction lines to both rooms with Armaflex insulation and vapour-sealed joints, brazed under a dry nitrogen purge, and insulated condensate drain lines to both rooms.",
+      "unit": "Lot",
+      "qty": 1,
+      "rate": 2000.0
+    },
+    {
+      "description": "SUPPLY AND INSTALLATION OF ALL REFRIGERATION ACCESSORIES\nFilter driers, sight glasses, brazing fittings, pipe clamps and supports, and the drain heater for the freezer room.",
+      "unit": "Lot",
+      "qty": 1,
+      "rate": 1200.0
+    },
+    {
+      "description": "NITROGEN PRESSURE TESTING\nBoth refrigeration circuits pressure tested with dry nitrogen and held under a standing pressure test to prove each circuit tight.",
+      "unit": "Lot",
+      "qty": 1,
+      "rate": 300.0
+    },
+    {
+      "description": "VACUUMING OF THE REFRIGERATION SYSTEMS\nBoth systems evacuated to a deep vacuum with a vacuum hold test, to draw off moisture and non-condensables before charging.",
+      "unit": "Lot",
+      "qty": 1,
+      "rate": 300.0
+    },
+    {
+      "description": "REFRIGERANT CHARGING\nRefrigerant supplied and charged to both systems as per the unit nameplates, weighed in, with superheat and sub-cooling checked and set.",
+      "unit": "Lot",
+      "qty": 1,
+      "rate": 400.0
+    },
+    {
+      "description": "TESTING, COMMISSIONING AND FINAL HANDOVER\nBoth systems run up, temperature and pressure readings taken and recorded, and the rooms handed over to you in working order.",
+      "unit": "Lot",
+      "qty": 1,
+      "rate": 300.0
+    }
+  ],
+  "grand_total_label": "TOTAL (LUMP SUM)",
+  "notes": [
+    "THE EQUIPMENT IS YOURS, IT IS USED, AND NO WARRANTY IS OFFERED ON THIS JOB. The sandwich panels, cold room doors, chequered plates, the Copeland condensing units, the Icemake evaporators and the control panel box are all your own existing equipment, supplied by you. We are quoting to relocate and re-install it, not to supply it. Its age, condition, service history and remaining life are not known to us, and WE GIVE NO WARRANTY — on the equipment, on its capacity or performance after relocation, or on its continued operation. This is the ordinary position on a relocation of used plant and the price above is set on that basis.",
+    "WHAT WE CANNOT PROMISE UNTIL THE PLANT IS RUNNING. Whether a compressor still pumps to duty, whether an evaporator coil is sound and whether a control still operates can only be established once the systems are re-piped, charged and run. SHOULD ANY OF YOUR EQUIPMENT PROVE FAULTY ON TEST, that is not a defect in our work and its repair or replacement is NOT included in this price. We shall report the finding to you at once, quote the cost and proceed only on your written approval.",
+    "THE PANELS ARE BEING RE-ERECTED, NOT MANUFACTURED. Used panels, doors and gaskets may carry bent edges, crushed corners, damaged cam-locks or perished seals from the original installation and from dismantling. We shall re-erect them as closely and as tightly as their condition allows and seal the joints as well as they can be sealed, but a room built from used panels cannot be expected to be airtight to the standard of a new one. Any replacement panel, door, gasket or cam-lock found necessary is to be supplied by you or will be quoted separately for your approval.",
+    "REFRIGERANT. The price includes refrigerant sufficient to bring both circuits to their nameplate charges once. Gas charged into a leaking circuit is gas lost: should a leak be found in your existing equipment, we shall report it to you before charging, and the repair and any further refrigerant will be quoted separately.",
+    "SUPPLIED BY YOU, AND NOT INCLUDED IN THIS PRICE. Sandwich panels, cold room doors, chequered plates, the refrigeration units, the evaporators and the control panel box; DISMANTLING AND TRANSPORT FROM THE OLD LOCATION; repair or replacement of any faulty item of your equipment; the main power supply up to our control panel position; civil works, builder's work, plinths and foundations; drainage points; permits and approvals; and any additional material, spare part or component found necessary during the work, which is to be supplied by you or quoted separately on your approval.",
+    "WHAT WE NEED FROM YOU BEFORE WE START, AND IT IS THE WHOLE OF OUR PROGRAMME. The site layout showing the intended positions of both rooms, the condensing units and the control panel; the power supply details at the new location; and the model and nameplate details of both condensing units and both evaporators. The completion period of 5 to 10 working days runs from receipt of the advance AND a civil-ready, accessible site — not from the date of the order alone.",
+    "PAYMENT: 100% in advance with your confirmed LPO or order. KINDLY NOTE THE ACCOUNT NAME: cheques are to be drawn in favour of THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L. — with NO word between Equipment and Services — or paid by transfer to that account, so that presentation is not delayed. Prices are quoted in Qatari Riyals, are for the complete scope described above as one lump sum, and are valid for fifteen (15) days from the date of this quotation.",
+    "We thank you for the enquiry and shall be glad to attend site at your convenience to confirm the positions before the order is placed."
+  ]
+}
