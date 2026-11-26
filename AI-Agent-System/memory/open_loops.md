@@ -3487,6 +3487,54 @@ out and before the PCC cover, and after the RCC pour — each on one working day
 30% advance of 28,500 was raised on 03-11 and is outstanding. Their LPO's delivery date of
 17-11-2026 is this week and the programme has not started.
 
+### OL-161 — Day to Day's second invoice is prepared, for a panel that is still not bought
+**Owner:** Farhan · **Raised:** 2026-11-26 · **Value:** QAR 15,600 · **PREPARED — READ BEFORE SENDING**
+
+**INV-325/2026** — second instalment, **30% of 15,600**, falling due *after installation of the
+sandwich panel and before delivery of the condensing units*. Contract 52,000; received 26,000;
+remaining after this invoice **10,400** at handover. Two pages, signed and stamped.
+
+**THE PANEL HAS NOT BEEN INSTALLED, AND IT HAS NOT BEEN ORDERED.** **LPO-218/2026** carries this
+job's panel — 68.40 sqm, cut 2.40 m x 21 and 3.00 m x 6, which matches these two rooms exactly
+(OL-131). **Its advance was deliberately held** on 14-11 because JMB offered **0.30 mm facing
+against the 0.50 mm sold under SQ145**, and the LPO says in terms that no advance is released
+until JMB confirm in writing and quote the identical schedule in 0.50 mm. **Twelve days later
+that confirmation is still not recorded.**
+
+**THIS IS THE SECOND INVOICE THIS WEEK FOR A PANEL MILESTONE ON AN UNORDERED PANEL** — Q Fish's
+INV-321 was the first (OL-153). **The same JMB gauge question is holding both.** It now blocks
+LPO-217, 218, 220 and 222, **112,460 of vendor orders**, and through them **two client stages
+worth 30,600** that cannot honestly be invoiced.
+
+| | Q Fish | Day to Day |
+|---|---|---|
+| Stage invoiced | 15,000 | 15,600 |
+| Panel LPO | 217 — unplaced | 218 — advance held |
+| Reason | 0.30 mm gauge | 0.30 mm gauge |
+
+**ONE TELEPHONE CALL TO JMB UNBLOCKS BOTH JOBS AND 30,600 OF BILLING.** That call is now the
+highest-value thing on the whole book, and it has been outstanding since 14 November.
+
+**DAY TO DAY'S CASE IS WEAKER THAN Q FISH'S, NOT STRONGER.** Q Fish volunteered their panel-stage
+payment unprompted. **Day to Day have paid their 26,000 advance and nothing since, and TNDK
+would be asking.** Asking a client to pay for the installation of a panel that has not been
+bought is a question they can answer with one visit to site.
+
+**THE FLOOR PANEL IS STILL NOT ON ANY ORDER.** SQ145 sells an insulated floor in BOTH rooms —
+100 mm PUF floor panel with 18 mm marine ply and 1.5 mm chequered plate, 9.00 sqm each, **18.00
+sqm in all** — and the invoice's line item bills for it at this stage. **LPO-218 is walls and
+ceiling only; OL-131 recorded the floor panel as missing and it has not been added.** So this
+invoice bills a panel stage that includes a floor which is neither ordered nor priced.
+**Add the 18.00 sqm to the JMB order when the gauge is settled, in the same conversation.**
+
+**IF FARHAN SENDS IT ANYWAY, THE DOCUMENT IS HONEST ON ITS FACE.** The line states the stage as
+agreed and describes what the panel stage comprises; it does not assert that any of it is
+installed. Note 3 is the useful part: it tells the client exactly what their money releases —
+both condensing units, the piping, controls and electrical works — which turns the invoice into
+a statement of what happens next rather than a bare demand.
+
+**Receivables unchanged at 387,790; invoiced and unpaid now 121,145**, the highest this month.
+
 ### OL-160 — Second scissor lift hire, and the off-hire trap is closed in advance this time
 **Owner:** Farhan · **Raised:** 2026-11-24 · **Value:** QAR 600 · **COLLECT TODAY, RETURN 26-11**
 
