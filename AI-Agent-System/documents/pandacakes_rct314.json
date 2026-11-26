@@ -1,0 +1,44 @@
+{
+  "type": "receipt",
+  "number": "RCT-314/2026",
+  "date": "05-11-2026",
+  "ref": "INV-295/2026",
+  "meta_labels": ["RECEIPT NO", "DATE", "AGAINST INVOICE"],
+  "currency": "QAR",
+  "filename": "Receipt_RCT-314-2026_PandaCakes_20pct_OnDelivery_Cash",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "RECEIVED FROM",
+    "name": "M/s. Panda Cakes",
+    "fields": [
+      "Doha, State of Qatar",
+      {"label": "Project", "value": "One (1) chiller room 4.35 x 2.00 x 2.40 m, 0 °C to +8 °C, with refrigeration"},
+      {"label": "Our quotation", "value": "QUT/DCTS/SQ121/2026 (Revised) — approved 20-10-2026"},
+      {"label": "Contract Value", "value": "QAR 29,000.00"},
+      {"label": "Status", "value": "20% ON DELIVERY OF MATERIALS — RECEIVED IN FULL"},
+      {"label": "Balance After This Receipt", "value": "QAR 1,450.00 — 5% on handover"}
+    ]
+  },
+  "lines": [
+    {"description": "20% payment on delivery of materials received in full and in cash against INV-295/2026 dated 03-11-2026 — supply, installation, testing and commissioning of one (1) chiller room 4.35 x 2.00 x 2.40 m with refrigeration", "unit": "Job", "qty": 1, "rate": 5800.00}
+  ],
+  "grand_total_label": "TOTAL RECEIVED",
+  "instrument": {
+    "type": "cash",
+    "payment_mode": "Cash",
+    "received_on": "05-11-2026",
+    "against": "INV-295/2026 dated 03-11-2026 — 20% on delivery of materials"
+  },
+  "notes": [
+    "ACCOUNT POSITION. Contract value QAR 29,000.00, payable 75% advance, 20% on delivery of materials and 5% on handover. Received to date QAR 27,550.00 — the 75% advance of QAR 21,750.00 on 22-10-2026 under RCT-288/2026, and QAR 5,800.00 by this receipt. BALANCE QAR 1,450.00, being the 5% payable after successful testing, commissioning and handover.",
+    "Received with thanks, in cash, on 05-11-2026. This receipt is our acknowledgement of the 20% stage in full and no further sum is outstanding on it. Our thanks also for your prompt settlement throughout — the advance cleared within two days of invoice and this stage within two days of the invoice for it.",
+    "WHAT REMAINS. Installation, testing and commissioning follow, after which the final 5% of QAR 1,450.00 falls due on handover. Please ensure the main power supply and the cable run from the main distribution board to the cold room control panel are available, together with a drainage point within 3 m of the evaporator, as these are by others under our quotation.",
+    "WARRANTY: twelve (12) months on the cold room panels, the door and our workmanship from the date of handover, and twelve (12) months on the compressor, the evaporator and condenser coils, the electrical components and the controls from the date of commissioning. Excludes damage from misuse, power surge, improper voltage, water ingress, unauthorised modification or the absence of routine maintenance.",
+    "This receipt is issued against INV-295/2026 and is subject to the terms of our approved quotation QUT/DCTS/SQ121/2026 (Revised)."
+  ]
+}

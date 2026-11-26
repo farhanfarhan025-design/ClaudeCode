@@ -1,0 +1,45 @@
+{
+  "type": "receipt",
+  "number": "RCT-317/2026",
+  "date": "20-11-2026",
+  "ref": "INV-310/2026",
+  "meta_labels": ["RECEIPT NO", "DATE", "AGAINST INVOICE"],
+  "currency": "QAR",
+  "filename": "Receipt_RCT-317-2026_QFish_SecondPayment_30pct_45000",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "RECEIVED FROM",
+    "name": "M/s. Q Fish Trading",
+    "fields": [
+      "C.R. 134683  |  P.O. Box 14569, Doha, State of Qatar",
+      {"label": "Project", "value": "Freezer room enlargement to 18.00 x 14.00 x 6.00 m (1,512 cbm), –18 °C to –22 °C"},
+      {"label": "Our quotation", "value": "QUT/DCTS/SQ144/2026 — approved and company-stamped 06-11-2026"},
+      {"label": "Contract Value", "value": "QAR 150,000.00"},
+      {"label": "Status", "value": "SECOND INSTALMENT — 30% RECEIVED IN FULL"},
+      {"label": "Balance After This Receipt", "value": "QAR 30,000.00 — 10% during the works, 10% final"}
+    ]
+  },
+  "lines": [
+    {"description": "Second instalment, 30% of the contract value, received in full against INV-310/2026 dated 19-11-2026 — supply, installation, testing and commissioning of the freezer room enlargement to 18.00 x 14.00 x 6.00 m under our quotation QUT/DCTS/SQ144/2026. QNB Tahweel transfer, status Success", "unit": "Job", "qty": 1, "rate": 45000.00}
+  ],
+  "grand_total_label": "TOTAL RECEIVED",
+  "instrument": {
+    "type": "transfer",
+    "payment_mode": "Bank transfer (QNB Tahweel)",
+    "reference": "Transaction reference IB1A14575587  |  Reference number IB261120528434  |  20-11-2026 19:46, status Success",
+    "drawer": "M/s. Q Fish Trading — debit a/c 0250-068740-001",
+    "credited_to": "The New Doha Kitchen Equipment Services W.L.L. — QA06 CBQA 0000 0000 4010 7777 3900 1"
+  },
+  "notes": [
+    "ACCOUNT POSITION. Contract value QAR 150,000.00. Received to date QAR 120,000.00 — the 50% advance of QAR 75,000.00, completed on 17-11-2026 across six transfers under RCT-302, 303, 304, 306 and 309, and QAR 45,000.00 by this receipt. BALANCE QAR 30,000.00, being 10% of QAR 15,000.00 payable during the works and 10% of QAR 15,000.00 payable on completion.",
+    "Received with thanks. Eighty per cent of the contract is now settled and every payment has been made without a reminder, for which we record our thanks. We are conscious that this second instalment has been paid promptly and we shall report progress to you in writing as the work proceeds.",
+    "THE FLOOR REMAINS OUTSIDE THIS CONTRACT, AND WE ASK YOU AGAIN TO NOTE IT. Our scope covers the walls and ceiling only — 636 sqm of 100 mm panel. No insulated floor and no under-floor ventilation are included. On a 1,512 cbm room held at –18 °C to –22 °C over a slab, frost heave is a real and well-documented risk over time. We should be pleased to survey the slab and quote separately for an insulated floor construction or an under-floor ventilation system. This is the fourth document in which we raise it and we should be grateful for your written instruction either way.",
+    "THE TWO EXISTING DORIN 15 HP CONDENSING UNITS CARRY NO WARRANTY FROM US. They are your existing plant, re-used at your instruction. Our warranty covers the panels, the doors, the new pipework and wiring and our workmanship only, for twelve (12) months from handover; the refrigeration components we newly supply carry twelve (12) months from commissioning. Excludes damage from misuse, power surge, improper voltage, water ingress, unauthorised modification or the absence of routine maintenance.",
+    "This receipt is issued against INV-310/2026 and is subject to the terms of our quotation QUT/DCTS/SQ144/2026 as approved and stamped by you on 06-11-2026."
+  ]
+}

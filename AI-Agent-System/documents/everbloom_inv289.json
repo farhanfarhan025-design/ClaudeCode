@@ -1,0 +1,57 @@
+{
+  "type": "invoice",
+  "badge": ["FINAL INVOICE"],
+  "number": "INV-289/2026",
+  "date": "26-10-2026",
+  "ref": "Our Quotation QUT/DCTS/SQ112/2026 (Revised) — approved",
+  "currency": "QAR",
+  "filename": "Invoice_INV-289-2026_Everbloom_FlowerDisplayChiller_FinalBalance",
+  "payee_name": "The New Doha Kitchen Equipment Services W.L.L.",
+  "notes_new_page": true,
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "BILL TO",
+    "name": "Everbloom",
+    "fields": [
+      "C.R. 150356  |  Doha, State of Qatar",
+      {"label": "Project", "value": "Flower display chiller with frameless glass front — 2.91 x 1.00 x 2.50 m, +2 to +8 °C"},
+      {"label": "Contract Value", "value": "QAR 17,000.00"},
+      {"label": "Stage", "value": "Work complete, tested and handed over — final invoice for stages 2 and 3"},
+      {"label": "Note", "value": "The existing condensing unit, evaporator and control box were re-used — see note 4 overleaf"}
+    ]
+  },
+  "lines": [
+    {
+      "description": "FLOWER DISPLAY CHILLER — COMPLETE, TESTED AND HANDED OVER\nSupply, installation, testing and commissioning of one (1) flower display chiller, internal size 2.91 m (L) x 1.00 m (W) x 2.50 m (H), operating +2 °C to +8 °C, comprising: 50 mm PUF sandwich panels to two (2) sides, ceiling and floor (15.60 sqm) with aluminium coving, corner angles, silicone sealing and accessories; 12 mm frameless tempered glass to the two (2) display sides; one (1) two-leaf frameless sliding glass door, clear opening 1400 x 2500 mm, with anodised aluminium top track, nylon rollers, bottom guide, stainless steel pull handle with lock and brush sealing; insulated floor system of 50 mm PUF panel, 18 mm marine plywood and 1.5 mm MS chequered plate (2.91 sqm); new refrigeration copper piping, Armaflex insulation, insulated drain line and new wiring from the existing control box, with the existing evaporator re-mounted and the existing machine evacuated, recharged and re-commissioned on the new chiller; internal vapour-proof LED display lighting; and testing, commissioning, transportation, lifting at site and handover with operation training.",
+      "unit": "Lot",
+      "qty": 1,
+      "rate": 17000.00
+    }
+  ],
+  "adjustments": [
+    {"label": "LESS: 75% advance received 06-10-2026, our receipt RCT-280/2026", "amount": -12750.00}
+  ],
+  "grand_total_label": "BALANCE NOW DUE",
+  "bank": {
+    "Bank": "The Commercial Bank (P.S.Q.C.), Grand Hamad Branch – 4010",
+    "Account Name": "The New Doha Kitchen Equipment Services W.L.L.",
+    "Account Number": "4010-777739-001",
+    "IBAN": "QA06 CBQA 0000 0000 4010 7777 3900 1",
+    "SWIFT / BIC": "CBQAQAQA",
+    "Currency": "Qatari Riyal (QAR)"
+  },
+  "notes": [
+    "ACCOUNT SUMMARY. Contract value QAR 17,000.00. Received 75% advance QAR 12,750.00 on 06-10-2026, our receipt RCT-280/2026. This invoice covers the remaining two stages — 20% on delivery of materials at site QAR 3,400.00 and 5% after successful testing, commissioning and handover QAR 850.00 — a balance of QAR 4,250.00. On settlement of this invoice the account is closed in full.",
+    "The work is complete. The chiller has been installed, the system evacuated, recharged and re-commissioned, run up to its design temperature, tested and handed over with operation training.",
+    "Payment due on presentation of this invoice. Payment may be made in cash, or by cheque or bank transfer to the account shown above; cheques to be crossed and drawn strictly in favour of the account name given. Kindly quote invoice INV-289/2026 as the reference.",
+    "EXISTING MACHINE RE-USED — IT CARRIES NO WARRANTY FROM US. The condensing unit, the evaporator and the control box are your own existing equipment. They were not supplied by us and not replaced; they have been re-mounted, re-piped, re-wired, evacuated, recharged and re-commissioned on the new chiller. They are re-used as they stand, their age, condition and remaining service life are not known to us, and they carry no warranty from us of any kind, whether as to capacity, performance or continued operation. Should the existing machine prove unable to hold the room at +2 °C to +8 °C, or fail in service, that is outside this contract and we shall be pleased to quote separately for its repair or replacement.",
+    "WARRANTY: twelve (12) months from the date of handover on the panels, the frameless glass, the sliding glass door, the insulated floor, the new pipework and wiring and on our installation workmanship. Excludes the existing machine as set out in note 4; glass breakage after handover; damage from misuse, impact, power surge, improper supply or water ingress; and any alteration carried out by others.",
+    "MAINTENANCE. A display chiller with a glass front runs harder than a solid-panel room, and the re-used machine is doing that work. We recommend the condenser coil be cleaned and the system checked at regular intervals, and we shall be pleased to quote for an annual maintenance contract.",
+    "We thank you for your valued order and remain at your service."
+  ]
+}

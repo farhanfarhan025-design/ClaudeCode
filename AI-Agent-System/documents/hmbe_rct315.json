@@ -1,0 +1,47 @@
+{
+  "type": "receipt",
+  "number": "RCT-315/2026",
+  "date": "27-10-2026",
+  "ref": "INV-290/2026",
+  "meta_labels": ["RECEIPT NO", "DATE", "AGAINST INVOICE"],
+  "currency": "QAR",
+  "filename": "Receipt_RCT-315-2026_HomeMadeByEarth_25pct_OnDelivery_11725",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "RECEIVED FROM",
+    "name": "Home-Made by Earth",
+    "fields": [
+      "Doha, State of Qatar",
+      {"label": "Kind attention", "value": "Mr. Nitin  |  Tel: 3007 0441"},
+      {"label": "Project", "value": "Chiller and freezer rooms — our quotation QUT/DCTS/SQ091/2026 (Ver. 3)"},
+      {"label": "Your order", "value": "LPO HMBE/LPO/2026/001 Ver. 2 dated 17-09-2026 — QAR 46,900.00"},
+      {"label": "Status", "value": "25% ON DELIVERY OF MATERIALS — RECEIVED IN FULL"},
+      {"label": "Balance After This Receipt", "value": "QAR 2,345.00 — 5% on handover"}
+    ]
+  },
+  "lines": [
+    {"description": "25% payment on delivery of materials at site received in full against INV-290/2026 dated 26-10-2026 — supply, installation, testing and commissioning of the chiller and freezer rooms under your LPO HMBE/LPO/2026/001 Ver. 2", "unit": "Lot", "qty": 1, "rate": 11725.00}
+  ],
+  "grand_total_label": "TOTAL RECEIVED",
+  "instrument": {
+    "type": "cheque",
+    "payment_mode": "Cheque",
+    "cheque_no": "00000008 (634-001/091)",
+    "cheque_date": "27-10-2026",
+    "bank": "Qatar National Bank (Q.P.S.C.), Doha, Qatar",
+    "drawer": "HOMEMADE BY EARTH EATERY — drawn on a/c 0260460123001",
+    "crossing": "Crossed A/C PAYEE ONLY"
+  },
+  "notes": [
+    "ACCOUNT POSITION. Contract value QAR 46,900.00 under your LPO HMBE/LPO/2026/001 Ver. 2. Received to date QAR 44,555.00 — the 70% advance of QAR 32,830.00 on 21-09-2026 under cheque 00000001, and QAR 11,725.00 by this receipt. BALANCE QAR 2,345.00, being the 5% payable on successful testing, commissioning and handover.",
+    "Received with thanks, subject to realisation of the cheque. The amount in words and in figures agree at QAR 11,725.00, the payee name is correct and the cheque is crossed A/C Payee Only — for which our thanks. Our thanks also for your prompt settlement: the cheque is dated the day after our invoice.",
+    "WHAT REMAINS. Testing, commissioning and handover, after which the final 5% of QAR 2,345.00 falls due. We shall give you notice of the commissioning date and provide operation training at handover, as our quotation provides.",
+    "AMENDMENT TO THE ORDER STILL REQUESTED. Your purchase order Ver. 2 states the value in figures as QAR 46,900.00, which agrees with our contract and with the two payments now made, but the amount in words still reads \"Qatari Riyals Forty-Five Thousand Three Hundred Only\" from the earlier version. The three payments of 70%, 25% and 5% of QAR 46,900.00 come to QAR 32,830.00, QAR 11,725.00 and QAR 2,345.00, and the first two are now paid exactly so. We should be grateful for a short written amendment correcting the words, so that the final payment is not held up on a point of drafting.",
+    "This receipt is issued against INV-290/2026 and is subject to the terms of our quotation QUT/DCTS/SQ091/2026 (Ver. 3) and your LPO HMBE/LPO/2026/001 Ver. 2."
+  ]
+}

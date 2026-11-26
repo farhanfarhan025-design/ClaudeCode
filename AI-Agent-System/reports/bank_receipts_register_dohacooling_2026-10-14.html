@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>Bank Receipts Register</title>
+<style>
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  @page { size: A4; margin: 0; }
+  body { font-family: Arial, "Liberation Sans", Helvetica, sans-serif;
+         font-size: 10pt; color: #222222; margin: 0; line-height: 1.45; }
+  .band { background: #1F3864; color: #FFFFFF; padding: 13pt 27pt 11pt 27pt; margin-top: -34pt; }
+  .band .co { font-size: 15.5pt; font-weight: bold; line-height: 1.15; }
+  .band .ad { font-size: 8pt; padding-top: 2pt; }
+  .badge { background: #C9A24E; color: #1F3864; text-align: center; width: 128pt;
+           padding: 8pt 0; font-weight: bold; line-height: 1.25; }
+  .badge .b0 { font-size: 9.5pt; } .badge .b1 { font-size: 13pt; }
+  .rule { background: #C9A24E; height: 4pt; font-size: 1pt; }
+  .meta { background: #EEF2F8; padding: 6pt 27pt; font-size: 9pt; line-height: 1.45; }
+  .wrap { padding: 12pt 27pt 0 27pt; }
+  .to { margin-bottom: 10pt; line-height: 1.45; }
+  .to .nm { font-weight: bold; font-size: 11pt; color: #1F3864; }
+  .subj { background: #1F3864; color: #FFFFFF; font-weight: bold; font-size: 10pt;
+          padding: 6pt 12pt; margin: 10pt 0 12pt 0; }
+  p { margin: 0 0 9pt 0; text-align: justify; }
+  table.det { width: 100%; border-collapse: collapse; margin: 9pt 0; }
+  table.det td { border: 0.6pt solid #C9CDD6; padding: 5pt 9pt; font-size: 9.5pt; }
+  table.det td.k { background: #EEF2F8; font-weight: bold; color: #1F3864; width: 38%; }
+  .cal { background: #EEF2F8; padding: 9pt 12pt; margin: 10pt 0; font-size: 9.5pt; line-height: 1.5; }
+  .cal b { color: #1F3864; }
+  table.sig { width: 100%; margin-top: 26pt; page-break-inside: avoid; }
+  table.sig td { width: 48%; vertical-align: top; }
+  .sigline { border-top: 0.8pt solid #222222; height: 1pt; font-size: 1pt; width: 62%; }
+  .signame { font-weight: bold; padding-top: 5pt; font-size: 10pt; }
+  .sigco { font-size: 8.5pt; color: #333333; }
+  .stamp { font-size: 8.5pt; color: #555555; font-style: italic; padding-top: 16pt; }
+  .footwrap { position: fixed; bottom: 0; left: 0; right: 0; }
+  table.pagegrid { width: 100%; border-collapse: collapse; }
+  table.pagegrid > thead > tr > td { height: 34pt; border: 0; padding: 0; }
+  table.pagegrid > tfoot > tr > td { height: 44pt; border: 0; padding: 0; }
+  table.pagegrid > tbody > tr > td { border: 0; padding: 0; }
+  .foot { background: #1F3864; color: #FFFFFF; text-align: center; padding: 7pt 27pt; font-size: 8pt; }
+  .foot .f2 { font-style: italic; }
+
+  table.reg { width:100%; border-collapse:collapse; margin-top:7pt; table-layout:fixed; }
+  table.reg th { background:#1F3864; color:#FFF; font-size:8pt; font-weight:bold; padding:5pt 6pt;
+                 border:0.6pt solid #1F3864; }
+  table.reg td { border:0.6pt solid #C9CDD6; padding:4pt 6pt; font-size:8.2pt; vertical-align:top;
+                 word-wrap:break-word; }
+  table.reg td.r { text-align:right; } table.reg td.c { text-align:center; }
+  table.reg td b { color:#1F3864; }
+  .nb { font-size:7.5pt; color:#7A6420; font-style:italic; }
+  tr.sub td { border:0; border-top:1pt solid #1F3864; padding:5pt 6pt; font-weight:bold;
+              color:#1F3864; font-size:9pt; }
+  tr.sub td.r { font-size:10pt; }
+  .sect2 { background:#1F3864; color:#FFF; font-weight:bold; font-size:9.5pt;
+           padding:5pt 12pt; margin:13pt 0 0 0; }
+  .warn { background:#EEF2F8; border-left:3pt solid #1F3864; padding:8pt 11pt; margin:10pt 0;
+          font-size:8.8pt; line-height:1.5; }
+  .warn b { color:#1F3864; }
+</style></head><body>
+<table class="pagegrid"><thead><tr><td></td></tr></thead><tfoot><tr><td></td></tr></tfoot><tbody><tr><td>
+<table width="100%" cellpadding="0" cellspacing="0" class="band"><tr>
+  <td><div class="co">DOHA COOLING TRADING &amp; SOLUTIONS W.L.L.</div><div class="ad">P.O. Box 80247, Doha, State of Qatar&nbsp; |&nbsp; C.R. 93354&nbsp; |&nbsp; Tel: 7706 0676&nbsp; |&nbsp; farhan@dctsqatar.com</div></td>
+  <td width="28%" align="right"><div class="badge"><span class="b0">BANK RECEIPTS</span><br/><span class="b1">REGISTER</span></div></td>
+</tr></table>
+<div class="rule"></div>
+<div class="meta"><b>REFERENCE:</b>&nbsp;REG/DCTS/2026-1014 R2 &nbsp;&nbsp;&nbsp; <b>DATE:</b>&nbsp;14 October 2026 &nbsp;&nbsp;&nbsp; <b>CURRENCY:</b>&nbsp;QAR<br/><b>SCOPE:</b>&nbsp;Every payment received through the bank &mdash; cheques and transfers &mdash; across both entities, in date order, to date</div>
+<div class="wrap">
+<table class="reg"><thead><tr><th width="8%">DATE</th><th width="7%">ENTITY</th><th width="21%">RECEIVED FROM</th><th width="28%">INSTRUMENT</th><th width="11%">BANK</th><th width="10%">OUR RECEIPT</th><th width="15%">AMOUNT (QAR)</th></tr></thead><tbody><tr><td class="c">08-09-2025</td><td class="c"><b>DCTS</b></td><td><b>Oriental Agro Trading</b><br/>Cold storage project &mdash; 20% advance &middot; voucher 1327</td><td>Cheque no. <b>000000067</b></td><td class="c">QNB</td><td class="c">DCTS-RCT-001</td><td class="r">209,000.00</td></tr><tr><td class="c">18-09-2025</td><td class="c"><b>DCTS</b></td><td><b>Oriental Agro Trading</b><br/>Cold storage project &mdash; second 20% &middot; voucher 1330</td><td>Cheque no. <b>000000069</b></td><td class="c">QNB</td><td class="c">DCTS-RCT-002</td><td class="r">209,000.00</td></tr><tr><td class="c">13-11-2025</td><td class="c"><b>DCTS</b></td><td><b>Oriental Agro Trading</b><br/>Cold storage project &middot; voucher 1333 dated 12-11-2025</td><td>Cheque no. <b>60000076</b></td><td class="c">QNB</td><td class="c">DCTS-RCT-003</td><td class="r">200,000.00</td></tr><tr><td class="c">23-04-2026</td><td class="c"><b>DCTS</b></td><td><b>Oriental Agro Trading</b><br/>Street 36, cold room &middot; voucher 1338</td><td>Cheque no. <b>00000110</b></td><td class="c">QNB</td><td class="c">DCTS-RCT-009</td><td class="r">100,000.00</td></tr><tr><td class="c">23-06-2026</td><td class="c"><b>TNDK</b></td><td><b>Lean and Fit Popular Kitchen</b><br/>Freezer unit replacement &mdash; LPO 26060001</td><td>Cheque no. <b>00000951</b><br/>Drawn on a/c 0250-068381-001</td><td class="c">QNB</td><td class="c">not issued</td><td class="r">17,000.00</td></tr><tr><td class="c">04-07-2026</td><td class="c"><b>TNDK</b></td><td><b>Consolidated Contractors Group S.A.L. (Offshore) &mdash; CCC</b><br/>HIA Airport cold rooms &mdash; 30% advance &middot; EPIC for NGL-5 Plant</td><td>Cheque no. <b>00000245</b> &mdash; A/C payee only<br/>Drawn on a/c 0111-262600-275</td><td class="c">QIB</td><td class="c">not issued</td><td class="r">76,050.00</td></tr><tr><td class="c">07-07-2026</td><td class="c"><b>TNDK</b></td><td><b>Sunrise Trading and Food Stuff Co.</b><br/>Jollibee Rasaboud &mdash; first payment</td><td>Cheque no. <b>00990717</b> &mdash; A/C payee only<br/>Main Branch &middot; a/c 1000-01766-120</td><td class="c">Dukhan Bank</td><td class="c">not issued</td><td class="r">27,600.00</td></tr><tr><td class="c">13-07-2026</td><td class="c"><b>TNDK</b></td><td><b>Ruwais Farm</b><br/>Refrigeration maintenance &mdash; INV-014/2026</td><td>Fawran transfer, ref <b>FT261947R2WS</b><br/>Beneficiary alias C.R.-199351</td><td class="c">QIB</td><td class="c">not issued</td><td class="r">1,850.00</td></tr><tr><td class="c">16-08-2026</td><td class="c"><b>TNDK</b></td><td><b>Sunrise Trading and Food Stuff Co.</b><br/>Jollibee &mdash; cold room and condensing unit relocation</td><td>Cheque no. <b>00990904</b></td><td class="c">Dukhan Bank</td><td class="c">&mdash;</td><td class="r">23,100.00</td></tr><tr><td class="c">19-08-2026</td><td class="c"><b>TNDK</b></td><td><b>Oscar Prime Trading Contracting &amp; Services</b><br/>Two chiller rooms &mdash; 75% advance</td><td>Bank transfer, ref <b>Kitchen Fabrication</b> (value date)</td><td class="c">Commercial Bank</td><td class="c">not issued</td><td class="r">56,250.00</td></tr><tr><td class="c">24-08-2026</td><td class="c"><b>TNDK</b></td><td><b>Oscar Prime Trading Contracting &amp; Services</b><br/>Two chiller rooms &mdash; on account</td><td>Bank transfer, ref <b>Kitchen Fabrication</b> (value date)</td><td class="c">Commercial Bank</td><td class="c">not issued</td><td class="r">8,000.00</td></tr><tr><td class="c">26-08-2026</td><td class="c"><b>TNDK</b></td><td><b>Stop n Shop &ndash; Bin Omran</b><br/>Cold room &mdash; chiller and freezer, advance</td><td>Cheque no. <b>00006483</b></td><td class="c">QNB</td><td class="c">RCT-267/2026</td><td class="r">25,000.00</td></tr><tr><td class="c">21-09-2026</td><td class="c"><b>TNDK</b></td><td><b>Homemade by Earth Eatery</b><br/>Chiller and freezer rooms &mdash; 70% advance</td><td>Cheque no. <b>00000001</b> (634-001/091)<br/>Drawn on a/c 0260460123001</td><td class="c">QNB</td><td class="c">not issued</td><td class="r">32,830.00<br/><span class='nb'>(cheque drawn for 65,830.00; the balance of 33,000.00 relates to kitchen fabrication works and is accounted for separately)</span></td></tr><tr><td class="c">30-09-2026</td><td class="c"><b>TNDK</b></td><td><b>Sunrise Trading and Food Stuff Co.</b><br/>Jollibee &mdash; final balance, account settled</td><td>Cheque no. <b>00991134</b> &mdash; A/C payee only<br/>Main Branch &middot; a/c 1000-01766-120</td><td class="c">Dukhan Bank</td><td class="c">RCT-273/2026</td><td class="r">2,300.00</td></tr><tr><td class="c">01-10-2026</td><td class="c"><b>TNDK</b></td><td><b>One A Design, Build and Trading W.L.L.</b><br/>Capital Grille at ABESQ &mdash; 35% advance</td><td>Transfer <b>MS1A03383663</b><br/>Payment ref MB260930957255<br/>Debit a/c 0251-054777-001</td><td class="c">&mdash;</td><td class="c">RCT-274/2026</td><td class="r">25,725.00</td></tr><tr><td class="c">06-10-2026</td><td class="c"><b>TNDK</b></td><td><b>Oscar Prime Trading Cont. &amp; Services</b><br/>Five cold rooms &mdash; 70% advance</td><td>Transfer within bank, ref <b>061026A7317</b><br/>Debit a/c QA14CBQA000000004090710332001</td><td class="c">Commercial Bank</td><td class="c">RCT-279/2026</td><td class="r">119,000.00</td></tr><tr><td class="c">06-10-2026</td><td class="c"><b>TNDK</b></td><td><b>Everbloom (C.R. 150356)</b><br/>Flower display chiller &mdash; 75% advance</td><td>Transfer by C.R. alias<br/><b>20261006QNBAQAQAXXXH02184180</b><br/>Payment ref MB261006530403</td><td class="c">QNB</td><td class="c">RCT-280/2026</td><td class="r">12,750.00</td></tr><tr class="sub"><td colspan="6">TOTAL RECEIVED THROUGH THE BANK &mdash; 17 instruments</td><td class="r">1,145,455.00</td></tr></tbody></table>
+  <div class="warn">
+    <b>One consolidated register, both entities.</b> This supersedes REG/DCTS/2026-1014 R1, which
+    separated the two companies. The money is the same; it is set out here in a single date order,
+    with the receiving entity shown against each line &mdash; <b>DCTS</b> for Doha Cooling Trading
+    &amp; Solutions W.L.L. and <b>TNDK</b> for The New Doha Kitchen Equipment Services W.L.L.<br/>
+    <b>By entity:</b> Doha Cooling 4 instruments, <b>718,000.00</b> (Oriental Agro, cold storage
+    project and Street 36). The New Doha Kitchen 13 instruments, <b>427,455.00</b>.<br/>
+    <b>Every instrument is fully evidenced</b> &mdash; eleven cheques and six transfers, each
+    carrying its number or reference, the drawer's account, the bank and the date, and each
+    producible to a client, an auditor or a bank on demand.<br/>
+    <b>Cash is not in this register.</b> Oriental Agro paid a further QAR 375,000 in cash against
+    nine vouchers, Samoosa Shop settled QAR 38,500 in cash, and TNDK took QAR 2,450 in cash from
+    Al Noor Bakery, BSI and Lean N Fit. Those sit in the cash records.<br/>
+    <b>Receipts.</b> Eight of the seventeen were taken without a receipt leaving the office; those
+    lines are marked <i>not issued</i> and can now be raised, the instruments being known.
+  </div>
+
+  <table class="sig"><tr>
+    <td><div class="sigline"></div><div class="signame">Farhan</div>
+        <div class="sigco">Sales Engineer<br/>For and on behalf of Doha Cooling Trading &amp; Solutions W.L.L.</div>
+        <div class="stamp">Company stamp:</div></td>
+    <td></td>
+  </tr></table>
+</div>
+</td></tr></tbody></table>
+<div class="footwrap"><div class="foot">
+  <div><b>Doha Cooling Trading &amp; Solutions W.L.L.&nbsp; |&nbsp; P.O. Box 80247, Doha, State of Qatar&nbsp; |&nbsp; C.R. 93354&nbsp; |&nbsp; Tel: 7706 0676&nbsp; |&nbsp; farhan@dctsqatar.com</b></div>
+  <div class="f2">Internal record &mdash; compiled from the cheques, transfer advices and vouchers held, as at the date shown above.</div>
+</div></div>
+</body></html>

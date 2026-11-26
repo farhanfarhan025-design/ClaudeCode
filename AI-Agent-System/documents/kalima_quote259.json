@@ -1,0 +1,44 @@
+{
+  "type": "quotation",
+  "badge": ["MAINTENANCE", "QUOTATION"],
+  "number": "QUT/DCTS/259/2026",
+  "date": "03-11-2026",
+  "ref": "15 days from date of quotation",
+  "meta_labels": ["QUOTATION NO", "DATE", "VALIDITY"],
+  "currency": "QAR",
+  "filename": "Quotation_QUT-DCTS-259-2026_Kalima_LeakTesting_GasCharging_WaterService",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "TO",
+    "name": "M/s. Kalima",
+    "fields": [
+      "Doha, State of Qatar",
+      {"label": "Subject", "value": "Complete leak testing, gas charging and complete water service of the refrigeration system"},
+      {"label": "Work completion", "value": "01 day from the confirmed order"},
+      {"label": "Payment", "value": "100% on completion of the work"}
+    ]
+  },
+  "lines": [
+    {
+      "description": "LEAK TESTING, GAS CHARGING AND COMPLETE WATER SERVICE\n1. COMPLETE LEAK TESTING — All joints, brazed connections, valves, flare fittings, the condenser, the evaporator and the full length of the interconnecting pipework leak tested with an electronic leak detector and, where required, with soap solution. Any leak found is reported to you before the system is closed.\n2. NITROGEN PRESSURE TESTING — Complete circuit pressure tested with dry nitrogen to the working pressure of the system and held under a standing pressure test to prove the circuit tight.\n3. EVACUATION — System evacuated to a deep vacuum with a vacuum hold test, to draw off moisture and non-condensables before charging.\n4. GAS CHARGING — System charged with refrigerant to the manufacturer's nameplate charge, the charge weighed in, and the superheat and sub-cooling checked and set against the measured pressures and temperatures.\n5. COMPLETE WATER SERVICE — Condenser and evaporator coils cleaned by water washing with coil cleaner and rinsed through; fan blades, fan guards and grilles cleaned; drain pan and drain line cleared and flushed; strainers and the water side of the circuit cleaned where applicable; and the cabinet and surrounding area left clean on completion.\n6. ELECTRICAL AND CONTROL CHECK — Electrical connections checked and tightened, contactors, overloads and safety controls inspected, and the control settings checked.\n7. TESTING, COMMISSIONING AND HANDOVER — System run up, suction and discharge pressures, superheat, compressor current and room temperature measured and recorded, controls and cut-outs proved, and the system handed over pulling down to its set point.\n8. All labour, refrigerant for one (1) standard charge, nitrogen, gauges, brazing materials, consumables and transportation to and from site.",
+      "unit": "Lot",
+      "qty": 1,
+      "rate": 2350.00
+    }
+  ],
+  "grand_total_label": "TOTAL",
+  "notes": [
+    "COMPRESSOR. Whether the compressor is pumping correctly can only be established once the system has been closed, charged and run. Should our inspection and commissioning show that the compressor is not pumping to duty — low discharge pressure, failure to pull the room down, worn valves or rings, or a seized or short-cycling machine — the compressor is NOT covered by this quotation. A replacement compressor, together with its labour, oil, additional filter drier and system flushing where contamination has occurred, WILL BE CHARGED EXTRA. We shall report the finding, quote the cost and obtain your written approval before any compressor is ordered or replaced.",
+    "A LEAK MUST BE REPAIRED BEFORE THE SYSTEM CAN BE CHARGED. Gas charged into a leaking circuit is gas lost. Should the leak test find a leak, we shall report its location to you at once; the repair itself is not included in the price above and will be quoted separately for your approval. The gas charge then follows the repair.",
+    "REFRIGERANT. The price includes the refrigerant required to bring one (1) refrigeration circuit of standard commercial size to its nameplate charge. Should the system prove to be of a materially larger capacity, should more than one circuit require charging, or should the plant run on a refrigerant of unusual cost, we shall advise you of the quantity and the cost in writing for your approval before charging.",
+    "WHAT THIS QUOTATION DOES NOT COVER. Repair or replacement of any component — compressor, condenser, evaporator, expansion valve, filter drier, solenoid valve, fan motor, contactor, thermostat or control; the repair of any leak found during testing; compressor oil, should a top-up or change be found necessary; and any electrical work beyond the checking and tightening of existing connections. Anything found necessary will be reported and quoted before it is done.",
+    "CONDITION OF THE EXISTING PLANT. The equipment is your own and its age, condition and service history are not known to us. This offer covers the work described above and does not warrant the capacity, performance or continued operation of the system as a whole.",
+    "WARRANTY: three (3) months from the date of handover on our workmanship. Excludes refrigerant loss through any leak outside the work described above, failure of any existing component, moisture or contamination carried from elsewhere in the system, power surge, improper supply, and the absence of routine maintenance.",
+    "Water and electricity at site to be made available by the client, and the plant to be made accessible and available to us for the duration of the work. Prices are quoted in Qatari Riyals and are valid for fifteen (15) days from the date of this quotation."
+  ]
+}

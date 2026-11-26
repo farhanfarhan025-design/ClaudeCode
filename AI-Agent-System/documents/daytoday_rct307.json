@@ -1,0 +1,47 @@
+{
+  "type": "receipt",
+  "number": "RCT-307/2026",
+  "date": "14-11-2026",
+  "ref": "INV-305/2026",
+  "meta_labels": ["RECEIPT NO", "DATE", "AGAINST INVOICE"],
+  "currency": "QAR",
+  "filename": "Receipt_RCT-307-2026_DayToDayHypermarket_50pct_Advance_Cash",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "RECEIVED FROM",
+    "name": "M/s. Day to Day Hypermarket",
+    "fields": [
+      "Doha, State of Qatar",
+      {"label": "Project", "value": "One (1) chiller room and one (1) freezer room, each 3.00 x 3.00 x 2.40 m internal"},
+      {"label": "Our quotation", "value": "QUT/DCTS/SQ145/2026 — approved"},
+      {"label": "Contract Value", "value": "QAR 52,000.00"},
+      {"label": "Status", "value": "50% ADVANCE RECEIVED IN FULL"},
+      {"label": "Balance After This Receipt", "value": "QAR 26,000.00 — 30% 15,600.00 and 20% 10,400.00"}
+    ]
+  },
+  "lines": [
+    {"description": "50% advance payment received in full and in cash against INV-305/2026 dated 12-11-2026 — supply, installation, testing and commissioning of one (1) chiller room and one (1) freezer room, each 3.00 x 3.00 x 2.40 m internal, with insulated floors and their own refrigeration systems", "unit": "Job", "qty": 1, "rate": 26000.00}
+  ],
+  "grand_total_label": "TOTAL RECEIVED",
+  "instrument": {
+    "type": "cash",
+    "payment_mode": "Cash",
+    "received_on": "Saturday 14-11-2026",
+    "received_by": "The New Doha Kitchen Equipment Services W.L.L.",
+    "against": "INV-305/2026 dated 12-11-2026 — 50% advance"
+  },
+  "notes": [
+    "ACCOUNT POSITION. Contract value QAR 52,000.00. The 50% advance of QAR 26,000.00 is received in full by this receipt. Balance QAR 26,000.00 — 30% QAR 15,600.00 after installation of the sandwich panel and before delivery of the condensing units, and 20% QAR 10,400.00 at handover.",
+    "Received with thanks, in cash, on Saturday 14-11-2026. This receipt is our acknowledgement of the full 50% advance and no further sum is outstanding on that stage.",
+    "THE PROGRAMME NOW RUNS. Material delivery 3 to 5 days from this advance, site mobilisation within 3 working days of material arrival, installation 8 to 12 working days on a civil-ready site, and testing and commissioning 1 to 2 working days thereafter — 16 to 20 days in all, subject to site readiness. We are placing the panel order at once and shall confirm the delivery date to you in writing.",
+    "THE SECOND STAGE AND THE MACHINES. As agreed, the 30% of QAR 15,600.00 falls due once the sandwich panel is installed and is payable before the condensing units are delivered to site. We shall notify you in writing on the day the panel is complete so that there is no delay between the panel work and the machines arriving.",
+    "SITE READINESS. Please ensure the room positions are clear, level and accessible, and that the main power supply and the cable runs from the main distribution board to the two cold room control panels are available, together with drainage points within 3 m of each evaporator, as these are by others under our quotation. Final room dimensions will be confirmed on site before fabrication.",
+    "EQUIPMENT MAKES. The condensing units are Danfoss (Denmark) or Tecumseh (France) and the evaporating units Gunay (Turkey) or Tecumseh (France), the make in each case as available at the time of order, as note 3 of our quotation provides. We shall confirm the makes and models to you in writing once the equipment is ordered.",
+    "This receipt is issued against INV-305/2026 and is subject to the terms of our approved quotation QUT/DCTS/SQ145/2026, as varied by the agreed payment schedule above."
+  ]
+}

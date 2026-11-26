@@ -1,0 +1,53 @@
+{
+  "type": "invoice",
+  "badge": ["FINAL", "INVOICE"],
+  "number": "INV-320/2026",
+  "date": "22-11-2026",
+  "ref": "QUT/DCTS/SQ130/2026 (Revised) — handover report HO/TNDK/003/2026",
+  "currency": "QAR",
+  "filename": "Invoice_INV-320-2026_Gozl_Final_20pct_CompletionHandover",
+  "payee_name": "The New Doha Kitchen Equipment Services W.L.L.",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "BILL TO",
+    "name": "M/s. Gozl Veterinary Services and Trading Co.",
+    "fields": [
+      "Doha, State of Qatar",
+      {"label": "Project", "value": "One (1) chiller room 4.00 x 4.00 x 2.50 m, 0 °C to +8 °C, with duty and standby refrigeration"},
+      {"label": "Our quotation", "value": "QUT/DCTS/SQ130/2026 (Revised) — approved 29-10-2026"},
+      {"label": "Contract Value", "value": "QAR 59,800.00"},
+      {"label": "Payment terms", "value": "50% advance / 30% on delivery of materials / 20% on completion and handover"},
+      {"label": "Stage", "value": "FINAL — 20% on completion and handover, handed over 21-11-2026"}
+    ]
+  },
+  "lines": [
+    {
+      "description": "FINAL PAYMENT — 20% ON COMPLETION AND HANDOVER\nFinal instalment against our approved quotation QUT/DCTS/SQ130/2026 (Revised) for the supply, installation, testing and commissioning of one (1) chiller room 4.00 x 4.00 x 2.50 m operating at 0 °C to +8 °C with duty and standby refrigeration, now complete and handed over.\nThe completed works comprise 100 mm insulated sandwich panel to walls, ceiling and floor, 72.00 sqm, with all coving, angles, silicone sealing and fasteners; the insulated floor system with 18 mm marine plywood and 1.5 mm chequered plate; the hinged cold room door 900 x 1900 mm complete with heated frame, gasket and hardware; TWO (2) COMPLETE AND INDEPENDENT REFRIGERATION SYSTEMS arranged as duty and standby — condensing units, unit coolers, expansion valves, filter driers, sight glasses, solenoid valves, copper pipework, Armaflex insulation and insulated drain lines; the control panel with automatic duty and standby changeover; internal vapour-proof LED lighting and door frame heater; the complete electrical works from the control panel onward; and testing, commissioning, transportation, lifting at site and handover with operation training.\nContract value QAR 59,800.00 — this invoice covers the final instalment of 20%.",
+      "unit": "Lot",
+      "qty": 1,
+      "rate": 11960.00
+    }
+  ],
+  "grand_total_label": "AMOUNT NOW DUE",
+  "bank": {
+    "Bank": "The Commercial Bank (P.S.Q.C.), Grand Hamad Branch – 4010",
+    "Account Name": "The New Doha Kitchen Equipment Services W.L.L.",
+    "Account Number": "4010-777739-001",
+    "IBAN": "QA06 CBQA 0000 0000 4010 7777 3900 1",
+    "SWIFT / BIC": "CBQAQAQA",
+    "Currency": "Qatari Riyal (QAR)"
+  },
+  "notes": [
+    "ACCOUNT POSITION, AND THIS IS THE LAST INVOICE ON THIS CONTRACT. Contract value QAR 59,800.00, payable 50% advance, 30% on delivery of materials and 20% on completion and handover. Received: QAR 29,900.00 on 29-10-2026 against INV-291/2026, receipted under RCT-292/2026; and QAR 17,940.00 on 03-11-2026 against INV-294/2026, receipted under RCT-296/2026. Total received QAR 47,840.00. This invoice: the final 20% of QAR 11,960.00. On settlement the contract stands at QAR 59,800.00 received in full and the account between us closes. No further invoice will follow.",
+    "ISSUED AGAINST OUR HANDOVER REPORT HO/TNDK/003/2026 OF 21-11-2026, WHICH ACCOMPANIES THIS INVOICE AND FORMS PART OF IT. That report lists every item installed, tested and checked, names the equipment supplied, and records the results of the pressure test, evacuation, charging, pull-down and safety tests. It also records the test that matters most on a duty and standby installation: EACH SYSTEM WAS RUN ALONE AND PROVED CAPABLE OF HOLDING THE ROOM AT 0 °C TO +8 °C ON ITS OWN, and the automatic changeover was proved in both directions. We should be grateful if you would read it alongside this invoice and return your written acceptance, as note 2 of that report requests.",
+    "A WORD ON HOW PAYMENT IS MADE, OFFERED FOR YOUR PROTECTION AS MUCH AS OURS. Your two earlier payments were made by open cheque. An open cheque is payable to whoever presents it and is at risk from the moment it leaves your office until it reaches our bank. We should be grateful if this final payment were made by bank transfer to the account shown above, or by cheque CROSSED \"A/C PAYEE ONLY\" and drawn strictly in favour of the account name given, which is THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L. with no word between Equipment and Services. Kindly quote invoice INV-320/2026 as the reference.",
+    "KEEPING THE STANDBY A STANDBY. Two complete and independent systems serve this room and either will hold it alone. Please alternate the lead system regularly, monthly if you can, using the changeover on the control panel, so that both machines run and neither sits idle long enough to seize. A standby that has never run is not a standby. We recommend routine servicing twice a year on both systems and shall be pleased to quote you an annual maintenance contract.",
+    "WARRANTY: twelve (12) months from the date of handover on the cold room panels, the door, the insulated floor and our workmanship, and twelve (12) months from the date of commissioning on both condensing units, both unit coolers, the electrical components and the controls. Excludes damage from misuse, power surge, improper voltage, water ingress, unauthorised modification, operation outside the design condition, and the absence of routine maintenance.",
+    "This invoice is issued against our approved quotation QUT/DCTS/SQ130/2026 (Revised) and our handover report HO/TNDK/003/2026, and is subject to the terms of that quotation. Payment is due on presentation. With our thanks for the order and for the opportunity to work with you."
+  ]
+}

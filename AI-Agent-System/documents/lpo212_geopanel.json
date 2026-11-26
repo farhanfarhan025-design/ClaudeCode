@@ -1,0 +1,41 @@
+{
+  "type": "lpo",
+  "number": "LPO-212/2026",
+  "date": "24-10-2026",
+  "ref": "GEO/Q3485 Rev. 1 dated 22-10-2026",
+  "currency": "QAR",
+  "filename": "LPO-212-2026_GeoPanel_100mm_ColdRoomPanel",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "VENDOR INFORMATION",
+    "name": "Geo Panel",
+    "fields": [
+      "Zone 92, Street 354, Building No. 181, Mesaieed Industrial City, P.O. Box 9470, Doha, State of Qatar",
+      {"label": "Attention", "value": "Mr. Shad — Sales Engineer  |  Mob: 5542 6386"},
+      {"label": "Payment Terms", "value": "100% payment in advance"},
+      {"label": "Delivery Terms", "value": "Ex-works, Mesaieed — 07 to 10 days from payment"}
+    ]
+  },
+  "lines": [
+    {
+      "description": "GEO 100 MM COLD ROOM PANEL\nTop sheet: 0.40 mm pre-painted Aluzinc, polyester coated, RAL 9002\nBottom sheet: 0.40 mm pre-painted Aluzinc, polyester coated, RAL 9002\nInsulation core: 100 mm PIR, density 40 ± 2 kg/m3\nCut lengths: 2.40 m x 13 pcs and 2.00 m x 5 pcs — 18 pieces, 41.20 sqm",
+      "unit": "Sqm",
+      "qty": 41.20,
+      "rate": 98.00
+    }
+  ],
+  "grand_total_label": "TOTAL ORDER VALUE",
+  "notes": [
+    "Placed against your quotation GEO/Q3485 Rev. 1 dated 22-10-2026, 41.20 sqm at QAR 98.00 per sqm, net QAR 4,037.60. Please acknowledge this order in writing and confirm the production and collection dates.",
+    "CUT LIST. The lengths ordered are 2.40 m x 13 pieces and 2.00 m x 5 pieces, 18 pieces in all, in the standard panel width, to a total of 41.20 sqm. We confirm the colour RAL 9002, the profile, the sizes and the quantity as stated, in satisfaction of clause 4 of your terms. No cutting instruction other than the above is given, and no piece is to be cut to any other length without our prior written approval.",
+    "SPECIFICATION CONFIRMED AS ABOVE. The facings are to be 0.40 mm pre-painted Aluzinc both sides and the core 100 mm PIR at 40 ± 2 kg/m3, as quoted. Should the mill supply a facing of a different thickness, a different coating or substrate, or a core of a different type, density or classification, you are to advise us in writing BEFORE production, and no such change is accepted without our prior written approval. We measure the facing at inspection.",
+    "PRICE IS FIXED ON ACCEPTANCE OF THIS ORDER. Clause 8 of your terms, reserving the right to modify the price after confirmation for changes in raw material cost, is not accepted and forms no part of this order. The price above is firm for the quantity and specification stated, and no handling, loading, transport or other charge will be accepted beyond the total order value.",
+    "PRE-DELIVERY INSPECTION. We will attend your factory to inspect before collection, as clause 2 of your terms requires. Please give us not less than one (1) working day's notice of readiness. Panels are to be free of dents, edge damage, delamination, coating defects and foam voids, and we may reject at inspection.",
+    "Panels are to be supplied with the manufacturer's specification sheet for the facing and the core. Please quote LPO-212/2026 on your delivery note and invoice, and raise the invoice in the name shown above."
+  ]
+}

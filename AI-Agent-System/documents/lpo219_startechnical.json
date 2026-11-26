@@ -1,0 +1,45 @@
+{
+  "type": "lpo",
+  "number": "LPO-219/2026",
+  "date": "15-11-2026",
+  "ref": "STS/QT/159/2026 dated 14-11-2026",
+  "currency": "QAR",
+  "filename": "LPO-219-2026_StarTechnical_CivilWorks_UnderfloorVentilation",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "VENDOR INFORMATION",
+    "name": "Star Technical Services W.L.L.",
+    "fields": [
+      "P.O. Box 3013, Doha, State of Qatar  |  C.R. 203382",
+      {"label": "Attention", "value": "Mr. Justin Raj Francis — Managing Director  |  Site: Mr. Nizam, 7703 9350"},
+      {"label": "Scope", "value": "Cold room floor — demolition, insulated floor build-up, waterproofing and under-floor ventilation"},
+      {"label": "Payment Terms", "value": "QAR 10,000.00 in advance, balance QAR 3,500.00 upon completion"},
+      {"label": "Completion", "value": "10 working days from release of the advance payment and this order"}
+    ]
+  },
+  "lines": [
+    {"description": "Demolition of the existing floor concrete and removal of waste material, 700 mm deep from the existing level", "unit": "Ls", "qty": 1, "rate": 4900.00},
+    {"description": "Supply and installation of 40 mm foam sheet, with levelling and compaction of the floor", "unit": "Ls", "qty": 1, "rate": 2250.00},
+    {"description": "Supply and installation of 100 mm RCC floor concrete with 6 mm mesh (A6)", "unit": "Ls", "qty": 1, "rate": 2200.00},
+    {"description": "50 mm PCC on the floor base", "unit": "Ls", "qty": 1, "rate": 1800.00},
+    {"description": "Cementitious waterproofing works", "unit": "Ls", "qty": 1, "rate": 2400.00},
+    {"description": "Supply and installation of under-floor uPVC ventilation pipe and fittings — to be Ø110 mm Class B, seven (7) numbers, as note 2 below", "unit": "Ls", "qty": 1, "rate": 1465.00}
+  ],
+  "discount": 1515.00,
+  "grand_total_label": "TOTAL ORDER VALUE",
+  "notes_new_page": true,
+  "notes": [
+    "Placed against your quotation STS/QT/159/2026 dated 14-11-2026 — sub-total QAR 15,015.00 less your discount of QAR 1,515.00, net QAR 13,500.00. Payment QAR 10,000.00 in advance and the balance of QAR 3,500.00 upon completion. Completion 10 working days from the release of the advance and this order. Please acknowledge this order in writing and confirm your start date.",
+    "THE VENTILATION PIPE IS THE ONE ITEM THAT MUST BE PINNED DOWN, AND YOUR LINE 6 DOES NOT DESCRIBE IT. We require, under that item: SEVEN (7) uPVC pipes of Ø110 mm CLASS B — not 100 mm — laid beneath the cold room floor at 920 mm centres; each in ONE CONTINUOUS LENGTH with NO JOINT beneath the room; laid to a fall of 1:100; each end projecting NOT LESS THAN 300 mm beyond the panel face on both sides, finished with a uPVC 90° bend facing DOWNWARD and a STAINLESS STEEL 304 MESH SCREEN; and covered by not less than 40 mm of PCC. Each pipe is to be air-passage tested before the floor is closed and again before handover, in our presence. Please confirm in writing that your rate of QAR 1,465.00 covers the above in full. IF IT DOES NOT, TELL US BEFORE YOU START AND QUOTE THE DIFFERENCE — this is the item the whole floor depends on and it will not be opened up afterwards.",
+    "THE AMOUNT IN WORDS ON YOUR QUOTATION DOES NOT AGREE WITH THE TOTAL. Your document reads \"Qatari Riyals Fifteen Thousand and fifteen Only\" against a stated total of QAR 13,500.00; the words appear to repeat the sub-total before your discount. The agreed and ordered figure is QAR 13,500.00. Please correct the wording on your invoice, which must read thirteen thousand five hundred.",
+    "DEMOLITION DEPTH. Your line 1 is priced at 700 mm deep from the existing level. Please confirm in writing that 700 mm is what the drawing and the site require and is the depth you will excavate to, and advise us at once if the ground conditions found on opening up differ from the drawing, BEFORE any further work is done. No additional depth, rock breaking, dewatering or disposal charge will be accepted after the event.",
+    "RE-USE OF EXISTING MATERIAL. We note your clause 3. Any material you propose to re-use is to be identified to us and approved by us in writing before it is placed. Nothing structural, no mesh and no waterproofing material is to be re-used. All new material is to be new and to QCS, and the concrete is to be prepared at site to QCS as your clause 5 states; please make the mix design, slump and any cube results available to us on request.",
+    "INSPECTION AND HOLD POINTS. We will attend site and inspect at three points, and you are to give us not less than one (1) working day's notice of each: after demolition and before the foam sheet is laid; after the ventilation pipes are set out and before the PCC cover; and after the RCC is poured. Work closed up without our inspection may be required to be opened at your cost.",
+    "SCOPE AND PRICE ARE FIXED. Epoxy works are excluded, as your clause 2 records. The prices above are firm for the scope stated and no variation, additional work or price adjustment will be accepted unless it is advised to us in writing and approved by us in writing BEFORE it is carried out. Please raise your invoice in the name shown above — The New Doha Kitchen Equipment Services W.L.L., C.R. 199351 — and quote LPO-219/2026 on it."
+  ]
+}

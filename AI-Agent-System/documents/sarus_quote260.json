@@ -1,0 +1,44 @@
+{
+  "type": "quotation",
+  "badge": ["REPAIR", "QUOTATION"],
+  "number": "QUT/DCTS/260/2026",
+  "date": "21-11-2026",
+  "ref": "15 days from date of quotation",
+  "meta_labels": ["QUOTATION NO", "DATE", "VALIDITY"],
+  "currency": "QAR",
+  "filename": "Quotation_QUT-DCTS-260-2026_Sarus_Building8_CondensingUnitReplacement",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "TO",
+    "name": "M/s. Sarus Trading and Contracting",
+    "fields": [
+      "Doha, State of Qatar",
+      {"label": "Kind attention", "value": "Mr. Pramod Kumar — Contract Manager"},
+      {"label": "Subject", "value": "Repair of cold room / chiller, Building 8 Ground Floor — Main Kitchen: replacement of the outdoor condensing unit and restoration of the refrigeration circuit"},
+      {"label": "Work completion", "value": "02 days from the confirmed order"},
+      {"label": "Payment", "value": "100% advance with the order"}
+    ]
+  },
+  "lines": [
+    {
+      "description": "REPLACEMENT OF THE OUTDOOR CONDENSING UNIT AND COMPLETE RESTORATION OF THE REFRIGERATION CIRCUIT\n1. OUTDOOR CONDENSING UNIT — Supply and installation of one (1) new air-cooled condensing unit built on a BITZER compressor, made in Germany, selected to the duty of the existing chiller room. Complete with condenser coil, condenser fan and motor, liquid receiver, suction and liquid line service valves, high and low pressure safety switches, oil separator where the model provides one, vibration eliminators and an anti-vibration mounted base frame. The failed unit is disconnected, pumped down where possible, de-gassed in the proper manner, removed and handed over to you for disposal.\n2. REFRIGERATION PIPING, COMPLETE — New copper suction and liquid lines between the condensing unit and the evaporator in refrigeration-grade tube of the correct diameter, brazed throughout under a dry nitrogen purge, run on proper clamps and supports with wall sleeves and weather sealing where the line passes outside, and the suction line fully insulated in Armaflex with vapour-sealed joints.\n3. CIRCUIT ACCESSORIES — New filter drier, moisture-indicating sight glass, thermostatic expansion valve correctly sized and set, liquid line solenoid valve, service ports and all brazing fittings, flare nuts, hangers, clamps, sleeves and sundries required to complete the circuit.\n4. CONTROL PANEL BOX — Supply and installation of a new control panel box housing a digital temperature controller with DISPLAY, main isolator, contactors, overload protection, control fuses, terminal blocks, indicator lamps and the room temperature sensor, wired, labelled and set to your required operating temperature.\n5. ELECTRICAL WIRING — Complete power and control wiring from the new control panel to the condensing unit, to the evaporator fans and defrost, and to the door switch and internal light, in cable of the correct rating, run in conduit or on tray with glands, earthing and identification throughout.\n6. EXISTING EVAPORATOR — The unit cooler inside the room is checked, its coil and drain pan cleaned, its fans and heaters tested, the drain line cleared, and the unit reconnected to the new circuit and the new panel.\n7. PRESSURE TESTING, EVACUATION AND CHARGING — Complete circuit pressure tested with dry nitrogen and held under a standing pressure test, then evacuated to a deep vacuum with a vacuum hold test to draw off moisture and non-condensables, and charged with refrigerant to the manufacturer's nameplate charge, weighed in, with superheat and sub-cooling measured and set.\n8. TESTING, COMMISSIONING AND HANDOVER — System run up and proved; suction and discharge pressures, superheat, sub-cooling, compressor running current and room pull-down temperature measured and recorded on a commissioning sheet; all safety cut-outs proved; and the room handed over holding its set point, with operating instructions given to your site team.\n9. All labour, refrigerant for the full charge, nitrogen, brazing materials, insulation, cable, consumables, tools, lifting and transportation to and from site are included.",
+      "unit": "Lot",
+      "qty": 1,
+      "rate": 15800.00
+    }
+  ],
+  "grand_total_label": "TOTAL",
+  "notes": [
+    "THE DISPLAY. Your scope of works records that the display is not working and asks for it to be changed. We have read this as the temperature display and controller, and item 4 above supplies a NEW digital temperature controller with display in the new control panel box, which replaces it. If by “display unit” you mean a refrigerated display cabinet or counter, that is a separate item of equipment and is NOT included in the price above — kindly confirm, and we shall quote it separately for you.",
+    "WHAT THIS QUOTATION DOES NOT COVER. Replacement of the evaporator / unit cooler itself, should it be found beyond repair once the system is run; the cold room panels, door, door gasket, floor or any civil or builder's work; the incoming power supply and cabling from your main distribution board to the position of our control panel; the drainage point for the evaporator condensate; any scaffolding, crane or structural work for positioning the unit beyond ordinary lifting; and the removal from site of the old unit, which is handed to you. Anything found necessary will be reported to you and quoted in writing before it is done.",
+    "THE DUTY IS SELECTED ON THE EXISTING ROOM. The condensing unit is selected to suit the existing chiller room and the existing evaporator as we find them. Should the room be enlarged, the operating temperature lowered, or the evaporator changed after this offer, the selection must be reviewed. We shall confirm the exact model and capacity on the day the order is placed.",
+    "THE TWO-DAY COMPLETION DEPENDS ON THREE THINGS. The unit must be released from stock, which is what the advance payment allows us to do at once; the room must be made available to us for the full two days with power at site; and the existing electrical supply to the panel position must be live and of adequate rating. Given those, the room is handed back running on the second day.",
+    "WARRANTY: twelve (12) months, being one (1) full year, from the date of handover on the new condensing unit, the compressor, the control panel and its components, the new pipework and wiring and our workmanship — meeting the minimum one-year warranty called for in your scope of works. The warranty excludes damage from misuse, power surge or improper voltage, water ingress, unauthorised modification or the absence of routine maintenance, and it does not extend to the existing evaporator, the cold room structure or any item not supplied by us.",
+    "PAYMENT: 100% in advance with the order. Prices are quoted in Qatari Riyals, are for the complete scope described above as one lot, and are valid for fifteen (15) days from the date of this quotation. We thank you for the enquiry and shall be glad to attend site at your convenience."
+  ]
+}

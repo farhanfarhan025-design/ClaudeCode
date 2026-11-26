@@ -1,0 +1,53 @@
+{
+  "type": "invoice",
+  "badge": ["FINAL", "INVOICE"],
+  "number": "INV-319/2026",
+  "date": "21-11-2026",
+  "ref": "QUT/DCTS/SQ121/2026 (Revised) — approved 20-10-2026",
+  "currency": "QAR",
+  "filename": "Invoice_INV-319-2026_PandaCakes_Final_5pct_Handover",
+  "payee_name": "The New Doha Kitchen Equipment Services W.L.L.",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "BILL TO",
+    "name": "M/s. Panda Cakes",
+    "fields": [
+      "Doha, State of Qatar",
+      {"label": "Project", "value": "One (1) chiller room 4.35 x 2.00 x 2.40 m, 0 °C to +8 °C, with refrigeration"},
+      {"label": "Our quotation", "value": "QUT/DCTS/SQ121/2026 (Revised) — approved 20-10-2026"},
+      {"label": "Contract Value", "value": "QAR 29,000.00"},
+      {"label": "Payment terms", "value": "75% advance / 20% on delivery of materials / 5% on handover"},
+      {"label": "Stage", "value": "FINAL — 5% on successful testing, commissioning and handover"}
+    ]
+  },
+  "lines": [
+    {
+      "description": "FINAL PAYMENT — 5% ON TESTING, COMMISSIONING AND HANDOVER\nFinal instalment against our approved quotation QUT/DCTS/SQ121/2026 (Revised) for the supply, installation, testing and commissioning of one (1) chiller room 4.35 x 2.00 x 2.40 m operating at 0 °C to +8 °C, now complete and handed over.\nThe completed works comprise the 100 mm insulated sandwich panel to walls and ceiling with all coving, angles, silicone sealing and fasteners; the hinged cold room door complete with hardware, heated frame and gasket; the insulated floor system; the refrigeration system — condensing unit, unit cooler, expansion valve, filter drier, sight glass, solenoid valve, copper pipework, Armaflex insulation and insulated drain line; the digital control panel with all safeties; internal vapour-proof LED lighting and door frame heater; the complete electrical works from the control panel onward; and testing, commissioning, transportation, lifting at site and handover with operation training.\nContract value QAR 29,000.00 — this invoice covers the final instalment of 5%.",
+      "unit": "Lot",
+      "qty": 1,
+      "rate": 1450.00
+    }
+  ],
+  "grand_total_label": "AMOUNT NOW DUE",
+  "bank": {
+    "Bank": "The Commercial Bank (P.S.Q.C.), Grand Hamad Branch – 4010",
+    "Account Name": "The New Doha Kitchen Equipment Services W.L.L.",
+    "Account Number": "4010-777739-001",
+    "IBAN": "QA06 CBQA 0000 0000 4010 7777 3900 1",
+    "SWIFT / BIC": "CBQAQAQA",
+    "Currency": "Qatari Riyal (QAR)"
+  },
+  "notes": [
+    "ACCOUNT POSITION, AND THIS IS THE LAST INVOICE ON THIS CONTRACT. Contract value QAR 29,000.00, payable 75% advance, 20% on delivery of materials and 5% on handover. Received: QAR 21,750.00 on 22-10-2026 against INV-287/2026, receipted under RCT-288/2026; and QAR 5,800.00 in cash on 05-11-2026 against INV-295/2026, receipted under RCT-314/2026. Total received QAR 27,550.00. This invoice: the final 5% of QAR 1,450.00. On settlement the contract stands at QAR 29,000.00 received in full and the account between us closes. No further invoice will follow.",
+    "WITH OUR THANKS FOR THE WAY YOU HAVE DEALT WITH US. The advance was settled within two days of our first invoice and the delivery stage within two days of the second, without a single reminder from us. From approval of the quotation on 20-10-2026 to the completion of this room has been a month, and your promptness is a large part of why. We record it here with our thanks and we hope to work with you again.",
+    "THE ROOM IS HANDED OVER AND THE WARRANTY NOW RUNS. The chiller room has been installed, pressure tested, evacuated, charged, run up and proved to hold its set point between 0 °C and +8 °C, the safety controls have been tested, and operation training has been given to your staff. Our commissioning record is available to you on request. Kindly have your handover acknowledgement signed and returned so that the file is complete at both ends.",
+    "OUR DELIVERY NOTE IS STILL TO BE SIGNED AND RETURNED. Our second invoice recorded that a delivery note for the materials delivered to site would follow for signature by your site representative. If it has not yet been signed and returned, we should be grateful if you would do so; it completes the record of what was delivered and when, and protects us both.",
+    "WARRANTY: twelve (12) months on the cold room panels, the door, the insulated floor and our workmanship from the date of handover, and twelve (12) months on the condensing unit, the unit cooler, the electrical components and the controls from the date of commissioning. Excludes damage from misuse, power surge, improper voltage, water ingress, unauthorised modification or the absence of routine maintenance. For the long life of the plant we recommend routine servicing, and we shall be pleased to quote you an annual maintenance contract.",
+    "Payment due on presentation of this invoice. Payment may be made in cash, or by cheque or bank transfer to the account shown above; cheques to be crossed \"A/C Payee Only\" and drawn strictly in favour of the account name given, which is THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L. with no word between Equipment and Services. Kindly quote invoice INV-319/2026 as the reference. This invoice is issued against our approved quotation QUT/DCTS/SQ121/2026 (Revised) and is subject to its terms."
+  ]
+}

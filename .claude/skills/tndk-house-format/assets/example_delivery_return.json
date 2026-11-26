@@ -1,0 +1,25 @@
+{
+  "type": "delivery_return",
+  "number": "DR-003/2026",
+  "date": "06-08-2026",
+  "ref": "DN-252/2026 dated 06-08-2026",
+  "meta_labels": ["RETURN NO", "DATE", "AGAINST DN"],
+  "currency": "QAR",
+  "party": {
+    "title": "RETURNED FROM",
+    "name": "Example Trading & Food Stuff Co. W.L.L. – Qatar",
+    "fields": [
+      { "label": "Site", "value": "Example Branch, Industrial Area, Doha" },
+      { "label": "Returned To", "value": "TNDK Store, Industrial Area, Doha" },
+      { "label": "Collected By", "value": "TNDK pickup – 000000" }
+    ]
+  },
+  "lines": [
+    { "description": "Hinged door 900 x 1900mm with heater frame", "reason": "Surplus to site requirement", "unit": "Nos", "qty": 1 },
+    { "description": "PUF insulated panel 100mm – wall", "reason": "Damaged corner on offloading", "unit": "Sqm", "qty": 4 }
+  ],
+  "notes": [
+    "Returned items to be inspected at store before any credit or replacement is agreed.",
+    "Damaged panel to be assessed for vendor claim under PROCURE before disposal."
+  ]
+}

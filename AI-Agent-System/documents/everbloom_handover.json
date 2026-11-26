@@ -1,0 +1,57 @@
+{
+  "type": "handover_report",
+  "number": "HO/TNDK/290/2026",
+  "date": "26-10-2026",
+  "ref": "QUT/DCTS/SQ112/2026 (Revised) — INV-289/2026",
+  "currency": "QAR",
+  "filename": "HandoverReport_HO-TNDK-290-2026_Everbloom_FlowerDisplayChiller",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "HANDOVER TO",
+    "name": "Everbloom",
+    "fields": [
+      "C.R. 150356  |  Doha, State of Qatar",
+      {"label": "Installation", "value": "Flower display chiller with frameless glass front"},
+      {"label": "Internal size", "value": "2.91 m (L) x 1.00 m (W) x 2.50 m (H)"},
+      {"label": "Design condition", "value": "+2 °C to +8 °C"},
+      {"label": "Date of handover", "value": "26 October 2026"},
+      {"label": "Warranty runs from", "value": "26 October 2026 — twelve (12) months, see item 18"}
+    ]
+  },
+  "lines": [
+    {"description": "PANELS — 50 mm PUF sandwich panels to two (2) sides, ceiling and floor, 15.60 sqm, erected, aligned and sealed", "unit": "Lot", "qty": 1, "result": "Complete"},
+    {"description": "GLAZING — 12 mm frameless tempered glass to the two (2) display sides, fitted and sealed", "unit": "Lot", "qty": 1, "result": "Complete"},
+    {"description": "SLIDING GLASS DOOR — two-leaf frameless sliding glass door, clear opening 1400 x 2500 mm, with anodised aluminium top track, nylon rollers, bottom guide, stainless steel pull handle with lock and brush sealing", "unit": "No.", "qty": 1, "result": "Complete"},
+    {"description": "DOOR OPERATION — leaves run free on the track, bottom guide set, brush seals in contact, handle and lock operated and keys handed over", "unit": "Check", "qty": 1, "result": "Checked"},
+    {"description": "INSULATED FLOOR — 50 mm PUF floor panel with 18 mm marine plywood and 1.5 mm MS chequered plate, 2.91 sqm, laid and edge sealed", "unit": "Lot", "qty": 1, "result": "Complete"},
+    {"description": "COVING, ANGLES AND SEALING — aluminium sanitary coving and corner angles fitted; food-grade silicone to all panel joints, glass edges, door frame and floor seam", "unit": "Lot", "qty": 1, "result": "Complete"},
+    {"description": "REFRIGERATION PIPEWORK — new copper liquid and suction lines run, brazed under dry nitrogen and insulated with Armaflex", "unit": "Lot", "qty": 1, "result": "Complete"},
+    {"description": "DRAIN LINE — insulated condensate drain line run from the evaporator and discharging freely", "unit": "Lot", "qty": 1, "result": "Complete"},
+    {"description": "EXISTING EVAPORATOR — client's existing unit cooler re-mounted inside the chiller, levelled and connected", "unit": "No.", "qty": 1, "result": "Re-used"},
+    {"description": "EXISTING CONDENSING UNIT — client's existing machine re-connected to the new chiller. NOT SUPPLIED BY TNDK — see item 19", "unit": "No.", "qty": 1, "result": "Re-used"},
+    {"description": "EXISTING CONTROL BOX — client's existing control box re-used; new wiring run from the box to the chiller", "unit": "No.", "qty": 1, "result": "Re-used"},
+    {"description": "PRESSURE TEST — complete circuit pressure tested with dry nitrogen and held under a standing pressure test", "unit": "Test", "qty": 1, "result": "Passed"},
+    {"description": "LEAK TEST — all brazed joints, flare connections and valves leak tested; no leak found at handover", "unit": "Test", "qty": 1, "result": "Passed"},
+    {"description": "EVACUATION — system evacuated and held under a vacuum hold test before charging", "unit": "Test", "qty": 1, "result": "Passed"},
+    {"description": "CHARGING AND COMMISSIONING — system recharged, run up, and suction and discharge pressures, superheat, compressor current and room temperature observed and recorded on site", "unit": "Lot", "qty": 1, "result": "Complete"},
+    {"description": "PULL-DOWN — chiller run down and holding within the design band of +2 °C to +8 °C at handover", "unit": "Check", "qty": 1, "result": "Achieved"},
+    {"description": "INTERNAL LIGHTING — vapour-proof LED display lighting fitted, wired and operated, with the switch proved", "unit": "Lot", "qty": 1, "result": "Complete"},
+    {"description": "CLEANING AND CLEARANCE — chiller cleaned internally and externally, protective film removed from the glass, and all packaging, offcuts and debris removed from site", "unit": "Lot", "qty": 1, "result": "Complete"},
+    {"description": "OPERATION TRAINING — operation of the door, the lighting, the controls and the set point demonstrated to your staff, together with the cleaning and routine checks required", "unit": "Lot", "qty": 1, "result": "Delivered"},
+    {"description": "HANDED OVER — door keys, and the installation left in working order and in the client's possession", "unit": "Lot", "qty": 1, "result": "Handed over"}
+  ],
+  "notes": [
+    "This report records the completion and handover of the installation described above, carried out against our revised quotation QUT/DCTS/SQ112/2026 and invoiced under INV-277/2026 and INV-289/2026. The works are complete and the chiller is in service.",
+    "READINGS. Pressures, superheat, compressor current and room temperature were taken at commissioning and are held on our service record. A copy will be provided on request.",
+    "THE EXISTING MACHINE IS NOT PART OF THE SUPPLY. The condensing unit, the evaporator and the control box are your own equipment. They were not supplied by us and not replaced. They have been re-mounted, re-piped, re-wired, evacuated, recharged and re-commissioned onto the new chiller, and are re-used as they stand. Their age, condition and remaining service life are not known to us and they carry NO WARRANTY FROM US of any kind, whether as to capacity, performance or continued operation. Should the existing machine prove unable to hold the design condition, or fail in service, that is outside our contract and we shall be pleased to quote separately for repair or replacement.",
+    "WARRANTY. Twelve (12) months from the date of handover on the panels, the frameless glass, the sliding glass door, the insulated floor, the new pipework and wiring, and on our installation workmanship. Excludes the existing machine as set out above; glass breakage after handover; damage from misuse, impact, power surge, improper or interrupted supply or water ingress; and any alteration or repair carried out by others.",
+    "MAINTENANCE. A display chiller with a glass front carries a higher heat gain than a solid panel room and the plant works harder for it. We recommend the condenser coil be kept clean, the door seals checked and the system serviced at regular intervals. We shall be pleased to quote for an annual maintenance contract.",
+    "IN YOUR CARE FROM THIS DATE. Please keep the glass and the door track clean, do not obstruct the evaporator airflow or the condenser, do not overload the floor, and report any fault to us promptly rather than allowing the plant to run in a fault condition.",
+    "Any defect in our work found after this date is to be notified to us in writing. We remain at your service on 7706 0676 or farhan@dctsqatar.com."
+  ]
+}

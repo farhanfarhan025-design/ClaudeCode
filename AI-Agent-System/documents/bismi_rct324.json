@@ -1,0 +1,48 @@
+{
+  "type": "receipt",
+  "number": "RCT-324/2026",
+  "date": "24-11-2026",
+  "ref": "CON/TNDK/SQ118/2026 Rev. 1 — stage 2",
+  "meta_labels": ["RECEIPT NO", "DATE", "AGAINST"],
+  "currency": "QAR",
+  "filename": "Receipt_RCT-324-2026_Bismi_Stage2_Cash15000_Cheque15000",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "RECEIVED FROM",
+    "name": "Bismi Group International W.L.L.",
+    "fields": [
+      "C.R. 178652  |  Doha, State of Qatar",
+      {"label": "Project", "value": "Freezer room and preparation room with epoxy floor"},
+      {"label": "Our contract", "value": "CON/TNDK/SQ118/2026 Rev. 1 dated 17-10-2026 — QAR 110,000.00"},
+      {"label": "Status", "value": "STAGE 2 COMPLETED IN FULL — 30% on completion of panel work, before delivery of the machine"},
+      {"label": "Received to date", "value": "QAR 90,000.00 of QAR 110,000.00"},
+      {"label": "Balance After This Receipt", "value": "QAR 20,000.00"}
+    ]
+  },
+  "lines": [
+    {"description": "Payment received IN CASH against the contract — applied to stage 2, being 30% on completion of the panel work and before delivery of the machine", "unit": "Job", "qty": 1, "rate": 15000.00},
+    {"description": "Payment received BY QNB CHEQUE no. 00000257 dated 24-11-2026, crossed A/C Payee Only — applied to stage 2, and as to QAR 2,000.00 on account of stage 3", "unit": "Job", "qty": 1, "rate": 15000.00}
+  ],
+  "grand_total_label": "TOTAL RECEIVED",
+  "instrument": {
+    "type": "cheque",
+    "payment_mode": "Cash QAR 15,000.00 and cheque QAR 15,000.00",
+    "cheque_no": "00000257 (634-001/037)",
+    "cheque_date": "24-11-2026",
+    "bank": "Qatar National Bank (Q.P.S.C.), Doha, Qatar",
+    "drawer": "BISMI GROUP INTERNATIONAL — drawn on a/c 0250057166001",
+    "crossing": "Crossed A/C PAYEE ONLY"
+  },
+  "notes": [
+    "ACCOUNT POSITION, AND HOW THIS PAYMENT IS APPLIED. Contract value QAR 110,000.00 under CON/TNDK/SQ118/2026 Rev. 1, payable 50% advance, 30% on completion of the panel work and before delivery of the machine, 10% on installation of the machine and before the epoxy, and 10% on handover. Received before this receipt QAR 60,000.00 — the 50% advance of QAR 55,000.00 complete, under RCT-285/2026 and RCT-308/2026, together with QAR 5,000.00 on account of stage 2. BY THIS RECEIPT QAR 30,000.00, of which QAR 28,000.00 completes stage 2 of QAR 33,000.00 IN FULL, and QAR 2,000.00 is held on account of stage 3. TOTAL RECEIVED QAR 90,000.00. BALANCE QAR 20,000.00 — QAR 9,000.00 remaining of stage 3, and QAR 11,000.00 on handover.",
+    "Received with thanks, the cash in full and the cheque subject to realisation. The amount in words and in figures agree at QAR 15,000.00, the payee name is correct, and the cheque is crossed A/C PAYEE ONLY — for which our particular thanks. A crossed cheque can only reach the account it names, and it protects you between your office and our bank as much as it protects us.",
+    "STAGE 2 IS A WORK GATE AS WELL AS A PAYMENT, AND IT IS NOW SATISFIED. Under clause 4 of our contract this instalment falls due on completion of the panel work and before the machine is delivered to site. With this payment received, the machine delivery and its installation follow. We shall confirm the delivery date to you in writing and give you notice before the unit arrives, so that access and the working area can be arranged at your end.",
+    "WHAT REMAINS, AND WHEN IT FALLS DUE. Stage 3 of QAR 11,000.00 falls due on installation of the machine and BEFORE the epoxy floor is laid, of which QAR 2,000.00 is already held on account, leaving QAR 9,000.00. Stage 4 of QAR 11,000.00 falls due on handover, after testing and commissioning. Please note that the epoxy floor follows the machine installation and not before it, so that the finished floor is not worked over.",
+    "This receipt is issued against our contract CON/TNDK/SQ118/2026 Rev. 1 and is subject to its terms and to those of our quotation QUT/DCTS/SQ118/2026 (Revised). With our thanks for a prompt settlement at every stage."
+  ]
+}
