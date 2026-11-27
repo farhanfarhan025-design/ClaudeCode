@@ -3530,6 +3530,21 @@ it and leaves margin.** The rooms are priced on erection of roughly 24 to 28 sqm
 plus unit mounting, electrical and commissioning, **with the freezer at 3,500 because the heated
 frame, defrost and heated drain are real extra work.**
 
+**UPDATED 27-11-2026 — FARHAN ASKED WHETHER POS 5 WAS CONSIDERED, AND THE ANSWER EXPOSED A GAP.**
+POS 5 was already priced as item 3 (tags 44 and 45). **But reading the boundary at full resolution
+showed it also encloses GREEN SHELVING BAYS MARKED 1000** — one bay fully inside to the left of
+units 44/45, and the boundary line cuts through the first of two bays to their right, three bays
+of 1000 mm in all. **The first draft priced the two refrigeration units and said nothing about the
+shelving**, which is precisely the hole note 2 exists to close and it was open. Farhan's decision:
+**dry shelving is not TNDK's scope.** Note 2 now states that the scope is the refrigeration
+equipment only, names the green 1000 bays with their positions, and says that no shelving bay,
+upright, bracket, shelf or wall fixing is allowed for. **Total unchanged at 17,000.**
+
+**THE LESSON IS ABOUT HOW THE DRAWING WAS READ.** The unit tags were counted carefully; the
+*unlabelled* items inside the same boundary were not. **On a boundary-defined scope, everything
+the line encloses has to be accounted for — named as included or named as excluded — not only
+the things that carry a tag number.**
+
 **NOTE 2 IS THE MOST VALUABLE PARAGRAPH IN THE DOCUMENT.** It names, one by one, everything on
 the layout that is NOT included: POS 3 and POS 4 (tags 30–43), the promotion island, POS 6 and
 POS 7, the fish counter, the meat counter, the roastery shelves, the Citrine 830 SQ counters, the
