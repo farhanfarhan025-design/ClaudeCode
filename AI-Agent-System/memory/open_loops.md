@@ -3552,6 +3552,29 @@ prep room, and any Sedef or Citrine outside POS 5. **On a drawing-based subcontr
 is the only way to lose money, and a list of exclusions by name is the only thing that stops
 it.** It also invites them to add any of it at the same rates, which is how the order grows.
 
+**UPDATED AGAIN 27-11-2026 — THE COLD ROOM UNITS ARE MONOBLOCKS.** Farhan confirmed it, and it
+changes the cold room scope in substance, not just in wording. Items 4 to 6 now read **MONOBLOCK
+UNIT** and describe the real work: **forming the opening in the panel**, lifting and hanging the
+monoblock, supporting it, **sealing it into the panel against vapour ingress**, its electrical
+connection, and the condensate drain — heated and insulated on FR1. Note 3 is widened from the
+display units to the whole scope: **no pipework, no gas charging, no remote condensing unit
+anywhere in this quotation**, with any item that turns out to need remote refrigeration falling
+outside it.
+
+**AND A NEW NOTE 6, WHICH IS THE ONE THAT CAN SAVE A PANEL.** **A panel cut for a monoblock cannot
+be un-cut.** An opening in the wrong place or of the wrong size scraps it, and the panel is
+Frozza's material on TNDK's cutting. The note therefore requires, in writing and per room, **the
+make and model of the monoblock, its opening dimensions and fixing centres from the
+manufacturer's data, and the hanging position and height**, before anything is cut. It also says
+TNDK installs to the opening as found where panels arrive pre-cut, and **does not accept
+responsibility for a panel cut to dimensions Frozza supplied, nor for a monoblock that does not
+suit the panel thickness delivered.** On an installation-only subcontract that single paragraph
+is worth more than the margin on a room.
+
+**PRICE UNCHANGED AT 17,000.** The rooms were already priced on mounting a self-contained unit
+with no piping or gas, so the monoblock confirmation costs nothing — the cut-out work is
+offset by there being no remote unit to site and pipe.
+
 **NOTE 3 PROTECTS THE WHOLE PREMISE OF THE PRICE.** These are plug-in units: no pipework, no gas,
 no remote condensing unit. **If one turns out to need remote refrigeration, the price collapses**
 — so the note says that unit falls outside and is quoted separately before any work begins.
