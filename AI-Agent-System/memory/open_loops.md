@@ -3545,6 +3545,50 @@ upright, bracket, shelf or wall fixing is allowed for. **Total unchanged at 17,0
 the line encloses has to be accounted for — named as included or named as excluded — not only
 the things that carry a tag number.**
 
+**REPRICED 27-11-2026 TO 22,125 — FARHAN ADDED FLOORING AND ASKED ME TO RE-CHECK THE UNIT RATE.**
+Both corrections were his to make and both were right.
+
+**THE FLOORING WAS SIMPLY NOT IN THE FIRST PRICE.** The rooms were quoted as panel + door +
+machine. Farhan confirmed the scope is **panel, door, FLOORING and machine**. Laying an insulated
+floor — floor panel, marine ply where supplied, chequered plate, levelled, jointed, sealed and
+coved to the walls — is 14 sq.m across the three rooms and is the most fiddly work in a small
+cold room. **It was missing, not under-priced: the first figure covered work that did not include
+it at all.**
+
+**AND 400 PER DISPLAY UNIT WAS TOO THIN, WHICH HE SUSPECTED.** Re-built from the labour:
+
+| | |
+|---|---|
+| 19 units, 3 men (these cabinets are 400–500 kg crated and cannot be moved by two) | ~5 days = 15 man-days |
+| Labour fully loaded at 180–220/man-day | 3,000–3,300 |
+| Supervision, consumables, tools, transport | ~2,000 |
+| **Cost** | **~5,000–5,300** |
+| At 400 × 19 = 7,600 | margin ~32%, **thin for a subcontract carrying standing-time risk** |
+
+**Raised to 475 per unit (525 at POS 5, which has mirror back panels and open-front levelling).**
+What drove it up on inspection: **these are joined runs with hinged glass doors, and door
+alignment across a joined run is the slowest part of the job** — a run that is 3 mm out of level
+shows on every door in it.
+
+| | Was | Now |
+|---|---|---|
+| POS 1, 8 units | 3,200 | **3,800** |
+| POS 2, 9 units | 3,600 | **4,275** |
+| POS 5, 2 units | 900 | **1,050** |
+| CR1 / CR2 / FR1 | 9,300 | **13,000** |
+| **Total** | **17,000** | **22,125** |
+
+**THE ROOMS WERE REBUILT FROM THE AREAS, NOT MARKED UP.** Roughly 93 sqm of wall and ceiling panel
+across the three rooms at about 75/sqm erected, 14 sq.m of insulated flooring at about 140/sqm,
+door hanging around 400 each, the monoblock cut-out, hang, seal, electrical and drain at 900
+(1,200 on the freezer for the heated drain), and commissioning at 250 each. **FR1 carries the
+premium because a freezer floor is the first place a freezer loses its temperature** and its
+joints are sealed to a tighter standard — which the line now says to the client.
+
+**22,125 IS A BUILT-UP NUMBER AND IT IS LEFT UNROUNDED DELIBERATELY.** A figure that does not end
+in three zeros reads as calculated. **On a trade subcontract where the client prices installation
+himself, that matters more than a tidy total.**
+
 **NOTE 2 IS THE MOST VALUABLE PARAGRAPH IN THE DOCUMENT.** It names, one by one, everything on
 the layout that is NOT included: POS 3 and POS 4 (tags 30–43), the promotion island, POS 6 and
 POS 7, the fish counter, the meat counter, the roastery shelves, the Citrine 830 SQ counters, the
