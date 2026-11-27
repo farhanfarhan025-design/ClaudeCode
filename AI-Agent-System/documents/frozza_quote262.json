@@ -1,0 +1,48 @@
+{
+  "type": "quotation",
+  "badge": ["INSTALLATION", "QUOTATION"],
+  "number": "QUT/DCTS/262/2026",
+  "date": "27-11-2026",
+  "ref": "15 days from date of quotation",
+  "meta_labels": ["QUOTATION NO", "DATE", "VALIDITY"],
+  "currency": "QAR",
+  "filename": "Quotation_QUT-DCTS-262-2026_Frozza_PlugIn_Installation_BlueArea_3ColdRooms",
+  "company": {
+    "name": "THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L.",
+    "legal": "The New Doha Kitchen Equipment Services W.L.L.",
+    "address": "P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com",
+    "footer": "The New Doha Kitchen Equipment Services W.L.L.  |  P.O. Box 80247, Doha, State of Qatar  |  C.R. 199351  |  Tel: 7706 0676  |  farhan@dctsqatar.com"
+  },
+  "party": {
+    "title": "TO",
+    "name": "M/s. Frozza Refrigeration Solutions W.L.L.",
+    "fields": [
+      "P.O. Box 201046, Doha, State of Qatar  |  C.R. 245024  |  Tel: 4458 4438",
+      {"label": "Subject", "value": "INSTALLATION WORK ONLY — plug-in supermarket display equipment and three (3) cold rooms"},
+      {"label": "Your drawing", "value": "LAYOUT — FROZZA — PLUGIN — 20004616"},
+      {"label": "Area quoted", "value": "THE BLUE-MARKED AREAS OF YOUR LAYOUT ONLY — POS 1, POS 2 and POS 5 — together with cold rooms CR1, CR2 and freezer room FR1"},
+      {"label": "Units covered", "value": "Nineteen (19) plug-in display units: tags 11 to 18 at POS 1, tags 21 to 29 at POS 2 and tags 44 to 45 at POS 5"},
+      {"label": "Work completion", "value": "10 to 14 working days from receipt of the advance, subject to site readiness and equipment availability at site"},
+      {"label": "Payment", "value": "75% advance with the confirmed LPO / order, 25% after handover"}
+    ]
+  },
+  "lines": [
+    {"description": "POS 1 — INSTALLATION OF PLUG-IN CHILLED MULTIDECK DISPLAY UNITS, TAGS 11 TO 18\nEight (8) Ivy shelf hinged-door chilled units (1875 and 2500 models). Uncrating; moving into position on the shop floor; levelling on the adjustable feet and shimming as the floor requires; joining unit to unit with the manufacturer's joining kit and sealing the joints; fitting the shelves, shelf brackets, price rails, canopies and canopy lighting; connecting to the power socket provided at each position; running the condensate to the drain point provided or setting the evaporation tray; running the unit, checking and recording the cabinet temperature; and cleaning the unit down for handover.", "unit": "Nos.", "qty": 8, "rate": 400.00},
+    {"description": "POS 2 — INSTALLATION OF PLUG-IN CHILLED AND FROZEN MULTIDECK DISPLAY UNITS, TAGS 21 TO 29\nNine (9) units — five (5) Ivy shelf hinged-door chilled (tags 21 to 25) and four (4) Ivy frozen (tags 26 to 29, 1250 and 1875 models). Scope of installation per unit as item 1 above, with the frozen units additionally set, run down and proved to hold their cabinet temperature, and their defrost cycle observed through a full sequence.", "unit": "Nos.", "qty": 9, "rate": 400.00},
+    {"description": "POS 5 — INSTALLATION OF PLUG-IN OPEN MULTIDECK DISPLAY UNITS, TAGS 44 AND 45\nTwo (2) Sedef NW V4 2500 open multideck units for fruit and vegetables. Scope of installation per unit as item 1 above, including fitting of the mirror back panels noted on your layout where these are supplied by you.", "unit": "Nos.", "qty": 2, "rate": 450.00},
+    {"description": "CR1 — INSTALLATION OF THE FRUIT AND VEGETABLE COLD ROOM, 4 SQ.M\nErection of the room from your sandwich panels: setting out, erecting and plumbing the wall and ceiling panels, locking and sealing all joints, fitting the aluminium coving, corner angles, silicone sealant, PU foam, rivets and fasteners; hanging and adjusting your cold room door with its frame, gasket and hardware; mounting your refrigeration unit and control panel on brackets or stands; the electrical connections from your control panel to the unit, the door heater and the light; running the condensate drain to the point provided; and running, testing and handing over the room.", "unit": "Nos.", "qty": 1, "rate": 2700.00},
+    {"description": "CR2 — INSTALLATION OF THE SUPERMARKET COLD ROOM, 5 SQ.M\nScope of installation as item 4 above.", "unit": "Nos.", "qty": 1, "rate": 3100.00},
+    {"description": "FR1 — INSTALLATION OF THE SUPERMARKET FREEZER ROOM, 5 SQ.M\nScope of installation as item 4 above, and in addition the heated door frame connections, the electric defrost connections and the heated and insulated drain line, with the room run down and proved to hold its temperature and the defrost cycle observed through a full sequence.", "unit": "Nos.", "qty": 1, "rate": 3500.00}
+  ],
+  "grand_total_label": "TOTAL (INSTALLATION ONLY)",
+  "notes": [
+    "THIS IS AN INSTALLATION QUOTATION ONLY. NO EQUIPMENT OR MATERIAL IS SUPPLIED BY US. All display units, cold room sandwich panels, cold room doors, chequered plates, refrigeration units, control panel boxes, joining kits, shelves, canopies, mirrors and price rails are supplied by you and are to be delivered to the shop floor at the positions shown on your layout. Our price covers labour, supervision, our own tools and lifting equipment, installation consumables (silicone, PU foam, rivets, fasteners and cleaning materials), transportation of our men and tools to and from site, and testing, commissioning and handover.",
+    "WHAT IS QUOTED IS THE BLUE-MARKED AREA AND THE THREE ROOMS, AND NOTHING ELSE. For the avoidance of any doubt, the following are shown on your layout and are NOT included in this quotation: POS 3 and POS 4 (vertical freezer runs, tags 30 to 43), the promotion island, POS 6 and POS 7, the fish counter, the meat counter, the roastery shelves, the Citrine 830 SQ serve-over counters, the Fruit and Vegetable Prep Room, and any Sedef or Citrine unit outside POS 5. Should you wish any of these added, we shall be pleased to quote them on the same basis and at the same rates.",
+    "THE UNITS ARE PLUG-IN AND THAT IS THE BASIS OF THIS PRICE. Each display unit is self-contained and is connected to a power socket at its position. NO REFRIGERATION PIPEWORK, NO GAS CHARGING, NO REMOTE CONDENSING UNIT AND NO INTERCONNECTING COPPER OR INSULATION ARE INCLUDED for the display units. Should any unit prove to require remote refrigeration, that unit falls outside this quotation and will be quoted separately before any work on it begins.",
+    "BY OTHERS, AND REQUIRED BEFORE WE START. The power supply and the socket outlets at each unit position, of the correct rating and tested live; the floor drainage points; the main supply to each cold room control panel; a level and finished floor; civil and builder's work of every kind, including plinths, screeds and floor levelling beyond ordinary shimming; permits, gate passes and site approvals; the offloading of equipment to the shop floor; and the removal of packaging waste from site. We shall stack packaging neatly at a point you designate.",
+    "FLOOR LEVEL. A run of multideck units joined together will only line through and seal if the floor beneath it is level. Shimming and packing within the range of the units' own adjustable feet is included. Where the floor is out of level beyond that range, screeding or levelling is required before we install, is by others, and any standing time caused by it is chargeable at our day rate.",
+    "WARRANTY. We warrant OUR INSTALLATION WORKMANSHIP for twelve (12) months from the date of handover — the erection, levelling, jointing and sealing, our electrical connections and our drain connections. THE EQUIPMENT ITSELF IS YOURS AND IS NOT WARRANTED BY US: its manufacture, capacity, performance and continued operation remain with you and your manufacturer. Should any unit prove faulty on test, we shall report it to you at once; its repair or replacement is not included in this price.",
+    "ACCESS, PROGRAMME AND ADDITIONAL WORK. The completion period of 10 to 14 working days runs from receipt of the advance AND from the date a ready site and the equipment are both available to us, not from the date of the order alone. Work is priced for normal working hours; night or holiday working, if required by the store programme, will be quoted separately. Any additional unit, repositioning after installation, or work arising from the condition or incompleteness of the equipment supplied will be reported, quoted and carried out only on your written approval.",
+    "PAYMENT: 75% in advance with your confirmed LPO or order, and 25% after handover. Cheques to be drawn in favour of THE NEW DOHA KITCHEN EQUIPMENT SERVICES W.L.L. — with NO word between Equipment and Services — or paid by transfer to that account. Prices are quoted in Qatari Riyals, are for the scope described above, and are valid for fifteen (15) days from the date of this quotation. We thank you for the enquiry and shall be glad to walk the site with you before the order is placed."
+  ]
+}

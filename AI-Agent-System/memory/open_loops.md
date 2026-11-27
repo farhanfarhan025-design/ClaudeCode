@@ -3487,6 +3487,77 @@ out and before the PCC cover, and after the RCC pour — each on one working day
 30% advance of 28,500 was raised on 03-11 and is outstanding. Their LPO's delivery date of
 17-11-2026 is this week and the programme has not started.
 
+### OL-163 — Frozza installation quotation: 19 units counted off the drawing, and the price is mine
+**Owner:** Farhan · **Raised:** 2026-11-27 · **Value:** QAR 17,000 · **FIRST SUBCONTRACT QUOTATION**
+
+**QUT/DCTS/262/2026** — M/s. Frozza Refrigeration Solutions W.L.L. (C.R. 245024, Tel 4458 4438).
+**Installation only** of the blue-marked area of layout **20004616**, plus three rooms.
+**17,000.00. 75% advance / 25% after handover. 10 to 14 working days.**
+
+**WHAT THE BLUE BOUNDARY ACTUALLY ENCLOSES, READ OFF THE DRAWING AT 900 DPI.** The layout carries
+no text layer, so every count was taken from the image:
+
+| | Tags | Units |
+|---|---|---|
+| POS 1 — Ivy chilled, hinged door, 1875 & 2500 | 11–18 | **8** |
+| POS 2 — Ivy chilled 21–25, Ivy frozen 26–29 | 21–29 | **9** |
+| POS 5 — Sedef NW V4 2500, open multideck | 44–45 | **2** |
+| **Total plug-in units** | | **19** |
+| CR1 fruit & veg 4 sq.m, CR2 supermarket 5 sq.m, FR1 freezer 5 sq.m | | **3 rooms** |
+
+**THE BLUE LINE CLOSES BELOW POS 2 — POS 3 AND POS 4 ARE OUTSIDE IT.** Tags 30 to 43, the two
+vertical freezer runs and the promotion island, are **not** in this quotation. **Farhan should
+confirm that reading before it goes**, because it is the difference between 19 units and 33.
+Tags 19 and 20 do not appear on the drawing at all.
+
+**THE PRICE IS MINE, NOT FARHAN'S, AND HE ASKED FOR THAT.** Built up rather than guessed:
+
+| | Rate | |
+|---|---|---|
+| POS 1, 8 units | 400 each | 3,200 |
+| POS 2, 9 units | 400 each | 3,600 |
+| POS 5, 2 units | 450 each | 900 |
+| CR1, 4 sq.m | | 2,700 |
+| CR2, 5 sq.m | | 3,100 |
+| FR1, 5 sq.m freezer | | 3,500 |
+| | | **17,000** |
+
+**QAR 400 per plug-in unit** covers uncrating, positioning a 300–400 kg cabinet, levelling and
+shimming, joining and sealing to its neighbour, shelves, rails, canopy and lighting, plug,
+condensate, run-up, temperature check and clean-down. A two-man team manages four to six a day,
+so nineteen units is about four days. **The market in Doha is 350 to 500; 400 sits squarely in
+it and leaves margin.** The rooms are priced on erection of roughly 24 to 28 sqm of panel each
+plus unit mounting, electrical and commissioning, **with the freezer at 3,500 because the heated
+frame, defrost and heated drain are real extra work.**
+
+**NOTE 2 IS THE MOST VALUABLE PARAGRAPH IN THE DOCUMENT.** It names, one by one, everything on
+the layout that is NOT included: POS 3 and POS 4 (tags 30–43), the promotion island, POS 6 and
+POS 7, the fish counter, the meat counter, the roastery shelves, the Citrine 830 SQ counters, the
+prep room, and any Sedef or Citrine outside POS 5. **On a drawing-based subcontract, scope creep
+is the only way to lose money, and a list of exclusions by name is the only thing that stops
+it.** It also invites them to add any of it at the same rates, which is how the order grows.
+
+**NOTE 3 PROTECTS THE WHOLE PREMISE OF THE PRICE.** These are plug-in units: no pipework, no gas,
+no remote condensing unit. **If one turns out to need remote refrigeration, the price collapses**
+— so the note says that unit falls outside and is quoted separately before any work begins.
+
+**NOTE 5 IS THE ONE THAT WILL ACTUALLY BITE ON SITE.** A joined run of multidecks only lines
+through and seals if the floor is level. Shimming within the feet is included; beyond it, screed
+is by others **and standing time is chargeable**. On a supermarket fit-out that clause earns its
+place more often than not.
+
+**WARRANTY SPLIT, WHICH IS THE RIGHT ONE HERE.** Twelve months on TNDK's **installation
+workmanship**; the equipment is Frozza's and carries their manufacturer's cover. Unlike the PLG
+relocation (OL-162), offering workmanship cover costs nothing here because the equipment is new
+and TNDK controls only the installation. **A supplier-client will be asked this by the end
+client, and now they have an answer.**
+
+**NEW CLIENT, AND A DIFFERENT KIND OF ONE: THIS IS A SUBCONTRACT, NOT A SUPPLY.** No history, no
+credit knowledge, and a 75/25 split that leaves 4,250 outstanding at handover. **Acceptable on a
+10-to-14 day job, but note the asymmetry: Frozza hold the end-client relationship and TNDK holds
+only labour.** If the store programme slips, TNDK's men stand idle on Frozza's time, which is
+what note 7 is for.
+
 ### OL-162 — PLG relocation quotation rebuilt, and the draft carried two defects worth catching
 **Owner:** Farhan · **Raised:** 2026-11-26 · **Value:** QAR 11,800 · **AWAITING THEIR LPO**
 
